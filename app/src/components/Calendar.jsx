@@ -1,8 +1,5 @@
 import { useState } from 'react';
-import {
-  getRecords, addRecord, setFirstDate, getFirstDates,
-  todayStr, isFuture, showToast
-} from '../store';
+import { getRecords, todayStr, isFuture } from '../store';
 
 const WEEKDAYS = ['一', '二', '三', '四', '五', '六', '日'];
 
@@ -16,15 +13,13 @@ function buildCalendarDays(year, month) {
   return days;
 }
 
-export default function Calendar({ onSwitchView, onRefresh }) {
+// tick 作为 prop 传入以触发重渲染
+export default function Calendar({ onSwitchView, tick, selected, onSelectDate }) {
   const today = new Date();
   const [viewDate, setViewDate] = useState(new Date(today.getFullYear(), today.getMonth(), 1));
-  const [selected, setSelected] = useState(todayStr());
-  const [modal, setModal] = useState(false);
-  const [lesson, setLesson] = useState('');
-  const [count, setCount] = useState('1');
 
   // tick 变化时组件重渲染，直接读 localStorage 最新数据
+  void tick;
   const records = getRecords();
 
   const year = viewDate.getFullYear();
@@ -39,21 +34,7 @@ export default function Calendar({ onSwitchView, onRefresh }) {
   const handleDayClick = (d) => {
     const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
     if (isFuture(dateStr)) return;
-    setSelected(dateStr);
-    setLesson('');
-    setCount('1');
-    setModal(true);
-  };
-
-  const handleCheckin = () => {
-    if (!lesson || parseInt(lesson) < 0) { showToast('请输入有效课程编号'); return; }
-    if (!count || parseInt(count) < 1) { showToast('请输入有效学习次数'); return; }
-    addRecord(parseInt(lesson), parseInt(count), selected);
-    const firstDates = getFirstDates();
-    if (!firstDates[parseInt(lesson)]) setFirstDate(parseInt(lesson), selected);
-    setModal(false);
-    showToast('打卡成功');
-    onRefresh();
+    onSelectDate(dateStr);
   };
 
   const prevMonth = () => setViewDate(new Date(year, month - 1, 1));
@@ -99,26 +80,6 @@ export default function Calendar({ onSwitchView, onRefresh }) {
           );
         })}
       </div>
-
-      {modal && (
-        <div className="modal-overlay" onClick={(e) => e.target === e.currentTarget && setModal(false)}>
-          <div className="modal-content">
-            <h3 style={{ marginBottom: 16, fontSize: 16 }}>{selected} 打卡</h3>
-            <div style={{ marginBottom: 12 }}>
-              <label style={{ display: 'block', marginBottom: 6, fontSize: 14 }}>课程编号</label>
-              <input type="number" min={0} max={999} value={lesson} onChange={e => setLesson(e.target.value)} placeholder="请输入课程编号" />
-            </div>
-            <div style={{ marginBottom: 20 }}>
-              <label style={{ display: 'block', marginBottom: 6, fontSize: 14 }}>学习次数</label>
-              <input type="number" min={1} value={count} onChange={e => setCount(e.target.value)} />
-            </div>
-            <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end' }}>
-              <button className="btn-secondary" onClick={() => setModal(false)}>取消</button>
-              <button className="btn-primary" onClick={handleCheckin}>确认打卡</button>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

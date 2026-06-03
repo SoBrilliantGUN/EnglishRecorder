@@ -1,15 +1,16 @@
 import { useState, useEffect } from 'react';
-import { initData } from './store';
+import { initData, todayStr } from './store';
 import Calendar from './components/Calendar';
 import RecordsView from './components/RecordsView';
+import DailyCard from './components/DailyCard';
 import ReviewReminder from './components/ReviewReminder';
-import ReviewSettings from './components/ReviewSettings';
 import Instructions from './components/Instructions';
 import './index.css';
 
 export default function App() {
   const [view, setView] = useState('calendar');
   const [tick, setTick] = useState(0);
+  const [selected, setSelected] = useState(todayStr());
 
   useEffect(() => { initData(); }, []);
 
@@ -25,15 +26,15 @@ export default function App() {
         {/* 左侧主区域 */}
         <div style={{ flex: '7 1 320px', minWidth: 0, display: 'flex', flexDirection: 'column' }}>
           {view === 'calendar'
-            ? <Calendar onSwitchView={setView} onRefresh={refresh} tick={tick} />
+            ? <Calendar onSwitchView={setView} onRefresh={refresh} tick={tick} selected={selected} onSelectDate={setSelected} />
             : <RecordsView onSwitchView={setView} onRefresh={refresh} tick={tick} />
           }
         </div>
 
         {/* 右侧侧边栏 */}
         <div style={{ flex: '3 1 240px', minWidth: 0, alignSelf: 'flex-start' }}>
+          <DailyCard selected={selected} onRefresh={refresh} tick={tick} />
           <ReviewReminder onRefresh={refresh} tick={tick} />
-          <ReviewSettings onRefresh={refresh} />
           <Instructions />
         </div>
       </div>
