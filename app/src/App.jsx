@@ -31,7 +31,7 @@ export default function App() {
         </div>
 
         {/* 右侧侧边栏 */}
-        <div style={{ flex: '3 1 240px', minWidth: 0 }}>
+        <div style={{ flex: '3 1 240px', minWidth: 0, alignSelf: 'flex-start' }}>
           <ReviewReminder onRefresh={refresh} tick={tick} />
           <ReviewSettings onRefresh={refresh} />
           <Instructions />

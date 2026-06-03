@@ -62,10 +62,128 @@ function canGoNext(tab, date) {
   return date.getFullYear() < today.getFullYear() || date.getMonth() < today.getMonth();
 }
 
+// 主题 A：暗黑科技
+function CardDark({ label, stats, groups }) {
+  return (
+    <div style={{
+      background: '#0a0a0a', borderRadius: 16, padding: 28,
+      fontFamily: 'monospace', position: 'relative', overflow: 'hidden',
+    }}>
+      <div style={{
+        position: 'absolute', top: -60, right: -60, width: 200, height: 200,
+        background: 'radial-gradient(circle, rgba(0,255,136,0.15) 0%, transparent 70%)',
+        pointerEvents: 'none',
+      }} />
+      <div style={{ fontSize: 10, color: '#00ff88', border: '1px solid #00ff88', display: 'inline-block', padding: '3px 10px', borderRadius: 100, letterSpacing: 1, marginBottom: 20 }}>
+        ENGLISHPOD · STUDY LOG
+      </div>
+      <div style={{ fontSize: 26, fontWeight: 700, color: '#fff', marginBottom: 24, lineHeight: 1.3 }}>{label}</div>
+      <div style={{ display: 'flex', marginBottom: 24 }}>
+        {[['打卡', stats.checkins, '次'], ['学习', stats.total, '次'], ['课程', stats.lessons, '节']].map(([l, v, u]) => (
+          <div key={l} style={{ flex: 1, borderLeft: l !== '打卡' ? '1px solid #1e1e1e' : 'none', paddingLeft: l !== '打卡' ? 16 : 0 }}>
+            <div style={{ fontSize: 28, fontWeight: 700, color: '#00ff88' }}>{v}<span style={{ fontSize: 11, color: '#444', marginLeft: 2 }}>{u}</span></div>
+            <div style={{ fontSize: 11, color: '#444' }}>{l}</div>
+          </div>
+        ))}
+      </div>
+      <div style={{ borderTop: '1px solid #1a1a1a', paddingTop: 14 }}>
+        {groups.length === 0
+          ? <div style={{ color: '#333', fontSize: 13 }}>暂无记录</div>
+          : groups.map(([lesson, total], i) => (
+            <div key={lesson} style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 0', borderBottom: i < groups.length - 1 ? '1px solid #111' : 'none', fontSize: 13, color: '#666' }}>
+              <span>第 <strong style={{ color: '#ccc' }}>{lesson}</strong> 课</span>
+              <span style={{ color: '#00ff88' }}>{total} 次</span>
+            </div>
+          ))}
+      </div>
+      <div style={{ marginTop: 16, textAlign: 'right', fontSize: 9, color: '#222', letterSpacing: 2 }}>ENGLISHPOD TRACKER</div>
+    </div>
+  );
+}
+
+// 主题 B：清新活泼
+function CardWarm({ label, stats, groups }) {
+  return (
+    <div style={{
+      background: 'linear-gradient(145deg, #fff9f0 0%, #ffecd6 100%)',
+      borderRadius: 24, padding: 32, fontFamily: 'sans-serif',
+      position: 'relative', overflow: 'hidden',
+      boxShadow: '0 20px 60px rgba(255,140,60,0.15)',
+    }}>
+      <div style={{ position: 'absolute', width: 180, height: 180, background: '#ffb347', borderRadius: '50%', filter: 'blur(40px)', opacity: 0.4, top: -60, right: -40 }} />
+      <div style={{ position: 'absolute', width: 120, height: 120, background: '#ff6b6b', borderRadius: '50%', filter: 'blur(40px)', opacity: 0.3, bottom: 40, left: -30 }} />
+      <div style={{ position: 'relative', zIndex: 1 }}>
+        <div style={{ fontSize: 11, color: '#c4844a', letterSpacing: 2, fontWeight: 700, marginBottom: 8 }}>EnglishPod 学习打卡</div>
+        <div style={{ fontSize: 36, fontWeight: 900, color: '#1a0a00', lineHeight: 1.2, marginBottom: 24 }}>
+          {label}<br /><span style={{ color: '#e8622a', fontSize: 20 }}>学习记录</span>
+        </div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 10, marginBottom: 20 }}>
+          {[['打卡', stats.checkins, '次'], ['学习', stats.total, '次'], ['课程', stats.lessons, '节']].map(([l, v, u]) => (
+            <div key={l} style={{ background: 'rgba(255,255,255,0.7)', borderRadius: 14, padding: '12px 8px', textAlign: 'center' }}>
+              <div style={{ fontSize: 24, fontWeight: 700, color: '#e8622a' }}>{v}<span style={{ fontSize: 11, color: '#c4844a' }}>{u}</span></div>
+              <div style={{ fontSize: 10, color: '#a0754a', marginTop: 3 }}>{l}</div>
+            </div>
+          ))}
+        </div>
+        {groups.length > 0 && groups.map(([lesson, total]) => (
+          <div key={lesson} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '7px 12px', borderRadius: 10, fontSize: 13, color: '#6b3a1f', background: 'rgba(255,255,255,0.5)', marginBottom: 6 }}>
+            <span>第 {lesson} 课</span>
+            <span style={{ background: '#e8622a', color: '#fff', borderRadius: 100, padding: '2px 10px', fontSize: 11, fontWeight: 700 }}>× {total}</span>
+          </div>
+        ))}
+        <div style={{ marginTop: 16, fontSize: 10, color: '#d4a07a', textAlign: 'right' }}>EnglishPod Tracker ✦</div>
+      </div>
+    </div>
+  );
+}
+
+// 主题 C：杂志Editorial
+function CardEditorial({ label, stats, groups }) {
+  return (
+    <div style={{ background: '#1c1917', borderRadius: 4, overflow: 'hidden', fontFamily: 'serif' }}>
+      <div style={{ background: '#f5f0e8', padding: '24px 24px 20px', position: 'relative' }}>
+        <div style={{ position: 'absolute', right: 24, top: 24, width: 3, height: 56, background: '#c8a96e' }} />
+        <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: 3, color: '#a09880', marginBottom: 8, fontFamily: 'sans-serif' }}>学习记录</div>
+        <div style={{ fontSize: 32, color: '#1c1917', lineHeight: 1.2 }}>{label}</div>
+      </div>
+      <div style={{ padding: '20px 24px' }}>
+        <div style={{ display: 'flex', marginBottom: 20, paddingBottom: 20, borderBottom: '1px solid #2e2a26' }}>
+          {[['打卡', stats.checkins, '次'], ['学习', stats.total, '遍'], ['课程', stats.lessons, '门']].map(([l, v, u], i) => (
+            <div key={l} style={{ flex: 1, textAlign: 'center', borderRight: i < 2 ? '1px solid #2e2a26' : 'none' }}>
+              <div style={{ fontSize: 30, color: '#c8a96e' }}>{v}<span style={{ fontSize: 10, color: '#5a5348' }}>{u}</span></div>
+              <div style={{ fontSize: 10, color: '#5a5348', letterSpacing: 1, fontFamily: 'sans-serif' }}>{l}</div>
+            </div>
+          ))}
+        </div>
+        <div style={{ fontSize: 9, letterSpacing: 3, color: '#5a5348', marginBottom: 10, fontFamily: 'sans-serif' }}>课程明细</div>
+        {groups.length === 0
+          ? <div style={{ color: '#5a5348', fontSize: 13 }}>暂无记录</div>
+          : groups.map(([lesson, total], i) => (
+            <div key={lesson} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '9px 0', borderBottom: i < groups.length - 1 ? '1px solid #2e2a26' : 'none', color: '#a09880', fontSize: 13 }}>
+              <span>第 <span style={{ fontSize: 18, color: '#f5f0e8' }}>{lesson}</span> 课</span>
+              <span style={{ color: '#c8a96e', fontWeight: 700, fontFamily: 'sans-serif', fontSize: 11, letterSpacing: 1 }}>× {total} 次</span>
+            </div>
+          ))}
+      </div>
+      <div style={{ background: '#c8a96e', padding: '8px 24px', display: 'flex', justifyContent: 'space-between', fontSize: 9, letterSpacing: 3, color: '#1c1917', fontWeight: 700, fontFamily: 'sans-serif' }}>
+        <span>ENGLISHPOD TRACKER</span>
+        <span>{todayStr()}</span>
+      </div>
+    </div>
+  );
+}
+
+const THEMES = [
+  { id: 'dark', label: '暗黑科技', Component: CardDark },
+  { id: 'warm', label: '清新活泼', Component: CardWarm },
+  { id: 'editorial', label: '杂志风', Component: CardEditorial },
+];
+
 export default function RecordsView({ onSwitchView, onRefresh }) {
   const [tab, setTab] = useState('day');
   const [date, setDate] = useState(new Date());
   const [shareModal, setShareModal] = useState(false);
+  const [shareTheme, setShareTheme] = useState('dark');
   const [, setTick] = useState(0);
   const fileRef = useRef();
   const shareRef = useRef();
@@ -114,7 +232,8 @@ export default function RecordsView({ onSwitchView, onRefresh }) {
   };
 
   const handleDownloadImg = () => {
-    html2canvas(shareRef.current, { backgroundColor: '#ffffff', scale: 2 }).then(canvas => {
+    const bg = shareTheme === 'dark' ? '#0a0a0a' : shareTheme === 'warm' ? '#fff9f0' : '#1c1917';
+    html2canvas(shareRef.current, { backgroundColor: bg, scale: 2 }).then(canvas => {
       const a = document.createElement('a');
       a.download = `englishpod-${todayStr()}.png`;
       a.href = canvas.toDataURL();
@@ -123,9 +242,10 @@ export default function RecordsView({ onSwitchView, onRefresh }) {
   };
 
   const dayGroups = tab === 'day' ? groupDayByLesson(records) : groupByLesson(records);
+  const activeTheme = THEMES.find(t => t.id === shareTheme);
 
   return (
-    <div className="card" style={{ display: 'flex', flexDirection: 'column', flex: 1, overflow: 'hidden' }}>
+    <div className="card" style={{ display: 'flex', flexDirection: 'column', height: 420, overflow: 'hidden' }}>
       {/* 顶部按钮 */}
       <div style={{ display: 'flex', gap: 8, marginBottom: 16, flexWrap: 'wrap' }}>
         <button className="btn-secondary" onClick={() => onSwitchView('calendar')}>返回打卡</button>
@@ -185,21 +305,26 @@ export default function RecordsView({ onSwitchView, onRefresh }) {
       {shareModal && (
         <div className="modal-overlay" onClick={e => e.target === e.currentTarget && setShareModal(false)}>
           <div className="modal-content" style={{ maxWidth: 420 }}>
-            <h3 style={{ marginBottom: 16, fontSize: 16 }}>分享学习记录</h3>
-            <div ref={shareRef} id="share-preview" style={{ background: '#fff', padding: 20, borderRadius: 8, border: '1px solid var(--border)' }}>
-              <p style={{ fontWeight: 600, marginBottom: 12, fontSize: 15 }}>{getLabel(tab, date)} 学习记录</p>
-              {dayGroups.length === 0
-                ? <p style={{ color: 'var(--text-light)', fontSize: 13 }}>暂无记录</p>
-                : dayGroups.map(([lesson, total]) => (
-                  <div key={lesson} style={{ padding: '5px 0', fontSize: 13, borderBottom: '1px solid #f0f0f0' }}>
-                    第 {lesson} 课 &nbsp; 共 {total} 次
-                  </div>
-                ))
-              }
-              <p style={{ fontSize: 11, color: '#999', marginTop: 12 }}>
-                打卡次数：{stats.checkins} 次 | 总遍数：{stats.total} 遍 | 课程数：{stats.lessons} 门
-              </p>
+            <h3 style={{ marginBottom: 12, fontSize: 16 }}>分享学习记录</h3>
+
+            {/* 主题选择 */}
+            <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
+              {THEMES.map(t => (
+                <button key={t.id} onClick={() => setShareTheme(t.id)} style={{
+                  flex: 1, padding: '6px 0', borderRadius: 8, border: '2px solid',
+                  borderColor: shareTheme === t.id ? 'var(--primary)' : 'var(--border)',
+                  background: shareTheme === t.id ? 'rgba(7,193,96,0.08)' : '#fff',
+                  color: shareTheme === t.id ? 'var(--primary)' : 'var(--text)',
+                  fontSize: 12, cursor: 'pointer', transition: 'all 0.2s',
+                }}>{t.label}</button>
+              ))}
             </div>
+
+            {/* 卡片预览 */}
+            <div ref={shareRef}>
+              <activeTheme.Component label={getLabel(tab, date)} stats={stats} groups={dayGroups} />
+            </div>
+
             <div style={{ display: 'flex', gap: 8, marginTop: 16, justifyContent: 'flex-end' }}>
               <button className="btn-secondary" onClick={() => setShareModal(false)}>关闭</button>
               <button className="btn-primary" onClick={handleDownloadImg}>下载图片</button>

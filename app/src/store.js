@@ -166,22 +166,42 @@ export function friendlyDate(dateStr) {
 }
 
 export function getNextReview(lesson) {
-  const firstDates = getFirstDates();
   const resets = getResets();
   const coef = getCoef();
   const intervals = [1, 2, 4, 7, 15, 30, 60];
-  const startDateStr = resets[lesson] || firstDates[lesson];
-  if (!startDateStr) return null;
-  const startDate = new Date(startDateStr);
-  const today = new Date(todayStr());
-  for (let i = 0; i < intervals.length; i++) {
-    const days = Math.round(intervals[i] * coef);
-    const reviewDate = addDays(startDate, days);
-    if (reviewDate >= today) {
-      return { lesson: parseInt(lesson), round: i + 1, date: formatDate(reviewDate) };
-    }
+
+  const lessonRecords = getRecords().filter(r => r.lesson === parseInt(lesson));
+  if (lessonRecords.length === 0) return null;
+
+  // 有 reset 时以 reset 日期为起点，否则从所有记录中取最早日期
+  const startDateStr = resets[lesson] || lessonRecords
+    .map(r => r.date)
+    .sort()[0];
+
+  // 去重统计有记录的不同日期，reset 之后的才算
+  const uniqueDates = [...new Set(
+    lessonRecords.map(r => r.date).filter(d => d >= startDateStr)
+  )].sort();
+
+  // 已完成轮次 = 不同日期数 - 1（首学不算复习）
+  const completedRounds = uniqueDates.length - 1;
+  const nextRound = completedRounds; // 0-based index into intervals
+  if (nextRound >= intervals.length) return null;
+
+  const today = todayStr();
+  const lastDate = uniqueDates[uniqueDates.length - 1];
+  const theoreticalDate = formatDate(addDays(new Date(startDateStr), Math.round(intervals[nextRound] * coef)));
+
+  let nextDate;
+  if (theoreticalDate > today) {
+    nextDate = theoreticalDate;
+  } else if (lastDate === today) {
+    nextDate = formatDate(addDays(new Date(today), 1));
+  } else {
+    nextDate = today;
   }
-  return null;
+
+  return { lesson: parseInt(lesson), round: nextRound + 1, date: nextDate };
 }
 
 export function showToast(msg) {
