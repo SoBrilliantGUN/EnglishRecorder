@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import {
   getFirstDates, getNextReview, setReset, todayStr, friendlyDate, showToast,
-  getCoef, setCoef, addDays, formatDate,
+  getCoef, setCoef, addDays, formatDate, getRecords, getResets,
 } from '../store';
 
 const COLLAPSED_COUNT = 3;
@@ -18,6 +18,27 @@ export default function ReviewReminder({ onRefresh, tick }) {
   const firstDates = getFirstDates();
   const lessons = Object.keys(firstDates).map(Number).sort((a, b) => a - b);
 
+  // 判断某课程是否过期的辅助函数
+  const isOverdue = (lesson) => {
+    const resets = getResets();
+    const currentCoef = getCoef();
+    const intervals = [1, 2, 4, 7, 15, 30, 60];
+    const lessonRecords = getRecords().filter(r => r.lesson === parseInt(lesson));
+    if (lessonRecords.length === 0) return false;
+
+    const startDateStr = resets[lesson] || lessonRecords.map(r => r.date).sort()[0];
+    const uniqueDates = [...new Set(
+      lessonRecords.map(r => r.date).filter(d => d >= startDateStr)
+    )].sort();
+
+    const completedRounds = uniqueDates.length - 1;
+    const nextRound = completedRounds;
+    if (nextRound >= intervals.length) return false;
+
+    const theoreticalDate = formatDate(addDays(new Date(startDateStr), Math.round(intervals[nextRound] * currentCoef)));
+    return theoreticalDate < todayStr();
+  };
+
   lessons.forEach(lesson => {
     const next = getNextReview(lesson);
     if (!next) return;
@@ -28,7 +49,7 @@ export default function ReviewReminder({ onRefresh, tick }) {
     const dayAfterStr = `${dayAfter.getFullYear()}-${String(dayAfter.getMonth() + 1).padStart(2, '0')}-${String(dayAfter.getDate()).padStart(2, '0')}`;
 
     if (next.date === today || next.date === tomorrowStr || next.date === dayAfterStr) {
-      reminders.push(next);
+      reminders.push({ ...next, isOverdue: isOverdue(lesson) });
     }
   });
 
@@ -86,22 +107,59 @@ export default function ReviewReminder({ onRefresh, tick }) {
         <p style={{ fontSize: 13, color: 'var(--text-light)' }}>近3天无需复习</p>
       ) : (
         <>
-          {visible.map(r => (
-            <div key={`${r.lesson}-${r.round}`} style={{
-              padding: '10px', background: '#f9f9f9', borderRadius: 8, marginBottom: 8,
-              display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: 13
-            }}>
-              <div>
-                <span style={{ fontWeight: 600 }}>第 {r.lesson} 课</span> &nbsp;
-                <span style={{ color: 'var(--text-light)' }}>第 {r.round} 次复习</span><br />
-                <span style={{ fontSize: 12, color: 'var(--text-light)' }}>{friendlyDate(r.date)}</span>
+          {visible.map(r => {
+            const baseStyle = {
+              padding: '10px',
+              borderRadius: 8,
+              marginBottom: 8,
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              fontSize: 13,
+              transition: 'all 0.3s ease',
+            };
+
+            const overdueStyle = r.isOverdue ? {
+              background: 'linear-gradient(135deg, #FFF9F0 0%, #FFF4E6 100%)',
+              borderLeft: '3px solid #F59E0B',
+              boxShadow: '0 2px 8px rgba(245, 158, 11, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.5)',
+              animation: 'gentleGlow 2.5s ease-in-out infinite',
+            } : {
+              background: '#f9f9f9',
+            };
+
+            const dateStyle = r.isOverdue ? {
+              fontSize: 12,
+              color: '#B45309',
+              background: 'rgba(245, 158, 11, 0.1)',
+              padding: '2px 8px',
+              borderRadius: 4,
+              fontWeight: 500,
+            } : {
+              fontSize: 12,
+              color: 'var(--text-light)',
+            };
+
+            const btnColor = r.isOverdue ? '#D97706' : 'var(--primary)';
+
+            return (
+              <div key={`${r.lesson}-${r.round}`} style={{ ...baseStyle, ...overdueStyle }}>
+                <div>
+                  <span style={{ fontWeight: 600 }}>第 {r.lesson} 课</span> &nbsp;
+                  <span style={{ color: 'var(--text-light)' }}>第 {r.round} 次复习</span><br />
+                  <span style={dateStyle}>{friendlyDate(r.date)}</span>
+                </div>
+                <button onClick={() => handleReset(r.lesson)} style={{
+                  background: 'none',
+                  color: btnColor,
+                  border: `1px solid ${btnColor}`,
+                  borderRadius: 5,
+                  padding: '4px 10px',
+                  fontSize: 12
+                }}>重置</button>
               </div>
-              <button onClick={() => handleReset(r.lesson)} style={{
-                background: 'none', color: 'var(--primary)', border: '1px solid var(--primary)',
-                borderRadius: 5, padding: '4px 10px', fontSize: 12
-              }}>重置</button>
-            </div>
-          ))}
+            );
+          })}
           {reminders.length > COLLAPSED_COUNT && (
             <button onClick={() => setExpanded(e => !e)} style={{
               background: 'none', border: 'none', color: 'var(--primary)',
