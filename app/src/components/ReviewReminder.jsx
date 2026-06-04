@@ -12,6 +12,7 @@ export default function ReviewReminder({ onRefresh, tick }) {
   const [expanded, setExpanded] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [coef, setCoefState] = useState(getCoef());
+  const [resetModal, setResetModal] = useState(null); // 存储待重置的课程编号
 
   const reminders = [];
   const firstDates = getFirstDates();
@@ -32,8 +33,13 @@ export default function ReviewReminder({ onRefresh, tick }) {
   });
 
   const handleReset = (lesson) => {
-    setReset(lesson, todayStr());
-    showToast(`第 ${lesson} 课已重置`);
+    setResetModal(lesson);
+  };
+
+  const confirmReset = () => {
+    setReset(resetModal, todayStr());
+    showToast(`第 ${resetModal} 课已重置`);
+    setResetModal(null);
     onRefresh();
   };
 
@@ -123,6 +129,24 @@ export default function ReviewReminder({ onRefresh, tick }) {
                 第 {p.round} 次：{p.date}（+{p.days} 天）
               </div>
             ))}
+          </div>
+        </div>
+      )}
+
+      {/* 重置确认弹窗 */}
+      {resetModal && (
+        <div className="modal-overlay" onClick={e => e.target === e.currentTarget && setResetModal(null)}>
+          <div className="modal-content">
+            <h3 style={{ marginBottom: 16, fontSize: 16 }}>确认重置第 {resetModal} 课的复习进度吗？</h3>
+            <p style={{ fontSize: 14, color: 'var(--text)', lineHeight: 1.7, marginBottom: 20 }}>
+              重置后，<strong>今天</strong>将作为该课程的新起点，<br />
+              后续复习日期将从今天重新计算。<br />
+              <span style={{ color: 'var(--text-light)', fontSize: 13 }}>历史打卡记录不会丢失。</span>
+            </p>
+            <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end' }}>
+              <button className="btn-secondary" onClick={() => setResetModal(null)}>取消</button>
+              <button className="btn-primary" onClick={confirmReset}>确认重置</button>
+            </div>
           </div>
         </div>
       )}
