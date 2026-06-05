@@ -45,7 +45,7 @@ export default function Calendar({ onSwitchView, tick, selected, onSelectDate })
   const isNextDisabled = new Date(year, month + 1, 1) > today;
 
   return (
-    <div className="card" style={{ display: 'flex', flexDirection: 'column', height: 420, overflow: 'hidden' }}>
+    <div className="card" style={{ display: 'flex', flexDirection: 'column', height: 454, overflow: 'hidden' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
         <h2 style={{ fontSize: 18 }}>打卡日历</h2>
         <button className="btn-secondary" onClick={() => onSwitchView('records')}>查看记录</button>

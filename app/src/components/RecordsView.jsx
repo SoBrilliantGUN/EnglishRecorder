@@ -245,7 +245,7 @@ export default function RecordsView({ onSwitchView, onRefresh }) {
   const activeTheme = THEMES.find(t => t.id === shareTheme);
 
   return (
-    <div className="card" style={{ display: 'flex', flexDirection: 'column', height: 420, overflow: 'hidden' }}>
+    <div className="card" style={{ display: 'flex', flexDirection: 'column', height: 454, overflow: 'hidden' }}>
       {/* 顶部按钮 */}
       <div style={{ display: 'flex', gap: 8, marginBottom: 16, flexWrap: 'wrap' }}>
         <button className="btn-secondary" onClick={() => onSwitchView('calendar')}>返回打卡</button>
