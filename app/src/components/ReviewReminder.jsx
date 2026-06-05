@@ -59,7 +59,7 @@ export default function ReviewReminder({ onRefresh, tick }) {
 
   const confirmReset = () => {
     setReset(resetModal, todayStr());
-    showToast(`第 ${resetModal} 课已重置`);
+    showToast(`第 ${String(resetModal).padStart(2, '0')} 课已重置`);
     setResetModal(null);
     onRefresh();
   };
@@ -145,7 +145,7 @@ export default function ReviewReminder({ onRefresh, tick }) {
             return (
               <div key={`${r.lesson}-${r.round}`} style={{ ...baseStyle, ...overdueStyle }}>
                 <div>
-                  <span style={{ fontWeight: 600 }}>第 {r.lesson} 课</span> &nbsp;
+                  <span style={{ fontWeight: 600 }}>第 {String(r.lesson).padStart(2, '0')} 课</span> &nbsp;
                   <span style={{ color: 'var(--text-light)' }}>第 {r.round} 次复习</span><br />
                   <span style={dateStyle}>{friendlyDate(r.date)}</span>
                 </div>
@@ -195,7 +195,7 @@ export default function ReviewReminder({ onRefresh, tick }) {
       {resetModal && (
         <div className="modal-overlay" onClick={e => e.target === e.currentTarget && setResetModal(null)}>
           <div className="modal-content">
-            <h3 style={{ marginBottom: 16, fontSize: 16 }}>确认重置第 {resetModal} 课的复习进度吗？</h3>
+            <h3 style={{ marginBottom: 16, fontSize: 16 }}>确认重置第 {String(resetModal).padStart(2, '0')} 课的复习进度吗？</h3>
             <p style={{ fontSize: 14, color: 'var(--text)', lineHeight: 1.7, marginBottom: 20 }}>
               重置后，<strong>今天</strong>将作为该课程的新起点，<br />
               后续复习日期将从今天重新计算。<br />

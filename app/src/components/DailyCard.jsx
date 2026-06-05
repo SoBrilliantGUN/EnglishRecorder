@@ -71,7 +71,7 @@ export default function DailyCard({ selected, onRefresh, tick }) {
               padding: '8px 10px', background: '#f9f9f9', borderRadius: 8, marginBottom: 6,
               fontSize: 13,
             }}>
-              <span>第 <strong>{ls}</strong> 课</span>
+              <span>第 <strong>{String(ls).padStart(2, '0')}</strong> 课</span>
               <span style={{
                 background: 'var(--primary)', color: '#fff',
                 borderRadius: 100, padding: '2px 10px', fontSize: 12, fontWeight: 600,

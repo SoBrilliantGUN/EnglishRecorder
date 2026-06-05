@@ -149,20 +149,28 @@ export default function RecordsView({ onSwitchView, onRefresh }) {
       <div style={{ overflowY: 'auto', flex: 1, minHeight: 80 }}>
         {dayGroups.length === 0
           ? <p style={{ color: 'var(--text-light)', fontSize: 14, textAlign: 'center', padding: '20px 0' }}>暂无记录</p>
-          : dayGroups.map(([lesson, total]) => (
-            <div key={lesson} style={{
-              display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-              padding: '10px 0', borderBottom: '1px solid var(--border)', fontSize: 14
-            }}>
-              <span>第 {lesson} 课 &nbsp; 共 {total} 次</span>
-              {tab === 'day' && (
+          : tab === 'day'
+            ? dayGroups.map(([lesson, total]) => (
+              <div key={lesson} style={{
+                display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+                padding: '10px 0', borderBottom: '1px solid var(--border)', fontSize: 14
+              }}>
+                <span>第 {String(lesson).padStart(2, '0')} 课 &nbsp; 共 {total} 次</span>
                 <button onClick={() => handleDelete(parseInt(lesson))} style={{
                   background: 'none', color: '#e74c3c', fontSize: 13, border: '1px solid #e74c3c',
                   borderRadius: 5, padding: '3px 10px'
                 }}>删除</button>
-              )}
+              </div>
+            ))
+            : <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 12px' }}>
+              {dayGroups.map(([lesson, total]) => (
+                <div key={lesson} style={{
+                  padding: '10px 0', borderBottom: '1px solid var(--border)', fontSize: 14
+                }}>
+                  <span>第 {String(lesson).padStart(2, '0')} 课 &nbsp; 共 {total} 次</span>
+                </div>
+              ))}
             </div>
-          ))
         }
       </div>
 

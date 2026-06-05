@@ -27,7 +27,7 @@ export default function CardDark({ label, stats, groups }) {
           ? <div style={{ color: '#333', fontSize: 13 }}>暂无记录</div>
           : groups.map(([lesson, total], i) => (
             <div key={lesson} style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 0', borderBottom: i < groups.length - 1 ? '1px solid #111' : 'none', fontSize: 13, color: '#666' }}>
-              <span>第 <strong style={{ color: '#ccc' }}>{lesson}</strong> 课</span>
+              <span>第 <strong style={{ color: '#ccc' }}>{String(lesson).padStart(2, '0')}</strong> 课</span>
               <span style={{ color: '#00ff88' }}>{total} 次</span>
             </div>
           ))}

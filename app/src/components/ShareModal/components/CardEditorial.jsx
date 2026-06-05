@@ -23,7 +23,7 @@ export default function CardEditorial({ label, stats, groups }) {
           ? <div style={{ color: '#5a5348', fontSize: 13 }}>暂无记录</div>
           : groups.map(([lesson, total], i) => (
             <div key={lesson} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '9px 0', borderBottom: i < groups.length - 1 ? '1px solid #2e2a26' : 'none', color: '#a09880', fontSize: 13 }}>
-              <span>第 <span style={{ fontSize: 18, color: '#f5f0e8' }}>{lesson}</span> 课</span>
+              <span>第 <span style={{ fontSize: 18, color: '#f5f0e8' }}>{String(lesson).padStart(2, '0')}</span> 课</span>
               <span style={{ color: '#c8a96e', fontWeight: 700, fontFamily: 'sans-serif', fontSize: 11, letterSpacing: 1 }}>× {total} 次</span>
             </div>
           ))}

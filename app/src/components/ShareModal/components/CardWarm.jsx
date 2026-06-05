@@ -24,7 +24,7 @@ export default function CardWarm({ label, stats, groups }) {
         </div>
         {groups.length > 0 && groups.map(([lesson, total]) => (
           <div key={lesson} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '7px 12px', borderRadius: 10, fontSize: 13, color: '#6b3a1f', background: 'rgba(255,255,255,0.5)', marginBottom: 6 }}>
-            <span>第 {lesson} 课</span>
+            <span>第 {String(lesson).padStart(2, '0')} 课</span>
             <span style={{ background: '#e8622a', color: '#fff', borderRadius: 100, padding: '2px 10px', fontSize: 11, fontWeight: 700 }}>× {total}</span>
           </div>
         ))}
