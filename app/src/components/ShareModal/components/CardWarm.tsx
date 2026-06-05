@@ -1,5 +1,7 @@
+import { CardProps } from '../types';
+
 // 主题 B：清新活泼
-export default function CardWarm({ label, stats, groups }) {
+export default function CardWarm({ label, stats, groups }: CardProps) {
   return (
     <div style={{
       background: 'linear-gradient(145deg, #fff9f0 0%, #ffecd6 100%)',

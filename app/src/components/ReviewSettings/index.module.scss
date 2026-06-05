@@ -1,0 +1,43 @@
+.container {
+  margin-bottom: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+}
+
+.title {
+  font-size: var(--font-size-md);
+}
+
+.toggle {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.content {
+  margin-top: 14px;
+}
+
+.coefRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.coefValue {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  min-width: 40px;
+  text-align: center;
+}
+
+.previewItem {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  padding: 3px 0;
+}

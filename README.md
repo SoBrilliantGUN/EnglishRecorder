@@ -37,9 +37,11 @@
 
 ## 技术栈
 
-- React + Vite
-- html2canvas
-- localStorage
+- React 19 + Vite 8 + TypeScript（strict 模式）
+- SCSS Modules + 语义化 CSS 变量 token 体系
+- dayjs（日期处理）
+- html2canvas（PNG 导出）
+- localStorage（数据持久化）
 
 ## 启动
 

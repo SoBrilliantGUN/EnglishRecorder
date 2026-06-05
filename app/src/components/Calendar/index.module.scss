@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 454px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: var(--font-size-xl);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.navLabel {
+  font-weight: 600;
+  font-size: var(--font-size-md);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+  padding-bottom: 50px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.weekday {
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  padding: 4px 0;
+}
+
+.day {
+  text-align: center;
+  padding: 8px 4px;
+  border-radius: var(--radius-base);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-size: var(--font-size-base);
+}
+
+.dayFuture {
+  cursor: default;
+  color: var(--color-text-disabled);
+}
+
+.daySelected {
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  margin: 2px auto 0;
+}
+
+.dotSelected {
+  background: rgba(255, 255, 255, 0.8);
+}

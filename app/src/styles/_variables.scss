@@ -1,0 +1,61 @@
+// 语义化颜色 token 体系
+
+:root {
+  // 主色
+  --color-primary: #07C160;
+  --color-primary-hover: #06ad52;
+
+  // 背景
+  --color-bg: #faf9f7;
+  --color-bg-card: #ffffff;
+  --color-bg-elevated: #f9f9f9;
+  --color-bg-muted: #f0f0f0;
+
+  // 文字
+  --color-text: #2c3e50;
+  --color-text-secondary: #7f8c8d;
+  --color-text-disabled: #cccccc;
+  --color-text-inverse: #ffffff;
+
+  // 边框
+  --color-border: #e8e8e8;
+
+  // 危险/删除
+  --color-danger: #e74c3c;
+
+  // 警告/过期
+  --color-warning: #F59E0B;
+  --color-warning-dark: #D97706;
+  --color-warning-text: #B45309;
+  --color-warning-bg-start: #FFF9F0;
+  --color-warning-bg-end: #FFF4E6;
+
+  // 遮罩
+  --color-overlay: rgba(0, 0, 0, 0.5);
+  --color-toast-bg: rgba(0, 0, 0, 0.8);
+
+  // 阴影
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-warning: 0 2px 8px rgba(245, 158, 11, 0.12);
+  --shadow-warning-glow: 0 2px 12px rgba(245, 158, 11, 0.2);
+
+  // 圆角
+  --radius-sm: 5px;
+  --radius-base: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 100px;
+  --radius-toast: 24px;
+
+  // 字号
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-base: 14px;
+  --font-size-md: 15px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-xxl: 20px;
+
+  // 动画
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+}

@@ -1,0 +1,146 @@
+.container {
+  margin-bottom: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: var(--font-size-lg);
+}
+
+.settingsBtn {
+  background: none;
+  border: none;
+  padding: 2px 4px;
+  cursor: pointer;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-lg);
+  line-height: 1;
+  transition: color var(--transition-fast);
+}
+
+.settingsBtnActive {
+  color: var(--color-primary);
+}
+
+.empty {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.reminderItem {
+  padding: 10px;
+  border-radius: var(--radius-base);
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--font-size-sm);
+  transition: all var(--transition-base);
+  background: var(--color-bg-elevated);
+}
+
+.reminderOverdue {
+  background: linear-gradient(135deg, var(--color-warning-bg-start) 0%, var(--color-warning-bg-end) 100%);
+  border-left: 3px solid var(--color-warning);
+  box-shadow: var(--shadow-warning), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  animation: gentleGlow 2.5s ease-in-out infinite;
+}
+
+.lessonName {
+  font-weight: 600;
+}
+
+.roundText {
+  color: var(--color-text-secondary);
+}
+
+.dateNormal {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+}
+
+.dateOverdue {
+  font-size: var(--font-size-xs);
+  color: var(--color-warning-text);
+  background: rgba(245, 158, 11, 0.1);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.resetBtn {
+  background: none;
+  border-radius: var(--radius-sm);
+  padding: 4px 10px;
+  font-size: var(--font-size-xs);
+}
+
+.expandBtn {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.settingsPanel {
+  margin-top: 14px;
+  border-top: 1px solid var(--color-border);
+  padding-top: 14px;
+}
+
+.coefRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.coefLabel {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  flex: 1;
+}
+
+.coefValue {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  min-width: 36px;
+  text-align: center;
+}
+
+.previewItem {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  padding: 2px 0;
+}
+
+.modalTitle {
+  margin-bottom: 16px;
+  font-size: var(--font-size-lg);
+}
+
+.modalText {
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.modalHint {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.modalFooter {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}

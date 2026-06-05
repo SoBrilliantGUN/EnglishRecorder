@@ -1,18 +1,19 @@
 import { useState } from 'react';
+import styles from './index.module.scss';
 
 export default function Instructions() {
   const [open, setOpen] = useState(false);
 
   return (
     <div className="card">
-      <div onClick={() => setOpen(o => !o)} style={{ display: 'flex', justifyContent: 'space-between', cursor: 'pointer', userSelect: 'none' }}>
-        <h3 style={{ fontSize: 15 }}>使用说明</h3>
-        <span style={{ color: 'var(--text-light)', fontSize: 13 }}>{open ? '收起' : '展开'}</span>
+      <div className={styles.header} onClick={() => setOpen(o => !o)}>
+        <h3 className={styles.title}>使用说明</h3>
+        <span className={styles.toggle}>{open ? '收起' : '展开'}</span>
       </div>
 
       {open && (
-        <div style={{ marginTop: 12, fontSize: 13, color: 'var(--text)', lineHeight: 1.8 }}>
-          <ol style={{ paddingLeft: 20, margin: 0 }}>
+        <div className={styles.content}>
+          <ol className={styles.list}>
             <li>点击日历日期，右侧卡片显示该日学习内容</li>
             <li>点击右侧卡片的"打卡"按钮录入学习记录</li>
             <li>点击"查看记录"查看学习统计</li>

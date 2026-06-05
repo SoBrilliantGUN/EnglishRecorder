@@ -1,90 +1,111 @@
 // 数据层：封装所有 localStorage 操作
 
+export interface Record {
+  id: string;
+  date: string;
+  time: string;
+  lesson: number;
+  count: number;
+  timestamp: number;
+}
+
+export interface ReviewInfo {
+  lesson: number;
+  round: number;
+  date: string;
+}
+
+interface ImportData {
+  ep_records?: Record[];
+  ep_coef?: number;
+  ep_first?: { [key: string]: string };
+  ep_resets?: { [key: string]: string };
+}
+
 const KEYS = {
   records: 'ep_records',
   coef: 'ep_coef',
   first: 'ep_first',
   resets: 'ep_resets',
   initialized: 'ep_initialized',
-};
+} as const;
 
-export function getRecords() {
+export function getRecords(): Record[] {
   return JSON.parse(localStorage.getItem(KEYS.records) || '[]');
 }
 
-export function saveRecords(records) {
+export function saveRecords(records: Record[]): void {
   localStorage.setItem(KEYS.records, JSON.stringify(records));
 }
 
-export function addRecord(lesson, count, date) {
+export function addRecord(lesson: number, count: number, date: string): void {
   const records = getRecords();
   records.push({
     id: `${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
     date,
     time: new Date().toTimeString().slice(0, 8),
-    lesson: parseInt(lesson),
-    count: parseInt(count),
+    lesson,
+    count,
     timestamp: Date.now(),
   });
   saveRecords(records);
 }
 
-export function deleteRecordsByDateAndLesson(date, lesson) {
+export function deleteRecordsByDateAndLesson(date: string, lesson: number): void {
   const records = getRecords().filter(
-    r => !(r.date === date && r.lesson === parseInt(lesson))
+    r => !(r.date === date && r.lesson === lesson)
   );
   saveRecords(records);
-  // 若该课程所有记录都删完了，清除首次学习日期和重置状态
-  const remaining = records.filter(r => r.lesson === parseInt(lesson));
+  const remaining = records.filter(r => r.lesson === lesson);
   if (remaining.length === 0) {
     clearFirstDate(lesson);
     clearReset(lesson);
   }
 }
 
-export function getFirstDates() {
+export function getFirstDates(): { [key: string]: string } {
   return JSON.parse(localStorage.getItem(KEYS.first) || '{}');
 }
 
-export function setFirstDate(lesson, date) {
+export function setFirstDate(lesson: number, date: string): void {
   const first = getFirstDates();
-  first[parseInt(lesson)] = date;
+  first[lesson] = date;
   localStorage.setItem(KEYS.first, JSON.stringify(first));
 }
 
-export function clearFirstDate(lesson) {
+export function clearFirstDate(lesson: number): void {
   const first = getFirstDates();
-  delete first[parseInt(lesson)];
+  delete first[lesson];
   localStorage.setItem(KEYS.first, JSON.stringify(first));
 }
 
-export function getResets() {
+export function getResets(): { [key: string]: string } {
   return JSON.parse(localStorage.getItem(KEYS.resets) || '{}');
 }
 
-export function setReset(lesson, date) {
+export function setReset(lesson: number, date: string): void {
   const resets = getResets();
-  resets[parseInt(lesson)] = date;
+  resets[lesson] = date;
   localStorage.setItem(KEYS.resets, JSON.stringify(resets));
 }
 
-export function clearReset(lesson) {
+export function clearReset(lesson: number): void {
   const resets = getResets();
-  delete resets[parseInt(lesson)];
+  delete resets[lesson];
   localStorage.setItem(KEYS.resets, JSON.stringify(resets));
 }
 
-export function getCoef() {
+export function getCoef(): number {
   return parseFloat(localStorage.getItem(KEYS.coef) || '1.0');
 }
 
-export function setCoef(value) {
+export function setCoef(value: number): number {
   const clamped = Math.min(3.0, Math.max(0.5, parseFloat(value.toFixed(1))));
   localStorage.setItem(KEYS.coef, String(clamped));
   return clamped;
 }
 
-export function exportData() {
+export function exportData(): void {
   const data = {
     ep_records: getRecords(),
     ep_coef: getCoef(),
@@ -98,14 +119,14 @@ export function exportData() {
   a.click();
 }
 
-export function importData(jsonObj) {
+export function importData(jsonObj: ImportData): void {
   localStorage.setItem(KEYS.records, JSON.stringify(jsonObj.ep_records || []));
   localStorage.setItem(KEYS.coef, String(jsonObj.ep_coef || 1.0));
   localStorage.setItem(KEYS.first, JSON.stringify(jsonObj.ep_first || {}));
   localStorage.setItem(KEYS.resets, JSON.stringify(jsonObj.ep_resets || {}));
 }
 
-export function initData() {
+export function initData(): void {
   if (localStorage.getItem(KEYS.initialized)) return;
   const today = todayStr();
   addRecord(1, 1, today);
@@ -116,83 +137,74 @@ export function initData() {
 }
 
 // 工具函数
-export function todayStr() {
-  const d = new Date();
-  return formatDate(d);
+import dayjs from 'dayjs';
+
+export function todayStr(): string {
+  return dayjs().format('YYYY-MM-DD');
 }
 
-export function formatDate(date) {
-  const y = date.getFullYear();
-  const m = String(date.getMonth() + 1).padStart(2, '0');
-  const d = String(date.getDate()).padStart(2, '0');
-  return `${y}-${m}-${d}`;
+export function formatDate(date: Date): string {
+  return dayjs(date).format('YYYY-MM-DD');
 }
 
-export function addDays(date, n) {
-  const d = new Date(date);
-  d.setDate(d.getDate() + n);
-  return d;
+export function addDays(date: Date, n: number): Date {
+  return dayjs(date).add(n, 'day').toDate();
 }
 
-export function getWeekStart(date) {
-  const d = new Date(date);
-  const day = d.getDay();
+export function getWeekStart(date: Date): Date {
+  const d = dayjs(date);
+  const day = d.day();
   const diff = day === 0 ? -6 : 1 - day;
-  d.setDate(d.getDate() + diff);
-  return d;
+  return d.add(diff, 'day').toDate();
 }
 
-export function getWeekEnd(date) {
-  const start = getWeekStart(date);
-  return addDays(start, 6);
+export function getWeekEnd(date: Date): Date {
+  return dayjs(getWeekStart(date)).add(6, 'day').toDate();
 }
 
-export function isSameDay(a, b) {
-  return formatDate(new Date(a)) === formatDate(new Date(b));
+export function isSameDay(a: string | Date, b: string | Date): boolean {
+  return dayjs(a).format('YYYY-MM-DD') === dayjs(b).format('YYYY-MM-DD');
 }
 
-export function isFuture(dateStr) {
+export function isFuture(dateStr: string): boolean {
   return dateStr > todayStr();
 }
 
-export function friendlyDate(dateStr) {
+export function friendlyDate(dateStr: string): string {
   const today = todayStr();
-  const tomorrow = formatDate(addDays(new Date(), 1));
-  const dayAfter = formatDate(addDays(new Date(), 2));
+  const tomorrow = dayjs().add(1, 'day').format('YYYY-MM-DD');
+  const dayAfter = dayjs().add(2, 'day').format('YYYY-MM-DD');
   if (dateStr === today) return '今天';
   if (dateStr === tomorrow) return '明天';
   if (dateStr === dayAfter) return '后天';
   return dateStr;
 }
 
-export function getNextReview(lesson) {
+export function getNextReview(lesson: number): ReviewInfo | null {
   const resets = getResets();
   const coef = getCoef();
   const intervals = [1, 2, 4, 7, 15, 30, 60];
 
-  const lessonRecords = getRecords().filter(r => r.lesson === parseInt(lesson));
+  const lessonRecords = getRecords().filter(r => r.lesson === lesson);
   if (lessonRecords.length === 0) return null;
 
-  // 有 reset 时以 reset 日期为起点，否则从所有记录中取最早日期
-  const startDateStr = resets[lesson] || lessonRecords
+  const startDateStr: string = resets[lesson] || lessonRecords
     .map(r => r.date)
     .sort()[0];
 
-  // 去重统计有记录的不同日期，reset 之后的才算
   const uniqueDates = [...new Set(
     lessonRecords.map(r => r.date).filter(d => d >= startDateStr)
   )].sort();
 
-  // 已完成轮次 = 不同日期数 - 1（首学不算复习）
   const completedRounds = uniqueDates.length - 1;
-  const nextRound = completedRounds; // 0-based index into intervals
+  const nextRound = completedRounds;
   if (nextRound >= intervals.length) return null;
 
   const today = todayStr();
   const lastDate = uniqueDates[uniqueDates.length - 1];
   const theoreticalDate = formatDate(addDays(new Date(startDateStr), Math.round(intervals[nextRound] * coef)));
 
-  let nextDate;
+  let nextDate: string;
   if (theoreticalDate > today) {
     nextDate = theoreticalDate;
   } else if (lastDate === today) {
@@ -201,16 +213,15 @@ export function getNextReview(lesson) {
     nextDate = today;
   }
 
-  return { lesson: parseInt(lesson), round: nextRound + 1, date: nextDate };
+  return { lesson, round: nextRound + 1, date: nextDate };
 }
 
-export function showToast(msg) {
+export function showToast(msg: string): void {
   const el = document.getElementById('toast');
   if (!el) return;
   el.textContent = msg;
   el.classList.add('show');
-  // 用 CSS transition 自动消失，通过 CSS animation 代替 setTimeout
   el.style.animation = 'none';
-  el.offsetHeight; // reflow
+  void el.offsetHeight; // reflow
   el.style.animation = 'toastShow 2.3s forwards';
 }

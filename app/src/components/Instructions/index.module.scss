@@ -1,0 +1,29 @@
+.container {}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+}
+
+.title {
+  font-size: var(--font-size-md);
+}
+
+.toggle {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.content {
+  margin-top: 12px;
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  line-height: 1.8;
+}
+
+.list {
+  padding-left: 20px;
+  margin: 0;
+}

@@ -1,7 +1,8 @@
 import { todayStr } from '../../../store';
+import { CardProps } from '../types';
 
 // 主题 C：杂志Editorial
-export default function CardEditorial({ label, stats, groups }) {
+export default function CardEditorial({ label, stats, groups }: CardProps) {
   return (
     <div style={{ background: '#1c1917', borderRadius: 4, overflow: 'hidden', fontFamily: 'serif' }}>
       <div style={{ background: '#f5f0e8', padding: '24px 24px 20px', position: 'relative' }}>

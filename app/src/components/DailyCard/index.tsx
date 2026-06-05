@@ -2,9 +2,16 @@ import { useState } from 'react';
 import {
   getRecords, addRecord, getFirstDates, setFirstDate,
   todayStr, showToast
-} from '../store';
+} from '../../store';
+import styles from './index.module.scss';
 
-export default function DailyCard({ selected, onRefresh, tick }) {
+interface DailyCardProps {
+  selected: string;
+  onRefresh: () => void;
+  tick: number;
+}
+
+export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps) {
   const [modal, setModal] = useState(false);
   const [lesson, setLesson] = useState('');
   const [count, setCount] = useState('1');
@@ -16,7 +23,7 @@ export default function DailyCard({ selected, onRefresh, tick }) {
 
   // 按课程聚合
   const grouped = Object.entries(
-    records.reduce((acc, r) => {
+    records.reduce<{ [key: number]: number }>((acc, r) => {
       acc[r.lesson] = (acc[r.lesson] || 0) + r.count;
       return acc;
     }, {})
@@ -43,12 +50,12 @@ export default function DailyCard({ selected, onRefresh, tick }) {
 
   return (
     <>
-      <div className="card" style={{ marginBottom: 16 }}>
+      <div className={`card ${styles.container}`}>
         {/* 标题行 */}
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
+        <div className={styles.header}>
           <div>
-            <h3 style={{ fontSize: 16 }}>学习内容</h3>
-            <p style={{ fontSize: 12, color: 'var(--text-light)', marginTop: 2 }}>
+            <h3 className={styles.title}>学习内容</h3>
+            <p className={styles.subtitle}>
               {date === todayStr() ? `今天 · ${date}` : date}
             </p>
           </div>
@@ -63,19 +70,12 @@ export default function DailyCard({ selected, onRefresh, tick }) {
 
         {/* 课程列表 */}
         {grouped.length === 0 ? (
-          <p style={{ fontSize: 13, color: 'var(--text-light)' }}>暂无学习记录</p>
+          <p className={styles.empty}>暂无学习记录</p>
         ) : (
           grouped.map(([ls, total]) => (
-            <div key={ls} style={{
-              display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-              padding: '8px 10px', background: '#f9f9f9', borderRadius: 8, marginBottom: 6,
-              fontSize: 13,
-            }}>
+            <div key={ls} className={styles.lessonItem}>
               <span>第 <strong>{String(ls).padStart(2, '0')}</strong> 课</span>
-              <span style={{
-                background: 'var(--primary)', color: '#fff',
-                borderRadius: 100, padding: '2px 10px', fontSize: 12, fontWeight: 600,
-              }}>× {total} 次</span>
+              <span className={styles.badge}>× {total} 次</span>
             </div>
           ))
         )}
@@ -85,23 +85,23 @@ export default function DailyCard({ selected, onRefresh, tick }) {
       {modal && (
         <div className="modal-overlay" onClick={e => e.target === e.currentTarget && setModal(false)}>
           <div className="modal-content">
-            <h3 style={{ marginBottom: 16, fontSize: 16 }}>{date} 打卡</h3>
-            <div style={{ marginBottom: 12 }}>
-              <label style={{ display: 'block', marginBottom: 6, fontSize: 14 }}>课程编号</label>
+            <h3 className={styles.modalTitle}>{date} 打卡</h3>
+            <div className={styles.formGroup}>
+              <label className={styles.label}>课程编号</label>
               <input
                 type="number" min={0} max={999}
                 value={lesson} onChange={e => setLesson(e.target.value)}
                 placeholder="请输入课程编号"
               />
             </div>
-            <div style={{ marginBottom: 20 }}>
-              <label style={{ display: 'block', marginBottom: 6, fontSize: 14 }}>学习次数</label>
+            <div className={styles.formGroupLast}>
+              <label className={styles.label}>学习次数</label>
               <input
                 type="number" min={1}
                 value={count} onChange={e => setCount(e.target.value)}
               />
             </div>
-            <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end' }}>
+            <div className={styles.modalFooter}>
               <button className="btn-secondary" onClick={() => setModal(false)}>取消</button>
               <button className="btn-primary" onClick={handleCheckin}>确认打卡</button>
             </div>

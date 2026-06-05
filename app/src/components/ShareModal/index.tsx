@@ -2,12 +2,18 @@ import { useState, useRef } from 'react';
 import html2canvas from 'html2canvas';
 import { todayStr } from '../../store';
 import { THEMES } from './themes';
+import { CardProps } from './types';
 
-export default function ShareModal({ label, stats, groups, onClose }) {
+interface ShareModalProps extends CardProps {
+  onClose: () => void;
+}
+
+export default function ShareModal({ label, stats, groups, onClose }: ShareModalProps) {
   const [shareTheme, setShareTheme] = useState('dark');
-  const shareRef = useRef();
+  const shareRef = useRef<HTMLDivElement>(null);
 
   const handleDownloadImg = () => {
+    if (!shareRef.current) return;
     const bg = shareTheme === 'dark' ? '#0a0a0a' : shareTheme === 'warm' ? '#fff9f0' : '#1c1917';
     html2canvas(shareRef.current, { backgroundColor: bg, scale: 2 }).then(canvas => {
       const a = document.createElement('a');
@@ -29,9 +35,9 @@ export default function ShareModal({ label, stats, groups, onClose }) {
           {THEMES.map(t => (
             <button key={t.id} onClick={() => setShareTheme(t.id)} style={{
               flex: 1, padding: '6px 0', borderRadius: 8, border: '2px solid',
-              borderColor: shareTheme === t.id ? 'var(--primary)' : 'var(--border)',
+              borderColor: shareTheme === t.id ? 'var(--color-primary)' : 'var(--color-border)',
               background: shareTheme === t.id ? 'rgba(7,193,96,0.08)' : '#fff',
-              color: shareTheme === t.id ? 'var(--primary)' : 'var(--text)',
+              color: shareTheme === t.id ? 'var(--color-primary)' : 'var(--color-text)',
               fontSize: 12, cursor: 'pointer', transition: 'all 0.2s',
             }}>{t.label}</button>
           ))}
@@ -39,7 +45,7 @@ export default function ShareModal({ label, stats, groups, onClose }) {
 
         {/* 卡片预览 */}
         <div ref={shareRef}>
-          <activeTheme.Component label={label} stats={stats} groups={groups} />
+          {activeTheme && <activeTheme.Component label={label} stats={stats} groups={groups} />}
         </div>
 
         <div style={{ display: 'flex', gap: 8, marginTop: 16, justifyContent: 'flex-end' }}>

@@ -1,5 +1,7 @@
+import { CardProps } from '../types';
+
 // 主题 A：暗黑科技
-export default function CardDark({ label, stats, groups }) {
+export default function CardDark({ label, stats, groups }: CardProps) {
   return (
     <div style={{
       background: '#0a0a0a', borderRadius: 16, padding: 28,
@@ -15,7 +17,7 @@ export default function CardDark({ label, stats, groups }) {
       </div>
       <div style={{ fontSize: 26, fontWeight: 700, color: '#fff', marginBottom: 24, lineHeight: 1.3 }}>{label}</div>
       <div style={{ display: 'flex', marginBottom: 24 }}>
-        {[['打卡', stats.checkins, '次'], ['学习', stats.total, '次'], ['课程', stats.lessons, '节']].map(([l, v, u]) => (
+        {([['打卡', stats.checkins, '次'], ['学习', stats.total, '次'], ['课程', stats.lessons, '节']] as const).map(([l, v, u]) => (
           <div key={l} style={{ flex: 1, borderLeft: l !== '打卡' ? '1px solid #1e1e1e' : 'none', paddingLeft: l !== '打卡' ? 16 : 0 }}>
             <div style={{ fontSize: 28, fontWeight: 700, color: '#00ff88' }}>{v}<span style={{ fontSize: 11, color: '#444', marginLeft: 2 }}>{u}</span></div>
             <div style={{ fontSize: 11, color: '#444' }}>{l}</div>

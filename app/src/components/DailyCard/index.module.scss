@@ -1,0 +1,70 @@
+.container {
+  margin-bottom: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: var(--font-size-lg);
+}
+
+.subtitle {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+.empty {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.lessonItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  background: var(--color-bg-elevated);
+  border-radius: var(--radius-base);
+  margin-bottom: 6px;
+  font-size: var(--font-size-sm);
+}
+
+.badge {
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+  border-radius: var(--radius-pill);
+  padding: 2px 10px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+}
+
+.modalTitle {
+  margin-bottom: 16px;
+  font-size: var(--font-size-lg);
+}
+
+.formGroup {
+  margin-bottom: 12px;
+}
+
+.formGroupLast {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: var(--font-size-base);
+}
+
+.modalFooter {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}

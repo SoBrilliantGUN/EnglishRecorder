@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 454px;
+  overflow: hidden;
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.tab {
+  padding: 6px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: var(--color-bg-muted);
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  transition: all var(--transition-fast);
+}
+
+.tabActive {
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.navLabel {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+}
+
+.list {
+  overflow-y: auto;
+  flex: 1;
+  min-height: 80px;
+}
+
+.empty {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-base);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.recordItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: var(--font-size-base);
+}
+
+.deleteBtn {
+  background: none;
+  color: var(--color-danger);
+  font-size: var(--font-size-sm);
+  border: 1px solid var(--color-danger);
+  border-radius: var(--radius-sm);
+  padding: 3px 10px;
+}
+
+.gridView {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 12px;
+}
+
+.gridItem {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: var(--font-size-base);
+}
+
+.summary {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin-top: 12px;
+}
