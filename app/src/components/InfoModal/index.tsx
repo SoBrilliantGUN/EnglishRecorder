@@ -22,6 +22,8 @@ export default function InfoModal({ onClose }: InfoModalProps) {
           <li>点击复习提醒右上角 ⚙ 可调整复习间隔系数（0.5~3.0）</li>
           <li>支持导出/导入数据备份</li>
           <li>可分享学习记录为图片</li>
+          <li>点击顶部 ☾ 切换暗黑/亮色模式</li>
+          <li>点击顶部 ⚙ 可设置是否显示复习提醒</li>
         </ol>
       </div>
     </div>

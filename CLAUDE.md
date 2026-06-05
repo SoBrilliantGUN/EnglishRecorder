@@ -28,9 +28,9 @@ npx tsc --noEmit # TypeScript 类型检查
 - [desc/04-分享功能.md](desc/04-分享功能.md) — ShareModal 与主题卡片
 - [desc/05-复习提醒.md](desc/05-复习提醒.md) — ReviewReminder 组件
 - [desc/06-复习设置.md](desc/06-复习设置.md) — ReviewSettings 组件
-- [desc/07-使用说明.md](desc/07-使用说明.md) — Instructions 组件
+- [desc/07-使用说明.md](desc/07-使用说明.md) — InfoModal 使用说明弹窗
 - [desc/08-工具函数与Toast.md](desc/08-工具函数与Toast.md) — dayjs 日期工具、Toast
-- [desc/09-布局与样式.md](desc/09-布局与样式.md) — SCSS Modules、token 体系、响应式布局
+- [desc/09-布局与样式.md](desc/09-布局与样式.md) — SCSS Modules、token 体系、暗黑模式、响应式布局
 - [desc/10-主入口与状态管理.md](desc/10-主入口与状态管理.md) — App.tsx 状态管理
 
 ## 架构概览
@@ -43,7 +43,7 @@ App.tsx 维护一个 `tick` 计数器作为全局刷新信号。组件通过 `st
 
 ### 数据层（store.ts）
 
-带完整类型定义的纯函数模块，直接读写 localStorage。非响应式，组件命令式调用后手动触发刷新。日期处理统一使用 dayjs。localStorage key 前缀：`ep_records`、`ep_coef`、`ep_first`、`ep_resets`、`ep_initialized`。
+带完整类型定义的纯函数模块，直接读写 localStorage。非响应式，组件命令式调用后手动触发刷新。日期处理统一使用 dayjs。localStorage key 前缀：`ep_records`、`ep_coef`、`ep_first`、`ep_resets`、`ep_initialized`、`ep_theme`、`ep_show_review`。
 
 ### 视图切换
 
@@ -51,10 +51,12 @@ App.tsx 维护一个 `tick` 计数器作为全局刷新信号。组件通过 `st
 
 ### 样式方案
 
-- **全局 token**：`src/styles/_variables.scss` 定义语义化 CSS 变量（颜色、圆角、字号、阴影、动画）
+- **全局 token**：`src/styles/_variables.scss` 定义语义化 CSS 变量（颜色、圆角、字号、阴影、动画），含 `[data-theme="dark"]` 暗黑模式覆盖
 - **全局样式**：`src/index.scss` 定义复用类（`.card`、`.btn-primary`、`.btn-secondary`、`.modal-overlay`）
 - **组件样式**：每个组件使用 `index.module.scss`（SCSS Modules，局部作用域）
+- **App 样式**：`src/App.module.scss` 定义 Header 和图标按钮样式
 - **响应式**：flexWrap 实现桌面 7:3 布局，移动端纵向堆叠
+- **暗黑模式**：`hooks/useTheme.ts` 管理主题状态，通过 `data-theme` 属性切换 CSS 变量，持久化到 `ep_theme`
 
 ### 分享导出
 

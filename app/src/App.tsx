@@ -35,13 +35,13 @@ export default function App() {
         <h1 className={styles.headerTitle}>EnglishPod 学习打卡</h1>
         <div className={styles.headerActions}>
           <button className={styles.iconBtn} onClick={toggleTheme} title="切换主题">
-            {theme === 'light' ? '🌙' : '☀️'}
+            {theme === 'light' ? '☾' : '☀'}
           </button>
           <button className={styles.iconBtn} onClick={() => setShowInfo(true)} title="使用说明">
-            ℹ️
+            ⓘ
           </button>
           <button className={styles.iconBtn} onClick={() => setShowSettings(true)} title="设置">
-            ⚙️
+            ⚙
           </button>
         </div>
       </header>
