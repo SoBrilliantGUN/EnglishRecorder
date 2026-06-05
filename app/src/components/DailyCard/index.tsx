@@ -3,6 +3,7 @@ import {
   getRecords, addRecord, getFirstDates, setFirstDate,
   todayStr, showToast
 } from '../../store';
+import ShareModal from '../ShareModal';
 import styles from './index.module.scss';
 
 interface DailyCardProps {
@@ -13,6 +14,7 @@ interface DailyCardProps {
 
 export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps) {
   const [modal, setModal] = useState(false);
+  const [shareModal, setShareModal] = useState(false);
   const [lesson, setLesson] = useState('');
   const [count, setCount] = useState('1');
 
@@ -59,13 +61,24 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
               {date === todayStr() ? `今天 · ${date}` : date}
             </p>
           </div>
-          <button
-            className="btn-primary"
-            style={{ padding: '6px 14px', fontSize: 13 }}
-            onClick={openModal}
-          >
-            打卡
-          </button>
+          <div style={{ display: 'flex', gap: 6 }}>
+            <button
+              className="btn-secondary"
+              style={{ padding: '6px 10px', fontSize: 13 }}
+              onClick={() => setShareModal(true)}
+              disabled={grouped.length === 0}
+              title="分享"
+            >
+              分享
+            </button>
+            <button
+              className="btn-primary"
+              style={{ padding: '6px 14px', fontSize: 13 }}
+              onClick={openModal}
+            >
+              打卡
+            </button>
+          </div>
         </div>
 
         {/* 课程列表 */}
@@ -107,6 +120,20 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
             </div>
           </div>
         </div>
+      )}
+
+      {/* 分享弹窗 */}
+      {shareModal && (
+        <ShareModal
+          label={date}
+          stats={{
+            checkins: records.length,
+            total: records.reduce((sum, r) => sum + r.count, 0),
+            lessons: new Set(records.map(r => r.lesson)).size
+          }}
+          groups={grouped}
+          onClose={() => setShareModal(false)}
+        />
       )}
     </>
   );
