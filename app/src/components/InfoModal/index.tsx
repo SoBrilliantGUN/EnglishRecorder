@@ -1,4 +1,9 @@
+import podcastsData from '../../data/podcasts.json';
+import type { Podcast } from '../../types/podcast';
 import styles from './index.module.scss';
+
+const podcasts = podcastsData as Podcast[];
+const MAX_LESSON = Math.max(...podcasts.map(p => p.id));
 
 interface InfoModalProps {
   onClose: () => void;
@@ -15,7 +20,9 @@ export default function InfoModal({ onClose }: InfoModalProps) {
 
         <ol className={styles.list}>
           <li>点击日历日期，右侧卡片显示该日学习内容</li>
-          <li>点击右侧卡片的"打卡"按钮录入学习记录</li>
+          <li>点击右侧卡片的"打卡"按钮录入学习记录（课程编号 1-{MAX_LESSON}）</li>
+          <li>日历下方为课程库，点击可查看对话文本</li>
+          <li>课程详情中选中文本右键可收藏或记笔记</li>
           <li>点击"查看记录"查看学习统计</li>
           <li>支持按日/周/月查看数据</li>
           <li>右侧显示近3天需复习的课程</li>

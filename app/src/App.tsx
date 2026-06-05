@@ -7,6 +7,8 @@ import DailyCard from './components/DailyCard';
 import ReviewReminder from './components/ReviewReminder';
 import InfoModal from './components/InfoModal';
 import SettingsModal from './components/SettingsModal';
+import PodcastList from './components/PodcastList';
+import PodcastDetail from './components/PodcastDetail';
 import styles from './App.module.scss';
 
 const SHOW_REVIEW_KEY = 'ep_show_review';
@@ -18,6 +20,8 @@ export default function App() {
   const [showInfo, setShowInfo] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
   const [showReview, setShowReview] = useState(() => localStorage.getItem(SHOW_REVIEW_KEY) !== 'false');
+  const [selectedLessonId, setSelectedLessonId] = useState<number | null>(null);
+  const [podcastPage, setPodcastPage] = useState(1);
   const { theme, toggle: toggleTheme } = useTheme();
 
   useEffect(() => { initData(); }, []);
@@ -27,6 +31,14 @@ export default function App() {
   const handleToggleReview = (val: boolean) => {
     setShowReview(val);
     localStorage.setItem(SHOW_REVIEW_KEY, String(val));
+  };
+
+  const handleSelectLesson = (lessonId: number) => {
+    setSelectedLessonId(lessonId);
+  };
+
+  const handleBackToPodcastList = () => {
+    setSelectedLessonId(null);
   };
 
   return (
@@ -46,17 +58,30 @@ export default function App() {
         </div>
       </header>
 
-      <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 20px 40px', display: 'flex', gap: 20, flexWrap: 'wrap', alignItems: 'stretch' }}>
+      <div style={{ maxWidth: 1600, margin: '0 auto', padding: '0 20px 40px', display: 'flex', gap: 20, flexWrap: 'wrap', alignItems: 'stretch' }}>
         {/* 左侧主区域 */}
-        <div style={{ flex: '7 1 320px', minWidth: 0, display: 'flex', flexDirection: 'column' }}>
-          {view === 'calendar'
-            ? <Calendar onSwitchView={setView} tick={tick} selected={selected} onSelectDate={setSelected} />
-            : <RecordsView onSwitchView={setView} onRefresh={refresh} />
-          }
+        <div style={{ flex: '1 1 0', minWidth: 0, display: 'flex', flexDirection: 'column', gap: 20 }}>
+          {view === 'calendar' && (
+            <>
+              <Calendar onSwitchView={setView} tick={tick} selected={selected} onSelectDate={setSelected} />
+              {selectedLessonId ? (
+                <PodcastDetail
+                  lessonId={selectedLessonId}
+                  onBack={handleBackToPodcastList}
+                  tick={tick}
+                />
+              ) : (
+                <PodcastList onSelectLesson={handleSelectLesson} currentPage={podcastPage} onPageChange={setPodcastPage} />
+              )}
+            </>
+          )}
+          {view === 'records' && (
+            <RecordsView onSwitchView={setView} onRefresh={refresh} />
+          )}
         </div>
 
         {/* 右侧侧边栏 */}
-        <div style={{ flex: '3 1 240px', minWidth: 0, alignSelf: 'flex-start' }}>
+        <div style={{ flex: '0 0 350px', minWidth: 0, alignSelf: 'flex-start' }}>
           <DailyCard selected={selected} onRefresh={refresh} tick={tick} />
           {showReview && <ReviewReminder onRefresh={refresh} tick={tick} />}
         </div>

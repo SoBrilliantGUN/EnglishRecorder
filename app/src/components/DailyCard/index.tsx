@@ -3,8 +3,13 @@ import {
   getRecords, addRecord, getFirstDates, setFirstDate,
   todayStr, showToast
 } from '../../store';
+import podcastsData from '../../data/podcasts.json';
+import type { Podcast } from '../../types/podcast';
 import ShareModal from '../ShareModal';
 import styles from './index.module.scss';
+
+const podcasts = podcastsData as Podcast[];
+const MAX_LESSON = Math.max(...podcasts.map(p => p.id));
 
 interface DailyCardProps {
   selected: string;
@@ -32,11 +37,15 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
   ).sort((a, b) => Number(a[0]) - Number(b[0]));
 
   const handleCheckin = () => {
-    if (!lesson || parseInt(lesson) < 0) { showToast('请输入有效课程编号'); return; }
+    const lessonNum = parseInt(lesson);
+    if (!lesson || lessonNum < 1 || lessonNum > MAX_LESSON) {
+      showToast(`请输入有效课程编号（1-${MAX_LESSON}）`);
+      return;
+    }
     if (!count || parseInt(count) < 1) { showToast('请输入有效学习次数'); return; }
-    addRecord(parseInt(lesson), parseInt(count), date);
+    addRecord(lessonNum, parseInt(count), date);
     const firstDates = getFirstDates();
-    if (!firstDates[parseInt(lesson)]) setFirstDate(parseInt(lesson), date);
+    if (!firstDates[lessonNum]) setFirstDate(lessonNum, date);
     setModal(false);
     setLesson('');
     setCount('1');

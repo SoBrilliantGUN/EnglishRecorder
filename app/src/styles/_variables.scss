@@ -23,6 +23,12 @@
   // 危险/删除
   --color-danger: #e74c3c;
 
+  // 成功
+  --color-success: #27ae60;
+
+  // 信息
+  --color-info: #3498db;
+
   // 警告/过期
   --color-warning: #F59E0B;
   --color-warning-dark: #D97706;
@@ -36,8 +42,14 @@
 
   // 阴影
   --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
   --shadow-warning: 0 2px 8px rgba(245, 158, 11, 0.12);
   --shadow-warning-glow: 0 2px 12px rgba(245, 158, 11, 0.2);
+
+  // Hover 状态
+  --color-hover: rgba(0, 0, 0, 0.04);
 
   // 圆角
   --radius-sm: 5px;
@@ -84,6 +96,12 @@
   // 危险/删除
   --color-danger: #ff6b6b;
 
+  // 成功
+  --color-success: #2ecc71;
+
+  // 信息
+  --color-info: #5dade2;
+
   // 警告/过期
   --color-warning: #F59E0B;
   --color-warning-dark: #FBBF24;
@@ -97,6 +115,12 @@
 
   // 阴影
   --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.4);
   --shadow-warning: 0 2px 8px rgba(245, 158, 11, 0.2);
   --shadow-warning-glow: 0 2px 12px rgba(245, 158, 11, 0.35);
+
+  // Hover 状态
+  --color-hover: rgba(255, 255, 255, 0.06);
 }
