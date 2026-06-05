@@ -59,3 +59,44 @@
   --transition-fast: 0.2s ease;
   --transition-base: 0.3s ease;
 }
+
+// 暗黑模式
+[data-theme="dark"] {
+  // 主色
+  --color-primary: #07C160;
+  --color-primary-hover: #09d668;
+
+  // 背景
+  --color-bg: #1a1a2e;
+  --color-bg-card: #25253e;
+  --color-bg-elevated: #2d2d4a;
+  --color-bg-muted: #333355;
+
+  // 文字
+  --color-text: #e8e8e8;
+  --color-text-secondary: #a0a0b0;
+  --color-text-disabled: #666680;
+  --color-text-inverse: #1a1a2e;
+
+  // 边框
+  --color-border: #3d3d5c;
+
+  // 危险/删除
+  --color-danger: #ff6b6b;
+
+  // 警告/过期
+  --color-warning: #F59E0B;
+  --color-warning-dark: #FBBF24;
+  --color-warning-text: #FCD34D;
+  --color-warning-bg-start: #2d2200;
+  --color-warning-bg-end: #3d2e00;
+
+  // 遮罩
+  --color-overlay: rgba(0, 0, 0, 0.7);
+  --color-toast-bg: rgba(40, 40, 60, 0.95);
+
+  // 阴影
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-warning: 0 2px 8px rgba(245, 158, 11, 0.2);
+  --shadow-warning-glow: 0 2px 12px rgba(245, 158, 11, 0.35);
+}

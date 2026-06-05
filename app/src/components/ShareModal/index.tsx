@@ -36,7 +36,7 @@ export default function ShareModal({ label, stats, groups, onClose }: ShareModal
             <button key={t.id} onClick={() => setShareTheme(t.id)} style={{
               flex: 1, padding: '6px 0', borderRadius: 8, border: '2px solid',
               borderColor: shareTheme === t.id ? 'var(--color-primary)' : 'var(--color-border)',
-              background: shareTheme === t.id ? 'rgba(7,193,96,0.08)' : '#fff',
+              background: shareTheme === t.id ? 'rgba(7,193,96,0.08)' : 'var(--color-bg-card)',
               color: shareTheme === t.id ? 'var(--color-primary)' : 'var(--color-text)',
               fontSize: 12, cursor: 'pointer', transition: 'all 0.2s',
             }}>{t.label}</button>

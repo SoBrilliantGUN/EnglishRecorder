@@ -1,0 +1,38 @@
+.infoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.infoTitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-text);
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  font-size: var(--font-size-xl);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+
+  &:hover {
+    background: var(--color-bg-muted);
+    color: var(--color-text);
+  }
+}
+
+.list {
+  padding-left: 20px;
+  margin: 0;
+  line-height: 1.8;
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+
+  li {
+    margin-bottom: 4px;
+  }
+}
