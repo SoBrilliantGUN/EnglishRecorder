@@ -46,7 +46,7 @@ function getLabel(tab: Tab, date: Date): string {
     const s = getWeekStart(date), e = getWeekEnd(date);
     return `${formatDate(s)} ~ ${formatDate(e)}`;
   }
-  return `${date.getFullYear()}\u5e74${date.getMonth() + 1}\u6708`;
+  return `${date.getFullYear()}年${date.getMonth() + 1}月`;
 }
 
 function filterRecords(tab: Tab, date: Date): Record[] {
@@ -107,7 +107,7 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
 
   const handleDelete = (lesson: number) => {
     deleteRecordsByDateAndLesson(formatDate(date), lesson);
-    showToast('\u5df2\u5220\u9664');
+    showToast('已删除');
     refresh();
   };
 
@@ -120,10 +120,10 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
         const result = ev.target?.result;
         if (typeof result === 'string') {
           importData(JSON.parse(result));
-          showToast('\u5bfc\u5165\u6210\u529f');
+          showToast('导入成功');
           refresh();
         }
-      } catch { showToast('\u6587\u4ef6\u683c\u5f0f\u9519\u8bef'); }
+      } catch { showToast('文件格式错误'); }
     };
     reader.readAsText(file);
     e.target.value = '';
@@ -133,12 +133,12 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
 
   return (
     <div className={`card ${styles.container}`}>
-      {/* \u9876\u90e8\u6309\u94ae */}
+      {/* 顶部按钮 */}
       <div className={styles.toolbar}>
-        <button className="btn-secondary" onClick={() => onSwitchView('calendar')}>\u8fd4\u56de\u6253\u5361</button>
-        <button className="btn-secondary" onClick={() => setShareModal(true)}>\u5206\u4eab</button>
-        <button className="btn-secondary" onClick={exportData}>\u5bfc\u51fa</button>
-        <button className="btn-secondary" onClick={() => fileRef.current?.click()}>\u5bfc\u5165</button>
+        <button className="btn-secondary" onClick={() => onSwitchView('calendar')}>返回打卡</button>
+        <button className="btn-secondary" onClick={() => setShareModal(true)}>分享</button>
+        <button className="btn-secondary" onClick={exportData}>导出</button>
+        <button className="btn-secondary" onClick={() => fileRef.current?.click()}>导入</button>
         <input ref={fileRef} type="file" accept=".json" style={{ display: 'none' }} onChange={handleImport} />
       </div>
 
@@ -150,45 +150,45 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
             className={`${styles.tab} ${tab === t ? styles.tabActive : ''}`}
             onClick={() => { setTab(t); setDate(new Date()); }}
           >
-            {t === 'day' ? '\u6309\u65e5' : t === 'week' ? '\u6309\u5468' : '\u6309\u6708'}
+            {t === 'day' ? '按日' : t === 'week' ? '按周' : '按月'}
           </button>
         ))}
       </div>
 
-      {/* \u65f6\u95f4\u5bfc\u822a */}
+      {/* 时间导航 */}
       <div className={styles.nav}>
         <button className="btn-secondary" style={{ padding: '5px 12px' }} onClick={prev}>&#8249;</button>
         <span className={styles.navLabel}>{getLabel(tab, date)}</span>
         <button className="btn-secondary" style={{ padding: '5px 12px' }} onClick={next} disabled={!canGoNext(tab, date)}>&#8250;</button>
       </div>
 
-      {/* \u8bb0\u5f55\u5217\u8868 */}
+      {/* 记录列表 */}
       <div className={styles.list}>
         {dayGroups.length === 0
-          ? <p className={styles.empty}>\u6682\u65e0\u8bb0\u5f55</p>
+          ? <p className={styles.empty}>暂无记录</p>
           : tab === 'day'
             ? dayGroups.map(([lesson, total]) => (
               <div key={lesson} className={styles.recordItem}>
-                <span>\u7b2c {String(lesson).padStart(2, '0')} \u8bfe &nbsp; \u5171 {total} \u6b21</span>
-                <button className={styles.deleteBtn} onClick={() => handleDelete(parseInt(lesson))}>\u5220\u9664</button>
+                <span>第 {String(lesson).padStart(2, '0')} 课 &nbsp; 共 {total} 次</span>
+                <button className={styles.deleteBtn} onClick={() => handleDelete(parseInt(lesson))}>删除</button>
               </div>
             ))
             : <div className={styles.gridView}>
               {dayGroups.map(([lesson, total]) => (
                 <div key={lesson} className={styles.gridItem}>
-                  <span>\u7b2c {String(lesson).padStart(2, '0')} \u8bfe &nbsp; \u5171 {total} \u6b21</span>
+                  <span>第 {String(lesson).padStart(2, '0')} 课 &nbsp; 共 {total} 次</span>
                 </div>
               ))}
             </div>
         }
       </div>
 
-      {/* \u6c47\u603b */}
+      {/* 汇总 */}
       <p className={styles.summary}>
-        \u6253\u5361\u6b21\u6570\uff1a{stats.checkins} \u6b21 &nbsp;|&nbsp; \u603b\u5b66\u4e60\u904d\u6570\uff1a{stats.total} \u904d &nbsp;|&nbsp; \u6d89\u53ca\u8bfe\u7a0b\u6570\uff1a{stats.lessons} \u95e8
+        打卡次数：{stats.checkins} 次 &nbsp;|&nbsp; 总学习遍数：{stats.total} 遍 &nbsp;|&nbsp; 涉及课程数：{stats.lessons} 门
       </p>
 
-      {/* \u5206\u4eab\u5f39\u7a97 */}
+      {/* 分享弹窗 */}
       {shareModal && (
         <ShareModal
           label={getLabel(tab, date)}

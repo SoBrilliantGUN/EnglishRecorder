@@ -73,7 +73,7 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
   const confirmReset = () => {
     if (resetModal === null) return;
     setReset(resetModal, todayStr());
-    showToast(`\u7b2c ${String(resetModal).padStart(2, '0')} \u8bfe\u5df2\u91cd\u7f6e`);
+    showToast(`第 ${String(resetModal).padStart(2, '0')} 课已重置`);
     setResetModal(null);
     onRefresh();
   };
@@ -101,18 +101,18 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
   return (
     <div className={`card ${styles.container}`}>
       <div className={styles.header}>
-        <h3 className={styles.title}>\u590d\u4e60\u63d0\u9192</h3>
+        <h3 className={styles.title}>复习提醒</h3>
         <button
           onClick={() => setSettingsOpen(o => !o)}
-          title="\u590d\u4e60\u8bbe\u7f6e"
+          title="复习设置"
           className={`${styles.settingsBtn} ${settingsOpen ? styles.settingsBtnActive : ''}`}
         >
-          \u2699
+          ⚙
         </button>
       </div>
 
       {reminders.length === 0 ? (
-        <p className={styles.empty}>\u8fd13\u5929\u65e0\u9700\u590d\u4e60</p>
+        <p className={styles.empty}>近3天无需复习</p>
       ) : (
         <>
           {visible.map(r => {
@@ -126,21 +126,21 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
             return (
               <div key={`${r.lesson}-${r.round}`} className={itemClass}>
                 <div>
-                  <span className={styles.lessonName}>\u7b2c {String(r.lesson).padStart(2, '0')} \u8bfe</span> &nbsp;
-                  <span className={styles.roundText}>\u7b2c {r.round} \u6b21\u590d\u4e60</span><br />
+                  <span className={styles.lessonName}>第 {String(r.lesson).padStart(2, '0')} 课</span> &nbsp;
+                  <span className={styles.roundText}>第 {r.round} 次复习</span><br />
                   <span className={r.isOverdue ? styles.dateOverdue : styles.dateNormal}>{friendlyDate(r.date)}</span>
                 </div>
                 <button
                   className={styles.resetBtn}
                   style={{ color: btnColor, border: `1px solid ${btnColor}` }}
                   onClick={() => handleReset(r.lesson)}
-                >\u91cd\u7f6e</button>
+                >重置</button>
               </div>
             );
           })}
           {reminders.length > COLLAPSED_COUNT && (
             <button className={styles.expandBtn} onClick={() => setExpanded(e => !e)}>
-              {expanded ? '\u6536\u8d77' : `\u5c55\u5f00\u53e6\u5916 ${reminders.length - COLLAPSED_COUNT} \u6761`}
+              {expanded ? '收起' : `展开另外 ${reminders.length - COLLAPSED_COUNT} 条`}
             </button>
           )}
         </>
@@ -149,16 +149,16 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
       {settingsOpen && (
         <div className={styles.settingsPanel}>
           <div className={styles.coefRow}>
-            <span className={styles.coefLabel}>\u95f4\u9694\u7cfb\u6570</span>
+            <span className={styles.coefLabel}>间隔系数</span>
             <button className="btn-secondary" style={{ padding: '4px 10px' }} onClick={() => adjustCoef(-0.1)} disabled={coef <= 0.5}>-0.1</button>
             <span className={styles.coefValue}>{coef.toFixed(1)}</span>
             <button className="btn-secondary" style={{ padding: '4px 10px' }} onClick={() => adjustCoef(0.1)} disabled={coef >= 3.0}>+0.1</button>
-            <button className="btn-secondary" style={{ padding: '4px 8px', fontSize: 12 }} onClick={resetCoef}>\u91cd\u7f6e</button>
+            <button className="btn-secondary" style={{ padding: '4px 8px', fontSize: 12 }} onClick={resetCoef}>重置</button>
           </div>
           <div>
             {previews.map(p => (
               <div key={p.round} className={styles.previewItem}>
-                \u7b2c {p.round} \u6b21\uff1a{p.date}\uff08+{p.days} \u5929\uff09
+                第 {p.round} 次：{p.date}（+{p.days} 天）
               </div>
             ))}
           </div>
@@ -168,15 +168,15 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
       {resetModal !== null && (
         <div className="modal-overlay" onClick={e => e.target === e.currentTarget && setResetModal(null)}>
           <div className="modal-content">
-            <h3 className={styles.modalTitle}>\u786e\u8ba4\u91cd\u7f6e\u7b2c {String(resetModal).padStart(2, '0')} \u8bfe\u7684\u590d\u4e60\u8fdb\u5ea6\u5417\uff1f</h3>
+            <h3 className={styles.modalTitle}>确认重置第 {String(resetModal).padStart(2, '0')} 课的复习进度吗？</h3>
             <p className={styles.modalText}>
-              \u91cd\u7f6e\u540e\uff0c<strong>\u4eca\u5929</strong>\u5c06\u4f5c\u4e3a\u8be5\u8bfe\u7a0b\u7684\u65b0\u8d77\u70b9\uff0c<br />
-              \u540e\u7eed\u590d\u4e60\u65e5\u671f\u5c06\u4ece\u4eca\u5929\u91cd\u65b0\u8ba1\u7b97\u3002<br />
-              <span className={styles.modalHint}>\u5386\u53f2\u6253\u5361\u8bb0\u5f55\u4e0d\u4f1a\u4e22\u5931\u3002</span>
+              重置后，<strong>今天</strong>将作为该课程的新起点，<br />
+              后续复习日期将从今天重新计算。<br />
+              <span className={styles.modalHint}>历史打卡记录不会丢失。</span>
             </p>
             <div className={styles.modalFooter}>
-              <button className="btn-secondary" onClick={() => setResetModal(null)}>\u53d6\u6d88</button>
-              <button className="btn-primary" onClick={confirmReset}>\u786e\u8ba4\u91cd\u7f6e</button>
+              <button className="btn-secondary" onClick={() => setResetModal(null)}>取消</button>
+              <button className="btn-primary" onClick={confirmReset}>确认重置</button>
             </div>
           </div>
         </div>
