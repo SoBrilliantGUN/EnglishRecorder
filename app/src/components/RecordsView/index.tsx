@@ -112,11 +112,13 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
     <div className={`card ${styles.container}`}>
       {/* 顶部按钮 */}
       <div className={styles.toolbar}>
+        <div className={styles.toolbarLeft}>
+          <button className="btn-secondary" onClick={() => setShareModal(true)}>分享</button>
+          <button className="btn-secondary" onClick={exportData}>导出</button>
+          <button className="btn-secondary" onClick={() => fileRef.current?.click()}>导入</button>
+          <input ref={fileRef} type="file" accept=".json" style={{ display: 'none' }} onChange={handleImport} />
+        </div>
         <button className="btn-secondary" onClick={() => onSwitchView('calendar')}>返回打卡</button>
-        <button className="btn-secondary" onClick={() => setShareModal(true)}>分享</button>
-        <button className="btn-secondary" onClick={exportData}>导出</button>
-        <button className="btn-secondary" onClick={() => fileRef.current?.click()}>导入</button>
-        <input ref={fileRef} type="file" accept=".json" style={{ display: 'none' }} onChange={handleImport} />
       </div>
 
       {/* Tab */}
