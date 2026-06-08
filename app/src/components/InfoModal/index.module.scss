@@ -36,3 +36,45 @@
     margin-bottom: 4px;
   }
 }
+
+.divider {
+  margin: 16px 0;
+  border: none;
+  border-top: 1px solid var(--color-border);
+}
+
+.tipSection {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.tipTitle {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 6px;
+}
+
+.tipDesc {
+  margin: 0 0 6px;
+  line-height: 1.6;
+}
+
+.tipLink {
+  color: var(--color-primary);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.tipList {
+  margin: 0;
+  padding-left: 20px;
+  line-height: 1.8;
+
+  li {
+    margin-bottom: 2px;
+  }
+}
