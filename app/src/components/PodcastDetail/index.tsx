@@ -2,19 +2,34 @@ import { useState, useEffect } from 'react';
 import podcastsData from '../../data/podcasts.json';
 import type { Podcast } from '../../types/podcast';
 import { LEVEL_COLORS } from '../../types/podcast';
+import { getRecords, todayStr } from '../../store';
 import { ChevronLeftIcon, ChevronRightIcon } from '../icons';
+import CheckinModal from '../CheckinModal';
+import ShareModal from '../ShareModal';
 import styles from './index.module.scss';
 
 interface PodcastDetailProps {
   lessonId: number;
   onBack: () => void;
   onNavigate: (id: number) => void;
+  onRefresh: () => void;
 }
 
-export default function PodcastDetail({ lessonId, onBack, onNavigate }: PodcastDetailProps) {
+interface SingleShareData {
+  lessonCode: string;
+  title: string;
+  level: string;
+  levelColor: string;
+  thisCount: number;
+  totalCount: number;
+}
+
+export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh }: PodcastDetailProps) {
   const [transcript, setTranscript] = useState<string>('');
   const [transcriptLoading, setTranscriptLoading] = useState(false);
   const [transcriptError, setTranscriptError] = useState(false);
+  const [showCheckin, setShowCheckin] = useState(false);
+  const [shareData, setShareData] = useState<SingleShareData | null>(null);
 
   const podcasts = podcastsData as Podcast[];
   const lesson = podcasts.find(p => p.id === lessonId);
@@ -46,6 +61,21 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate }: PodcastD
   const hasPrev = lessonId > minId;
   const hasNext = lessonId < maxId;
 
+  const handleCheckinSuccess = (checkedLesson: number, count: number) => {
+    if (!lesson) return;
+    onRefresh();
+    // 打卡成功后计算历史累计并弹出分享弹窗
+    const allRecords = getRecords().filter(r => r.lesson === checkedLesson);
+    const totalCount = allRecords.reduce((s, r) => s + r.count, 0);
+    setShareData({
+      lessonCode: lesson.code,
+      title: lesson.title,
+      level: lesson.level,
+      levelColor: LEVEL_COLORS[lesson.level] ?? '#888',
+      thisCount: count,
+      totalCount,
+    });
+  };
 
   if (!lesson) {
     return (
@@ -71,6 +101,14 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate }: PodcastD
           </span>
         </div>
         <div className={styles.navBtns}>
+          <button
+            className="btn-primary"
+            style={{ padding: '0.5rem 0.875rem', fontSize: 'var(--font-size-sm)' }}
+            onClick={() => setShowCheckin(true)}
+            title="单课打卡"
+          >
+            单课打卡
+          </button>
           <button
             className={styles.navBtn}
             onClick={() => onNavigate(lessonId - 1)}
@@ -118,6 +156,32 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate }: PodcastD
         )}
       </div>
 
+      {/* 单课打卡弹窗 */}
+      {showCheckin && (
+        <CheckinModal
+          date={todayStr()}
+          defaultLesson={lessonId}
+          lockLesson
+          onClose={() => setShowCheckin(false)}
+          onSuccess={handleCheckinSuccess}
+        />
+      )}
+
+      {/* 单课分享弹窗 */}
+      {shareData && (
+        <ShareModal
+          mode="single"
+          date={todayStr()}
+          lessonId={lessonId}
+          lessonCode={shareData.lessonCode}
+          title={shareData.title}
+          level={shareData.level}
+          levelColor={shareData.levelColor}
+          thisCount={shareData.thisCount}
+          totalCount={shareData.totalCount}
+          onClose={() => setShareData(null)}
+        />
+      )}
     </div>
   );
 }

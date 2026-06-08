@@ -1,12 +1,12 @@
-import { CardProps } from '../types';
+import { MultiCardProps } from '../../types';
+import styles from './index.module.scss';
 
-// 主题 B：清新活泼
-export default function CardWarm({ label, stats, groups }: CardProps) {
+// 主题 B：清新活泼（多课分享）
+export default function CardWarm({ label, stats, groups }: MultiCardProps) {
   return (
-    <div style={{
+    <div className={styles.card} style={{
       background: 'linear-gradient(145deg, #fff9f0 0%, #ffecd6 100%)',
       borderRadius: 24, padding: 32, fontFamily: 'sans-serif',
-      position: 'relative', overflow: 'hidden',
       boxShadow: '0 20px 60px rgba(255,140,60,0.15)',
     }}>
       <div style={{ position: 'absolute', width: 180, height: 180, background: '#ffb347', borderRadius: '50%', filter: 'blur(40px)', opacity: 0.4, top: -60, right: -40 }} />

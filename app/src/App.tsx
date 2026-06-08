@@ -69,6 +69,7 @@ export default function App() {
               lessonId={selectedLessonId}
               onBack={handleBackToPodcastList}
               onNavigate={setSelectedLessonId}
+              onRefresh={refresh}
             />
           ) : (
             <PodcastList onSelectLesson={handleSelectLesson} currentPage={podcastPage} onPageChange={setPodcastPage} />

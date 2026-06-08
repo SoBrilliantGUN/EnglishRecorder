@@ -1,11 +1,12 @@
-import { CardProps } from '../types';
+import { MultiCardProps } from '../../types';
+import styles from './index.module.scss';
 
-// 主题 A：暗黑科技
-export default function CardDark({ label, stats, groups }: CardProps) {
+// 主题 A：暗黑科技（多课分享）
+export default function CardDark({ label, stats, groups }: MultiCardProps) {
   return (
-    <div style={{
+    <div className={styles.card} style={{
       background: '#0a0a0a', borderRadius: 16, padding: 28,
-      fontFamily: 'monospace', position: 'relative', overflow: 'hidden',
+      fontFamily: 'monospace',
     }}>
       <div style={{
         position: 'absolute', top: -60, right: -60, width: 200, height: 200,
