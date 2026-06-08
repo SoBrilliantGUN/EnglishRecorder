@@ -80,6 +80,7 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
   const [tab, setTab] = useState<Tab>('day');
   const [date, setDate] = useState(new Date());
   const [shareModal, setShareModal] = useState(false);
+  const [deleteModal, setDeleteModal] = useState<number | null>(null);
   const [, setTick] = useState(0);
   const fileRef = useRef<HTMLInputElement>(null);
 
@@ -106,8 +107,14 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
   };
 
   const handleDelete = (lesson: number) => {
-    deleteRecordsByDateAndLesson(formatDate(date), lesson);
+    setDeleteModal(lesson);
+  };
+
+  const confirmDelete = () => {
+    if (deleteModal === null) return;
+    deleteRecordsByDateAndLesson(formatDate(date), deleteModal);
     showToast('已删除');
+    setDeleteModal(null);
     refresh();
   };
 
@@ -196,6 +203,22 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
           groups={dayGroups}
           onClose={() => setShareModal(false)}
         />
+      )}
+      {/* 删除确认弹窗 */}
+      {deleteModal !== null && (
+        <div className="modal-overlay" onClick={e => e.target === e.currentTarget && setDeleteModal(null)}>
+          <div className="modal-content">
+            <h3 className={styles.modalTitle}>确认删除第 {String(deleteModal).padStart(2, '0')} 课的打卡记录吗？</h3>
+            <p className={styles.modalText}>
+              将删除 <strong>{formatDate(date)}</strong> 当天该课程的所有打卡记录。<br />
+              <span className={styles.modalHint}>此操作不可恢复。</span>
+            </p>
+            <div className={styles.modalFooter}>
+              <button className="btn-secondary" onClick={() => setDeleteModal(null)}>取消</button>
+              <button className="btn-primary" onClick={confirmDelete}>确认删除</button>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );
