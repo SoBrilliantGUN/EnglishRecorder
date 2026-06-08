@@ -114,6 +114,7 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
                 type="number" min={0} max={999}
                 value={lesson} onChange={e => setLesson(e.target.value)}
                 placeholder="请输入课程编号"
+                autoFocus
               />
             </div>
             <div className={styles.formGroupLast}>
