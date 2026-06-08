@@ -21,22 +21,17 @@ function showToast(msg: string): void
 todayStr(): string                    // 返回今天 "YYYY-MM-DD"
 formatDate(date: Date): string        // Date 对象转 "YYYY-MM-DD"（dayjs.format）
 addDays(date: Date, n: number): Date  // 返回 date+n 天的 Date 对象（dayjs.add）
-getWeekStart(date: Date): Date        // 返回该日期所在周的周一（周日特殊处理）
-getWeekEnd(date: Date): Date          // 返回该日期所在周的周日
+getWeekStart(date: Date): Date        // 返回该日期所在周的周一（dayjs，周日 diff=-6）
+getWeekEnd(date: Date): Date          // 返回该日期所在周的周日（getWeekStart + 6天）
 ```
 
 ### 日期比较
 ```typescript
 isSameDay(a: string | Date, b: string | Date): boolean  // 两个日期是否同一天
-isFuture(dateStr: string): boolean                       // 是否未来日期
+isFuture(dateStr: string): boolean                       // 是否未来日期（字符串直接比较）
 ```
 
 ### 格式化显示
 ```typescript
 friendlyDate(dateStr: string): string  // 今天→"今天"，明天→"明天"，后天→"后天"，其他→原字符串
 ```
-
-## 注意事项
-- 日期处理统一使用 dayjs，不再手写 Date 操作
-- 所有日期计算统一使用本地时间（不使用 UTC）
-- `getWeekStart` 必须正确处理周日（`getDay() === 0` 时 diff = -6）
