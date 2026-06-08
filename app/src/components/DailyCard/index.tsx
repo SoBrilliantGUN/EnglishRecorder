@@ -96,27 +96,29 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
       {/* 打卡弹窗 */}
       {modal && (
         <Modal onClose={() => setModal(false)}>
-          <h3 className="modal-title">{date} 打卡</h3>
-          <div className={styles.formGroup}>
-            <label className={styles.label}>课程编号</label>
-            <input
-              type="number" min={0} max={999}
-              value={lesson} onChange={e => setLesson(e.target.value)}
-              placeholder="请输入课程编号"
-              autoFocus
-            />
-          </div>
-          <div className={styles.formGroupLast}>
-            <label className={styles.label}>学习次数</label>
-            <input
-              type="number" min={1}
-              value={count} onChange={e => setCount(e.target.value)}
-            />
-          </div>
-          <div className="modal-footer">
-            <button className="btn-secondary" onClick={() => setModal(false)}>取消</button>
-            <button className="btn-primary" onClick={handleCheckin}>确认打卡</button>
-          </div>
+          <form onSubmit={e => { e.preventDefault(); handleCheckin(); }}>
+            <h3 className="modal-title">{date} 打卡</h3>
+            <div className={styles.formGroup}>
+              <label className={styles.label}>课程编号</label>
+              <input
+                type="number" min={0} max={999}
+                value={lesson} onChange={e => setLesson(e.target.value)}
+                placeholder="请输入课程编号"
+                autoFocus
+              />
+            </div>
+            <div className={styles.formGroupLast}>
+              <label className={styles.label}>学习次数</label>
+              <input
+                type="number" min={1}
+                value={count} onChange={e => setCount(e.target.value)}
+              />
+            </div>
+            <div className="modal-footer">
+              <button type="button" className="btn-secondary" onClick={() => setModal(false)}>取消</button>
+              <button type="submit" className="btn-primary">确认打卡</button>
+            </div>
+          </form>
         </Modal>
       )}
 
