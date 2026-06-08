@@ -1,12 +1,12 @@
-import { MultiCardProps } from '../../types';
-import styles from './index.module.scss';
+import { MultiCardProps } from '../types';
 
-// 主题 A：暗黑科技（多课分享）
+// 多课·暗黑科技
+// 注意：组件所有样式使用内联，禁止引入 CSS Modules，保证 html2canvas 导出正确
 export default function CardDark({ label, stats, groups }: MultiCardProps) {
   return (
-    <div className={styles.card} style={{
+    <div style={{
       background: '#0a0a0a', borderRadius: 16, padding: 28,
-      fontFamily: 'monospace',
+      fontFamily: 'monospace', position: 'relative', overflow: 'hidden',
     }}>
       <div style={{
         position: 'absolute', top: -60, right: -60, width: 200, height: 200,

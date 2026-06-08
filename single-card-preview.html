@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>单课打卡卡片 · 设计预览 v2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=Syne:wght@700;800&family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;600;700;900&family=Caveat:wght@500;600;700&family=JetBrains+Mono:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: #0e0e0e;
+  font-family: 'Outfit', sans-serif;
+  padding: 48px 24px 80px;
+}
+.page-title {
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: 5px;
+  color: #3a3a3a;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+}
+.section { margin-bottom: 80px; }
+.section-label {
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 6px;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #1c1c1c;
+}
+.cards-row {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+/* 统一卡片容器 */
+.card {
+  width: 360px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+/* ================================================================
+   DARK V1 · 终端档案
+   构图：顶部 terminal bar → 中段 lesson ID 大字 + 课程信息 → 底部 stats
+   ================================================================ */
+.dv1 {
+  background: #030806;
+  border-radius: 14px;
+  border: 1px solid #091410;
+  font-family: 'JetBrains Mono', monospace;
+}
+/* 横向扫描线 */
+.dv1::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    180deg,
+    transparent 0px, transparent 3px,
+    rgba(0,20,10,0.35) 3px, rgba(0,20,10,0.35) 4px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+/* 扫描光 */
+.dv1-scan {
+  position: absolute;
+  left: 0; right: 0;
+  height: 120px;
+  background: linear-gradient(180deg, transparent, rgba(0,255,80,0.025), transparent);
+  animation: dv1scan 5s linear infinite;
+  pointer-events: none;
+  z-index: 2;
+}
+@keyframes dv1scan { 0%{top:-120px} 100%{top:760px} }
+
+.dv1-inner {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 顶部 terminal bar — 固定高 42px */
+.dv1-bar {
+  height: 42px;
+  border-bottom: 1px solid #0c1f12;
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  gap: 7px;
+  flex-shrink: 0;
+}
+.dv1-dot { width: 9px; height: 9px; border-radius: 50%; }
+.dv1-dot:nth-child(1) { background: #112010; }
+.dv1-dot:nth-child(2) { background: #0a1a0a; }
+.dv1-dot:nth-child(3) { background: #060e06; }
+.dv1-bar-title {
+  margin-left: auto;
+  font-size: 9px;
+  color: #1a3820;
+  letter-spacing: 2px;
+}
+
+/* 中段英雄区 — flex: 1 占满剩余 */
+.dv1-hero {
+  flex: 1;
+  padding: 28px 24px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+/* 超大课号水印，锚定在英雄区 */
+.dv1-num-bg {
+  position: absolute;
+  bottom: -20px;
+  right: -12px;
+  font-size: 220px;
+  font-weight: 800;
+  color: rgba(0,255,80,0.03);
+  line-height: 1;
+  letter-spacing: -8px;
+  pointer-events: none;
+  user-select: none;
+}
+.dv1-prompt {
+  font-size: 10px;
+  color: #1b3e22;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.dv1-prompt em { color: #00cc55; font-style: normal; }
+.dv1-prompt-ok {
+  font-size: 10px;
+  color: #00cc55;
+  letter-spacing: 1px;
+  margin-bottom: 28px;
+}
+.dv1-cursor {
+  display: inline-block;
+  width: 7px; height: 13px;
+  background: #00ff55;
+  margin-left: 3px;
+  vertical-align: middle;
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+.dv1-badge {
+  display: inline-flex;
+  align-self: flex-start;
+  font-size: 8px;
+  letter-spacing: 2px;
+  border: 1px solid rgba(0,255,80,0.25);
+  color: rgba(0,255,80,0.7);
+  padding: 3px 10px;
+  border-radius: 2px;
+  margin-bottom: 14px;
+}
+.dv1-code {
+  font-size: 11px;
+  color: #1f4028;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+.dv1-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #00ff55;
+  line-height: 1.25;
+  text-shadow: 0 0 24px rgba(0,255,85,0.35);
+  margin-bottom: 10px;
+}
+.dv1-date {
+  font-size: 10px;
+  color: #1f4028;
+  letter-spacing: 2px;
+  margin-top: auto;
+  padding-bottom: 24px;
+}
+
+/* 底部 stats — 固定高 200px */
+.dv1-stats {
+  height: 200px;
+  flex-shrink: 0;
+  border-top: 1px solid #0c1f12;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.dv1-stat {
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.dv1-stat + .dv1-stat::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 20%; height: 60%;
+  width: 1px;
+  background: #0c1f12;
+}
+.dv1-stat-lbl {
+  font-size: 8px;
+  color: #1b3e22;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.dv1-stat-val {
+  font-size: 56px;
+  font-weight: 800;
+  color: #00ff55;
+  line-height: 1;
+  text-shadow: 0 0 20px rgba(0,255,80,0.4);
+}
+.dv1-stat-unit { font-size: 13px; color: #1b3e22; margin-left: 3px; }
+.dv1-footer {
+  height: 36px;
+  flex-shrink: 0;
+  border-top: 1px solid #0c1f12;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.dv1-footer span { font-size: 8px; color: #112010; letter-spacing: 2px; }
+
+
+/* ================================================================
+   DARK V2 · 深渊紫焰
+   构图：大背景紫色网格 → 顶1/3 品牌+标题 → 中 大数字占满 → 底 meta
+   ================================================================ */
+.dv2 {
+  background: #08000f;
+  border-radius: 16px;
+  font-family: 'Syne', sans-serif;
+}
+.dv2-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(160,0,255,0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(160,0,255,0.07) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+.dv2-glow1 {
+  position: absolute;
+  width: 340px; height: 340px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(160,0,255,0.2) 0%, transparent 65%);
+  top: -120px; left: -100px;
+}
+.dv2-glow2 {
+  position: absolute;
+  width: 300px; height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,0,130,0.18) 0%, transparent 65%);
+  bottom: -80px; right: -80px;
+}
+/* 斜切装饰线 */
+.dv2-slash {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(135deg,
+    transparent 0%,
+    transparent 54%,
+    rgba(160,0,255,0.04) 54%,
+    rgba(160,0,255,0.04) 56%,
+    transparent 56%
+  );
+}
+.dv2-inner {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 28px;
+}
+.dv2-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+.dv2-brand {
+  font-size: 8px;
+  letter-spacing: 5px;
+  color: rgba(160,0,255,0.45);
+  text-transform: uppercase;
+}
+.dv2-level {
+  font-size: 8px;
+  padding: 3px 10px;
+  border: 1px solid rgba(255,0,130,0.35);
+  color: rgba(255,0,130,0.8);
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.dv2-code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: rgba(160,0,255,0.35);
+  letter-spacing: 4px;
+  margin-bottom: 16px;
+}
+.dv2-title {
+  font-size: 34px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+/* 中间弹性空白 */
+.dv2-spacer { flex: 1; }
+
+/* 大数字区 */
+.dv2-nums {
+  display: flex;
+  gap: 0;
+  margin-bottom: 10px;
+}
+.dv2-num-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.dv2-num-block + .dv2-num-block {
+  padding-left: 24px;
+  margin-left: 24px;
+}
+.dv2-num-block + .dv2-num-block::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 8px; bottom: 8px;
+  width: 1px;
+  background: linear-gradient(180deg, transparent, rgba(160,0,255,0.3), transparent);
+}
+.dv2-big {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 1;
+  background: linear-gradient(135deg, #b400ff 0%, #ff0096 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.dv2-unit {
+  font-size: 14px;
+  color: rgba(255,255,255,0.2);
+  margin-top: 4px;
+  letter-spacing: 2px;
+}
+.dv2-desc {
+  font-size: 9px;
+  color: rgba(255,255,255,0.15);
+  letter-spacing: 3px;
+  margin-top: 6px;
+}
+.dv2-rule {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(160,0,255,0.4), rgba(255,0,130,0.4), transparent);
+  margin-bottom: 16px;
+}
+.dv2-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dv2-date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: rgba(255,255,255,0.15);
+  letter-spacing: 2px;
+}
+.dv2-watermark {
+  font-size: 9px;
+  color: rgba(160,0,255,0.15);
+  letter-spacing: 4px;
+}
+
+
+/* ================================================================
+   DARK V3 · 冰川夜
+   构图：顶部全幅极光背景 (占60%) → 下半段磨砂卡片内嵌stats
+   ================================================================ */
+.dv3 {
+  background: #010d18;
+  border-radius: 20px;
+  font-family: 'Outfit', sans-serif;
+  border: 1px solid rgba(0,180,160,0.1);
+}
+.dv3-aurora-top {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 380px;
+  background:
+    radial-gradient(ellipse 90% 60% at 50% 0%, rgba(0,200,180,0.14) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 80% at 10% 50%, rgba(0,80,200,0.12) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 90% 30%, rgba(0,160,220,0.1) 0%, transparent 60%);
+}
+.dv3-stars {
+  position: absolute;
+  inset: 0;
+}
+.dv3-stars::before, .dv3-stars::after {
+  content: '';
+  position: absolute;
+  width: 2px; height: 2px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.6);
+  box-shadow:
+    40px 60px 0 rgba(255,255,255,0.4),
+    90px 30px 0 rgba(255,255,255,0.3),
+    150px 80px 0 rgba(255,255,255,0.5),
+    220px 45px 0 rgba(255,255,255,0.3),
+    300px 90px 0 rgba(255,255,255,0.4),
+    60px 140px 0 rgba(255,255,255,0.2),
+    180px 160px 0 rgba(255,255,255,0.3),
+    320px 130px 0 rgba(255,255,255,0.4),
+    130px 200px 0 rgba(255,255,255,0.2),
+    260px 180px 0 rgba(255,255,255,0.3);
+}
+.dv3-inner {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 上半段：内容区 */
+.dv3-content {
+  flex: 1;
+  padding: 30px 28px 24px;
+  display: flex;
+  flex-direction: column;
+}
+.dv3-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.dv3-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dv3-brand::before {
+  content: '';
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #00c8b4;
+  box-shadow: 0 0 10px #00c8b4;
+  display: block;
+}
+.dv3-brand-text {
+  font-size: 9px;
+  font-weight: 700;
+  color: rgba(0,200,180,0.7);
+  letter-spacing: 3px;
+}
+.dv3-level {
+  font-size: 9px;
+  padding: 3px 12px;
+  border-radius: 100px;
+  border: 1px solid rgba(0,180,200,0.3);
+  color: rgba(0,180,200,0.7);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+/* 课号水印 */
+.dv3-num-bg {
+  position: absolute;
+  top: 64px;
+  right: -10px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 160px;
+  font-weight: 800;
+  color: rgba(0,200,180,0.04);
+  line-height: 1;
+  letter-spacing: -6px;
+  pointer-events: none;
+}
+.dv3-code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: rgba(0,200,180,0.35);
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+}
+.dv3-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.92);
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+.dv3-date {
+  font-size: 11px;
+  color: rgba(0,200,180,0.3);
+  letter-spacing: 3px;
+  margin-top: auto;
+}
+
+/* 下半段：磨砂数据卡 — 固定高 240px */
+.dv3-glass {
+  height: 240px;
+  flex-shrink: 0;
+  background: rgba(0,20,30,0.6);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(0,200,180,0.12);
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+}
+.dv3-stats-row {
+  display: flex;
+  gap: 0;
+  flex: 1;
+}
+.dv3-stat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.dv3-stat + .dv3-stat {
+  padding-left: 28px;
+  margin-left: 28px;
+}
+.dv3-stat + .dv3-stat::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 10%; height: 80%;
+  width: 1px;
+  background: rgba(0,200,180,0.1);
+}
+.dv3-stat-lbl {
+  font-size: 9px;
+  color: rgba(0,200,180,0.3);
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.dv3-stat-num {
+  font-size: 64px;
+  font-weight: 800;
+  color: #00c8b4;
+  line-height: 1;
+  text-shadow: 0 0 24px rgba(0,200,180,0.5);
+}
+.dv3-stat-unit { font-size: 14px; color: rgba(0,200,180,0.35); }
+.dv3-glass-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px solid rgba(0,200,180,0.08);
+  margin-top: 16px;
+}
+.dv3-glass-footer span {
+  font-size: 8px;
+  color: rgba(0,200,180,0.15);
+  letter-spacing: 4px;
+}
+
+
+/* ================================================================
+   WARM V1 · 东京编辑部
+   构图：顶 1/3 朱红色 hero 大标题 → 下 2/3 米白内容+stats
+   ================================================================ */
+.wv1 {
+  background: #fff;
+  border-radius: 14px;
+  font-family: 'Playfair Display', serif;
+  overflow: hidden;
+}
+
+/* 上段朱红 hero */
+.wv1-hero {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 248px;
+  background: #c1311e;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px 28px;
+  overflow: hidden;
+}
+.wv1-hero::before {
+  content: '';
+  position: absolute;
+  bottom: -60px; right: -60px;
+  width: 220px; height: 220px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.08);
+}
+.wv1-hero::after {
+  content: '';
+  position: absolute;
+  top: -40px; left: -40px;
+  width: 160px; height: 160px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.04);
+}
+.wv1-hero-brand {
+  font-family: 'Outfit', sans-serif;
+  font-size: 8px;
+  letter-spacing: 5px;
+  color: rgba(255,255,255,0.5);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 1;
+}
+.wv1-hero-title {
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+  color: #fff;
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+}
+.wv1-hero-code {
+  font-family: 'Outfit', sans-serif;
+  font-size: 10px;
+  color: rgba(255,255,255,0.45);
+  letter-spacing: 3px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+}
+/* 金色斜角装饰 */
+.wv1-corner {
+  position: absolute;
+  top: 20px; right: 20px;
+  width: 50px; height: 50px;
+  border: 1.5px solid rgba(255,220,100,0.4);
+  border-radius: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wv1-corner-text {
+  font-family: 'Outfit', sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: rgba(255,220,100,0.6);
+  text-align: center;
+  line-height: 1.3;
+}
+
+/* 下段米色内容 */
+.wv1-body {
+  position: absolute;
+  top: 248px; left: 0; right: 0; bottom: 0;
+  background: #faf5ee;
+  display: flex;
+  flex-direction: column;
+  padding: 26px 28px 24px;
+}
+.wv1-level-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.wv1-level {
+  font-family: 'Outfit', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 3px 10px;
+  border-radius: 2px;
+  background: rgba(193,49,30,0.1);
+  color: #c1311e;
+}
+.wv1-date {
+  font-family: 'Outfit', sans-serif;
+  font-size: 10px;
+  color: #a07850;
+}
+.wv1-rule {
+  height: 1px;
+  background: linear-gradient(90deg, #c1311e 0%, #d4a030 60%, transparent 100%);
+  margin-bottom: 22px;
+}
+.wv1-stats {
+  display: flex;
+  gap: 0;
+  flex: 1;
+}
+.wv1-stat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.wv1-stat + .wv1-stat {
+  padding-left: 24px;
+  margin-left: 24px;
+}
+.wv1-stat + .wv1-stat::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 10%; height: 80%;
+  width: 1px;
+  background: rgba(193,49,30,0.12);
+}
+.wv1-stat-num {
+  font-size: 64px;
+  font-weight: 700;
+  font-style: italic;
+  color: #c1311e;
+  line-height: 1;
+}
+.wv1-stat-unit { font-size: 16px; color: #a07850; font-style: normal; }
+.wv1-stat-desc {
+  font-family: 'Outfit', sans-serif;
+  font-size: 10px;
+  color: #b08060;
+  margin-top: 8px;
+}
+.wv1-footer {
+  font-family: 'Outfit', sans-serif;
+  font-size: 9px;
+  color: #c8a87a;
+  text-align: right;
+  letter-spacing: 2px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(193,49,30,0.08);
+}
+
+
+/* ================================================================
+   WARM V2 · 橙焰闪卡
+   构图：全版亮白，左侧竖排大字 + 右侧内容，底部强色 stats 条
+   ================================================================ */
+.wv2 {
+  background: #fffaf5;
+  border-radius: 20px;
+  font-family: 'Syne', sans-serif;
+  border: 2.5px solid #ff4d00;
+}
+
+/* 左侧橙色竖条 */
+.wv2-sidebar {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 64px;
+  background: #ff4d00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.wv2-sidebar::before {
+  content: '';
+  position: absolute;
+  width: 120px; height: 120px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+  top: -40px; left: -60px;
+}
+.wv2-sidebar-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  color: rgba(255,255,255,0.6);
+  text-transform: uppercase;
+}
+
+/* 主内容区 */
+.wv2-main {
+  position: absolute;
+  left: 64px; top: 0; right: 0; bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 24px 24px;
+}
+.wv2-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 28px;
+}
+.wv2-brand {
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #ff4d00;
+  text-transform: uppercase;
+}
+.wv2-level {
+  font-size: 8px;
+  border: 1.5px solid #ff4d00;
+  color: #ff4d00;
+  padding: 3px 8px;
+  border-radius: 100px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.wv2-code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: rgba(255,77,0,0.5);
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.wv2-title {
+  font-size: 30px;
+  font-weight: 800;
+  color: #1a0800;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+.wv2-date {
+  font-size: 11px;
+  color: #c08060;
+  letter-spacing: 1px;
+}
+.wv2-spacer { flex: 1; }
+
+/* 底部大数字 stats */
+.wv2-stats {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 0;
+}
+.wv2-stat-box {
+  flex: 1;
+  background: #ff4d00;
+  border-radius: 14px;
+  padding: 20px 16px 18px;
+  position: relative;
+  overflow: hidden;
+}
+.wv2-stat-box::before {
+  content: '';
+  position: absolute;
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+  bottom: -40px; right: -30px;
+}
+.wv2-stat-box-alt {
+  background: #fff3ee;
+  border: 2px solid rgba(255,77,0,0.2);
+}
+.wv2-stat-box-alt .wv2-stat-num { color: #ff4d00; }
+.wv2-stat-box-alt .wv2-stat-lbl { color: #c08060; }
+.wv2-stat-num {
+  font-size: 56px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+}
+.wv2-stat-unit { font-size: 14px; opacity: 0.7; }
+.wv2-stat-lbl {
+  font-size: 10px;
+  color: rgba(255,255,255,0.6);
+  letter-spacing: 2px;
+  margin-top: 6px;
+}
+.wv2-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+.wv2-footer-txt { font-size: 9px; color: #d0a080; letter-spacing: 2px; }
+.wv2-footer-star { color: #ff4d00; font-size: 14px; }
+
+
+/* ================================================================
+   WARM V3 · 咖啡手帐
+   构图：纸质感全幅 → 顶部手写题头 → 中段斜体大标题 → 底部手绘分隔 + stats
+   ================================================================ */
+.wv3 {
+  background: #f0e8d8;
+  border-radius: 12px;
+  font-family: 'DM Serif Display', serif;
+}
+/* 纸张纹理横线 */
+.wv3-lines {
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    180deg,
+    transparent 0px,
+    transparent 31px,
+    rgba(160,120,70,0.08) 31px,
+    rgba(160,120,70,0.08) 32px
+  );
+  background-position: 0 52px;
+}
+/* 左侧装订缝 */
+.wv3-bind {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 6px;
+  background: linear-gradient(180deg, #7a4e2a 0%, #b8843c 40%, #7a4e2a 70%, #b8843c 100%);
+}
+.wv3-bind-holes {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+}
+.wv3-hole {
+  width: 4px; height: 4px;
+  border-radius: 50%;
+  background: #f0e8d8;
+  opacity: 0.5;
+}
+/* 右边装饰邮票框 */
+.wv3-stamp {
+  position: absolute;
+  top: 24px;
+  right: 22px;
+  width: 60px;
+  height: 74px;
+  border: 2px solid rgba(160,100,50,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.wv3-stamp::before {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  background: repeating-linear-gradient(
+    0deg, transparent, transparent 6px, #f0e8d8 6px, #f0e8d8 7px
+  ),
+  repeating-linear-gradient(
+    90deg, transparent, transparent 6px, #f0e8d8 6px, #f0e8d8 7px
+  );
+}
+.wv3-stamp-inner {
+  font-family: 'Caveat', cursive;
+  font-size: 11px;
+  color: rgba(130,75,30,0.6);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.wv3-inner {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 26px 36px;
+}
+.wv3-header {
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1.5px dashed rgba(150,100,50,0.2);
+}
+.wv3-ep-mark {
+  font-family: 'Caveat', cursive;
+  font-size: 16px;
+  color: #7a4e2a;
+  font-weight: 600;
+  display: block;
+  transform: rotate(-1deg);
+  margin-bottom: 2px;
+}
+.wv3-date-hand {
+  font-family: 'Caveat', cursive;
+  font-size: 14px;
+  color: #a07850;
+  display: block;
+}
+
+/* 中段主内容 */
+.wv3-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px 0;
+}
+.wv3-level {
+  font-family: 'Outfit', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #8b3a1c;
+  padding: 2px 10px;
+  border: 1px solid rgba(139,58,28,0.25);
+  border-radius: 2px;
+  display: inline-block;
+  align-self: flex-start;
+  margin-bottom: 14px;
+}
+.wv3-code {
+  font-family: 'Outfit', sans-serif;
+  font-size: 10px;
+  color: #a07850;
+  letter-spacing: 4px;
+  margin-bottom: 12px;
+}
+.wv3-title {
+  font-size: 30px;
+  color: #1e0e04;
+  line-height: 1.3;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.wv3-note {
+  font-family: 'Caveat', cursive;
+  font-size: 13px;
+  color: #c0956a;
+  transform: rotate(-0.5deg);
+  display: block;
+}
+
+/* 底部 stats */
+.wv3-stats {
+  border-top: 1.5px dashed rgba(150,100,50,0.2);
+  padding-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+.wv3-stat {
+  flex: 1;
+  background: rgba(255,255,255,0.45);
+  border: 1px solid rgba(150,100,50,0.12);
+  border-radius: 8px;
+  padding: 18px 14px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.wv3-stat::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #8b5e3c, #c8a060);
+}
+.wv3-stat-num {
+  font-size: 52px;
+  color: #8b3a1c;
+  line-height: 1;
+  font-style: italic;
+}
+.wv3-stat-unit { font-size: 14px; color: #a07850; font-family: 'Outfit', sans-serif; }
+.wv3-stat-lbl {
+  font-family: 'Caveat', cursive;
+  font-size: 13px;
+  color: #b09070;
+  margin-top: 6px;
+  display: block;
+}
+.wv3-footer {
+  font-family: 'Caveat', cursive;
+  font-size: 14px;
+  color: #c0a080;
+  text-align: right;
+  margin-top: 14px;
+}
+</style>
+</head>
+<body>
+
+<div class="page-title">单课打卡 · 分享卡片设计方案 v2</div>
+
+<!-- DARK -->
+<div class="section">
+  <div class="section-label">Dark — 暗黑系</div>
+  <div class="cards-row">
+
+    <!-- D-V1 终端档案 -->
+    <div class="card dv1">
+      <div class="dv1-scan"></div>
+      <div class="dv1-inner">
+        <div class="dv1-bar">
+          <div class="dv1-dot"></div>
+          <div class="dv1-dot"></div>
+          <div class="dv1-dot"></div>
+          <div class="dv1-bar-title">EP_SESSION.LOG</div>
+        </div>
+        <div class="dv1-hero">
+          <div class="dv1-num-bg">086</div>
+          <div class="dv1-prompt">$ <em>ep load</em> --id=086 --mode=study</div>
+          <div class="dv1-prompt-ok">→ OK &nbsp;[3 iterations] <span class="dv1-cursor"></span></div>
+          <div class="dv1-badge">ELEMENTARY</div>
+          <div class="dv1-code">EI-E086</div>
+          <div class="dv1-title">Going to the<br>Dentist</div>
+          <div class="dv1-date">2026-06-08</div>
+        </div>
+        <div class="dv1-stats">
+          <div class="dv1-stat">
+            <div class="dv1-stat-lbl">// THIS_RUN</div>
+            <div class="dv1-stat-val">3<span class="dv1-stat-unit">次</span></div>
+          </div>
+          <div class="dv1-stat">
+            <div class="dv1-stat-lbl">// TOTAL</div>
+            <div class="dv1-stat-val">18<span class="dv1-stat-unit">次</span></div>
+          </div>
+        </div>
+        <div class="dv1-footer">
+          <span>2026-06-08T14:32:07</span>
+          <span>ENGLISHPOD TRACKER</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- D-V2 深渊紫焰 -->
+    <div class="card dv2">
+      <div class="dv2-grid"></div>
+      <div class="dv2-glow1"></div>
+      <div class="dv2-glow2"></div>
+      <div class="dv2-slash"></div>
+      <div class="dv2-inner">
+        <div class="dv2-top">
+          <div class="dv2-brand">EnglishPod · 单课打卡</div>
+          <div class="dv2-level">INTERMEDIATE</div>
+        </div>
+        <div class="dv2-code">// DL-I102</div>
+        <div class="dv2-title">Difficult<br>Coworkers</div>
+        <div class="dv2-spacer"></div>
+        <div class="dv2-nums">
+          <div class="dv2-num-block">
+            <div class="dv2-big">5</div>
+            <div class="dv2-unit">次</div>
+            <div class="dv2-desc">本次学习</div>
+          </div>
+          <div class="dv2-num-block">
+            <div class="dv2-big">32</div>
+            <div class="dv2-unit">次</div>
+            <div class="dv2-desc">累计学习</div>
+          </div>
+        </div>
+        <div class="dv2-rule" style="margin-top:24px;"></div>
+        <div class="dv2-footer">
+          <div class="dv2-date">06.08.2026</div>
+          <div class="dv2-watermark">ENGLISHPOD</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- D-V3 冰川夜 -->
+    <div class="card dv3">
+      <div class="dv3-aurora-top"></div>
+      <div class="dv3-stars"></div>
+      <div class="dv3-inner">
+        <div class="dv3-content">
+          <div class="dv3-num-bg">142</div>
+          <div class="dv3-header">
+            <div class="dv3-brand">
+              <span class="dv3-brand-text">ENGLISHPOD</span>
+            </div>
+            <div class="dv3-level">UPPER INT</div>
+          </div>
+          <div class="dv3-code">UP-UI142</div>
+          <div class="dv3-title">Environmental<br>Impact</div>
+          <div class="dv3-date">2026.06.08</div>
+        </div>
+        <div class="dv3-glass">
+          <div class="dv3-stats-row">
+            <div class="dv3-stat">
+              <div class="dv3-stat-lbl">本次学习</div>
+              <div class="dv3-stat-num">4<span class="dv3-stat-unit"> 次</span></div>
+            </div>
+            <div class="dv3-stat">
+              <div class="dv3-stat-lbl">累计学习</div>
+              <div class="dv3-stat-num">27<span class="dv3-stat-unit"> 次</span></div>
+            </div>
+          </div>
+          <div class="dv3-glass-footer">
+            <span>ENGLISHPOD TRACKER</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- WARM -->
+<div class="section">
+  <div class="section-label">Warm — 暖色系</div>
+  <div class="cards-row">
+
+    <!-- W-V1 东京编辑部 -->
+    <div class="card wv1">
+      <div class="wv1-hero">
+        <div class="wv1-corner">
+          <span class="wv1-corner-text">打<br>卡</span>
+        </div>
+        <div class="wv1-hero-brand">EnglishPod · 单课打卡</div>
+        <div class="wv1-hero-title">Going to the<br>Dentist</div>
+        <div class="wv1-hero-code">EI-E086</div>
+      </div>
+      <div class="wv1-body">
+        <div class="wv1-level-date">
+          <div class="wv1-level">ELEMENTARY</div>
+          <div class="wv1-date">2026年6月8日</div>
+        </div>
+        <div class="wv1-rule"></div>
+        <div class="wv1-stats">
+          <div class="wv1-stat">
+            <div class="wv1-stat-num">3<span class="wv1-stat-unit"> 次</span></div>
+            <div class="wv1-stat-desc">本次学习</div>
+          </div>
+          <div class="wv1-stat">
+            <div class="wv1-stat-num">18<span class="wv1-stat-unit"> 次</span></div>
+            <div class="wv1-stat-desc">累计学习</div>
+          </div>
+        </div>
+        <div class="wv1-footer">EnglishPod Tracker ✦</div>
+      </div>
+    </div>
+
+    <!-- W-V2 橙焰闪卡 -->
+    <div class="card wv2">
+      <div class="wv2-sidebar">
+        <div class="wv2-sidebar-text">EnglishPod</div>
+      </div>
+      <div class="wv2-main">
+        <div class="wv2-top">
+          <div class="wv2-brand">单课打卡</div>
+          <div class="wv2-level">INTERMEDIATE</div>
+        </div>
+        <div class="wv2-code">DL-I102</div>
+        <div class="wv2-title">Difficult<br>Coworkers</div>
+        <div class="wv2-date">2026年6月8日</div>
+        <div class="wv2-spacer"></div>
+        <div class="wv2-stats">
+          <div class="wv2-stat-box">
+            <div class="wv2-stat-num">5<span class="wv2-stat-unit">次</span></div>
+            <div class="wv2-stat-lbl">本次学习</div>
+          </div>
+          <div class="wv2-stat-box wv2-stat-box-alt">
+            <div class="wv2-stat-num">32<span class="wv2-stat-unit">次</span></div>
+            <div class="wv2-stat-lbl">累计学习</div>
+          </div>
+        </div>
+        <div class="wv2-footer">
+          <span class="wv2-footer-txt">2026 · 打卡记录</span>
+          <span class="wv2-footer-star">★</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- W-V3 咖啡手帐 -->
+    <div class="card wv3">
+      <div class="wv3-lines"></div>
+      <div class="wv3-bind"></div>
+      <div class="wv3-bind-holes">
+        <div class="wv3-hole"></div>
+        <div class="wv3-hole"></div>
+        <div class="wv3-hole"></div>
+        <div class="wv3-hole"></div>
+        <div class="wv3-hole"></div>
+      </div>
+      <div class="wv3-stamp">
+        <div class="wv3-stamp-inner">打卡<br>✓</div>
+      </div>
+      <div class="wv3-inner">
+        <div class="wv3-header">
+          <span class="wv3-ep-mark">EnglishPod 单课打卡</span>
+          <span class="wv3-date-hand">June 8th, 2026</span>
+        </div>
+        <div class="wv3-content">
+          <span class="wv3-level">ADVANCED</span>
+          <div class="wv3-code">AD-A201</div>
+          <div class="wv3-title">The Art of<br>Negotiation</div>
+          <span class="wv3-note">今日英语练习完成 ✓</span>
+        </div>
+        <div class="wv3-stats">
+          <div class="wv3-stat">
+            <div class="wv3-stat-num">2<span class="wv3-stat-unit">次</span></div>
+            <span class="wv3-stat-lbl">本次学习</span>
+          </div>
+          <div class="wv3-stat">
+            <div class="wv3-stat-num">11<span class="wv3-stat-unit">次</span></div>
+            <span class="wv3-stat-lbl">累计学习</span>
+          </div>
+        </div>
+        <div class="wv3-footer">~ keep going ~</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

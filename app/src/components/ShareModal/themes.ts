@@ -2,6 +2,7 @@ import CardDark from './components/CardDark';
 import CardWarm from './components/CardWarm';
 import SingleCardDark from './components/SingleCardDark';
 import SingleCardWarm from './components/SingleCardWarm';
+// 注意：以上组件均为单文件（.tsx），禁止拆分为目录形式，确保 html2canvas 导出正确
 import { MultiTheme, SingleTheme } from './types';
 
 export const MULTI_THEMES: MultiTheme[] = [

@@ -1,16 +1,17 @@
-import { MultiCardProps } from '../../types';
-import styles from './index.module.scss';
+import { MultiCardProps } from '../types';
 
-// 主题 B：清新活泼（多课分享）
+// 多课·清新活泼
+// 注意：组件所有样式使用内联，禁止引入 CSS Modules，保证 html2canvas 导出正确
 export default function CardWarm({ label, stats, groups }: MultiCardProps) {
   return (
-    <div className={styles.card} style={{
+    <div style={{
       background: 'linear-gradient(145deg, #fff9f0 0%, #ffecd6 100%)',
       borderRadius: 24, padding: 32, fontFamily: 'sans-serif',
       boxShadow: '0 20px 60px rgba(255,140,60,0.15)',
+      position: 'relative', overflow: 'hidden',
     }}>
-      <div style={{ position: 'absolute', width: 180, height: 180, background: '#ffb347', borderRadius: '50%', filter: 'blur(40px)', opacity: 0.4, top: -60, right: -40 }} />
-      <div style={{ position: 'absolute', width: 120, height: 120, background: '#ff6b6b', borderRadius: '50%', filter: 'blur(40px)', opacity: 0.3, bottom: 40, left: -30 }} />
+      <div style={{ position: 'absolute', width: 180, height: 180, background: '#ffb347', borderRadius: '50%', filter: 'blur(40px)', opacity: 0.4, top: -60, right: -40, pointerEvents: 'none' }} />
+      <div style={{ position: 'absolute', width: 120, height: 120, background: '#ff6b6b', borderRadius: '50%', filter: 'blur(40px)', opacity: 0.3, bottom: 40, left: -30, pointerEvents: 'none' }} />
       <div style={{ position: 'relative', zIndex: 1 }}>
         <div style={{ fontSize: 11, color: '#c4844a', letterSpacing: 2, fontWeight: 700, marginBottom: 8 }}>EnglishPod 学习打卡</div>
         <div style={{ fontSize: 36, fontWeight: 900, color: '#1a0a00', lineHeight: 1.2, marginBottom: 24 }}>
@@ -18,7 +19,7 @@ export default function CardWarm({ label, stats, groups }: MultiCardProps) {
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 10, marginBottom: 20 }}>
           {[['打卡', stats.checkins, '次'], ['学习', stats.total, '次'], ['课程', stats.lessons, '节']].map(([l, v, u]) => (
-            <div key={l} style={{ background: 'rgba(255,255,255,0.7)', borderRadius: 14, padding: '12px 8px', textAlign: 'center' }}>
+            <div key={String(l)} style={{ background: 'rgba(255,255,255,0.7)', borderRadius: 14, padding: '12px 8px', textAlign: 'center' }}>
               <div style={{ fontSize: 24, fontWeight: 700, color: '#e8622a' }}>{v}<span style={{ fontSize: 11, color: '#c4844a' }}>{u}</span></div>
               <div style={{ fontSize: 10, color: '#a0754a', marginTop: 3 }}>{l}</div>
             </div>

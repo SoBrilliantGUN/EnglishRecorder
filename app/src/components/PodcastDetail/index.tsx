@@ -34,6 +34,27 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
   const podcasts = podcastsData as Podcast[];
   const lesson = podcasts.find(p => p.id === lessonId);
 
+  // 计算当前课今日是否有打卡记录，有才显示分享按钮
+  const buildShareData = (): SingleShareData | null => {
+    if (!lesson) return null;
+    const today = todayStr();
+    const allRecords = getRecords().filter(r => r.lesson === lessonId);
+    const todayRecords = allRecords.filter(r => r.date === today);
+    if (todayRecords.length === 0) return null;
+    const thisCount = todayRecords.reduce((s, r) => s + r.count, 0);
+    const totalCount = allRecords.reduce((s, r) => s + r.count, 0);
+    return {
+      lessonCode: lesson.code,
+      title: lesson.title,
+      level: lesson.level,
+      levelColor: LEVEL_COLORS[lesson.level] ?? '#888',
+      thisCount,
+      totalCount,
+    };
+  };
+
+  const todayShareData = buildShareData();
+
   // 按需加载文字稿
   useEffect(() => {
     setTranscript('');
@@ -101,6 +122,16 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
           </span>
         </div>
         <div className={styles.navBtns}>
+          {todayShareData && (
+            <button
+              className="btn-secondary"
+              style={{ padding: '0.5rem 0.875rem', fontSize: 'var(--font-size-sm)' }}
+              onClick={() => setShareData(todayShareData)}
+              title="分享本课打卡"
+            >
+              分享
+            </button>
+          )}
           <button
             className="btn-primary"
             style={{ padding: '0.5rem 0.875rem', fontSize: 'var(--font-size-sm)' }}
