@@ -3,6 +3,7 @@ import {
   getFirstDates, getNextReview, setReset, todayStr, friendlyDate, showToast,
   getCoef, setCoef, addDays, formatDate, getRecords, getResets,
 } from '../../store';
+import { SettingsIcon } from '../icons';
 import styles from './index.module.scss';
 
 const COLLAPSED_COUNT = 3;
@@ -107,7 +108,7 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
           title="复习设置"
           className={`${styles.settingsBtn} ${settingsOpen ? styles.settingsBtnActive : ''}`}
         >
-          ⚙
+          <SettingsIcon size={16} />
         </button>
       </div>
 

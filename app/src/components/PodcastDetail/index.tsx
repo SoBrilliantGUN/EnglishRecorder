@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import podcastsData from '../../data/podcasts.json';
 import type { Podcast } from '../../types/podcast';
 import { LEVEL_COLORS } from '../../types/podcast';
+import { ChevronLeftIcon, ChevronRightIcon } from '../icons';
 import styles from './index.module.scss';
 
 interface PodcastDetailProps {
@@ -60,9 +61,7 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate }: PodcastD
       {/* 顶部导航 */}
       <div className={styles.topBar}>
         <button className={styles.backBtn} onClick={onBack}>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M15 18l-6-6 6-6" />
-          </svg>
+          <ChevronLeftIcon size={20} />
           返回列表
         </button>
         <div className={styles.lessonMeta}>
@@ -78,9 +77,7 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate }: PodcastD
             disabled={!hasPrev}
             title="上一课"
           >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M15 18l-6-6 6-6" />
-            </svg>
+            <ChevronLeftIcon size={16} />
             上一课
           </button>
           <button
@@ -90,9 +87,7 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate }: PodcastD
             title="下一课"
           >
             下一课
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M9 18l6-6-6-6" />
-            </svg>
+            <ChevronRightIcon size={16} />
           </button>
         </div>
       </div>

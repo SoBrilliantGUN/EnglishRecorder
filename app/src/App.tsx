@@ -9,6 +9,7 @@ import InfoModal from './components/InfoModal';
 import SettingsModal from './components/SettingsModal';
 import PodcastList from './components/PodcastList';
 import PodcastDetail from './components/PodcastDetail';
+import { MoonIcon, SunIcon, InfoIcon, SettingsIcon } from './components/icons';
 import styles from './App.module.scss';
 
 const SHOW_REVIEW_KEY = 'ep_show_review';
@@ -47,13 +48,13 @@ export default function App() {
         <h1 className={styles.headerTitle}>EnglishPod 学习打卡</h1>
         <div className={styles.headerActions}>
           <button className={styles.iconBtn} onClick={toggleTheme} title="切换主题">
-            {theme === 'light' ? '☾' : '☀'}
+            {theme === 'light' ? <MoonIcon size={18} /> : <SunIcon size={18} />}
           </button>
           <button className={styles.iconBtn} onClick={() => setShowInfo(true)} title="使用说明">
-            ⓘ
+            <InfoIcon size={18} />
           </button>
           <button className={styles.iconBtn} onClick={() => setShowSettings(true)} title="设置">
-            ⚙
+            <SettingsIcon size={18} />
           </button>
         </div>
       </header>

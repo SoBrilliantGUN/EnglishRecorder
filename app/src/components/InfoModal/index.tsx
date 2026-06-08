@@ -1,5 +1,6 @@
 import podcastsData from '../../data/podcasts.json';
 import type { Podcast } from '../../types/podcast';
+import { CloseIcon } from '../icons';
 import styles from './index.module.scss';
 
 const podcasts = podcastsData as Podcast[];
@@ -15,7 +16,7 @@ export default function InfoModal({ onClose }: InfoModalProps) {
       <div className="modal-content" style={{ maxWidth: 480 }}>
         <div className={styles.infoHeader}>
           <span className={styles.infoTitle}>使用说明</span>
-          <button className={styles.closeBtn} onClick={onClose}>✕</button>
+          <button className={styles.closeBtn} onClick={onClose}><CloseIcon size={16} /></button>
         </div>
 
         <ol className={styles.list}>

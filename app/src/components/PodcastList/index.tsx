@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import podcastsData from '../../data/podcasts.json';
 import type { Podcast } from '../../types/podcast';
 import { LEVEL_COLORS } from '../../types/podcast';
+import { SearchIcon } from '../icons';
 import styles from './index.module.scss';
 
 interface PodcastListProps {
@@ -88,10 +89,7 @@ export default function PodcastList({ onSelectLesson, currentPage, onPageChange 
 
       {/* 搜索 */}
       <div className={styles.searchWrap}>
-        <svg className={styles.searchIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <circle cx="11" cy="11" r="8" />
-          <path d="m21 21-4.35-4.35" />
-        </svg>
+        <SearchIcon className={styles.searchIcon} />
         <input
           type="text"
           placeholder="搜索标题或编号"

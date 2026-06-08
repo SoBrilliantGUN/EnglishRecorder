@@ -1,3 +1,4 @@
+import { CloseIcon } from '../icons';
 import styles from './index.module.scss';
 
 interface SettingsModalProps {
@@ -12,7 +13,7 @@ export default function SettingsModal({ onClose, showReview, onToggleReview }: S
       <div className="modal-content" style={{ maxWidth: 400 }}>
         <div className={styles.settingsHeader}>
           <span className={styles.settingsTitle}>设置</span>
-          <button className={styles.closeBtn} onClick={onClose}>✕</button>
+          <button className={styles.closeBtn} onClick={onClose}><CloseIcon size={16} /></button>
         </div>
 
         <div className={styles.settingItem}>
