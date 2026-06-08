@@ -1,8 +1,6 @@
 import { useState } from 'react';
-import { getCoef, setCoef, todayStr, addDays, formatDate } from '../../store';
+import { useCoef } from '../../hooks/useCoef';
 import styles from './index.module.scss';
-
-const INTERVALS = [1, 2, 4, 7, 15, 30, 60];
 
 interface ReviewSettingsProps {
   onRefresh: () => void;
@@ -10,25 +8,7 @@ interface ReviewSettingsProps {
 
 export default function ReviewSettings({ onRefresh }: ReviewSettingsProps) {
   const [open, setOpen] = useState(false);
-  const [coef, setCoefState] = useState(getCoef());
-
-  const adjust = (delta: number) => {
-    const newVal = setCoef(coef + delta);
-    setCoefState(newVal);
-    onRefresh();
-  };
-
-  const reset = () => {
-    const newVal = setCoef(1.0);
-    setCoefState(newVal);
-    onRefresh();
-  };
-
-  const today = new Date(todayStr());
-  const previews = INTERVALS.map((interval, i) => {
-    const days = Math.round(interval * coef);
-    return { round: i + 1, days, date: formatDate(addDays(today, days)) };
-  });
+  const { coef, adjust, reset, previews } = useCoef(onRefresh);
 
   return (
     <div className={`card ${styles.container}`}>

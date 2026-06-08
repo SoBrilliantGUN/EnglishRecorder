@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { initData, todayStr } from './store';
 import { useTheme } from './hooks/useTheme';
+import { useLocalStorage } from './hooks/useLocalStorage';
 import Calendar from './components/Calendar';
 import RecordsView from './components/RecordsView';
 import DailyCard from './components/DailyCard';
@@ -20,7 +21,7 @@ export default function App() {
   const [selected, setSelected] = useState(todayStr());
   const [showInfo, setShowInfo] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
-  const [showReview, setShowReview] = useState(() => localStorage.getItem(SHOW_REVIEW_KEY) !== 'false');
+  const [showReview, setShowReview] = useLocalStorage<boolean>(SHOW_REVIEW_KEY, true);
   const [selectedLessonId, setSelectedLessonId] = useState<number | null>(null);
   const [podcastPage, setPodcastPage] = useState(1);
   const { theme, toggle: toggleTheme } = useTheme();
@@ -28,11 +29,6 @@ export default function App() {
   useEffect(() => { initData(); }, []);
 
   const refresh = () => setTick(t => t + 1);
-
-  const handleToggleReview = (val: boolean) => {
-    setShowReview(val);
-    localStorage.setItem(SHOW_REVIEW_KEY, String(val));
-  };
 
   const handleSelectLesson = (lessonId: number) => {
     setSelectedLessonId(lessonId);
@@ -91,7 +87,7 @@ export default function App() {
         <SettingsModal
           onClose={() => setShowSettings(false)}
           showReview={showReview}
-          onToggleReview={handleToggleReview}
+          onToggleReview={setShowReview}
         />
       )}
 

@@ -44,11 +44,6 @@
   font-weight: 600;
 }
 
-.modalTitle {
-  margin-bottom: 16px;
-  font-size: var(--font-size-lg);
-}
-
 .formGroup {
   margin-bottom: 12px;
 }
@@ -61,10 +56,4 @@
   display: block;
   margin-bottom: 6px;
   font-size: var(--font-size-base);
-}
-
-.modalFooter {
-  display: flex;
-  gap: 8px;
-  justify-content: flex-end;
 }

@@ -1,10 +1,7 @@
-import podcastsData from '../../data/podcasts.json';
-import type { Podcast } from '../../types/podcast';
+import { MAX_LESSON } from '../../types/podcast';
+import Modal from '../Modal';
 import { CloseIcon } from '../icons';
 import styles from './index.module.scss';
-
-const podcasts = podcastsData as Podcast[];
-const MAX_LESSON = Math.max(...podcasts.map(p => p.id));
 
 interface InfoModalProps {
   onClose: () => void;
@@ -12,12 +9,11 @@ interface InfoModalProps {
 
 export default function InfoModal({ onClose }: InfoModalProps) {
   return (
-    <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
-      <div className="modal-content" style={{ maxWidth: 480 }}>
-        <div className={styles.infoHeader}>
-          <span className={styles.infoTitle}>使用说明</span>
-          <button className={styles.closeBtn} onClick={onClose}><CloseIcon size={16} /></button>
-        </div>
+    <Modal onClose={onClose} maxWidth={480}>
+      <div className={styles.infoHeader}>
+        <span className={styles.infoTitle}>使用说明</span>
+        <button className="modal-close-btn" onClick={onClose}><CloseIcon size={16} /></button>
+      </div>
 
         <ol className={styles.list}>
           <li>点击日历日期，右侧卡片显示该日学习内容</li>
@@ -57,7 +53,6 @@ export default function InfoModal({ onClose }: InfoModalProps) {
             <li>支持 Chrome / Edge / Firefox</li>
           </ul>
         </div>
-      </div>
-    </div>
+    </Modal>
   );
 }

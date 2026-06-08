@@ -1,3 +1,5 @@
+@use '../../styles/variables' as v;
+
 .container {
   // 顶部导航栏
   .topBar {
@@ -121,22 +123,7 @@
     overflow-y: auto;
     user-select: text;
 
-    &::-webkit-scrollbar {
-      width: 6px;
-    }
-
-    &::-webkit-scrollbar-track {
-      background: transparent;
-    }
-
-    &::-webkit-scrollbar-thumb {
-      background: var(--color-border);
-      border-radius: 3px;
-
-      &:hover {
-        background: var(--color-text-secondary);
-      }
-    }
+    @include v.thin-scrollbar;
   }
 
   // 节目文字稿区块
@@ -174,22 +161,7 @@
     overflow-y: auto;
     user-select: text;
 
-    &::-webkit-scrollbar {
-      width: 6px;
-    }
-
-    &::-webkit-scrollbar-track {
-      background: transparent;
-    }
-
-    &::-webkit-scrollbar-thumb {
-      background: var(--color-border);
-      border-radius: 3px;
-
-      &:hover {
-        background: var(--color-text-secondary);
-      }
-    }
+    @include v.thin-scrollbar;
   }
 
 }

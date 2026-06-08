@@ -10,21 +10,6 @@
   color: var(--color-text);
 }
 
-.closeBtn {
-  background: none;
-  border: none;
-  font-size: var(--font-size-xl);
-  color: var(--color-text-secondary);
-  cursor: pointer;
-  padding: 4px 8px;
-  border-radius: var(--radius-sm);
-
-  &:hover {
-    background: var(--color-bg-muted);
-    color: var(--color-text);
-  }
-}
-
 .list {
   padding-left: 20px;
   margin: 0;

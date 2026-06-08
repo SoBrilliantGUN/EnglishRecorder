@@ -1,6 +1,8 @@
-import { useState, useRef } from 'react';
+import { useRef } from 'react';
 import html2canvas from 'html2canvas';
 import { todayStr } from '../../store';
+import { useLocalStorage } from '../../hooks/useLocalStorage';
+import Modal from '../Modal';
 import { THEMES } from './themes';
 import { CardProps } from './types';
 
@@ -11,13 +13,8 @@ interface ShareModalProps extends CardProps {
 const THEME_KEY = 'ep_share_theme';
 
 export default function ShareModal({ label, stats, groups, onClose }: ShareModalProps) {
-  const [shareTheme, setShareTheme] = useState(() => localStorage.getItem(THEME_KEY) || 'dark');
+  const [shareTheme, setShareTheme] = useLocalStorage<string>(THEME_KEY, 'dark');
   const shareRef = useRef<HTMLDivElement>(null);
-
-  const handleThemeChange = (id: string) => {
-    setShareTheme(id);
-    localStorage.setItem(THEME_KEY, id);
-  };
 
   const handleCopyImg = async () => {
     if (!shareRef.current) return;
@@ -59,14 +56,13 @@ export default function ShareModal({ label, stats, groups, onClose }: ShareModal
   const activeTheme = THEMES.find(t => t.id === shareTheme);
 
   return (
-    <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
-      <div className="modal-content" style={{ maxWidth: 420 }}>
-        <h3 style={{ marginBottom: 12, fontSize: 16 }}>分享学习记录</h3>
+    <Modal onClose={onClose} maxWidth={420}>
+      <h3 style={{ marginBottom: 12, fontSize: 16 }}>分享学习记录</h3>
 
         {/* 主题选择 */}
         <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
           {THEMES.map(t => (
-            <button key={t.id} onClick={() => handleThemeChange(t.id)} style={{
+            <button key={t.id} onClick={() => setShareTheme(t.id)} style={{
               flex: 1, padding: '6px 0', borderRadius: 8, border: '2px solid',
               borderColor: shareTheme === t.id ? 'var(--color-primary)' : 'var(--color-border)',
               background: shareTheme === t.id ? 'rgba(7,193,96,0.08)' : 'var(--color-bg-card)',
@@ -81,11 +77,10 @@ export default function ShareModal({ label, stats, groups, onClose }: ShareModal
           {activeTheme && <activeTheme.Component label={label} stats={stats} groups={groups} />}
         </div>
 
-        <div style={{ display: 'flex', gap: 8, marginTop: 16, justifyContent: 'flex-end' }}>
+        <div className="modal-footer" style={{ marginTop: 16 }}>
           <button className="btn-secondary" onClick={onClose}>关闭</button>
           <button className="btn-primary" onClick={handleCopyImg}>复制图片</button>
         </div>
-      </div>
-    </div>
+    </Modal>
   );
 }

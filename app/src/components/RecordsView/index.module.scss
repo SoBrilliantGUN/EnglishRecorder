@@ -94,26 +94,3 @@
   color: var(--color-text-secondary);
   margin-top: 12px;
 }
-
-.modalTitle {
-  margin-bottom: 16px;
-  font-size: var(--font-size-lg);
-}
-
-.modalText {
-  font-size: var(--font-size-base);
-  color: var(--color-text);
-  line-height: 1.7;
-  margin-bottom: 20px;
-}
-
-.modalHint {
-  color: var(--color-text-secondary);
-  font-size: var(--font-size-sm);
-}
-
-.modalFooter {
-  display: flex;
-  gap: 8px;
-  justify-content: flex-end;
-}

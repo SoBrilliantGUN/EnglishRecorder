@@ -18,3 +18,9 @@ export const LEVEL_COLORS: Record<string, string> = {
   'Upper-Intermediate': 'var(--color-warning)',
   'Advanced': 'var(--color-danger)',
 };
+
+import podcastsData from '../data/podcasts.json';
+const _podcasts = podcastsData as Podcast[];
+
+/** 课程库最大课程编号 */
+export const MAX_LESSON = Math.max(..._podcasts.map(p => p.id));

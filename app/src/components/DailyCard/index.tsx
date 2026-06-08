@@ -1,15 +1,12 @@
 import { useState } from 'react';
 import {
   getRecords, addRecord, getFirstDates, setFirstDate,
-  todayStr, showToast
+  todayStr, showToast, getStats, groupByLesson
 } from '../../store';
-import podcastsData from '../../data/podcasts.json';
-import type { Podcast } from '../../types/podcast';
+import { MAX_LESSON } from '../../types/podcast';
+import Modal from '../Modal';
 import ShareModal from '../ShareModal';
 import styles from './index.module.scss';
-
-const podcasts = podcastsData as Podcast[];
-const MAX_LESSON = Math.max(...podcasts.map(p => p.id));
 
 interface DailyCardProps {
   selected: string;
@@ -27,14 +24,7 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
   void tick;
   const date = selected || todayStr();
   const records = getRecords().filter(r => r.date === date);
-
-  // 按课程聚合
-  const grouped = Object.entries(
-    records.reduce<{ [key: number]: number }>((acc, r) => {
-      acc[r.lesson] = (acc[r.lesson] || 0) + r.count;
-      return acc;
-    }, {})
-  ).sort((a, b) => Number(a[0]) - Number(b[0]));
+  const grouped = groupByLesson(records);
 
   const handleCheckin = () => {
     const lessonNum = parseInt(lesson);
@@ -105,42 +95,36 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
 
       {/* 打卡弹窗 */}
       {modal && (
-        <div className="modal-overlay" onClick={e => e.target === e.currentTarget && setModal(false)}>
-          <div className="modal-content">
-            <h3 className={styles.modalTitle}>{date} 打卡</h3>
-            <div className={styles.formGroup}>
-              <label className={styles.label}>课程编号</label>
-              <input
-                type="number" min={0} max={999}
-                value={lesson} onChange={e => setLesson(e.target.value)}
-                placeholder="请输入课程编号"
-                autoFocus
-              />
-            </div>
-            <div className={styles.formGroupLast}>
-              <label className={styles.label}>学习次数</label>
-              <input
-                type="number" min={1}
-                value={count} onChange={e => setCount(e.target.value)}
-              />
-            </div>
-            <div className={styles.modalFooter}>
-              <button className="btn-secondary" onClick={() => setModal(false)}>取消</button>
-              <button className="btn-primary" onClick={handleCheckin}>确认打卡</button>
-            </div>
+        <Modal onClose={() => setModal(false)}>
+          <h3 className="modal-title">{date} 打卡</h3>
+          <div className={styles.formGroup}>
+            <label className={styles.label}>课程编号</label>
+            <input
+              type="number" min={0} max={999}
+              value={lesson} onChange={e => setLesson(e.target.value)}
+              placeholder="请输入课程编号"
+              autoFocus
+            />
           </div>
-        </div>
+          <div className={styles.formGroupLast}>
+            <label className={styles.label}>学习次数</label>
+            <input
+              type="number" min={1}
+              value={count} onChange={e => setCount(e.target.value)}
+            />
+          </div>
+          <div className="modal-footer">
+            <button className="btn-secondary" onClick={() => setModal(false)}>取消</button>
+            <button className="btn-primary" onClick={handleCheckin}>确认打卡</button>
+          </div>
+        </Modal>
       )}
 
       {/* 分享弹窗 */}
       {shareModal && (
         <ShareModal
           label={date}
-          stats={{
-            checkins: records.length,
-            total: records.reduce((sum, r) => sum + r.count, 0),
-            lessons: new Set(records.map(r => r.lesson)).size
-          }}
+          stats={getStats(records)}
           groups={grouped}
           onClose={() => setShareModal(false)}
         />

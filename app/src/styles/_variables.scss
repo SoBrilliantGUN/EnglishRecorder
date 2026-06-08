@@ -72,6 +72,26 @@
   --transition-base: 0.3s ease;
 }
 
+// 细滚动条 mixin（供需要 overflow-y: auto 的容器复用）
+@mixin thin-scrollbar {
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 3px;
+
+    &:hover {
+      background: var(--color-text-secondary);
+    }
+  }
+}
+
 // 暗黑模式
 [data-theme="dark"] {
   // 主色

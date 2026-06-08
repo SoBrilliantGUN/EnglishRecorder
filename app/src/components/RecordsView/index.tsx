@@ -2,43 +2,13 @@ import { useState, useRef } from 'react';
 import {
   getRecords, deleteRecordsByDateAndLesson, exportData, importData,
   todayStr, formatDate, getWeekStart, getWeekEnd,
-  showToast, Record
+  showToast, Record, getStats, groupByLesson
 } from '../../store';
+import Modal from '../Modal';
 import ShareModal from '../ShareModal';
 import styles from './index.module.scss';
 
 type Tab = 'day' | 'week' | 'month';
-
-interface Stats {
-  checkins: number;
-  total: number;
-  lessons: number;
-}
-
-function getStats(records: Record[]): Stats {
-  const checkins = records.length;
-  const total = records.reduce((s, r) => s + r.count, 0);
-  const lessons = new Set(records.map(r => r.lesson)).size;
-  return { checkins, total, lessons };
-}
-
-function groupByLesson(records: Record[]): [string, number][] {
-  const map: { [key: number]: number } = {};
-  records.forEach(r => {
-    if (!map[r.lesson]) map[r.lesson] = 0;
-    map[r.lesson] += r.count;
-  });
-  return Object.entries(map).sort((a, b) => Number(a[0]) - Number(b[0])) as [string, number][];
-}
-
-function groupDayByLesson(records: Record[]): [string, number][] {
-  const map: { [key: number]: number } = {};
-  records.forEach(r => {
-    if (!map[r.lesson]) map[r.lesson] = 0;
-    map[r.lesson] += r.count;
-  });
-  return Object.entries(map).sort((a, b) => Number(a[0]) - Number(b[0])) as [string, number][];
-}
 
 function getLabel(tab: Tab, date: Date): string {
   if (tab === 'day') return formatDate(date);
@@ -136,7 +106,7 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
     e.target.value = '';
   };
 
-  const dayGroups = tab === 'day' ? groupDayByLesson(records) : groupByLesson(records);
+  const dayGroups = groupByLesson(records);
 
   return (
     <div className={`card ${styles.container}`}>
@@ -206,19 +176,17 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
       )}
       {/* 删除确认弹窗 */}
       {deleteModal !== null && (
-        <div className="modal-overlay" onClick={e => e.target === e.currentTarget && setDeleteModal(null)}>
-          <div className="modal-content">
-            <h3 className={styles.modalTitle}>确认删除第 {String(deleteModal).padStart(2, '0')} 课的打卡记录吗？</h3>
-            <p className={styles.modalText}>
-              将删除 <strong>{formatDate(date)}</strong> 当天该课程的所有打卡记录。<br />
-              <span className={styles.modalHint}>此操作不可恢复。</span>
-            </p>
-            <div className={styles.modalFooter}>
-              <button className="btn-secondary" onClick={() => setDeleteModal(null)}>取消</button>
-              <button className="btn-primary" onClick={confirmDelete}>确认删除</button>
-            </div>
+        <Modal onClose={() => setDeleteModal(null)}>
+          <h3 className="modal-title">确认删除第 {String(deleteModal).padStart(2, '0')} 课的打卡记录吗？</h3>
+          <p className="modal-text">
+            将删除 <strong>{formatDate(date)}</strong> 当天该课程的所有打卡记录。<br />
+            <span className="modal-hint">此操作不可恢复。</span>
+          </p>
+          <div className="modal-footer">
+            <button className="btn-secondary" onClick={() => setDeleteModal(null)}>取消</button>
+            <button className="btn-primary" onClick={confirmDelete}>确认删除</button>
           </div>
-        </div>
+        </Modal>
       )}
     </div>
   );

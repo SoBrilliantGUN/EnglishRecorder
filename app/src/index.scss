@@ -144,3 +144,43 @@ input[type="number"]:focus {
                 inset 0 1px 0 rgba(255, 255, 255, 0.5);
   }
 }
+
+// 弹窗内通用排版
+.modal-title {
+  margin-bottom: 16px;
+  font-size: var(--font-size-lg);
+}
+
+.modal-text {
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.modal-hint {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.modal-footer {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+// 弹窗标题行关闭按钮
+.modal-close-btn {
+  background: none;
+  border: none;
+  font-size: var(--font-size-xl);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+
+  &:hover {
+    background: var(--color-bg-muted);
+    color: var(--color-text);
+  }
+}

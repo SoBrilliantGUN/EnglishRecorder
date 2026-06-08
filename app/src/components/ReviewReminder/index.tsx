@@ -1,13 +1,14 @@
 import { useState } from 'react';
 import {
   getFirstDates, getNextReview, setReset, todayStr, friendlyDate, showToast,
-  getCoef, setCoef, addDays, formatDate, getRecords, getResets,
+  getCoef, addDays, formatDate, getRecords, getResets,
 } from '../../store';
+import { useCoef } from '../../hooks/useCoef';
+import Modal from '../Modal';
 import { SettingsIcon } from '../icons';
 import styles from './index.module.scss';
 
 const COLLAPSED_COUNT = 3;
-const INTERVALS = [1, 2, 4, 7, 15, 30, 60];
 
 interface ReviewReminderProps {
   onRefresh: () => void;
@@ -24,8 +25,8 @@ interface ReminderItem {
 export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps) {
   const [expanded, setExpanded] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
-  const [coef, setCoefState] = useState(getCoef());
   const [resetModal, setResetModal] = useState<number | null>(null);
+  const { coef, adjust, reset: resetCoef, previews } = useCoef(onRefresh);
 
   void tick;
 
@@ -67,10 +68,6 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
     }
   });
 
-  const handleReset = (lesson: number) => {
-    setResetModal(lesson);
-  };
-
   const confirmReset = () => {
     if (resetModal === null) return;
     setReset(resetModal, todayStr());
@@ -78,24 +75,6 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
     setResetModal(null);
     onRefresh();
   };
-
-  const adjustCoef = (delta: number) => {
-    const newVal = setCoef(coef + delta);
-    setCoefState(newVal);
-    onRefresh();
-  };
-
-  const resetCoef = () => {
-    const newVal = setCoef(1.0);
-    setCoefState(newVal);
-    onRefresh();
-  };
-
-  const today = new Date(todayStr());
-  const previews = INTERVALS.map((interval, i) => {
-    const days = Math.round(interval * coef);
-    return { round: i + 1, days, date: formatDate(addDays(today, days)) };
-  });
 
   const visible = expanded ? reminders : reminders.slice(0, COLLAPSED_COUNT);
 
@@ -134,7 +113,7 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
                 <button
                   className={styles.resetBtn}
                   style={{ color: btnColor, border: `1px solid ${btnColor}` }}
-                  onClick={() => handleReset(r.lesson)}
+                  onClick={() => setResetModal(r.lesson)}
                 >重置</button>
               </div>
             );
@@ -151,9 +130,9 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
         <div className={styles.settingsPanel}>
           <div className={styles.coefRow}>
             <span className={styles.coefLabel}>间隔系数</span>
-            <button className="btn-secondary" style={{ padding: '4px 10px' }} onClick={() => adjustCoef(-0.1)} disabled={coef <= 0.5}>-0.1</button>
+            <button className="btn-secondary" style={{ padding: '4px 10px' }} onClick={() => adjust(-0.1)} disabled={coef <= 0.5}>-0.1</button>
             <span className={styles.coefValue}>{coef.toFixed(1)}</span>
-            <button className="btn-secondary" style={{ padding: '4px 10px' }} onClick={() => adjustCoef(0.1)} disabled={coef >= 3.0}>+0.1</button>
+            <button className="btn-secondary" style={{ padding: '4px 10px' }} onClick={() => adjust(0.1)} disabled={coef >= 3.0}>+0.1</button>
             <button className="btn-secondary" style={{ padding: '4px 8px', fontSize: 12 }} onClick={resetCoef}>重置</button>
           </div>
           <div>
@@ -167,21 +146,20 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
       )}
 
       {resetModal !== null && (
-        <div className="modal-overlay" onClick={e => e.target === e.currentTarget && setResetModal(null)}>
-          <div className="modal-content">
-            <h3 className={styles.modalTitle}>确认重置第 {String(resetModal).padStart(2, '0')} 课的复习进度吗？</h3>
-            <p className={styles.modalText}>
-              重置后，<strong>今天</strong>将作为该课程的新起点，<br />
-              后续复习日期将从今天重新计算。<br />
-              <span className={styles.modalHint}>历史打卡记录不会丢失。</span>
-            </p>
-            <div className={styles.modalFooter}>
-              <button className="btn-secondary" onClick={() => setResetModal(null)}>取消</button>
-              <button className="btn-primary" onClick={confirmReset}>确认重置</button>
-            </div>
+        <Modal onClose={() => setResetModal(null)}>
+          <h3 className="modal-title">确认重置第 {String(resetModal).padStart(2, '0')} 课的复习进度吗？</h3>
+          <p className="modal-text">
+            重置后，<strong>今天</strong>将作为该课程的新起点，<br />
+            后续复习日期将从今天重新计算。<br />
+            <span className="modal-hint">历史打卡记录不会丢失。</span>
+          </p>
+          <div className="modal-footer">
+            <button className="btn-secondary" onClick={() => setResetModal(null)}>取消</button>
+            <button className="btn-primary" onClick={confirmReset}>确认重置</button>
           </div>
-        </div>
+        </Modal>
       )}
     </div>
   );
 }
+

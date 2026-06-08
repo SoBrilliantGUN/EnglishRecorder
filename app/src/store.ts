@@ -225,3 +225,27 @@ export function showToast(msg: string): void {
   void el.offsetHeight; // reflow
   el.style.animation = 'toastShow 2.3s forwards';
 }
+
+// 统计摘要
+export interface Stats {
+  checkins: number;
+  total: number;
+  lessons: number;
+}
+
+export function getStats(records: Record[]): Stats {
+  return {
+    checkins: records.length,
+    total: records.reduce((s, r) => s + r.count, 0),
+    lessons: new Set(records.map(r => r.lesson)).size,
+  };
+}
+
+// 按课程聚合，返回有序 [lesson, count] 数组
+export function groupByLesson(records: Record[]): [string, number][] {
+  const map: { [key: number]: number } = {};
+  records.forEach(r => {
+    map[r.lesson] = (map[r.lesson] || 0) + r.count;
+  });
+  return Object.entries(map).sort((a, b) => Number(a[0]) - Number(b[0])) as [string, number][];
+}
