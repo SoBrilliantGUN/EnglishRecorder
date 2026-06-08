@@ -139,6 +139,59 @@
     }
   }
 
+  // 节目文字稿区块
+  .transcriptSection {
+    margin-top: 0.5rem;
+  }
+
+  .transcriptTitle {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 0 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .transcriptStatus {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin: 0;
+    padding: 1rem 0;
+  }
+
+  .transcript {
+    padding: 1.5rem;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-base);
+    line-height: 1.9;
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 60vh;
+    overflow-y: auto;
+    user-select: text;
+
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--color-border);
+      border-radius: 3px;
+
+      &:hover {
+        background: var(--color-text-secondary);
+      }
+    }
+  }
+
 }
 
 // 响应式
@@ -157,6 +210,11 @@
     .content {
       padding: 1rem;
       max-height: 40vh;
+    }
+
+    .transcript {
+      padding: 1rem;
+      max-height: 50vh;
     }
   }
 }
