@@ -32,7 +32,7 @@ npx tsc --noEmit # TypeScript 类型检查
 - [desc/08-工具函数与Toast.md](desc/08-工具函数与Toast.md) — dayjs 日期工具、Toast
 - [desc/09-布局与样式.md](desc/09-布局与样式.md) — SCSS Modules、token 体系、暗黑模式、响应式布局
 - [desc/10-主入口与状态管理.md](desc/10-主入口与状态管理.md) — App.tsx 状态管理
-- [desc/11-课程库.md](desc/11-课程库.md) — EnglishPod 课程列表与详情页、收藏与笔记
+- [desc/11-课程库.md](desc/11-课程库.md) — EnglishPod 课程列表与详情页
 
 ## 架构概览
 
@@ -44,7 +44,7 @@ App.tsx 维护一个 `tick` 计数器作为全局刷新信号。组件通过 `st
 
 ### 数据层（store.ts）
 
-带完整类型定义的纯函数模块，直接读写 localStorage。非响应式，组件命令式调用后手动触发刷新。日期处理统一使用 dayjs。localStorage key 前缀：`ep_records`、`ep_coef`、`ep_first`、`ep_resets`、`ep_initialized`、`ep_theme`、`ep_show_review`、`ep_share_theme`、`ep_podcast_collections`、`ep_podcast_notes`。
+带完整类型定义的纯函数模块，直接读写 localStorage。非响应式，组件命令式调用后手动触发刷新。日期处理统一使用 dayjs。localStorage key 前缀：`ep_records`、`ep_coef`、`ep_first`、`ep_resets`、`ep_initialized`、`ep_theme`、`ep_show_review`、`ep_share_theme`。
 
 ### 视图切换
 

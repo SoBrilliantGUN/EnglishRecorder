@@ -71,7 +71,7 @@ export default function App() {
             <PodcastDetail
               lessonId={selectedLessonId}
               onBack={handleBackToPodcastList}
-              tick={tick}
+              onNavigate={setSelectedLessonId}
             />
           ) : (
             <PodcastList onSelectLesson={handleSelectLesson} currentPage={podcastPage} onPageChange={setPodcastPage} />
