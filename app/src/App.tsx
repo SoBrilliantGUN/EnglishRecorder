@@ -62,21 +62,19 @@ export default function App() {
         {/* 左侧主区域 */}
         <div style={{ flex: '1 1 0', minWidth: 0, display: 'flex', flexDirection: 'column', gap: 20 }}>
           {view === 'calendar' && (
-            <>
-              <Calendar onSwitchView={setView} tick={tick} selected={selected} onSelectDate={setSelected} />
-              {selectedLessonId ? (
-                <PodcastDetail
-                  lessonId={selectedLessonId}
-                  onBack={handleBackToPodcastList}
-                  tick={tick}
-                />
-              ) : (
-                <PodcastList onSelectLesson={handleSelectLesson} currentPage={podcastPage} onPageChange={setPodcastPage} />
-              )}
-            </>
+            <Calendar onSwitchView={setView} tick={tick} selected={selected} onSelectDate={setSelected} />
           )}
           {view === 'records' && (
             <RecordsView onSwitchView={setView} onRefresh={refresh} />
+          )}
+          {selectedLessonId ? (
+            <PodcastDetail
+              lessonId={selectedLessonId}
+              onBack={handleBackToPodcastList}
+              tick={tick}
+            />
+          ) : (
+            <PodcastList onSelectLesson={handleSelectLesson} currentPage={podcastPage} onPageChange={setPodcastPage} />
           )}
         </div>
 
