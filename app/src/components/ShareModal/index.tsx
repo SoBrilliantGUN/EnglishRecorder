@@ -3,8 +3,11 @@ import html2canvas from 'html2canvas';
 import { todayStr, showToast } from '../../store';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import Modal from '../Modal';
-import { MULTI_THEMES, SINGLE_THEMES } from './themes';
+import { MULTI_THEMES, SINGLE_THEMES, TOPN_THEMES } from './themes';
 import { MultiCardProps, SingleCardProps } from './types';
+import podcastsData from '../../data/podcasts.json';
+
+const podcasts = podcastsData as { id: number; code: string; title: string; level: string; levelColor?: string }[];
 
 type ShareModalProps =
   | ({ mode?: 'multi'; onClose: () => void } & MultiCardProps)
@@ -12,15 +15,35 @@ type ShareModalProps =
 
 const THEME_KEY = 'ep_share_theme';
 
+// 根据课程数量判断展示模式
+type DisplayMode = 'single' | 'multi' | 'topn';
+function getDisplayMode(props: ShareModalProps): DisplayMode {
+  if (props.mode === 'single') return 'single';
+  const p = props as MultiCardProps;
+  if (p.groups.length === 1) return 'single';
+  if (p.groups.length <= 5) return 'multi';
+  return 'topn';
+}
+
 export default function ShareModal(props: ShareModalProps) {
   const { onClose } = props;
   const [shareTheme, setShareTheme] = useLocalStorage<string>(THEME_KEY, 'dark');
   const shareRef = useRef<HTMLDivElement>(null);
 
-  const isSingle = props.mode === 'single';
-  const themes = isSingle ? SINGLE_THEMES : MULTI_THEMES;
+  const displayMode = getDisplayMode(props);
 
-  const bg = shareTheme === 'dark' ? '#0a0a0a' : '#fff9f0';
+  const themes =
+    displayMode === 'single' ? SINGLE_THEMES :
+    displayMode === 'topn'   ? TOPN_THEMES   :
+                               MULTI_THEMES;
+
+  // 截图背景色：按主题匹配
+  const bgMap: Record<string, string> = {
+    dark:  '#08080f',
+    warm:  '#f0faf6',
+    cream: '#faf6ef',
+  };
+  const bg = bgMap[shareTheme] ?? '#fff';
 
   const handleCopyImg = async () => {
     if (!shareRef.current) return;
@@ -53,12 +76,15 @@ export default function ShareModal(props: ShareModalProps) {
   };
 
   const renderCard = () => {
-    if (isSingle) {
+    const theme = themes.find(t => t.id === shareTheme);
+    if (!theme) return null;
+
+    // 明确传了 mode: 'single'
+    if (props.mode === 'single') {
       const p = props as { mode: 'single'; onClose: () => void } & SingleCardProps;
-      const theme = SINGLE_THEMES.find(t => t.id === shareTheme);
-      if (!theme) return null;
+      const SingleComponent = theme.Component as React.ComponentType<SingleCardProps>;
       return (
-        <theme.Component
+        <SingleComponent
           date={p.date}
           lessonId={p.lessonId}
           lessonCode={p.lessonCode}
@@ -70,10 +96,31 @@ export default function ShareModal(props: ShareModalProps) {
         />
       );
     }
-    const p = props as { mode?: 'multi'; onClose: () => void } & MultiCardProps;
-    const theme = MULTI_THEMES.find(t => t.id === shareTheme);
-    if (!theme) return null;
-    return <theme.Component label={p.label} stats={p.stats} groups={p.groups} />;
+
+    const p = props as MultiCardProps;
+
+    // 多课中只有 1 门课 → 自动转单课模式，从 podcasts 补全数据
+    if (displayMode === 'single') {
+      const [lessonId, count] = p.groups[0];
+      const podcast = podcasts.find(pod => pod.id === Number(lessonId));
+      const SingleComponent = theme.Component as React.ComponentType<SingleCardProps>;
+      return (
+        <SingleComponent
+          date={p.label}
+          lessonId={Number(lessonId)}
+          lessonCode={podcast?.code ?? ''}
+          title={podcast?.title ?? `第 ${lessonId} 课`}
+          level={podcast?.level ?? ''}
+          levelColor={podcast?.levelColor ?? '#07c160'}
+          thisCount={count}
+          totalCount={count}
+        />
+      );
+    }
+
+    // 普通多课 或 TopN
+    const MultiComponent = theme.Component as React.ComponentType<MultiCardProps>;
+    return <MultiComponent label={p.label} stats={p.stats} groups={p.groups} />;
   };
 
   return (
