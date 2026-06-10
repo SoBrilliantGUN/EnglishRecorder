@@ -12,6 +12,8 @@ const DIR = path.join(__dirname, '..', 'app', 'public', 'transcripts');
 function splitSentences(text) {
   // Fix common issues first
   let t = text;
+  // Preserve abbreviation dots from being treated as sentence boundaries
+  t = t.replace(/\b(Mr|Mrs|Ms|Dr|St|Prof|Capt|Gen|Col|Maj|Lt|Sgt)\./g, '$1<DOT>');
   // Fix stuck words
   t = t.replace(/otherexamples/g, 'other examples');
   t = t.replace(/practicallife/g, 'practical life');
@@ -76,7 +78,8 @@ function splitSentences(text) {
     }
   }
 
-  return finalSegments;
+  // Restore abbreviation dots
+  return finalSegments.map(s => s.replace(/<DOT>/g, '.'));
 }
 
 const targetId = parseInt(process.argv[2]);
