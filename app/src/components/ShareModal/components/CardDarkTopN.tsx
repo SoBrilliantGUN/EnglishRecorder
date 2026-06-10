@@ -1,4 +1,4 @@
-import podcastsData from '../../../data/podcasts.json';
+import podcastsData from '../../../data/podcasts-fixed.json';
 import { MultiCardProps } from '../types';
 
 const podcasts = podcastsData as { id: number; title: string }[];

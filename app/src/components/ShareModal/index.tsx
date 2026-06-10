@@ -6,7 +6,7 @@ import { useScaleToFit } from '../../hooks/useScaleToFit';
 import Modal from '../Modal';
 import { MULTI_THEMES, SINGLE_THEMES, TOPN_THEMES } from './themes';
 import { MultiCardProps, SingleCardProps } from './types';
-import podcastsData from '../../data/podcasts.json';
+import podcastsData from '../../data/podcasts-fixed.json';
 
 const podcasts = podcastsData as { id: number; code: string; title: string; level: string; levelColor?: string }[];
 

@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import podcastsData from '../../data/podcasts.json';
+import podcastsData from '../../data/podcasts-fixed.json';
 import type { Podcast } from '../../types/podcast';
 import { LEVEL_COLORS } from '../../types/podcast';
 import { SearchIcon } from '../icons';

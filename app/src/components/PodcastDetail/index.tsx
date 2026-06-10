@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import podcastsData from '../../data/podcasts.json';
-import type { Podcast } from '../../types/podcast';
+import podcastsData from '../../data/podcasts-fixed.json';
+import type { Podcast, TransSegment } from '../../types/podcast';
 import { LEVEL_COLORS } from '../../types/podcast';
 import { getRecords, todayStr } from '../../store';
 import { ChevronLeftIcon, ChevronRightIcon } from '../icons';
@@ -13,6 +13,7 @@ interface PodcastDetailProps {
   onBack: () => void;
   onNavigate: (id: number) => void;
   onRefresh: () => void;
+  showTranslation: boolean;
 }
 
 interface SingleShareData {
@@ -24,15 +25,56 @@ interface SingleShareData {
   totalCount: number;
 }
 
-export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh }: PodcastDetailProps) {
-  const [transcript, setTranscript] = useState<string>('');
+/** 课文内翻译显示方式 */
+type TranslationMode = 'full' | 'hover';
+
+const MODE_LABELS: Record<TranslationMode, string> = {
+  full: '完全显示',
+  hover: '悬浮显示',
+};
+
+const MODE_NEXT: Record<TranslationMode, TranslationMode> = {
+  full: 'hover',
+  hover: 'full',
+};
+
+/** 将结构化段落渲染为 JSX */
+function renderSegments(
+  content: string | TransSegment[],
+  showZh: boolean,
+  mode: 'full' | 'hover',
+) {
+  if (typeof content === 'string') {
+    return <>{content}</>;
+  }
+  const containerClass = mode === 'hover' ? styles.hoverMode : styles.fullMode;
+  return (
+    <div className={containerClass}>
+      {content.map((seg, i) => (
+        <div key={i} className={styles.segment}>
+          <div className={styles.enLine}>{seg.en}</div>
+          {showZh && seg.zh && (
+            <div className={styles.zhLine}>{seg.zh}</div>
+          )}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh, showTranslation }: PodcastDetailProps) {
+  const [transcript, setTranscript] = useState<string | TransSegment[]>('');
   const [transcriptLoading, setTranscriptLoading] = useState(false);
   const [transcriptError, setTranscriptError] = useState(false);
   const [showCheckin, setShowCheckin] = useState(false);
   const [shareData, setShareData] = useState<SingleShareData | null>(null);
+  const [translationMode, setTranslationMode] = useState<TranslationMode>('full');
 
   const podcasts = podcastsData as Podcast[];
   const lesson = podcasts.find(p => p.id === lessonId);
+
+  const showZh = showTranslation;
+  const zhDisplayMode = translationMode;
 
   // 计算当前课今日是否有打卡记录，有才显示分享按钮
   const buildShareData = (): SingleShareData | null => {
@@ -64,7 +106,7 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
     fetch(`/transcripts/${filename}`)
       .then(res => {
         if (!res.ok) throw new Error('not found');
-        return res.json() as Promise<{ transcript: string }>;
+        return res.json() as Promise<{ transcript: string | TransSegment[] }>;
       })
       .then(data => {
         setTranscript(data.transcript);
@@ -141,6 +183,13 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
             单课打卡
           </button>
           <button
+            className={styles.translationToggle}
+            onClick={() => setTranslationMode(MODE_NEXT[translationMode])}
+            title={`翻译模式：${MODE_LABELS[translationMode]}`}
+          >
+            译
+          </button>
+          <button
             className={styles.navBtn}
             onClick={() => onNavigate(lessonId - 1)}
             disabled={!hasPrev}
@@ -167,7 +216,7 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
       {/* 对话内容 */}
       {lesson.content ? (
         <div className={styles.content}>
-          {lesson.content}
+          {renderSegments(lesson.content, showZh, zhDisplayMode)}
         </div>
       ) : null}
 
@@ -182,7 +231,7 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
         )}
         {!transcriptLoading && !transcriptError && transcript && (
           <div className={styles.transcript}>
-            {transcript}
+            {renderSegments(transcript, showZh, zhDisplayMode)}
           </div>
         )}
       </div>

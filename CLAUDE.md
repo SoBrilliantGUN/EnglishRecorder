@@ -32,11 +32,21 @@ npx tsc --noEmit # TypeScript 类型检查
 - [desc/08-工具函数与Toast.md](desc/08-工具函数与Toast.md) — dayjs 日期工具、Toast
 - [desc/09-布局与样式.md](desc/09-布局与样式.md) — SCSS Modules、token 体系、暗黑模式、响应式布局
 - [desc/10-主入口与状态管理.md](desc/10-主入口与状态管理.md) — App.tsx 状态管理
-- [desc/11-课程库.md](desc/11-课程库.md) — EnglishPod 课程列表与详情页
+- [desc/11-课程库.md](desc/11-课程库.md) — EnglishPod 课程列表与详情页（含翻译功能）
 
 ## 架构概览
 
 单页 React 19 + TypeScript（strict）应用，Vite 8 构建。所有数据存储在 localStorage，无后端。
+
+### 翻译功能
+
+课程内容支持中英对照翻译，通过 `TransSegment[]` 结构化数据存储：
+- **数据文件**: `src/data/podcasts-fixed.json`（修复后的课程数据，`content` 为 `TransSegment[]`）
+- **类型**: `types/podcast.ts` 定义 `TransSegment { en: string; zh: string }`
+- **显示模式**: 全局设置（SettingsModal toggle `ep_show_translation`）控制总开关；课文内「译」按钮切换两种显示方式（完全显示/悬浮显示）。悬浮模式用 `visibility: hidden` 占位防抖。
+- **处理流程**: `scripts/split-sentences.mjs`（逐句拆分）→ 逐条写 EN→ZH 内容匹配 → `scripts/apply-transcript-translations.mjs`（写入翻译）
+- **数据处理脚本**: `scripts/fix-podcasts.ts`（podcast修正+拆分）、`scripts/apply-translations.mjs`（podcast翻译写入）
+- **兼容性**: content 和 transcript 均支持旧格式（string）和新格式（TransSegment[]）
 
 ### 状态刷新机制
 
@@ -44,7 +54,7 @@ App.tsx 维护一个 `tick` 计数器作为全局刷新信号。组件通过 `st
 
 ### 数据层（store.ts）
 
-带完整类型定义的纯函数模块，直接读写 localStorage。非响应式，组件命令式调用后手动触发刷新。日期处理统一使用 dayjs。localStorage key 前缀：`ep_records`、`ep_coef`、`ep_first`、`ep_resets`、`ep_initialized`、`ep_theme`、`ep_show_review`、`ep_share_theme`。
+带完整类型定义的纯函数模块，直接读写 localStorage。非响应式，组件命令式调用后手动触发刷新。日期处理统一使用 dayjs。localStorage key 前缀：`ep_records`、`ep_coef`、`ep_first`、`ep_resets`、`ep_initialized`、`ep_theme`、`ep_show_review`、`ep_share_theme`、`ep_show_translation`。
 
 ### 视图切换
 
