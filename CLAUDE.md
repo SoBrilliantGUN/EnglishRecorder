@@ -58,10 +58,11 @@ App.tsx 维护一个 `tick` 计数器作为全局刷新信号。组件通过 `st
 - **App 样式**：`src/App.module.scss` 定义 Header 和图标按钮样式
 - **响应式**：flexWrap 实现桌面 7:3 布局，移动端纵向堆叠
 - **暗黑模式**：`hooks/useTheme.ts` 管理主题状态，通过 `data-theme` 属性切换 CSS 变量，持久化到 `ep_theme`
+- **弹窗小屏适配**：`.modal-content` 设置 `max-height: calc(100vh - 32px)` + `overflow: hidden` 防溢出；`hooks/useScaleToFit.ts` 提供通用缩放 hook，弹窗内容超过视口时用 `transform: scale()` 等比缩小，无滚动条
 
 ### 分享导出
 
-`ShareModal` 通过主题注册表（`themes.ts`）选择卡片组件渲染，再用 `html2canvas` 截图导出 PNG。
+`ShareModal` 通过主题注册表（`themes.ts`）选择卡片组件渲染，再用 `html2canvas` 截图导出 PNG。`onclone` 回调中清除缩放样式，截图保持原始分辨率且无视觉抖动。
 
 ### 艾宾浩斯复习
 

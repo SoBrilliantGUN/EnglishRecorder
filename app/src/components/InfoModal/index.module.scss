@@ -63,3 +63,23 @@
     margin-bottom: 2px;
   }
 }
+
+// 小屏适配：压缩间距
+@media (max-height: 750px) {
+  .list {
+    line-height: 1.6;
+    font-size: var(--font-size-sm);
+
+    li {
+      margin-bottom: 2px;
+    }
+  }
+
+  .divider {
+    margin: 10px 0;
+  }
+
+  .tipList {
+    line-height: 1.6;
+  }
+}

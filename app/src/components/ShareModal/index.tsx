@@ -1,7 +1,8 @@
-import { useRef } from 'react';
+import { useRef, useCallback } from 'react';
 import html2canvas from 'html2canvas';
 import { todayStr, showToast } from '../../store';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
+import { useScaleToFit } from '../../hooks/useScaleToFit';
 import Modal from '../Modal';
 import { MULTI_THEMES, SINGLE_THEMES, TOPN_THEMES } from './themes';
 import { MultiCardProps, SingleCardProps } from './types';
@@ -29,6 +30,13 @@ export default function ShareModal(props: ShareModalProps) {
   const { onClose } = props;
   const [shareTheme, setShareTheme] = useLocalStorage<string>(THEME_KEY, 'dark');
   const shareRef = useRef<HTMLDivElement>(null);
+  const { targetRef, contentStyle } = useScaleToFit(120);
+
+  // 合并 ref：同时用于缩放测量和 html2canvas 截图
+  const cardRef = useCallback((node: HTMLDivElement | null) => {
+    shareRef.current = node;
+    targetRef(node);
+  }, [targetRef]);
 
   const displayMode = getDisplayMode(props);
 
@@ -48,7 +56,19 @@ export default function ShareModal(props: ShareModalProps) {
   const handleCopyImg = async () => {
     if (!shareRef.current) return;
     try {
-      const canvas = await html2canvas(shareRef.current, { backgroundColor: bg, scale: 2 });
+      // onclone 在克隆的文档中清除缩放，原卡片不受影响，无抖动
+      const canvas = await html2canvas(shareRef.current, {
+        backgroundColor: bg,
+        scale: 2,
+        onclone: (clonedDoc) => {
+          const el = clonedDoc.querySelector('[data-share-card]') as HTMLElement | null;
+          if (el) {
+            el.style.transform = '';
+            el.style.transformOrigin = '';
+            el.style.marginBottom = '';
+          }
+        },
+      });
       if (navigator.clipboard && 'write' in navigator.clipboard) {
         canvas.toBlob(async (blob) => {
           if (!blob) return;
@@ -140,8 +160,8 @@ export default function ShareModal(props: ShareModalProps) {
         ))}
       </div>
 
-      {/* 卡片预览 */}
-      <div ref={shareRef}>
+      {/* 卡片预览：contentStyle 含缩放 + 负 margin 补偿布局 */}
+      <div ref={cardRef} style={contentStyle} data-share-card>
         {renderCard()}
       </div>
 
