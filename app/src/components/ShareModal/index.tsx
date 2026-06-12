@@ -67,6 +67,32 @@ export default function ShareModal(props: ShareModalProps) {
             el.style.transformOrigin = '';
             el.style.marginBottom = '';
           }
+
+          // html2canvas 不支持 CSS text-overflow: ellipsis，
+          // 在克隆 DOM 中手动截断溢出文本并追加 "..."
+          clonedDoc.querySelectorAll('*').forEach((elem) => {
+            const htmlElem = elem as HTMLElement;
+            if (htmlElem.style.textOverflow === 'ellipsis' && htmlElem.textContent) {
+              void htmlElem.offsetWidth; // 强制布局计算
+              if (htmlElem.scrollWidth > htmlElem.clientWidth && htmlElem.clientWidth > 0) {
+                const fullText = htmlElem.textContent;
+                // 二分查找合适的截断位置
+                let lo = 0;
+                let hi = fullText.length;
+                while (lo < hi) {
+                  const mid = Math.ceil((lo + hi) / 2);
+                  htmlElem.textContent = fullText.slice(0, mid) + '...';
+                  void htmlElem.offsetWidth;
+                  if (htmlElem.scrollWidth > htmlElem.clientWidth) {
+                    hi = mid - 1;
+                  } else {
+                    lo = mid;
+                  }
+                }
+                htmlElem.textContent = fullText.slice(0, lo) + '...';
+              }
+            }
+          });
         },
       });
       if (navigator.clipboard && 'write' in navigator.clipboard) {
