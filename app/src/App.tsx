@@ -55,33 +55,35 @@ export default function App() {
         </div>
       </header>
 
-      <div style={{ maxWidth: 1600, margin: '0 auto', padding: '0 20px 40px', display: 'flex', gap: 20, flexWrap: 'wrap', alignItems: 'stretch' }}>
-        {/* 左侧主区域 */}
-        <div style={{ flex: '1 1 0', minWidth: 0, display: 'flex', flexDirection: 'column', gap: 20 }}>
-          {view === 'calendar' && (
-            <Calendar onSwitchView={setView} tick={tick} selected={selected} onSelectDate={setSelected} />
-          )}
-          {view === 'records' && (
-            <RecordsView onSwitchView={setView} onRefresh={refresh} />
-          )}
-          {selectedLessonId ? (
-            <PodcastDetail
-              lessonId={selectedLessonId}
-              onBack={handleBackToPodcastList}
-              onNavigate={setSelectedLessonId}
-              onRefresh={refresh}
-            />
-          ) : (
+      {selectedLessonId ? (
+        <div style={{ maxWidth: 1600, margin: '0 auto', padding: '0 20px 40px' }}>
+          <PodcastDetail
+            lessonId={selectedLessonId}
+            onBack={handleBackToPodcastList}
+            onNavigate={setSelectedLessonId}
+            onRefresh={refresh}
+          />
+        </div>
+      ) : (
+        <div style={{ maxWidth: 1600, margin: '0 auto', padding: '0 20px 40px', display: 'flex', gap: 20, flexWrap: 'wrap', alignItems: 'stretch' }}>
+          {/* 左侧主区域 */}
+          <div style={{ flex: '1 1 0', minWidth: 0, display: 'flex', flexDirection: 'column', gap: 20 }}>
+            {view === 'calendar' && (
+              <Calendar onSwitchView={setView} tick={tick} selected={selected} onSelectDate={setSelected} />
+            )}
+            {view === 'records' && (
+              <RecordsView onSwitchView={setView} onRefresh={refresh} />
+            )}
             <PodcastList onSelectLesson={handleSelectLesson} currentPage={podcastPage} onPageChange={setPodcastPage} />
-          )}
-        </div>
+          </div>
 
-        {/* 右侧侧边栏 */}
-        <div style={{ flex: '0 0 350px', minWidth: 0, alignSelf: 'flex-start' }}>
-          <DailyCard selected={selected} onRefresh={refresh} tick={tick} />
-          {showReview && <ReviewReminder onRefresh={refresh} tick={tick} />}
+          {/* 右侧侧边栏 */}
+          <div style={{ flex: '0 0 350px', minWidth: 0, alignSelf: 'flex-start' }}>
+            <DailyCard selected={selected} onRefresh={refresh} tick={tick} />
+            {showReview && <ReviewReminder onRefresh={refresh} tick={tick} />}
+          </div>
         </div>
-      </div>
+      )}
 
       {showInfo && <InfoModal onClose={() => setShowInfo(false)} />}
       {showSettings && (

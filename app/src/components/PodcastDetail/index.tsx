@@ -152,11 +152,11 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
     <div className={`card ${styles.container}`}>
       {/* 顶部导航 */}
       <div className={styles.topBar}>
-        <button className={styles.backBtn} onClick={onBack}>
-          <ChevronLeftIcon size={20} />
-          返回列表
-        </button>
-        <div className={styles.lessonMeta}>
+        <div className={styles.breadcrumb}>
+          <button className={styles.breadcrumbLink} onClick={onBack}>
+            课程库
+          </button>
+          <span className={styles.breadcrumbSep}>/</span>
           <span className={styles.code}>{lesson.code}</span>
           <span className={styles.levelTag} style={{ background: LEVEL_COLORS[lesson.level] }}>
             {lesson.level}
