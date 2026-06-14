@@ -95,7 +95,8 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
         <p className={styles.empty}>近3天无需复习</p>
       ) : (
         <>
-          {visible.map(r => {
+          <div className={expanded ? styles.listScroll : undefined}>
+            {visible.map(r => {
             const itemClass = [
               styles.reminderItem,
               r.isOverdue && styles.reminderOverdue,
@@ -118,6 +119,7 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
               </div>
             );
           })}
+          </div>
           {reminders.length > COLLAPSED_COUNT && (
             <button className={styles.expandBtn} onClick={() => setExpanded(e => !e)}>
               {expanded ? '收起' : `展开另外 ${reminders.length - COLLAPSED_COUNT} 条`}

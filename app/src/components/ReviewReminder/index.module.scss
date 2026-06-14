@@ -90,6 +90,11 @@
   padding: 4px 0;
 }
 
+.listScroll {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
 .settingsPanel {
   margin-top: 14px;
   border-top: 1px solid var(--color-border);

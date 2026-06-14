@@ -57,12 +57,14 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
         {grouped.length === 0 ? (
           <p className={styles.empty}>暂无学习记录</p>
         ) : (
-          grouped.map(([ls, total]) => (
+          <div className={styles.listScroll}>
+            {grouped.map(([ls, total]) => (
             <div key={ls} className={styles.lessonItem}>
               <span>第 <strong>{String(ls).padStart(2, '0')}</strong> 课</span>
               <span className={styles.badge}>× {total} 次</span>
             </div>
-          ))
+          ))}
+          </div>
         )}
       </div>
 

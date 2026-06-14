@@ -35,6 +35,11 @@
   font-size: var(--font-size-sm);
 }
 
+.listScroll {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
 .badge {
   background: var(--color-primary);
   color: var(--color-text-inverse);
