@@ -90,7 +90,7 @@
     },
     {
       "en": "So the first word that we have is road trip.",
-      "zh": "那么第一个词是 road trip（公路旅行）。"
+      "zh": "那么第一个词是 road trip（自驾游）。"
     },
     {
       "en": "Road trip.",
@@ -110,11 +110,11 @@
     },
     {
       "en": "So road trips are really fun and interesting, right?",
-      "zh": "那么公路旅行真的很有趣很好玩，对吧？"
+      "zh": "那么自驾游真的很有趣很好玩，对吧？"
     },
     {
       "en": "Road trips are great.",
-      "zh": "公路旅行太棒了。"
+      "zh": "自驾游太棒了。"
     },
     {
       "en": "You get to get in a car with your family and drive on a vacation.",
@@ -130,7 +130,7 @@
     },
     {
       "en": "I've been on a million road trips.",
-      "zh": "我经历过无数次公路旅行。"
+      "zh": "我经历过无数次自驾游。"
     },
     {
       "en": "All right.",
@@ -209,80 +209,52 @@
       "zh": "十分钟后，我们保证你会完全理解这堂课的所有内容。"
     },
     {
-      "en": "So are we all ready to go?",
-      "zh": "那么我们全都准备好了吗？"
+      "en": "So, are we all ready to go?",
+      "zh": "好了，大家都准备好了吗？"
     },
     {
-      "en": "Yep.",
-      "zh": "嗯。"
+      "en": "Yep, I think so.",
+      "zh": "嗯，我想是的。"
     },
     {
-      "en": "I think so.",
-      "zh": "我想是的。"
-    },
-    {
-      "en": "The car's packed.",
-      "zh": "The car's packed。"
-    },
-    {
-      "en": "We have munchies and music and the map's in the car.",
-      "zh": "零食和音乐都有了，地图也在车里。"
+      "en": "The car's packed; we have munchies and music, and the map's in the car.",
+      "zh": "车已经装好了；零食和音乐都有了，地图也在车里。"
     },
     {
       "en": "Did you get the camera?",
       "zh": "你带相机了吗？"
     },
     {
-      "en": "Got it.",
-      "zh": "带了。"
+      "en": "Got it! Did you fill up the tank?",
+      "zh": "带了！你把油箱加满了吗？"
     },
     {
-      "en": "Did you fill up the tank?",
-      "zh": "你把油箱加满了吗？"
-    },
-    {
-      "en": "Yep.",
-      "zh": "嗯。"
-    },
-    {
-      "en": "It's all set.",
-      "zh": "It's all set。"
+      "en": "Yep, it's all set.",
+      "zh": "嗯，都搞定了。"
     },
     {
       "en": "You're sure we're not forgetting anything?",
-      "zh": "你确定没落下什么东西？"
+      "zh": "你确定没落下什么东西吗？"
     },
     {
-      "en": "I'm sure.",
-      "zh": "我确定。"
+      "en": "I'm sure... we've got all our bases covered.",
+      "zh": "我确定…我们一切都准备好了。"
     },
     {
-      "en": "We've got all our bases covered.",
-      "zh": "我们一切都准备周全了。"
+      "en": "Well...  let's get going then! I love road trips!",
+      "zh": "好吧，那我们出发吧！我超爱自驾游！"
     },
     {
-      "en": "Well, let's get going then.",
-      "zh": "好，那我们出发吧。"
+      "en": "Um... do you think we can make a pit stop?",
+      "zh": "嗯…我们能停下来休息一下吗？"
     },
     {
-      "en": "I love road trips.",
-      "zh": "我超爱公路旅行。"
-    },
-    {
-      "en": "Do you think we can make a pit stop?",
-      "zh": "你觉得我们能停一下吗？"
-    },
-    {
-      "en": "But we've only been on the road for 10 minutes.",
+      "en": "But we've only been on the road for ten minutes.",
       "zh": "可我们才上路十分钟。"
     },
     {
-      "en": "I know.",
-      "zh": "我知道。"
-    },
-    {
-      "en": "But I forgot to go to the bathroom before we left.",
-      "zh": "但我出发前忘记去洗手间了。"
+      "en": "I know, but I forgot to go to the bathroom before we left.",
+      "zh": "我知道，但我出发前忘记去洗手间了。"
     },
     {
       "en": "Well she forgot to go to the bathroom.",
@@ -298,7 +270,7 @@
     },
     {
       "en": "This happens to me on almost every road trip.",
-      "zh": "几乎每次公路旅行都会发生在我身上。"
+      "zh": "几乎每次自驾游都会发生在我身上。"
     },
     {
       "en": "Okay.",
@@ -378,7 +350,7 @@
     },
     {
       "en": "And they're really good when you're taking a road trip.",
-      "zh": "而且它们在公路旅行时特别棒。"
+      "zh": "而且它们在自驾游时特别棒。"
     },
     {
       "en": "Indeed.",
@@ -681,59 +653,47 @@
       "zh": "会稍微慢一点，你会听得更明白。"
     },
     {
-      "en": "So are we all ready to go?",
-      "zh": "那么我们全都准备好了吗？"
+      "en": "So, are we all ready to go?",
+      "zh": "好了，大家都准备好了吗？"
     },
     {
       "en": "Yep, I think so.",
       "zh": "嗯，我想是的。"
     },
     {
-      "en": "The car's packed, we have munchies and music, and the map's in the car.",
-      "zh": "车已装好，零食和音乐都有了，地图也在车里。"
+      "en": "The car's packed; we have munchies and music, and the map's in the car.",
+      "zh": "车已经装好了；零食和音乐都有了，地图也在车里。"
     },
     {
       "en": "Did you get the camera?",
       "zh": "你带相机了吗？"
     },
     {
-      "en": "Got it.",
-      "zh": "带了。"
-    },
-    {
-      "en": "Did you fill up the tank?",
-      "zh": "你把油箱加满了吗？"
+      "en": "Got it! Did you fill up the tank?",
+      "zh": "带了！你把油箱加满了吗？"
     },
     {
       "en": "Yep, it's all set.",
-      "zh": "是的，it's all set。"
+      "zh": "嗯，都搞定了。"
     },
     {
       "en": "You're sure we're not forgetting anything?",
-      "zh": "你确定没落下什么东西？"
+      "zh": "你确定没落下什么东西吗？"
     },
     {
-      "en": "I'm sure.",
-      "zh": "我确定。"
+      "en": "I'm sure... we've got all our bases covered.",
+      "zh": "我确定…我们一切都准备好了。"
     },
     {
-      "en": "We've got all our bases covered.",
-      "zh": "我们一切都准备周全了。"
+      "en": "Well...  let's get going then! I love road trips!",
+      "zh": "好吧，那我们出发吧！我超爱自驾游！"
     },
     {
-      "en": "Well, let's get going then.",
-      "zh": "好，那我们出发吧。"
+      "en": "Um... do you think we can make a pit stop?",
+      "zh": "嗯…我们能停下来休息一下吗？"
     },
     {
-      "en": "I love road trips.",
-      "zh": "我超爱公路旅行。"
-    },
-    {
-      "en": "Um, do you think we can make a pit stop?",
-      "zh": "嗯，你觉得我们能停一下吗？"
-    },
-    {
-      "en": "But we've only been on the road for 10 minutes.",
+      "en": "But we've only been on the road for ten minutes.",
       "zh": "可我们才上路十分钟。"
     },
     {
@@ -862,15 +822,15 @@
     },
     {
       "en": "Yep, it's all set.",
-      "zh": "是的，it's all set。"
+      "zh": "是的，都搞定了。"
     },
     {
       "en": "Yep, it's all set.",
-      "zh": "是的，it's all set。"
+      "zh": "是的，都搞定了。"
     },
     {
       "en": "It's all set.",
-      "zh": "It's all set。"
+      "zh": "都搞定了。"
     },
     {
       "en": "That sounds much better.",
@@ -881,63 +841,47 @@
       "zh": "是的，我们也都准备好听第三遍对话了，这次将是正常语速。"
     },
     {
-      "en": "So are we all ready to go?",
-      "zh": "那么我们全都准备好了吗？"
+      "en": "So, are we all ready to go?",
+      "zh": "好了，大家都准备好了吗？"
     },
     {
       "en": "Yep, I think so.",
       "zh": "嗯，我想是的。"
     },
     {
-      "en": "The car's packed.",
-      "zh": "The car's packed。"
-    },
-    {
-      "en": "We have munchies and music and the map's in the car.",
-      "zh": "零食和音乐都有了，地图也在车里。"
+      "en": "The car's packed; we have munchies and music, and the map's in the car.",
+      "zh": "车已经装好了；零食和音乐都有了，地图也在车里。"
     },
     {
       "en": "Did you get the camera?",
       "zh": "你带相机了吗？"
     },
     {
-      "en": "Got it.",
-      "zh": "带了。"
-    },
-    {
-      "en": "Did you fill up the tank?",
-      "zh": "你把油箱加满了吗？"
+      "en": "Got it! Did you fill up the tank?",
+      "zh": "带了！你把油箱加满了吗？"
     },
     {
       "en": "Yep, it's all set.",
-      "zh": "是的，it's all set。"
+      "zh": "嗯，都搞定了。"
     },
     {
       "en": "You're sure we're not forgetting anything?",
-      "zh": "你确定没落下什么东西？"
+      "zh": "你确定没落下什么东西吗？"
     },
     {
-      "en": "I'm sure.",
-      "zh": "我确定。"
+      "en": "I'm sure... we've got all our bases covered.",
+      "zh": "我确定…我们一切都准备好了。"
     },
     {
-      "en": "We've got all our bases covered.",
-      "zh": "我们一切都准备周全了。"
+      "en": "Well...  let's get going then! I love road trips!",
+      "zh": "好吧，那我们出发吧！我超爱自驾游！"
     },
     {
-      "en": "Well, let's get going then.",
-      "zh": "好，那我们出发吧。"
+      "en": "Um... do you think we can make a pit stop?",
+      "zh": "嗯…我们能停下来休息一下吗？"
     },
     {
-      "en": "I love road trips.",
-      "zh": "我超爱公路旅行。"
-    },
-    {
-      "en": "Do you think we can make a pit stop?",
-      "zh": "你觉得我们能停一下吗？"
-    },
-    {
-      "en": "But we've only been on the road for 10 minutes.",
+      "en": "But we've only been on the road for ten minutes.",
       "zh": "可我们才上路十分钟。"
     },
     {
@@ -946,7 +890,7 @@
     },
     {
       "en": "So, Erika, you said you've been on a million road trips.",
-      "zh": "那么，艾瑞卡，你说你经历过无数次公路旅行。"
+      "zh": "那么，艾瑞卡，你说你经历过无数次自驾游。"
     },
     {
       "en": "What was that all about?",
@@ -958,11 +902,11 @@
     },
     {
       "en": "Okay, well, maybe not a million road trips, but many road trips.",
-      "zh": "好吧，也许不是无数次，但很多次公路旅行。"
+      "zh": "好吧，也许不是无数次，但很多次自驾游。"
     },
     {
       "en": "Every summer I used to go on a road trip with my family, and we would drive many, many hours, probably eight hours in one day, up to northern Canada.",
-      "zh": "每个夏天我都会和家人一起去公路旅行，我们会开很多很多小时，大概一天开八个小时，去加拿大北部。"
+      "zh": "每个夏天我都会和家人一起去自驾游，我们会开很多很多小时，大概一天开八个小时，去加拿大北部。"
     },
     {
       "en": "Oh, wow, nice.",
@@ -978,7 +922,7 @@
     },
     {
       "en": "Ah, family road trip.",
-      "zh": "啊，家庭公路旅行。"
+      "zh": "啊，家庭自驾游。"
     },
     {
       "en": "Yeah, but maybe eight hours in a car is a little too long.",
@@ -990,7 +934,7 @@
     },
     {
       "en": "Well, I've been on a different kind of road trip with some buddies of mine, some friends.",
-      "zh": "嗯，我经历过一种不同的公路旅行，跟我的几个哥们，几个朋友一起。"
+      "zh": "嗯，我经历过一种不同的自驾游，跟我的几个哥们，几个朋友一起。"
     },
     {
       "en": "We would drive to Las Vegas.",
@@ -1014,7 +958,7 @@
     },
     {
       "en": "So that's a much different experience than a family road trip.",
-      "zh": "所以这跟家庭公路旅行是完全不同的体验。"
+      "zh": "所以这跟家庭自驾游是完全不同的体验。"
     },
     {
       "en": "Maybe that sounds a little bit more fun.",
