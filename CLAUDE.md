@@ -44,7 +44,7 @@ npx tsc --noEmit # TypeScript 类型检查
 - **数据文件**: `src/data/podcasts-fixed.json`（365课，`content` 为 `TransSegment[]`，ID 1-50 已翻译）
 - **文字稿**: `public/transcripts/englishpod_XXXX.json`（365个，ID 1-22 已翻译）
 - **类型**: `types/podcast.ts` 定义 `TransSegment { en: string; zh: string }`
-- **显示模式**: 全局设置（SettingsModal toggle `ep_show_translation`）控制总开关；课文内「译」按钮切换两种显示方式（完全显示/悬浮显示）。悬浮模式用 `visibility: hidden` 占位防抖。
+- **显示模式**: 课文内「译」按钮切换两种显示方式（完全显示/悬浮显示）。悬浮模式用 `visibility: hidden` 占位防抖。
 - **处理流程**: `scripts/split-sentences.mjs`（逐句拆分）→ 人工 EN→ZH 翻译 → `scripts/apply-translations.mjs`（课文翻译写入）或 `scripts/apply-transcript-translations.mjs`（文字稿翻译写入）
 - **校对后对齐**: 课文校对完成后，必须将对应文字稿中3遍对话的 en 和 zh 同步为与课文一致（同一录音播放3遍）。使用 content-based detection 定位3遍对话并统一替换。
 - **兼容性**: content 和 transcript 均支持旧格式（string）和新格式（TransSegment[]）

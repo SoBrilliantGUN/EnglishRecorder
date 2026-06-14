@@ -14,7 +14,6 @@ import { MoonIcon, SunIcon, InfoIcon, SettingsIcon } from './components/icons';
 import styles from './App.module.scss';
 
 const SHOW_REVIEW_KEY = 'ep_show_review';
-const SHOW_TRANSLATION_KEY = 'ep_show_translation';
 
 export default function App() {
   const [view, setView] = useState('calendar');
@@ -23,7 +22,6 @@ export default function App() {
   const [showInfo, setShowInfo] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
   const [showReview, setShowReview] = useLocalStorage<boolean>(SHOW_REVIEW_KEY, true);
-  const [showTranslation, setShowTranslation] = useLocalStorage<boolean>(SHOW_TRANSLATION_KEY, false);
   const [selectedLessonId, setSelectedLessonId] = useState<number | null>(null);
   const [podcastPage, setPodcastPage] = useState(1);
   const { theme, toggle: toggleTheme } = useTheme();
@@ -72,7 +70,6 @@ export default function App() {
               onBack={handleBackToPodcastList}
               onNavigate={setSelectedLessonId}
               onRefresh={refresh}
-              showTranslation={showTranslation}
             />
           ) : (
             <PodcastList onSelectLesson={handleSelectLesson} currentPage={podcastPage} onPageChange={setPodcastPage} />
@@ -92,8 +89,6 @@ export default function App() {
           onClose={() => setShowSettings(false)}
           showReview={showReview}
           onToggleReview={setShowReview}
-          showTranslation={showTranslation}
-          onToggleTranslation={setShowTranslation}
         />
       )}
 

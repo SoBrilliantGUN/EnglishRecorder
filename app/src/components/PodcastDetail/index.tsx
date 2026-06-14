@@ -13,7 +13,6 @@ interface PodcastDetailProps {
   onBack: () => void;
   onNavigate: (id: number) => void;
   onRefresh: () => void;
-  showTranslation: boolean;
 }
 
 interface SingleShareData {
@@ -62,7 +61,7 @@ function renderSegments(
   );
 }
 
-export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh, showTranslation }: PodcastDetailProps) {
+export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh }: PodcastDetailProps) {
   const [transcript, setTranscript] = useState<string | TransSegment[]>('');
   const [transcriptLoading, setTranscriptLoading] = useState(false);
   const [transcriptError, setTranscriptError] = useState(false);
@@ -73,7 +72,7 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh,
   const podcasts = podcastsData as Podcast[];
   const lesson = podcasts.find(p => p.id === lessonId);
 
-  const showZh = showTranslation;
+  const showZh = true;
   const zhDisplayMode = translationMode;
 
   // 计算当前课今日是否有打卡记录，有才显示分享按钮
