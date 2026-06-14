@@ -149,12 +149,12 @@
       "zh": "完美，我们来听。"
     },
     {
-      "en": "Oh great, the stupid computer froze again.",
-      "zh": "哦太好了，这台破电脑又死机了。"
+      "en": "Oh great! This stupid computer froze again!",
+      "zh": "哦太棒了！这台破电脑又死机了！"
     },
     {
-      "en": "It's the third time today.",
-      "zh": "这都今天第三次了。"
+      "en": "That's the third time today!",
+      "zh": "这都今天第三次了！"
     },
     {
       "en": "Hey Samuel, can you come take a look at my PC?",
@@ -162,51 +162,51 @@
     },
     {
       "en": "It's acting up again.",
-      "zh": "It's acting up again（它又出毛病了）。"
+      "zh": "它又出问题了。"
     },
     {
       "en": "It must have a virus or something.",
       "zh": "肯定是中毒了什么的。"
     },
     {
-      "en": "Just give me a second, I'll be right up.",
+      "en": "Just give me a second. I'll be right up.",
       "zh": "等我一下，我马上上来。"
     },
     {
-      "en": "I ran a virus scan on your computer and it turns out that you have a lot of infected files.",
-      "zh": "我给你的电脑跑了病毒扫描，结果发现你有很多被感染的文件。"
+      "en": "I ran a virus scan on your computer, and it turns out that you have a lot of infected files!",
+      "zh": "我在你电脑上跑了病毒扫描，结果发现你有很多被感染的文件！"
     },
     {
-      "en": "But I'm quite careful when I'm browsing the internet.",
-      "zh": "但我上网的时候很小心啊。"
+      "en": "But I'm quite careful when I'm browsing the internet,",
+      "zh": "但我上网的时候很小心啊，"
     },
     {
       "en": "I have no idea how I could have picked up a virus.",
       "zh": "我真不知道怎么会中病毒的。"
     },
     {
-      "en": "Well, you have to make sure their antivirus software is updated regularly.",
+      "en": "Well, you have to make sure that your anti-virus software is updated regularly.",
       "zh": "嗯，你得确保你的杀毒软件定期更新。"
     },
     {
-      "en": "Yours wasn't up to date.",
-      "zh": "你的没有更新到最新。"
+      "en": "yours wasn't up to date,",
+      "zh": "你的软件没有更新到最新版，"
     },
     {
-      "en": "That's probably what was causing your problems.",
-      "zh": "这可能就是导致你问题的原因。"
+      "en": "that's probably what was causing your problems.",
+      "zh": "这可能就是问题所在。"
     },
     {
-      "en": "Okay, anything else?",
-      "zh": "好的，还有别的吗？"
+      "en": "Ok. Anything else?",
+      "zh": "好的。还有别的吗？"
     },
     {
-      "en": "Yeah, try not to kick or hit the computer.",
-      "zh": "有，尽量别踢或砸电脑。"
+      "en": "Yeah, try not to kick or hit the computer!",
+      "zh": "有，尽量别踢或砸电脑！"
     },
     {
-      "en": "Um, yeah, sorry about that.",
-      "zh": "呃，好的，抱歉。"
+      "en": "Um yeah...  Sorry about that.",
+      "zh": "呃好吧…抱歉。"
     },
     {
       "en": "Well I completely understand this guy.",
@@ -558,7 +558,11 @@
     },
     {
       "en": "All right.",
-      "zh": "All right."
+      "zh": "好吧。"
+    },
+    {
+      "en": "OK",
+      "zh": "OK"
     },
     {
       "en": "So it's time for us to listen to our dialogue again, but this time it'll be a little bit slower.",
@@ -566,19 +570,19 @@
     },
     {
       "en": "All right.",
-      "zh": "All right."
+      "zh": "好的。"
     },
     {
-      "en": "Oh great.",
-      "zh": "Oh great."
+      "en": "Oh great!",
+      "zh": "哦太棒了！"
     },
     {
-      "en": "This stupid computer froze again.",
-      "zh": "这台破电脑又死机了。"
+      "en": "This stupid computer froze again!",
+      "zh": "这台破电脑又死机了！"
     },
     {
-      "en": "That's the third time today.",
-      "zh": "这都今天第三次了。"
+      "en": "That's the third time today!",
+      "zh": "这都今天第三次了！"
     },
     {
       "en": "Hey Samuel, can you come take a look at my PC?",
@@ -586,7 +590,7 @@
     },
     {
       "en": "It's acting up again.",
-      "zh": "It's acting up again（它又出毛病了）。"
+      "zh": "它又出问题了。"
     },
     {
       "en": "It must have a virus or something.",
@@ -598,34 +602,34 @@
     },
     {
       "en": "I'll be right up.",
-      "zh": "I'll be right up。"
+      "zh": "我马上上来。"
     },
     {
-      "en": "I ran a virus scan on your computer and it turns out that you have a lot of infected files.",
-      "zh": "我给你的电脑跑了病毒扫描，结果发现你有很多被感染的文件。"
+      "en": "I ran a virus scan on your computer, and it turns out that you have a lot of infected files!",
+      "zh": "我在你电脑上跑了病毒扫描，结果发现你有很多被感染的文件！"
     },
     {
-      "en": "But I'm quite careful when I'm browsing the internet.",
-      "zh": "但我上网的时候很小心啊。"
+      "en": "But I'm quite careful when I'm browsing the internet,",
+      "zh": "但我上网的时候很小心啊，"
     },
     {
       "en": "I have no idea how I could have picked up a virus.",
       "zh": "我真不知道怎么会中病毒的。"
     },
     {
-      "en": "Well, you have to make sure that your antivirus software is updated regularly.",
+      "en": "Well, you have to make sure that your anti-virus software is updated regularly.",
       "zh": "嗯，你得确保你的杀毒软件定期更新。"
     },
     {
-      "en": "Yours wasn't up to date.",
-      "zh": "你的没有更新到最新。"
+      "en": "yours wasn't up to date,",
+      "zh": "你的软件没有更新到最新版，"
     },
     {
-      "en": "It's probably what was causing your problems.",
-      "zh": "这可能就是导致你问题的原因。"
+      "en": "that's probably what was causing your problems.",
+      "zh": "这可能就是问题所在。"
     },
     {
-      "en": "Okay.",
+      "en": "Ok.",
       "zh": "好的。"
     },
     {
@@ -633,16 +637,16 @@
       "zh": "还有别的吗？"
     },
     {
-      "en": "Yeah.",
-      "zh": "Yeah."
+      "en": "Yeah,",
+      "zh": "有，"
     },
     {
-      "en": "Try not to kick or hit the computer.",
-      "zh": "尽量别踢或砸电脑。"
+      "en": "Try not to kick or hit the computer!",
+      "zh": "尽量别踢或砸电脑！"
     },
     {
-      "en": "Um, yeah.",
-      "zh": "呃，好的。"
+      "en": "Um yeah...",
+      "zh": "呃好吧…"
     },
     {
       "en": "Sorry about that.",
@@ -690,7 +694,7 @@
     },
     {
       "en": "So let's look at Fluency Builder.",
-      "zh": "So let's look at Fluency Builder."
+      "zh": "那我们来看看流利表达。"
     },
     {
       "en": "Fluency Builder.",
@@ -706,7 +710,7 @@
     },
     {
       "en": "Right.",
-      "zh": "Right."
+      "zh": "对。"
     },
     {
       "en": "So many students would probably say his computer was acting strangely.",
@@ -773,20 +777,20 @@
       "zh": "试试看你能不能听到这些关键词。"
     },
     {
-      "en": "Oh, great.",
-      "zh": "哦，太好了。"
+      "en": "Oh great!",
+      "zh": "哦太棒了！"
     },
     {
-      "en": "The stupid computer froze again.",
-      "zh": "The stupid computer froze again."
+      "en": "This stupid computer froze again!",
+      "zh": "这台破电脑又死机了！"
     },
     {
-      "en": "It's the third time today.",
-      "zh": "这都今天第三次了。"
+      "en": "That's the third time today!",
+      "zh": "这都今天第三次了！"
     },
     {
-      "en": "Hey, Samuel.",
-      "zh": "嘿，萨缪尔。"
+      "en": "Hey Samuel,",
+      "zh": "嘿萨缪尔，"
     },
     {
       "en": "Can you come take a look at my PC?",
@@ -794,7 +798,7 @@
     },
     {
       "en": "It's acting up again.",
-      "zh": "It's acting up again（它又出毛病了）。"
+      "zh": "它又出问题了。"
     },
     {
       "en": "It must have a virus or something.",
@@ -806,34 +810,34 @@
     },
     {
       "en": "I'll be right up.",
-      "zh": "I'll be right up。"
+      "zh": "我马上上来。"
     },
     {
-      "en": "I ran a virus scan on your computer and it turns out that you have a lot of infected files.",
-      "zh": "我给你的电脑跑了病毒扫描，结果发现你有很多被感染的文件。"
+      "en": "I ran a virus scan on your computer, and it turns out that you have a lot of infected files!",
+      "zh": "我在你电脑上跑了病毒扫描，结果发现你有很多被感染的文件！"
     },
     {
-      "en": "But I'm quite careful when I'm browsing the internet.",
-      "zh": "但我上网的时候很小心啊。"
+      "en": "But I'm quite careful when I'm browsing the internet,",
+      "zh": "但我上网的时候很小心啊，"
     },
     {
       "en": "I have no idea how I could have picked up a virus.",
       "zh": "我真不知道怎么会中病毒的。"
     },
     {
-      "en": "Well, you have to make sure their antivirus software is updated regularly.",
+      "en": "Well, you have to make sure that your anti-virus software is updated regularly.",
       "zh": "嗯，你得确保你的杀毒软件定期更新。"
     },
     {
-      "en": "Yours wasn't up to date.",
-      "zh": "你的没有更新到最新。"
+      "en": "yours wasn't up to date,",
+      "zh": "你的软件没有更新到最新版，"
     },
     {
-      "en": "That's probably what was causing your problems.",
-      "zh": "这可能就是导致你问题的原因。"
+      "en": "that's probably what was causing your problems.",
+      "zh": "这可能就是问题所在。"
     },
     {
-      "en": "Okay.",
+      "en": "Ok.",
       "zh": "好的。"
     },
     {
@@ -841,16 +845,16 @@
       "zh": "还有别的吗？"
     },
     {
-      "en": "Yeah.",
-      "zh": "Yeah."
+      "en": "Yeah,",
+      "zh": "有，"
     },
     {
-      "en": "Try not to kick or hit the computer.",
-      "zh": "尽量别踢或砸电脑。"
+      "en": "Try not to kick or hit the computer!",
+      "zh": "尽量别踢或砸电脑！"
     },
     {
-      "en": "Yeah.",
-      "zh": "Yeah."
+      "en": "Um yeah...",
+      "zh": "呃好吧…"
     },
     {
       "en": "Sorry about that.",

@@ -306,7 +306,7 @@
         "zh": "A：哦太棒了！这台破电脑又死机了！这都今天第三次了！嘿萨缪尔，你能过来帮我看看电脑吗？它又出问题了。肯定是中毒了什么的。"
       },
       {
-        "en": "B: Just give me a second; I'll be right up.",
+        "en": "B: Just give me a second. I'll be right up.",
         "zh": "B：等我一下，我马上上来。"
       },
       {
@@ -318,8 +318,8 @@
         "zh": "A：但我上网的时候很小心啊，我真不知道怎么会中病毒的。"
       },
       {
-        "en": "B: Well, you have to make sure that your anti-virus software is updated regularly; yours wasn't up to date, that's probably what was causing your problems.",
-        "zh": "B：嗯，你得确保你的杀毒软件定期更新；你的软件没有更新到最新版，这可能就是问题所在。"
+        "en": "B: Well, you have to make sure that your anti-virus software is updated regularly. Yours wasn't up to date, that's probably what was causing your problems.",
+        "zh": "B：嗯，你得确保你的杀毒软件定期更新。你的软件没有更新到最新版，这可能就是问题所在。"
       },
       {
         "en": "A: Ok. Anything else?",
