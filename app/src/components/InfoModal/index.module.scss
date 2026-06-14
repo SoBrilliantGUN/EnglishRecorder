@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .infoTitle {
@@ -10,34 +10,78 @@
   color: var(--color-text);
 }
 
-.list {
-  padding-left: 20px;
-  margin: 0;
+// 折叠面板
+.section {
+  margin-bottom: 0;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 8px 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--color-text);
+  font-size: var(--font-size-base);
+  font-family: inherit;
+  border-radius: 6px;
+  transition: background 0.15s;
+
+  &:hover {
+    background: var(--color-bg-muted);
+  }
+}
+
+.sectionIcon {
+  margin-right: 8px;
+  font-size: 16px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.sectionTitle {
+  flex: 1;
+  text-align: left;
+  font-weight: 500;
+}
+
+.chevron {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  transition: transform 0.2s ease;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.chevronDown {
+  transform: rotate(90deg);
+}
+
+.sectionList {
+  margin: 2px 0 8px;
+  padding-left: 32px;
   line-height: 1.8;
   font-size: var(--font-size-base);
   color: var(--color-text);
 
   li {
-    margin-bottom: 4px;
+    margin-bottom: 2px;
   }
 }
 
 .divider {
-  margin: 16px 0;
+  margin: 8px 0;
   border: none;
   border-top: 1px solid var(--color-border);
 }
 
+// 沙拉查词推荐区块
 .tipSection {
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
-}
-
-.tipTitle {
-  font-size: var(--font-size-base);
-  font-weight: 600;
-  color: var(--color-text);
-  margin-bottom: 6px;
+  padding: 2px 4px 8px 32px;
 }
 
 .tipDesc {
@@ -66,20 +110,25 @@
 
 // 小屏适配：压缩间距
 @media (max-height: 750px) {
-  .list {
-    line-height: 1.6;
-    font-size: var(--font-size-sm);
-
-    li {
-      margin-bottom: 2px;
-    }
+  .sectionHeader {
+    padding: 4px 4px;
   }
 
-  .divider {
-    margin: 10px 0;
+  .sectionList {
+    line-height: 1.6;
+    font-size: var(--font-size-sm);
+    margin-bottom: 4px;
+  }
+
+  .tipSection {
+    padding-bottom: 4px;
   }
 
   .tipList {
     line-height: 1.6;
+  }
+
+  .divider {
+    margin: 4px 0;
   }
 }
