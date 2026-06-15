@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, Suspense, lazy } from 'react';
 import { todayStr } from './store';
 import { useTheme } from './hooks/useTheme';
 import { useLocalStorage } from './hooks/useLocalStorage';
@@ -6,12 +6,19 @@ import Calendar from './components/Calendar';
 import RecordsView from './components/RecordsView';
 import DailyCard from './components/DailyCard';
 import ReviewReminder from './components/ReviewReminder';
-import InfoModal from './components/InfoModal';
-import SettingsModal from './components/SettingsModal';
 import PodcastList from './components/PodcastList';
-import PodcastDetail from './components/PodcastDetail';
 import { MoonIcon, SunIcon, InfoIcon, SettingsIcon } from './components/icons';
 import styles from './App.module.scss';
+
+// 懒加载弹窗和详情页——这些组件按需渲染，避免阻塞首屏
+// ShareModal 内含 html2canvas（~410 kB 未压缩），是最关键的拆分目标
+const InfoModal = lazy(() => import('./components/InfoModal'));
+const SettingsModal = lazy(() => import('./components/SettingsModal'));
+const PodcastDetail = lazy(() => import('./components/PodcastDetail'));
+
+// 通用 Suspense fallback：弹窗和详情页在加载瞬间显示空白即可，
+// 因为懒加载的 chunk 极小（<1kB 不含依赖），加载几乎瞬间完成
+const LazyFallback = () => null;
 
 const SHOW_REVIEW_KEY = 'ep_show_review';
 
@@ -54,14 +61,16 @@ export default function App() {
       </header>
 
       {selectedLessonId ? (
-        <div style={{ maxWidth: 1600, margin: '0 auto', padding: '0 20px 40px' }}>
-          <PodcastDetail
-            lessonId={selectedLessonId}
-            onBack={handleBackToPodcastList}
-            onNavigate={setSelectedLessonId}
-            onRefresh={refresh}
-          />
-        </div>
+        <Suspense fallback={<LazyFallback />}>
+          <div style={{ maxWidth: 1600, margin: '0 auto', padding: '0 20px 40px' }}>
+            <PodcastDetail
+              lessonId={selectedLessonId}
+              onBack={handleBackToPodcastList}
+              onNavigate={setSelectedLessonId}
+              onRefresh={refresh}
+            />
+          </div>
+        </Suspense>
       ) : (
         <div style={{ maxWidth: 1600, margin: '0 auto', padding: '0 20px 40px', display: 'flex', gap: 28, flexWrap: 'wrap', alignItems: 'stretch' }}>
           {/* 左侧主区域 */}
@@ -83,13 +92,19 @@ export default function App() {
         </div>
       )}
 
-      {showInfo && <InfoModal onClose={() => setShowInfo(false)} />}
+      {showInfo && (
+        <Suspense fallback={<LazyFallback />}>
+          <InfoModal onClose={() => setShowInfo(false)} />
+        </Suspense>
+      )}
       {showSettings && (
-        <SettingsModal
-          onClose={() => setShowSettings(false)}
-          showReview={showReview}
-          onToggleReview={setShowReview}
-        />
+        <Suspense fallback={<LazyFallback />}>
+          <SettingsModal
+            onClose={() => setShowSettings(false)}
+            showReview={showReview}
+            onToggleReview={setShowReview}
+          />
+        </Suspense>
       )}
 
       <div id="toast" />

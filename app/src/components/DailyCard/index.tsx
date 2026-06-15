@@ -1,8 +1,10 @@
-import { useState } from 'react';
+import { useState, Suspense, lazy } from 'react';
 import { getRecords, todayStr, getStats, groupByLesson } from '../../store';
-import ShareModal from '../ShareModal';
 import CheckinModal from '../CheckinModal';
 import styles from './index.module.scss';
+
+// ShareModal 内含 html2canvas（~410 kB 未压缩），按需加载
+const ShareModal = lazy(() => import('../ShareModal'));
 
 interface DailyCardProps {
   selected: string;
@@ -82,12 +84,14 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
 
       {/* 分享弹窗 */}
       {shareModal && (
-        <ShareModal
-          label={date}
-          stats={getStats(records)}
-          groups={grouped}
-          onClose={() => setShareModal(false)}
-        />
+        <Suspense fallback={null}>
+          <ShareModal
+            label={date}
+            stats={getStats(records)}
+            groups={grouped}
+            onClose={() => setShareModal(false)}
+          />
+        </Suspense>
       )}
     </>
   );

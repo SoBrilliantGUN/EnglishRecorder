@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import {
-  getFirstDates, getNextReview, setReset, todayStr, friendlyDate, showToast,
+  getFirstDates, setReset, todayStr, friendlyDate, showToast,
   getCoef, addDays, formatDate, getRecords, getResets,
 } from '../../store';
 import { useCoef } from '../../hooks/useCoef';
@@ -33,14 +33,26 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
   const reminders: ReminderItem[] = [];
   const firstDates = getFirstDates();
   const lessons = Object.keys(firstDates).map(Number).sort((a, b) => a - b);
+  const today = todayStr();
 
-  const isOverdue = (lesson: number): boolean => {
-    const resets = getResets();
-    const currentCoef = getCoef();
-    const intervals = [1, 2, 4, 7, 15, 30, 60];
-    const lessonRecords = getRecords().filter(r => r.lesson === lesson);
-    if (lessonRecords.length === 0) return false;
+  // 预分组：每个 lesson 的 records 只过滤一次，复用给 getNextReview 和 overdue 判定
+  const allRecords = getRecords();
+  const recordsByLesson = new Map<number, typeof allRecords>();
+  for (const r of allRecords) {
+    const arr = recordsByLesson.get(r.lesson);
+    if (arr) arr.push(r);
+    else recordsByLesson.set(r.lesson, [r]);
+  }
 
+  const resets = getResets();
+  const currentCoef = getCoef();
+  const intervals = [1, 2, 4, 7, 15, 30, 60];
+
+  lessons.forEach(lesson => {
+    const lessonRecords = recordsByLesson.get(lesson);
+    if (!lessonRecords || lessonRecords.length === 0) return;
+
+    // 内联 getNextReview 逻辑，复用预分组的 lessonRecords
     const startDateStr = resets[lesson] || lessonRecords.map(r => r.date).sort()[0];
     const uniqueDates = [...new Set(
       lessonRecords.map(r => r.date).filter(d => d >= startDateStr)
@@ -48,24 +60,31 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
 
     const completedRounds = uniqueDates.length - 1;
     const nextRound = completedRounds;
-    if (nextRound >= intervals.length) return false;
+    if (nextRound >= intervals.length) return;
 
     const theoreticalDate = formatDate(addDays(new Date(startDateStr), Math.round(intervals[nextRound] * currentCoef)));
-    return theoreticalDate < todayStr();
-  };
+    const lastDate = uniqueDates[uniqueDates.length - 1];
 
-  lessons.forEach(lesson => {
-    const next = getNextReview(lesson);
-    if (!next) return;
-    const today = todayStr();
-    const tomorrow = new Date(); tomorrow.setDate(tomorrow.getDate() + 1);
-    const dayAfter = new Date(); dayAfter.setDate(dayAfter.getDate() + 2);
-    const tomorrowStr = formatDate(tomorrow);
-    const dayAfterStr = formatDate(dayAfter);
-
-    if (next.date === today || next.date === tomorrowStr || next.date === dayAfterStr) {
-      reminders.push({ ...next, isOverdue: isOverdue(lesson) });
+    let nextDate: string;
+    if (theoreticalDate > today) {
+      nextDate = theoreticalDate;
+    } else if (lastDate === today) {
+      nextDate = formatDate(addDays(new Date(today), 1));
+    } else {
+      nextDate = today;
     }
+
+    // 仅展示近 3 天的提醒
+    const tomorrow = formatDate(addDays(new Date(), 1));
+    const dayAfter = formatDate(addDays(new Date(), 2));
+    if (nextDate !== today && nextDate !== tomorrow && nextDate !== dayAfter) return;
+
+    reminders.push({
+      lesson,
+      round: nextRound + 1,
+      date: nextDate,
+      isOverdue: theoreticalDate < today,
+    });
   });
 
   const confirmReset = () => {

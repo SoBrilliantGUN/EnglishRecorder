@@ -1,12 +1,14 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, Suspense, lazy } from 'react';
 import {
   getRecords, deleteRecordsByDateAndLesson, exportData, importData,
   todayStr, formatDate, getWeekStart, getWeekEnd,
   showToast, Record, getStats, groupByLesson
 } from '../../store';
 import Modal from '../Modal';
-import ShareModal from '../ShareModal';
 import styles from './index.module.scss';
+
+// ShareModal 内含 html2canvas（~410 kB），按需加载
+const ShareModal = lazy(() => import('../ShareModal'));
 
 type Tab = 'day' | 'week' | 'month';
 
@@ -169,12 +171,14 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
 
       {/* 分享弹窗 */}
       {shareModal && (
-        <ShareModal
-          label={getLabel(tab, date)}
-          stats={stats}
-          groups={dayGroups}
-          onClose={() => setShareModal(false)}
-        />
+        <Suspense fallback={null}>
+          <ShareModal
+            label={getLabel(tab, date)}
+            stats={stats}
+            groups={dayGroups}
+            onClose={() => setShareModal(false)}
+          />
+        </Suspense>
       )}
       {/* 删除确认弹窗 */}
       {deleteModal !== null && (

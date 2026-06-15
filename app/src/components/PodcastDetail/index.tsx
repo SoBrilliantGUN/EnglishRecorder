@@ -1,12 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense, lazy } from 'react';
 import podcastsData from '../../data/podcasts-index';
 import type { PodcastMeta, TransSegment } from '../../types/podcast';
 import { LEVEL_COLORS } from '../../types/podcast';
 import { getRecords, todayStr } from '../../store';
 import { ChevronLeftIcon, ChevronRightIcon } from '../icons';
-import CheckinModal from '../CheckinModal';
-import ShareModal from '../ShareModal';
 import styles from './index.module.scss';
+
+// 弹窗仅在用户触发时渲染，按需加载
+const CheckinModal = lazy(() => import('../CheckinModal'));
+const ShareModal = lazy(() => import('../ShareModal'));
 
 interface PodcastDetailProps {
   lessonId: number;
@@ -243,29 +245,33 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
 
       {/* 单课打卡弹窗 */}
       {showCheckin && (
-        <CheckinModal
-          date={todayStr()}
-          defaultLesson={lessonId}
-          lockLesson
-          onClose={() => setShowCheckin(false)}
-          onSuccess={handleCheckinSuccess}
-        />
+        <Suspense fallback={null}>
+          <CheckinModal
+            date={todayStr()}
+            defaultLesson={lessonId}
+            lockLesson
+            onClose={() => setShowCheckin(false)}
+            onSuccess={handleCheckinSuccess}
+          />
+        </Suspense>
       )}
 
       {/* 单课分享弹窗 */}
       {shareData && (
-        <ShareModal
-          mode="single"
-          date={todayStr()}
-          lessonId={lessonId}
-          lessonCode={shareData.lessonCode}
-          title={shareData.title}
-          level={shareData.level}
-          levelColor={shareData.levelColor}
-          thisCount={shareData.thisCount}
-          totalCount={shareData.totalCount}
-          onClose={() => setShareData(null)}
-        />
+        <Suspense fallback={null}>
+          <ShareModal
+            mode="single"
+            date={todayStr()}
+            lessonId={lessonId}
+            lessonCode={shareData.lessonCode}
+            title={shareData.title}
+            level={shareData.level}
+            levelColor={shareData.levelColor}
+            thisCount={shareData.thisCount}
+            totalCount={shareData.totalCount}
+            onClose={() => setShareData(null)}
+          />
+        </Suspense>
       )}
     </div>
   );
