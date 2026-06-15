@@ -230,7 +230,7 @@
         "zh": "A：谁说的？"
       },
       {
-        "en": "C: I do! 2",
+        "en": "C: I do!",
         "zh": "C：我说的！"
       },
       {
@@ -278,7 +278,7 @@
         "zh": "A：我确定…我们一切都准备好了。"
       },
       {
-        "en": "B: Well...  let's get going then! I love road trips!",
+        "en": "B: Well... let's get going then! I love road trips!",
         "zh": "B：好吧，那我们出发吧！我超爱自驾游！"
       },
       {
@@ -330,7 +330,7 @@
         "zh": "B：有，尽量别踢或砸电脑！"
       },
       {
-        "en": "A: Um yeah...  Sorry about that.",
+        "en": "A: Um yeah... Sorry about that.",
         "zh": "A：呃好吧…抱歉。"
       }
     ]
@@ -390,7 +390,7 @@
         "zh": "A：前面那些人太吵了。真是太不为别人着想了！"
       },
       {
-        "en": "B: Dont worry about it; it's not such a big deal.",
+        "en": "B: Don't worry about it, it's not such a big deal.",
         "zh": "B：别在意，没什么大不了的。"
       },
       {
@@ -398,7 +398,7 @@
         "zh": "A：哦…我什么都听不见了！打扰一下，能小声点吗？"
       },
       {
-        "en": "C: Sure, sorry 'bout that!",
+        "en": "C: Sure, sorry about that!",
         "zh": "C：好的，抱歉！"
       },
       {
@@ -410,7 +410,7 @@
         "zh": "B：亲爱的，好像是你手机。你忘记关机了吗？"
       },
       {
-        "en": "A: Oh, no! Youre right. That's so embarrassing!",
+        "en": "A: Oh, no! You are right. That's so embarrassing!",
         "zh": "A：哦不！你说得对。太尴尬了！"
       },
       {
@@ -546,7 +546,7 @@
         "zh": "B：这样吧，我得去商场买点东西，要不你来打扫地板，我去超市买菜。"
       },
       {
-        "en": "A: Sure that's fine. Here is the list of all the things you need to get. Dont forget anything! And can you pick up a bottle of wine on your way home?",
+        "en": "A: Sure that's fine. Here is the list of all the things you need to get. Don't forget anything! And can you pick up a bottle of wine on your way home?",
         "zh": "A：可以，没问题。这是你要买的所有东西的清单。别忘了任何一样！还有，回家路上能带一瓶红酒回来吗？"
       },
       {
@@ -586,7 +586,7 @@
         "zh": "A：我看看…这些数字简直爆表了！这到底怎么回事！"
       },
       {
-        "en": "B: Well, um, sir, the company expenditures on entertainment and travel are ou t of control. Look at these bills for example. Just this month we've paid over twenty thousand dollars for hotel charges!",
+        "en": "B: Well, um, sir, the company expenditures on entertainment and travel are out of control. Look at these bills for example. Just this month we've paid over twenty thousand dollars for hotel charges!",
         "zh": "B：嗯，先生，公司在娱乐和差旅方面的支出已经失控了。比如看看这些账单。光这一个月我们就支付了超过两万美元的酒店费用！"
       },
       {
@@ -802,7 +802,7 @@
         "zh": "B：我只希望牧师快点结束。我饿死了。希望婚宴上的食物好吃。"
       },
       {
-        "en": "A: That's all you ever think about, food! Oh, I think the bride's coming now! She looks gorgeous. Wait, what's she doing? Where's she going? 5",
+        "en": "A: That's all you ever think about, food! Oh, I think the bride's coming now! She looks gorgeous. Wait, what's she doing? Where's she going?",
         "zh": "A：你就知道吃！哦，我想新娘现在来了！她看起来美极了。等等，她在干什么？她去哪儿了？"
       },
       {
@@ -1454,7 +1454,7 @@
         "zh": "B：嗯，大约五分钟前开始的。"
       },
       {
-        "en": "A: Whos winning?",
+        "en": "A: Who's winning?",
         "zh": "A：谁领先？"
       },
       {
@@ -1466,7 +1466,7 @@
         "zh": "A：什么！那不是犯规！拜托，裁判！"
       },
       {
-        "en": "B: Don't worry, Shaq always screws up free throws. 9",
+        "en": "B: Don't worry, Shaq always screws up free throws.",
         "zh": "B：别担心，奥尼尔罚球从来不准。"
       },
       {
@@ -1794,7 +1794,7 @@
         "zh": "A：不好意思，能打扰你一下吗？"
       },
       {
-        "en": "C: You know what, I'd love to help you, but I'm about to meet an important client. Do you wanna try Sean instead? He sits right over there. 11",
+        "en": "C: You know what, I'd love to help you, but I'm about to meet an important client. Do you wanna try Sean instead? He sits right over there.",
         "zh": "C：你知道吗，我很想帮你，但我马上要去见一个重要的客户。你要不要去找肖恩试试？他就坐在那边。"
       },
       {
@@ -2102,7 +2102,7 @@
         "zh": "B：病人处于急性呼吸衰竭，我想我们得插管了！"
       },
       {
-        "en": "C: Alright! Tubes in! Bag him! Someone give him 10 cc's of adrenaline! Lets go, people move, move!",
+        "en": "C: Alright! Tubes in! Bag him! Someone give him 10 cc's of adrenaline! Let's go, people move, move!",
         "zh": "C：好！管子进去了！给他通气！谁给他来10cc肾上腺素！快走，大家动起来，动起来！"
       },
       {
@@ -2134,7 +2134,7 @@
         "zh": "B：我们有两个基本要点要重点关注。首先，我们想缩短我们的前置时间。"
       },
       {
-        "en": "C: Why would want to do that? I think this is not an area that really needs to be worked on. 13",
+        "en": "C: Why would you want to do that? I think this is not an area that really needs to be worked on.",
         "zh": "C：为什么想要这么做？我觉得这不是一个真正需要改进的领域。"
       },
       {
@@ -2146,7 +2146,7 @@
         "zh": "A：对，生产前置时间可以通过将工作站点布置得更近、减少队列长度来缩短，比如减少等待在某个机器前的作业数量，以及改善前后工序之间的协调与合作。交付前置时间可以通过与供应商的紧密合作来缩短，或许可以引导供应商将工厂设在更近的地方，或者与更快的运输公司合作。"
       },
       {
-        "en": "C: I see...  That makes sense.",
+        "en": "C: I see... That makes sense.",
         "zh": "C：我明白了……这很有道理。"
       },
       {
@@ -2242,7 +2242,7 @@
         "zh": "A：啊！我上周就跟你说过了！Smelly Toes乐队在演出，埃里克问我能不能跟他一起去！"
       },
       {
-        "en": "B: Whos this Eric guy?",
+        "en": "B: Who's this Eric guy?",
         "zh": "B：这个叫埃里克的是谁？"
       },
       {
@@ -2310,7 +2310,7 @@
         "zh": "C：艾伦！艾伦！你还好吗？"
       },
       {
-        "en": "A: Did she pass out? 14",
+        "en": "A: Did she pass out?",
         "zh": "A：她晕过去了吗？"
       },
       {
@@ -2398,7 +2398,7 @@
         "zh": ""
       },
       {
-        "en": "B: Um yes...  I'd like a medium pizza with pepperoni, olives, and extra cheese.",
+        "en": "B: Um yes... I'd like a medium pizza with pepperoni, olives, and extra cheese.",
         "zh": ""
       },
       {
@@ -2538,7 +2538,7 @@
         "zh": ""
       },
       {
-        "en": "A: Alright, the puck is back in play now. Pavel Bure is on a breakaway! He is flying do wn the ice! The defenders can't keep up! Slap shot! He scores",
+        "en": "A: Alright, the puck is back in play now. Pavel Bure is on a breakaway! He is flying down the ice! The defenders can't keep up! Slap shot! He scores",
         "zh": ""
       },
       {
@@ -2582,7 +2582,7 @@
         "zh": ""
       },
       {
-        "en": "A: Dont worry, we have the phones tapped, so the call will be patched through to me, and I'll pretend to be the transport company.",
+        "en": "A: Don't worry, we have the phones tapped, so the call will be patched through to me, and I'll pretend to be the transport company.",
         "zh": ""
       },
       {
@@ -3130,7 +3130,7 @@
         "zh": ""
       },
       {
-        "en": "B: Dammit! I asked for sunny side up! How many times do I have to tell you. 19",
+        "en": "B: Dammit! I asked for sunny side up! How many times do I have to tell you.",
         "zh": ""
       }
     ]
@@ -3342,7 +3342,7 @@
         "zh": ""
       },
       {
-        "en": "A: Enjoy. 20 B,",
+        "en": "A: Enjoy.",
         "zh": ""
       },
       {
@@ -3858,7 +3858,7 @@
         "zh": ""
       },
       {
-        "en": "B: We have a runner on third and up at bat is Brian Okami! There's the pitch, he hits it! It's going, going, that ball is gone! 23",
+        "en": "B: We have a runner on third and up at bat is Brian Okami! There's the pitch, he hits it! It's going, going, that ball is gone!",
         "zh": ""
       },
       {
@@ -4606,7 +4606,7 @@
         "zh": ""
       },
       {
-        "en": "B: Uh...  yeah. In the lecture you said there's more evidence in the scientific record supporting global cooling?",
+        "en": "B: Uh... yeah. In the lecture you said there's more evidence in the scientific record supporting global cooling?",
         "zh": ""
       },
       {
@@ -4638,7 +4638,7 @@
         "zh": ""
       },
       {
-        "en": "B: Yeah, like conservation, protecting endangered species and investing in renewable energy. At the very least, you have to concede that this debate has the potential to end our dependence on foreign oil. Buying oil supports autocratic countries that use these revenues to devastating ends. 28",
+        "en": "B: Yeah, like conservation, protecting endangered species and investing in renewable energy. At the very least, you have to concede that this debate has the potential to end our dependence on foreign oil. Buying oil supports autocratic countries that use these revenues to devastating ends.",
         "zh": ""
       },
       {
@@ -4646,7 +4646,7 @@
         "zh": ""
       },
       {
-        "en": "B: Yeah, and a duplicitous one at that. Everyone knows you're in the pocket of the oil lobby. Why should we trust your so-called findings more than tobacco institute studies which say smoking doesn't harm health? Youre full of it.",
+        "en": "B: Yeah, and a duplicitous one at that. Everyone knows you're in the pocket of the oil lobby. Why should we trust your so-called findings more than tobacco institute studies which say smoking doesn't harm health? You're full of it.",
         "zh": ""
       },
       {
@@ -5126,7 +5126,7 @@
         "zh": ""
       },
       {
-        "en": "A: Tiger Woods is about to tee off, and let's see if he has the same luck as Jack. Tiger is asking his caddie for his driver and, he seems to be very nervous. 31",
+        "en": "A: Tiger Woods is about to tee off, and let's see if he has the same luck as Jack. Tiger is asking his caddie for his driver and, he seems to be very nervous.",
         "zh": ""
       },
       {
@@ -5302,7 +5302,7 @@
         "zh": ""
       },
       {
-        "en": "B: We hit a couple of local bars, and met up with some friends. Everything was cool until Mike came along, and it turned out that it was his birthday yesterday! 32",
+        "en": "B: We hit a couple of local bars, and met up with some friends. Everything was cool until Mike came along, and it turned out that it was his birthday yesterday!",
         "zh": ""
       },
       {
@@ -5422,7 +5422,7 @@
         "zh": ""
       },
       {
-        "en": "B: What's going on hun? Why is the baby crying? 33",
+        "en": "B: What's going on hun? Why is the baby crying?",
         "zh": ""
       },
       {
@@ -5430,7 +5430,7 @@
         "zh": ""
       },
       {
-        "en": "B: What a good boy! Lets get this icky diaper off you.",
+        "en": "B: What a good boy! Let's get this icky diaper off you.",
         "zh": ""
       },
       {
@@ -5878,7 +5878,7 @@
         "zh": ""
       },
       {
-        "en": "Steven: That's great! Wow! Congrats! You two are great together, ya know. You have such a beautiful family. I hope one day I can have that. 36",
+        "en": "Steven: That's great! Wow! Congrats! You two are great together, ya know. You have such a beautiful family. I hope one day I can have that.",
         "zh": ""
       },
       {
@@ -6658,7 +6658,7 @@
         "zh": ""
       },
       {
-        "en": "A: I think you have chicken pox! You are contagious! Get away! Don't breathe on me! 41",
+        "en": "A: I think you have chicken pox! You are contagious! Get away! Don't breathe on me!",
         "zh": ""
       },
       {
@@ -6814,7 +6814,7 @@
         "zh": ""
       },
       {
-        "en": "B: Whats the matter with you? Why are you acting all paranoid?",
+        "en": "B: What's the matter with you? Why are you acting all paranoid?",
         "zh": ""
       },
       {
@@ -6910,7 +6910,7 @@
         "zh": ""
       },
       {
-        "en": "A: That's without a doubt, the best idea you've had! Lets do it!",
+        "en": "A: That's without a doubt, the best idea you've had! Let's do it!",
         "zh": ""
       },
       {
@@ -7006,7 +7006,7 @@
         "zh": ""
       },
       {
-        "en": "Mary: Fine. Let's call a truce. I'll try to more considerate 43 and to keep the noise down",
+        "en": "Mary: Fine. Let's call a truce. I'll try to be more considerate and to keep the noise down",
         "zh": ""
       },
       {
@@ -8266,7 +8266,7 @@
         "zh": ""
       },
       {
-        "en": "A: Laughing allthe way",
+        "en": "A: Laughing all the way",
         "zh": ""
       },
       {
@@ -8866,7 +8866,7 @@
         "zh": ""
       },
       {
-        "en": "A: Well, at the start of the spring we usually have more daylight in the mornings and less in the afternoon. This is basically due to our position on the planet and the rotation of the earth. In any case, to take better advantage of the daylight available, we compensate by moving our clocks forward one hour. 54",
+        "en": "A: Well, at the start of the spring we usually have more daylight in the mornings and less in the afternoon. This is basically due to our position on the planet and the rotation of the earth. In any case, to take better advantage of the daylight available, we compensate by moving our clocks forward one hour.",
         "zh": ""
       },
       {
@@ -8942,7 +8942,7 @@
         "zh": ""
       },
       {
-        "en": "C: Sweetie-pie it's not a lot of wasted space. It is relaxing and the house would be eco -friendly with an in-floor heating system and designed to retain the heat of the sun in the winter and keep the house cool in the summer. We would have solar panels on the roof -",
+        "en": "C: Sweetie-pie it's not a lot of wasted space. It is relaxing and the house would be eco-friendly with an in-floor heating system and designed to retain the heat of the sun in the winter and keep the house cool in the summer. We would have solar panels on the roof -",
         "zh": ""
       },
       {
@@ -9758,7 +9758,7 @@
         "zh": ""
       },
       {
-        "en": "A: I direct that the disposition of my remains be as follows: I am to be cremated and taken to the summit of Mount Everest where my ashes will forever remain at the ceiling of the Earth. 60",
+        "en": "A: I direct that the disposition of my remains be as follows: I am to be cremated and taken to the summit of Mount Everest where my ashes will forever remain at the ceiling of the Earth.",
         "zh": ""
       },
       {
@@ -10518,7 +10518,7 @@
         "zh": ""
       },
       {
-        "en": "A: Look! I just saw someone walking around inside! These people are being very rude! 65",
+        "en": "A: Look! I just saw someone walking around inside! These people are being very rude!",
         "zh": ""
       },
       {
@@ -10834,7 +10834,7 @@
         "zh": ""
       },
       {
-        "en": "Salesgirl: Here we are How does it fit? 67",
+        "en": "Salesgirl: Here we are How does it fit?",
         "zh": ""
       },
       {
@@ -11102,7 +11102,7 @@
         "zh": ""
       },
       {
-        "en": "Stephanie: It's a skill. What can I say? I don't know why, I just have a long routine. 69",
+        "en": "Stephanie: It's a skill. What can I say? I don't know why, I just have a long routine.",
         "zh": ""
       },
       {
@@ -11522,7 +11522,7 @@
         "zh": ""
       },
       {
-        "en": "A: How long does it take to get there? 72",
+        "en": "A: How long does it take to get there?",
         "zh": ""
       },
       {
@@ -11658,7 +11658,7 @@
         "zh": ""
       },
       {
-        "en": "A: Do not undervalue them as they play a big role in forming the taste and will make the sandwich more refreshin g and light. The best choices here are evident- cucumbers, tomatoes, onions, sweet pepper pepper or chilli, lettuce and, of course, herbs- you can't go wrong with them. As for aubergines, mushrooms and asparagus, I would recommend you first grill them slightly with a little touch of olive oil. 73",
+        "en": "A: Do not undervalue them as they play a big role in forming the taste and will make the sandwich more refreshin g and light. The best choices here are evident- cucumbers, tomatoes, onions, sweet pepper pepper or chilli, lettuce and, of course, herbs- you can't go wrong with them. As for aubergines, mushrooms and asparagus, I would recommend you first grill them slightly with a little touch of olive oil.",
         "zh": ""
       },
       {
@@ -11894,7 +11894,7 @@
         "zh": ""
       },
       {
-        "en": "B: Getthe jam and butter while you are in there! Oh! And",
+        "en": "B: Get the jam and butter while you are in there! Oh! And",
         "zh": ""
       }
     ]
@@ -12090,7 +12090,7 @@
         "zh": ""
       },
       {
-        "en": "A: I don't want to hear it! Now go to your room! 76 About The Position",
+        "en": "A: I don't want to hear it! Now go to your room!",
         "zh": ""
       }
     ]
@@ -12926,7 +12926,7 @@
         "zh": ""
       },
       {
-        "en": "B: Very affordable sir. You can take it out of this lot today with 0% down payment and no interest for the first year! You can test drive it now and we can sign the papers when we get back. 82",
+        "en": "B: Very affordable sir. You can take it out of this lot today with 0% down payment and no interest for the first year! You can test drive it now and we can sign the papers when we get back.",
         "zh": ""
       },
       {
@@ -13178,7 +13178,7 @@
         "zh": ""
       },
       {
-        "en": "A: Very wise decisi on. When was the last time you had a tune up? 84",
+        "en": "A: Very wise decisi on. When was the last time you had a tune up?",
         "zh": ""
       },
       {
@@ -13318,7 +13318,7 @@
         "zh": ""
       },
       {
-        "en": "A: That's good. Have you seen Frank? I was hoping he would come tonight. 85",
+        "en": "A: That's good. Have you seen Frank? I was hoping he would come tonight.",
         "zh": ""
       },
       {
@@ -13438,7 +13438,7 @@
         "zh": ""
       },
       {
-        "en": "Mark: Well...actually... I was thinking about asking Jess to marry me... I've just been so nervous. Shop assistant: Well sir, I believe your fifth anniversary is a great time to propose! 86",
+        "en": "Mark: Well...actually... I was thinking about asking Jess to marry me... I've just been so nervous. Shop assistant: Well sir, I believe your fifth anniversary is a great time to propose!",
         "zh": ""
       },
       {
@@ -13906,7 +13906,7 @@
         "zh": ""
       },
       {
-        "en": "A: Really? Wow with who? 89",
+        "en": "A: Really? Wow with who?",
         "zh": ""
       },
       {
@@ -14274,7 +14274,7 @@
         "zh": ""
       },
       {
-        "en": "A: That sounds great! I am craving some type of beef dish. 91",
+        "en": "A: That sounds great! I am craving some type of beef dish.",
         "zh": ""
       },
       {
@@ -14382,7 +14382,7 @@
         "zh": ""
       },
       {
-        "en": "Sally: Hi guys. Please excuse me,I was held up in traffic. Maggie",
+        "en": "Sally: Hi guys. Please excuse me, I was held up in traffic. Maggie",
         "zh": ""
       },
       {
@@ -14482,7 +14482,7 @@
         "zh": ""
       },
       {
-        "en": "Grace: Are you still seeing Chris? 92",
+        "en": "Grace: Are you still seeing Chris?",
         "zh": ""
       },
       {
@@ -14670,7 +14670,7 @@
         "zh": ""
       },
       {
-        "en": "Susan: You bet, Emily. Pull up a chair. 93",
+        "en": "Susan: You bet, Emily. Pull up a chair.",
         "zh": ""
       },
       {
@@ -14822,7 +14822,7 @@
         "zh": ""
       },
       {
-        "en": "Mindy: Well, have you thought of getting an MBA? I heard it does wonders in getting you to the top. 94",
+        "en": "Mindy: Well, have you thought of getting an MBA? I heard it does wonders in getting you to the top.",
         "zh": ""
       },
       {
