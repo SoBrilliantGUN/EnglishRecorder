@@ -6,3 +6,4 @@ export { default as SunIcon } from './SunIcon';
 export { default as InfoIcon } from './InfoIcon';
 export { default as SettingsIcon } from './SettingsIcon';
 export { default as CloseIcon } from './CloseIcon';
+export { default as ChevronUpIcon } from './ChevronUpIcon';

@@ -3,7 +3,7 @@ import podcastsData from '../../data/podcasts-index';
 import type { PodcastMeta, TransSegment } from '../../types/podcast';
 import { LEVEL_COLORS } from '../../types/podcast';
 import { getRecords, todayStr } from '../../store';
-import { ChevronLeftIcon, ChevronRightIcon } from '../icons';
+import { ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon } from '../icons';
 import styles from './index.module.scss';
 
 // 弹窗仅在用户触发时渲染，按需加载
@@ -71,6 +71,21 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
   const [showCheckin, setShowCheckin] = useState(false);
   const [shareData, setShareData] = useState<SingleShareData | null>(null);
   const [translationMode, setTranslationMode] = useState<TranslationMode>('full');
+  const [showBackToTop, setShowBackToTop] = useState(false);
+
+  // 监听页面滚动，超过 200px 显示回到顶部按钮
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowBackToTop(window.scrollY > 200);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   const podcasts = podcastsData as PodcastMeta[];
   const lesson = podcasts.find(p => p.id === lessonId);
@@ -254,6 +269,18 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
             onSuccess={handleCheckinSuccess}
           />
         </Suspense>
+      )}
+
+      {/* 回到顶部悬浮按钮 */}
+      {showBackToTop && (
+        <button
+          className={styles.backToTop}
+          onClick={scrollToTop}
+          title="回到顶部"
+          aria-label="回到顶部"
+        >
+          <ChevronUpIcon size={20} />
+        </button>
       )}
 
       {/* 单课分享弹窗 */}
