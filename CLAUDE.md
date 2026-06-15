@@ -66,10 +66,9 @@ App.tsx 维护一个 `tick` 计数器作为全局刷新信号。组件通过 `st
 ### 样式方案
 
 - **全局 token**：`src/styles/_variables.scss` 定义语义化 CSS 变量（颜色、圆角、字号、阴影、动画），含 `[data-theme="dark"]` 暗黑模式覆盖
-- **全局样式**：`src/index.scss` 定义复用类（`.card`、`.btn-primary`、`.btn-secondary`、`.modal-overlay`）
+- **全局样式**：`src/index.scss` 定义复用类（`.card`、`.btn-primary`、`.btn-secondary`、`.modal-overlay`），以及 `@media (pointer: coarse)` 触屏适配和 `@media (hover: none)` hover 降级
 - **组件样式**：每个组件使用 `index.module.scss`（SCSS Modules，局部作用域）
-- **App 样式**：`src/App.module.scss` 定义 Header 和图标按钮样式
-- **响应式**：flexWrap 实现桌面 7:3 布局，移动端纵向堆叠
+- **App 布局**：`src/App.module.scss` 定义 `.layout`（桌面双栏 flex）、`.layoutFull`（全宽单栏）、`.main`（左侧主区域 `flex: 1`）、`.sidebar`（右侧 350px 固定宽），移动端 `@media (max-width: 768px)` sidebar 全宽堆叠
 - **暗黑模式**：`hooks/useTheme.ts` 管理主题状态，通过 `data-theme` 属性切换 CSS 变量，持久化到 `ep_theme`
 - **弹窗小屏适配**：`.modal-content` 设置 `max-height: calc(100vh - 32px)` + `overflow: hidden` 防溢出；`hooks/useScaleToFit.ts` 提供通用缩放 hook，弹窗内容超过视口时用 `transform: scale()` 等比缩小，无滚动条
 
