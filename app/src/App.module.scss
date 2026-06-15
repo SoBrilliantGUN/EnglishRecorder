@@ -47,6 +47,13 @@
   align-items: stretch;
 }
 
+// 全宽布局：详情页等单栏场景，不使用 flex 避免子元素不撑满
+.layoutFull {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
 .main {
   flex: 1 1 0;
   min-width: 0;
@@ -61,7 +68,7 @@
   align-self: flex-start;
 }
 
-// 移动端：侧边栏变为全宽，自然流动到主内容下方
+// 移动端
 @media (max-width: 768px) {
   .header {
     padding: 10px 16px;
@@ -75,6 +82,10 @@
   .layout {
     padding: 0 12px 32px;
     gap: 16px;
+  }
+
+  .layoutFull {
+    padding: 0 12px 32px;
   }
 
   .sidebar {

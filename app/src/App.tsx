@@ -62,7 +62,7 @@ export default function App() {
 
       {selectedLessonId ? (
         <Suspense fallback={<LazyFallback />}>
-          <div className={styles.layout}>
+          <div className={styles.layoutFull}>
             <PodcastDetail
               lessonId={selectedLessonId}
               onBack={handleBackToPodcastList}
