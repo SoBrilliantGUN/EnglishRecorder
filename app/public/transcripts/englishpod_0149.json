@@ -1048,5 +1048,50 @@
       "en": "Stay safe everyone.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Ok, that's fine. Bye.",
+      "zh": ""
+    },
+    {
+      "en": "B: What happened?",
+      "zh": ""
+    },
+    {
+      "en": "A: That's it, my lease is up. I have to move.",
+      "zh": ""
+    },
+    {
+      "en": "B: What? Why? Can't you renew it?",
+      "zh": ""
+    },
+    {
+      "en": "A: The owner apparently is selling this place to make way for the construction of a parking lot",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, I can help you pack. We should start looking for a new place for you ASAP.",
+      "zh": ""
+    },
+    {
+      "en": "A: I think I might move in with my parents for a couple of months until I can find something. You know how hard it is to find a decent place around here. I'm gonna have to put most of my stuff in storage for a while.",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, let me know if there's anything I can do to help out.",
+      "zh": ""
+    },
+    {
+      "en": "A: Actually, would you mind looking after my pet tarantula and snake for a couple of weeks?",
+      "zh": ""
+    },
+    {
+      "en": "B: hehe.. sure",
+      "zh": ""
+    }
+  ],
+  "code": "C0149",
+  "title": "Daily Life - Moving",
+  "level": "Elementary"
 }

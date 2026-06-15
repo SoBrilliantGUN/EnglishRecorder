@@ -948,5 +948,30 @@
       "en": "Happy Halloween.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Trick - or -treat",
+      "zh": ""
+    },
+    {
+      "en": "B: Tom, aren't you a little too old to be trick-or - treating?",
+      "zh": ""
+    },
+    {
+      "en": "A: What are you talking about? Where is your Halloween spirit? Didn't you ever dress up in a costume and go around the neighborhood trick-or-treating with your friends?",
+      "zh": ""
+    },
+    {
+      "en": "B: Of course I did, but when I was ten! Trick-or-treating is for kids, plus, I'm sure people will think you're a kidnapper or something, running around with kids at night.",
+      "zh": ""
+    },
+    {
+      "en": "A: Whatever, I'm going next door I heard Mrs. Robinson is giving out big bags of M... Ms!",
+      "zh": ""
+    }
+  ],
+  "code": "C0157",
+  "title": "The Weekend - Trick Or Treat",
+  "level": "Elementary"
 }

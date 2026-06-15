@@ -992,5 +992,46 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Mark Where have you been? I've been calling you all morning.",
+      "zh": ""
+    },
+    {
+      "en": "B: I've been playing computer games.",
+      "zh": ""
+    },
+    {
+      "en": "A: What? So you blew me off yesterday and today over a stupid video game? What game is so important that you have no time for me anymore? What are you playing?",
+      "zh": ""
+    },
+    {
+      "en": "B: It's called Counter Strike It's a first person shooter game. It's awesome. It's a multi player game where you can go online and compete against players from all over the world.",
+      "zh": ""
+    },
+    {
+      "en": "A: You've been wasting your time on this? I can't believe it! It doesn't even look fun or challenging!",
+      "zh": ""
+    },
+    {
+      "en": "B: My laptop is on my bed. If you think it's so easy then 46 get onlineand try to beat me.",
+      "zh": ""
+    },
+    {
+      "en": "A: Fine!",
+      "zh": ""
+    },
+    {
+      "en": "B: Damm it! How are you killing me with a single shot? It's not fair! I don't want to play anymore! Let's go get something to eat.",
+      "zh": ""
+    },
+    {
+      "en": "A: Can you bring me something? I am totally hooked on this game!",
+      "zh": ""
+    }
+  ],
+  "code": "C0161",
+  "title": "Daily Life - Computer Games",
+  "level": "Elementary"
 }

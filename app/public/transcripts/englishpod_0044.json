@@ -952,5 +952,94 @@
       "en": "But until next time, goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Morning.",
+      "zh": "A：早。"
+    },
+    {
+      "en": "B: Hi there Mr. Anderson! How are you on this fine morning?",
+      "zh": "B：早啊安德森先生！今天天气这么好，你还好吗？"
+    },
+    {
+      "en": "A: Fine, thank you.",
+      "zh": "A：很好，谢谢。"
+    },
+    {
+      "en": "B: It sure is cold this morning, isn't it?",
+      "zh": "B：今天早上确实很冷，对吧？"
+    },
+    {
+      "en": "B: I barely even get 12 out of bed!",
+      "zh": "B：我几乎爬不起来！"
+    },
+    {
+      "en": "A: Yeah. It's pre tty cold, alright.",
+      "zh": "A：是啊，确实挺冷的。"
+    },
+    {
+      "en": "B: Did you catch the news this morning?",
+      "zh": "B：你今早看新闻了吗？"
+    },
+    {
+      "en": "B: I heard that there was a fire on Byron Street.",
+      "zh": "B：我听说拜伦街上发生了火灾。"
+    },
+    {
+      "en": "A: No, I didn't hear about that.",
+      "zh": "A：没有，我没听说。"
+    },
+    {
+      "en": "B: Did you happen to watch the football game last night?",
+      "zh": "B：你昨晚碰巧看橄榄球赛了吗？"
+    },
+    {
+      "en": "B: The Patriots scored in the last minute!",
+      "zh": "B：爱国者队在最后一分钟得分了！"
+    },
+    {
+      "en": "A: No, I don't like football.",
+      "zh": "A：不，我不喜欢橄榄球。"
+    },
+    {
+      "en": "B: Oh... By the way, I saw you with your daughter at the office Christmas party.",
+      "zh": "B：哦……对了，我在办公室圣诞派对上看到你和你的女儿在一起。"
+    },
+    {
+      "en": "B: Sh e is really beautiful!",
+      "zh": "B：她真是太漂亮了！"
+    },
+    {
+      "en": "A: She's my wife!",
+      "zh": "A：那是我老婆！"
+    },
+    {
+      "en": "A: Oh, here's my floor!",
+      "zh": "A：哦，我到了！"
+    },
+    {
+      "en": "A: Nice talking to you.",
+      "zh": "A：很高兴跟你聊天。"
+    },
+    {
+      "en": "A: Goodbye.",
+      "zh": "A：再见。"
+    },
+    {
+      "en": "B: Sir this is the 56th floor!",
+      "zh": "B：先生这是56楼！"
+    },
+    {
+      "en": "B: We are on the 70th!",
+      "zh": "B：我们在70楼！"
+    },
+    {
+      "en": "A: That's okay, I'll take the stairs!",
+      "zh": "A：没关系，我走楼梯！"
+    }
+  ],
+  "code": "B0044",
+  "title": "Small Talk",
+  "level": "Elementary"
 }

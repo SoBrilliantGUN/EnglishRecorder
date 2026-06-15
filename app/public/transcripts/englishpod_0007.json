@@ -932,5 +932,42 @@
       "en": "And until next time, goodbye.",
       "zh": "下次再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Oh great! This stupid computer froze again! That's the third time today! Hey Samuel, can you come take a look at my PC? It's acting up again. It must have a virus or something.",
+      "zh": "A：哦太棒了！这台破电脑又死机了！这都今天第三次了！嘿萨缪尔，你能过来帮我看看电脑吗？它又出问题了。肯定是中毒了什么的。"
+    },
+    {
+      "en": "B: Just give me a second. I'll be right up.",
+      "zh": "B：等我一下，我马上上来。"
+    },
+    {
+      "en": "B: I ran a virus scan on your computer, and it turns out that you have a lot of infected files!",
+      "zh": "B：我在你电脑上跑了病毒扫描，结果发现你有很多被感染的文件！"
+    },
+    {
+      "en": "A: But I'm quite careful when I'm browsing the internet, I have no idea how I could have picked up a virus.",
+      "zh": "A：但我上网的时候很小心啊，我真不知道怎么会中病毒的。"
+    },
+    {
+      "en": "B: Well, you have to make sure that your anti-virus software is updated regularly. Yours wasn't up to date, that's probably what was causing your problems.",
+      "zh": "B：嗯，你得确保你的杀毒软件定期更新。你的软件没有更新到最新版，这可能就是问题所在。"
+    },
+    {
+      "en": "A: Ok. Anything else?",
+      "zh": "A：好的。还有别的吗？"
+    },
+    {
+      "en": "B: Yeah, try not to kick or hit the computer!",
+      "zh": "B：有，尽量别踢或砸电脑！"
+    },
+    {
+      "en": "A: Um yeah... Sorry about that.",
+      "zh": "A：呃好吧…抱歉。"
+    }
+  ],
+  "code": "C0007",
+  "title": "The Office - Virus!",
+  "level": "Elementary"
 }

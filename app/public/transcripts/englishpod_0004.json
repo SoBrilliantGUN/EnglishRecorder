@@ -628,5 +628,54 @@
       "en": "But for now it's time for us to say bye!",
       "zh": "但现在我们要说再见了！"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A:...like I told you before, we just don't have the resources to hire you an assistant.",
+      "zh": "A：…就像我之前跟你说的，我们实在没有资源给你招助理。"
+    },
+    {
+      "en": "B: I understand that, but the fact is we're understaffed.",
+      "zh": "B：我理解，但事实是我们人手不够。"
+    },
+    {
+      "en": "A: The timing is just not right. The economy is bad, and it's too risky to take on new staff.",
+      "zh": "A：时机不合适。经济不景气，招新人风险太大。"
+    },
+    {
+      "en": "B: Yeah, I guess you're right... here's an idea, what if we hire an intern? She would take some of the weight off my shoulders.",
+      "zh": "B：是啊，你说得对…我有个主意，要不我们招个实习生？她能帮我分担一些压力。"
+    },
+    {
+      "en": "A: She?",
+      "zh": "A：她？"
+    },
+    {
+      "en": "B: Yeah, you know, a recent graduate. She could give me a hand with some of these projects and we could keep our costs down.",
+      "zh": "B：对啊，就是刚毕业的那种。她可以帮我做些项目，我们还能控制成本。"
+    },
+    {
+      "en": "A: That sounds reasonable... let me see what I can do.",
+      "zh": "A：听起来挺合理…我看看能怎么安排。"
+    },
+    {
+      "en": "A: Tony, I'd like to introduce you to your new assistant.",
+      "zh": "A：托尼，我来介绍一下你的新助理。"
+    },
+    {
+      "en": "B: OK, great! Let's meet her!",
+      "zh": "B：好的，太好了！让我们见见她！"
+    },
+    {
+      "en": "C: Hi, I'm Adam.",
+      "zh": "C：嗨，我是亚当。"
+    },
+    {
+      "en": "B: Oh... hi... I'm Tony...",
+      "zh": "B：哦…嗨…我是托尼…"
+    }
+  ],
+  "code": "C0004",
+  "title": "The Office - I need an assistant!",
+  "level": "Elementary"
 }

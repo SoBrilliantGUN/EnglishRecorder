@@ -1028,5 +1028,46 @@
       "en": "Got it.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Rebecca: Could you tell me a little about the organization? For example, how big is your workforce here? Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Well in total we have around 150 employees based in Hong Kong with another 400 in our head office in Beijing. The newsdesk staff in Hong Kong comprises around 80 staff.",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: I see. And how about the working hours? Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Well, as you know Rebecca, in journalism work hours are not exactly 9-5. You could be on call at any time. We do have to work very unsociable hours at times.",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: Well I am used to that Mr. Parsons, so that's not really a shock for me. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Good, as long as you understand that.",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: And when do you need to fill the vacancy, Mr. Parsons? Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Yesterday! But no, we are hoping to start from the beginning of next month.",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: That sounds ideal.",
+      "zh": ""
+    }
+  ],
+  "code": "C0259",
+  "title": "Lesson 259",
+  "level": "Intermediate"
 }

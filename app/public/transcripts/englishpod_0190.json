@@ -752,5 +752,34 @@
       "en": "Bye!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Is everything ready for the big family barbecuetomorrow?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yep. The steaks and chicken are marinated and I also bought hamburger buns.",
+      "zh": ""
+    },
+    {
+      "en": "A: We should also cook a couple dozen hot dogs and kebabs.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, good idea. We can put some lawn furniture outside next to the grill. I also set up the tent outside so we can hide from the sun if it gets too hot.",
+      "zh": ""
+    },
+    {
+      "en": "A: Great! I asked Grace to bring cups and serviettes as she is also bringing two big coolers for the beers.",
+      "zh": ""
+    },
+    {
+      "en": "B: This is gonna be a great barbecue!",
+      "zh": ""
+    }
+  ],
+  "code": "C0190",
+  "title": "The Weekend - Family Barbecue",
+  "level": "Elementary"
 }

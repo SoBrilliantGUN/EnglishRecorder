@@ -1168,5 +1168,82 @@
       "en": "Catch you later.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Officer: Ok Sally, we have an artist here to help us.",
+      "zh": ""
+    },
+    {
+      "en": "Brown: We'll ask you questions about the bank robber you saw and Paul will draw a picture. Are you ready?",
+      "zh": ""
+    },
+    {
+      "en": "Sally: Yes, hmmm. Well, he had brown hair...long hair... and he had some facial hair... was brown, too.",
+      "zh": ""
+    },
+    {
+      "en": "Officer: Good! Ok, the facial hair, was it a beard or a",
+      "zh": ""
+    },
+    {
+      "en": "Brown: mustache?",
+      "zh": ""
+    },
+    {
+      "en": "Sally: Both! His mustache was very short and thin,... on the top of his lip.",
+      "zh": ""
+    },
+    {
+      "en": "Paul: un-uh hmmm..., like this?",
+      "zh": ""
+    },
+    {
+      "en": "Sally: Yes, that's the mustache! But the beard isn't right, mean, it didn't cover his whole face... think it was just on his chin.",
+      "zh": ""
+    },
+    {
+      "en": "Officer: A goatee? Was it like Paul's?",
+      "zh": ""
+    },
+    {
+      "en": "Brown:",
+      "zh": ""
+    },
+    {
+      "en": "Sally: Ah yes, that's it, he had a goatee...",
+      "zh": ""
+    },
+    {
+      "en": "Paul: Ok, what about sideburns? Did he have sideburns?",
+      "zh": ""
+    },
+    {
+      "en": "Sally: Um, they were long and thick, yours!",
+      "zh": ""
+    },
+    {
+      "en": "Paul: Alright, was this the man you saw?",
+      "zh": ""
+    },
+    {
+      "en": "Sally: Yes, that's him! Hmmmmm, he looks a lot like you.",
+      "zh": ""
+    },
+    {
+      "en": "Officer: Hmmm, why yes he does. Paul, where were",
+      "zh": ""
+    },
+    {
+      "en": "Brown: you on Friday afternoon?",
+      "zh": ""
+    },
+    {
+      "en": "Paul: What? That's ridiculous! It wasn't me! I didn't do",
+      "zh": ""
+    }
+  ],
+  "code": "C0223",
+  "title": "Daily Life - Facial Hair",
+  "level": "Elementary"
 }

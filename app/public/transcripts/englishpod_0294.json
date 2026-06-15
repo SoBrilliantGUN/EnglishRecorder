@@ -956,5 +956,58 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I've never heard of Am Lion College. Could you...",
+      "zh": ""
+    },
+    {
+      "en": "B: Of course sir, let me give you a brief overview. Am Lion College is located in the center of New York city. The school covers a wide range of academic subjects; and eighty percent of the courses are transferable to other state universities. And, last year Am Lion College was ranked number one in terms of graduate employment.",
+      "zh": ""
+    },
+    {
+      "en": "A: Interesting, and what about the tuition fees, then?",
+      "zh": ""
+    },
+    {
+      "en": "B: You'll be looking at somewhere around fifteen thousand US dollars per semester.",
+      "zh": ""
+    },
+    {
+      "en": "A: Okay, well.",
+      "zh": ""
+    },
+    {
+      "en": "B: And, did I mention our on-campus housing? Students can stay in our newly renovated dorms for as little as three thousand dollars per month!",
+      "zh": ""
+    },
+    {
+      "en": "A: Sounds good. Well. I'll just grab one of your flyers.",
+      "zh": ""
+    },
+    {
+      "en": "B: Sir, you got the wrong flyer. Sir, sir! The Office - Presentation Series 9 - Summary and Conclusion (C0 295) Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: Right everyone. I apologize that I can't show you the marketing campaign today, but next week you will all have the opportunity to see if for yourselves, and I have no doubt that you will be impressed. Let me wrap up the presentation by summarising my key points. Mr. As I mentioned at the outset, 2010 represents a key year for Alpha computers. The recession is hopefully behind us. It is clear to ever yone in the computer industry that demand is booming, especially in the developing markets. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: If we are to succeed in this ultracompetitive field then we really need to push forward and offer our customers products that meet their needs on all levels. As I hope I have illustrated, the x420 represents the kind of computer that can really satisfy those needs. Mr. I gave you an idea of the kind of revenue we expect to hit in 2010 with the new x420 range, and believe me, this is really just the beginning. Once we establish the x420 in the market we have plans to continue to expand our range with ever more revolutionary and impressive products. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: Alpha computers is dedicated to innovation and improvement. I really see no limit to our potential as long as we stick to the principles I stressed earlier: quality, excellence and service. Mr. Before we move on to the Q and A section I'd really like to leave you with a quote that really sums up everything that we've discussed today, and hopefully it will provide you with the same inspiration that it gives me. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: As the great Henry Ford once said \" Quality means doing it right, when no one is looking\" Well, in fact our customers are looking; they are looking for us to lead the way and to give them the quality that our competitors cannot. We cannot let them down!",
+      "zh": ""
+    }
+  ],
+  "code": "C0294",
+  "title": "Daily Life - Picking A University",
+  "level": "Intermediate"
 }

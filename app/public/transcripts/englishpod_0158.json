@@ -908,5 +908,46 @@
       "en": "Bye, bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "C: The Day of the Dead has arrived All Soul's Dayand All Saint's Day!",
+      "zh": ""
+    },
+    {
+      "en": "A: Your neighbor is crazy. Why is he screaming that?",
+      "zh": ""
+    },
+    {
+      "en": "B: Because today is the first of November the Day of the Dead",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh, that's right.",
+      "zh": ""
+    },
+    {
+      "en": "B: This is a very special day among many cultures around the world especially in Latin America",
+      "zh": ""
+    },
+    {
+      "en": "A: Seriously? I thought it was just like any other day, except for the fact that people visit the cemetery and remember their loved ones.",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, that's just part of it People across the world celebrate in different ways In Mexcio for example it's Common to see people building private altars honoring the deceasedusing sugar skulls, preparing the favorite foods and beverages of the departed and visiting graves with these as gifts. In the Philippines, the tombs are cleaned or repainted, candles are lit and flowers are offered Entire families camp out in cemeteries.and sometimes spend a night or two near their relatives' tombs!",
+      "zh": ""
+    },
+    {
+      "en": "A: Whoa! That'sscary! I don't know if I could do that!",
+      "zh": ""
+    },
+    {
+      "en": "B: Why? We should fear the living, not the dead.",
+      "zh": ""
+    }
+  ],
+  "code": "C0158",
+  "title": "Global View - All Saints Day",
+  "level": "Elementary"
 }

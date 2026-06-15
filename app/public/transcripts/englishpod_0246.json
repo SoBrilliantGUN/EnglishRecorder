@@ -960,5 +960,50 @@
       "en": "Bye-bye for now.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hi, I would like to purchase a one way ticket to Brussels please.",
+      "zh": ""
+    },
+    {
+      "en": "B: Certainly sir, this is our train schedule. We have an express train departing every morning and an overnight train that departs at nine pm.",
+      "zh": ""
+    },
+    {
+      "en": "A: How long does it take to get there?",
+      "zh": ""
+    },
+    {
+      "en": "B: About twelve hours. We currently have tickets available only for first class on the express train. If you'd like, you can choose a sleeper on the ov ernight train which is a bit less expensive.",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah, I think that is the best option. Do you serve food on the train? Twelve hours is such a long time!",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes of course. There is a di ning car towards the front of the train where they serve meals at all times. We do provide complimentary water and coffee for all of our passengers.",
+      "zh": ""
+    },
+    {
+      "en": "A: Great! I'll take it.",
+      "zh": ""
+    },
+    {
+      "en": "B: Here you are sir. Your train leaves from platform number nine at nine on the dot. Remember to be here at least thirty minutes before your scheduled departure time or else you might miss your train!",
+      "zh": ""
+    },
+    {
+      "en": "A: I understand. Thank you very much!",
+      "zh": ""
+    },
+    {
+      "en": "B: Have a great trip.",
+      "zh": ""
+    }
+  ],
+  "code": "C0246",
+  "title": "Daily Life - At The Train Station",
+  "level": "Intermediate"
 }

@@ -1556,5 +1556,50 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Thanks for coming in today, did you have any trouble finding us? Please take a seat.",
+      "zh": ""
+    },
+    {
+      "en": "B: Thank you.",
+      "zh": ""
+    },
+    {
+      "en": "A: So, let's get started; tell me a bit about your educational background.",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure! Well, I graduated w ith honors from Chesterton University with a major in Business Administration, with a specialization in Information Management, and I minored in psychology. I chose this course of study for two reasons: I wanted to gain some practical, marketable skills, which the information management track provided, and I also feel that interpersonal skills are essential for professional success, hence the minor in psychology.",
+      "zh": ""
+    },
+    {
+      "en": "A: Interesting. And, your postgraduate studies?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, I am really passionate about consumer behavior, so I pursued a master's in that area. I also strive to keep my professional skills current, so I continuously attend seminars and conferences related management and customer service.",
+      "zh": ""
+    },
+    {
+      "en": "A: Very good. Now, tell me a little bit about your work experience. I see here that you previously worked at 17 Oracle.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, I worked as their customer support manager, which brought me a breadth of experience in both client care, and process management. I supervised and coordinated the customer support team as well as implemented new strategies to achieve better customer satisfaction.",
+      "zh": ""
+    },
+    {
+      "en": "A: Interesting...",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, in this position I was able to make some pretty significant contributions to the overall success of the company. With the different initiatives that we implemented, we lowered our churn rate to about five percent, which had a direct impact on revenue.",
+      "zh": ""
+    }
+  ],
+  "code": "C0062",
+  "title": "The Office - Job Interview II",
+  "level": "Elementary"
 }

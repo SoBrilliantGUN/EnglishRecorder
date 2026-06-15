@@ -472,5 +472,26 @@
       "en": "Lauren, we have a lot of questions.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Ford: Right everyone. I apologize that I can't show you the marketing campaign today, but next week you will all have the opportunity to see if for yourselves, and I have no doubt that you will be impressed. Let me wrap up the presentation by summarising my key points. Mr. As I mentioned at the outset, 2010 represents a key year for Alpha computers. The recession is hopefully behind us. It is clear to ever yone in the computer industry that demand is booming, especially in the developing markets. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: If we are to succeed in this ultracompetitive field then we really need to push forward and offer our customers products that meet their needs on all levels. As I hope I have illustrated, the x420 represents the kind of computer that can really satisfy those needs. Mr. I gave you an idea of the kind of revenue we expect to hit in 2010 with the new x420 range, and believe me, this is really just the beginning. Once we establish the x420 in the market we have plans to continue to expand our range with ever more revolutionary and impressive products. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: Alpha computers is dedicated to innovation and improvement. I really see no limit to our potential as long as we stick to the principles I stressed earlier: quality, excellence and service. Mr. Before we move on to the Q and A section I'd really like to leave you with a quote that really sums up everything that we've discussed today, and hopefully it will provide you with the same inspiration that it gives me. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: As the great Henry Ford once said \" Quality means doing it right, when no one is looking\" Well, in fact our customers are looking; they are looking for us to lead the way and to give them the quality that our competitors cannot. We cannot let them down!",
+      "zh": ""
+    }
+  ],
+  "code": "C0295",
+  "title": "Presentation Series 9 - Summary and Conclusion",
+  "level": "Intermediate"
 }

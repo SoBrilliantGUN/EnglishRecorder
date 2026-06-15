@@ -1200,5 +1200,62 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: And therefore, global warming is the greatest deception of the early 21st century. Questions?",
+      "zh": ""
+    },
+    {
+      "en": "B: Uh... yeah. In the lecture you said there's more evidence in the scientific record supporting global cooling?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, yes, essentially, the historical record supports a theory of climate cycles. Warming and cooling are cooperating processes in the planetary eco-system.",
+      "zh": ""
+    },
+    {
+      "en": "B: If thats true and the planet is getting cooler, what explains the rapid melting of the polar ice caps and the dramatic rise in the global average temperatures?",
+      "zh": ""
+    },
+    {
+      "en": "A: But are global temperatures rising? If you look at the data from nineteen seventy-five youll...",
+      "zh": ""
+    },
+    {
+      "en": "B: Youll be misled. If you were serious, you would look at the record starting in the 1880s. Then you would see how dramatically the earths temperature has changed.",
+      "zh": ""
+    },
+    {
+      "en": "A: Young lady, I beg to differ. Look, the point of the lecture was to emphasize that there is evidence for both sides, and I'm putting forth the argument that there's greater evidence in support of the global cooling hypothesis. Look, it's an indisputable fact that the public is being manipulated and scared into believing there's some kind of climate crisis; this scaremongering is done, quite simply, for political reasons.",
+      "zh": ""
+    },
+    {
+      "en": "B: But even without the uncomfortable reality that greenhouse gases like carbon dioxide contribute to global warming, isn't the topic appropriate for politicians to discuss?",
+      "zh": ""
+    },
+    {
+      "en": "A: Not if they want to use your tax dollars and mine to fund completely unnecessary initiatives.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, like conservation, protecting endangered species and investing in renewable energy. At the very least, you have to concede that this debate has the potential to end our dependence on foreign oil. Buying oil supports autocratic countries that use these revenues to devastating ends.",
+      "zh": ""
+    },
+    {
+      "en": "A: Why, I've never been so disrespected in all of my days. I'm a professor, a scientist and researcher of high regard.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, and a duplicitous one at that. Everyone knows you're in the pocket of the oil lobby. Why should we trust your so-called findings more than tobacco institute studies which say smoking doesn't harm health? You're full of it.",
+      "zh": ""
+    },
+    {
+      "en": "A: Some people just cannot handle civil debate!",
+      "zh": ""
+    }
+  ],
+  "code": "C0102",
+  "title": "Global View - Global Warming",
+  "level": "Elementary"
 }

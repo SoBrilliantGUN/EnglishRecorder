@@ -1280,5 +1280,34 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hey man... I really like your pad. Those lava lamps are far out! Thanks for letting me crash here tonight.",
+      "zh": ""
+    },
+    {
+      "en": "B: It's no problem, brother! I wanted a pad where people could come, listen to music and just hang loose, you dig what I'm saying?",
+      "zh": ""
+    },
+    {
+      "en": "A: I dig it man! We could throw a bash here and make it a really happening scene!",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah man, that would be groovy! Hey, I gotta split for a while, are you OK here by yourself?",
+      "zh": ""
+    },
+    {
+      "en": "A: Don't worry about me brother... You go take care of business.",
+      "zh": ""
+    },
+    {
+      "en": "B: Alright, peace out.",
+      "zh": ""
+    }
+  ],
+  "code": "C0096",
+  "title": "The Weekend - 1960’s English",
+  "level": "Elementary"
 }

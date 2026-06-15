@@ -920,5 +920,58 @@
       "en": "Thanks for downloading and goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Are you okay, man? You don't look very well.",
+      "zh": ""
+    },
+    {
+      "en": "B: Ugh, I feel terrible. I went out last night with Trevor and things got a little out of hand.",
+      "zh": ""
+    },
+    {
+      "en": "A: Nice! So, where did you guys go?",
+      "zh": ""
+    },
+    {
+      "en": "B: We hit a couple of local bars, and met up with some friends. Everything was cool until Mike came along, and it turned out that it was his birthday yesterday!",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh no! Mike's birthday is a drinkfest for sure!",
+      "zh": ""
+    },
+    {
+      "en": "B: Tell me about it! We drank everything in the bar!",
+      "zh": ""
+    },
+    {
+      "en": "A: Is that why you missed work today?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah. I woke up this morning feeling really nauseous. I threw up like five times.",
+      "zh": ""
+    },
+    {
+      "en": "A: Eww!",
+      "zh": ""
+    },
+    {
+      "en": "B: I was so dehydrated that I drank like a gallon of water, and my head has been pounding all day. I swear, I'm never gonna drink again!",
+      "zh": ""
+    },
+    {
+      "en": "A: Too bad man, tonight is Tracy's going away party and she asked if you were gonna go.",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh, yeah. I'm there!",
+      "zh": ""
+    }
+  ],
+  "code": "C0115",
+  "title": "Daily Life - I Don’t Feel So Good",
+  "level": "Elementary"
 }

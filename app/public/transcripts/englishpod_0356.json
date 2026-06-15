@@ -1368,5 +1368,14 @@
       "en": "Come on in, guys.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0356",
+  "title": "Lesson 356",
+  "level": "Intermediate"
 }

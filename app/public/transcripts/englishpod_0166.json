@@ -1288,5 +1288,54 @@
       "en": "Thank you.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: What are you doing?",
+      "zh": ""
+    },
+    {
+      "en": "B: Look at me. I look so old! I look as if I were thirty.",
+      "zh": ""
+    },
+    {
+      "en": "A: Come on! Stop being so vain. You look great! You are beautiful!",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, I am, but I think it's time for some plastic surgery I'm tired of these wrinkles and sagging skin. See?",
+      "zh": ""
+    },
+    {
+      "en": "A: I don't see any wrinkles or sagging skin! You are stop beings ridiculous. Besides, I think that people who get Botox, have facelifts, or tummy tucks look weird. It doesn't look natural.",
+      "zh": ""
+    },
+    {
+      "en": "B: Whatever, I think I'm gonna get liposuction and a nose joband some breast implantsas well.",
+      "zh": ""
+    },
+    {
+      "en": "A: I think you need to get brain surgery. I honestly don't think you need cosmetic surgery You look amazing.",
+      "zh": ""
+    },
+    {
+      "en": "B: I thought you were my friend and would support me on this! I just want to feel bette r about myself and feel more attractive.",
+      "zh": ""
+    },
+    {
+      "en": "A: You don't need plastic surgeryto do that. You are fine the way you are and you have guys drooling all over you! Plus, plastic surgeryhurts!",
+      "zh": ""
+    },
+    {
+      "en": "B: Really?",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah! When I got my nose job I was black and blue for a week!",
+      "zh": ""
+    }
+  ],
+  "code": "C0166",
+  "title": "Daily Life - Dr. Botox",
+  "level": "Elementary"
 }

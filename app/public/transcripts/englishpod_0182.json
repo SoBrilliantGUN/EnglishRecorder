@@ -920,5 +920,70 @@
       "en": "Happy Boxing.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: What do you think of this one?",
+      "zh": ""
+    },
+    {
+      "en": "B: Eh, so so.",
+      "zh": ""
+    },
+    {
+      "en": "A: And this one? Too flashy?",
+      "zh": ""
+    },
+    {
+      "en": "B: Nah, not too flashy.",
+      "zh": ""
+    },
+    {
+      "en": "A: Uhg! And this sweater from my aunt? Isn't it hideous?",
+      "zh": ""
+    },
+    {
+      "en": "B: I guess.",
+      "zh": ""
+    },
+    {
+      "en": "A: Are you even listening? I'm trying to have a conversation with you.",
+      "zh": ""
+    },
+    {
+      "en": "B: And I'm trying to watch the game, but you're yapping on about your new clothes!",
+      "zh": ""
+    },
+    {
+      "en": "A: Well I have to decide which gifts to keep and which to exchange for better ones when I go to the Boxing Day sales this afternoon!",
+      "zh": ""
+    },
+    {
+      "en": "B: Well could you do me the favor of making this quick? It's the third quarter and you've been blabbering on since the first!",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh, your precious game. You watch the same game every year, and each year your beloved hometown team loses by at least three goals!",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh no you didn't. You didn't just insult the Salsbury Seals, did you? Why don't you just. just go and return all of those stupid clothes and not come back until the sales are over?",
+      "zh": ""
+    },
+    {
+      "en": "A: I might just! Enjoy your stupid game!",
+      "zh": ""
+    },
+    {
+      "en": "B: And Merry Christmas!",
+      "zh": ""
+    },
+    {
+      "en": "A: Merry Christmas!",
+      "zh": ""
+    }
+  ],
+  "code": "C0182",
+  "title": "set! Elementary -Global View - Boxing Day",
+  "level": "Intermediate"
 }

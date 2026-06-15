@@ -728,5 +728,82 @@
       "en": "Enjoy Christmas, sing along with us.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Silent night, holy night",
+      "zh": ""
+    },
+    {
+      "en": "A: All is calm, all is bright",
+      "zh": ""
+    },
+    {
+      "en": "A: Round yon Virgin Mother and Child",
+      "zh": ""
+    },
+    {
+      "en": "A: Holy Infant so tender and mild",
+      "zh": ""
+    },
+    {
+      "en": "A: Sleep in heavenly peace",
+      "zh": ""
+    },
+    {
+      "en": "A: Sleep in heavenly peace",
+      "zh": ""
+    },
+    {
+      "en": "A: Silent night, holy night",
+      "zh": ""
+    },
+    {
+      "en": "A: Shepherds quake at the sight",
+      "zh": ""
+    },
+    {
+      "en": "A: Glories stream from heaven afar",
+      "zh": ""
+    },
+    {
+      "en": "A: Heavenly hosts sing Alleluia!",
+      "zh": ""
+    },
+    {
+      "en": "A: Christ, the Saviour is born",
+      "zh": ""
+    },
+    {
+      "en": "A: Christ, the Saviour is born",
+      "zh": ""
+    },
+    {
+      "en": "A: Silent night, holy night",
+      "zh": ""
+    },
+    {
+      "en": "A: Son of God, love's pure light",
+      "zh": ""
+    },
+    {
+      "en": "A: Radiant beams from Thy holy face",
+      "zh": ""
+    },
+    {
+      "en": "A: With the dawn of redeeming grace",
+      "zh": ""
+    },
+    {
+      "en": "A: Jesus, Lord, at Thy birth",
+      "zh": ""
+    },
+    {
+      "en": "A: Jesus, Lord, at Thy birth",
+      "zh": ""
+    }
+  ],
+  "code": "C0179",
+  "title": "Intermediate - Silent Night",
+  "level": "Elementary"
 }

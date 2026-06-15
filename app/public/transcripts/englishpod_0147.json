@@ -1060,5 +1060,58 @@
       "en": "Bye-bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Wow, that terrible movie is finally over. Next time I'm picking the film, because I don't want to end up seeing a chick flick.",
+      "zh": ""
+    },
+    {
+      "en": "B: Well you should have picked, in the end you always complain about everything.",
+      "zh": ""
+    },
+    {
+      "en": "A: Not everything, just this film. Even the title is ridiculous; and it's so long, those are the two and a half most wasted hours of my life, so much so that I'm thinking about asking them to give me my money back.",
+      "zh": ""
+    },
+    {
+      "en": "B: I'm thinking of taking you back home. I thought we could have a nice evening, but you're always so negative.",
+      "zh": ""
+    },
+    {
+      "en": "A: I'm only complaining about a movie that I could have rented or bought and then thrown in the garbage.",
+      "zh": ""
+    },
+    {
+      "en": "B: You see, that's what I'm talking about, I can't stand your sarcastic jokes anymore",
+      "zh": ""
+    },
+    {
+      "en": "A: Next time, go with your gay friend who is more in touch with his feelings.",
+      "zh": ""
+    },
+    {
+      "en": "B: W e l l h e ' s m o r e o f a m a n t h a n y o u a r e; a t l e a s t h e appreciates love stories.",
+      "zh": ""
+    },
+    {
+      "en": "A: Love? More like one-night-stands.",
+      "zh": ""
+    },
+    {
+      "en": "B: Don't criticize Mario or else I'll start on those fat, drunk friends of yours; they're no saints.",
+      "zh": ""
+    },
+    {
+      "en": "A: My friends? Fat? What about those whales you call friends?",
+      "zh": ""
+    },
+    {
+      "en": "B: You're unbearable; you can walk home, I'm leaving.",
+      "zh": ""
+    }
+  ],
+  "code": "C0147",
+  "title": "Daily Life - The Argument",
+  "level": "Elementary"
 }

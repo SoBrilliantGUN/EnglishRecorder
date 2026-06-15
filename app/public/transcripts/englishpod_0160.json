@@ -820,5 +820,50 @@
       "en": "Take care.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hey honey, how was your day?",
+      "zh": ""
+    },
+    {
+      "en": "B: It was alright. I ran into Billand we got totalking for a while He's in a bit of a jam.",
+      "zh": ""
+    },
+    {
+      "en": "A: Why? What happened?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, his son had an accident and Billdoesn't have health insurance. This really got me thinking, and I wondered if we shouldn't look into a couple of different HMO's.",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah, you're right. We aren't getting any younger and our kids are getting older.",
+      "zh": ""
+    },
+    {
+      "en": "B: Exactly! I searched on the web and found a couple of HMO's with low co pays and good coverage. The deductibles are low, too.",
+      "zh": ""
+    },
+    {
+      "en": "A: Sounds good, although, do you think we can qualify for insurance? Those insurance companies are real pirates when it comes to money.",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, we don't have any pre existing illnesses or conditions, so we should be fine.",
+      "zh": ""
+    },
+    {
+      "en": "A: I wish our company or country provided us with healthcare.",
+      "zh": ""
+    },
+    {
+      "en": "B: Not in a million years!",
+      "zh": ""
+    }
+  ],
+  "code": "C0160",
+  "title": "Global View - Health Insurance",
+  "level": "Elementary"
 }

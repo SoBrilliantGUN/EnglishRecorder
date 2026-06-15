@@ -1052,5 +1052,30 @@
       "en": "Thanks for listening and goodbye!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: And so, I just wanted to check in with you and find out where we are with this project. As you know, you've missed a fairly significant deadline last week, and this will negativity impact the team's ability to move forward with the next stages of this project.",
+      "zh": ""
+    },
+    {
+      "en": "B: I know, I'm really sorry that I missed the deadline. But really, it wasn't my fault. You see, we had all of these unexpected technical problems at the last minute, and that I couldn't get into the databa se and extract the kind of information that I needed for the data analyis. You know, if the tech guys would have done their job and kept the CRM stable, then I wouldn't have missed my deadline.",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh, come on! An excuse like that is tantamount to lying. You're essentially blaming the tech team for your time management issues, rather than accepting responsibility for the fact that you were pr ocrastinating for the past two weeks.",
+      "zh": ""
+    },
+    {
+      "en": "B: No, I'm not trying to pass the buck here; I know that it was me who is ultimately responsible for getting this done. But the thing is, I could have finished on time if the system hadn't gone down. And you know, with everything I've got going on now, I can't afford to waste time dealing with technical problems. I've got a lot on my plate and there are only twenty-four hours in a day...",
+      "zh": ""
+    },
+    {
+      "en": "A: I'm not going to accept this excuse. You're using these small technical glitches as a crutch and trying to rationalize the fact that you've missed your deadline. Look, we have standards and I expect you to live up to those standards. No more phoney excuses. If you're in over your head, you tell me. No more missed deadlines. Now, I want that data on my desk by nine am!",
+      "zh": ""
+    }
+  ],
+  "code": "C0116",
+  "title": "Lesson 116",
+  "level": "Intermediate"
 }

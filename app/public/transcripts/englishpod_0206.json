@@ -964,5 +964,50 @@
       "en": "Thank you very much.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Charlie, do you have a second?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah what's up?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, I went and paid the bills today and you still haven't given me your half.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah I wanted to talk to you about that. I agreed we would go halves on allthe bills, but frankly I think it's unfair.",
+      "zh": ""
+    },
+    {
+      "en": "A: Unfair! Why?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, you have long hair and use the hairdryer every morning. I don't. You leave your computer on all night downloading torrents. I don't. You see what I'm getting at here?",
+      "zh": ""
+    },
+    {
+      "en": "A: You leave the air conditioner on day and night! You also take 30 minute showers which means you are using way more gas and water than me!",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, while we are at it, stop bringing your friends over for drinks every weekend. You always leave a mess and keep me up all night!",
+      "zh": ""
+    },
+    {
+      "en": "A: Maybe you should just move out and find another place.",
+      "zh": ""
+    },
+    {
+      "en": "B: Maybe you should move out!",
+      "zh": ""
+    }
+  ],
+  "code": "C0206",
+  "title": "Daily Life - Talking To Your Roomate",
+  "level": "Elementary"
 }

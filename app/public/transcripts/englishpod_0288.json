@@ -1004,5 +1004,46 @@
       "en": "Thanks a lot.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I have made up my mind. I am getting a tattoo.",
+      "zh": ""
+    },
+    {
+      "en": "B: Really? Are you sure?",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah! Why not? They are tre ndy and look great! I want to get a dragon on my arm or maybe a tiger on my back.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah but, it is something that you will have forever! They use indelible ink that can only be removed with laser treatment. On top of all that, I have heard it hurts a lot!",
+      "zh": ""
+    },
+    {
+      "en": "A: Really?",
+      "zh": ""
+    },
+    {
+      "en": "B: Of course! They use this machine with a needle that pokes your skin and inserts the ink.",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh, I didn't know that! I thought they just paint it on your skin or something.",
+      "zh": ""
+    },
+    {
+      "en": "B: I think you should reconsider and do some more research about tattoos. Also, find out where the nearest tattoo parlor is and make sure they used sterilized needles, and that the place is hygienic.",
+      "zh": ""
+    },
+    {
+      "en": "A: Maybe I should just get a tongue piercing!",
+      "zh": ""
+    }
+  ],
+  "code": "C0288",
+  "title": "The Weekend - Getting A Tattoo",
+  "level": "Intermediate"
 }

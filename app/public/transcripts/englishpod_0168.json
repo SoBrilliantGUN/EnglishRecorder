@@ -1048,5 +1048,14 @@
       "en": "Happy Thanksgiving.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "（该课程在原始 PDF 中缺失）",
+      "zh": ""
+    }
+  ],
+  "code": "C0168",
+  "title": "Lesson 168（PDF 缺失）",
+  "level": "Intermediate"
 }

@@ -1172,5 +1172,54 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Good afternoon Ma'am, My name is Mike and I am selling subscriptions to all sorts of periodicals.",
+      "zh": ""
+    },
+    {
+      "en": "B: No thank you, I am not interested.",
+      "zh": ""
+    },
+    {
+      "en": "A: Please ma'am, if you could spare five minutes of your time, I am sure we could find something that interests you!",
+      "zh": ""
+    },
+    {
+      "en": "B: I wish I could, but Ihave to walk the dog and finish cooking so if you would excuse me.",
+      "zh": ""
+    },
+    {
+      "en": "A: We have a great variety of magazines all about cooking! This one for example, is a bi monthly publication with recipes from all over the world!",
+      "zh": ""
+    },
+    {
+      "en": "B: Wow, that would be kind of useful, do you have any other cooking magazines?",
+      "zh": ""
+    },
+    {
+      "en": "A: Sure do! This one is a quarterly publication, but each issue has over 200 color pages of recipes and also many home decorating ideas!",
+      "zh": ""
+    },
+    {
+      "en": "B: Wow, this is nice! Ok, sign me up for both publications.",
+      "zh": ""
+    },
+    {
+      "en": "A: You mentioned you have a dog, most pet owners sign up for this weekly newsletter that has information on dog care, pet shops and even pet sitters!",
+      "zh": ""
+    },
+    {
+      "en": "B: That is exactly what I needed! What else do you have?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, I also have...",
+      "zh": ""
+    }
+  ],
+  "code": "C0245",
+  "title": "The Weekend - Getting A Subscription",
+  "level": "Intermediate"
 }

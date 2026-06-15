@@ -1188,5 +1188,54 @@
       "en": "Let's David!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Charles: Hi Cody, how did practicing go this week?",
+      "zh": ""
+    },
+    {
+      "en": "Cody: Well I had several tests and an oral presentation this week so I didn't get a chance to memorize the second page, but I think I mastered the tricky section.",
+      "zh": ""
+    },
+    {
+      "en": "Charles: Great! Warm up with some scales and arpeggios first. Good, good. This week, work on keeping the rhythm steady when you play the last part with the sixteenth note. Now let's take a look at this tricky section.",
+      "zh": ""
+    },
+    {
+      "en": "Cody: Charles? Before I start I was wondering if it was ok if I put a small crescendo in here and then decrescendo back to pianissimo again over here?",
+      "zh": ""
+    },
+    {
+      "en": "Charles: It might work. I'll have to hear it. Show me what you've done. Not bad, not bad.",
+      "zh": ""
+    },
+    {
+      "en": "Cody: It was horrible! I played play it much better at home!",
+      "zh": ""
+    },
+    {
+      "en": "Charles: It's just nerves. Just pl ay the right hand for now. One two three four five six, ta ti tri-ple-ti. Good, good. Don't forget the accidentals! The key signature says that note should be a G-sharp but now it's a G-natural. Now add the bass clef. You're going too fast. Remember the tempo for this piece is andante.",
+      "zh": ""
+    },
+    {
+      "en": "Cody: Is that better?",
+      "zh": ""
+    },
+    {
+      "en": "Charles: Yes, much better. Watch where you lift your foot off the pedal. What was that?",
+      "zh": ""
+    },
+    {
+      "en": "Cody: Sorry! The stretch for that octave is always hard to make.",
+      "zh": ""
+    },
+    {
+      "en": "Charles: That's ok, keep going, you're moving ahead by leaps and bounds. Watch your dynamics! Keep your elbows lifted. Remember to stroke the keys, don't pound. That's better! Remember that as a pianist or any other musician, your technique will be what separates you from the pack just as much or more so as your musicianship.",
+      "zh": ""
+    }
+  ],
+  "code": "C0242",
+  "title": "Global Vi ew - Learning The Piano",
+  "level": "Intermediate"
 }

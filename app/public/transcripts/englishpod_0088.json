@@ -760,5 +760,46 @@
       "en": "🎵 music playing 🎵",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hey, you're early! Where's everyone?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well... I told them not to come. I made a reservation just for the two of us. I thought we could have an quiet evening all to ourselves.",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh... why?",
+      "zh": ""
+    },
+    {
+      "en": "B: Jennifer, there's some thing I wanna ask you.",
+      "zh": ""
+    },
+    {
+      "en": "A: Sure. What is it?",
+      "zh": ""
+    },
+    {
+      "en": "B: Hmm... okay, here's the thin g. I've always seen you as more than just a friend, and I can't take it any more. I know you better than anyone, I know the pros and cons of your personality, I even know what side of the bed is yours! I think we would be great together, don't you?",
+      "zh": ""
+    },
+    {
+      "en": "A: Are you serious? We've been friends for years! We can't just change that overnight!",
+      "zh": ""
+    },
+    {
+      "en": "B: I know! I never had the guts to tell you... until today. So, what do you say? Are you willing to give me a shot?",
+      "zh": ""
+    },
+    {
+      "en": "A: I... I...",
+      "zh": ""
+    }
+  ],
+  "code": "C0088",
+  "title": "Lesson 88",
+  "level": "Intermediate"
 }

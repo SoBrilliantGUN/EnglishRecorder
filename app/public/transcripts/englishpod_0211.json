@@ -1148,5 +1148,38 @@
       "en": "EnglishPod.com.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Jim: Hey- Why did you take that money? You are such a cheater! I should send you to jail!",
+      "zh": ""
+    },
+    {
+      "en": "Karen: I am not cheating. When you pass go, you collect $200, Everyone knows that!",
+      "zh": ""
+    },
+    {
+      "en": "Jim: Well you can't just take the money. You have to ask the bank for money. And I'm the banker.",
+      "zh": ""
+    },
+    {
+      "en": "Karen: Banker?",
+      "zh": ""
+    },
+    {
+      "en": "Jim: Yes...",
+      "zh": ""
+    },
+    {
+      "en": "Karen: Can I have my $200 please?",
+      "zh": ""
+    },
+    {
+      "en": "Jim: Sure. Here you are, $200, Thank you, please come again! Now it's my turn to roll the dice.",
+      "zh": ""
+    }
+  ],
+  "code": "C0211",
+  "title": "Lesson 211",
+  "level": "Intermediate"
 }

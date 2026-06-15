@@ -976,5 +976,46 @@
       "en": "Thanks again.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hi I would like to return this TV.",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure, do you have the receipt?",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah here you go. Actually I also want to return this keyboard.",
+      "zh": ""
+    },
+    {
+      "en": "B: Ok, may I ask what is the reason for returning these products?",
+      "zh": ""
+    },
+    {
+      "en": "A: : The TV flickers a lot when I am watching a movie and at times the image is not very clear.",
+      "zh": ""
+    },
+    {
+      "en": "B: I see, and what about the keyboard?",
+      "zh": ""
+    },
+    {
+      "en": "A: I spilled some coffee on it and now it won't work.",
+      "zh": ""
+    },
+    {
+      "en": "B: I am sorry sir, but we can only exchange or refund defective products, we cannot take responsibility for misuse or damages.",
+      "zh": ""
+    },
+    {
+      "en": "A: Fine! I don't know why they make these things so delicate anyways.",
+      "zh": ""
+    }
+  ],
+  "code": "C0299",
+  "title": "Daily Life - Returning A Product",
+  "level": "Intermediate"
 }

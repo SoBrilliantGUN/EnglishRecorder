@@ -1136,5 +1136,46 @@
       "en": "Well, see you guys there.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Do you know what time it is?",
+      "zh": ""
+    },
+    {
+      "en": "B: Um. Ten?",
+      "zh": ""
+    },
+    {
+      "en": "A: Get in this door young man. It's midnight, you are two hours past curfew.",
+      "zh": ""
+    },
+    {
+      "en": "B: I know, but it wasn't my fault! I told Jennifer she had to drop me off before ten, but she wouldn't leave the party!",
+      "zh": ""
+    },
+    {
+      "en": "A: I don't care! You are grounded for life mister!",
+      "zh": ""
+    },
+    {
+      "en": "B: Mom! That is so unfair!",
+      "zh": ""
+    },
+    {
+      "en": "A: You know the rules and you broke them. No allowance and no TV for a week. I usually never ground you but this time I have to put my foot down!",
+      "zh": ""
+    },
+    {
+      "en": "B: What! For being a couple of hours late? You have to be kidding!",
+      "zh": ""
+    },
+    {
+      "en": "A: I don't want to hear it! Now go to your room!",
+      "zh": ""
+    }
+  ],
+  "code": "C0258",
+  "title": "Daily Life - You’re Grounded!",
+  "level": "Intermediate"
 }

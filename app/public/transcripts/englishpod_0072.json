@@ -964,5 +964,50 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hi Isabel! You wanted to see me?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes Anthony, come on in. Have a seat.",
+      "zh": ""
+    },
+    {
+      "en": "A: Is everything okay? You seem a bit preoccupied.",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, Anthony, this is not going to be an easy conversation. The company has made some decisions which will have a direct impact on your employment.",
+      "zh": ""
+    },
+    {
+      "en": "A: Okay...",
+      "zh": ""
+    },
+    {
+      "en": "B: I don't want to beat around the bush so I'm just gonna come out with it. We are going to have to let you go.",
+      "zh": ""
+    },
+    {
+      "en": "A: What? Why? I mean... just like that? I'm fired?",
+      "zh": ""
+    },
+    {
+      "en": "B: I'm sorry but, to be honest, you are a terribleemployee!",
+      "zh": ""
+    },
+    {
+      "en": "A: What! I resent that!",
+      "zh": ""
+    },
+    {
+      "en": "B: Anthony, you were caught making international calls from the office phone, you called in sick in eight times this month and you smell like alcohol!",
+      "zh": ""
+    }
+  ],
+  "code": "C0072",
+  "title": "Lesson 72",
+  "level": "Intermediate"
 }

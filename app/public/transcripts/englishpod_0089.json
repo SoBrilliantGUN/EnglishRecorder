@@ -1232,5 +1232,50 @@
       "en": "Goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Next please! Hello sir, may I see your passport please?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, here you go.",
+      "zh": ""
+    },
+    {
+      "en": "A: Will you be checking any bags.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, I'd like to check three pieces.",
+      "zh": ""
+    },
+    {
+      "en": "A: I'm sorry, sir. Airline policy allows only two pieces of checked luggage, at twenty kilograms each, plus one piece of carry-on luggage. I will have to charge you extra for the additional suitcase.",
+      "zh": ""
+    },
+    {
+      "en": "B: What? Why! I am taking an intercontinenta l flight! I'm flying sixteen thousand kms! How am I supposed to only take two, twenty kilo bags? That's absurd!",
+      "zh": ""
+    },
+    {
+      "en": "A: I am sorry, sir, there's nothing I can do. You cannot board the flight with that large bag either. Carry-on bags must fit in the over-head compartment or under your seat. 24 That bag is clearly too big.",
+      "zh": ""
+    },
+    {
+      "en": "B: Now I see. You charge next to nothing for an international ticket, but when it comes to charging for any other small thing, you charge an arm and a leg! So tell me, miss, how much will I have to pay for all of this.",
+      "zh": ""
+    },
+    {
+      "en": "A: Let's see... six hundred and twenty-five US dollars.",
+      "zh": ""
+    },
+    {
+      "en": "B: That's more than my round-trip ticket!",
+      "zh": ""
+    }
+  ],
+  "code": "C0089",
+  "title": "Daily Life - At The Airport",
+  "level": "Elementary"
 }

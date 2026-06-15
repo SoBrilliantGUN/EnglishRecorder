@@ -1292,5 +1292,126 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I can't believe we're here!",
+      "zh": "A：真不敢相信我们在这！"
+    },
+    {
+      "en": "A: Carnival in Rio!",
+      "zh": "A：里约狂欢节！"
+    },
+    {
+      "en": "A: Seriously, this is like a once in a lifetime opportunity!",
+      "zh": "A：说真的，这简直是一生一次的机会！"
+    },
+    {
+      "en": "A: Can you believe it?",
+      "zh": "A：你敢信吗？"
+    },
+    {
+      "en": "A: We're here at the biggest party in the world!",
+      "zh": "A：我们在世界上最大的派对上！"
+    },
+    {
+      "en": "B: I know!",
+      "zh": "B：我知道！"
+    },
+    {
+      "en": "B: We're so lucky that we found tickets for the Sambadrome!",
+      "zh": "B：我们太幸运了，居然买到了桑巴馆的票！"
+    },
+    {
+      "en": "B: Good thing we found that ticket scalper.",
+      "zh": "B：幸好我们找到了那个黄牛。"
+    },
+    {
+      "en": "A: Look!",
+      "zh": "A：看！"
+    },
+    {
+      "en": "A: It's starting!",
+      "zh": "A：开始了！"
+    },
+    {
+      "en": "A: Wow, this is amazing!",
+      "zh": "A：哇，这太棒了！"
+    },
+    {
+      "en": "A: Look at how many dancers there are.",
+      "zh": "A：看看有多少舞者。"
+    },
+    {
+      "en": "A: Oh my gosh!",
+      "zh": "A：哦天哪！"
+    },
+    {
+      "en": "A: The costumes are so colorful!",
+      "zh": "A：服装也太鲜艳了吧！"
+    },
+    {
+      "en": "A: This is so cool!",
+      "zh": "A：这太酷了！"
+    },
+    {
+      "en": "B: It says here that the school that is dancing now is one of the oldest and most prestigious samba schools in Rio.",
+      "zh": "B：这上面说，现在正在表演的学校是里约最古老、最有声望的桑巴学校之一。"
+    },
+    {
+      "en": "A: No kidding!",
+      "zh": "A：不是开玩笑吧！"
+    },
+    {
+      "en": "A: Look at them, they're amazing!",
+      "zh": "A：看他们，太厉害了！"
+    },
+    {
+      "en": "A: Look at that girl on the top of that float!",
+      "zh": "A：看那辆花车上的那个女孩！"
+    },
+    {
+      "en": "A: She must be the carnival queen!",
+      "zh": "A：她一定是狂欢节女王！"
+    },
+    {
+      "en": "A: Move over there so I can get a picture of you!",
+      "zh": "A：过去那边，让我给你拍张照！"
+    },
+    {
+      "en": "B: Ok.",
+      "zh": "B：好的。"
+    },
+    {
+      "en": "B: Hurry up take the picture!",
+      "zh": "B：快点拍！"
+    },
+    {
+      "en": "C: join us! come and dance!",
+      "zh": "C：加入我们吧！一起来跳舞！"
+    },
+    {
+      "en": "B: Oh really... no I can't.",
+      "zh": "B：哦其实……不我跳不了。"
+    },
+    {
+      "en": "B: No really, I don't know how to dance!",
+      "zh": "B：真不行，我不知道怎么跳！"
+    },
+    {
+      "en": "B: Honey I'll see you later!",
+      "zh": "B：亲爱的回头见！"
+    },
+    {
+      "en": "A: Patrick!",
+      "zh": "A：帕特里克！"
+    },
+    {
+      "en": "A: Don't just leave me here!",
+      "zh": "A：你不能就这样把我丢在这！"
+    }
+  ],
+  "code": "C0048",
+  "title": "Intermediate - Carnival in Rio!",
+  "level": "Elementary"
 }

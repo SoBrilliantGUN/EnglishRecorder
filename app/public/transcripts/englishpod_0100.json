@@ -1120,5 +1120,66 @@
       "en": "And until next time, goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Where to, miss?",
+      "zh": ""
+    },
+    {
+      "en": "B: Hi! Crenshaw and Hawthorne, at the Holiday Inn that is on that corner.",
+      "zh": ""
+    },
+    {
+      "en": "A: Sure thing. So, where are you flying in from?",
+      "zh": ""
+    },
+    {
+      "en": "B: From China.",
+      "zh": ""
+    },
+    {
+      "en": "A: Really? You don't look very Chinese to me, if you don't mind me saying so.",
+      "zh": ""
+    },
+    {
+      "en": "B: It's fine. I am actually fro m Mexico. I was in China on a business trip, visiting so me local companies that manufacture bathroom products.",
+      "zh": ""
+    },
+    {
+      "en": "A: Wow sounds interesting! Excuse me if I am being a bit nosy but, how old are you?",
+      "zh": ""
+    },
+    {
+      "en": "B: Don't you know it's rude to ask a lady her age?",
+      "zh": ""
+    },
+    {
+      "en": "A: Don't get me wrong! It's just that you seem so young and already doing business overseas!",
+      "zh": ""
+    },
+    {
+      "en": "B: Well thank you! In that case, I am 26 years old, and what about yourself?",
+      "zh": ""
+    },
+    {
+      "en": "A: I am 40 years old and was born and raised here in the good old U. S of A, although I have some Colombian heritage.",
+      "zh": ""
+    },
+    {
+      "en": "B: Really? That's great! Do you speak some Spanish?",
+      "zh": ""
+    },
+    {
+      "en": "A: Uh... yeah.. of course!",
+      "zh": ""
+    },
+    {
+      "en": "B: Que bien! Entonces podemos hablar en espanol!",
+      "zh": ""
+    }
+  ],
+  "code": "C0100",
+  "title": "Daily Life - Where are you from?",
+  "level": "Elementary"
 }

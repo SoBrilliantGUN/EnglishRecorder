@@ -1412,5 +1412,42 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: And the next thing you know, we're running towards the... Oh...did you feel that?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, don't worry about it; we're just going through a bit of turbulence.",
+      "zh": ""
+    },
+    {
+      "en": "C: Ladies and gentlemen, this is your captain speaking. It looks like we've hit a patch of rough air, so we're going to have a bit of a bumpy ride for the next several minutes, and...",
+      "zh": ""
+    },
+    {
+      "en": "A: This why I hate flying... Oh!",
+      "zh": ""
+    },
+    {
+      "en": "C: At this time, I'd like to remind all of our passengers to fasten their seat beltsand remain seated until the fasten seat belt sign is turned off. Please ensure that all cabin baggageis carefully stowed under the seat in front of you. I'll be back back to update you in a minute.",
+      "zh": ""
+    },
+    {
+      "en": "A: Did you hear that? Brent!",
+      "zh": ""
+    },
+    {
+      "en": "B: Don't worry about it. This is totally normal. It happens all the",
+      "zh": ""
+    },
+    {
+      "en": "C: Ah, ladies and gentlemen, this is your captain again. We've got quite a large patch of rough air ahead of us, so for your safety, we will be su spending in-flight service. I would ask all in-flight crew to return to their seats at this time. I would also like to ask that all our passengers refrain from using the lavatory until the seat belt sign has been 16 switched off We can expect...",
+      "zh": ""
+    }
+  ],
+  "code": "C0058",
+  "title": "Daily Life - This Is Your Captain",
+  "level": "Elementary"
 }

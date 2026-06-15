@@ -1052,5 +1052,38 @@
       "en": "I will see you guys later, take care.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Jim: Hey Michelle. Good to see you. Are you at lunch?",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Oh hi Jim. No I just got back. I thought you were on vacation now.",
+      "zh": ""
+    },
+    {
+      "en": "Jim: No, I wish I was! I just got back from Spain actually.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Oh wonderful! Have you been there before or was it your first time?",
+      "zh": ""
+    },
+    {
+      "en": "Jim: My first time. I've traveled around Europe a lot, but this was my first time to Spain. It was amazing, and the weather was just beautiful! No rain, and just sun, sun, sun...",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: I'm so jealous of you. I've never been anywhere in Europe. I've always dreamed of traveling around and seeing the sights.",
+      "zh": ""
+    },
+    {
+      "en": "Jim: Well, I really recommend Spain. You really should go. Anyway, it's been great to catch up, but I must be going, this is my floor. Speak again soon I hope.",
+      "zh": ""
+    }
+  ],
+  "code": "C0325",
+  "title": "The Office - Small Talk 7 - Talking About A Trip",
+  "level": "Intermediate"
 }

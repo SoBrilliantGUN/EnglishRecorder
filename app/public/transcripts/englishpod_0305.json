@@ -920,5 +920,38 @@
       "en": "Thanks for watching EnglishPod.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Alright, so the first thing that you need to know about bowling is that you should never cross that line where the lane begins.",
+      "zh": ""
+    },
+    {
+      "en": "B: Why not?",
+      "zh": ""
+    },
+    {
+      "en": "A: Because they polish and oil it to make the ball slide down. If you step there you will slip and fall.",
+      "zh": ""
+    },
+    {
+      "en": "A: OK, so I got my bowling shoes, my ball, our names on the scorecard, so now, how the heck do I play this?",
+      "zh": ""
+    },
+    {
+      "en": "A: You throw the ball down the lane and try to knock down all the pins. If you do, that is called a strike. If you don't knock them all down on the first try, then you get a chance to get the spare. After ten frames, we add up the points and see who has the most. Three hundred is a perfect score, but very hard to get.",
+      "zh": ""
+    },
+    {
+      "en": "B: Got it! OK, I'm gonna give it a go. Oh no! My ball went in the gutter!",
+      "zh": ""
+    },
+    {
+      "en": "A: I told you, its harder than you think. Now let a pro show you how it's done.",
+      "zh": ""
+    }
+  ],
+  "code": "C0305",
+  "title": "The Weekend - Bowling",
+  "level": "Intermediate"
 }

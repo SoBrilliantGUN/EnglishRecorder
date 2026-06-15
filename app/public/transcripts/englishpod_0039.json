@@ -1224,5 +1224,74 @@
       "en": "And until next time, goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Irene!",
+      "zh": "A：艾琳！"
+    },
+    {
+      "en": "A: I heard you were on a date last night!",
+      "zh": "A：我听说你昨晚去约会了！"
+    },
+    {
+      "en": "A: So, how how did it go?",
+      "zh": "A：怎么样怎么样？"
+    },
+    {
+      "en": "A: I want all the juicy details!",
+      "zh": "A：我要听所有劲爆的细节！"
+    },
+    {
+      "en": "B: Um... well, actually, we had a fantastic time last night.",
+      "zh": "B：嗯……好吧，其实，我们昨晚过得特别开心。"
+    },
+    {
+      "en": "B: He was...amazing!",
+      "zh": "B：他……太棒了！"
+    },
+    {
+      "en": "A: Okay, now you really have to fill me in.",
+      "zh": "A：好吧，你现在真得跟我说清楚。"
+    },
+    {
+      "en": "A: What's he like?",
+      "zh": "A：他什么样？"
+    },
+    {
+      "en": "B: He's really good looking; he's quite tall, around 6'1\", he's in his early thirties, and he's got the most beautiful dark brown eyes...",
+      "zh": "B：他非常帅；个子挺高，大约6尺1寸，三十出头，有着最漂亮的深棕色眼睛……"
+    },
+    {
+      "en": "A: He sounds hot!",
+      "zh": "A：听起来很性感啊！"
+    },
+    {
+      "en": "A: What does he do for a living?",
+      "zh": "A：他做什么工作的？"
+    },
+    {
+      "en": "B: You know what, this is the best part.",
+      "zh": "B：知道吗，这是最棒的部分了。"
+    },
+    {
+      "en": "B: David is a junior investment banker at Fortune Bank, so he's got a great career path ahead of him!",
+      "zh": "B：大卫是财富银行的一名初级投资银行家，所以他的职业前景非常光明！"
+    },
+    {
+      "en": "A: Hold on a sec, his name is David?",
+      "zh": "A：等一下，他叫大卫？"
+    },
+    {
+      "en": "B: Yeah?",
+      "zh": "B：是啊？"
+    },
+    {
+      "en": "A: That's my brother!",
+      "zh": "A：那是我哥！"
+    }
+  ],
+  "code": "B0039",
+  "title": "My New Boyfriend",
+  "level": "Elementary"
 }

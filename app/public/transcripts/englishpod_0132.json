@@ -884,5 +884,42 @@
       "en": "EnglishPod 1998.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Howdy! Nice car! What seems to be the problem?",
+      "zh": ""
+    },
+    {
+      "en": "B: I don't know! This stupid old car started spewing white smoke and it just died on me. Luckily, I managed to start it up and drive it here. What do you think it is?",
+      "zh": ""
+    },
+    {
+      "en": "A: Not sure yet. How about you pop the hood and we can take a look. Hmmm, it doesn't look good.",
+      "zh": ""
+    },
+    {
+      "en": "B: What do you mean? My daddy gave me this car for my birthday last month. It's brand new!",
+      "zh": ""
+    },
+    {
+      "en": "A: Well missy, the white smoke that you saw is steam from the radiator. You overheated your engine so now the pistons are busted and so is your transmission. You should have called us and we could have towed you over here when your car died.",
+      "zh": ""
+    },
+    {
+      "en": "B: Ugh... So how long is this going to take? An hour?",
+      "zh": ""
+    },
+    {
+      "en": "A: I'm afraid a bit more than that. We need to order the spare parts, take apart your electrical system, fuel pump and engine and then put it back together again. You are going to have to leave it here for at least two weeks.",
+      "zh": ""
+    },
+    {
+      "en": "B: What! How am I supposed to get to school or go shopping? This is not happening!",
+      "zh": ""
+    }
+  ],
+  "code": "C0132",
+  "title": "Daily Life - Mechanic",
+  "level": "Elementary"
 }

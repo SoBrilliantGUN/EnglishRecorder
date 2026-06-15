@@ -948,5 +948,54 @@
       "en": "Tip your car wastes to reuse an old car.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Welcome to Al's Garage. What seems to be the problem?",
+      "zh": ""
+    },
+    {
+      "en": "B: No problem at all! I am taking a long road trip and I want to make sure my car is in good mechanical condition.",
+      "zh": ""
+    },
+    {
+      "en": "A: Very wise decisi on. When was the last time you had a tune up?",
+      "zh": ""
+    },
+    {
+      "en": "B: Not that long ago, I think it was four months ago.",
+      "zh": ""
+    },
+    {
+      "en": "A: We usually recommend that you bring your car in every five thousand kilometers.",
+      "zh": ""
+    },
+    {
+      "en": "B: Why? I mean, what exactly do you do to a car that you need to check it so often?",
+      "zh": ""
+    },
+    {
+      "en": "A: First of all, we change the motor oil and oil filter. If you don't do this, it can cause your engine to wear faster and that means you would probably have to change the pistons and intake valves.",
+      "zh": ""
+    },
+    {
+      "en": "B: I see. What else?",
+      "zh": ""
+    },
+    {
+      "en": "A: We also check your spark plugs, fuel filter, and other oil levels such as hydraulic fluid. We also check the clutch and brakes to determine when you will need new ones.",
+      "zh": ""
+    },
+    {
+      "en": "B: Ok, well, when you put it that way, it doesn't seem like a waste of time and money.",
+      "zh": ""
+    },
+    {
+      "en": "A: Trust me, regular tune ups will keep your car running smoothly and avoid break downs.",
+      "zh": ""
+    }
+  ],
+  "code": "C0284",
+  "title": "Daily Life - Tune Up",
+  "level": "Intermediate"
 }

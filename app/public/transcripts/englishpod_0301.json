@@ -608,5 +608,34 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: You want to go to the movies tonight?",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure! What's playing?",
+      "zh": ""
+    },
+    {
+      "en": "A: The new Twilight movie!",
+      "zh": ""
+    },
+    {
+      "en": "B: Twilight? As in the vampire movies? No way I am watching that. I don't understand why everyone isso excited about these films about vampires. It doesn't make sense.",
+      "zh": ""
+    },
+    {
+      "en": "A: Of course it does. It's like a modern tale of Romeo and Juliet. You have a couple that is in love but can't be together because they are so di fferent. Add in the fact that immortality and super human strengthis really sexy and there you have it! Plus the cast is hip, young people that make the movie even more enticing.",
+      "zh": ""
+    },
+    {
+      "en": "B: I don't buy into that. I think it's just a fad. Pretty soon this will pass and everyone will be into werewolves or zombies!",
+      "zh": ""
+    }
+  ],
+  "code": "C0301",
+  "title": "The Weekend - Vampires",
+  "level": "Intermediate"
 }

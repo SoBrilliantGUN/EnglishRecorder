@@ -1048,5 +1048,42 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A:... And now, let's go to Kenny Williams for today's weather forecast.",
+      "zh": ""
+    },
+    {
+      "en": "B: Thank you Bill, and good morning Salt Lake City!",
+      "zh": ""
+    },
+    {
+      "en": "A: What's the weather looking like today, Kenny?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, it's a bit of a mixed bag in Utah today; we've got heavy cloud cover here in Northern Utah, and we're calling for scattered showers throughout the day, with a day-time high of forty-five degrees. Now, if we move down to the south of the state, we can see that a cold front is moving in. We can expect clear skies, but it will be quite cold, with temperatures hovering around the thirty degree mark.",
+      "zh": ""
+    },
+    {
+      "en": "A: It's a chilly day folks, so don't forget your coats! What about tomorrow Kenny? Do you have good news for us?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, it'll be a rainy day for Northern Utah; we can expect some isolated downpours in the morning. Winds will be coming in from the North East, with gusts reaching twenty-three miles per hour. Salt Lake City can expect the rain to turn to sleet in the evening. Things are looking a bit better for th e South; we'll see cloudy skies with a chance of showers. Later in the day, we can expect partlycloudy skies, with a forecast high of thirty-eight degrees.",
+      "zh": ""
+    },
+    {
+      "en": "A: You heard it folks! It's gonna be a cold one!",
+      "zh": ""
+    },
+    {
+      "en": "B: That's right Bill. We will have more later on today on the six o'clock news. That's the weather forecast for this morning.",
+      "zh": ""
+    }
+  ],
+  "code": "C0097",
+  "title": "Daily Life - Weather Forecast",
+  "level": "Elementary"
 }

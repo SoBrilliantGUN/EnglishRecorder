@@ -1268,5 +1268,42 @@
       "en": "Goodbye.",
       "zh": "再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Really, fellas, you can't take me to jail! Don't you know who I am? Kris Kringle, you know, Papa Noel, Pere Noel, Babbo Natale, sheng dan lao ren!",
+      "zh": "A：说真的，伙计们，你们不能把我关进监狱！你们不知道我是谁吗？克里斯·克林格，你知道的，圣诞老人，Papa Noel，Pere Noel，Babbo Natale，圣诞老人！"
+    },
+    {
+      "en": "B: Yeah, Yeah, we've heard that one before, haven't we Joe?",
+      "zh": "B：是的是的，这个我们以前听过，对吧乔？"
+    },
+    {
+      "en": "C: Yeah, last week we booked this guy who claimed to be the tooth fairy! Can you believe that?",
+      "zh": "C：是啊，上周我们还抓了一个自称是牙仙子的家伙！你敢信吗？"
+    },
+    {
+      "en": "A: It's Christmas Eve and I have all these Presents to deliver! Where is your Christmas spirit? What will happen when all the children wake up tomorrow and don't find any gifts in their stockings?",
+      "zh": "A：今天是平安夜，我还有这么多礼物要送！你们的圣诞精神哪去了？明天孩子们醒来发现袜子里没有礼物，该怎么办？"
+    },
+    {
+      "en": "B: Sorry buddy, you were parked in a no-parking zone, you were speeding, and you have no ID!",
+      "zh": "B：抱歉了兄弟，你违规停在了禁停区，你超速了，而且你没有身份证！"
+    },
+    {
+      "en": "C: Besides that, even if we let you go now, your sleigh has been impounded and those reindeer were taken to the city zoo.",
+      "zh": "C：除此之外，就算我们现在放你走，你的雪橇已经被扣押了，那些驯鹿也被送到市动物园了。"
+    },
+    {
+      "en": "A: What! This is unbelievable! What's this world coming to? Christmas is ruined!",
+      "zh": "A：什么！难以置信！这世界变成什么样了？圣诞节被毁了！"
+    },
+    {
+      "en": "C: What's that up ahead? It looks like... elves!! Elves!! Whoa, they're shooting candy canes! Mayday, Mayday, we are under heavy attack! We need backup!",
+      "zh": "C：前面那是什么？看起来像是……小精灵！！小精灵！！哇哦，他们在射糖果拐杖！Mayday，Mayday，我们受到猛烈攻击！请求支援！"
+    }
+  ],
+  "code": "C0022",
+  "title": "The Weekend - Christmas Chronicles",
+  "level": "Elementary"
 }

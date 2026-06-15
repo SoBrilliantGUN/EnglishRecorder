@@ -1312,5 +1312,70 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Can we talk?",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure, honey, we're talking now, aren't we?",
+      "zh": ""
+    },
+    {
+      "en": "A: You know what I mean.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah. I know.",
+      "zh": ""
+    },
+    {
+      "en": "A: I want to know where this relationship is going. I'm in love with you and I need to know...",
+      "zh": ""
+    },
+    {
+      "en": "B: You know, I think you're awesome.",
+      "zh": ""
+    },
+    {
+      "en": "A: I'm awesome. Well, I guess that's my answer, isn't it.",
+      "zh": ""
+    },
+    {
+      "en": "B: Honey...",
+      "zh": ""
+    },
+    {
+      "en": "A: Look, if you don't love me, it's not a thing, alright, we've had our laughs, but I don't appreciate... maybe it's just time we...",
+      "zh": ""
+    },
+    {
+      "en": "B: Baby, I love you so much.",
+      "zh": ""
+    },
+    {
+      "en": "A: You do?",
+      "zh": ""
+    },
+    {
+      "en": "B: I love you. And I think you're awesome.",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh, I love you too!",
+      "zh": ""
+    },
+    {
+      "en": "B: Come on. Put the gun down.",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh baby, I'm so sorry.",
+      "zh": ""
+    }
+  ],
+  "code": "C0103",
+  "title": "Daily Life - Baby, I’m Sorry",
+  "level": "Elementary"
 }

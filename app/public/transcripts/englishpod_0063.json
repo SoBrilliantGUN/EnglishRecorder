@@ -744,5 +744,42 @@
       "en": "So we'll see you there and until next time it's goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Good afternoon. May I help you?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, I'm here to see Jo anna Stevens. I have an appointment at four.",
+      "zh": ""
+    },
+    {
+      "en": "A: Certainly, may I take your name? I'll let her know you've arrived.",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure, it's Josh O'Neil.",
+      "zh": ""
+    },
+    {
+      "en": "A: Ms. Stevens will be with you momentarily. Can I offer you something to drink?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, a coffee would be nice, thank you.",
+      "zh": ""
+    },
+    {
+      "en": "A: Here you are. Ms. Stevens is ready for you now. I'll show you to her office, right this way.",
+      "zh": ""
+    },
+    {
+      "en": "A: Just watch your step here...",
+      "zh": ""
+    }
+  ],
+  "code": "C0063",
+  "title": "The Office - Receptionist",
+  "level": "Elementary"
 }

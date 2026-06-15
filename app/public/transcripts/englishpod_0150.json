@@ -812,5 +812,42 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: The mosquitos are biting me!",
+      "zh": ""
+    },
+    {
+      "en": "B: Me too, I can' t stop scra tching. They are everywhere! Sneaky little jerks.",
+      "zh": ""
+    },
+    {
+      "en": "A: Do you have any bug spray?",
+      "zh": ""
+    },
+    {
+      "en": "B: No, I forgot to buy some.",
+      "zh": ""
+    },
+    {
+      "en": "A: Then we'll have to put up with it.",
+      "zh": ""
+    },
+    {
+      "en": "B: We can cover ourselves with beer! That way if they bite us, they'll get drunk and fall asleep",
+      "zh": ""
+    },
+    {
+      "en": "A: That's without a doubt, the best idea you've had! Let's do it!",
+      "zh": ""
+    },
+    {
+      "en": "B: Run! They are thirsty for more!",
+      "zh": ""
+    }
+  ],
+  "code": "C0150",
+  "title": "The Weekend - Bug Spray",
+  "level": "Elementary"
 }

@@ -796,5 +796,26 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Ford: The campaign that we have in store for the x420 is exciting, imaginative and revolutionary. We have spent two years listening to and responding to feedback from customers and staff alike. Mr. I would like to say that without the assistance and support of each and every one of you we really could not have devised this campaign. I'd like to take my hat off and really thank you all for the wonderful work you've done so far, not only in helping support our marketing efforts, but also in your continuing your commitment to Alpha computers. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: There's no doubt in my mind that we have a great workforce here and together we can really push Alpha computers to a whole new level of success. Mr. On the subject of the campaign let me ask you all a question. How do we define the perfect lap-top? Is it about affordability, quality, speed, reliability? What do you look for in a consumer? Well, I believe the answer lies in a combination of all of these elements. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: Our campaign will really hammer home the point that the x420 is a state-of the-art laptop for all of your computing needs. With our television campaign we hope to really reach out to a huge audience. Mr. We have a great ad campaign planned focusing on the fantastic USP' s of the x420. We have hired one of the best PR companies to work with us on the campaign, and have already completed three separate TV adverts, all focusing on one key feature of the x420. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: I'm excited to say that today, for the first time, we will unveil to all of you here the first of these advertisements! Daily Life - High School Reunion",
+      "zh": ""
+    }
+  ],
+  "code": "C0286",
+  "title": "Presentation Series 6 - Addressing the Audience",
+  "level": "Intermediate"
 }

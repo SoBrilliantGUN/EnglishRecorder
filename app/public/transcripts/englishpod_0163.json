@@ -792,5 +792,46 @@
       "en": "Thanks for watching!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Well that was an interesting documentary!",
+      "zh": ""
+    },
+    {
+      "en": "B: For sure! I didn't really understand some of the technical jargon they used in the film when they talked about social security in the US.",
+      "zh": ""
+    },
+    {
+      "en": "A: Like what?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, they mentioned how people put away money in something called a 401K?",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah, I know it sounds weird, but a 401k is a type of retirement plan that allows employees to save and invest for their own retirement Through a you can authorize your employer to deduct a certain amount of money from your paycheck and invest it in the plan Everyone tries to contribute as much as possible so that when you retire, you can rest peacefully on your nest egg.",
+      "zh": ""
+    },
+    {
+      "en": "B: That's interesting and logical I guess. In my country, we also have to contribute to a governmentrun retirement fund, but most people don't really trust itso they just invest in properties or things like that.",
+      "zh": ""
+    },
+    {
+      "en": "A: That seems a bit unstable don't you think?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, but corrupt governments in the past have created distrust among banks and financial institutions, so now people prefer to have money hidden in a jar or a piggy bank.",
+      "zh": ""
+    },
+    {
+      "en": "A: I've been thinking of doing that lately! I don't want some banker to run off with my money!",
+      "zh": ""
+    }
+  ],
+  "code": "C0163",
+  "title": "Global View - Social Security",
+  "level": "Elementary"
 }

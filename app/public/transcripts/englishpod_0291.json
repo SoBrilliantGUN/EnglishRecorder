@@ -1148,5 +1148,62 @@
       "en": "Thanks for watching.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Waitress: Hi, welcome to Happy Buddah! Can I get you anything to drink?",
+      "zh": ""
+    },
+    {
+      "en": "Manny: A Coke for me, please.",
+      "zh": ""
+    },
+    {
+      "en": "Andrea: I'll have a Sprite.",
+      "zh": ""
+    },
+    {
+      "en": "Waitress: Okay, I'll go get that for you. Are there any questions with the menu?",
+      "zh": ""
+    },
+    {
+      "en": "Andrea: Do you use MSG?",
+      "zh": ""
+    },
+    {
+      "en": "Waitress: No ma'am, we are MSG-free.",
+      "zh": ""
+    },
+    {
+      "en": "Andrea: Oh man, I haven't had Chinese food in so long! I want everything! This place has the BEST sesame chicken.",
+      "zh": ""
+    },
+    {
+      "en": "Manny: Yeah, I've been craving Chinese for such a long time. I used to get take-out all the time. It's definitely been a while. Let's start off with some crab rangoon.",
+      "zh": ""
+    },
+    {
+      "en": "Andrea: Ooh yeah, that sounds good. I think I'm going to get the sesame chicken with fri ed rice, a spring roll, and egg drop soup.",
+      "zh": ""
+    },
+    {
+      "en": "Manny: It's so tempting to order everything on the menu, it all looks so appetizing! I think I'll get General Tso's chicken, hot and sour soup, fried wontons, and white rice.",
+      "zh": ""
+    },
+    {
+      "en": "Andrea: Aren't you supposed to be on a diet? You should at least get brown rice.",
+      "zh": ""
+    },
+    {
+      "en": "Manny: I don't think so! I hate brown rice, and I'm so sick of eating healthy all the time. I've been eating so much salad I swear I've forgotten what meat tastes like! There's no better remedy than some nice, greasy, calorieladen Chinese food. I might even get an order of broccoli beef!",
+      "zh": ""
+    },
+    {
+      "en": "Andrea: Gosh, I'm so hungry! Let's call the waitress over!",
+      "zh": ""
+    }
+  ],
+  "code": "C0291",
+  "title": "Daily Life - Ordering Chinese Food",
+  "level": "Intermediate"
 }

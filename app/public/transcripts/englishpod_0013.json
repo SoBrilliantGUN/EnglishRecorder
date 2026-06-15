@@ -1184,5 +1184,78 @@
       "en": "Goodbye.",
       "zh": "再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: OK, so now the last point on our agenda.",
+      "zh": "A：好的，现在是我们议程的最后一项。"
+    },
+    {
+      "en": "A: Jill, let's go over the profit an d loss statement.",
+      "zh": "A：吉尔，我们来看看损益表。"
+    },
+    {
+      "en": "B: Great.",
+      "zh": "B：好的。"
+    },
+    {
+      "en": "B: Well, the main issue here, as you can see, is that our expenses are through the roof.",
+      "zh": "B：嗯，这里的主要问题是，正如你所见，我们的支出已经失控了。"
+    },
+    {
+      "en": "A: Let's see... These numbers are off the charts!",
+      "zh": "A：我看看…这些数字简直爆表了！"
+    },
+    {
+      "en": "A: What's going on here!",
+      "zh": "A：这到底怎么回事！"
+    },
+    {
+      "en": "B: Well, um, sir, the company expenditures on entertainment and travel are out of control.",
+      "zh": "B：嗯，先生，公司在娱乐和差旅方面的支出已经失控了。"
+    },
+    {
+      "en": "B: Look at these bills for example.",
+      "zh": "B：比如看看这些账单。"
+    },
+    {
+      "en": "B: Just this month we've paid over twenty thousand dollars for hotel charges!",
+      "zh": "B：光这一个月我们就支付了超过两万美元的酒店费用！"
+    },
+    {
+      "en": "A: OK, thank you.",
+      "zh": "A：好的，谢谢。"
+    },
+    {
+      "en": "A: I'll look into it.",
+      "zh": "A：我会调查的。"
+    },
+    {
+      "en": "B: The list goes on and on.",
+      "zh": "B：还有很多很多。"
+    },
+    {
+      "en": "B: Here, this is a bill for five thousand dollars for spa treatments!",
+      "zh": "B：看这个，这是一张五千美元的水疗护理账单！"
+    },
+    {
+      "en": "A: Thank you; that will be all.",
+      "zh": "A：谢谢，就这样吧。"
+    },
+    {
+      "en": "A: I'll take care of it.",
+      "zh": "A：我会处理的。"
+    },
+    {
+      "en": "B: Look at this one sir, eight thousand dollars were spent in one night at a place called \"Wild Things\"?!",
+      "zh": "B：看看这个先生，一个晚上在一个叫Wild Things的地方花了八千美元？！"
+    },
+    {
+      "en": "A: OK, I get it!! Thank you for your very thorough analysis!",
+      "zh": "A：好了，我知道了！！谢谢你非常详尽的分析！"
+    }
+  ],
+  "code": "C0013",
+  "title": "The Office - Out Of Control Spending",
+  "level": "Elementary"
 }

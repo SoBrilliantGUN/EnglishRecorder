@@ -884,5 +884,42 @@
       "en": "And thanks so much for watching.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Ugg, this bathroom is a pigsty!",
+      "zh": ""
+    },
+    {
+      "en": "B: Helen, why do you keep flushing the toilet? What's wrong?",
+      "zh": ""
+    },
+    {
+      "en": "A: I just can't stand it. It's really gross in here! There's a stain on the toilet seat, and the floor was wet and slippery. So I cleaned it!",
+      "zh": ""
+    },
+    {
+      "en": "B: You did what? Helen, I know it's gross, but I've seen many public washrooms that are much worse. Why are you cleaning the counter top? are you out of your mind?",
+      "zh": ""
+    },
+    {
+      "en": "A: I can't help myself; it's just so disgusting in here!",
+      "zh": ""
+    },
+    {
+      "en": "B: Helen, this is not like your own bathroom. Just leave it to the cleaners,okay?",
+      "zh": ""
+    },
+    {
+      "en": "A: Hang on. I'm just gonna quickly wipe the sink and sweep the floor.",
+      "zh": ""
+    },
+    {
+      "en": "B: You're such a neat freak! I'm outta here!",
+      "zh": ""
+    }
+  ],
+  "code": "C0304",
+  "title": "Daily Life - Neat Freak",
+  "level": "Intermediate"
 }

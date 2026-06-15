@@ -980,5 +980,54 @@
       "en": "See you there.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I've had it! I'm done working for a company that is taking me nowhere!",
+      "zh": ""
+    },
+    {
+      "en": "B: So what are you gonna do? Just quit?",
+      "zh": ""
+    },
+    {
+      "en": "A: That's exactly what I am going to do! I've decided to create my own company! I'm going to write up a business plan, get some investors and start working for myself!",
+      "zh": ""
+    },
+    {
+      "en": "B: Have you ever written up a business plan before?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, it can't be that hard! I mean, all you have to do is explain your business, how you are going to do things and that's it, right?",
+      "zh": ""
+    },
+    {
+      "en": "B: You couldn't be more wrong! A well written business plan will include an executive summary which highlights the idea of the business in two pages or less. Then you need to describe your company with information such as what type of legal structure it has, history, etc.",
+      "zh": ""
+    },
+    {
+      "en": "A: Well that seems easy enough.",
+      "zh": ""
+    },
+    {
+      "en": "B: Wait, there's more! Then you need to introduce and describe your goods or services. What they are and how they are different from competitors'? Then comes the hard part, a market analysis. You need to investigate and analyze hundreds of variables! You need to take into consideration socioeconomic factors from GDP per capita to how many children on average the population has! All this information is useful so that you can move on to your strategy and implementation stage, where you will describe in detail how you will actually execute your idea.",
+      "zh": ""
+    },
+    {
+      "en": "A: Geez. Is that all?",
+      "zh": ""
+    },
+    {
+      "en": "B: Almost, the most important piece of information for your investors will be the financial analysis. Here you will calculate and estimate sales, cash flow and profits. After all, people will want to know when they will begin to see a return on their investment!",
+      "zh": ""
+    },
+    {
+      "en": "A: Umm. I think I'll just stick to my old job and save myself all the hassle of trying to start up a business!",
+      "zh": ""
+    }
+  ],
+  "code": "C0186",
+  "title": "The Office - Business Plan",
+  "level": "Elementary"
 }

@@ -1240,5 +1240,86 @@
       "en": "For EnglishPod, I'm Dziękuję and have a great weekend.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hello, ma'am, can I help you find something?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, actually I'm looking to buy a camera.",
+      "zh": ""
+    },
+    {
+      "en": "A: We've got a wide selection do you know if you'd like a point-and-shoot, or something a little fancier? Are you shopping for yourself or for someone else?",
+      "zh": ""
+    },
+    {
+      "en": "B: Actually I'm buying a camera for my husband.",
+      "zh": ""
+    },
+    {
+      "en": "A: Ah, well then I'd recommend a nice entry-level digital SLR.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah? Can I take a look at the SLRs you carry?",
+      "zh": ""
+    },
+    {
+      "en": "A: Sure thing, follow me. This here is the.",
+      "zh": ""
+    },
+    {
+      "en": "B: The Canon Eos. Yeah it's ok, but I'm looking for something that performs better in low light, has a better display panel, and longer battery life.",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh, ah, umthe Nikon D60 is a nice option.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, but what kit lens does this camera come with? I don't want some bulky telephoto lens.",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh, well this one has the, uh.",
+      "zh": ""
+    },
+    {
+      "en": "B: Looks to me like an 18-55mm lens. pretty standard, that will do. Not like my husband will be stalking celebrities or anything!",
+      "zh": ""
+    },
+    {
+      "en": "A: So, ahem, can I interest you in any acc...",
+      "zh": ""
+    },
+    {
+      "en": "B: Accessories? Do you carry polarizing filters?",
+      "zh": ""
+    },
+    {
+      "en": "A: Polarizing filter um we should! I'm sorry, ma'am. looks like we're sold out.",
+      "zh": ""
+    },
+    {
+      "en": "B: No you're not! There are some right here!",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh, well, would you look at that! Po-la-ri-zing filters.",
+      "zh": ""
+    },
+    {
+      "en": "B: Thanks for your help, Ralph!",
+      "zh": ""
+    },
+    {
+      "en": "A: No problem, ma'am.",
+      "zh": ""
+    }
+  ],
+  "code": "C0171",
+  "title": "The Weekend - Buying a Camera",
+  "level": "Elementary"
 }

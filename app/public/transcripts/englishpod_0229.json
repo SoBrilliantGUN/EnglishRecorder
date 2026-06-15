@@ -1196,5 +1196,78 @@
       "en": "Try it out.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Mom: Hi! I am looking for a pair of shoes for my son.",
+      "zh": ""
+    },
+    {
+      "en": "Salesgirl: Sur e t hi ng! Here we are! If you're looking for dress shoes, we have several different styles of Oxfords for boys. We also carry athletic shoes, hiking boots.",
+      "zh": ""
+    },
+    {
+      "en": "Mom: Oh Jacob, how about these sneakers?",
+      "zh": ""
+    },
+    {
+      "en": "Jacob: Mom? They've got Velcro.",
+      "zh": ""
+    },
+    {
+      "en": "Mom: Well, then how about these? What is this style called?",
+      "zh": ""
+    },
+    {
+      "en": "Salesgirl: They're tennis shoes. Th ey're very popular with teens and young adults.",
+      "zh": ""
+    },
+    {
+      "en": "Jacob: Oooo, Mom, can I get these?",
+      "zh": ""
+    },
+    {
+      "en": "Mom: What are those?",
+      "zh": ""
+    },
+    {
+      "en": "Jacob: They're Chuck Taylor's! Everyone has them! Can I, please?",
+      "zh": ""
+    },
+    {
+      "en": "Mom: I don't know. Would they go with your clothes? The backs are really high. and the way the tongue just sticks up. They're almost like a boot. And the sole doesn't look like it would have a very good grip.",
+      "zh": ""
+    },
+    {
+      "en": "Jacob: They're only forty-five dollars! And they've got cool fluorescent orange shoelaces! Mom?",
+      "zh": ""
+    },
+    {
+      "en": "Mom: Ok, try them on.",
+      "zh": ""
+    },
+    {
+      "en": "Salesgirl: What size are your feet?",
+      "zh": ""
+    },
+    {
+      "en": "Mom: He is a size nine.",
+      "zh": ""
+    },
+    {
+      "en": "Salesgirl: We'll try a size forty-three on you first and see how that fits.",
+      "zh": ""
+    },
+    {
+      "en": "Mom: A what?",
+      "zh": ""
+    },
+    {
+      "en": "Salesgirl: They come in European sizes. He should be a size forty-three. I'll be right back.",
+      "zh": ""
+    }
+  ],
+  "code": "C0229",
+  "title": "Daily Life - Buying Men’s Shoes",
+  "level": "Elementary"
 }

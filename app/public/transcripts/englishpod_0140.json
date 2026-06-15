@@ -1244,5 +1244,42 @@
       "en": "Bye now.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Customer: So can you fix it? Sales",
+      "zh": ""
+    },
+    {
+      "en": "Clerk: I'm sorry sir. This computer is not broken or damaged. It's simply just too old! That's why your programs and applications are running slow. There really isn't much I can do.",
+      "zh": ""
+    },
+    {
+      "en": "Customer: What do you mean? I bought this computer just three years ago! Sales",
+      "zh": ""
+    },
+    {
+      "en": "Clerk: Yes, but technology is ever changing and technology is becoming obsolete faster and faster!",
+      "zh": ""
+    },
+    {
+      "en": "Customer: Ok, I know where this is going. How much will it cost me to get a new computer? Sales",
+      "zh": ""
+    },
+    {
+      "en": "Clerk: Well, this desktop over here is our latest model. It has a four gigahertz processor with sixteen gigabytes in RAM and a hard disk with one terabyte. Of course, it includes a mouse, keyboard and desk speakers.",
+      "zh": ""
+    },
+    {
+      "en": "Customer: I have no idea what you are talking about. I just want to know if it's good and if I will be able to play solitaire without the computer crashing or freezing all the time! Sales",
+      "zh": ""
+    },
+    {
+      "en": "Clerk: This PC is top of the line and I guarantee it will never freeze! If it does, we'll give you your money back!",
+      "zh": ""
+    }
+  ],
+  "code": "C0140",
+  "title": "Daily Life - Buying a Computer",
+  "level": "Elementary"
 }

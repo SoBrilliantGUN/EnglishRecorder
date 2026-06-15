@@ -888,5 +888,98 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Steven!",
+      "zh": "A：史蒂文！"
+    },
+    {
+      "en": "A: Where have you been?",
+      "zh": "A：你去哪了？"
+    },
+    {
+      "en": "A: I've been trying to get a hold of you for hours!",
+      "zh": "A：我已经找了你几个小时了！"
+    },
+    {
+      "en": "B: I... um... there was an emergency at work, so...",
+      "zh": "B：我……嗯……工作上出了紧急情况，所以……"
+    },
+    {
+      "en": "A: I was waiting for you in the restaurant for three hours!",
+      "zh": "A：我在餐厅等了你三个小时！"
+    },
+    {
+      "en": "A: And you didn't even have the decency to call me!",
+      "zh": "A：你甚至连打个电话给我的礼貌都没有！"
+    },
+    {
+      "en": "A: Do you have any idea how embarrassed I was?",
+      "zh": "A：你知道我有多尴尬吗？"
+    },
+    {
+      "en": "B: Honey, I promise this won't happen again, it's just that I...",
+      "zh": "B：亲爱的，我保证不会再这样了，只是我……"
+    },
+    {
+      "en": "A: Yeah, right.",
+      "zh": "A：是啊，说得好。"
+    },
+    {
+      "en": "A: I've heard it all before.",
+      "zh": "A：这些话我早就听腻了。"
+    },
+    {
+      "en": "A: I'm not going to take any more of your empty promises.",
+      "zh": "A：我不会再接受你这些空洞的承诺了。"
+    },
+    {
+      "en": "A: This is the 5th time you've stood me up in two weeks!",
+      "zh": "A：这是两周内你第五次放我鸽子了！"
+    },
+    {
+      "en": "A: You need to get your priorities straight.",
+      "zh": "A：你得把事情的轻重缓急搞清楚。"
+    },
+    {
+      "en": "A: I'm tired of you putting your job first all the time!",
+      "zh": "A：我受够了你总把工作放在第一位！"
+    },
+    {
+      "en": "B: Come on, Veronica, that's not fair.",
+      "zh": "B：拜托，维罗妮卡，这不公平。"
+    },
+    {
+      "en": "B: I do care about you a lot, you know that.",
+      "zh": "B：我真的很在乎你，你知道的。"
+    },
+    {
+      "en": "B: I tried to...",
+      "zh": "B：我想……"
+    },
+    {
+      "en": "A: You know what?",
+      "zh": "A：知道吗？"
+    },
+    {
+      "en": "A: Maybe we should just take a break.",
+      "zh": "A：也许我们应该先冷静一段时间。"
+    },
+    {
+      "en": "A: I need some time to think about where this relationship is heading.",
+      "zh": "A：我需要一些时间来思考这段关系的走向。"
+    },
+    {
+      "en": "B: But... Veronica, would you just listen to me?",
+      "zh": "B：但是……维罗妮卡，你就不能听我说吗？"
+    },
+    {
+      "en": "B: There was a fire alarm at my office building today and I was stuck...",
+      "zh": "B：今天我办公楼发生了消防警报，我被困在了……"
+    }
+  ],
+  "code": "B0036",
+  "title": "I’m Sorry, I Love You III",
+  "level": "Elementary"
 }

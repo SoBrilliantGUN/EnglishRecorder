@@ -800,5 +800,26 @@
       "en": "Thanks for watching.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Do you have any plans for Veteran's Day",
+      "zh": ""
+    },
+    {
+      "en": "B: You mean Armistice Day",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, as you know, on November 11th allies signed a peace treaty with the Germans, also known asthe Armistice Treaty This marked the end of WWI and many countries around the world commemorate this date under names such as day. In Poland it's their independence day! There's a lot going on around the world on this day.",
+      "zh": ""
+    },
+    {
+      "en": "B: Wow, I didn't know! Probably because I flunked history in school.",
+      "zh": ""
+    }
+  ],
+  "code": "C0162",
+  "title": "Global View - Veteran’s Day",
+  "level": "Elementary"
 }

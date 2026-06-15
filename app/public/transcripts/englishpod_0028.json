@@ -888,5 +888,74 @@
       "en": "So I guess until then, it's goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I'm so relieved that your ankle wasn't broken! I feel just awful about this whole thing. I wanna make it up to you. Let me take you out to dinner tonight. My treat.",
+      "zh": "A：你的脚踝没断，我真是松了一口气！我对这整件事感到非常抱歉。我想补偿你。让我今晚请你吃饭吧，我请客。"
+    },
+    {
+      "en": "B: That sounds great!",
+      "zh": "B：太好了！"
+    },
+    {
+      "en": "B: I'd love to!",
+      "zh": "B：我很乐意！"
+    },
+    {
+      "en": "B: Here is my address.",
+      "zh": "B：这是我的地址。"
+    },
+    {
+      "en": "B: Pick me up at eight?",
+      "zh": "B：八点来接我？"
+    },
+    {
+      "en": "A: Perfect!",
+      "zh": "A：完美！"
+    },
+    {
+      "en": "B: Thank you for such a lovely evening!",
+      "zh": "B：谢谢你给了我这么一个美好的夜晚！"
+    },
+    {
+      "en": "B: The food was amazing, and I had a great time.",
+      "zh": "B：食物很棒，我玩得很开心。"
+    },
+    {
+      "en": "A: Me too.",
+      "zh": "A：我也是。"
+    },
+    {
+      "en": "A: You look so beautiful tonight!",
+      "zh": "A：你今晚看起来真美！"
+    },
+    {
+      "en": "A: I wish this night would never end.",
+      "zh": "A：我希望这个夜晚永远不会结束。"
+    },
+    {
+      "en": "A: There's something I have to tell you...",
+      "zh": "A：我有件事必须告诉你……"
+    },
+    {
+      "en": "B: What is it?",
+      "zh": "B：什么事？"
+    },
+    {
+      "en": "A: I woke up today thinking this would be just like any other ordinary day, but I was wrong.",
+      "zh": "A：今天醒来时我以为这会是又一个平凡的日子，但我错了。"
+    },
+    {
+      "en": "A: A twist of fate brought us together.",
+      "zh": "A：命运的转折让我们相遇。"
+    },
+    {
+      "en": "A: I crashed into your life and you into mine, and this may sound crazy, but I'm falling",
+      "zh": "A：我闯进了你的生活，你也闯进了我的，这听起来也许很疯狂，但我正在沦陷……"
+    }
+  ],
+  "code": "C0028",
+  "title": "Daily Life - I’m Sorry, I Love You II",
+  "level": "Elementary"
 }

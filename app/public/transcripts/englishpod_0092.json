@@ -1120,5 +1120,46 @@
       "en": "EnglishPods.com",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Heya, Tracy. How are you doin'?",
+      "zh": ""
+    },
+    {
+      "en": "B: I'm swell, Sandy!",
+      "zh": ""
+    },
+    {
+      "en": "A: Hey listen, you wanna go to the sock hop with me this Friday? It'll be a blast!",
+      "zh": ""
+    },
+    {
+      "en": "B: First of all it's the Sadie Hawkins dance. The girls gotta ask the guys. Also...",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh, right. So when are you gonna ask me? I've had my eye on you for a while.",
+      "zh": ""
+    },
+    {
+      "en": "C: Hey, buddy. Ease off my girl, man. Or do you want a knuckle-sandwich?",
+      "zh": ""
+    },
+    {
+      "en": "B: Cool it, guys.",
+      "zh": ""
+    },
+    {
+      "en": "A: Your girl? Says who?",
+      "zh": ""
+    },
+    {
+      "en": "C: Says me, pipsqueak!",
+      "zh": ""
+    }
+  ],
+  "code": "C0092",
+  "title": "The Weekend - 1950’s",
+  "level": "Elementary"
 }

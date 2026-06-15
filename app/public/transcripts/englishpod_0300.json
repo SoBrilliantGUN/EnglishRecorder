@@ -1060,5 +1060,46 @@
       "en": "Carmichael",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Do you want to hang out tomorrow?",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh, I can't. I have a date!",
+      "zh": ""
+    },
+    {
+      "en": "A: Really? Wow with who?",
+      "zh": ""
+    },
+    {
+      "en": "B: This girl I've been chatting with for the pa st couple of months. She's really cool and she's driving over here this weekend.",
+      "zh": ""
+    },
+    {
+      "en": "A: Wait a minute, you mean you met her online?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah! I signed up for a website called match. and it is great! You fill in all your deta ils and preferences, like if you are a smoker or if you have any pets. Then you find people that have similar characteristics and you can email them or chat.",
+      "zh": ""
+    },
+    {
+      "en": "A: That is kind of weird! What if she is a psycho or something like that?",
+      "zh": ""
+    },
+    {
+      "en": "B: It's the same as meeting people anywhere and dating them! I am just tired of going to bars or being set up for dates by my friends! I think this is a really cool alternative, especially if you are a bit shy.",
+      "zh": ""
+    },
+    {
+      "en": "A: I guess it does seem logical. I'll have to check it out!",
+      "zh": ""
+    }
+  ],
+  "code": "C0300",
+  "title": "Daily Life - Online Dating",
+  "level": "Intermediate"
 }

@@ -932,5 +932,14 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0350",
+  "title": "Lesson 350",
+  "level": "Intermediate"
 }

@@ -972,5 +972,50 @@
       "en": "Thank you.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hi everyone, Can everyone hear me? Can you guys at the back hear everything?",
+      "zh": ""
+    },
+    {
+      "en": "A: Okay great. Well I think all of you know why we are here this afternoon. As most of you are aware 2010 marks an important moment for Alpha computers.",
+      "zh": ""
+    },
+    {
+      "en": "A: We have bounced back from the recession and now we are set to launch our new line of laptop and desktop computers.",
+      "zh": ""
+    },
+    {
+      "en": "A: I'm really pleased to welcome Michael Ford, the Global Marketing Manager for Alpha computers,who has flown in from California to give all of you an overview of the marketing campaign and to answer any questions you may have. So please give a warm welcome to Mr. Ford.",
+      "zh": ""
+    },
+    {
+      "en": "B: Thank you Jonathan. It really is a pleasure to be here today. It has been three years since I visited Beijing,and it's clear to me that operations here are obviously going from strength to strength.",
+      "zh": ""
+    },
+    {
+      "en": "B: The Alpha brand continues to grow in leaps and bounds in China, and that is certainly down to the hard work of all of you here. So congratulations to all of you.",
+      "zh": ""
+    },
+    {
+      "en": "B: I'd like to start by outlining the key points of my presentation this afternoon and giving you an idea of the topics that will be discussed. The presentation today is divided into five main parts.",
+      "zh": ""
+    },
+    {
+      "en": "B: First of all, I'd like to briefly touch on the background of the new x420 line; how the whole concept has come about and how the new product fits into our existing brand line.",
+      "zh": ""
+    },
+    {
+      "en": "B: Secondly I'dlike to present data on projected sales for the x420. We will then go on to discuss our key rivals in this sector. Then I would like to go on to outline the campaign concept for the x420.",
+      "zh": ""
+    },
+    {
+      "en": "B: Finally I'm happy to open up the discussion for any questions or points you might have for me.",
+      "zh": ""
+    }
+  ],
+  "code": "C0271",
+  "title": "The Office - Presentation Series 1 - The Overview",
+  "level": "Intermediate"
 }

@@ -588,5 +588,14 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0360",
+  "title": "Lesson 360",
+  "level": "Intermediate"
 }

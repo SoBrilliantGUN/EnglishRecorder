@@ -1080,5 +1080,46 @@
       "en": "Thanks very much for having us.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Let's play a game!",
+      "zh": ""
+    },
+    {
+      "en": "B: Ok! How about Scrabble?",
+      "zh": ""
+    },
+    {
+      "en": "A: No no, a friend of mine taught me this really fun game. I'm going to describe someone's face, and you guess who it is!",
+      "zh": ""
+    },
+    {
+      "en": "B: Ok!",
+      "zh": ""
+    },
+    {
+      "en": "A: Let's see. He has a roman nose, bushy eyebrows and dimples!",
+      "zh": ""
+    },
+    {
+      "en": "B: Our cousin Pete! My turn! She has a pointy nose, sunken eyes and a mole on her chin!",
+      "zh": ""
+    },
+    {
+      "en": "A: Aunt Rose! That mole is so huge! Ok, my turn. He has a crooked nose and full lips. He has quite a few freckles and an oval face. Oh, he is also bald!",
+      "zh": ""
+    },
+    {
+      "en": "B: Your future husband!",
+      "zh": ""
+    },
+    {
+      "en": "A: Not funny.",
+      "zh": ""
+    }
+  ],
+  "code": "C0261",
+  "title": "Daily Life - Describing Someone’s Face",
+  "level": "Intermediate"
 }

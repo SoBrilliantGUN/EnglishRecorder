@@ -1072,5 +1072,14 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0337",
+  "title": "Lesson 337",
+  "level": "Intermediate"
 }

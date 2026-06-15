@@ -720,5 +720,50 @@
       "en": "Do it again, do it again.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Angela: Hey Lydia, what are you reading?",
+      "zh": ""
+    },
+    {
+      "en": "Lydia: I'm looking at my horoscope for this month! My outlook is very positive. It says that I should take a vacation to someplace exotic, and that I will have a passionate summer fling!",
+      "zh": ""
+    },
+    {
+      "en": "Angela: What are you talking about? Let me see that... What are horoscopes?",
+      "zh": ""
+    },
+    {
+      "en": "Lydia: It's a prediction of your month, based on your zodiac sign. You have a different sign for the month and date you were born in. I was born on April 15th, so I'm an Aries. When were you born?",
+      "zh": ""
+    },
+    {
+      "en": "Angela: January 5th.",
+      "zh": ""
+    },
+    {
+      "en": "Lydia: Let's see... you're a Capricorn. It says that you will be feeling stress at wo rk, but you could see new, exciting developments in your love life. Looks like we'll both have interesting summers!",
+      "zh": ""
+    },
+    {
+      "en": "Angela: That's bogus. I don't feel any stress at work, and my love life is practically nonexistent. This zodiac stuff is all a bunch of nonsense.",
+      "zh": ""
+    },
+    {
+      "en": "Lydia: No it's not, your astrology sign can tell you a lot about your personality. See? It says that an Aries is energetic and loves to socialize.",
+      "zh": ""
+    },
+    {
+      "en": "Angela: Well, you certainly match those criteria, but they're so broad they could apply to anyone. What does it say about me?",
+      "zh": ""
+    },
+    {
+      "en": "Lydia: A Capricorn is serious-minded and practical. She likes to do things in conventional ways. * laughs * That",
+      "zh": ""
+    }
+  ],
+  "code": "C0273",
+  "title": "The Weekend - The Zodiac and Horoscopes",
+  "level": "Intermediate"
 }

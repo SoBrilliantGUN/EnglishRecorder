@@ -868,5 +868,70 @@
       "en": "Yeah, we hope to see you there, but until then it's goodbye.",
       "zh": "是的，希望在那里见到你们，但在此之前，再见了。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hello, Arthur.",
+      "zh": "A：你好，亚瑟。"
+    },
+    {
+      "en": "A: What seems to be the problem?",
+      "zh": "A：哪里不舒服？"
+    },
+    {
+      "en": "B: Hey doc.",
+      "zh": "B：嗨医生。"
+    },
+    {
+      "en": "B: Well, I think I might need glasses.",
+      "zh": "B：嗯，我想我可能需要配眼镜了。"
+    },
+    {
+      "en": "B: I'm getting headaches, and I really struggle to see things that are far away.",
+      "zh": "B：我经常头疼，而且看不清远处的东西。"
+    },
+    {
+      "en": "B: But I have always had 20/20 vision.",
+      "zh": "B：但我以前视力一直是20/20啊。"
+    },
+    {
+      "en": "A: Sounds like you may be far-sighted.",
+      "zh": "A：听起来你可能是远视。"
+    },
+    {
+      "en": "A: OK, then, cover your left eye and read the chart in front of you.",
+      "zh": "A：好的，遮住你的左眼，读一下你面前的视力表。"
+    },
+    {
+      "en": "B: Mmm... X, E, R, 3, a question mark, and I can't quite make out the other symbol but I think it's the peace sign.",
+      "zh": "B：嗯…X, E, R, 3，一个问号，还有一个符号我看不太清，但我觉得是个和平标志。"
+    },
+    {
+      "en": "A: Wow, Arthur!",
+      "zh": "A：哇，亚瑟！"
+    },
+    {
+      "en": "A: You're as blind as a bat!",
+      "zh": "A：你简直瞎得跟蝙蝠一样！"
+    },
+    {
+      "en": "B: Yeah, I know, my vision is really blurry at times.",
+      "zh": "B：是啊，我知道，我看东西有时候真的很模糊。"
+    },
+    {
+      "en": "A: Ok then, head on over to the other room and pick out some frames while I fill out your prescription.",
+      "zh": "A：好的，那你先去隔壁房间挑个镜框，我帮你填好处方。"
+    },
+    {
+      "en": "B: Thanks doc!",
+      "zh": "B：谢谢医生！"
+    },
+    {
+      "en": "A: Arthur, that's the bathroom.",
+      "zh": "A：亚瑟，那是洗手间。"
+    }
+  ],
+  "code": "B0020",
+  "title": "I Can See Clearly Now",
+  "level": "Elementary"
 }

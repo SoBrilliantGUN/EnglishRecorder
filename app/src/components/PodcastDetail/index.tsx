@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import podcastsData from '../../data/podcasts-fixed.json';
-import type { Podcast, TransSegment } from '../../types/podcast';
+import podcastsData from '../../data/podcasts-index';
+import type { PodcastMeta, TransSegment } from '../../types/podcast';
 import { LEVEL_COLORS } from '../../types/podcast';
 import { getRecords, todayStr } from '../../store';
 import { ChevronLeftIcon, ChevronRightIcon } from '../icons';
@@ -63,13 +63,14 @@ function renderSegments(
 
 export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh }: PodcastDetailProps) {
   const [transcript, setTranscript] = useState<string | TransSegment[]>('');
+  const [dialogue, setDialogue] = useState<string | TransSegment[]>('');
   const [transcriptLoading, setTranscriptLoading] = useState(false);
   const [transcriptError, setTranscriptError] = useState(false);
   const [showCheckin, setShowCheckin] = useState(false);
   const [shareData, setShareData] = useState<SingleShareData | null>(null);
   const [translationMode, setTranslationMode] = useState<TranslationMode>('full');
 
-  const podcasts = podcastsData as Podcast[];
+  const podcasts = podcastsData as PodcastMeta[];
   const lesson = podcasts.find(p => p.id === lessonId);
 
   const showZh = true;
@@ -96,19 +97,24 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
 
   const todayShareData = buildShareData();
 
-  // 按需加载文字稿
+  // 按需加载文字稿 + 课文对话
   useEffect(() => {
     setTranscript('');
+    setDialogue('');
     setTranscriptError(false);
     setTranscriptLoading(true);
     const filename = `englishpod_${String(lessonId).padStart(4, '0')}.json`;
     fetch(`/transcripts/${filename}`)
       .then(res => {
         if (!res.ok) throw new Error('not found');
-        return res.json() as Promise<{ transcript: string | TransSegment[] }>;
+        return res.json() as Promise<{
+          transcript: string | TransSegment[];
+          dialogue: string | TransSegment[];
+        }>;
       })
       .then(data => {
         setTranscript(data.transcript);
+        if (data.dialogue) setDialogue(data.dialogue);
       })
       .catch(() => {
         setTranscriptError(true);
@@ -213,9 +219,9 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
       <h1 className={styles.title}>{lesson.title}</h1>
 
       {/* 对话内容 */}
-      {lesson.content ? (
+      {dialogue ? (
         <div className={styles.content}>
-          {renderSegments(lesson.content, showZh, zhDisplayMode)}
+          {renderSegments(dialogue, showZh, zhDisplayMode)}
         </div>
       ) : null}
 

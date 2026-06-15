@@ -1224,5 +1224,62 @@
       "en": "Take care.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Seriously, I don't know why we need to get a new TV.",
+      "zh": ""
+    },
+    {
+      "en": "B: Honey I told you already. I can't appreciate the graphics level and detail of the games on my Playstation 3 on our old TV.",
+      "zh": ""
+    },
+    {
+      "en": "C: Good afternoon folks! How can I be of service today?",
+      "zh": ""
+    },
+    {
+      "en": "B: I'm looking to upgrade to a newer, bigger television set.",
+      "zh": ""
+    },
+    {
+      "en": "C: You've come to the right place! What size are you looking for?",
+      "zh": ""
+    },
+    {
+      "en": "A: Just a normal sized TV for our living room.",
+      "zh": ""
+    },
+    {
+      "en": "C: I see. Well this set here is on sale. It's a forty six inch HDTV screen and has all the works. Three HDMI connectors, USB, VGA and S - Video ports. It even has a DVI port so you can hook up your PC or laptop! This is without a doubt the complete home theater experience!",
+      "zh": ""
+    },
+    {
+      "en": "B: This is exactly what I need! Can you imagine watching movies or playing video games on this thing?",
+      "zh": ""
+    },
+    {
+      "en": "A: Honey, I think it's a bit too big. I don't even think it will fit in our living room.",
+      "zh": ""
+    },
+    {
+      "en": "C: Not to worry, we will deliver and install it in your home. It comes with a wall mount so you can just hang it on the wall like a picture!",
+      "zh": ""
+    },
+    {
+      "en": "B: This is great! How much will this set me back?",
+      "zh": ""
+    },
+    {
+      "en": "C: Lucky for you, this is the last one we have in stock so it's half off!",
+      "zh": ""
+    },
+    {
+      "en": "B: I'll take it!",
+      "zh": ""
+    }
+  ],
+  "code": "C0134",
+  "title": "Daily Life - Buying a TV",
+  "level": "Elementary"
 }

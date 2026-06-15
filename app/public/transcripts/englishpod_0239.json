@@ -1024,5 +1024,50 @@
       "en": "Thanks for heading out.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Welcome to Adventure Tours. How may I help you?",
+      "zh": ""
+    },
+    {
+      "en": "B: I want to book a tour with adventure sports.",
+      "zh": ""
+    },
+    {
+      "en": "A: Excellent! Our company has more than ten years of experience in the adventure tourism and sports field. Let me show you some options. This is our most popular choice, our river guides will take you on a whitewater rafting trip followed by a ride in a hot air balloon!",
+      "zh": ""
+    },
+    {
+      "en": "B: I don't really think I'm ready to throw myself down a river full of jagged rocks in a rubber boat or go up in the air in a wicker basket held up by an oversize balloon. What else do you have?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, in that case, we can take you hang gliding withone of our experienced inst ructors. It's the closest you can get to flying.",
+      "zh": ""
+    },
+    {
+      "en": "B: What? You mean strap myself to a flimsy kite? No thank you! Next!",
+      "zh": ""
+    },
+    {
+      "en": "A: Mmm. ok. Well, why don't you tell me a little bit more about what you would like? We have everything from mountain biking, to rock climbing to street luge.",
+      "zh": ""
+    },
+    {
+      "en": "B: I'm thinking something exciting but. safer.",
+      "zh": ""
+    },
+    {
+      "en": "A: I have the perfect option, this package will take you on a hiking trip through the Himalayas for three days and afterwards there's a dog sledding journey!",
+      "zh": ""
+    },
+    {
+      "en": "B: That's more like it!",
+      "zh": ""
+    }
+  ],
+  "code": "C0239",
+  "title": "The Weekend - Adventure Sports",
+  "level": "Elementary"
 }

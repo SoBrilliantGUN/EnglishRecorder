@@ -1120,5 +1120,38 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A:... Right away sir, your order will be ready shortly. Jean Pierre, we have another special for table seven!",
+      "zh": ""
+    },
+    {
+      "en": "B: I'm working as fast as I can! We're really in the weeds! Where is my sous chef? Luc! I need you to peel more potatoes. Marie, chop some onions and carrots for the stew.",
+      "zh": ""
+    },
+    {
+      "en": "A: Jean Pierre another special! We're really packed tonight! We're running low on wine. Is there any left in the cellar?",
+      "zh": ""
+    },
+    {
+      "en": "C: Sorry I'm late, everyone. Wow, we are doing really well tonight!",
+      "zh": ""
+    },
+    {
+      "en": "B: Harry, stop talking and get over here I need this sauce stirred and the fish needs to be butchered and buttered.",
+      "zh": ""
+    },
+    {
+      "en": "C: Ok, I'm on it!",
+      "zh": ""
+    },
+    {
+      "en": "A: Jean Pierre, table seven has requested to see the chef! I think they are food critics from Cuisine Magazine",
+      "zh": ""
+    }
+  ],
+  "code": "C0053",
+  "title": "The Weekend - Head Chef",
+  "level": "Elementary"
 }

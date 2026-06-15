@@ -1212,5 +1212,54 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: What Can I get you?",
+      "zh": ""
+    },
+    {
+      "en": "B: I'll have a Cosmo please.",
+      "zh": ""
+    },
+    {
+      "en": "C: Dude! You can't order a Cosmo! That's a ladies drink, you're embarrasing me!",
+      "zh": ""
+    },
+    {
+      "en": "B: What are you talking about? It's a good drink!",
+      "zh": ""
+    },
+    {
+      "en": "C: It's too soft! Order something with a little more kick to it!",
+      "zh": ""
+    },
+    {
+      "en": "B: Fine! I'll have a sex on the beach.",
+      "zh": ""
+    },
+    {
+      "en": "C: You have to be kidding me!",
+      "zh": ""
+    },
+    {
+      "en": "B: Come on! It's delicious! Especially when served in a pineapple or coconut.",
+      "zh": ""
+    },
+    {
+      "en": "C: Forget it, I'm ordering for you. I'll have a Scotch on the rocks and my friend here will have a Manhattan. Put it on my tab. Here now this is a real drink!",
+      "zh": ""
+    },
+    {
+      "en": "B: That's strong! This is going to get me wasted!",
+      "zh": ""
+    },
+    {
+      "en": "C: That's the idea!",
+      "zh": ""
+    }
+  ],
+  "code": "C0312",
+  "title": "The Weekend - Ordering Drinks",
+  "level": "Intermediate"
 }

@@ -1200,5 +1200,70 @@
       "en": "Thanks for downloading this lesson and until next time, goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Alright, children, let's review. Tommy! Pay attention!",
+      "zh": ""
+    },
+    {
+      "en": "B: Sorry Miss Kadlec.",
+      "zh": ""
+    },
+    {
+      "en": "A: Okay, Crystal, now tell me, what's four plus eleven?",
+      "zh": ""
+    },
+    {
+      "en": "C: Um...fifteen!",
+      "zh": ""
+    },
+    {
+      "en": "B: Miss Kadlec always asks Crystal; she's such a teacher's pet.",
+      "zh": ""
+    },
+    {
+      "en": "A: Okay...and what about fifty six minus sixty?",
+      "zh": ""
+    },
+    {
+      "en": "C: Um... negative four!",
+      "zh": ""
+    },
+    {
+      "en": "A: Very good... twelve times twelve?",
+      "zh": ""
+    },
+    {
+      "en": "B: Very good. Suck up.",
+      "zh": ""
+    },
+    {
+      "en": "C: One hundred and forty four!",
+      "zh": ""
+    },
+    {
+      "en": "A: Zero divided by one?",
+      "zh": ""
+    },
+    {
+      "en": "C: Zero!",
+      "zh": ""
+    },
+    {
+      "en": "A: How did you know that? Okay, smarty pants, the square root of two!",
+      "zh": ""
+    },
+    {
+      "en": "B: Bet you're not going to get that one, know-it-all.",
+      "zh": ""
+    },
+    {
+      "en": "C: Um...one point four one four two one three five...",
+      "zh": ""
+    }
+  ],
+  "code": "C0076",
+  "title": "Daily Life - Learning Simple Math",
+  "level": "Elementary"
 }

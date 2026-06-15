@@ -444,5 +444,46 @@
       "en": "Music",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Ello-hay, Aniel-day eaki ng-spay, ow-hay ay-may I elp-hay ou-yay",
+      "zh": ""
+    },
+    {
+      "en": "B: Ay-hay, Aniel-day, Ulie-jay ere-hay",
+      "zh": ""
+    },
+    {
+      "en": "A: Ay-hay, Ulie-jay, ow-hay are ou-yay?",
+      "zh": ""
+    },
+    {
+      "en": "B: Actually, I'm eeling-fay ite-quay ill otday-tay.",
+      "zh": ""
+    },
+    {
+      "en": "A: I'm orry-say oo-tay ear-hay, at-they. ut-way is ong-wray?",
+      "zh": ""
+    },
+    {
+      "en": "B: I ink-thay I'm oming-cay own-day ith-way uhthey oo-flay. I ave-hay a eadache-hay, a ore-say oat-thray and I'm eeling-fay ighly-slay everishfay.",
+      "zh": ""
+    },
+    {
+      "en": "A: I ee-say. O-say oure-yay alling-cay in ick-say?",
+      "zh": ""
+    },
+    {
+      "en": "B: Es-yay, I uz-way oping-hay oo-tay ake-tay uh-they ay-day off oo-tay eecover-ray.",
+      "zh": ""
+    },
+    {
+      "en": "A: Ok, en-they. Ay-tray and et-gay ome-say est-ray.",
+      "zh": ""
+    }
+  ],
+  "code": "C0066",
+  "title": "The Office - Calling The Office",
+  "level": "Elementary"
 }

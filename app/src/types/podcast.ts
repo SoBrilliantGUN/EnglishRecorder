@@ -8,12 +8,16 @@ export interface TransSegment {
   zh: string;
 }
 
-/** 课程基本信息 */
-export interface Podcast {
+/** 课程元数据（静态索引） */
+export interface PodcastMeta {
   id: number;
   code: string; // 如 B0001, C0320
   level: string; // Elementary, Intermediate, Upper-Intermediate, Advanced
   title: string;
+}
+
+/** 课程完整信息（元数据 + 按需加载的对话） */
+export interface Podcast extends PodcastMeta {
   content: string | TransSegment[]; // 对话文本（兼容旧格式）
 }
 
@@ -25,8 +29,4 @@ export const LEVEL_COLORS: Record<string, string> = {
   'Advanced': 'var(--color-danger)',
 };
 
-import podcastsData from '../data/podcasts-fixed.json';
-const _podcasts = podcastsData as Podcast[];
-
-/** 课程库最大课程编号 */
-export const MAX_LESSON = Math.max(..._podcasts.map(p => p.id));
+export { MAX_LESSON } from '../data/podcasts-index';

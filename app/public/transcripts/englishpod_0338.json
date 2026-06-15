@@ -784,5 +784,14 @@
       "en": "Bye for now.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0338",
+  "title": "Lesson 338",
+  "level": "Intermediate"
 }

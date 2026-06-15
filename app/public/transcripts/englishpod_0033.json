@@ -872,5 +872,82 @@
       "en": "Thank you.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Has the game started yet?",
+      "zh": "A：比赛开始了吗？"
+    },
+    {
+      "en": "B: Yeah, about 5 minutes ago.",
+      "zh": "B：嗯，大约五分钟前开始的。"
+    },
+    {
+      "en": "A: Who's winning?",
+      "zh": "A：谁领先？"
+    },
+    {
+      "en": "B: The Bulls, of course!",
+      "zh": "B：当然是公牛队！"
+    },
+    {
+      "en": "A: What!",
+      "zh": "A：什么！"
+    },
+    {
+      "en": "A: That wasn't a foul!",
+      "zh": "A：那不是犯规！"
+    },
+    {
+      "en": "A: C'mon, ref!",
+      "zh": "A：拜托，裁判！"
+    },
+    {
+      "en": "B: Don't worry, Shaq always screws up free throws.",
+      "zh": "B：别担心，奥尼尔罚球从来不准。"
+    },
+    {
+      "en": "A: You were right!",
+      "zh": "A：你说对了！"
+    },
+    {
+      "en": "A: He didn't make the shot!",
+      "zh": "A：他没投进！"
+    },
+    {
+      "en": "B: That was a great shot!",
+      "zh": "B：漂亮！"
+    },
+    {
+      "en": "B: A three pointer, yeah!",
+      "zh": "B：一个三分球，耶！"
+    },
+    {
+      "en": "A: Did you see that?",
+      "zh": "A：你看到了吗？"
+    },
+    {
+      "en": "A: He traveled and the ref didn't call it!",
+      "zh": "A：他走步了，裁判居然没吹！"
+    },
+    {
+      "en": "B: This ref needs glasses.",
+      "zh": "B：这个裁判需要配副眼镜了。"
+    },
+    {
+      "en": "B: Hey ref, open your eyes!",
+      "zh": "B：嘿裁判，睁大你的眼睛！"
+    },
+    {
+      "en": "B: I can't believe he didn't see that!",
+      "zh": "B：我真不敢相信他居然没看到！"
+    },
+    {
+      "en": "A: Okay... end of the first qua rter... Alright, I'm gonna make a beer run.",
+      "zh": "A：好吧……第一节结束……好了，我去买点啤酒。"
+    }
+  ],
+  "code": "B0033",
+  "title": "Foul!",
+  "level": "Elementary"
 }

@@ -980,5 +980,54 @@
       "en": "Bye.",
       "zh": "再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: So, are we all ready to go?",
+      "zh": "A：好了，大家都准备好了吗？"
+    },
+    {
+      "en": "B: Yep, I think so. The car's packed; we have munchies and music, and the map's in the car.",
+      "zh": "B：嗯，我想是的。车已经装好了；零食和音乐都有了，地图也在车里。"
+    },
+    {
+      "en": "A: Did you get the camera?",
+      "zh": "A：你带相机了吗？"
+    },
+    {
+      "en": "B: Got it! Did you fill up the tank?",
+      "zh": "B：带了！你把油箱加满了吗？"
+    },
+    {
+      "en": "A: Yep, it's all set.",
+      "zh": "A：嗯，都搞定了。"
+    },
+    {
+      "en": "B: You're sure we're not forgetting anything?",
+      "zh": "B：你确定没落下什么东西吗？"
+    },
+    {
+      "en": "A: I'm sure... we've got all our bases covered.",
+      "zh": "A：我确定…我们一切都准备好了。"
+    },
+    {
+      "en": "B: Well... let's get going then! I love road trips!",
+      "zh": "B：好吧，那我们出发吧！我超爱自驾游！"
+    },
+    {
+      "en": "B: Um... do you think we can make a pit stop?",
+      "zh": "B：嗯…我们能停下来休息一下吗？"
+    },
+    {
+      "en": "A: But we've only been on the road for ten minutes.",
+      "zh": "A：可我们才上路十分钟。"
+    },
+    {
+      "en": "B: I know, but I forgot to go to the bathroom before we left.",
+      "zh": "B：我知道，但我出发前忘记去洗手间了。"
+    }
+  ],
+  "code": "C0006",
+  "title": "The Weekend - Road Trip",
+  "level": "Elementary"
 }

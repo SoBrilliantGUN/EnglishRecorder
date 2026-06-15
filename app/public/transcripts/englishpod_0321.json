@@ -1112,5 +1112,54 @@
       "en": "Bye, everybody, muah.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: What did you cook?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, as you know I was in Thailand last month,and I took a cooking class! So I prepared some ofmy favorite dishes.",
+      "zh": ""
+    },
+    {
+      "en": "A: Great idea! As long as I don't get food poisoning! So what is on the menu tonight?",
+      "zh": ""
+    },
+    {
+      "en": "B: Ok, for starters we have Tom Yam soup. It's a bit spicy, but really good!",
+      "zh": ""
+    },
+    {
+      "en": "A: This is delicious! The ginger and lemongrass really gives it a nice taste!",
+      "zh": ""
+    },
+    {
+      "en": "B: Now this next dish is one of the most famous. Foreignerscall it papaya salad butthe proper name is Tom Sam. It is a spicy salad made from a mix of fresh vegetables including shredded unripened papaya and tomato.",
+      "zh": ""
+    },
+    {
+      "en": "A: This is delicious! The combination of sour and spicy is really interesting! I could have this everyday!",
+      "zh": ""
+    },
+    {
+      "en": "B: Ok, now for the last and best dish in my opinion. This is called Pad Thai. It's stir-fried no odles with eggs, fish sauce, tamarind juice, red chili pepper plus bean sprouts, shrimp and tofu and garnished with crushed peanuts and coriander. It's practically Thailand's national dish!",
+      "zh": ""
+    },
+    {
+      "en": "A: Wow, this is great! I never knew Thai food was so creative and delicious!",
+      "zh": ""
+    },
+    {
+      "en": "B: Wantsome more?",
+      "zh": ""
+    },
+    {
+      "en": "A: I'm stuffed!",
+      "zh": ""
+    }
+  ],
+  "code": "C0321",
+  "title": "Global View - Thai Food",
+  "level": "Intermediate"
 }

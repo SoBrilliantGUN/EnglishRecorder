@@ -1608,5 +1608,50 @@
       "en": "All right guys, we'll see you there.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: This is ridiculous! I can't believe you've been sleeping with someone else! How could you do this! You know what? I'm out of here!",
+      "zh": ""
+    },
+    {
+      "en": "B: Wait! Doctor how is this possible? I haven't cheated on my boyfriend!",
+      "zh": ""
+    },
+    {
+      "en": "C: I have something to confe ss... I'm sorry Veronica, I lied.",
+      "zh": ""
+    },
+    {
+      "en": "B: Wait... what? What do do you mean?",
+      "zh": ""
+    },
+    {
+      "en": "C: I lied. You aren't even pregnant; there's no bun in the oven. I was just so overwhelmed with jealousy that I couldn't help myself. Veronica I love you!",
+      "zh": ""
+    },
+    {
+      "en": "B: What are you talking about!!! Who are you?",
+      "zh": ""
+    },
+    {
+      "en": "C: It's me! Daniel, don't you remember me? From high school. I sat behind you every day in class! I used to go to every football game and watch you in the cheerleading squad!",
+      "zh": ""
+    },
+    {
+      "en": "B: You are insane! We never even spoke! Why did you lie like that to my boyfriend?",
+      "zh": ""
+    },
+    {
+      "en": "C: Because Veronica... It's not fair! I love you; I have since the first day we met! Everything was going fine until that jerk came into the pict ure and ruined everything! I went to med school and became a doctor for you! You always said how you wanted to marry a doctor! You will be mine now... one way or another...",
+      "zh": ""
+    },
+    {
+      "en": "A: I heard everything, you lying bastard! Get your hands off her!",
+      "zh": ""
+    }
+  ],
+  "code": "C0064",
+  "title": "Daily Life - I’m Sorry I Love You VI",
+  "level": "Elementary"
 }

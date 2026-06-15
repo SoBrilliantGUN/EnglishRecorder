@@ -836,5 +836,38 @@
       "en": "Bye-bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Telco Mobile, how can I help you?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, I'd like to activate my voice mail service please.",
+      "zh": ""
+    },
+    {
+      "en": "A: Certainly sir, we currently have a special promotion where we include voice mail services,call waiting and also three way calling.",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure that sounds great! Are there any other fees?",
+      "zh": ""
+    },
+    {
+      "en": "A: Not at all. No hidden fees or surcharges, it is a flat monthly rate.",
+      "zh": ""
+    },
+    {
+      "en": "B: Perfect. I also wanted to know if there is any call forwarding service? I am usually out of town and would like my calls to be forwarded to a local number.",
+      "zh": ""
+    },
+    {
+      "en": "A: Yes of course. We can activate all these services in about an hour.",
+      "zh": ""
+    }
+  ],
+  "code": "C0276",
+  "title": "Daily Life - Telephone Services",
+  "level": "Intermediate"
 }

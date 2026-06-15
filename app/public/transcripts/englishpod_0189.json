@@ -1016,5 +1016,42 @@
       "en": "That's a wrap for EnglishPod.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hello sir, may I help you?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, I accidentally dropped my phone in the toilet.",
+      "zh": ""
+    },
+    {
+      "en": "A: I see. Well, you have come to the right place. We have over one hundred models of more than twenty leading mobile phone manufacturers.",
+      "zh": ""
+    },
+    {
+      "en": "B: Sounds good. I don't want it to be too expensive, maybe something mid-range.",
+      "zh": ""
+    },
+    {
+      "en": "A: We have this new HTC smart phone. It comes with the Android OS so you can download applications. It also has a built-in camera, mp3 player and touch screen. It works on the 3G network so you have fast access to the internet wherever you are.",
+      "zh": ""
+    },
+    {
+      "en": "B: What about Wi-fi?",
+      "zh": ""
+    },
+    {
+      "en": "A: Of course! You can access the internet from any hotspot as well as from home.",
+      "zh": ""
+    },
+    {
+      "en": "B: One last thing. Is it waterproof?",
+      "zh": ""
+    }
+  ],
+  "code": "C0189",
+  "title": "Lesson 189",
+  "level": "Intermediate"
 }

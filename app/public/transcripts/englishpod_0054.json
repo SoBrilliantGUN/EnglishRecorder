@@ -1144,5 +1144,50 @@
       "en": "Independence.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Honey, of course I forgive you! I love you so much! I've really missed you. I was wrong to get upset over nothing.",
+      "zh": ""
+    },
+    {
+      "en": "B: I'm sorry I haven't called or anything, but right after you decided you wanted a break, I was called up north to put out some major forest fi res! I was in the middle of nowhere, working day and night, trying to prevent the blaze from spreading! It was pretty intense.",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh, honey, I'm glad you're okay! But I have some exciting news... I think I'm pregnant!",
+      "zh": ""
+    },
+    {
+      "en": "B: Really? Wow, that's amazing! This is great news! I've always wanted to be a fathe r! We'll go to the doctor first thing in the morning!",
+      "zh": ""
+    },
+    {
+      "en": "C: We have your test results back and, indeed, you are pregnant. Let's see here... everything seems to be in order. Your approximate due date is October twenty-seventh two thousand and nine, so that means that the baby was conceived on February third, two thousand and nine.",
+      "zh": ""
+    },
+    {
+      "en": "B: Are you sure? Are these things accurate?",
+      "zh": ""
+    },
+    {
+      "en": "C: Well, yes sir, they are.",
+      "zh": ""
+    },
+    {
+      "en": "A: What's wrong? Why are you asking these questions?",
+      "zh": ""
+    },
+    {
+      "en": "B: This baby isn't mine! I was away the first week of 15 February at a training seminar!",
+      "zh": ""
+    },
+    {
+      "en": "A: I... I... no, it can't be...",
+      "zh": ""
+    }
+  ],
+  "code": "C0054",
+  "title": "Lesson 54",
+  "level": "Intermediate"
 }

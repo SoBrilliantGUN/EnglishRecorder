@@ -1288,5 +1288,34 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Honey come on! We are going to be late! Honestly, you take longer getting ready than I do!",
+      "zh": ""
+    },
+    {
+      "en": "B: I was drying my hair and ironing my shirt! Can you 40 come here for a sec? I need your help.",
+      "zh": ""
+    },
+    {
+      "en": "A: What is it? Why are all these clothes on the bed?",
+      "zh": ""
+    },
+    {
+      "en": "B: I don't know what to wear! Ok, give me your opinion. Do you like the way this looks? The striped short sleeved shirt with this checkered sweat er and my lucky sandals. I like the cut and hemline of these shorts so I think I'll wear these as well.",
+      "zh": ""
+    },
+    {
+      "en": "A: Are you joking? What am I going to do with you? We are going to a dinner party not the beach! Wear the shirt with the silk tie I bought you and these corduroy pants. It's chilly outside so you can wear this coat.",
+      "zh": ""
+    },
+    {
+      "en": "B: Thanks honey! You have such great fashion sense. Now, what am I going to do with my hair?",
+      "zh": ""
+    }
+  ],
+  "code": "C0142",
+  "title": "The Weekend - What Do I Wear?",
+  "level": "Elementary"
 }

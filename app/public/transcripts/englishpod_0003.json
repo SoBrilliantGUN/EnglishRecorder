@@ -524,5 +524,50 @@
       "en": "But for now, it's bye!",
       "zh": "但现在，再见了！"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Good afternoon. What can I do for you?",
+      "zh": "A：下午好。有什么可以帮您？"
+    },
+    {
+      "en": "B: I'd like to check in please. I have a reservation under the name Anthony Roberts.",
+      "zh": "B：我想办理入住。我用安东尼·罗伯茨的名字预订了房间。"
+    },
+    {
+      "en": "A: All right R. O. B. E. R. T. S... Oh, Mr. Roberts we've been expecting you, and here is your keycard to the presidential suite.",
+      "zh": "A：好的，R.O.B.E.R.T.S…哦，罗伯茨先生，我们一直在等您呢，这是您总统套房的房卡。"
+    },
+    {
+      "en": "B: But there must be some mistake; my reservation was for a standard room.",
+      "zh": "B：这肯定搞错了，我订的是标准间。"
+    },
+    {
+      "en": "A: Are you sure? Let me double check.",
+      "zh": "A：您确定吗？让我再确认一下。"
+    },
+    {
+      "en": "B: Yeah... Here, this is my confirmation number.",
+      "zh": "B：你看，这是我的确认号。"
+    },
+    {
+      "en": "A: You're right Mr. Roberts, there seems to be a mixup, unfortunately we're overbooked at the moment.",
+      "zh": "A：您说得对，罗伯茨先生，看来是搞混了，不幸的是我们现在已经订满了。"
+    },
+    {
+      "en": "B: So...",
+      "zh": "B：那怎么办…"
+    },
+    {
+      "en": "A: Not to worry. We're pleased to offer you a complimentary upgrade.",
+      "zh": "A：别担心，我们很乐意为您免费升级。"
+    },
+    {
+      "en": "B: Presidential suite baby!",
+      "zh": "B：总统套房太棒了！"
+    }
+  ],
+  "code": "C0003",
+  "title": "Daily Life - Hotel Upgrade",
+  "level": "Elementary"
 }

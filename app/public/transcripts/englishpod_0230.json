@@ -1108,5 +1108,50 @@
       "en": "Have a nice time.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I've decided to grow my own garden!",
+      "zh": ""
+    },
+    {
+      "en": "B: What? You don't know the first thing about gardening!",
+      "zh": ""
+    },
+    {
+      "en": "A: On the contrary, I have been reading a lot of books about the subject.",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh yeah? Tell me then, smarty pants, how will you go about setting up your garden?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, first I need to buy some things, such as fertilizer, seeds and tools.",
+      "zh": ""
+    },
+    {
+      "en": "B: What type of tools?",
+      "zh": ""
+    },
+    {
+      "en": "A: You know, the basics. A rake, shovel, spade and a hoe.",
+      "zh": ""
+    },
+    {
+      "en": "B: Right. Well it seems like you have all your bases covered. What's next?",
+      "zh": ""
+    },
+    {
+      "en": "A: I'll till the soil and then sow the seeds. I'll then add some fertilizer and voila! Gardening all done!",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, good luck with your garden, especially considering we are in the dry season and it won't rain for the next three months!",
+      "zh": ""
+    }
+  ],
+  "code": "C0230",
+  "title": "The Weekend - Gardening",
+  "level": "Elementary"
 }

@@ -972,5 +972,42 @@
       "en": "Hey, you can, too.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Welcome to the National Post. How may I help you?",
+      "zh": ""
+    },
+    {
+      "en": "B: Hi, I would like to send this package to China, and these postcards as well.",
+      "zh": ""
+    },
+    {
+      "en": "A: Very well. You will need some stamps for the postcards and I need to weigh that package, too.",
+      "zh": ""
+    },
+    {
+      "en": "B: Great. How much is this going to cost?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, it depends. Do you want to send it via priority, express or standard mail?",
+      "zh": ""
+    },
+    {
+      "en": "B: What's the difference?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, standard mail can take up to fifteen working days. Priority is a bit faster and will arrive in about five to eight working days. Express is the fastest, but it's also the most expensive. It only takes three days and you can track your package online.",
+      "zh": ""
+    },
+    {
+      "en": "B: I see. Well, there's no rush. Please send it via priority mail. Please be extra careful, the contents of the package are fragile.",
+      "zh": ""
+    }
+  ],
+  "code": "C0201",
+  "title": "Daily Life - At The Post Office",
+  "level": "Elementary"
 }

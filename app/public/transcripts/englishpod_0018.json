@@ -864,5 +864,70 @@
       "en": "Bye.",
       "zh": "再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: This is Action 5 News reporter Sarah O'Connell reporting live from Washington, D. C. where a protest has broken out. Thousands of angry citizens are protesting against the proposed bailout of the auto manufacturing industry! Sir, sir, Sarah O'Connell, Action 5 news. Can you tell us what's happening?",
+      "zh": "A：这里是第五行动新闻记者莎拉·奥康奈尔从华盛顿特区现场报道，一场抗议活动刚刚爆发。成千上万愤怒的市民正在抗议针对汽车制造业的救助计划！先生，先生，莎拉·奥康奈尔，第五行动新闻。您能告诉我们现在是什么情况吗？"
+    },
+    {
+      "en": "B: Yeah, yeah, we're here because we feel this is an injustice!",
+      "zh": "B：是的，是的，我们在这里是因为我们觉得这是不公正！"
+    },
+    {
+      "en": "B: The financial irresponsibility of big business has to stop!",
+      "zh": "B：大企业的财务不负责任必须停止！"
+    },
+    {
+      "en": "B: We're there to show the government that we don't like the way that they're spending our tax dollars!",
+      "zh": "B：我们来这里是要向政府表明，我们不喜欢他们使用我们纳税人钱财的方式！"
+    },
+    {
+      "en": "A: Sir but what exactly is making everyone so angry?",
+      "zh": "A：先生，但到底是什么让大家如此愤怒？"
+    },
+    {
+      "en": "B: It's an absolute outrage, Sarah, the US government wants to give 25 billion dollars of taxpayers' money to the auto industry.",
+      "zh": "B：这简直是暴行，莎拉，美国政府想给汽车行业250亿美元纳税人的钱。"
+    },
+    {
+      "en": "B: These are companies that have been mismanaged and are now nearly bankrupt.",
+      "zh": "B：这些公司管理不善，现在几乎破产了。"
+    },
+    {
+      "en": "A: I see.",
+      "zh": "A：我明白了。"
+    },
+    {
+      "en": "A: But, many supporters of the bailout argue that it could help save the jobs of millions of hardworking Americans.",
+      "zh": "A：但是，许多支持救助的人认为，这可以帮助保住数百万勤劳美国人的工作岗位。"
+    },
+    {
+      "en": "B: That maybe true, and I for one don't want to see anyone lose their job, but how can these CEOs ask for a bailout when they're making millions of dollars?",
+      "zh": "B：这也许是对的，我个人也不想看到任何人失业，但这些CEO们自己赚着数百万美元，怎么还有脸来要求救助？"
+    },
+    {
+      "en": "B: And then, they have the nerve to fly to Washington in private jets!",
+      "zh": "B：而且，他们还敢坐私人飞机来华盛顿！"
+    },
+    {
+      "en": "B: This costs hundreds of thousands of dollars!",
+      "zh": "B：这就要花几十万美元！"
+    },
+    {
+      "en": "B: And they're asking for money!",
+      "zh": "B：而他们居然还在要钱！"
+    },
+    {
+      "en": "B: That is just not right!",
+      "zh": "B：这太不应该了！"
+    },
+    {
+      "en": "A: Good point. This is Sarah O'Connell reporting live from Washington D. C., back to you, Tom.",
+      "zh": "A：说得有道理。这是莎拉·奥康奈尔从华盛顿特区现场报道，交还给你，汤姆。"
+    }
+  ],
+  "code": "D0018",
+  "title": "Upper -Intermediate - Protest!",
+  "level": "Elementary"
 }

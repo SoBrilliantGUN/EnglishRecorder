@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
-import podcastsData from '../../data/podcasts-fixed.json';
-import type { Podcast } from '../../types/podcast';
+import podcastsData from '../../data/podcasts-index';
+import type { PodcastMeta } from '../../types/podcast';
 import { LEVEL_COLORS } from '../../types/podcast';
 import { SearchIcon } from '../icons';
 import styles from './index.module.scss';
@@ -18,7 +18,7 @@ export default function PodcastList({ onSelectLesson, currentPage, onPageChange 
   const [levelFilter, setLevelFilter] = useState<string>('all');
   const [pageSize, setPageSize] = useState(20);
 
-  const podcasts = podcastsData as Podcast[];
+  const podcasts = podcastsData as PodcastMeta[];
 
   // 过滤
   const filteredPodcasts = useMemo(() => {

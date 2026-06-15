@@ -1116,5 +1116,46 @@
       "en": "Copyright © 2020 The Ellen DeGeneres, No Parnish",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: OK class, settle down. I have the results of your individual personality tests. I am going to hand them out and if you'dlike, you can read th em out loud to the rest of the class.",
+      "zh": ""
+    },
+    {
+      "en": "B: I'll read mine!",
+      "zh": ""
+    },
+    {
+      "en": "A: OK, go ahead.",
+      "zh": ""
+    },
+    {
+      "en": "B: It says here that I am adventurous, outgoing and easy-going. It says that I am a little superstitious and occasionally naive! That's not true!",
+      "zh": ""
+    },
+    {
+      "en": "A: The test isn't one-hundred percent accurate. Is that all it says?",
+      "zh": ""
+    },
+    {
+      "en": "B: No! It also says that I am open-minded with great ambition but that I can also be reckless and clumsy. This is stupid!",
+      "zh": ""
+    },
+    {
+      "en": "A: Ok, anyone else want to read theirs?",
+      "zh": ""
+    },
+    {
+      "en": "C: I'll go! It says that I am an extroverted, wellbalanced person. It says I am generous, outspoken, and very diligent. This is so true! It also says that I am magnanimous, eloquent and daring! This is totally me!",
+      "zh": ""
+    },
+    {
+      "en": "A: Pfft whatever, these tests are bologna!",
+      "zh": ""
+    }
+  ],
+  "code": "C0214",
+  "title": "Daily Life - Describing Personalities",
+  "level": "Elementary"
 }

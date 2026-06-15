@@ -932,5 +932,66 @@
       "en": "Goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Well, right, let's move to our next order of business, as many of you are aware, in recent weeks there has been a lot of media coverage surrounding this bird flu issue. And it's come to my attention that our company lacks any sort of bird flu contingency plan.",
+      "zh": "A：好的，我们进入下一项议程。正如在座很多人所知，最近几周媒体一直在大量报道禽流感问题。我注意到我们公司缺乏任何形式的禽流感应急预案。"
+    },
+    {
+      "en": "B: Basically, we need to come up with a clear plan; we need to outline specific actions that our company can take to maintain critical business functions in case a pandemic strikes.",
+      "zh": "B：基本上，我们需要制定一个清晰的计划；我们需要列出公司在疫情爆发时可以采取的具体行动，以维持关键业务运作。"
+    },
+    {
+      "en": "A: So, what I'd like to do is: first appoint someone to look after drafting our plan; Ralph, I'd like you to head up this project.",
+      "zh": "A：所以，我想做的是：首先指定一个人负责起草我们的计划；拉尔夫，我希望你来领导这个项目。"
+    },
+    {
+      "en": "C: Sure, no problem.",
+      "zh": "C：没问题。"
+    },
+    {
+      "en": "C: What issues do you want me to consider?",
+      "zh": "C：你希望我考虑哪些方面？"
+    },
+    {
+      "en": "B: Well, let's see, there are a few points we need to be 7 thinking about... first, I'll need you to analyze our numbers and figure out what kind of financial impact an outbreak might have.",
+      "zh": "B：嗯，让我想想，有几个要点需要我们思考……首先，我需要你分析我们的数据，弄清楚疫情爆发可能带来什么样的财务影响。"
+    },
+    {
+      "en": "A: You'll also need to think about how we can avoid any of our employees getting infected; think of ways to reduce employee-customer contact, perhaps some IT solutions that will allow our people to work from home.",
+      "zh": "A：你还需要考虑如何避免我们的员工被感染；想想如何减少员工与客户的接触，也许可以通过一些IT方案让员工在家办公。"
+    },
+    {
+      "en": "C: I guess you'll need me to forecast employee absences as well, right?",
+      "zh": "C：我猜你也需要我预测员工缺勤的情况，对吗？"
+    },
+    {
+      "en": "C: And I'll think about the impact this will have on our clients.",
+      "zh": "C：我还会考虑这对我们客户的影响。"
+    },
+    {
+      "en": "C: Hey, what about vaccines?",
+      "zh": "C：嘿，疫苗呢？"
+    },
+    {
+      "en": "C: Should we be thinking about getting vaccines for our employees?",
+      "zh": "C：我们是否应该考虑为员工接种疫苗？"
+    },
+    {
+      "en": "A: Exactly right.",
+      "zh": "A：完全正确。"
+    },
+    {
+      "en": "A: So, I'll leave this to you, and we'll review the draft plan in two weeks.",
+      "zh": "A：那么，这个就交给你了，我们两周后评审草案。"
+    },
+    {
+      "en": "A: Okay, so, anyone want to order some KFC for lunch?",
+      "zh": "A：好了，有人想叫点肯德基当午餐吗？"
+    }
+  ],
+  "code": "D0025",
+  "title": "Upper-Intermediate - Planning For",
+  "level": "Elementary"
 }

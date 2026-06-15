@@ -1248,5 +1248,58 @@
       "en": "Thank you.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Parsons: Come in. Rebecca",
+      "zh": ""
+    },
+    {
+      "en": "Carlyle: Mr Parsons? Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Ah, you must be Rebecca. Please do come in. Rebecca",
+      "zh": ""
+    },
+    {
+      "en": "Carlyle: Thank you for making some time to see me Mr Parsons. It's a pleasure to meet you finally. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: The pleasure's all mine Rebecca. Have a seat please. Now would you like any refreshments? Tea or coffee? Rebecca",
+      "zh": ""
+    },
+    {
+      "en": "Carlyle: A coffee would be lovely thank you. Black, no sugar. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: No problem. Sally can we have two coffees please One, no milk or sugar?",
+      "zh": ""
+    },
+    {
+      "en": "Sally: Certainly Mr Parsons. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: So Rebecca, I understand you had a first interview with Miss Childs last week. Rebecca",
+      "zh": ""
+    },
+    {
+      "en": "Carlyle: Yes that's correct. She filled me in on the details of the job on the telephone. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Great. Well, I'm glad to say she recommended you for a 2nd interview, and here we are. Perhaps we can start by discussing your background and resume details a little? Rebecca",
+      "zh": ""
+    },
+    {
+      "en": "Carlyle: Yes, of course.",
+      "zh": ""
+    }
+  ],
+  "code": "C0235",
+  "title": "The Office - Interview Skills Part 1 -",
+  "level": "Elementary"
 }

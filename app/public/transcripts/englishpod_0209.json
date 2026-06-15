@@ -1056,5 +1056,46 @@
       "en": "gasp",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Pam: Psssst! Pssssssssst! Hey! Eric, have you heard?",
+      "zh": ""
+    },
+    {
+      "en": "Eric: Hm? No... go on, tell me, what's the latest office gossip?",
+      "zh": ""
+    },
+    {
+      "en": "Pam: Well, you didn't hear this from me but the rumor is... is getting a promotion!",
+      "zh": ""
+    },
+    {
+      "en": "Eric: No way! But... she's a terrible worker... and you can't trust her... she's so two-faced - you can't believe anything she says!",
+      "zh": ""
+    },
+    {
+      "en": "Paula: Hey guys, what are you two whispering about?",
+      "zh": ""
+    },
+    {
+      "en": "Eric: Oh Hi Paula! How are you?",
+      "zh": ""
+    },
+    {
+      "en": "Paula: I've got some good news! I'm getting a promotion!",
+      "zh": ""
+    },
+    {
+      "en": "Pam: Congratulations! Eric and I were just saying that you are the best person for the job...",
+      "zh": ""
+    },
+    {
+      "en": "Eric: Yes! You're the best!",
+      "zh": ""
+    }
+  ],
+  "code": "C0209",
+  "title": "Daily Life - Office Gossip",
+  "level": "Elementary"
 }

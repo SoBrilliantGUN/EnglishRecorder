@@ -1060,5 +1060,54 @@
       "en": "Electric vientarelli Carvis only from El Cdito cheap on MailTV and Piece mascara",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Good Morning welcome to Bank of the USA. How may I help you today?",
+      "zh": ""
+    },
+    {
+      "en": "B: Hi I need to transfer some money to another account. It's urgent.",
+      "zh": ""
+    },
+    {
+      "en": "A: Okay, have you made a wire transfer at our bank before?",
+      "zh": ""
+    },
+    {
+      "en": "B: No. I've never made a transfer before.",
+      "zh": ""
+    },
+    {
+      "en": "A: It's alright, I will take you through the procedure. Are you transferring funds to a company or an individual account?",
+      "zh": ""
+    },
+    {
+      "en": "B: A company account. I need to pay a bill.",
+      "zh": ""
+    },
+    {
+      "en": "A: Okay, I'll need the name of the company and their bank routing number as well as their bank's address and phone number.",
+      "zh": ""
+    },
+    {
+      "en": "B: I have all the information in this folder.",
+      "zh": ""
+    },
+    {
+      "en": "A: Well You've come prepared. You have all the necessary materials so we can go ahead and make the transfer right now. It's a simple transaction, and we can process it today.",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh, that's such a relief. I didn't want the payment to be overdue. Thank you so much.",
+      "zh": ""
+    },
+    {
+      "en": "A: It's my pleasure.",
+      "zh": ""
+    }
+  ],
+  "code": "C0267",
+  "title": "Daily Life - Making A Bank Transfer",
+  "level": "Intermediate"
 }

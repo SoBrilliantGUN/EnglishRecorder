@@ -1292,5 +1292,58 @@
       "en": "language",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Mr. and Mrs. Robinson! Let's get straight to it. You have saved up your money for years and are now ready to build your dream home. What did you have in mind?",
+      "zh": ""
+    },
+    {
+      "en": "B: A suburban bungalow straight out of the sixties! A perfect lawn with minimal landscaping. A brick patio in the backyard with an old-fashioned grill, quaint lawn furniture, and a swimming pool. A two-car carport, pastel siding and a gable roof. Completed with white shutters and a white picket fence!",
+      "zh": ""
+    },
+    {
+      "en": "C: Uh, honey?",
+      "zh": ""
+    },
+    {
+      "en": "B: In the living room we would have moss-green rugs and a fireplace with a stone mantle and wood paneling on the walls. In the kitchen, the cupboards would be a pale yellow and we would have a turquoise metal oven and vinyl flooring -",
+      "zh": ""
+    },
+    {
+      "en": "C: Umm, sweetie, but I was thinking of a more modern style house. An open concept house, all glass, wood, metal, and concrete.",
+      "zh": ""
+    },
+    {
+      "en": "B: But sweetums, there is always a lot of wasted space in those kinds of homes. Besides, it's just a fad. It doesn't have the homey feeling the old homes do.",
+      "zh": ""
+    },
+    {
+      "en": "C: Sweetie-pie it's not a lot of wasted space. It is relaxing and the house would be eco-friendly with an in-floor heating system and designed to retain the heat of the sun in the winter and keep the house cool in the summer. We would have solar panels on the roof -",
+      "zh": ""
+    },
+    {
+      "en": "B: Do you know how much those things cost?",
+      "zh": ""
+    },
+    {
+      "en": "C: What about your vintage furniture, dearest? And instead of a lawn, which is also a lot of wasted space and would require environmentally harmful pesticides, we would have a fish pond in the backyard and a garden that would cover the whole yard so we could grow our own food!",
+      "zh": ""
+    },
+    {
+      "en": "B: But buttercup, I thought you always said that you loved visiting your grandmother's house!",
+      "zh": ""
+    },
+    {
+      "en": "C: And I thought you, Mr. Scientist, were all up on saving the planet with your technological advancements!",
+      "zh": ""
+    },
+    {
+      "en": "A: Umm well I am just going to go get some coffee while you two keep discussing.",
+      "zh": ""
+    }
+  ],
+  "code": "C0193",
+  "title": "Lesson 193",
+  "level": "Intermediate"
 }

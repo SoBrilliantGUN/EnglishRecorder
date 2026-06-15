@@ -1220,5 +1220,46 @@
       "en": "Alright, bye everyone!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I'm hungry, let's go grab a bite to eat.",
+      "zh": ""
+    },
+    {
+      "en": "B: Y eah me too. Oh! Can we stop at the shop really fast? I lost my makeup bag at the airport and I want to pick up a few things.",
+      "zh": ""
+    },
+    {
+      "en": "A: Will you take long?",
+      "zh": ""
+    },
+    {
+      "en": "B: No! Five minutes I promise!",
+      "zh": ""
+    },
+    {
+      "en": "A: Come on! We have been here for almost an hour! I thought you said you were only going to get a few things! How long does it take you to pick out a lipstick and some nail polish!",
+      "zh": ""
+    },
+    {
+      "en": "B: Are you crazy! You have no idea what you are talking about! Just for my eyes I have to get eyeliner, an eyelash curler, eye shadow, an eyebrow pencil and mascara. Then I need to get foundation, liquid foundation.",
+      "zh": ""
+    },
+    {
+      "en": "A: Whoa whoa whoa! Are you nuts? How much is all this going to cost? I'm looking at the price at each one of these little things and it's outrageous! This is basically a crayon!",
+      "zh": ""
+    },
+    {
+      "en": "B: What about you? You spend as much or more money on your razors, after shave, cologne and gel! Not to mention how much you spend on clothes and...",
+      "zh": ""
+    },
+    {
+      "en": "A: Fine! Get the stupid thirty dollar crayon!",
+      "zh": ""
+    }
+  ],
+  "code": "C0251",
+  "title": "The Weekend - Buying Makeup",
+  "level": "Intermediate"
 }

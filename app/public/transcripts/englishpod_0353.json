@@ -1472,5 +1472,14 @@
       "en": "All right.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0353",
+  "title": "Lesson 353",
+  "level": "Intermediate"
 }

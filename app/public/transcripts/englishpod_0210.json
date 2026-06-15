@@ -1108,5 +1108,54 @@
       "en": "It looks like we've just gotta do our job.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Cindy: Mother, father, I'd like to introduce you to my fianc' e, Bob.",
+      "zh": ""
+    },
+    {
+      "en": "Miranda: Hello, Bob. Welcome.",
+      "zh": ""
+    },
+    {
+      "en": "Bob: Thanks for having me. Nice to meet the both of you. I've heard so much! Thurston S: o Cindy told you about bringing home her last boyfriend, then? Hah, that idiot...",
+      "zh": ""
+    },
+    {
+      "en": "Miranda: Shhh! Thurston, you're going to scare the poor boy. Come in and have a drink. Dinner will be on in just a bit. Thurston W: hat'll you be having? Whiskey? Bourbon? Pick your poison!",
+      "zh": ""
+    },
+    {
+      "en": "Bob: If you have a lemonade that'd be great. Thurston L: emona...?",
+      "zh": ""
+    },
+    {
+      "en": "Miranda: Why sure, there's some in the fridge!",
+      "zh": ""
+    },
+    {
+      "en": "Cindy: Mother makes her own lemonade from scratch. It's the best! Thurston S: o what are your hobbies, son? If you want, we can do some hunting tomorrow. I've just picked up a new rifle I've been meaning to try out. Should be a real hoot!",
+      "zh": ""
+    },
+    {
+      "en": "Bob: Um. I'm not really. eh. I don't really hunt. Thurston Y: ou don't hunt? Well I'll be...",
+      "zh": ""
+    },
+    {
+      "en": "Cindy: Bob is an animal rights activist. He doesn't believe in harming animals.",
+      "zh": ""
+    },
+    {
+      "en": "Miranda: Dinner's ready! Let's go out to the patio where the pig is roasting.",
+      "zh": ""
+    },
+    {
+      "en": "Bob: Roast pig? I'm a vegetarian.",
+      "zh": ""
+    }
+  ],
+  "code": "C0210",
+  "title": "Daily Life - Meeting the In-laws",
+  "level": "Elementary"
 }

@@ -1104,5 +1104,114 @@
       "en": "All right, thanks for listening and until next time, goodbye.",
       "zh": "好的，感谢收听，下次见，再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I hate working on Christmas Eve!",
+      "zh": "A：我讨厌在平安夜上班！"
+    },
+    {
+      "en": "A: Whoa!",
+      "zh": "A：哇！"
+    },
+    {
+      "en": "A: Get a load of this guy!",
+      "zh": "A：看看这家伙！"
+    },
+    {
+      "en": "A: Come in central, I think we've got ourselves a situation here.",
+      "zh": "A：总部总部，我们这里好像有情况。"
+    },
+    {
+      "en": "B: License and registration please.",
+      "zh": "B：请出示驾照和行车证。"
+    },
+    {
+      "en": "B: Have you been drinking tonight, sir?",
+      "zh": "B：先生，你今晚喝酒了吗？"
+    },
+    {
+      "en": "A: I had one or two glasses of eggnog, but nothing else.",
+      "zh": "A：我喝了一两杯蛋奶酒，没别的了。"
+    },
+    {
+      "en": "B: Step out of the vehicle, please.",
+      "zh": "B：请下车。"
+    },
+    {
+      "en": "B: Sir, what do you have in the back?",
+      "zh": "B：先生，你后座装的是什么？"
+    },
+    {
+      "en": "A: Just a few Christmas gifts, 'tis the season, after all!",
+      "zh": "A：只是一些圣诞礼物，毕竟，这是送礼的季节嘛！"
+    },
+    {
+      "en": "B: Don't take that tone with me.",
+      "zh": "B：别用那种语气跟我说话。"
+    },
+    {
+      "en": "B: Do you have an invoice for these items?",
+      "zh": "B：你有这些物品的发票吗？"
+    },
+    {
+      "en": "A: Umm...no... I make these in my workshop in the North Pole!",
+      "zh": "A：嗯…没有…这些是我在北极的作坊里做的！"
+    },
+    {
+      "en": "B: You are under arrest, sir.",
+      "zh": "B：先生，你被捕了。"
+    },
+    {
+      "en": "B: You have the right to remain silent.",
+      "zh": "B：你有权保持沉默。"
+    },
+    {
+      "en": "B: You better not pout, you better not cry.",
+      "zh": "B：你最好别噘嘴，你最好别哭。"
+    },
+    {
+      "en": "B: Anything you say can and will be used against you.",
+      "zh": "B：你说的任何话都可以作为呈堂证供。"
+    },
+    {
+      "en": "B: You have the right to an attorney; if you can not afford one, the state will appoint",
+      "zh": "B：你有权请律师；如果你请不起，法庭将为你指派"
+    },
+    {
+      "en": "A: You can't take me to jail!",
+      "zh": "A：你不能把我关进监狱！"
+    },
+    {
+      "en": "A: What about my sleigh?",
+      "zh": "A：我的雪橇怎么办？"
+    },
+    {
+      "en": "A: It's Christmas Eve!",
+      "zh": "A：今天是平安夜！"
+    },
+    {
+      "en": "A: I have Presents to deliver!",
+      "zh": "A：我还有礼物要送！"
+    },
+    {
+      "en": "A: Rudolph!",
+      "zh": "A：鲁道夫！"
+    },
+    {
+      "en": "A: Prancer!",
+      "zh": "A：小飞侠！"
+    },
+    {
+      "en": "A: Dancer!",
+      "zh": "A：舞者！"
+    },
+    {
+      "en": "A: Get help!",
+      "zh": "A：快来帮忙！"
+    }
+  ],
+  "code": "C0019",
+  "title": "The Weekend - Christmas Chronicles",
+  "level": "Elementary"
 }

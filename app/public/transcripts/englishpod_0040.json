@@ -960,5 +960,78 @@
       "en": "Good Sarmalee until next time.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Um, sorry to bother you, um... my name is Rachel.",
+      "zh": "A：嗯，抱歉打扰了，嗯……我叫瑞秋。"
+    },
+    {
+      "en": "A: I'm new here.",
+      "zh": "A：我是新来的。"
+    },
+    {
+      "en": "A: Can I ask you a favor?",
+      "zh": "A：我能请你帮个忙吗？"
+    },
+    {
+      "en": "B: Hi Rachel, welcome on board.",
+      "zh": "B：嗨瑞秋，欢迎加入。"
+    },
+    {
+      "en": "B: I'm afraid I can't help you right now.",
+      "zh": "B：恐怕我现在帮不了你。"
+    },
+    {
+      "en": "B: I'm getting ready for a very important meeting.",
+      "zh": "B：我正为一个非常重要的会议做准备。"
+    },
+    {
+      "en": "A: Excuse me, but can I bother you for a sec?",
+      "zh": "A：不好意思，能打扰你一下吗？"
+    },
+    {
+      "en": "C: You know what, I'd love to help you, but I'm about to meet an important client.",
+      "zh": "C：你知道吗，我很想帮你，但我马上要去见一个重要的客户。"
+    },
+    {
+      "en": "C: Do you wanna try Sean instead?",
+      "zh": "C：你要不要去找肖恩试试？"
+    },
+    {
+      "en": "C: He sits right over there.",
+      "zh": "C：他就坐在那边。"
+    },
+    {
+      "en": "A: Sorry to interrupt you Sean, could you do me a quick favor?",
+      "zh": "A：抱歉打扰了肖恩，你能帮我一个小忙吗？"
+    },
+    {
+      "en": "D: Actually, I'm working on a document that is due in a couple minutes.",
+      "zh": "D：其实我正在赶一份几分钟后就要交的文件。"
+    },
+    {
+      "en": "D: I really can't talk to you right now.",
+      "zh": "D：我现在真的没法跟你说话。"
+    },
+    {
+      "en": "D: Sorry about that.",
+      "zh": "D：很抱歉。"
+    },
+    {
+      "en": "A: Geeze!",
+      "zh": "A：天哪！"
+    },
+    {
+      "en": "A: I just want to know where the bathroom is!",
+      "zh": "A：我只是想知道洗手间在哪里！"
+    },
+    {
+      "en": "A: What's wrong with you people!",
+      "zh": "A：你们这些人怎么回事啊！"
+    }
+  ],
+  "code": "B0040",
+  "title": "Can I ask you a favor?",
+  "level": "Elementary"
 }

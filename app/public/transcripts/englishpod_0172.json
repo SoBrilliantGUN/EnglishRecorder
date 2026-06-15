@@ -956,5 +956,46 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Thank god you are open! I have an emergency!",
+      "zh": ""
+    },
+    {
+      "en": "B: Hello Mr. Henderson what can I do for you?",
+      "zh": ""
+    },
+    {
+      "en": "A: I need this dress and this suit dry cleaned ASAP!",
+      "zh": ""
+    },
+    {
+      "en": "B: OK, I can have it ready by the end of the week.",
+      "zh": ""
+    },
+    {
+      "en": "A: No you don't understand, I need this tomorrow morning! I accidentally spilled beer all over my wife's dress and we have a wedding to attend tomorrow! She's gonna kill me!",
+      "zh": ""
+    },
+    {
+      "en": "B: Ok, I can have it ready tomorrow afternoon, but this suit is also very stained. I can't guarantee we can remove it completely.",
+      "zh": ""
+    },
+    {
+      "en": "A: Fine! Can you also iron and starch this shirt?",
+      "zh": ""
+    },
+    {
+      "en": "B: Certainly.",
+      "zh": ""
+    },
+    {
+      "en": "A: Great! This is our secret! If you see my wife, say nothing to her about this!",
+      "zh": ""
+    }
+  ],
+  "code": "C0172",
+  "title": "Daily Life - Dry Cleaners",
+  "level": "Elementary"
 }

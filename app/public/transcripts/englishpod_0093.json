@@ -812,5 +812,34 @@
       "en": "Thanks for downloading and until next time, goodbye!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: It's a beautiful day here in New Zealand at the Men's V olleyball world championship. My name is Rick Fields and I'm joined by the man with the plan, Bob Copeland.",
+      "zh": ""
+    },
+    {
+      "en": "B: Thank you, Rick. We've got a very exciting encounter ahead of us today as two powerhouse teams, Brazil and 25 China, face off against each other and try to qualify for the next round. Without a doubt, both teams are in top shape and this will prove to be a competitive match.",
+      "zh": ""
+    },
+    {
+      "en": "A: The ref signals the start of the game and here we go. Ribeiro serves and China quickly receives the ball. Chen bumps it to the setter, and... a very nice set by Chen!",
+      "zh": ""
+    },
+    {
+      "en": "B: Xu spikes it! Wow, what a great hit! The Brazilian blockers anticipated the play and tried to block him but he managed to get the ball in! Great play.",
+      "zh": ""
+    },
+    {
+      "en": "A: It's China's service now. What a superb jump serve by Li, oh, and we have a let serve. The ball was coming in fast and almost made it over the net.",
+      "zh": ""
+    },
+    {
+      "en": "B: Brazil calls for a time out and we'll be right back, after a short commercial break.",
+      "zh": ""
+    }
+  ],
+  "code": "C0093",
+  "title": "Intermediate - Volleyball",
+  "level": "Elementary"
 }

@@ -1040,5 +1040,50 @@
       "en": "Special thanks topopular Editor Scotton McCray for en regulating Englishijn.com.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: This is the good life! We have it good don't you think?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah of course! Although, don't you ever wonder what \"could have been\"?",
+      "zh": ""
+    },
+    {
+      "en": "A: What do you mean?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, sometimes I think of how things could have turned out if I had done things a little differently.",
+      "zh": ""
+    },
+    {
+      "en": "A: For example?",
+      "zh": ""
+    },
+    {
+      "en": "B: Like for example, if I hadn't studied architecture, I would have become an artist like I wanted to.",
+      "zh": ""
+    },
+    {
+      "en": "A: I see. Yeah now that I think of it, I wouldn't have gotten married if I hadn't moved to this town and met Sally.",
+      "zh": ""
+    },
+    {
+      "en": "B: You see! Everything happens for a reason! We wouldn't even have met if I hadn't been in that car accident ten years ago!",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, I have no regrets!",
+      "zh": ""
+    },
+    {
+      "en": "B: I'll drink to that!",
+      "zh": ""
+    }
+  ],
+  "code": "C0141",
+  "title": "Daily Life - What If? Part 2",
+  "level": "Elementary"
 }

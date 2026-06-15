@@ -744,5 +744,54 @@
       "en": "��Music Playing��",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Grace: Hey Michelle! Is that you?",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Wow, Grace! Long time no see! Where have you been?",
+      "zh": ""
+    },
+    {
+      "en": "Grace: Oh yeah. Well you see I got a promotion, so I moved to the new Pudong office last September.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: You did? Congratulations!",
+      "zh": ""
+    },
+    {
+      "en": "Grace: Thanks a lot. So how are things with you Michelle?",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Well, same old same oldyou know. Nothing much has changed here.",
+      "zh": ""
+    },
+    {
+      "en": "Grace: Are you still seeing Chris?",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: No, actually we split up last month.",
+      "zh": ""
+    },
+    {
+      "en": "Grace: Oh dear. I'm sorry to hear that.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: But I met a really cute guy last night at a networking party so,...well, let's just wait and see...",
+      "zh": ""
+    },
+    {
+      "en": "Grace: Good for you Michelle!",
+      "zh": ""
+    }
+  ],
+  "code": "C0313",
+  "title": "The Office - Small talk 3",
+  "level": "Intermediate"
 }

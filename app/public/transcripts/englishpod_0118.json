@@ -964,5 +964,62 @@
       "en": "Goodbye!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Honey, the baby is up again.",
+      "zh": ""
+    },
+    {
+      "en": "B: It's your turn! I went last night.",
+      "zh": ""
+    },
+    {
+      "en": "A: Fine! Hello widdle baby! Why are you crying widdle baby? Oh, I see, you made a doo-doo!",
+      "zh": ""
+    },
+    {
+      "en": "B: What's going on hun? Why is the baby crying?",
+      "zh": ""
+    },
+    {
+      "en": "A: The widdle baby made a doo -doo!",
+      "zh": ""
+    },
+    {
+      "en": "B: What a good boy! Let's get this icky diaper off you.",
+      "zh": ""
+    },
+    {
+      "en": "A: Looky what I have here! Mickey Mouse jammies! oopsie-daisy! Did the widdle baby just tinkle all over daddy?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes he did! Yes he did! You just made a wee wee all over daddy!",
+      "zh": ""
+    },
+    {
+      "en": "A: Hold still while I change this yucky diaper.",
+      "zh": ""
+    },
+    {
+      "en": "C: What going on in here?",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh look it's nana! Say hi to nana!",
+      "zh": ""
+    },
+    {
+      "en": "C: He's so adorable! I could just eat him up!",
+      "zh": ""
+    },
+    {
+      "en": "A: Ok, say bye to nana! Time to go beddy - bye!",
+      "zh": ""
+    }
+  ],
+  "code": "C0118",
+  "title": "Daily Life - Baby Talk",
+  "level": "Elementary"
 }

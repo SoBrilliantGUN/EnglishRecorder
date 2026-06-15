@@ -816,5 +816,14 @@
       "en": "Happy New Year.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0340",
+  "title": "Lesson 340",
+  "level": "Intermediate"
 }

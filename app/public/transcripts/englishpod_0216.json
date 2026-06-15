@@ -900,5 +900,50 @@
       "en": "Thank you.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "John: Ok darling, got some pizzas, potato chips, hot dogs and lots of cheese!",
+      "zh": ""
+    },
+    {
+      "en": "Kelly: Oh John, I thought we said we would start eating 61 right! Remember? Our new healthy lifestyle? That's all junk food!",
+      "zh": ""
+    },
+    {
+      "en": "John: Hrumph! Right, so what did you get?",
+      "zh": ""
+    },
+    {
+      "en": "Kelly: Well, healthy food, of course! I got some whole wheat bread, skimmed milk, fresh fish and organic carrots...",
+      "zh": ""
+    },
+    {
+      "en": "John: Organic? What's organic? Do we need organic carrots...?",
+      "zh": ""
+    },
+    {
+      "en": "Kelly: They were grown without using any chemicals that are harmful to our health. And yes, John, we need organic carrots...",
+      "zh": ""
+    },
+    {
+      "en": "John: Oh, so organic vegetables are the 'green' option, right?",
+      "zh": ""
+    },
+    {
+      "en": "Kelly: Yup, better for the environment and better for us!",
+      "zh": ""
+    },
+    {
+      "en": "John: Wait a minute, that?... Doughnuts? they organic doughnuts, Kelly?",
+      "zh": ""
+    },
+    {
+      "en": "Kelly:... I like doughnuts.",
+      "zh": ""
+    }
+  ],
+  "code": "C0216",
+  "title": "Daily Life - Health Food",
+  "level": "Elementary"
 }

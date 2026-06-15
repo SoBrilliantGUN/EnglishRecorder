@@ -808,5 +808,62 @@
       "en": "Goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hello, Fairbrook Consulting, how may I help you?",
+      "zh": "A：你好，费尔布鲁克咨询公司，有什么可以帮您？"
+    },
+    {
+      "en": "B: Yes, this is Julianne Horton, and I'm calling to arrange an appointment with Ms. Mc Nealy.",
+      "zh": "B：是的，我是朱莉安·霍顿，我想预约麦克尼利女士。"
+    },
+    {
+      "en": "A: Certainly, what day were you thinking of?",
+      "zh": "A：当然可以，您想约哪天？"
+    },
+    {
+      "en": "B: How's Thursday?",
+      "zh": "B：周四怎么样？"
+    },
+    {
+      "en": "B: Does she have any time available then?",
+      "zh": "B：她那天有空吗？"
+    },
+    {
+      "en": "A: Um... let me double check... unfortunately, she's booked solid on Thursday, how does next Monday work for you?",
+      "zh": "A：嗯……让我确认一下……不巧，她周四已经排满了，下周一行吗？"
+    },
+    {
+      "en": "B: Actually, I've got something scheduled on Monday.",
+      "zh": "B：其实，我周一已经有安排了。"
+    },
+    {
+      "en": "B: Can she do Tuesday?",
+      "zh": "B：她能约周二吗？"
+    },
+    {
+      "en": "A: Sure, Tuesday's perfect.",
+      "zh": "A：当然，周二没问题。"
+    },
+    {
+      "en": "A: May I ask where you're calling from?",
+      "zh": "A：请问您是从哪里打来的？"
+    },
+    {
+      "en": "B: Sure, Merton Financial Advisors.",
+      "zh": "B：默顿财务顾问公司。"
+    },
+    {
+      "en": "A: Oh, actually, Tuesday's no good.",
+      "zh": "A：哦，其实周二不行了。"
+    },
+    {
+      "en": "A: Sorry 'bout that.",
+      "zh": "A：抱歉。"
+    }
+  ],
+  "code": "B0023",
+  "title": "Making an Appointment",
+  "level": "Elementary"
 }

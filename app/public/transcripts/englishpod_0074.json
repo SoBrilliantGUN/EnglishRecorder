@@ -1556,5 +1556,54 @@
       "en": "Well guys, thanks for listening to this lesson, and until next time, goodbye!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Miss, your salad.",
+      "zh": ""
+    },
+    {
+      "en": "B: Mmm, looks good! I'm positively famished.",
+      "zh": ""
+    },
+    {
+      "en": "A: And for you, sir...",
+      "zh": ""
+    },
+    {
+      "en": "C: Thank you.",
+      "zh": ""
+    },
+    {
+      "en": "A: Enjoy.",
+      "zh": ""
+    },
+    {
+      "en": "C: Thank you.",
+      "zh": ""
+    },
+    {
+      "en": "C: I can't believe she's on a da te with me! I'm so lucky! I must be the luckiest guy in the world! I want to scream at the top of my lungs, \" I'm the luckiest dude in the world! \" Oh, shut up! Don't be such a dumb ass. She's so hot. Wait, I can't say that. That's sexist. She's so hot, She's making me sexist. Oh my god! I'm such a tool. Okay, get it together. Uhh, she's eating salad. Oh right, I have a salad. Oh, crap! Which fork do I use? Dammit! She's going to think I'm a moron. What the hell are all these forks for? Which one did she use? Okay, chill... be cool, be cool. Just take a fork... eat your salad...",
+      "zh": ""
+    },
+    {
+      "en": "B: Um... I...",
+      "zh": ""
+    },
+    {
+      "en": "C: Yrmf? Mmmm. Sorry, you were saying?",
+      "zh": ""
+    },
+    {
+      "en": "B: You're eating my salad.",
+      "zh": ""
+    },
+    {
+      "en": "C: Oh, yes... it's delicious...",
+      "zh": ""
+    }
+  ],
+  "code": "C0074",
+  "title": "Daily Life - What Am I Thinking!",
+  "level": "Elementary"
 }

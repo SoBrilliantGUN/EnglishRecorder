@@ -908,5 +908,54 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: So where is this mystery restaurant that we are going to?",
+      "zh": ""
+    },
+    {
+      "en": "B: It's an Indian restaurant! I know you have never had Indian food, so I thought you might want to try.",
+      "zh": ""
+    },
+    {
+      "en": "A: That sounds great! I am craving some type of beef dish.",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, Indian cuisine actually doesn't serve beef. You see, cows are a sacred animal, a very important element in the Hindu religion, so beef is not eaten.",
+      "zh": ""
+    },
+    {
+      "en": "A: I see, so what are we having? Chicken?",
+      "zh": ""
+    },
+    {
+      "en": "B: There are many amazing dishes to choose from. We can havesome chicken tikka masalawhich is an amazing curry. It's a bit spicy, but I think you can handle it.",
+      "zh": ""
+    },
+    {
+      "en": "A: Sounds good! I have always heard that Indian spices give a rich flavor to food.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah. Also, we can have some Naan bread which is baked in a tandoori oven. Since you don't use any utensils to eat, you can use this bread to scoop upthe curry or rice.",
+      "zh": ""
+    },
+    {
+      "en": "A: What about veggies?",
+      "zh": ""
+    },
+    {
+      "en": "B: They have a good variety of vegetable based dishes like palak paneer, vegetable samosas or Daal.",
+      "zh": ""
+    },
+    {
+      "en": "A: It all sounds exquisite! I can't wait!",
+      "zh": ""
+    }
+  ],
+  "code": "C0309",
+  "title": "Global View - Indian Food",
+  "level": "Intermediate"
 }

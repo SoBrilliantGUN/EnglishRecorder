@@ -1056,5 +1056,86 @@
       "en": "Goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: In a digital world, even the strongest must fight for survival.",
+      "zh": "A：在一个数字世界里，即使是最强大的人也必须为生存而战。"
+    },
+    {
+      "en": "A: Two people, possess a secret so valuable, so powerful, they have to defend it at all costs.",
+      "zh": "A：两个人，拥有一个如此宝贵、如此强大的秘密，他们必须不惜一切代价保卫它。"
+    },
+    {
+      "en": "B: I don't care where they are, I don't care what it takes... you find them and bring them to me!",
+      "zh": "B：我不在乎他们在哪，我不惜任何代价……找到他们，把他们带到我面前来！"
+    },
+    {
+      "en": "A: They only had one chance!",
+      "zh": "A：他们只有一次机会！"
+    },
+    {
+      "en": "A: And their chance was to fight back!",
+      "zh": "A：而他们选择反击！"
+    },
+    {
+      "en": "D: You wanna play rough?",
+      "zh": "D：你想来硬的？"
+    },
+    {
+      "en": "D: Okay, say hello to my little friend!",
+      "zh": "D：好吧，来见见我的小朋友！"
+    },
+    {
+      "en": "A: With a little help from a Governor...",
+      "zh": "A：在一位州长的一点帮助下……"
+    },
+    {
+      "en": "C: Listen to me!",
+      "zh": "C：听我说！"
+    },
+    {
+      "en": "C: We have to get them outta there!",
+      "zh": "C：我们必须把他们救出来！"
+    },
+    {
+      "en": "C: No matter what!",
+      "zh": "C：无论如何！"
+    },
+    {
+      "en": "A: Nothing will prevent them from doing their job!",
+      "zh": "A：没有什么能阻止他们完成任务！"
+    },
+    {
+      "en": "A: Double the action.",
+      "zh": "A：双倍的动作场面。"
+    },
+    {
+      "en": "D: Get down!",
+      "zh": "D：趴下！"
+    },
+    {
+      "en": "A: Triple the excitement.",
+      "zh": "A：三倍的刺激。"
+    },
+    {
+      "en": "D: Get down again!",
+      "zh": "D：再趴下一次！"
+    },
+    {
+      "en": "A: This summer... nothing will stand in their way.",
+      "zh": "A：这个夏天……没有什么能阻挡他们。"
+    },
+    {
+      "en": "B: I'm going to make him an offer he can't refuse.",
+      "zh": "B：我要给他一个无法拒绝的条件。"
+    },
+    {
+      "en": "A: Two hosts, one podcast, coming to a theater near you.",
+      "zh": "A：两个主持人，一个播客，即将在你附近的影院上映。"
+    }
+  ],
+  "code": "C0041",
+  "title": "The Weekend - Movie Trailer",
+  "level": "Elementary"
 }

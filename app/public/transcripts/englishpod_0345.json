@@ -896,5 +896,14 @@
       "en": "Bye bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0345",
+  "title": "Lesson 345",
+  "level": "Intermediate"
 }

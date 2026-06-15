@@ -1088,5 +1088,54 @@
       "en": "Goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Excuse me sir, this is the express check-out lane for people that have fifteen items or fewer. It looks like you have more than fifteen items there.",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh, come on! I have sixteen items! Cut me some slack, will ya?",
+      "zh": ""
+    },
+    {
+      "en": "A: Fine! Please place your items on the belt and push your shopping cart through. Do you prefer paper or plastic?",
+      "zh": ""
+    },
+    {
+      "en": "B: Plastic. I also have a couple of coupons.",
+      "zh": ""
+    },
+    {
+      "en": "A: No problem, I'll take those. Sir, these coupons expired yesterday.",
+      "zh": ""
+    },
+    {
+      "en": "B: Darn! Oh, well. I guess it's just not my day. Thanks anyway.",
+      "zh": ""
+    },
+    {
+      "en": "A: Do you have a club card or will it be cash?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah I got a club card. Here you go.",
+      "zh": ""
+    },
+    {
+      "en": "A: Will this be debit or credit?",
+      "zh": ""
+    },
+    {
+      "en": "B: Debit please. Also, could I get cash back? Fifty dollars would be great.",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah, sure. Your total is seventy-eight dollars and thirty-three cents. Here is your receipt. Have a nice day.",
+      "zh": ""
+    }
+  ],
+  "code": "C0122",
+  "title": "Daily Life - Supermarket Cashier",
+  "level": "Elementary"
 }

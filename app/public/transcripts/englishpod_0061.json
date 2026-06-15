@@ -1408,5 +1408,46 @@
       "en": "But until next time, goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: This is such a beautiful day! Great for sailing!",
+      "zh": ""
+    },
+    {
+      "en": "B: It sure is! The water looks so nice! Anchor the boat for a little while. I'm going to take a dip.",
+      "zh": ""
+    },
+    {
+      "en": "A: Why are you doggy-paddling? I taught you how to swim! Do your breast stroke!",
+      "zh": ""
+    },
+    {
+      "en": "B: I get too tired! I'll just backstroke, it's easier!",
+      "zh": ""
+    },
+    {
+      "en": "A: Try kicking your legs more. That's good. Don't go out too far!",
+      "zh": ""
+    },
+    {
+      "en": "B: It's Jump in!",
+      "zh": ""
+    },
+    {
+      "en": "A: Kathy! Get back here! I see a shark!",
+      "zh": ""
+    },
+    {
+      "en": "B: Ahhhh!!!! Help me! Help! Br ing the boat closer! The shark is coming straight towards me!",
+      "zh": ""
+    },
+    {
+      "en": "A: It's right under you! Kathy!!!!!",
+      "zh": ""
+    }
+  ],
+  "code": "C0061",
+  "title": "The Weekend - Swim faster!",
+  "level": "Elementary"
 }

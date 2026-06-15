@@ -984,5 +984,62 @@
       "en": "Well, I think we're out of time, but until next time, it's goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: So, Casey, how are things going with the photos for the press kit?",
+      "zh": "A：那么，凯西，新闻资料包的照片准备得怎么样了？"
+    },
+    {
+      "en": "B: Yeah, I've been meaning to talk to you about that.",
+      "zh": "B：是啊，我一直想跟你谈谈这个。"
+    },
+    {
+      "en": "B: I might need to ask for an extension on that deadline.",
+      "zh": "B：我可能需要申请延期。"
+    },
+    {
+      "en": "A: You've had over a month to get this finalized!",
+      "zh": "A：你已经有一个多月时间来完成这件事了！"
+    },
+    {
+      "en": "A: Why are things delayed?",
+      "zh": "A：为什么会拖延？"
+    },
+    {
+      "en": "B: Well, the thing is, we ran into a lot of problems...",
+      "zh": "B：嗯，事情是这样的，我们遇到了很多问题……"
+    },
+    {
+      "en": "A: I'm not looking for excuses here.",
+      "zh": "A：我不是来找借口的。"
+    },
+    {
+      "en": "A: I just want to get this finished on time!",
+      "zh": "A：我只想按时完成这件事！"
+    },
+    {
+      "en": "B: I know, and I apologize for the delay.",
+      "zh": "B：我知道，我为拖延道歉。"
+    },
+    {
+      "en": "B: But some things were just beyond my control.",
+      "zh": "B：但有些事情真的不在我控制范围内。"
+    },
+    {
+      "en": "B: I had trouble booking the photographer, and then Michael was sick for three weeks, so I couldn't include him in the photos, and the design team lost all the files, so I had to re-do the pictures.",
+      "zh": "B：我约摄影师遇到困难，然后迈克尔病了三周，所以我没法把他拍进去，然后设计团队丢失了所有文件，我不得不重拍这些照片。"
+    },
+    {
+      "en": "A: I'm not going to put this off any longer, Casey!",
+      "zh": "A：我不能再拖了，凯西！"
+    },
+    {
+      "en": "A: I want those photos ASAP!",
+      "zh": "A：我 ASAP 要看到那些照片！"
+    }
+  ],
+  "code": "B0042",
+  "title": "I Need More Time",
+  "level": "Elementary"
 }

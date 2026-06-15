@@ -896,5 +896,42 @@
       "en": "Bye!",
       "zh": "再见！"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Those people in front of us are making so much noise. It's so inconsiderate!",
+      "zh": "A：前面那些人太吵了。真是太不为别人着想了！"
+    },
+    {
+      "en": "B: Don't worry about it, it's not such a big deal.",
+      "zh": "B：别在意，没什么大不了的。"
+    },
+    {
+      "en": "A: Oh... I can't hear a thing! Excuse me, can you keep it down?",
+      "zh": "A：哦…我什么都听不见了！打扰一下，能小声点吗？"
+    },
+    {
+      "en": "C: Sure, sorry about that!",
+      "zh": "C：好的，抱歉！"
+    },
+    {
+      "en": "A: Someones phone is ringing!",
+      "zh": "A：有人的手机在响！"
+    },
+    {
+      "en": "B: Honey, I think its your phone. Did you forget to switch it off?",
+      "zh": "B：亲爱的，好像是你手机。你忘记关机了吗？"
+    },
+    {
+      "en": "A: Oh, no! You are right. That's so embarrassing!",
+      "zh": "A：哦不！你说得对。太尴尬了！"
+    },
+    {
+      "en": "C: Do you mind keeping it down? I'm trying to watch a movie here!",
+      "zh": "C：你们能小声点吗？我在这看电影呢！"
+    }
+  ],
+  "code": "C0009",
+  "title": "The Weekend - Silence please!",
+  "level": "Elementary"
 }

@@ -988,5 +988,70 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: So, Lauren, I just wanted to talk to you quickly about our new customer support representative, Jason Huntley.",
+      "zh": "A：那么，劳伦，我想跟你快速聊一下我们新的客户支持代表，杰森·亨特利。"
+    },
+    {
+      "en": "B: Sure, what's up?",
+      "zh": "B：当然，怎么了？"
+    },
+    {
+      "en": "A: Basically, I've got a few concerns about him, and the bottom line is, I don't think he's a good fit for our company.",
+      "zh": "A：基本上，我对他有一些担忧，归根结底就是，我觉得他不适合我们公司。"
+    },
+    {
+      "en": "B: Okay... what makes you say that?",
+      "zh": "B：好吧……是什么让你这么说？"
+    },
+    {
+      "en": "B: I thought you were pleased with his overall performance.",
+      "zh": "B：我以为你对他总体表现很满意。"
+    },
+    {
+      "en": "B: Didn't you just tell me last week how impressed you were with his attitude?",
+      "zh": "B：你上周不是才跟我说你对他的态度印象深刻吗？"
+    },
+    {
+      "en": "A: Yeah, his attitude is great, but he's really unreliable.",
+      "zh": "A：是啊，他的态度是很好，但他真的很不可靠。"
+    },
+    {
+      "en": "A: Sometimes he's really produc tive, but then other times... take last Tuesday for instance, he was forty-five minutes late for our morning meeting!",
+      "zh": "A：有时他效率很高，但有时候……就拿上周二来说，他开早会迟到了四十五分钟！"
+    },
+    {
+      "en": "B: Well, I'm sure he had a perfectly good reason...",
+      "zh": "B：嗯，我相信他一定有充分的理由……"
+    },
+    {
+      "en": "A: But that's not the only thing... you know, he really doesn't have the best work ethic, I'm constantly catching him on MSN and Facebook when he should be talking to clients.",
+      "zh": "A：但这还不是唯一的……你知道，他的工作态度真的不太好，我经常抓到他本该跟客户沟通的时候在刷MSN和Facebook。"
+    },
+    {
+      "en": "B: Yeah, but come on, Geoff, as if you don't check Facebook at work.",
+      "zh": "B：是啊，但是，拜托，杰夫，好像你自己上班不刷Facebook似的。"
+    },
+    {
+      "en": "B: Look, you hired this guy, we've invested a lot of time and money in his training, so now it's up to you to coach him.",
+      "zh": "B：听着，这人是你招的，我们在他的培训上投入了大量时间和金钱，所以现在你得负责带好他。"
+    },
+    {
+      "en": "B: Make it work, Geoff!",
+      "zh": "B：想办法搞定，杰夫！"
+    },
+    {
+      "en": "A: Make it work, Geoff.",
+      "zh": "A：想办法搞定，杰夫。"
+    },
+    {
+      "en": "A: You would say that, wouldn't you, he is your cousin; what a jerk, make me hire your stupid, useless, cousin.",
+      "zh": "A：你当然会这么说了，他是你表弟；真是个混蛋，逼我雇你那又蠢又没用的表弟。"
+    }
+  ],
+  "code": "C0035",
+  "title": "Daily Life - He’s not a Good Fit",
+  "level": "Elementary"
 }

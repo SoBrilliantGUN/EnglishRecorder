@@ -720,5 +720,34 @@
       "en": "See you soon.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: It's freezing in here! Can I turn up the heat?",
+      "zh": ""
+    },
+    {
+      "en": "B: Don't touch that thermostat! You don't paythe bills around here!",
+      "zh": ""
+    },
+    {
+      "en": "A: Dad! Are you serious? What's the point of having central heating if we can't use it! Look, I can see my breath!",
+      "zh": ""
+    },
+    {
+      "en": "B: Put on a sweater! I'm not gonna let you run up my 50 heating bill just because it's a bit chilly.",
+      "zh": ""
+    },
+    {
+      "en": "A: Dad! I'm gonna catch a cold!",
+      "zh": ""
+    },
+    {
+      "en": "B: When I was your age, my parents didn't have central heating like you do! We had a furnace in the center of the living room and that was it. We used it to cook, heat the house and even dry our clothes! We never caught a cold. You should be grateful!",
+      "zh": ""
+    }
+  ],
+  "code": "C0176",
+  "title": "Daily Life - Heating",
+  "level": "Elementary"
 }

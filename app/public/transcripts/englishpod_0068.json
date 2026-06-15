@@ -860,5 +860,34 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: We've been over this a thousand times. The data is irrefutable! Look, we've done extensive research, built studies, and read the literature, and there is conclusive evidence to support my theory!",
+      "zh": ""
+    },
+    {
+      "en": "B: Horowitz, I beg to differ. Even in your most recent study, the investigative approach was flawed! You know as well as I do that the collection of data was not systematic, and there is a large margin of error. To draw a definitive conclusion based on that data would be misleading",
+      "zh": ""
+    },
+    {
+      "en": "A: That is preposterous!",
+      "zh": ""
+    },
+    {
+      "en": "B: You are trying to single-ha ndedly solve one of the world's greatest mysteries, and yet you are oblivious to the fact that you are wrong!",
+      "zh": ""
+    },
+    {
+      "en": "A: I am not wrong! The chicken came first!",
+      "zh": ""
+    },
+    {
+      "en": "B: No! The egg came first!",
+      "zh": ""
+    }
+  ],
+  "code": "C068",
+  "title": "Ground breaking Research",
+  "level": "Intermediate"
 }

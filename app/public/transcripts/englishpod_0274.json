@@ -760,5 +760,30 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Ford: As all of you are well aware, competition in the laptop computer sector is intense. Mr We continue to fight with our competitors for market share, and this is the case both in the developed markets in the West, as well as more developing markets in Asia and Africa. Mr",
+      "zh": ""
+    },
+    {
+      "en": "Ford: You may ask yourself, why is this market so cut-throat? Well the answer is simple. There is a huge untapped potential market out there,with a huge untapped potential for profit. Mr If I bring up the first graph here, it shows the increase in terms of number of computer owners across the globe. Mr",
+      "zh": ""
+    },
+    {
+      "en": "Ford: As you can see in the 1980's computer ownership amounted to around 0.5% of the total world population. Since the 1990's, computer ownership has risen dramatically. Mr In the new millennium we saw an even larger explosion in computer owners, with figures rising to around 4- 5%, an increase of 1000 % percent compared with the 1980's. Mr",
+      "zh": ""
+    },
+    {
+      "en": "Ford: If we move on to discuss the figures for China specifically we can see in Chart B that the overall figure for computer ownership stands at around 60 million, which represents a huge increase in a very short time period. Mr Now of course 60 million is just a drop in the ocean if you compare the total population of China, and this is a key reason why the personal computer market is such a hot market. Mr",
+      "zh": ""
+    },
+    {
+      "en": "Ford: For us at Alpha, and of course for all our competitors as well, we have millions of potential customers who are looking to join the internet generation. Mr If we do this right we really can reap huge rewards in a very short time frame. I'd now like to move on to discuss the x420 brand itself, and compare and contrast with some of our key competitors.",
+      "zh": ""
+    }
+  ],
+  "code": "C0274",
+  "title": "sounds just like you! The Office - Presentation Series 2 - Talking about",
+  "level": "Intermediate"
 }

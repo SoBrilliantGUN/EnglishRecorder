@@ -20,7 +20,7 @@
 
 | 课程数 | 展示模式 | 使用主题集 | 说明 |
 |--------|----------|------------|------|
-| = 1 | `single` | `SINGLE_THEMES` | 从 `groups[0]` + `podcasts-fixed.json` 反查数据，自动补全课程信息 |
+| = 1 | `single` | `SINGLE_THEMES` | 从 `groups[0]` + `src/data/podcasts.ts` 反查数据，自动补全课程信息 |
 | 2 ~ 5 | `multi` | `MULTI_THEMES` | 完整课程列表 |
 | > 5 | `topn` | `TOPN_THEMES` | Top 4 明星课程 + 归并行（还学了 N 门，共 X 次） |
 

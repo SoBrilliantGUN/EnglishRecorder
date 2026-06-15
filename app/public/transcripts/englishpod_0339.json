@@ -544,5 +544,14 @@
       "en": "Music",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0339",
+  "title": "Lesson 339",
+  "level": "Intermediate"
 }

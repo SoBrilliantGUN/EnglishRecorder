@@ -1000,5 +1000,14 @@
       "en": "Bye",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0342",
+  "title": "Lesson 342",
+  "level": "Intermediate"
 }

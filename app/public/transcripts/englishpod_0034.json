@@ -1168,5 +1168,54 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: This is Madeline Wright, for BCC News reporting live from Washington D. C. where, very shortly, the new President will deliver his inaugural address. Just moments ago, the President was sworn-in to office; following the United States Constitution the President swore an oath to faithfully execute the office of the presidency.",
+      "zh": "A：我是麦德琳·赖特，BCC新闻从华盛顿特区现场报道，新总统即将在这里发表就职演说。就在刚才，总统宣誓就职；根据美国宪法，总统宣誓将忠实履行总统职务。"
+    },
+    {
+      "en": "B: And what exactly is going on now, Madeline?",
+      "zh": "B：麦德琳，现在具体是什么情况？"
+    },
+    {
+      "en": "A: Well, Tom, true to American tradition, the band has just played \"Hail to the Chief\", and the President has been honored by a 21-gun salute.",
+      "zh": "A：嗯，汤姆，按照美国传统，乐队刚刚演奏了《向统帅致敬》，总统接受了21响礼炮的致敬。"
+    },
+    {
+      "en": "A: Now we're waiting for the President to take to the stag e and deliver his speech.",
+      "zh": "A：现在我们在等待总统上台发表演讲。"
+    },
+    {
+      "en": "A: Tom, it's like a who's who of the political world here on Capital Hill, with dignitaries representing several different countries.",
+      "zh": "A：汤姆，国会山上仿佛是政界名人录，有来自多个国家的政要代表出席。"
+    },
+    {
+      "en": "B: What's the mood on the ground like, Madeline?",
+      "zh": "B：现场的气氛怎么样，麦德琳？"
+    },
+    {
+      "en": "A: In a word, the mood here is electric.",
+      "zh": "A：一言以蔽之，现场气氛令人激动。"
+    },
+    {
+      "en": "A: The excitement in the air is palpable; I've never seen a larger crowd here on Capital Hill, and the audience is shouting, crying, and embracing each other.",
+      "zh": "A：空气中都能感受到兴奋；我从未在国会山上见过这么多的人群，观众们在欢呼、哭泣、互相拥抱。"
+    },
+    {
+      "en": "A: On this, a most historic day, you can feel the hope and the excitement in the air.",
+      "zh": "A：在这个历史性的日子里，你能感受到空气中弥漫的希望和兴奋。"
+    },
+    {
+      "en": "A: The 20th of January will go down in history as the... Oh, Tom, it looks like the President is about to begin...",
+      "zh": "A：1月20日将作为……哦汤姆，看起来总统要开始了……"
+    },
+    {
+      "en": "C: My fellow Americans, today I stand before you...",
+      "zh": "C：我的美国同胞们，今天我站在你们面前……"
+    }
+  ],
+  "code": "D0034",
+  "title": "Upper-Intermediate - Live from",
+  "level": "Elementary"
 }

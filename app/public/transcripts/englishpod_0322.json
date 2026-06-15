@@ -1060,5 +1060,54 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Michelle: Excuse me, is this seat taken?",
+      "zh": ""
+    },
+    {
+      "en": "Stranger: No, please feel free.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Thanks a lot.",
+      "zh": ""
+    },
+    {
+      "en": "Stranger: Do you work in Shanghai?",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Yes I do. How about you?",
+      "zh": ""
+    },
+    {
+      "en": "Stranger: No, I'm a tourist. This place is amazing! It's much bigger than I imagined, and much more exciting! There's so much to see here.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: You can say that again! It's much more modern than people imagine. Where are you from?",
+      "zh": ""
+    },
+    {
+      "en": "Stranger: Um, well let's see... I'm from Kansas originally. A much quieter and more peaceful place than here, that's for sure!",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Uh huh...",
+      "zh": ""
+    },
+    {
+      "en": "Stranger: But I'm living in Paris right now.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Oh Paris! Wonderful, I'd love to visit some time!",
+      "zh": ""
+    }
+  ],
+  "code": "C0322",
+  "title": "The Office - Small Talk 6 - Talking About Yourself",
+  "level": "Intermediate"
 }

@@ -1148,5 +1148,90 @@
       "en": "Bye.",
       "zh": "再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I can't believe that Anthony is finally getting married!",
+      "zh": "A：真不敢相信安东尼终于要结婚了！"
+    },
+    {
+      "en": "B: Yeah well it's about time!",
+      "zh": "B：是啊也确实该结了！"
+    },
+    {
+      "en": "B: He's been living with his parents for 40 years!",
+      "zh": "B：他在父母家住了40年了！"
+    },
+    {
+      "en": "A: Don't be mean.",
+      "zh": "A：别刻薄了。"
+    },
+    {
+      "en": "A: Look here come the bridesmaids!",
+      "zh": "A：看，伴娘们过来了！"
+    },
+    {
+      "en": "A: Their dresses look beautiful!",
+      "zh": "A：她们的裙子真漂亮！"
+    },
+    {
+      "en": "B: Who are those kids walking down the aisle?",
+      "zh": "B：那些走红毯的小孩是谁？"
+    },
+    {
+      "en": "A: That's the flower girl and the ring bearer.",
+      "zh": "A：那是花童和戒童。"
+    },
+    {
+      "en": "A: I'm pretty sure they're the groom's niece and nephew.",
+      "zh": "A：我很确定是新郎的侄女和侄子。"
+    },
+    {
+      "en": "A: Oh, they look so cute!",
+      "zh": "A：哦，他们看起来太可爱了！"
+    },
+    {
+      "en": "B: I just hope the priest makes it quick.",
+      "zh": "B：我只希望牧师快点结束。"
+    },
+    {
+      "en": "B: I'm starving.",
+      "zh": "B：我饿死了。"
+    },
+    {
+      "en": "B: I hope the food's good at the reception.",
+      "zh": "B：希望婚宴上的食物好吃。"
+    },
+    {
+      "en": "A: That's all you ever think about, food!",
+      "zh": "A：你就知道吃！"
+    },
+    {
+      "en": "A: Oh, I think the bride's coming now!",
+      "zh": "A：哦，我想新娘现在来了！"
+    },
+    {
+      "en": "A: She looks gorgeous.",
+      "zh": "A：她看起来美极了。"
+    },
+    {
+      "en": "A: Wait, what's she doing?",
+      "zh": "A：等等，她在干什么？"
+    },
+    {
+      "en": "A: Where's she going?",
+      "zh": "A：她去哪儿了？"
+    },
+    {
+      "en": "B: Oh great!",
+      "zh": "B：哦太棒了！"
+    },
+    {
+      "en": "B: Does this mean that the reception is canceled?",
+      "zh": "B：这是不是意味着婚宴取消了？"
+    }
+  ],
+  "code": "B0017",
+  "title": "Here Comes the Bride",
+  "level": "Elementary"
 }

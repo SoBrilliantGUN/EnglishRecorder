@@ -1104,5 +1104,66 @@
       "en": "And don't forget to like and subscribe.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hello. May I help you?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, this dress is really nice! How much is it?",
+      "zh": ""
+    },
+    {
+      "en": "A: That one is one hundred and fifty dollars.",
+      "zh": ""
+    },
+    {
+      "en": "B: One hundred and fifty dollars? What about this other one over here?",
+      "zh": ""
+    },
+    {
+      "en": "A: That's one hundred and forty dollars.",
+      "zh": ""
+    },
+    {
+      "en": "B: Hmm...that's a bit out of my price range. Can you give me a better deal?",
+      "zh": ""
+    },
+    {
+      "en": "A: This is an exclusive design by Da Marco! It's a bargain at that price.",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, I don't know. I think I'll shop around.",
+      "zh": ""
+    },
+    {
+      "en": "A: Okay, okay, how about one hundred dollars?",
+      "zh": ""
+    },
+    {
+      "en": "B: That's still more than I wanted to spend. What if I take both dresses?",
+      "zh": ""
+    },
+    {
+      "en": "A: Okay, I can give you a special discount, just because you seem like a nice person. One hundred and ninety dollars for both.",
+      "zh": ""
+    },
+    {
+      "en": "B: I don't know... It's still a bit pricey... Thanks anyway.",
+      "zh": ""
+    },
+    {
+      "en": "A: Okay, my final price! One hundred dollars for both! That's two for the price of one. That's my last offer!",
+      "zh": ""
+    },
+    {
+      "en": "B: Great! You've got a deal!",
+      "zh": ""
+    }
+  ],
+  "code": "C0051",
+  "title": "The Weekend - What a Bargain!",
+  "level": "Elementary"
 }

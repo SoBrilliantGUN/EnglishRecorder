@@ -556,5 +556,50 @@
       "en": "Bye.",
       "zh": "再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Good evening. My name is Fabio, I'll be your waiter for tonight. May I take your order?",
+      "zh": "A：晚上好。我叫法比奥，今晚由我为您服务。可以为您点餐吗？"
+    },
+    {
+      "en": "B: No, I'm still working on it. This menu is not even in English. What's good here?",
+      "zh": "B：不，我还在看菜单。这菜单连英文都不是。这里有什么好吃的？"
+    },
+    {
+      "en": "A: For you sir, I would recommend spaghetti and meatballs.",
+      "zh": "A：先生，我向您推荐意大利面和肉丸。"
+    },
+    {
+      "en": "B: Does it come with coke and fries?",
+      "zh": "B：配可乐和薯条吗？"
+    },
+    {
+      "en": "A: It comes with either soup or salad and a complimentary glass of wine, Sir.",
+      "zh": "A：配汤或沙拉任选其一，另赠送一杯葡萄酒，先生。"
+    },
+    {
+      "en": "B: I'll go with the spaghetti and meatballs, salad and the wine.",
+      "zh": "B：我要意大利面和肉丸，配沙拉和葡萄酒。"
+    },
+    {
+      "en": "A: Excellent choice, your order will be ready soon.",
+      "zh": "A：非常好的选择，您的餐点很快就准备好。"
+    },
+    {
+      "en": "B: How soon is soon?",
+      "zh": "B：很快是多快？"
+    },
+    {
+      "en": "A: Twenty minutes?",
+      "zh": "A：二十分钟？"
+    },
+    {
+      "en": "B: You know what? I'll just go grab a burger across the street.",
+      "zh": "B：知道吗？我还是去街对面买个汉堡算了。"
+    }
+  ],
+  "code": "B0001",
+  "title": "Difficult Customer",
+  "level": "Elementary"
 }

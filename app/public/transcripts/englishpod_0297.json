@@ -1036,5 +1036,62 @@
       "en": "Bye everyone.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Good evening ladies. My name is Josh and I'll be your server tonight. May I take your order?",
+      "zh": ""
+    },
+    {
+      "en": "B: Do you have any recommendations?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, I personally like the chicken penne with cream mushroom sauce, but the prawn fettuccine is also very nice.",
+      "zh": ""
+    },
+    {
+      "en": "B: Hmm. I'd like to have the grilled chicken, but can I have spaghetti instead of penne?",
+      "zh": ""
+    },
+    {
+      "en": "A: Of course, mam. And for you?",
+      "zh": ""
+    },
+    {
+      "en": "C: I... ah.. I'll have the horse tripe. The Office - Presentation Series 10 - The Q and A Session (C0 298)",
+      "zh": ""
+    },
+    {
+      "en": "Jonathan: Well everyone, I'm sure you'd like to join me in thanking Michael for what was a really inspirational presentation. Sincere thanks Michael.",
+      "zh": ""
+    },
+    {
+      "en": "Jonathan: Now, I'm sure many of you will be keen to ask some questions, so I'd like to open it up a Q and A session. Please raise your hand if you have any questions at all. Janice, go ahead.",
+      "zh": ""
+    },
+    {
+      "en": "Janice: Yes thank you Jonathan. I would just like to go back to the comment Mr. Ford made in regards to our competitors, particularly Orange. Now as you know, Orange has established themselves as the market leader in the high-end lap-top market.",
+      "zh": ""
+    },
+    {
+      "en": "Janice: How does Mr. Ford expect to compete with a company that has such a huge reputation and huge resources? Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: Well Janice, first of all, thanks for a very good question. I think you have hit the nail on the head actually. Orange are the global leaders precisely because of their size and power. Mr. But, although we can't compete in terms of size I do believe we hold an advantage in terms of dedication to customer service. Yes, I admit this is a David and Goliath battle,but don't forget who won that contest.",
+      "zh": ""
+    },
+    {
+      "en": "Frank: Ermmm, Mr Ford. Could you elaborate on the actual technical details of the x420 a little more? Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: I'd love to but I think we are a little pressed for time right now. However Jonathan has all the technical specs for you on the powerpoint presentation, which you can look over in your own time.",
+      "zh": ""
+    }
+  ],
+  "code": "C0297",
+  "title": "The Weekend - Ordering At An Italian Restaurant",
+  "level": "Intermediate"
 }

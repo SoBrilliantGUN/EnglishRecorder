@@ -884,5 +884,34 @@
       "en": "Bye bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hi, did you call for an exterminator?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes! Thank goodness you're here. These bugs are driving us crazy!",
+      "zh": ""
+    },
+    {
+      "en": "A: What sort of pest are we dealing with?",
+      "zh": ""
+    },
+    {
+      "en": "B: We just bought this house and it is infected with just about everything. We have termites in the wood, cockroaches all over the place, and last night I saw a huge rat out in the backyard!",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, there's nothing we can't handle. I'll spray the floorboards and walls to get rid of the cockroaches, but the termites will be harder to get rid of. We will have to cover the entire house and fumigate it. Unfortunately that means you will have to find a place to stay for the next three days.",
+      "zh": ""
+    },
+    {
+      "en": "B: No problem, just get rid of the bugs!",
+      "zh": ""
+    }
+  ],
+  "code": "C0265",
+  "title": "The Weekend - Pest Control",
+  "level": "Intermediate"
 }

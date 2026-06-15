@@ -800,5 +800,42 @@
       "en": "♪ Music Playing ♪",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Honey I'll be right back!",
+      "zh": ""
+    },
+    {
+      "en": "B: Where are you going?",
+      "zh": ""
+    },
+    {
+      "en": "A: I told you already! I'm going to. get my nails done.",
+      "zh": ""
+    },
+    {
+      "en": "B: Again? You just went last week! You spend more time at the nail salon than you do here at home! Honestly, why do you need a manicure every week?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, first of all, I like to pamper myself, and my nails look great. You should come with me!",
+      "zh": ""
+    },
+    {
+      "en": "B: Why? I don't want to have nail polish or anything like that!",
+      "zh": ""
+    },
+    {
+      "en": "A: They don't only paint my nails! The manicurist will remove my cuticles, file my nails, and apply at least nails coats of nail polish!",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, sounds like something I should definitely do.",
+      "zh": ""
+    }
+  ],
+  "code": "C0174",
+  "title": "The Weekend - Getting a manicure",
+  "level": "Elementary"
 }

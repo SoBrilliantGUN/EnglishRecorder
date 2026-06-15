@@ -1156,5 +1156,34 @@
       "en": "See you guys.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Did you hear? The state is thinking of legalizing gambling in our city! Soon we are gonna have amazing hotels and casinos here which will be good for our business!",
+      "zh": ""
+    },
+    {
+      "en": "B: Are you serious? Gambling is a vice industry built on deception and fed by the intentional exploitation of human weakness for the sole purpose of monetary gain! It disgusts me.",
+      "zh": ""
+    },
+    {
+      "en": "A: What are you talking about? How does it exploit people?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, to begin with, Gambling is addictive, ruins marriages, destroys families and bankrupts communities. Once you are addicted it is very difficult to stop. People have lost their houses, cars and been left out on the street after becoming addicted. Secondly, it exploits because men become addicted to gambling most often because of the action and risk. Women gamble to escape, and senior citizens will start gambling for the social interaction. Underage gamblers often start gambling on sports with friends and then illegal bookies.",
+      "zh": ""
+    },
+    {
+      "en": "A: Geez! Now that I think about it, maybe legalizing gambling isn't such a good idea! Although, I have been to Las Vegas, and I didn't become addicted or anything like that.",
+      "zh": ""
+    },
+    {
+      "en": "B: You cannot predict who will become addicted to gambling. Now excuse me, I have a protest rally to organize!",
+      "zh": ""
+    }
+  ],
+  "code": "C0136",
+  "title": "Global View - Gambling",
+  "level": "Elementary"
 }

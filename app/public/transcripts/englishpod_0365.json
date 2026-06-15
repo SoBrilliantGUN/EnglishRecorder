@@ -840,5 +840,14 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0365",
+  "title": "Lesson 365",
+  "level": "Intermediate"
 }

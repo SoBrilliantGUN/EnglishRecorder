@@ -1084,5 +1084,86 @@
       "en": "So until then, it's goodbye.",
       "zh": "那就再见了。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Oh, look. There's Caroline and her boyfriend. She's always going on about him at the office. Great. They saw us. They're coming this way.",
+      "zh": "A：哦看，卡罗琳和她男朋友来了。她在办公室总是念叨他。太好了，他们看到我们了，正向我们走来。"
+    },
+    {
+      "en": "B: Oh, man.",
+      "zh": "B：哦，天哪。"
+    },
+    {
+      "en": "C: Jessica, Arthur. Hi. I'd like you to meet my boyfriend, Greg. He's the VP of quality and safety for a top Fortune 500 food company.",
+      "zh": "C：杰西卡，亚瑟。嗨，我想让你们见见我的男朋友格雷格。他是财富500强食品公司的质量与安全副总裁。"
+    },
+    {
+      "en": "A: Nice to meet you.",
+      "zh": "A：很高兴见到你。"
+    },
+    {
+      "en": "A: This is my husband, Arthur.",
+      "zh": "A：这是我丈夫亚瑟。"
+    },
+    {
+      "en": "B: Hey, how's it going?",
+      "zh": "B：嘿，最近怎么样？"
+    },
+    {
+      "en": "D: Hello.",
+      "zh": "D：你好。"
+    },
+    {
+      "en": "A: Caroline talks about you all the time.",
+      "zh": "A：卡罗琳总是在聊你。"
+    },
+    {
+      "en": "A: I guess he must be pretty busy at work.",
+      "zh": "A：我猜你工作一定很忙吧。"
+    },
+    {
+      "en": "D: Well, yeah.",
+      "zh": "D：嗯，是啊。"
+    },
+    {
+      "en": "D: VP position is not easy, you know.",
+      "zh": "D：副总裁的位置可不轻松，你知道的。"
+    },
+    {
+      "en": "D: I implement policies and procedures nationwide in various departments, as well as trained junior managers in FDA and EPA regulations.",
+      "zh": "D：我在全国范围内为各个部门推行政策和流程，还要培训初级经理学习FDA和EPA法规。"
+    },
+    {
+      "en": "D: I also have to oversee daily operations of our quality control for the entire East Coast.",
+      "zh": "D：我还得监督整个东海岸的质量控制日常运营。"
+    },
+    {
+      "en": "D: That alone means I have 1,500 employees under me.",
+      "zh": "D：光是这部分就管着1500名员工。"
+    },
+    {
+      "en": "B: Wow.",
+      "zh": "B：哇。"
+    },
+    {
+      "en": "B: Yeah, that sounds exciting.",
+      "zh": "B：嗯，听起来真带劲。"
+    },
+    {
+      "en": "D: And what about you, Arthur?",
+      "zh": "D：那你呢，亚瑟？"
+    },
+    {
+      "en": "D: What do you do for a living?",
+      "zh": "D：你是做什么工作的？"
+    },
+    {
+      "en": "B: I'm a top gun pilot.",
+      "zh": "B：我是顶级战斗机飞行员。"
+    }
+  ],
+  "code": "C0021",
+  "title": "The Office - What Do You Do?",
+  "level": "Elementary"
 }

@@ -1384,5 +1384,90 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: So, you're applying for a B2 visa, where is your final destination and what's the purpose of your trip to the United States?",
+      "zh": "A：那么，您申请的是B2签证，您的最终目的地是哪里，您来美国的目的是什么？"
+    },
+    {
+      "en": "B: I'm going to visit my brother; he's just had a baby.",
+      "zh": "B：我要去看我哥哥；他刚生了宝宝。"
+    },
+    {
+      "en": "B: He lives in Minneapolis.",
+      "zh": "B：他住在明尼阿波利斯。"
+    },
+    {
+      "en": "A: And how long do you you plan to remain in the United States?",
+      "zh": "A：您计划在美国停留多长时间？"
+    },
+    {
+      "en": "B: I'll be here for approximately three weeks.",
+      "zh": "B：我将停留大约三周。"
+    },
+    {
+      "en": "B: See, here's my return ticket for the twenty-sixth of March.",
+      "zh": "B：你看，这是我的往返机票，3月26号的。"
+    },
+    {
+      "en": "A: And, who is sponsoring your trip?",
+      "zh": "A：那么，谁资助您的旅行？"
+    },
+    {
+      "en": "B: My brother, here, this is an invitation letter from him.",
+      "zh": "B：我哥哥，这是他的邀请函。"
+    },
+    {
+      "en": "B: I will stay with him and his family in their home.",
+      "zh": "B：我会在他家里和他家人住在一起。"
+    },
+    {
+      "en": "A: Alright, tell me about the ties you have to your home country.",
+      "zh": "A：好的，跟我说说您与祖国的联系。"
+    },
+    {
+      "en": "B: Well, I own a house; actually, I'm leaving my dog there with my neighbors.",
+      "zh": "B：嗯，我拥有一套房子；实际上，我把我的狗留在了邻居那里。"
+    },
+    {
+      "en": "B: I have a car at home, and oh, my job!",
+      "zh": "B：我在家里有辆车，哦，还有我的工作！"
+    },
+    {
+      "en": "B: I'm employed by Tornel as an engineer.",
+      "zh": "B：我受雇于托内尔公司做工程师。"
+    },
+    {
+      "en": "B: Actually, I only have three weeks' vacation, so I have to go back to work at the end of March.",
+      "zh": "B：实际上，我只有三周假期，所以我三月底必须回去上班。"
+    },
+    {
+      "en": "A: And what evidence do you ha ve that you arefinancially independent?",
+      "zh": "A：您有什么证据证明您有经济独立能力？"
+    },
+    {
+      "en": "B: Well, I do have assets in my country; like I said, I own a house, and see, here's a bank statement showing my investments, and my bank balance.",
+      "zh": "B：嗯，我在国内确实有资产；正如我说的，我有一套房子，而且你看，这是我的银行对账单，显示了我的投资和银行余额。"
+    },
+    {
+      "en": "A: I'm sorry, sir, we cannot grant you a B2 visa at this time, instead, you are granted a resident visa!",
+      "zh": "A：对不起，先生，我们目前无法授予您B2签证，不过，我们将授予您居民签证！"
+    },
+    {
+      "en": "A: Congratulations, you are the millionth person to apply for a visa!",
+      "zh": "A：恭喜您，您是第一百万人申请签证的人！"
+    },
+    {
+      "en": "A: You win!",
+      "zh": "A：您中奖了！"
+    },
+    {
+      "en": "A: Congratulations!",
+      "zh": "A：恭喜！"
+    }
+  ],
+  "code": "C0043",
+  "title": "Daily Life - Applying for a Visa",
+  "level": "Elementary"
 }

@@ -1000,5 +1000,46 @@
       "en": "Robert Fukunaga, EnglishPod number two, EnglishPod number two.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Good morning, Angela, how have you been lately?",
+      "zh": ""
+    },
+    {
+      "en": "B: Morning, Michael. I've been very busy lately. One of our other vendors is going out of business and I've been searching for a suitable replacement.",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, rest assured that you can count on us to be here for the long run si t down. Coffee?",
+      "zh": ""
+    },
+    {
+      "en": "B: No, thanks. I've been trying to cut down on the caffeine.",
+      "zh": ""
+    },
+    {
+      "en": "A: Haha, I could never do that. I'd be a zombie if I didn't have my morning coffee fix. Let's get down to business then.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes. I've come to talk with you about ordering the eight megapixel cameras for our new Me Phone. The demand for phone cameras is growing, and Pear has been falling behind in the market.",
+      "zh": ""
+    },
+    {
+      "en": "A: That's great! I'm glad to hear that Pear has finally jumped on the bandwagon. Right now our contract is for the five megapixel cameras. Is Pear still interested in having those?",
+      "zh": ""
+    },
+    {
+      "en": "B: No, we're changing all the cameras to eight megapixels. We were hoping that by making your company our sole supplier for cameras we could negotiate a better deal.",
+      "zh": ""
+    },
+    {
+      "en": "A: Surely. Let's get started by drafting a new contract.",
+      "zh": ""
+    }
+  ],
+  "code": "C0268",
+  "title": "The Office - Purchasing Manager",
+  "level": "Intermediate"
 }

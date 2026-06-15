@@ -1736,5 +1736,46 @@
       "en": "Goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Okay, so let's go over everything one more time. I really want you to get this job!",
+      "zh": ""
+    },
+    {
+      "en": "B: I know! It's an amazing growth opportunity! They're true industry leaders, and it would be so interesting to be part of an organization that is the undisputed leader in business process platform development.",
+      "zh": ""
+    },
+    {
+      "en": "A: So, let's see, you did your research on the company, right?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, I visited their website and read up on what they do. They're an IT service company that offers comprehensive business solutions for large corporations. They provide services such as CRM development, and they also offer customdesigned applications.",
+      "zh": ""
+    },
+    {
+      "en": "A: So what would your role in the company?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, the position is for an account manager. That basically means that I would be the link between our and our development team.",
+      "zh": ""
+    },
+    {
+      "en": "A: Sounds good, and so, why do you want to work with them?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, as I said they're the industry leaders, they have a really great growth strategy, amazing development opportunities for employees, and it seems like they have strong corporate governance. They're all about helping companies grow and unleashing potential. I guess their core values and mission really resonated with me. Oh, and they offer six weeks' vacati on, stock options and bonuses... I'm totally going to cash in on that.",
+      "zh": ""
+    },
+    {
+      "en": "A: You idiot! Don't say that! Do you want this job, or not?",
+      "zh": ""
+    }
+  ],
+  "code": "E0059",
+  "title": "Advanced - Job Interview I",
+  "level": "Elementary"
 }

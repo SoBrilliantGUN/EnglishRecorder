@@ -1384,5 +1384,54 @@
       "en": "Thanks for listening to EnglishPod.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Man: Hi, I made a reservation for a mid-size vehicle. The name is Jimmy Fox.",
+      "zh": ""
+    },
+    {
+      "en": "Agent: I'm sorry, we have no mid-size available at the moment.",
+      "zh": ""
+    },
+    {
+      "en": "Man: I don't understand, I made a reservation, do you have my reservation?",
+      "zh": ""
+    },
+    {
+      "en": "Agent: Yes, we do, unfortunately we ran out of cars.",
+      "zh": ""
+    },
+    {
+      "en": "Man: But the reservation keeps the car here. That's why you have the reservation.",
+      "zh": ""
+    },
+    {
+      "en": "Agent: I know why we have reservations.",
+      "zh": ""
+    },
+    {
+      "en": "Man: I don't think you do. If you did, I'd have a car. See, 39 you know how to take the reservation, you just don't know how to hold the reservation and that's really the most important part of the reservation, the holding. Anybody can just take them.",
+      "zh": ""
+    },
+    {
+      "en": "Agent: But we do have a compact or an SUV if you'd like.",
+      "zh": ""
+    },
+    {
+      "en": "Man: Fine. I'll take the compact.",
+      "zh": ""
+    },
+    {
+      "en": "Agent: Alright. We have a blue Ford Focus for you Mr. Fox. Would you like insurance?",
+      "zh": ""
+    },
+    {
+      "en": "Man: Yeah, you better give me the insurance, because I am gonna beat the hell out of this car.",
+      "zh": ""
+    }
+  ],
+  "code": "C0138",
+  "title": "Daily Life - Renting A Car",
+  "level": "Elementary"
 }

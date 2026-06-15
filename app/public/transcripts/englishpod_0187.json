@@ -1028,5 +1028,50 @@
       "en": "Bye, everyone.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Oh man! I've been starving myself for days now and I haven't lost an ounce!",
+      "zh": ""
+    },
+    {
+      "en": "B: Are you trying to lose weight?",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah, my friend is getting married next month and I'm supposed to be a bridesmaid. I have to fit into my dress and look nice for her wedding, but I haven't lost any weight! Look at these love handles.",
+      "zh": ""
+    },
+    {
+      "en": "B: You don't have to starve yourself to lose weight. I think that's where you're going wrong.",
+      "zh": ""
+    },
+    {
+      "en": "A: Why? If I eat less, then my body will start eating away at my fat reserves right?",
+      "zh": ""
+    },
+    {
+      "en": "B: Not really. You should try to not eat foods high in 53 calories, salts or saturated fats. Stay away from oily food and artificial flavors.",
+      "zh": ""
+    },
+    {
+      "en": "A: So you are saying that I should eat, but I should just watch what I eat?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes! You can also try to reduce your intake of carbohydrates and foods that are high in cholesterol. You can have steamed veggies or increase your protein intake found in chicken or fish.",
+      "zh": ""
+    },
+    {
+      "en": "A: If I do all this do you think I can lose twenty pounds in four weeks?",
+      "zh": ""
+    },
+    {
+      "en": "B: Don't count on it.",
+      "zh": ""
+    }
+  ],
+  "code": "C0187",
+  "title": "Daily Life - Going On A Diet",
+  "level": "Elementary"
 }

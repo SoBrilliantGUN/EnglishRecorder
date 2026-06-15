@@ -760,5 +760,42 @@
       "en": "That's right, so until next week, bye everyone.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Ford: Now, as we have already discussed there is a huge untapped market out there both in Asia, in other developing markets, and in th e more mature markets for us to push into. Now of course, this represents an enormous challenge with enormous rewa rds for the winners, but for any new product we need a great marketing message and marketing campaign Mr. It needs to be directed and focused at our target consumer, and needs to be pitched at exactly the right level. The question we must first address is of course, who is our target consumer and secondly what do they expect from the next generation Alpha lap-top? Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Ford: Let's first of all tackle the first question. Our target consumer for the x420 is the middle class, white collar worker with an above average income. However, as we mentioned before the total number of computer owners is expanding rapidly and we need to broaden our audience for this product. Mr. For example, the x420 is also ideally suited to the younger student sector, who might use laptops both for study and gaming. There is no doubt that. Audience",
+      "zh": ""
+    },
+    {
+      "en": "Member: Mr. Ford, if I could just interrupt a moment. You say that the computer is suitable for students, but don't you think the price of the x420 is just too much for most students? Mr",
+      "zh": ""
+    },
+    {
+      "en": "Ford: Well, that's a fair point. If you don't mind I'd like to tackle your question a little bit later in the Q and A section. Is that okay? Audience",
+      "zh": ""
+    },
+    {
+      "en": "Member: Yes sure. Mr",
+      "zh": ""
+    },
+    {
+      "en": "Ford: Okay, so as I was saying we have an exciting campaign planned for the x420. Firstly, we will have a nationwide television campaign, as well as advertising on radio and also in many computer publications. We also intend to. Audience",
+      "zh": ""
+    },
+    {
+      "en": "Member: I'm sorry to stop you Mr. Ford, but do you really think that a television campaign is cost effective. I mean, how much is that going to cost? Mr",
+      "zh": ""
+    },
+    {
+      "en": "Ford: Well I don't have the figures to hand, but I'd be happy to discuss those figures with you after the presentation. Okay let me just go on to talk a little more about the exciting campaign we have in store.",
+      "zh": ""
+    }
+  ],
+  "code": "C0283",
+  "title": "The Office - Presentation Series 5 - Deferring",
+  "level": "Intermediate"
 }

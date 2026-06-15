@@ -1276,5 +1276,62 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Trina, will you marry me?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes! Yes! And yes! Jared of course I'll marry you!",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh Babe, I can't wait to spend the rest of my life with you! I can't wait for all the adventures we're going to have, for all the fights and the laughter. I can't wait to grow old and wrinkly with you.",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh Jared! I can't wait for our wedding! I hope you don't mind, but I've already chosen a date! Six months from now in the summer! Melissa saw you buying the ring last month so I've had plenty of time to start planning!",
+      "zh": ""
+    },
+    {
+      "en": "A: She what?",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh don't worry sweetie, I didn't know when you were going to propose. It was still a nice surprise! As I was saying, I've got it all planned out. There's almost nothing left to do! I wrote up our guest list and we will have roughly four hundred guests attending.",
+      "zh": ""
+    },
+    {
+      "en": "A: four hundred?",
+      "zh": ""
+    },
+    {
+      "en": "B: No need to sweat it My parents agreed to pay for most of the wedding, which is going to be lowbudget anyway. So roughly four hundred people, which means that the hall at Northwood Heights will be our reception venue. I thought it would be nice if we had the wedding at your parents' church and my uncle of course would be officiating. We'll meet with him soon for some pre-wedding counseling. The music for the wedding ceremony was a no-brainer. My step-sister and her string quartet will take care of that. My cousin will be the official photographer. I thought it would also be nice if his daughter could sing a solo. Did you know that she's going to be a professional opera singer?",
+      "zh": ""
+    },
+    {
+      "en": "A: Ah...",
+      "zh": ""
+    },
+    {
+      "en": "B: And then of course the ladies at the church would love to be our caterers for the banquet and we'll get the Youth Group to serve us. I was thinking that your friend's band could be our entertainment for the night. though they might have to tone it down a bit. Or we could hire a DJ. Your sister's husband could get us a discount with that company that does the decor at weddings. what's their name again? I was thinking that we could have an island paradise- themed wedding and our theme color would be a soothing blue like Aquamarine. And there will be a huge seashell on the wall behind the podium where we'll make our toasts! What do you think of small packages of drink mixes for our wedding favors? Who else am I missing? Oh, your uncle could be our florist and his wife could make our wedding cake!",
+      "zh": ""
+    },
+    {
+      "en": "A: Wow.",
+      "zh": ""
+    },
+    {
+      "en": "B: See? It's going to be wonderful! Oh this wedding is going to be everything I ever dreamed of.",
+      "zh": ""
+    },
+    {
+      "en": "A: If I survive the next six months.",
+      "zh": ""
+    }
+  ],
+  "code": "C0227",
+  "title": "Daily Life - Wedding Planning",
+  "level": "Elementary"
 }

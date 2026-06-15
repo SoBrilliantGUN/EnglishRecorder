@@ -1380,5 +1380,106 @@
       "en": "Bye.",
       "zh": "再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Oh, I don't know if you heard, but someone moved into that old house down the road.",
+      "zh": "A：哦，不知道你听说了没，有人搬进了路那头的老房子。"
+    },
+    {
+      "en": "B: Yeah, I know.",
+      "zh": "B：嗯，我知道。"
+    },
+    {
+      "en": "B: I met the owner of the house yesterday as he was moving in.",
+      "zh": "B：昨天他搬进来的时候我见到房主了。"
+    },
+    {
+      "en": "B: His name is Armand.",
+      "zh": "B：他叫阿尔芒。"
+    },
+    {
+      "en": "A: Really?",
+      "zh": "A：真的吗？"
+    },
+    {
+      "en": "A: What's he like?",
+      "zh": "A：他什么样？"
+    },
+    {
+      "en": "A: You have to fill me in.",
+      "zh": "A：快跟我说说。"
+    },
+    {
+      "en": "B: Actually, he's a bit strange.",
+      "zh": "B：说实话，他有点奇怪。"
+    },
+    {
+      "en": "B: I don't know... I've got a bad feeling about him.",
+      "zh": "B：我也说不好…我对他有种不好的预感。"
+    },
+    {
+      "en": "A: Really?",
+      "zh": "A：真的吗？"
+    },
+    {
+      "en": "A: Why?",
+      "zh": "A：为什么？"
+    },
+    {
+      "en": "B: Well, yesterday I brought over a housewarming gift,but Armand started acting really weird, and then he practically kicked me out!",
+      "zh": "B：嗯，昨天我带了一份乔迁礼物过去，但阿尔芒表现得很奇怪，然后几乎把我赶了出来！"
+    },
+    {
+      "en": "B: I tried to, sort of, peek into his house, but everything was so dark inside that I couldn't really get a good look.",
+      "zh": "B：我试着，算是，偷看了一下他房子里面，但是里面太暗了，我根本看不清。"
+    },
+    {
+      "en": "A: Well, you'll never guess what I saw this morning.",
+      "zh": "A：嗯，你绝对猜不到我今天早上看到什么了。"
+    },
+    {
+      "en": "A: A delivery truck pulled into his driveway, and it dropped off a long, rectangular box.",
+      "zh": "A：一辆送货车开进了他的车道，卸下了一个又长又方的盒子。"
+    },
+    {
+      "en": "A: It almost looked like a coffin!",
+      "zh": "A：看起来几乎像一口棺材！"
+    },
+    {
+      "en": "B: You see!",
+      "zh": "B：你看吧！"
+    },
+    {
+      "en": "B: Why would he...",
+      "zh": "B：他怎么会…"
+    },
+    {
+      "en": "C: Hello ladies...",
+      "zh": "C：女士们好…"
+    },
+    {
+      "en": "B: Ah, Armand!",
+      "zh": "B：啊，阿尔芒！"
+    },
+    {
+      "en": "B: You scared the heck out of me!",
+      "zh": "B：你吓死我了！"
+    },
+    {
+      "en": "B: This is my friend Doris.",
+      "zh": "B：这是我的朋友多丽丝。"
+    },
+    {
+      "en": "C: A pleasure to meet you... If you are not doing anything tonight, I would like to have you both for dinner.",
+      "zh": "C：很高兴见到你…如果你们今晚没什么事的话，我想请你们两个来吃晚饭。"
+    },
+    {
+      "en": "C: I mean... I would like to have you both over for dinner.",
+      "zh": "C：我的意思是…我想请你们两个过来吃晚饭。"
+    }
+  ],
+  "code": "C0011",
+  "title": "Daily Life - New Guy in Town",
+  "level": "Elementary"
 }

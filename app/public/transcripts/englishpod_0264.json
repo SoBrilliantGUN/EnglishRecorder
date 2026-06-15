@@ -1000,5 +1000,38 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: What seems to be the problem?",
+      "zh": ""
+    },
+    {
+      "en": "B: I have a really bad toothache! My cheek is swollen and I can't eat anything.",
+      "zh": ""
+    },
+    {
+      "en": "A: Let's have a look. Hmmm. This doesn't look too good. I think we may have to pull out your wisdom tooth. It's pressing against your molars and that's one of the reasons you are experiencing so much pain.",
+      "zh": ""
+    },
+    {
+      "en": "B: When you pull my tooth will you also have to extract the nerve and the root?",
+      "zh": ""
+    },
+    {
+      "en": "A: First we will take some x-rays and see what we're dealing with. I also noticed a small cavity up front here, so you are going to need a filling.",
+      "zh": ""
+    },
+    {
+      "en": "B: I guess that's what I get for not flossing or brushing my teeth three times a day.",
+      "zh": ""
+    },
+    {
+      "en": "A: It could be that, or maybe you are eating too many sweets. In any case, I'll administer an anesthetic and you won't feel a thing!",
+      "zh": ""
+    }
+  ],
+  "code": "C0264",
+  "title": "Daily Life - Toothache",
+  "level": "Intermediate"
 }

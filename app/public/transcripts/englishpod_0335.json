@@ -480,5 +480,14 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0335",
+  "title": "Lesson 335",
+  "level": "Intermediate"
 }

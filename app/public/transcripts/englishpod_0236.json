@@ -1308,5 +1308,46 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Jill: Alex, what's up with you? You look dreadful!",
+      "zh": ""
+    },
+    {
+      "en": "Alex: Hey Jill, I don't know. I've been having trouble sleeping these past few weeks. I usually lie in bed for hours trying to get to sleep. I've tried stretching and different breathing techniques before going to bed. I've tried eating and not eating different foods. I've even tried counting sheep! And then when I finally get to sleep, I have these really disturbing nightmares, so I usually wake up in a panic and more tired than before I went to sleep.",
+      "zh": ""
+    },
+    {
+      "en": "Jill: Wow, maybe you should get that checked out. Maybe you're stressed?",
+      "zh": ""
+    },
+    {
+      "en": "C: Just take some sedatives! Works for me! Every so often having some melatonin on hand helps me when I have trouble sleeping. It works on all kinds of sleeping disorders. It's the stuff pilots use to regulate their sleeping patterns.",
+      "zh": ""
+    },
+    {
+      "en": "Jill: I heard of that. But does that apply to Alex's situation?",
+      "zh": ""
+    },
+    {
+      "en": "C: Ya sure, why not? Sounds like he only has transient insomnia since it's a recent thing so taking melatonin do the trick.",
+      "zh": ""
+    },
+    {
+      "en": "Jill: But shouldn't he be looking into WHY it's been happening?",
+      "zh": ""
+    },
+    {
+      "en": "C: Well aren't youthe little psychologist? Our buddy's having trouble sleeping, it's easy and curable. It's not something freakish like if he was a sleepwalker.",
+      "zh": ""
+    },
+    {
+      "en": "Alex: Well, there's that too.",
+      "zh": ""
+    }
+  ],
+  "code": "C0236",
+  "title": "Daily Life - Trying To Sleep",
+  "level": "Elementary"
 }

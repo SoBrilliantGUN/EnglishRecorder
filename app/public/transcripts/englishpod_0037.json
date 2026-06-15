@@ -1268,5 +1268,122 @@
       "en": "Hi, bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I'm so excited about Chinese New Year!",
+      "zh": "A：我对中国新年太期待了！"
+    },
+    {
+      "en": "A: When do I get to visit Grandma?",
+      "zh": "A：我什么时候能去看奶奶？"
+    },
+    {
+      "en": "A: Grandma makes the best dumplings in the world!",
+      "zh": "A：奶奶做的饺子是全世界最好吃的！"
+    },
+    {
+      "en": "B: Ha ha, right.",
+      "zh": "B：哈哈，好吧。"
+    },
+    {
+      "en": "B: Sounds to me like you're more excited about the dumplings than seeing your Grandma.",
+      "zh": "B：听起来你好像对饺子的期待比见奶奶还多。"
+    },
+    {
+      "en": "A: Of course I miss Grandma, too.",
+      "zh": "A：我当然也想奶奶啦。"
+    },
+    {
+      "en": "A: I bet she's gonna teach me how to play Mahjong!",
+      "zh": "A：我打赌她会教我打麻将！"
+    },
+    {
+      "en": "A: Hey, Dad, are you going to buy me firecrackers this year?",
+      "zh": "A：嘿，爸，今年你会给我买鞭炮吗？"
+    },
+    {
+      "en": "A: We're going to have the best fireworks!",
+      "zh": "A：我们要放最棒的烟花！"
+    },
+    {
+      "en": "A: I'm really looki ng forward to lighting them!",
+      "zh": "A：我真的很期待点它们！"
+    },
+    {
+      "en": "B: Son, firecrackers aren't toys; they're dangerous!",
+      "zh": "B：儿子，鞭炮不是玩具；它们很危险！"
+    },
+    {
+      "en": "A: No, fireworks are awesome!",
+      "zh": "A：不，烟花太酷了！"
+    },
+    {
+      "en": "B: Whoa, don't you remember?",
+      "zh": "B：哇哦，你不记得了吗？"
+    },
+    {
+      "en": "B: Last year when I set off the firecrackers, you covered both your ears and hid behind your mother?",
+      "zh": "B：去年我放鞭炮的时候，你捂着耳朵躲在你妈妈身后？"
+    },
+    {
+      "en": "A: Dad!",
+      "zh": "A：爸！"
+    },
+    {
+      "en": "A: I was scared because... because I saw a bug.",
+      "zh": "A：我当时害怕是因为……因为我看到了一只虫子。"
+    },
+    {
+      "en": "A: That's all.",
+      "zh": "A：就是这样。"
+    },
+    {
+      "en": "B: Hahaha... really?",
+      "zh": "B：哈哈哈……真的？"
+    },
+    {
+      "en": "A: Oh, and I can't wait to watch the dragon dance!",
+      "zh": "A：哦，而且我等不及要看舞龙了！"
+    },
+    {
+      "en": "A: Dad, can I sit on your shoulders this time?",
+      "zh": "A：爸，这次我能坐在你肩膀上看吗？"
+    },
+    {
+      "en": "B: Hey, I offered last year...",
+      "zh": "B：嘿，我去年就提过了……"
+    },
+    {
+      "en": "A: Well, I... anyways, I was just thinking of the red envelopes.",
+      "zh": "A：嗯，我……不管了，我只是在想红包的事。"
+    },
+    {
+      "en": "A: I wanna make a list of all the things I'm gonna buy with my red envelope money!",
+      "zh": "A：我想列个清单，把我要用红包钱买的东西都写下来！"
+    },
+    {
+      "en": "A: I can't wait!",
+      "zh": "A：我快等不及了！"
+    },
+    {
+      "en": "A: I'm gonna have so much money!",
+      "zh": "A：我要有好多钱了！"
+    },
+    {
+      "en": "A: Mom, can I get a pen and a piece of paper?",
+      "zh": "A：妈，能给我一支笔和一张纸吗？"
+    },
+    {
+      "en": "A: I want a new transformer, no, two transformers...the Optimus Prime, and...maybe the wheeljack?",
+      "zh": "A：我要一个新的变形金刚，不，要两个……擎天柱，还有……也许轮杰克？"
+    },
+    {
+      "en": "A: I'll get a PSP game, hahaha, and I'll buy the entire class lunch at Mac Donald's...",
+      "zh": "A：我要买一个PSP游戏，哈哈哈，我还要请全班同学在麦当劳吃午饭……"
+    }
+  ],
+  "code": "C0037",
+  "title": "Intermediate - Chinese New Year",
+  "level": "Elementary"
 }

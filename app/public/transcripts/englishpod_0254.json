@@ -964,5 +964,42 @@
       "en": "I mean, we have good up-to-date advertising.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Smells good! What's for breakfast?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, since we are getting up so late, I decided to make a big breakfast!",
+      "zh": ""
+    },
+    {
+      "en": "A: Nice! Brunch!",
+      "zh": ""
+    },
+    {
+      "en": "B: Kind of, so I made scrambled and soft boiled eggs, some french toast and buttermilk pancakes!",
+      "zh": ""
+    },
+    {
+      "en": "A: Wow! You really went all out! Did you make any coffee?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, just the way you like it! I also put out some cereal and muesli if you feel like having something more light.",
+      "zh": ""
+    },
+    {
+      "en": "A: Looks good! I'll squeeze us some fresh orange juice.",
+      "zh": ""
+    },
+    {
+      "en": "B: Get the jam and butter while you are in there! Oh! And",
+      "zh": ""
+    }
+  ],
+  "code": "C0254",
+  "title": "The Weekend - Making Breakfast",
+  "level": "Intermediate"
 }

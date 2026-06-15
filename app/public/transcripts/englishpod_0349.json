@@ -652,5 +652,14 @@
       "en": "This is Mike with modern medicine.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0349",
+  "title": "Lesson 349",
+  "level": "Intermediate"
 }

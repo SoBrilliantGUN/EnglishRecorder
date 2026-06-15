@@ -1224,5 +1224,126 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A:... so, I said, \"let's take a break.\" And since that night, I've been waiting for him to call, but I still haven't heard from him. You don't think he's seeing someone else, do you?",
+      "zh": "A：……所以我说，「我们先冷静一段时间吧」。从那天晚上起，我就一直在等他打电话，但还是没有他的消息。你不会觉得他在跟别人约会吧？"
+    },
+    {
+      "en": "B: Come on, don't be so dramatic!",
+      "zh": "B：拜托，别这么夸张！"
+    },
+    {
+      "en": "B: I'm sure everything is going to work out just fine.",
+      "zh": "B：我相信一切都会好起来的。"
+    },
+    {
+      "en": "A: You think so?",
+      "zh": "A：你这么觉得吗？"
+    },
+    {
+      "en": "A: Oh, no!",
+      "zh": "A：哦不！"
+    },
+    {
+      "en": "A: How can he do this to me?",
+      "zh": "A：他怎么能这样对我？"
+    },
+    {
+      "en": "A: I'm sure he's cheating on me!",
+      "zh": "A：我确定他是在背着我偷吃！"
+    },
+    {
+      "en": "A: Why else wouldn't he call?",
+      "zh": "A：不然为什么不打电话？"
+    },
+    {
+      "en": "B: But, you two are on a break.",
+      "zh": "B：但是，你们俩现在在冷静期啊。"
+    },
+    {
+      "en": "B: Theoretically he can do whatever he likes.",
+      "zh": "B：理论上他可以做任何他想做的事。"
+    },
+    {
+      "en": "A: He's the love of my life!",
+      "zh": "A：他是我一生的挚爱！"
+    },
+    {
+      "en": "A: I've really messed this up.",
+      "zh": "A：我完全把这一切搞砸了。"
+    },
+    {
+      "en": "B: Come on, hon.",
+      "zh": "B：拜托，亲爱的。"
+    },
+    {
+      "en": "B: Pull yourself together.",
+      "zh": "B：振作起来。"
+    },
+    {
+      "en": "B: It's going to be alright.",
+      "zh": "B：一切都会好起来的。"
+    },
+    {
+      "en": "A: But I... I still love him!",
+      "zh": "A：但是我……我还爱着他！"
+    },
+    {
+      "en": "A: And it's all my fault!",
+      "zh": "A：这都是我的错！"
+    },
+    {
+      "en": "A: I can't believe how immature and selfish I was being.",
+      "zh": "A：我真不敢相信我当初是多么幼稚和自私。"
+    },
+    {
+      "en": "A: I mean, he is a firefighter, it's not like he can just leave someone in a burning building and meet me for dinner.",
+      "zh": "A：我的意思是，他是个消防员，他总不能抛下着火大楼里的人来跟我吃饭吧。"
+    },
+    {
+      "en": "A: I've totally messed this up!",
+      "zh": "A：我完全搞砸了！"
+    },
+    {
+      "en": "B: You know what, Veronica, I think you should make the first step.",
+      "zh": "B：你知道吗，维罗妮卡，我觉得你应该迈出第一步。"
+    },
+    {
+      "en": "B: I'm sure he'll forgive you...",
+      "zh": "B：我相信他会原谅你的……"
+    },
+    {
+      "en": "A: No, this is not gonna happen!",
+      "zh": "A：不，这不可能！"
+    },
+    {
+      "en": "A: I... I've ruined everything...",
+      "zh": "A：我……我毁了一切……"
+    },
+    {
+      "en": "B: Hey... do you hear something?",
+      "zh": "B：嘿……你听到了吗？"
+    },
+    {
+      "en": "B: Guess what?",
+      "zh": "B：你猜怎么着？"
+    },
+    {
+      "en": "B: It's your lovely firefighter!",
+      "zh": "B：是你可爱的消防员来了！"
+    },
+    {
+      "en": "C: When I had you, I treated you bad and wrong dear.",
+      "zh": "C：当我拥有你的时候，我待你又坏又错亲爱的。"
+    },
+    {
+      "en": "C: And since, since you went away, don't you know I sit around with my head hanging down and I wonder who's loving you.",
+      "zh": "C：自从你离开后，难道你不知道我成天垂头丧气坐着，想知道是谁在爱你。"
+    }
+  ],
+  "code": "C0045",
+  "title": "Lesson 45",
+  "level": "Intermediate"
 }

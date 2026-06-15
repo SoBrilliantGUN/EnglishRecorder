@@ -744,5 +744,66 @@
       "en": "Merry Christmas.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "HUSBAND: I'm home!",
+      "zh": ""
+    },
+    {
+      "en": "Everyone come here!",
+      "zh": ""
+    },
+    {
+      "en": "I bought a Christmas tree!",
+      "zh": ""
+    },
+    {
+      "en": "Look at this beautiful pine tree!",
+      "zh": ""
+    },
+    {
+      "en": "WIFE: Wow, it's huge!",
+      "zh": ""
+    },
+    {
+      "en": "Are you sure it will fit in the living room?",
+      "zh": ""
+    },
+    {
+      "en": "KID: Awesome!",
+      "zh": ""
+    },
+    {
+      "en": "I'll go getthe Christmas lights!",
+      "zh": ""
+    },
+    {
+      "en": "HUSBAND: Of course it will. help me put it in the living room.",
+      "zh": ""
+    },
+    {
+      "en": "KID: I found the lights!",
+      "zh": ""
+    },
+    {
+      "en": "WIFE: I gotthe Christmas ornaments!",
+      "zh": ""
+    },
+    {
+      "en": "We could also place these stockings next to the chimney.",
+      "zh": ""
+    },
+    {
+      "en": "HUSBAND: Great idea!",
+      "zh": ""
+    },
+    {
+      "en": "While we decorate the tree, we can listen to some good old Christmas songs!",
+      "zh": ""
+    }
+  ],
+  "code": "C0177",
+  "title": "The Weekend - Decorating a Christmas Tree",
+  "level": "Intermediate"
 }

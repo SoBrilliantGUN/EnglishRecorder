@@ -1356,5 +1356,54 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Welcome ski lovers of all ages! My name is Rick Fields and here with me is the man that needs no introduction, Bob Copeland.",
+      "zh": ""
+    },
+    {
+      "en": "B: Thank you, Rick! What a beautiful day here in Aspen, Colorado where the sun is shinning, and we've got twelve inches of fresh powder. It doesn't get much better than this.",
+      "zh": ""
+    },
+    {
+      "en": "A: That's right, Bob, but today we have a special treat for our viewers. We're joined here by Ian Roussy, the four-time giant slalom champion. And on this special edition of the show, Ian is going to teach us the basics of skiing! So, let's hit the slopes!",
+      "zh": ""
+    },
+    {
+      "en": "C: Well, first off, let's get those boots on. You're going to want to make sure your boots fit snugly. That's right; now snap them into your bindings. And you're also going to want a good pair of goggles to protect your eyes. It's a bright day today, so there's going to be a lot of glare out there on the slopes. We don't want you hitting any of thosemoguls!",
+      "zh": ""
+    },
+    {
+      "en": "A: Bob, since you're a beginner skier and might take a few spills, it is a good idea to have a good warm pair of dry ski gloves.",
+      "zh": ""
+    },
+    {
+      "en": "C: Easy there, Rick! Well, let's head on over to the chairlift, and test your skills! All right, we're up here on the bunny hill, so, Bob, why don't you do a few snow-plow turns. Gnarly run, Rick! Nice carving! You've got some mad skills! That was sick!",
+      "zh": ""
+    },
+    {
+      "en": "A: You wanna see gnarley? Well, see that bump over there, I'm going to catch some major air.",
+      "zh": ""
+    },
+    {
+      "en": "C: Butt plant!",
+      "zh": ""
+    },
+    {
+      "en": "B: Ha ha ha! He lost his skis! Yard sale!!!",
+      "zh": ""
+    },
+    {
+      "en": "A: Ahem, well. Thanks for joining us here today, I think that about does it. Bob, Ian, time for some après-ski?",
+      "zh": ""
+    },
+    {
+      "en": "C: No way, man! We're off to grab some freshies!!!",
+      "zh": ""
+    }
+  ],
+  "code": "C0104",
+  "title": "The Weekend - Skiing",
+  "level": "Elementary"
 }

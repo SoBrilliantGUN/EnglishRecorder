@@ -992,5 +992,14 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0355",
+  "title": "Lesson 355",
+  "level": "Intermediate"
 }

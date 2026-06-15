@@ -640,5 +640,46 @@
       "en": "Bye for now bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Jeremy: Hi Michelle. Do you need to usethe photocopier?",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Oh hi Jeremy. No please, go ahead. So how are you Jeremy? I was talking to Linda about you only last week.",
+      "zh": ""
+    },
+    {
+      "en": "Jeremy: Oh I'm fine thanks. I'm super busy with work actually. Did you hear about the Lawson contract?",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: No, tell me more.",
+      "zh": ""
+    },
+    {
+      "en": "Jeremy: Well, I was discussing the contract with Bill and he said that they metthe head of Lawsons last week.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: And.",
+      "zh": ""
+    },
+    {
+      "en": "Jeremy: And hopefully they are going to confirm the deal on Wednesday, fingers crossed",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: That's great news Jeremy. Congratulations! Anyway, I must get back, but give my regards to your wife Monica.",
+      "zh": ""
+    },
+    {
+      "en": "Jeremy: I will Michelle. Speak to you soon.",
+      "zh": ""
+    }
+  ],
+  "code": "C0316",
+  "title": "Daily Life - Small Talk Series 4 - Discussing Recent",
+  "level": "Intermediate"
 }

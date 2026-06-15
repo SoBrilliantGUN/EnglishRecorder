@@ -1128,5 +1128,14 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0333",
+  "title": "Lesson 333",
+  "level": "Intermediate"
 }

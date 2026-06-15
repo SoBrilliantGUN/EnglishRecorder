@@ -1244,5 +1244,54 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hey John! I haven't seen you in ages! What's new? What have you been up to?",
+      "zh": ""
+    },
+    {
+      "en": "B: Pete! Nice to see you Well, on top the norm, you know, wife and kids and work, I've actually gotten into doing some trading.",
+      "zh": ""
+    },
+    {
+      "en": "A: Trading? You, big guy? What are you trading?",
+      "zh": ""
+    },
+    {
+      "en": "B: Currencies.",
+      "zh": ""
+    },
+    {
+      "en": "A: Currencies? As in Euros, Dollars, Pounds and Rupees?",
+      "zh": ""
+    },
+    {
+      "en": "B: It's called Forex. Forei gn Exchange. Th e great thing about it is that I don't have to invest a huge amount. I put in a margin deposit and then I can buy and sell up to 100 times that much!",
+      "zh": ""
+    },
+    {
+      "en": "A: I don't understand. You're buying and selling money?",
+      "zh": ""
+    },
+    {
+      "en": "B: You got it! Just last night I made USD 150!",
+      "zh": ""
+    },
+    {
+      "en": "A: Last night?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah! It's a 24 hour market! I had bought some RMB earlier at a low asking price but last night it appreciated drastically so I made a split second decision and sold all my RMB at an amazing bid! I've also done some trading with CHF and AUD and HKD. I've made some good profits but I've also suffered some losses. It depends on a lot of factors just like any other market. In total I've made about USD 500 in the past few months.",
+      "zh": ""
+    },
+    {
+      "en": "A: You're kidding! I'm on! Where do I sign up?",
+      "zh": ""
+    }
+  ],
+  "code": "C0233",
+  "title": "Glow-in-the-Dark Yoyo! And now back to our show! Elementary -Global View - Forex",
+  "level": "Intermediate"
 }

@@ -1284,5 +1284,46 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Lydia: Hello?",
+      "zh": ""
+    },
+    {
+      "en": "Maggie: Hey! Do you want to go out tonight?",
+      "zh": ""
+    },
+    {
+      "en": "Lydia: No, I think I'll pass. Mark broke up with me. I feel awful.",
+      "zh": ""
+    },
+    {
+      "en": "Maggie: What?!? What happened? Just last week you were talking about going on vacation together!",
+      "zh": ""
+    },
+    {
+      "en": "Lydia: I don't know what I did wrong. He said he needed some space to figure things out... He said I didn't do anything wrong, that I'm a great person... just not the one for him...",
+      "zh": ""
+    },
+    {
+      "en": "Maggie: Ugh! That 's so cliche. Mark's not worth your time, Lydia. You deserve so much better!",
+      "zh": ""
+    },
+    {
+      "en": "Lydia: I know we had hit a rough patch but I had hoped we could work it out next weekend, when we both had some time off... I think he found someone else. I had been getting suspicious because he had been spending a lot of time with a coworker...",
+      "zh": ""
+    },
+    {
+      "en": "Maggie: Whatever. He's a jerk, forget about him! There are many more fish in the sea.",
+      "zh": ""
+    },
+    {
+      "en": "Lydia: Talk about being clich ' e, Maggie! But you 're right. There's no use for me to sulk around... Let's go out tonight!",
+      "zh": ""
+    }
+  ],
+  "code": "C0281",
+  "title": "The Weekend - Breaking Up",
+  "level": "Intermediate"
 }

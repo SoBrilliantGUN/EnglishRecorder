@@ -860,5 +860,50 @@
       "en": "Take care.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hey Julie, you want to go grab something to eat?",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure! What do you feel like having?",
+      "zh": ""
+    },
+    {
+      "en": "A: I really feel like having a big juicy steak!",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh. ok. I don't eat meat, but that's fine, I am sure 88 wherever we are going they will have other options right?",
+      "zh": ""
+    },
+    {
+      "en": "A: I didn't know you were a vegetarian!",
+      "zh": ""
+    },
+    {
+      "en": "B: I'm not, I am a vegan.",
+      "zh": ""
+    },
+    {
+      "en": "A: A what?",
+      "zh": ""
+    },
+    {
+      "en": "B: A vegan. I don't eat or use any animal based products. I don't wear leather, eat eggs, drink milk or anything that comes from an animal. I used to be a pescatarian before, which basically means you don't eat meat, but still have fish and seafood.",
+      "zh": ""
+    },
+    {
+      "en": "A: Wow! That's interesting! It must be tough!",
+      "zh": ""
+    },
+    {
+      "en": "B: It's a bit difficult to find vegetarian friendly restaurants sometimes, but since more and more people are vegetarians or vegans nowadays, it's getting a bit less difficult.",
+      "zh": ""
+    }
+  ],
+  "code": "C0296",
+  "title": "Global View - Vegan Or Vegetarian?",
+  "level": "Intermediate"
 }

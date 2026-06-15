@@ -1028,5 +1028,46 @@
       "en": "Thanks for watching.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Gao: Okay everyone, shall we begin?",
+      "zh": ""
+    },
+    {
+      "en": "Bill: Sorry Maggie, but we are missing a few people. Can we hang on a sec? Maggie",
+      "zh": ""
+    },
+    {
+      "en": "Gao: Well, I did say eleven o'clock sharp, and it's now five past so...",
+      "zh": ""
+    },
+    {
+      "en": "James: Hi everyone, I'm so sorry I'm late. It's raining cats and dogs outside and I had to wait ages for a taxi. Maggie",
+      "zh": ""
+    },
+    {
+      "en": "Gao: Okay James, take a seat quickly please. Right, the subject of the meeting is.",
+      "zh": ""
+    },
+    {
+      "en": "Sally: Hi guys. Please excuse me, I was held up in traffic. Maggie",
+      "zh": ""
+    },
+    {
+      "en": "Gao: Right, as I was saying the subject of the m...",
+      "zh": ""
+    },
+    {
+      "en": "Bruno: Hi Maggie. I'm terribly sorry. The traffic is murder out there. Maggie",
+      "zh": ""
+    },
+    {
+      "en": "Gao: Sit down Bruno! Okay now, as you are aware, the topic for this meeting is 'The importance of being punctual'. Who would like to start?",
+      "zh": ""
+    }
+  ],
+  "code": "C0311",
+  "title": "The Office - Sorry I’m Late",
+  "level": "Intermediate"
 }

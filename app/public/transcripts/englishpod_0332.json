@@ -1260,5 +1260,14 @@
       "en": "Have a great day.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0332",
+  "title": "Lesson 332",
+  "level": "Intermediate"
 }

@@ -1500,5 +1500,106 @@
       "en": "Bye bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Please make yourselves at home.",
+      "zh": "A：请别拘束。"
+    },
+    {
+      "en": "A: Let me take your coats.",
+      "zh": "A：让我帮你们拿外套。"
+    },
+    {
+      "en": "A: Dinner is almost ready; I hope you brought your appetite",
+      "zh": "A：晚饭马上就准备好了；我希望你们带着好胃口来。"
+    },
+    {
+      "en": "B: Your house is lovely, Armand!",
+      "zh": "B：你的房子真漂亮，阿尔芒！"
+    },
+    {
+      "en": "B: Very interesting decor...very... Gothic.",
+      "zh": "B：非常有趣的装饰……非常……哥特风。"
+    },
+    {
+      "en": "C: I think it's amazing!",
+      "zh": "C：我觉得太棒了！"
+    },
+    {
+      "en": "C: You have such good taste, Armand.",
+      "zh": "C：你的品味真好，阿尔芒。"
+    },
+    {
+      "en": "C: I'm thinking of re-decorating my house; maybe you could give me a few pointers?",
+      "zh": "C：我正在考虑重新装修我的房子；也许你能给我一些建议？"
+    },
+    {
+      "en": "A: It would be my pleasure.",
+      "zh": "A：这是我的荣幸。"
+    },
+    {
+      "en": "A: Please have a seat.",
+      "zh": "A：请坐。"
+    },
+    {
+      "en": "A: Can I offer you a glass of wine?",
+      "zh": "A：我能给你们来一杯葡萄酒吗？"
+    },
+    {
+      "en": "C: We would love some!",
+      "zh": "C：我们很乐意！"
+    },
+    {
+      "en": "A: Here you are.",
+      "zh": "A：请享用。"
+    },
+    {
+      "en": "A: A very special merlot brought directly from my home country.",
+      "zh": "A：这是一款非常特别的美乐，直接从我的祖国带来的。"
+    },
+    {
+      "en": "A: It has a unique ingredient which gives it a pleasant aroma and superior flavor.",
+      "zh": "A：它有一种独特的成分，赋予了它宜人的香气和非凡的风味。"
+    },
+    {
+      "en": "C: Mmm... it's delicious!",
+      "zh": "C：嗯……真好喝！"
+    },
+    {
+      "en": "B: It's a bit bitter for my taste... almost tastes like... like...",
+      "zh": "B：对我来说有点苦……几乎尝起来像……像……"
+    },
+    {
+      "en": "C: Ellen!",
+      "zh": "C：艾伦！"
+    },
+    {
+      "en": "C: Ellen!",
+      "zh": "C：艾伦！"
+    },
+    {
+      "en": "C: Are you okay?",
+      "zh": "C：你还好吗？"
+    },
+    {
+      "en": "A: Did she pass out?",
+      "zh": "A：她晕过去了吗？"
+    },
+    {
+      "en": "C: Yeah...",
+      "zh": "C：嗯……"
+    },
+    {
+      "en": "A: I hope that you didn't poison her drink too much!",
+      "zh": "A：我希望你没有给她下太多毒！"
+    },
+    {
+      "en": "A: You'll ruin our meal!",
+      "zh": "A：你会毁了我们的晚餐！"
+    }
+  ],
+  "code": "C0050",
+  "title": "Daily Life - New Guy In Town III",
+  "level": "Elementary"
 }

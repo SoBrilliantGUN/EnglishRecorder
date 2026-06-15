@@ -1060,5 +1060,22 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Good evening, my fellow Americans. Three days from now, after a half-century of se rvice of our country, I shall lay down the responsibilities of office as, in a traditional and solemn ceremony, the author ity of the Presidency is vested in my successor. This evening I come to you with a message of leave-taking and farewell, and to share a few final thoughts with you, my countrymen.",
+      "zh": ""
+    },
+    {
+      "en": "A: Like every other citizen, I wish the new President, and all who will labor with him, Godspeed. I pray that the coming years will be blessed with peace and prosperity for all.",
+      "zh": ""
+    },
+    {
+      "en": "A: Our people expect their President and the Congress to find essential agreement on questions of great importance, the wise resolution of which will better shape the future of our great nation. My own relations with Congress began on a remote and tenuous basis when, long ago, a member of the Senate appointed me to West Point. I then had the pleasure of building more intimate relationship with Congress during the war and immediate post-war period. Finally, we have progressed to the mutually interdependent relationship we've had during these past eight years.",
+      "zh": ""
+    }
+  ],
+  "code": "C0121",
+  "title": "Global View - Presidential Speech",
+  "level": "Elementary"
 }

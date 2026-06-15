@@ -1292,5 +1292,42 @@
       "en": "Bye everyone.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Lawyer: Your honor, ladies and gentlemen of the jury, My client, Robert Malone, has been accused of a crime he did not commit. The prosecution has accused my client of being a pickpocket! I know we have heard the testimony of many people here today,... people who claim the defendant, my client, stole th eir wallets. I feel sorry for these victims, I really do... but my client is innocent!",
+      "zh": ""
+    },
+    {
+      "en": "Lawyer: Let's look at the facts... one: These 'so-called' witnesses did not actually see the defendant steal anything... two: When the police stopped him, he did not have any of the stolen wallets. There is no evidence.",
+      "zh": ""
+    },
+    {
+      "en": "Lawyer: Therefore, Ladies and Gentlemen of the jury, I ask you to think carefully before giving your verdict. My client is innocent!",
+      "zh": ""
+    },
+    {
+      "en": "Judge: Ladies and Gentlemen of the jury, have you reached a verdict? Jury member: Yes, your honor. our verdict is... not guilty!",
+      "zh": ""
+    },
+    {
+      "en": "Robert: Thank you so much! You were great! Thank you for all your hard work!",
+      "zh": ""
+    },
+    {
+      "en": "Lawyer: You're welcome Robert! I knew you were innocent so my job was easy. Take care of yourself, okay?",
+      "zh": ""
+    },
+    {
+      "en": "Robert: Thanks once again...",
+      "zh": ""
+    },
+    {
+      "en": "Lawyer: Hey! Where's my wallet?",
+      "zh": ""
+    }
+  ],
+  "code": "C0204",
+  "title": "Global View - Understanding a Trial",
+  "level": "Elementary"
 }

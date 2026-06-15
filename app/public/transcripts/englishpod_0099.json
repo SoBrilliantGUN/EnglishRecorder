@@ -1332,5 +1332,50 @@
       "en": "I'll watch Kill Bill at the end.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Welcome back movie lovers to another \" Premier Movie Review\". My name is Richard Clarke and I am joined today by the very erudite David Watson.",
+      "zh": ""
+    },
+    {
+      "en": "B: Thank you Dick. Today we are going to talk about the movie \" Lion King\". Tell me Dave, what is your impression of this film?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, I think this film is simply a fable, depicting man's eternal greed for power, and in my opinion, it's a very fine film. Even despite the accusations of plagiarism traditional folk tales from other countries. The musical score was amazing, the animation was very well done, and the story was simply enchanting.",
+      "zh": ""
+    },
+    {
+      "en": "B: I think otherwise. Even though the animation was technically strong, and as you say, the score and songs performed by Elton John were great, the film lacks a certain originality; it lacked heart. And I would dare to say, it was too predictable.",
+      "zh": ""
+    },
+    {
+      "en": "A: Predictable! How! Come on Dick, It's a G-rated movie! It's for the kids! It's not a thriller!",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, that's just it. It did have some very dramatic and intense scenes For example when Mufasa dies, or the dark, grim portrayal of Scar. Even so, the film is linear. Mufasa dies, Simba runs away thinking it's his fault. Falls in love and returns to retake what is rightfully his. It's just too cliché.",
+      "zh": ""
+    },
+    {
+      "en": "A: How can it be cliché? It's a fable! It's telling a time-honoured story! The movie make a point of how the 27 hunger for power leads to corruption, and teaches children the value of respect, life and love.",
+      "zh": ""
+    },
+    {
+      "en": "B: You have always been so soft, Dave!",
+      "zh": ""
+    },
+    {
+      "en": "A: Open your heart Dick. Don't shut us out.",
+      "zh": ""
+    },
+    {
+      "en": "B: Anyway... That's all for today folks! Join us next time as we talk about... quot;How to lose a guy in 10 days... quot; I'm sure you'll love that one Dave!",
+      "zh": ""
+    }
+  ],
+  "code": "C0099",
+  "title": "Global View - Movie Review",
+  "level": "Elementary"
 }

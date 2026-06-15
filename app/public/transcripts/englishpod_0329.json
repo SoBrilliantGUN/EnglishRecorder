@@ -1000,5 +1000,54 @@
       "en": "I'm not going to watch that.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Welcome to Al's Bakery. What can I get you?",
+      "zh": ""
+    },
+    {
+      "en": "B: Hi! Let me get a dozen croissants, four blueberry muffins and a loaf of sourdough bread.",
+      "zh": ""
+    },
+    {
+      "en": "A: Sure. Would you like to have the loaf sliced?",
+      "zh": ""
+    },
+    {
+      "en": "B: No, that's OK. Do you have any whole wheat bread?",
+      "zh": ""
+    },
+    {
+      "en": "A: We are out at the moment. May I suggest some rye bread?",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure that sounds good. Do you have any cakes?",
+      "zh": ""
+    },
+    {
+      "en": "A: We have various birthday cakes and also ice cream cakes.",
+      "zh": ""
+    },
+    {
+      "en": "B: I'll just take a cheesecake.",
+      "zh": ""
+    },
+    {
+      "en": "A: Will that be all?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes.",
+      "zh": ""
+    },
+    {
+      "en": "A: Your total is forty three dollars and twenty cents.",
+      "zh": ""
+    }
+  ],
+  "code": "C0329",
+  "title": "Daily Life - Going To The Bakery",
+  "level": "Intermediate"
 }

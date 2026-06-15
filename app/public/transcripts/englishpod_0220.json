@@ -1228,5 +1228,38 @@
       "en": "Go to our website.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: How about this floor lamp?",
+      "zh": ""
+    },
+    {
+      "en": "B: Fine just get it! We have been shopping for furniture for five hours! I'm so tired!",
+      "zh": ""
+    },
+    {
+      "en": "A: We still need to find an armoire and a dresser.",
+      "zh": ""
+    },
+    {
+      "en": "B: Fine! I am going to go home and drop off this nightstand, coffee table and love seat while you look for the rest of the things.",
+      "zh": ""
+    },
+    {
+      "en": "A: Great! Pick me up in about an hour because I think I'll also get a bean bag and a dining set.",
+      "zh": ""
+    },
+    {
+      "en": "B: While you are at it can you pick out a nice recliner? I really want one so I can watch TV.",
+      "zh": ""
+    },
+    {
+      "en": "A: Recliner? In my beautifully decorated living room? I don't think so!",
+      "zh": ""
+    }
+  ],
+  "code": "C0220",
+  "title": "Daily Life - New Furniture",
+  "level": "Elementary"
 }

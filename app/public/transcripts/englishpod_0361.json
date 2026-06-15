@@ -904,5 +904,14 @@
       "en": "Okay, bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0361",
+  "title": "Lesson 361",
+  "level": "Intermediate"
 }

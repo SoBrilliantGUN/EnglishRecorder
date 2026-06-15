@@ -1232,5 +1232,58 @@
       "en": "Take care, guys.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: What's up? You don't look too good.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, my head hurts, that's all. I've been in physics class all day. It's killer!",
+      "zh": ""
+    },
+    {
+      "en": "A: I liked physics. It's all math, really; arcs, curves, velocity, cool stuff.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, yeah, but today's lesson was all about the creation of the universe.",
+      "zh": ""
+    },
+    {
+      "en": "A: A physics class about the creation of the universe? That's some pretty unscientific language there. Sounds more religious to me.",
+      "zh": ""
+    },
+    {
+      "en": "B: It's all religion. Take the theory of the Big Bang. How is it possible that all of the stuff in the universe comes from an explosion? That's no better than Atlas carrying the globe on his back or African myths about turtles and stuff.",
+      "zh": ""
+    },
+    {
+      "en": "A: Turtles? Whatever... Look, all that's required for the creation of matter an imbalance of particles and anti-particles. At least, that's what the math says.",
+      "zh": ""
+    },
+    {
+      "en": "B: Math, shmath. What's the evidence?",
+      "zh": ""
+    },
+    {
+      "en": "A: There is evidence! You kn ow Edwin Hubble? He's the guy who in the early twentieth century was the first scientist to measure the drift of matter in the universe, thus advancing notions of an expanding universe. What would it be expanding from? Well, the Big Bang... DUH!",
+      "zh": ""
+    },
+    {
+      "en": "B: Anyway, it's just a theory. Why do people go around touting theories? Where's the scientific rigor in that?",
+      "zh": ""
+    },
+    {
+      "en": "A: Dude, don't equivocate. A theory only becomes a theory after withstanding rigorous testing. You slept through class, didn't you?",
+      "zh": ""
+    },
+    {
+      "en": "B: Agh! You're making my head hurt again! Quit with the questions!",
+      "zh": ""
+    }
+  ],
+  "code": "C0094",
+  "title": "Global View - Big Bang Theory",
+  "level": "Elementary"
 }

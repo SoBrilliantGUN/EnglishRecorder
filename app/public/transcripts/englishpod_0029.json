@@ -980,5 +980,98 @@
       "en": "Goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Dad, I'd like to borrow some money.",
+      "zh": "A：爸，我想借点钱。"
+    },
+    {
+      "en": "B: Sure, Johnny, how much do you need? five bucks?",
+      "zh": "B：没问题，强尼，你需要多少？五块钱？"
+    },
+    {
+      "en": "A: Come on, Dad, I need thirty thousand.",
+      "zh": "A：别这样爸，我要三万。"
+    },
+    {
+      "en": "A: I wanna get into the market.",
+      "zh": "A：我想进入股市。"
+    },
+    {
+      "en": "A: You know, I'm tired of hearing all this news about the economic downturn, the inevitable recession, people stuffing their money in their mattresses.",
+      "zh": "A：你知道，我听够了所有关于经济衰退、不可避免的萧条、人们把钱塞到床垫里的新闻。"
+    },
+    {
+      "en": "A: I look at this as an opportunity.",
+      "zh": "A：我反而把这看作一个机会。"
+    },
+    {
+      "en": "A: This is a chance for me to get a jump start on building my nest egg.",
+      "zh": "A：这是让我抢先起步积累养老金的好机会。"
+    },
+    {
+      "en": "B: I don't know about that; with all the uncertainty in the markets right now, it would be a very unwise decision to invest.",
+      "zh": "B：这个我不太确定；现在市场有太多不确定性了，投资将是一个非常不明智的决定。"
+    },
+    {
+      "en": "B: I don't know if you're aware son, but there has been a lot of turmoil in the markets recently.",
+      "zh": "B：儿子，我不知道你是否了解，最近市场动荡很大。"
+    },
+    {
+      "en": "B: There have already been half a million layoffs in the last few months, and we have no idea how the proposed stimulus package will impact the economy.",
+      "zh": "B：过去几个月已经有五十万人被裁员了，而且我们还不知道提出的经济刺激方案会对经济产生什么影响。"
+    },
+    {
+      "en": "B: There's just too much instability.",
+      "zh": "B：有太多不稳定性了。"
+    },
+    {
+      "en": "B: I wouldn't feel comfortable investing in this climate.",
+      "zh": "B：在这种环境下投资，我无法安心。"
+    },
+    {
+      "en": "A: But look at it this way, every challenge is an opportunity.",
+      "zh": "A：但换个角度看，每个挑战都是机遇。"
+    },
+    {
+      "en": "A: And anyway, I'm not talking about investing 8 in the domestic market.",
+      "zh": "A：再说了，我不是在说投资国内市场。"
+    },
+    {
+      "en": "A: There are emerging markets that promise great returns.",
+      "zh": "A：有一些新兴市场承诺了很高的回报。"
+    },
+    {
+      "en": "A: Look at China, for example; they have 1.4 billion people, half a billion of whom have recently entered the middle class.",
+      "zh": "A：比如中国，他们有14亿人口，其中五亿最近进入了中产阶级。"
+    },
+    {
+      "en": "A: Here alone, the aggregate demand for consumer goods re Presents an amazing wealth generating opportunity.",
+      "zh": "A：光是这一点，消费品的总需求就代表了一个令人难以置信的财富创造机会。"
+    },
+    {
+      "en": "B: Come on, son, you're looking at this too naively, the Chinese market has exhibited a great deal of instability, and their currency has been devalued by almost a whole percentage point.",
+      "zh": "B：得了吧儿子，你看得太天真了，中国市场表现出了很大的不稳定性，他们的货币已经贬值了将近一个百分点。"
+    },
+    {
+      "en": "A: Fine, then!",
+      "zh": "A：好吧，算了！"
+    },
+    {
+      "en": "A: If that's the way you feel, so be it.",
+      "zh": "A：如果你是这样想的，那就这样吧。"
+    },
+    {
+      "en": "A: But you're losing out on a great opportunity here.",
+      "zh": "A：但你正在错失一个巨大的机会。"
+    },
+    {
+      "en": "A: I'm going to go hit up Mum for the cash.",
+      "zh": "A：我去找妈妈要钱。"
+    }
+  ],
+  "code": "E0029",
+  "title": "Advanced - Investing in Emerging",
+  "level": "Elementary"
 }

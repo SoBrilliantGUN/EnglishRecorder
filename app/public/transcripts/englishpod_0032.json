@@ -1088,5 +1088,78 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Next, please.",
+      "zh": "A：下一位。"
+    },
+    {
+      "en": "A: May I help you, sir?",
+      "zh": "A：有什么可以帮您，先生？"
+    },
+    {
+      "en": "B: Hello, yes, I'd like to open a bank account.",
+      "zh": "B：你好，是的，我想开一个银行账户。"
+    },
+    {
+      "en": "A: Certainly, I can can help you with that.",
+      "zh": "A：当然，我可以帮您办理。"
+    },
+    {
+      "en": "A: What type of account would you like to open?",
+      "zh": "A：您想开哪种类型的账户？"
+    },
+    {
+      "en": "A: A chequing or a savings account?",
+      "zh": "A：支票账户还是储蓄账户？"
+    },
+    {
+      "en": "B: What What features do they offer?",
+      "zh": "B：它们各有什么特点？"
+    },
+    {
+      "en": "A: Well, if you just take a look here, see, with our chequing account, you can have unlimited daily transactions for a small monthly fee, and our savings account has a higher interest rate, but you must carry a minimum balance of $ 10,000 dollars.",
+      "zh": "A：嗯，您看看这个，我们的支票账户每月只需支付少量费用就可以享受无限次的日常交易，而我们的储蓄账户利率更高，但您必须保持最低1万美元的余额。"
+    },
+    {
+      "en": "B: I see, well, I think I'm more interested in a chequing account; I like to have easy access to my money.",
+      "zh": "B：我明白了，嗯，我想我对支票账户更感兴趣；我喜欢能方便地取用我的钱。"
+    },
+    {
+      "en": "A: Alright, then, with this chequing account you'll be issued a debit card and a cheque book.",
+      "zh": "A：好的，那么有了这个支票账户，您将获得一张借记卡和一本支票簿。"
+    },
+    {
+      "en": "A: Will you require overdraft protection?",
+      "zh": "A：您需要透支保护吗？"
+    },
+    {
+      "en": "A: There is an extra fee for that.",
+      "zh": "A：那需要额外收费。"
+    },
+    {
+      "en": "B: No, that won't be necessary.",
+      "zh": "B：不用了，不需要。"
+    },
+    {
+      "en": "A: In that case, I'll get you to fill out this paperwork; I'll need your social insurance number, and two pieces of government ID.",
+      "zh": "A：那么，我来帮您填好这些表格；我需要您的社会保险号和两份政府颁发的身份证件。"
+    },
+    {
+      "en": "A: If you could just sign here, and here, and here; we'll be all set.",
+      "zh": "A：请在这里、这里和这里签字，就好了。"
+    },
+    {
+      "en": "A: Would you like to make a deposit today?",
+      "zh": "A：您今天要存款吗？"
+    },
+    {
+      "en": "B: Yes, I'd like to deposit one billion dollars.",
+      "zh": "B：是的，我想存十亿美元。"
+    }
+  ],
+  "code": "C0032",
+  "title": "Daily Life - Opening a Bank Account",
+  "level": "Elementary"
 }

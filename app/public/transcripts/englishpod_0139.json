@@ -1020,5 +1020,50 @@
       "en": "🎵",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Daddy: Bobby! Come here, look what I got you!",
+      "zh": ""
+    },
+    {
+      "en": "Bobby: What is that?",
+      "zh": ""
+    },
+    {
+      "en": "Daddy: A chess board! Daddy is going to teach you how to play!",
+      "zh": ""
+    },
+    {
+      "en": "Bobby: Cool!",
+      "zh": ""
+    },
+    {
+      "en": "Daddy: Ok, each player gets 16 pieces. You can be the white ones and I'll play with the black pieces. Now in the front, you set up the pawns. Those are the least valuable pieces and can only move one space forward. When you are about to capture another piece, it can move one space diagonally.",
+      "zh": ""
+    },
+    {
+      "en": "Bobby: What about all these other pieces?",
+      "zh": ""
+    },
+    {
+      "en": "Daddy: See this one that looks like a tower? It's called the rook. The one with the tall hat is called the bishop. See this little horsey? This is called the knight, it's a very important piece so it's best to not let your opponent capture it.",
+      "zh": ""
+    },
+    {
+      "en": "Bobby: And these two? They are husband and wife?",
+      "zh": ""
+    },
+    {
+      "en": "Daddy: That's right! That's the queen and that's the king. If the other player captures your king, he will say \"Check Mate\" and the game is over! Doesn't this sound fun?",
+      "zh": ""
+    },
+    {
+      "en": "Bobby: Nah! This is boring! I'm gonna go play Killer Zombies on my Play Station!",
+      "zh": ""
+    }
+  ],
+  "code": "C0139",
+  "title": "The Weekend - Playing Chess",
+  "level": "Elementary"
 }

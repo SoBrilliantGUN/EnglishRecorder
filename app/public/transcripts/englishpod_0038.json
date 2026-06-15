@@ -1252,5 +1252,114 @@
       "en": "Cheers.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hi there, can I help you folks?",
+      "zh": "A：你们好，有什么能帮你们的吗？"
+    },
+    {
+      "en": "B: I'm just browsing; seeing what's on the lot.",
+      "zh": "B：我只是随便看看；看看场上有什么车。"
+    },
+    {
+      "en": "B: My daughter wants a car for her birthday, you know how it is.",
+      "zh": "B：我女儿生日想要一辆车，你懂的。"
+    },
+    {
+      "en": "C: Dad!",
+      "zh": "C：爸！"
+    },
+    {
+      "en": "C: I'm sixteen already an d I'm, like, the only one at school who doesn't have a car!",
+      "zh": "C：我都十六岁了，我几乎是全校唯一没有车的人了！"
+    },
+    {
+      "en": "A: She is right, you know.",
+      "zh": "A：她说得对。"
+    },
+    {
+      "en": "A: Kids these days all have cars.",
+      "zh": "A：现在的孩子都有车。"
+    },
+    {
+      "en": "A: Let me show you something we just got in: a 1996 sedan.",
+      "zh": "A：让我给你们看一款我们刚到的：1996年的轿车。"
+    },
+    {
+      "en": "A: Excellent gas mileage, it has dual airbags and anti lock brakes; a perfect vehicle for a young driver.",
+      "zh": "A：油耗很好，有双安全气囊和防抱死刹车；对年轻驾驶员来说非常完美。"
+    },
+    {
+      "en": "C: Dad, I love it!",
+      "zh": "C：爸，我太喜欢了！"
+    },
+    {
+      "en": "C: It's awesome!",
+      "zh": "C：太棒了！"
+    },
+    {
+      "en": "C: Can we get this one please?",
+      "zh": "C：我们能买这辆吗？"
+    },
+    {
+      "en": "B: I see... What can you tell me about this one?",
+      "zh": "B：我看看……这辆你能跟我说说吗？"
+    },
+    {
+      "en": "A: Oh, that's just an old World War Two tank that we use for TV commercials.",
+      "zh": "A：哦，那只是一辆我们用来拍电视广告的二战旧坦克。"
+    },
+    {
+      "en": "A: Now about this sedan...",
+      "zh": "A：还是来看这辆轿车吧……"
+    },
+    {
+      "en": "B: Whoa, whoa wait a minute.",
+      "zh": "B：哇，哇等一下。"
+    },
+    {
+      "en": "B: Tell me more about this tank.",
+      "zh": "B：多跟我说说这辆坦克。"
+    },
+    {
+      "en": "A: Well, Sir, if you are looking for quality and safety then look no further!",
+      "zh": "A：好的先生，如果您追求质量和安全，那就不用再找了！"
+    },
+    {
+      "en": "A: Three inches of reinforced steel protect your daughter from short range missile attacks.",
+      "zh": "A：三英寸厚的强化钢可以保护您的女儿免受短程导弹攻击。"
+    },
+    {
+      "en": "B: Does the sedan protect her from missile attacks?",
+      "zh": "B：轿车能保护她免受导弹攻击吗？"
+    },
+    {
+      "en": "A: It does not.",
+      "zh": "A：不能。"
+    },
+    {
+      "en": "B: Well, I don't know.",
+      "zh": "B：嗯，我不确定。"
+    },
+    {
+      "en": "B: Let me sleep on it.",
+      "zh": "B：让我考虑一晚。"
+    },
+    {
+      "en": "A: Did I mention the tank is a tank?",
+      "zh": "A：我有没有说过这坦克本身就是一辆坦克？"
+    },
+    {
+      "en": "B: I'll take it!",
+      "zh": "B：我买了！"
+    },
+    {
+      "en": "C: Dad!",
+      "zh": "C：爸！"
+    }
+  ],
+  "code": "C0038",
+  "title": "Daily Life - Buying a Car",
+  "level": "Elementary"
 }

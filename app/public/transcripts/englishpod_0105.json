@@ -1044,5 +1044,42 @@
       "en": "Happy Marketing University of Florida.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: And so, that concludes my outline for our marketing strategy next year. Thank you very much for your time.",
+      "zh": ""
+    },
+    {
+      "en": "B: Hey, that was quite the Presentation! Honestly, I was completely blown away by your strategy outline. I've gotta say, Alex, you really wowed me today.",
+      "zh": ""
+    },
+    {
+      "en": "A: Aw, come on; it was nothing. I'm just doing my job.",
+      "zh": ""
+    },
+    {
+      "en": "B: No, I think you deserve some recognition here; I mean, if I look back on your previous Presentations, this is a huge improvement.",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, Kristin did give me a hand with the slides. She's a real wiz on Power Point.",
+      "zh": ""
+    },
+    {
+      "en": "B: And I saw that you took on board my feedback about pricing strategies. I really appreciate you taking the time to think though my suggestions.",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah, well, that was some good advice. You made some really good points.",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, I just wanted to say well done. Really you did a great job.",
+      "zh": ""
+    }
+  ],
+  "code": "C0105",
+  "title": "The Office - Job Well Done",
+  "level": "Elementary"
 }

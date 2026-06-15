@@ -1400,5 +1400,34 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hey Carl, can you make a copy of this contract for me please? When you have it ready, send it out ASAP to our subbranch.",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure! Um... I think I broke this thing. Maxine, can you help me out here? I'm not really a tech guy.",
+      "zh": ""
+    },
+    {
+      "en": "C: Yeah, sure. I think it's just out of toner. You can go use the other one upstairs. On your way up, can you fax this while I try and fix this thing?",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure! Dammit! Everything in this office seems to be breaking down! Never mind. I'll send this stupid fax later. Oh great! Is someone playing a practical joke on me? This is ridiculous!",
+      "zh": ""
+    },
+    {
+      "en": "D: The elevator has some sort of malfunction. Just take the stairs dude. What floor are you going to?",
+      "zh": ""
+    },
+    {
+      "en": "B: I have to go up fifteen floors! Never mind. Made it! There is the copier!",
+      "zh": ""
+    }
+  ],
+  "code": "C0057",
+  "title": "in these bags. Dont get greedy! Are you ready? Let’s go. Elementary - The Office - Malfunction",
+  "level": "Intermediate"
 }

@@ -1556,5 +1556,46 @@
       "en": "Ciao.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Good evening, Pizza House. This is Marty speaking. May I take your order?",
+      "zh": ""
+    },
+    {
+      "en": "B: Um yes... I'd like a medium pizza with pepperoni, olives, and extra cheese.",
+      "zh": ""
+    },
+    {
+      "en": "A: We have a two-for-one special on large pizzas. Would you like a large pizza instead?",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure, that sounds good.",
+      "zh": ""
+    },
+    {
+      "en": "A: Great! Would you like your second pizza to be the same as the first?",
+      "zh": ""
+    },
+    {
+      "en": "B: No, make the second one with ham, pineapple and green peppers. Oh, and make it thin crust.",
+      "zh": ""
+    },
+    {
+      "en": "A: Okay, thin crust. Your total is $21.50 and your order will arrive in thirty minutes or it's free!",
+      "zh": ""
+    },
+    {
+      "en": "B: Perfect. Thank you. Bye..",
+      "zh": ""
+    },
+    {
+      "en": "A: Sir, wait!! I need your address!",
+      "zh": ""
+    }
+  ],
+  "code": "C0052",
+  "title": "Daily Life - Pizza Delivary",
+  "level": "Elementary"
 }

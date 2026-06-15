@@ -996,5 +996,106 @@
       "en": "So with that, until next time, this is goodbye.",
       "zh": "就这样，下次见，再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hurry up, get in.",
+      "zh": "A：快点，上车。"
+    },
+    {
+      "en": "B: I'm in, let's go!",
+      "zh": "B：我上来了，出发吧！"
+    },
+    {
+      "en": "A: OK, make a left here... no wait, I meant make a right.",
+      "zh": "A：好的，这里左转…不对等等，我意思是右转。"
+    },
+    {
+      "en": "A: Come on, speed up!",
+      "zh": "A：快点，加速！"
+    },
+    {
+      "en": "B: Geez!",
+      "zh": "B：天哪！"
+    },
+    {
+      "en": "B: What's the rush?",
+      "zh": "B：急什么啊？"
+    },
+    {
+      "en": "A: Don't worry about it, just drive.",
+      "zh": "A：别管了，开你的车。"
+    },
+    {
+      "en": "A: Oh, no, the light is about to change... step on it!",
+      "zh": "A：哦不，要变灯了…踩油门！"
+    },
+    {
+      "en": "B: Are you nuts!",
+      "zh": "B：你疯了吗！"
+    },
+    {
+      "en": "B: I'm not going to run a red light!",
+      "zh": "B：我才不要闯红灯！"
+    },
+    {
+      "en": "A: Whatever.",
+      "zh": "A：随便吧。"
+    },
+    {
+      "en": "A: Just turn right here... The freeway will be packed at this hour...let's take a side street.",
+      "zh": "A：就在这右转吧…这个时间高速肯定堵死了…走小路吧。"
+    },
+    {
+      "en": "A: Go on!",
+      "zh": "A：快走！"
+    },
+    {
+      "en": "A: Get out of our way!",
+      "zh": "A：别挡道！"
+    },
+    {
+      "en": "A: Move, move!",
+      "zh": "A：让开，让开！"
+    },
+    {
+      "en": "B: What's your problem!",
+      "zh": "B：你有什么毛病啊！"
+    },
+    {
+      "en": "B: G eez.",
+      "zh": "B：天哪。"
+    },
+    {
+      "en": "B: Having a fit is not going to help!",
+      "zh": "B：发火也解决不了问题！"
+    },
+    {
+      "en": "A: Here, I know a short cut...just go down here, and we'll cut though Ashburn Heights.",
+      "zh": "A：这边，我知道一条捷径…就从这下去，然后穿过阿什本高地。"
+    },
+    {
+      "en": "A: Let's go, let's go!",
+      "zh": "A：快走，快走！"
+    },
+    {
+      "en": "A: Watch out for that lady!",
+      "zh": "A：小心那个女士！"
+    },
+    {
+      "en": "B: I'm going as fast as I can!",
+      "zh": "B：我已经开得最快了！"
+    },
+    {
+      "en": "A: Yes! We made it. 5:58, just before the library closes.",
+      "zh": "A：太好了！我们赶上了。5点58分，刚好在图书馆关门前。"
+    },
+    {
+      "en": "B: You're such a geek!",
+      "zh": "B：你真是个书呆子！"
+    }
+  ],
+  "code": "B0016",
+  "title": "Turn left here!",
+  "level": "Elementary"
 }

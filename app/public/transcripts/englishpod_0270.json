@@ -976,5 +976,38 @@
       "en": "This wasberg.com.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hello sir, what can I do for you today?",
+      "zh": ""
+    },
+    {
+      "en": "B: Hi, I need a new suit. I have an important interview next week, so I really need to look sharp.",
+      "zh": ""
+    },
+    {
+      "en": "A: No problem! We have a broad selection of suits, all tailored made so that it will fit perfectly.",
+      "zh": ""
+    },
+    {
+      "en": "B: Great! I want a three piece suit, preferably made from Italian cashmere or wool.",
+      "zh": ""
+    },
+    {
+      "en": "A: Very well sir. Would you like to have some shirts made also?",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure. I'll also take some silver cuff link and a pair of silk ties.",
+      "zh": ""
+    },
+    {
+      "en": "A: Very good. Now, if you will accompany me, we can take your measurements and choose the patterns for your suit and shirts.",
+      "zh": ""
+    }
+  ],
+  "code": "C0270",
+  "title": "Daily Life - Buying A Suit",
+  "level": "Intermediate"
 }

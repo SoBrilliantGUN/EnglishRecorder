@@ -968,5 +968,14 @@
       "en": "English translation by CastingWords",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0352",
+  "title": "Lesson 352",
+  "level": "Intermediate"
 }

@@ -1016,5 +1016,38 @@
       "en": "X",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hey man! How's it hanging?",
+      "zh": ""
+    },
+    {
+      "en": "B: Hey man! Everything is just groovy baby!",
+      "zh": ""
+    },
+    {
+      "en": "A: Did you go to the roller rink on Saturday? I heard it was far out, man!",
+      "zh": ""
+    },
+    {
+      "en": "B: I wanted to, but I ran into this foxy lady that just moved to my block! I was chatting her up a bit and then we mellowed out at her place.",
+      "zh": ""
+    },
+    {
+      "en": "A: Right on, right on! Well, Jim went to the rink with Sherry and he said it was dy-no-mite! He was low on bread, but Sherry paid for everything.",
+      "zh": ""
+    },
+    {
+      "en": "B: Gravy! Jim is such a jive turkey man. He is always hitting me up for cash. Anyway, you wanna book and go grab some grub?",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah man, I'm starving!",
+      "zh": ""
+    }
+  ],
+  "code": "C0101",
+  "title": "The Weekend - 1970’s",
+  "level": "Elementary"
 }

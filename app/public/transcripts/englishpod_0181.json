@@ -868,5 +868,54 @@
       "en": "энергetic guitar music",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Dad, dad, dad! Wake up! It's Christmas!",
+      "zh": ""
+    },
+    {
+      "en": "B: Timmy. It's too early for th is. Look, it's six in the morning! Go back to bed!",
+      "zh": ""
+    },
+    {
+      "en": "A: No way! Santa already came and left all our presents! Can we go open them? Please! Please!",
+      "zh": ""
+    },
+    {
+      "en": "C: Of course we can honey. Bill, come on, get dressed.",
+      "zh": ""
+    },
+    {
+      "en": "B: Fine! Not like Santa brought me any gifts!",
+      "zh": ""
+    },
+    {
+      "en": "C: Bill! Honestly, you can be such a grouch sometimes.",
+      "zh": ""
+    },
+    {
+      "en": "A: Look at all these presents under the Christmas tree! Awesome!",
+      "zh": ""
+    },
+    {
+      "en": "B: Alright Timmy, knock yourself out. We should get ready and head to the market to buy everything for the Christmas dinner tonight.",
+      "zh": ""
+    },
+    {
+      "en": "C: Yeah you're right. It's the first time we are hosting Christmas dinner at our house so everything has to be perfect.",
+      "zh": ""
+    },
+    {
+      "en": "B: I got the list right here. Ham, turkey, mashed potatoes, ingredients for the gravy and of course, yams!",
+      "zh": ""
+    },
+    {
+      "en": "C: My dad offered to bring the eggnog so we should be",
+      "zh": ""
+    }
+  ],
+  "code": "C0181",
+  "title": "Daily Life - Christmas Day",
+  "level": "Elementary"
 }

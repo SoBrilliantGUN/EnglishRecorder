@@ -972,5 +972,14 @@
       "en": "Okay.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0334",
+  "title": "Lesson 334",
+  "level": "Intermediate"
 }

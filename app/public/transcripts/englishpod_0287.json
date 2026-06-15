@@ -1144,5 +1144,58 @@
       "en": "Bye guys.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I hate coming to high school reunions.",
+      "zh": ""
+    },
+    {
+      "en": "B: It will be great honey. We will get to see your old classmates and catch up to see how they have been doing.",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah I guess so. Oh look! There is Robert Matthews! Rob!",
+      "zh": ""
+    },
+    {
+      "en": "C: Hey Bill! Wow great to see you!",
+      "zh": ""
+    },
+    {
+      "en": "A: Likewise! It's been a long time! This is my wife Dorthy.",
+      "zh": ""
+    },
+    {
+      "en": "C: Pleasure to meet you. So Bill, how have you been?",
+      "zh": ""
+    },
+    {
+      "en": "A: Can't complain! We have 2 children who are in college and my business is going well. What about you?",
+      "zh": ""
+    },
+    {
+      "en": "C: Ah you know me! I am a dedicated bachelor. I never married although I do have a beautiful daughter with Mary, you remember her? We were high school sweetheart, didn't really work out between us, but I really can't complain either.",
+      "zh": ""
+    },
+    {
+      "en": "A: That's good. Have you seen Frank? I was hoping he would come tonight.",
+      "zh": ""
+    },
+    {
+      "en": "C: You didn't hear? Frank passed away last year.",
+      "zh": ""
+    },
+    {
+      "en": "A: Are you serious?",
+      "zh": ""
+    },
+    {
+      "en": "C: Nah! I'm just yanking your chain. He'll be here soon. I saw him just last week and he told me he would show up.",
+      "zh": ""
+    }
+  ],
+  "code": "C0287",
+  "title": "Daily Life - High School Reunion",
+  "level": "Intermediate"
 }

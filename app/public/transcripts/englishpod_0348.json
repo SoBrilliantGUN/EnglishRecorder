@@ -944,5 +944,14 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0348",
+  "title": "Lesson 348",
+  "level": "Intermediate"
 }

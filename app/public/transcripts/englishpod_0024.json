@@ -1056,5 +1056,66 @@
       "en": "Bye-bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Do you two have any plans for the evening?",
+      "zh": "A：你们两个今晚有什么计划吗？"
+    },
+    {
+      "en": "B: We were thinking of checking out a restaurant in the neigbourhood.",
+      "zh": "B：我们想去附近试试一家餐厅。"
+    },
+    {
+      "en": "B: Do you have any suggestions?",
+      "zh": "B：你有什么推荐吗？"
+    },
+    {
+      "en": "A: I know this really nice Italian place.",
+      "zh": "A：我知道一家很棒的意大利餐厅。"
+    },
+    {
+      "en": "A: The food is fantastic, and the d' ecor is beautiful.",
+      "zh": "A：食物非常好吃，装修也很漂亮。"
+    },
+    {
+      "en": "A: I'd recommend giving it a try.",
+      "zh": "A：我强烈推荐。"
+    },
+    {
+      "en": "C: Actually, I'm not all that crazy about Italian food; I'm in the mood for something a bit lighter.",
+      "zh": "C：其实，我不太热衷意大利菜；我现在想吃清淡一点的。"
+    },
+    {
+      "en": "A: In that case, I know a great little bistro.",
+      "zh": "A：那样的话，我知道一家很棒的小酒馆。"
+    },
+    {
+      "en": "A: They make a really tasty seafood platter; the fish is outstanding.",
+      "zh": "A：他们做的海鲜拼盘特别好吃，鱼也很出色。"
+    },
+    {
+      "en": "B: It sounds fantastic, but I'm allergic to seafood, so...",
+      "zh": "B：听起来不错，但我对海鲜过敏，所以……"
+    },
+    {
+      "en": "A: Okay, well, let me think... Oh, I know this great little place.",
+      "zh": "A：好吧，让我想想……哦，我知道一个小地方。"
+    },
+    {
+      "en": "A: It's just a hole in the wall, but they do the most amazing sandwiches.",
+      "zh": "A：虽然门面不起眼，但他们做的三明治简直绝了。"
+    },
+    {
+      "en": "A: You gotta give them a try.",
+      "zh": "A：你们一定得试试。"
+    },
+    {
+      "en": "C: Ella, you took me there last time I visited, and I got food poisoning, remember?",
+      "zh": "C：艾拉，你上次我来的时候就带我去了那家，我食物中毒了，记得吗？"
+    }
+  ],
+  "code": "B0024",
+  "title": "Where should we eat?",
+  "level": "Elementary"
 }

@@ -1108,5 +1108,46 @@
       "en": "Have a great week.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: All right, drag her over here, and help me tie her up.",
+      "zh": ""
+    },
+    {
+      "en": "B: I can't believe she fell for it! She is a lot more gullible than I thought!",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, you gotta admit, my acting was brilliant!",
+      "zh": ""
+    },
+    {
+      "en": "B: Whatever. I was the one that convinced her to come. Look, she's waking up!",
+      "zh": ""
+    },
+    {
+      "en": "C: What's going on? Ellen? What are you doing?",
+      "zh": ""
+    },
+    {
+      "en": "A: The cat's out of the bag, you witch! You can stop pretending, now!",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah Lois, we know who you are! Now, we want some answers! Why are you here?",
+      "zh": ""
+    },
+    {
+      "en": "C: Fools! You don't know who you're dealing with! You can't stop me!",
+      "zh": ""
+    },
+    {
+      "en": "B: Run!",
+      "zh": ""
+    }
+  ],
+  "code": "C0060",
+  "title": "Intermediate - New Guy in Town IV",
+  "level": "Elementary"
 }

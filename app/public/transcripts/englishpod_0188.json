@@ -908,5 +908,54 @@
       "en": "Goodbye!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Excuse me sir, may I talk to you?",
+      "zh": ""
+    },
+    {
+      "en": "B: Bill! Sure, come on in. What can I do for you?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well sir, as you know, I have been an employee of this prestigious firm for over ten years.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes.",
+      "zh": ""
+    },
+    {
+      "en": "A: I won't beat around the bush. Sir, I would like a raise. I currently have three companies after me and so I decided to talk to you first.",
+      "zh": ""
+    },
+    {
+      "en": "B: A raise? Son, I would love to give you a raise, but this is just not the right time.",
+      "zh": ""
+    },
+    {
+      "en": "A: I understand your position, and I know that the current economic downturn has had a negative impact on sales, but you must also take intoconsideration my hard work, pro-activeness and loyalty to this company for over a decade.",
+      "zh": ""
+    },
+    {
+      "en": "B: Taking into account these factors, and considering I don't want to start a brain drain, I'm willing to offer you a ten percent raise and an extra five days of vacation time. How does that sound?",
+      "zh": ""
+    },
+    {
+      "en": "A: Great! It's a deal! Thank you, sir!",
+      "zh": ""
+    },
+    {
+      "en": "B: Before you go, just out of curiosity, what companies were after you?",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh, the electric company, gas company and water company!",
+      "zh": ""
+    }
+  ],
+  "code": "C0188",
+  "title": "The Office - Asking For A Raise",
+  "level": "Elementary"
 }

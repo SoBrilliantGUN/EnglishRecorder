@@ -1176,5 +1176,114 @@
       "en": "Bye.",
       "zh": "再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Whoa, whoa, what's going on?",
+      "zh": "A：哇，哇，怎么了？"
+    },
+    {
+      "en": "A: Watch out!",
+      "zh": "A：小心！"
+    },
+    {
+      "en": "B: Hey, watch where you're going!",
+      "zh": "B：嘿，走路看着点！"
+    },
+    {
+      "en": "A: Oh, no!",
+      "zh": "A：哦不！"
+    },
+    {
+      "en": "A: I'm so sorry!",
+      "zh": "A：我真的很抱歉！"
+    },
+    {
+      "en": "A: Are you all right?",
+      "zh": "A：你没事吧？"
+    },
+    {
+      "en": "B: Oh... I don't know.",
+      "zh": "B：哦…我不知道。"
+    },
+    {
+      "en": "A: I feel terrible, I really didn't mean to knock you over.",
+      "zh": "A：我感觉糟透了，我真的不是故意撞倒你的。"
+    },
+    {
+      "en": "A: My tire, just exploded, and I lost control of my bike.",
+      "zh": "A：我的车胎突然爆了，我控制不住自行车了。"
+    },
+    {
+      "en": "A: Really, it was an accident.",
+      "zh": "A：真的，这是个意外。"
+    },
+    {
+      "en": "A: Please accept my apologies.",
+      "zh": "A：请接受我的道歉。"
+    },
+    {
+      "en": "B: Just let me try to stand up. SONG: Why do birds suddenly appear, every time you are near?",
+      "zh": "B：先让我试着站起来。"
+    },
+    {
+      "en": "A: Are you okay?",
+      "zh": "A：你还好吗？"
+    },
+    {
+      "en": "B: Oh, wait a second, you seem really familiar, I think I know you from somewhere.",
+      "zh": "B：哦，等一下，你看起来很眼熟，我想我在哪里见过你。"
+    },
+    {
+      "en": "A: Yeah, I think we have met somewhere before.",
+      "zh": "A：是啊，我想我们之前确实在哪儿见过。"
+    },
+    {
+      "en": "A: That's right!",
+      "zh": "A：对了！"
+    },
+    {
+      "en": "A: We met at Aaron's place last weekend!",
+      "zh": "A：我们上周在亚伦家聚会上见过！"
+    },
+    {
+      "en": "A: What a coincidence!",
+      "zh": "A：太巧了！"
+    },
+    {
+      "en": "A: But anyway, I'm glad to see that you're not too badly hurt, and I should probably get going.",
+      "zh": "A：不过无论如何，很高兴看到你没受太重的伤，我可能得走了。"
+    },
+    {
+      "en": "A: I have a nine o'clock meeting.",
+      "zh": "A：我九点有个会议。"
+    },
+    {
+      "en": "B: Ouch!",
+      "zh": "B：哎哟！"
+    },
+    {
+      "en": "B: My ankle!",
+      "zh": "B：我的脚踝！"
+    },
+    {
+      "en": "B: I think it's broken!",
+      "zh": "B：我想可能是断了！"
+    },
+    {
+      "en": "B: You can't just leave me like this!",
+      "zh": "B：你不能就这样丢下我！"
+    },
+    {
+      "en": "B: Are you calling an ambulance?",
+      "zh": "B：你叫救护车了吗？"
+    },
+    {
+      "en": "A: Nope, I'm canceling my appointment so that I can stay here with you. SONG: Do you remember when we met?",
+      "zh": "A：不叫了，我要取消我的约会，这样我就能留在这里陪你。"
+    }
+  ],
+  "code": "C0015",
+  "title": "Daily Life - I’m sorry, I love you",
+  "level": "Elementary"
 }

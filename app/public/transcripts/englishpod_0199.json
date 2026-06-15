@@ -1108,5 +1108,38 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hey Joe! Where have you been these past few days?",
+      "zh": ""
+    },
+    {
+      "en": "B: I've been busy with a first aid course that I started about a week ago at the Red Cross.",
+      "zh": ""
+    },
+    {
+      "en": "A: Cool! I've always wanted to do something like that! Have you learned anything useful?",
+      "zh": ""
+    },
+    {
+      "en": "B: For sure! I mean we've lear ned how to apply pressure to stop bleeding, how to check for a pulse, and even how to apply CPR!",
+      "zh": ""
+    },
+    {
+      "en": "A: Have you treated any real emergencies?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, they took us along with some paramedics. There was this guy who fell off his motorcycle and suffered a concussion as well as a couple of compound fractures. His wounds were pretty serious so they had to rush him to the hospital. It was intense!",
+      "zh": ""
+    },
+    {
+      "en": "A: I can imagine! I tend to faint when I see blood, so I think I won't be taking up a course like that anytime soon!",
+      "zh": ""
+    }
+  ],
+  "code": "C0199",
+  "title": "Lesson 199",
+  "level": "Intermediate"
 }

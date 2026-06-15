@@ -1092,5 +1092,38 @@
       "en": "EnglishPod.com.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I, Luke Thompson, residing in California, being of sound mind, do hereby declare this instrument to be my last will and testament.",
+      "zh": ""
+    },
+    {
+      "en": "A: I hereby revoke all previous wills and codicils.",
+      "zh": ""
+    },
+    {
+      "en": "A: I direct that the disposition of my remains be as follows: I am to be cremated and taken to the summit of Mount Everest where my ashes will forever remain at the ceiling of the Earth.",
+      "zh": ""
+    },
+    {
+      "en": "A: I give all the rest and residue of my estate to my spouse, Betty Thompson, should she survive me for days. If my spouse, Betty Thompson, does not survive me, I give all the rest and residue of my estate to English Pod.",
+      "zh": ""
+    },
+    {
+      "en": "A: If neither Betty Thompson nor English Pod survives me, I give all the rest and residue of my estate to my heirs as determined by the laws of the State of California, relating to descent and distribution.",
+      "zh": ""
+    },
+    {
+      "en": "A: I appoint Robert Porter, to act as the executor of this will, to serve without bond. Should Robert Porter be unable or unwilling to serve, then I appoint Jason Smalls to act as the executor of this will.",
+      "zh": ""
+    },
+    {
+      "en": "A: I herewith affix my signature to this will on this the twenty third of May two thousand ten in the presence of the following witnesses, who witnessed and subscribed this will at my request, and in my presence.",
+      "zh": ""
+    }
+  ],
+  "code": "C0212",
+  "title": "Lesson 212",
+  "level": "Intermediate"
 }

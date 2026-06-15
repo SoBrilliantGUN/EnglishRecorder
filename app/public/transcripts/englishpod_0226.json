@@ -1328,5 +1328,98 @@
       "en": "Bye-bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Ok Mark, it's your turn to ring the doorbell. I did it last time.",
+      "zh": ""
+    },
+    {
+      "en": "B: I hate going door to door, and I hate asking for money.",
+      "zh": ""
+    },
+    {
+      "en": "A: But we need to raise enough money for the school fundraiser so that our class can win the pizza party! You do want to have a pizza party, don't you?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, but...",
+      "zh": ""
+    },
+    {
+      "en": "A: Just go already!",
+      "zh": ""
+    },
+    {
+      "en": "B: No one's coming.",
+      "zh": ""
+    },
+    {
+      "en": "A: Try again.",
+      "zh": ""
+    },
+    {
+      "en": "B: Maybe there's no one home.",
+      "zh": ""
+    },
+    {
+      "en": "A: Of course there's someone home! There are two cars in the driveway and I see light s on in the house! Hello! Anybody home? We would like to know if you want to sponsor us in our school fundraiser. Fifty percent of the profits go towards the new school playground!",
+      "zh": ""
+    },
+    {
+      "en": "B: I don't know why anyone would want what's in this catalog anyway. It's just a bunch of tacky Christmas ornaments, Cd's of old people singing Christmas songs, and special crackers and cheeses and boxes of chocolates.",
+      "zh": ""
+    },
+    {
+      "en": "A: You don't like chocolates?",
+      "zh": ""
+    },
+    {
+      "en": "B: Not this kind. They've got weird names like ganache and praline.",
+      "zh": ""
+    },
+    {
+      "en": "A: Look! I just saw someone walking around inside! These people are being very rude!",
+      "zh": ""
+    },
+    {
+      "en": "A: Finally, someone's coming!",
+      "zh": ""
+    },
+    {
+      "en": "B: They don't look too happy.",
+      "zh": ""
+    },
+    {
+      "en": "A: Hi, sir. Would you like to sponsor us or make a donation to.",
+      "zh": ""
+    },
+    {
+      "en": "C: What grade are you kids in?",
+      "zh": ""
+    },
+    {
+      "en": "A: Grade seven.",
+      "zh": ""
+    },
+    {
+      "en": "C: Then for goodness sake, don't you see this sign? Can't you read?",
+      "zh": ""
+    },
+    {
+      "en": "A: No soliciting.",
+      "zh": ""
+    },
+    {
+      "en": "B: What does that mean?",
+      "zh": ""
+    },
+    {
+      "en": "A: No idea.",
+      "zh": ""
+    }
+  ],
+  "code": "C0226",
+  "title": "Global View - Fundraiser",
+  "level": "Elementary"
 }

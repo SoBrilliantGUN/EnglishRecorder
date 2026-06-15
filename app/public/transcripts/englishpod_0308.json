@@ -696,5 +696,34 @@
       "en": "EnglishPod YouTube",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Lily, I found a pair of men's boxers in the laundry machine this morning!",
+      "zh": ""
+    },
+    {
+      "en": "B: What?! That's weird. Are they your boyfriend's?",
+      "zh": ""
+    },
+    {
+      "en": "A: Nah, Kevin only wears briefs. Plus, this pair is extra small!",
+      "zh": ""
+    },
+    {
+      "en": "B: What do they look like?",
+      "zh": ""
+    },
+    {
+      "en": "A: They're light blue with thin pink stripes... Oh, and there's a Snoopy on it which is hilarious, hahah...",
+      "zh": ""
+    },
+    {
+      "en": "B: Those are my undies!",
+      "zh": ""
+    }
+  ],
+  "code": "C0308",
+  "title": "Daily Life - Boxers and Briefs",
+  "level": "Intermediate"
 }

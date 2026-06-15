@@ -1428,5 +1428,50 @@
       "en": "Because you won't say goodbye until Und card is gone.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hey four-eyes! What's up man, how have you been?",
+      "zh": ""
+    },
+    {
+      "en": "B: Not bad, just went to the mall and picked up some junk. Check out my new Adidas!",
+      "zh": ""
+    },
+    {
+      "en": "A: Those are dope! You are gonna be getting mad props from the gang, man. Anyways, have you seen Betty lately?",
+      "zh": ""
+    },
+    {
+      "en": "B: Dude, don't even go there. That girl started trippin' cuz I went to the movies with Veronica the other day. I was like \"look, you knew how I was before you got with me\".",
+      "zh": ""
+    },
+    {
+      "en": "A: That's right! Your such a playa, man. Dude, there's Mad Max. Let's go say hi.",
+      "zh": ""
+    },
+    {
+      "en": "B: Max! Whassup! Are you okay? You look like you just saw a ghost.",
+      "zh": ""
+    },
+    {
+      "en": "C: I got an F in English class. My life is over...",
+      "zh": ""
+    },
+    {
+      "en": "A: Dude, get over it! You need to lay off the books for a while and have some fun! Come on, let's bounce.",
+      "zh": ""
+    },
+    {
+      "en": "C: Where are we going? Oh, crap. My dad is gonna go postal when he finds out about this.",
+      "zh": ""
+    },
+    {
+      "en": "A: I'm gonna open a can of whopass on you if you don't",
+      "zh": ""
+    }
+  ],
+  "code": "C0123",
+  "title": "The Weekend - 1990’s",
+  "level": "Elementary"
 }

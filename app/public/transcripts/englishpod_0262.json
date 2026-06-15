@@ -884,5 +884,46 @@
       "en": "Bye-bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Parsons: Well Rebecca, is there anything else you need to know for now?",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: I don't think so Mr. Parsons. I think you have covered all the main points for me. Mr",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Okay well listen, here is my business card with my mobile number. If any other questions spring to mind don't hesitate to contact me. Of course you can also call Miss Childs too.",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: Great. Ermm, when can I expect to hear from you? Mr",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Well, we are finishing the shortlist interviews tomorrow, so we will certainly have a decision made by early next week. Miss Childs will call you to discuss more on Monday or Tuesday. How does that sound?",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: That sounds perfect. Thank you very much for 77 taking the time to speak to me Mr. Parsons. Mr",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: The pleasure's all mine Rebecca.",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: I hope to hear from you very soon. Mr",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Absolutely. Thanks for coming Rebecca. Goodbye.",
+      "zh": ""
+    }
+  ],
+  "code": "C0262",
+  "title": "The Office - Interview Skills 10 - Concluding The",
+  "level": "Intermediate"
 }

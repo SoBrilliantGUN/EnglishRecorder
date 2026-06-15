@@ -1024,5 +1024,38 @@
       "en": "Take care.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: We have been going around in circles for the past hour! Will you just please stop and ask for directions?",
+      "zh": ""
+    },
+    {
+      "en": "B: We are not lost! I'm just taking the scenic route.",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah, whatever. I told you we should buy that GPS that was on sale, but would you listen to me? No! This is so typical.",
+      "zh": ""
+    },
+    {
+      "en": "B: Fine! I'll ask this guy for directions if it will shut your trap! Excuse me, sir. Can you tell me how to get to Saint Mary's Church?",
+      "zh": ""
+    },
+    {
+      "en": "C: Sure! Go down Pa rk Road. turn le ft, go up as far as the set of traffic lights a nd turn left. The place you are looking for isthe second building on the right.",
+      "zh": ""
+    },
+    {
+      "en": "A: Thanks!",
+      "zh": ""
+    },
+    {
+      "en": "B: See? Was that hard? If you would only listen to me more often, you would be better off.",
+      "zh": ""
+    }
+  ],
+  "code": "C0202",
+  "title": "TheWeekend - Asking For Directions",
+  "level": "Elementary"
 }

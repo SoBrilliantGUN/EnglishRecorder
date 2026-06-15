@@ -988,5 +988,50 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Parsons: Now, if I look here I see that you completed a BA in English?",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: Yes, that's right. After graduating from high school in New York I attended York University in the UK. My major was English, and my minor was business studies. I completed my BA in 2004. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Yes, I'm pleased to see that you also got a distinction.",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: Yes that's right. I've always enjoyed studying. My friends say I'm a bit of a bookworm, but my father always pushed us to succeed academically. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Well, it looks like his encouragement paid off Rebecca. So how about extracurricular activities at University",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: Well I've always been keen on on writing, so I became the editor for the University student magazine, which I really loved. Also I volunteered for a group called Shelter, to help the homeless in York. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: What did that involve?",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: Providing warm meals and shelter, especially in the winter months. I found it really fulfilling to be part of that group. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: I'm sure. Okay, now let's move on to your work experience, shall we?",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: Yes, okay.",
+      "zh": ""
+    }
+  ],
+  "code": "C0241",
+  "title": "The Office - Interview Skills 3 - Education",
+  "level": "Intermediate"
 }

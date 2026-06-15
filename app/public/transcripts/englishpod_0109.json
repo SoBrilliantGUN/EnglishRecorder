@@ -1128,5 +1128,62 @@
       "en": "Goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Honey, do you have a second?",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure! Are you okay? You seem a bit worried. What's on your mind?",
+      "zh": ""
+    },
+    {
+      "en": "A: We need to talk.",
+      "zh": ""
+    },
+    {
+      "en": "B: Okay...",
+      "zh": ""
+    },
+    {
+      "en": "A: I've been thinking, and well, I think we need to start seeing other people.",
+      "zh": ""
+    },
+    {
+      "en": "B: What? Why? I mean, we've had our ups and downs, and we have the occasional disagreement, but we're happy together, aren't we?",
+      "zh": ""
+    },
+    {
+      "en": "A: That's just it, I'm not happy anymore, Tim. It's not you, it's me. I know that I can be hard to deal with, and you are a great guy! You are the type of guy that any woman would kill for!",
+      "zh": ""
+    },
+    {
+      "en": "B: So, what are you saying? You're breaking up with me because I'm perfect?",
+      "zh": ""
+    },
+    {
+      "en": "A: Tim, you are too good for me. You deserve someone who can make you smile and make you happy the way that you made me happy. Oh, I could say that I'll be all you need, but that would be a lie. I know I'd only hurt you, I know I'd only make you cry.",
+      "zh": ""
+    },
+    {
+      "en": "B: Baby, come on. Don't do this to me! Whatever it is, we can work it out. Just give me another chance! I know that we can get through this, but we gotta stick together! Don't leave me.",
+      "zh": ""
+    },
+    {
+      "en": "A: I can't, Tim. I hope someday you can find some way to understand I'm only doing this for you. I don't really wanna go but, deep in my heart I know this is the kindest thing to do.",
+      "zh": ""
+    },
+    {
+      "en": "B: Laura...",
+      "zh": ""
+    },
+    {
+      "en": "A: Here are your keys. I'll send my sister to pick up the rest of my things next week. I'm sorry, Tim. I wish you all the best, and I hope that one day we can meet again. I'll always love you. Goodbye.",
+      "zh": ""
+    }
+  ],
+  "code": "C0109",
+  "title": "The Weekend - Breaking Up",
+  "level": "Elementary"
 }

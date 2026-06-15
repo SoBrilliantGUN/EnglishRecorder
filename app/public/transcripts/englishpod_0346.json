@@ -956,5 +956,14 @@
       "en": "Thanks.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0346",
+  "title": "Lesson 346",
+  "level": "Intermediate"
 }

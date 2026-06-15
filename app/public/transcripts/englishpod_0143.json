@@ -1248,5 +1248,62 @@
       "en": "Cheeseputer.com",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Butcher: Hi. What can I get for you?",
+      "zh": ""
+    },
+    {
+      "en": "Gina: I'd like a half a pound of ground beef, please.",
+      "zh": ""
+    },
+    {
+      "en": "Butcher: Good choice! Our ground beef is extra lean, if you know what I mean.",
+      "zh": ""
+    },
+    {
+      "en": "Gina: Could I also have half a dozen pork chops and two pounds of boneless chicken breasts?",
+      "zh": ""
+    },
+    {
+      "en": "Butcher: No, no no no chicken breasts at the moment, but we have some nice chicken thighs.",
+      "zh": ""
+    },
+    {
+      "en": "Gina: No, that won't do. I'll take this smoked ham you have here.",
+      "zh": ""
+    },
+    {
+      "en": "Butcher: Okay, is there anything else?",
+      "zh": ""
+    },
+    {
+      "en": "Gina: Do you have any other cold cuts? Is this salami and bologna you have here?",
+      "zh": ""
+    },
+    {
+      "en": "Butcher: Yes! It's very fine meat! Made it myself...",
+      "zh": ""
+    },
+    {
+      "en": "Gina: Sounds good. Okay, that's it.",
+      "zh": ""
+    },
+    {
+      "en": "Butcher: Wait! We have T-bone, rib eye, and sirloin steaks. They are very fresh! Just came from the slaughter house...",
+      "zh": ""
+    },
+    {
+      "en": "Gina: Mmm... No that's okay, really. I think that's all for today.",
+      "zh": ""
+    },
+    {
+      "en": "Butcher: Okay. That will be thirty-four dollars and fifty cents.",
+      "zh": ""
+    }
+  ],
+  "code": "C0143",
+  "title": "Daily Life - The Butcher",
+  "level": "Elementary"
 }

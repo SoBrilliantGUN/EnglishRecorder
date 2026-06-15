@@ -984,5 +984,54 @@
       "en": "realidadv.com",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: What are you doing?",
+      "zh": ""
+    },
+    {
+      "en": "B: I'm just looking for a nice pillow on Ebay.",
+      "zh": ""
+    },
+    {
+      "en": "A: You are shopping for a pillow online? That's absurd!",
+      "zh": ""
+    },
+    {
+      "en": "B: Why? I don't have to leave the house or browse a dozen stores to find what I'm looking for. This way, I just search for it online quick and easy.",
+      "zh": ""
+    },
+    {
+      "en": "A: I see, but how do you pay for it? How do you know you aren't going to be ripped off by the seller?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, the website handles a point system where if the seller does something wrong, people comment negatively and then you know that he or she may not be trustworthy.",
+      "zh": ""
+    },
+    {
+      "en": "A: Wow, that sounds pretty safe. So how do you pay? Do you need a credit card?",
+      "zh": ""
+    },
+    {
+      "en": "B: You can use a credit card or your debit card. They also let you use the Pay Pal system which is really safe and fast. I have never had any problems with someone hacking my information or anything.",
+      "zh": ""
+    },
+    {
+      "en": "A: Do you think I can find a sweater for my dog online?",
+      "zh": ""
+    },
+    {
+      "en": "B: You can find anything! Are you sure you want to start shopping online though? Once you step into this world, there is no turning back!",
+      "zh": ""
+    },
+    {
+      "en": "A: Let's do it!",
+      "zh": ""
+    }
+  ],
+  "code": "C0207",
+  "title": "Daily Life - Shopping Online",
+  "level": "Elementary"
 }

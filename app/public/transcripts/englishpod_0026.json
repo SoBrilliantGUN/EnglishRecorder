@@ -940,5 +940,62 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: So, did I tell you about my New Year's resolution?",
+      "zh": "A：对了，我跟你说过我的新年决心吗？"
+    },
+    {
+      "en": "A: I've decided to go on a diet.",
+      "zh": "A：我决定开始节食。"
+    },
+    {
+      "en": "B: And you're going to completely transform your eating habits, right?",
+      "zh": "B：然后你会彻底改变你的饮食习惯，对吧？"
+    },
+    {
+      "en": "A: Exactly!",
+      "zh": "A：没错！"
+    },
+    {
+      "en": "A: I'm going to cut out all that junk I eat; no more chips, no more soda, no more fried food.",
+      "zh": "A：我要戒掉所有那些垃圾食品；不再吃薯片，不喝汽水，不吃油炸食品。"
+    },
+    {
+      "en": "B: I've heard this one before.",
+      "zh": "B：这话我以前听过。"
+    },
+    {
+      "en": "A: But this time I'm going to stick to it.",
+      "zh": "A：但这回我一定会坚持到底。"
+    },
+    {
+      "en": "A: I really mean it!",
+      "zh": "A：我是认真的！"
+    },
+    {
+      "en": "A: Trust me, Carol, I'm going to be a new man in one year's time!",
+      "zh": "A：相信我，卡罗尔，一年后我会是一个全新的人！"
+    },
+    {
+      "en": "B: Well, I guess we'll just have to wait and see.",
+      "zh": "B：好吧，我们就等着看吧。"
+    },
+    {
+      "en": "A: Thanks, honey, that was a great meal.",
+      "zh": "A：谢谢亲爱的，这顿饭真不错。"
+    },
+    {
+      "en": "A: I'm stuffed.",
+      "zh": "A：我吃撑了。"
+    },
+    {
+      "en": "A: Do we have any chips left?",
+      "zh": "A：我们还有薯片吗？"
+    }
+  ],
+  "code": "B0026",
+  "title": "New Year Resolution",
+  "level": "Elementary"
 }

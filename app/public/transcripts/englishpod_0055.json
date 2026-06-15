@@ -1648,5 +1648,34 @@
       "en": "Bye bye",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hello everyone! I'm Rick Fields, and here with me is Bob Copeland.",
+      "zh": ""
+    },
+    {
+      "en": "B: Howdy folks, and welcome to today's game! You know, Rick, today is a key game between Russia and Canada. As you know, the winner will move on to the finals.",
+      "zh": ""
+    },
+    {
+      "en": "A: That's right, and it looks like we're just about ready to start the match. The ref is calling the players for the face-off... and here we go! The Russians win possession and immediately set up their attack! Federov gets checked hard into the boards!",
+      "zh": ""
+    },
+    {
+      "en": "B: Maurice Richard has the puck now, and passes it to the center. He shoots! Wow what a save by the goalie!",
+      "zh": ""
+    },
+    {
+      "en": "A: Alright, the puck is back in play now. Pavel Bure is on a breakaway! He is flying down the ice! The defenders can't keep up! Slap shot! He scores",
+      "zh": ""
+    },
+    {
+      "en": "B: What an amazing goal!",
+      "zh": ""
+    }
+  ],
+  "code": "C0055",
+  "title": "Intermediate - Hockey",
+  "level": "Elementary"
 }

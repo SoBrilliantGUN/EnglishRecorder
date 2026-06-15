@@ -900,5 +900,50 @@
       "en": "Have a good one.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Are you excited about your trip next month?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes and no. I can't wait to go to Europe, but at the same time I am terrified.",
+      "zh": ""
+    },
+    {
+      "en": "A: Why?",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, I have aerophobia. I have a chronic fear of flying.",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh really? I have an uncle who is also terrified of flying. It's not that bad though, I mean, it is pretty scary to be in this big machine flying through the air at seven hundred miles per hour. I actually have arachnophobia.",
+      "zh": ""
+    },
+    {
+      "en": "B: You're scared of spiders? I actually have two more phobias. Acrophobia and glossophobia.",
+      "zh": ""
+    },
+    {
+      "en": "A: I guess that explains why you are afraid of flying, but public speaking is not that bad.",
+      "zh": ""
+    },
+    {
+      "en": "B: Are you kidding? When I get on stage, my palms start to sweat, I get really nervous and I can hardly speak.",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, I must confess I am a bit claustrophobic. I hate being in an elevator for more than 5 seconds.",
+      "zh": ""
+    },
+    {
+      "en": "B: We are such weirdos right?",
+      "zh": ""
+    }
+  ],
+  "code": "C0302",
+  "title": "Global View - Phobias",
+  "level": "Intermediate"
 }

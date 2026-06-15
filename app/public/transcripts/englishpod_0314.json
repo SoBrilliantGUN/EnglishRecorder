@@ -472,5 +472,54 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: This isthe operator, how may I help you?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, I would like to make a collect call.",
+      "zh": ""
+    },
+    {
+      "en": "A: Ok sir, please dial the number. Now please state your name.",
+      "zh": ""
+    },
+    {
+      "en": "B: Tommy.",
+      "zh": ""
+    },
+    {
+      "en": "A: Please wait a moment. Hello, you have a collect call from Tommy. Would you like to accept the charges?",
+      "zh": ""
+    },
+    {
+      "en": "C: Yes of course.",
+      "zh": ""
+    },
+    {
+      "en": "A: Dad?",
+      "zh": ""
+    },
+    {
+      "en": "C: Yeah Tommy, what happened are you ok?",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah dad everything is ok. I'm calling you because I want to know if it's ok for me to go to my friend's house today after school.",
+      "zh": ""
+    },
+    {
+      "en": "C: Yeah sure no problem. You scared me to death! I've told you to make a collect call in case of an emergency only! Why didn't you call me from your mobile phone?",
+      "zh": ""
+    },
+    {
+      "en": "B: I ran out of credit and I also didn't have twenty five cents N for the payphone. Sorry dad.",
+      "zh": ""
+    }
+  ],
+  "code": "C0314",
+  "title": "Daily Life - Making A Collect Call",
+  "level": "Intermediate"
 }

@@ -1148,5 +1148,50 @@
       "en": "Goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "B: Yeah, I've just moved here, and I'd like to activate my cell phone, and I'm not sure if I should go with a prepaid plan, or a monthly rate plan.",
+      "zh": ""
+    },
+    {
+      "en": "A: I see. Well, can I have a look at your phone? Unfortunately, this phone can't be used in the US; it's not compatible with our 3G network.",
+      "zh": ""
+    },
+    {
+      "en": "B: What? Really? I don't really want to have to buy a new phone.",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, you're in luck! You see, if you sign up for our three-year plan, we'll thro w in a handset for free.",
+      "zh": ""
+    },
+    {
+      "en": "B: Really? What's the catch?",
+      "zh": ""
+    },
+    {
+      "en": "A: There's no catch! You just choose a plan, sign a three-year contract and, that's it! Actually, we're running a special promotion right now, and we're giving away a Blackberry Curve with our special Mega Value forty dollar plan.",
+      "zh": ""
+    },
+    {
+      "en": "B: So what does this plan include?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, you get nine hundred anytime minutes, and you can also enjoy free mobile to mobile calling to other Tel-Mobile clients, one thousand text messages per month, and unlimited evening and weekend minutes. Oh, and we also offer a rollover option.",
+      "zh": ""
+    },
+    {
+      "en": "B: Wow, all this for fo rty dollars per month?",
+      "zh": ""
+    },
+    {
+      "en": "A: That's right, plus the activation fee, the emergancy services fee, the monthly service fee, oh, and any charges for extra minutes, and...",
+      "zh": ""
+    }
+  ],
+  "code": "C0106",
+  "title": "Daily Life - Mobile Phone Plan",
+  "level": "Elementary"
 }

@@ -600,5 +600,34 @@
       "en": "Oh yeah!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Parsons: Okay Rebecca. Now youyou've given me a good idea of your work and academic background, but what about you as a person? How would you describe your key strengths?",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: Well Mr. Parsons, as I mentioned before I'm someone who needs new challenges. I'm really focused and hard hard-working. I think my academic results prove this. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Yes, true, but how about other personal qualities? Hmmmmm, that's a to ugh question. But I would have to say my passion. I'm really passionate about journalism and passionate about my career.",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: Well I believe I'm a good team-player, but I can also work well independently. I'm very enthusiastic and, well I hope my colleagues would agree, I'm fun to work with. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: What would you say is your most positive quality?",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: Hmmmmm, that's a tough question. But I would have to say my passion. I'm really passionate about journalism and passionate about my career.",
+      "zh": ""
+    }
+  ],
+  "code": "C0250",
+  "title": "Interview Skills 6 - Describing Ones Strengths",
+  "level": "Intermediate"
 }

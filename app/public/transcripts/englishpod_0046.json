@@ -1600,5 +1600,114 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Help!",
+      "zh": "A：救命！"
+    },
+    {
+      "en": "A: Are you a doctor?",
+      "zh": "A：你是医生吗？"
+    },
+    {
+      "en": "A: My poor little Frankie has stopped breathing!",
+      "zh": "A：我可怜的小弗兰基停止呼吸了！"
+    },
+    {
+      "en": "A: Oh my gosh, Help me!",
+      "zh": "A：哦天哪，帮帮我！"
+    },
+    {
+      "en": "A: I tried to perform CPR, but I just don't know if I could get any air into his lungs!",
+      "zh": "A：我试过做CPR，但我不知道有没有把空气送入他的肺里！"
+    },
+    {
+      "en": "A: Oh, Frankie!",
+      "zh": "A：哦，弗兰基！"
+    },
+    {
+      "en": "B: Ellen, get him hooked up to a monitor! Someone page Dr. Howser. Get the patient to hold still, I can't get a pulse! Okay, he's on the monitor. His BP is falling! He's flatlining!",
+      "zh": "B：艾伦，给他接上监护仪！叫人去呼豪瑟医生。让病人不要动，我摸不到脉搏！好了，监护仪接上了。他的血压在下降！他在室颤！"
+    },
+    {
+      "en": "A: NOOOOOO!",
+      "zh": "A：不——！"
+    },
+    {
+      "en": "A: Frankie!",
+      "zh": "A：弗兰基！"
+    },
+    {
+      "en": "A: Nurse!",
+      "zh": "A：护士！"
+    },
+    {
+      "en": "A: Do something!",
+      "zh": "A：做点什么啊！"
+    },
+    {
+      "en": "B: Someone get her out of here! Get me the defibrillator. Okay, clear! Again! Clear! Come on! dammit! I'm not letting you go! Clear! I've got a pulse!",
+      "zh": "B：谁把她弄出去！给我除颤仪。好了，离开！再来！离开！加油！该死！我不会让你走的！离开！有脉搏了！"
+    },
+    {
+      "en": "C: Okay, what's happening?",
+      "zh": "C：好的，什么情况？"
+    },
+    {
+      "en": "B: The patient is in acute respiratory failure, I think were going to have to intubate!",
+      "zh": "B：病人处于急性呼吸衰竭，我想我们得插管了！"
+    },
+    {
+      "en": "C: Alright!",
+      "zh": "C：好！"
+    },
+    {
+      "en": "C: Tubes in!",
+      "zh": "C：管子进去了！"
+    },
+    {
+      "en": "C: Bag him!",
+      "zh": "C：给他通气！"
+    },
+    {
+      "en": "C: Someone give him 10 cc's of adrenaline!",
+      "zh": "C：谁给他来10cc肾上腺素！"
+    },
+    {
+      "en": "C: Let's go, people move, move!",
+      "zh": "C：快走，大家动起来，动起来！"
+    },
+    {
+      "en": "A: Doctor, oh, thank god!",
+      "zh": "A：医生，哦，谢天谢地！"
+    },
+    {
+      "en": "A: How is he?",
+      "zh": "A：他怎么样了？"
+    },
+    {
+      "en": "B: We managed to stabilize Frankie, but he's not out of the woods yet; he's still in critical condition.",
+      "zh": "B：我们成功稳住了弗兰基，但他还没脱离危险；他仍处于危急状态。"
+    },
+    {
+      "en": "B: Were moving him to intensive care, but...",
+      "zh": "B：我们正把他转到重症监护室，但是……"
+    },
+    {
+      "en": "A: Doctor, just do whatever it takes.",
+      "zh": "A：医生，不管付出什么代价都可以。"
+    },
+    {
+      "en": "A: I just want my little Frankie to be okay.",
+      "zh": "A：我只想我的小弗兰基没事。"
+    },
+    {
+      "en": "A: I couldn't imagine life without my little hamster!",
+      "zh": "A：我无法想象没有我的小仓鼠的生活！"
+    }
+  ],
+  "code": "D046",
+  "title": "Emergency Room",
+  "level": "Upper-Intermediate"
 }

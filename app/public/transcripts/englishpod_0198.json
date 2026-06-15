@@ -1184,5 +1184,58 @@
       "en": "Enjoy 501c3PP0GRS today!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hello everyone and welcome to our CPR for beginners course. First of all, does anyone know what CPR stands for?",
+      "zh": ""
+    },
+    {
+      "en": "B: Cardiopulmonary resuscitation!",
+      "zh": ""
+    },
+    {
+      "en": "A: That's right! We apply CPR in the case of cardiac arrest or pulmonary arrest.",
+      "zh": ""
+    },
+    {
+      "en": "B: What does that mean?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, basically if your heart stops pumping blood, or your lungs stop pumping air, then we need to get them going again! That's when we have to apply this procedure. Let's begin! I need a volunteer.",
+      "zh": ""
+    },
+    {
+      "en": "B: Me! Me!",
+      "zh": ""
+    },
+    {
+      "en": "A: Alright, come here and lay flat on your back. Let's suppose this young woman has stopped breathing. We must lift the person's chin so that we clear a pathway for air to get into the lungs. Then we place our mouth over the other person's mouth and blow air two or three times, like this.",
+      "zh": ""
+    },
+    {
+      "en": "B: Wait, what are you doing? I'm a married woman! You can't just try to kiss me like this!",
+      "zh": ""
+    },
+    {
+      "en": "A: Ma' am I'm not trying to kiss you! I am trying to demonstrate how to apply CPR in the case of an emergency.",
+      "zh": ""
+    },
+    {
+      "en": "B: Well, ok. But no French kissing!",
+      "zh": ""
+    },
+    {
+      "en": "A: As I was saying, we blow air through the mouth in this manner. Once this is done, we must try to get the heart going again. To do this, we place our hands over the person's chest, and press down firmly two or three times.",
+      "zh": ""
+    },
+    {
+      "en": "B: Wait, what are you doing! You can't just kiss me then go for second base!",
+      "zh": ""
+    }
+  ],
+  "code": "C0198",
+  "title": "Daily Life - Applying CPR",
+  "level": "Elementary"
 }

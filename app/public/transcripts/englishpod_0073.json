@@ -1184,5 +1184,46 @@
       "en": "And until next time, goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A:... The rings please. May this ring be blessed so he who gives it and she who wears it may abide in peace, and continue in love until life's end.",
+      "zh": ""
+    },
+    {
+      "en": "B: W ith this ring I thee we'd. W ear it as a sym bol of our love and commitment",
+      "zh": ""
+    },
+    {
+      "en": "A: Honey, that's my pinkie. The ring goes on the ring finger!",
+      "zh": ""
+    },
+    {
+      "en": "B: This one?",
+      "zh": ""
+    },
+    {
+      "en": "A: That's my index finger!",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh, right. This one, right?",
+      "zh": ""
+    },
+    {
+      "en": "A: Umm... that's the thumb, Nick.",
+      "zh": ""
+    },
+    {
+      "en": "B: Okay, Okay, I got it! This is the ring finger!",
+      "zh": ""
+    },
+    {
+      "en": "A: That's my middle finger, Nick. This is my ring finger!",
+      "zh": ""
+    }
+  ],
+  "code": "C0073",
+  "title": "Daily Life - Which Finger?",
+  "level": "Elementary"
 }

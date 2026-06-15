@@ -1016,5 +1016,50 @@
       "en": "We'll hit you up and let you know where to find us.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Welcome Mr and Mrs Carnwell, please take a seat.",
+      "zh": ""
+    },
+    {
+      "en": "B: Thank you.",
+      "zh": ""
+    },
+    {
+      "en": "A: So I understand that your family spending has sky rocketed and you want to start budgeting.",
+      "zh": ""
+    },
+    {
+      "en": "C: Yes thats correct. Frankly speaking our household income is relatively high and we have never had any money problems, but I think this isthe main reason as to why our spending has gone out of control.",
+      "zh": ""
+    },
+    {
+      "en": "B: We have two kids and with allowances, paying their credit cards, ours and not to mention our mortgage and car payments. With the recent economic downturn, my husband's business has suffered and now we need some advice as to how we can prepare a family budget.",
+      "zh": ""
+    },
+    {
+      "en": "A: I see. Well you have come to the right place. First what we need to do, is determine your cash flow. Knowing how much money is coming in will help us allocate spending to different categories such as mo rtgage, education, groceries, etc.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes that makes sense.",
+      "zh": ""
+    },
+    {
+      "en": "A: Secondly, I need you to bring all of your receipts for the last two to three months. That way, we can determine what your average expenditures are and see which category you are spending money on the most. Usually, your fixed costs are higher and we can't do mu ch about that, but we can usually trim your variable costs such as entertainment or clothing.",
+      "zh": ""
+    },
+    {
+      "en": "C: Great! We will do that then! Now how about we treat you to a nice dinner?",
+      "zh": ""
+    },
+    {
+      "en": "A: That's another thing. If you really want to stop spending so much money, throw away at least half of your credit cards!",
+      "zh": ""
+    }
+  ],
+  "code": "C0173",
+  "title": "The Office - Preparing a Budget",
+  "level": "Elementary"
 }

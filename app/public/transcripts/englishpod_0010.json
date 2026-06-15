@@ -1552,5 +1552,138 @@
       "en": "Bye.",
       "zh": "再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: All right, people.",
+      "zh": "A：好了，各位。"
+    },
+    {
+      "en": "A: We're holding this meeting today because we've got to do something about our sales, and we need to do it NOW!",
+      "zh": "A：我们今天开这个会是因为我们的销售必须想点办法了，而且必须现在就想！"
+    },
+    {
+      "en": "A: I want concrete solutions.",
+      "zh": "A：我要具体的解决方案。"
+    },
+    {
+      "en": "A: How do you intend to drive sales... Roger?",
+      "zh": "A：你打算怎么提升销量…罗杰？"
+    },
+    {
+      "en": "B: Well, in fact, we're the most expensive in the market, so maybe we need to lower our prices to match the competitors?",
+      "zh": "B：嗯，事实上，我们是市场上最贵的，所以也许我们需要降价来跟竞争对手持平？"
+    },
+    {
+      "en": "A: Lower our prices?",
+      "zh": "A：降价？"
+    },
+    {
+      "en": "A: Not very creative.",
+      "zh": "A：没什么创意。"
+    },
+    {
+      "en": "A: It'll never fly with Swan.",
+      "zh": "A：斯旺不会同意的。"
+    },
+    {
+      "en": "A: What kind of thinking is that?",
+      "zh": "A：你这算什么想法？"
+    },
+    {
+      "en": "A: Geez.",
+      "zh": "A：天哪。"
+    },
+    {
+      "en": "A: Anybody else have a better plan?",
+      "zh": "A：还有人有更好的方案吗？"
+    },
+    {
+      "en": "A: Natalie?",
+      "zh": "A：娜塔莉？"
+    },
+    {
+      "en": "C: Um, perhaps, um, a sales promotion.",
+      "zh": "C：嗯，也许，嗯，搞个促销活动。"
+    },
+    {
+      "en": "C: Maybe a 3 two-for-one offer, or something like that!",
+      "zh": "C：也许来个买二送一之类的？"
+    },
+    {
+      "en": "A: What?",
+      "zh": "A：什么？"
+    },
+    {
+      "en": "A: That's the same thing.",
+      "zh": "A：那不是一回事嘛。"
+    },
+    {
+      "en": "A: Bad idea.",
+      "zh": "A：烂主意。"
+    },
+    {
+      "en": "A: Really bad idea.",
+      "zh": "A：实在太烂了。"
+    },
+    {
+      "en": "A: Dammit people come on!",
+      "zh": "A：该死，各位加油啊！"
+    },
+    {
+      "en": "A: Think!",
+      "zh": "A：动动脑子！"
+    },
+    {
+      "en": "A: The CEO will be here any minute.",
+      "zh": "A：CEO随时就到。"
+    },
+    {
+      "en": "D: Do we have any ideas yet?",
+      "zh": "D：大家有什么想法了吗？"
+    },
+    {
+      "en": "C: Yes Mr. Swan, we were kind of considering a twofor- one offer to get more competitive.",
+      "zh": "C：是的斯旺先生，我们在考虑做一个买二送一的活动来增强竞争力。"
+    },
+    {
+      "en": "D: A two-for-one promotion?",
+      "zh": "D：买二送一？"
+    },
+    {
+      "en": "D: Hmm.",
+      "zh": "D：嗯。"
+    },
+    {
+      "en": "D: I kind of like the sound of that.",
+      "zh": "D：我蛮喜欢这个想法的。"
+    },
+    {
+      "en": "D: It sounds like something we should consider.",
+      "zh": "D：这听起来值得考虑。"
+    },
+    {
+      "en": "A: Yeah, exactly.",
+      "zh": "A：对对，正是。"
+    },
+    {
+      "en": "A: Just what I was thinking!",
+      "zh": "A：跟我想的一模一样！"
+    },
+    {
+      "en": "A: In fact, that's a brilliant idea!",
+      "zh": "A：事实上，这是个绝妙的主意！"
+    },
+    {
+      "en": "A: I'm glad we thought of that.",
+      "zh": "A：很高兴我们想到了这一点。"
+    },
+    {
+      "en": "A: Very creative.",
+      "zh": "A：非常有创意。"
+    }
+  ],
+  "code": "C0010",
+  "title": "The Office - Driving Sales",
+  "level": "Elementary"
 }

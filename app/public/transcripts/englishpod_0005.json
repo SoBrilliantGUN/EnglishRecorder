@@ -816,5 +816,54 @@
       "en": "But for now, I wish you all well and bye.",
       "zh": "但现在，祝大家一切顺利，再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I can't believe it took us two hours to get here. The traffic in New York is unbelievable.",
+      "zh": "A：真不敢相信我们花了两个小时才到这里。纽约的交通简直令人难以置信。"
+    },
+    {
+      "en": "B: Yeah, but just relax honey, we're here and we're going on vacation. In a few hours we'll be in Hawaii, and you'll be on the golf course.",
+      "zh": "B：是啊，但是放轻松亲爱的，我们到了，我们要去度假了。再过几个小时我们就到夏威夷了，你就可以去打高尔夫了。"
+    },
+    {
+      "en": "A: Oh no! Look at that line! It must be a mile long! There's no way I'm waiting for another two hours.",
+      "zh": "A：哦不！看看那条队！肯定有一英里长！我绝不可能再等两个小时。"
+    },
+    {
+      "en": "B: Honey... don't...",
+      "zh": "B：亲爱的…别这样…"
+    },
+    {
+      "en": "C: Hey man, the end of the line is over there.",
+      "zh": "C：嘿伙计，队尾在那边。"
+    },
+    {
+      "en": "A: Yeah...",
+      "zh": "A：呃…"
+    },
+    {
+      "en": "C: No seriously, I was here first, and you can't cut in line like this.",
+      "zh": "C：不是开玩笑的，我先来的，你不能这样插队。"
+    },
+    {
+      "en": "A: Says who?",
+      "zh": "A：谁说的？"
+    },
+    {
+      "en": "C: I do!",
+      "zh": "C：我说的！"
+    },
+    {
+      "en": "A: So sue me!",
+      "zh": "A：那你去告我啊！"
+    },
+    {
+      "en": "C: Alright...that's it...",
+      "zh": "C：好吧…够了…"
+    }
+  ],
+  "code": "C0005",
+  "title": "Daily Life - Cut In Line",
+  "level": "Elementary"
 }

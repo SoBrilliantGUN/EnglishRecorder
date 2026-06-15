@@ -1280,5 +1280,46 @@
       "en": "Have a great day.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Mike! Hey, how are you, man! Long time no see!",
+      "zh": ""
+    },
+    {
+      "en": "B: Hey, Pat! Yeah, I haven't seen you in ages! How are you?",
+      "zh": ""
+    },
+    {
+      "en": "A: I'm doing great! It's funny running into you like this. Just last week I ran into Matt as well.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah? How's he doing?",
+      "zh": ""
+    },
+    {
+      "en": "A: He's doing well. We went out for a couple of beers and the funniest thing happened.",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh yeah?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, we were talking and catching up on what we've been doing, talking about work and family, when all of a sudden, Matt saw a mouse run under his chair and he completely lost it! He started freaking out, and screaming...",
+      "zh": ""
+    },
+    {
+      "en": "B: Ha ha, really?",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah, and the funniest thing was, that he jumped on to his chair and started shrieking like a girl. You had to be there! Everyone was star ing and laughing... it was hilarious!",
+      "zh": ""
+    }
+  ],
+  "code": "C0095",
+  "title": "Lesson 95",
+  "level": "Intermediate"
 }

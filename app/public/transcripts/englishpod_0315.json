@@ -1148,5 +1148,62 @@
       "en": "Bye-bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Tracy: Melanie, can you help me with something? We need to finalize the accoun t with the Mexican Embassy and, I need some advice on phrasing this letter correctly in English.",
+      "zh": ""
+    },
+    {
+      "en": "Melanie: Sure Tracy, let me just get my laptop. all set.",
+      "zh": ""
+    },
+    {
+      "en": "Tracy: Okay, so... to Whom It May Concern, I am writing.",
+      "zh": ""
+    },
+    {
+      "en": "Melanie: Um, Tracy? I think that's a little too formal. I know you want to be polite but you've already made contact with them, so in English you can be more relaxed in the opening...",
+      "zh": ""
+    },
+    {
+      "en": "Tracy: Okay, more relaxed. Got it... Hey Sally, what's up? It's Tracy here, just.",
+      "zh": ""
+    },
+    {
+      "en": "Melanie: Okay Tracy, now it's too relaxed! You've still got to show some respect. How about starting with \"Dear Ms. Cooper, I'm writing to confirm...?",
+      "zh": ""
+    },
+    {
+      "en": "Tracy: Great, okay. \"Dear Miss Cooper, I'm writing to confirm the final quotation for the full page back cover color advertisement you request ed for the spring issue of V oila magazine.",
+      "zh": ""
+    },
+    {
+      "en": "Melanie: That's great...",
+      "zh": ""
+    },
+    {
+      "en": "Tracy: \" The final costing, including advert design and production, comes to forty-five thousand six hundred RMB. We want payment ten working days before publication or we will cancel the ad. Thanks for... \"",
+      "zh": ""
+    },
+    {
+      "en": "Melanie: Woo, okay back up a second Tracy. That's too direct. Can I suggest you say, \" please note thatfinal payment is due two working weeks before publication? You don't want to offend her.",
+      "zh": ""
+    },
+    {
+      "en": "Tracy: Oops okay. You are right. Then I can just end with \"All the best, Tracy\"",
+      "zh": ""
+    },
+    {
+      "en": "Melanie: Hmmmm, maybe, but I'd play it safeand just finish with \"Yours Sincerely\". That's more professional.",
+      "zh": ""
+    },
+    {
+      "en": "Tracy: Oh, Melanie you are a life saver, thank you!",
+      "zh": ""
+    }
+  ],
+  "code": "C0315",
+  "title": "The Office - Sending A Quote Via Email",
+  "level": "Intermediate"
 }

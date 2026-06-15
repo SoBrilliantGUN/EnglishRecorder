@@ -780,5 +780,42 @@
       "en": "EnglishPod is a production of WESO and is not meant to replace proper medical or therapeutic treatment.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Parsons: Right Rebecca. Now I see that after graduating from University your first job was...",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: For a local paper in York called the York Herald. Actually, I started with them as an intern in the beginning. I was really keen on getting some experience in the journalistic world, and this seemed like a good first step. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Certainly. And after your internship",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: They seemed impressed, and offered me a position as a junior local news reporter. I ended up staying two years there actually. I was in charge of the sports news section of the newspaper. I really enjoyed it there, and it really helped me build my skills. Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: Yes I see. But you decided to leave them in 2006 right",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: Yes, that's right. My husband and I moved to London, and so I managed to find a position with a National newspaper based in London Mr.",
+      "zh": ""
+    },
+    {
+      "en": "Parsons: The London Weekly right",
+      "zh": ""
+    },
+    {
+      "en": "Rebecca: Y es, in some ways it was a step down from my previous job but it did offer me much better prospects for the future.",
+      "zh": ""
+    }
+  ],
+  "code": "C0244",
+  "title": "The Office - Interview Skills 4 - Talking About",
+  "level": "Intermediate"
 }

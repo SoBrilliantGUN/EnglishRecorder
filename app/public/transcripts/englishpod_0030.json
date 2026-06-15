@@ -1024,5 +1024,94 @@
       "en": "So until then, it's goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Oh, Armand, thank you for such a thoughtful invitation!",
+      "zh": "A：哦，阿尔芒，谢谢你这么贴心的邀请！"
+    },
+    {
+      "en": "A: It's really very nice of you to invite us over for dinner, don't you think so, Ellen?",
+      "zh": "A：你邀请我们来吃晚饭真是太好了，你说呢，艾伦？"
+    },
+    {
+      "en": "B: Oh, yes of course!",
+      "zh": "B：哦，当然是的！"
+    },
+    {
+      "en": "B: We'd love to come over.",
+      "zh": "B：我们很愿意过来。"
+    },
+    {
+      "en": "B: Can I bring anything?",
+      "zh": "B：需要我带什么吗？"
+    },
+    {
+      "en": "C: No, don't worry about it; I'll take care of everything.",
+      "zh": "C：不用，别担心；我会搞定一切的。"
+    },
+    {
+      "en": "C: I'll see you tonight.",
+      "zh": "C：今晚见。"
+    },
+    {
+      "en": "C: Come with an appetite... I know I will!",
+      "zh": "C：带着好胃口来……我知道我一定会有！"
+    },
+    {
+      "en": "B: I don't want go over to his place for dinner!",
+      "zh": "B：我不想去他家吃晚饭！"
+    },
+    {
+      "en": "B: He gives me the creeps!",
+      "zh": "B：他让我毛骨悚然！"
+    },
+    {
+      "en": "B: Why on earth did you accept?",
+      "zh": "B：你到底为什么要答应？"
+    },
+    {
+      "en": "A: Oh come on Ellen, it will be nice to get to know him.",
+      "zh": "A：哦算了艾伦，认识一下他也挺好啊。"
+    },
+    {
+      "en": "A: Besides, he's new to the neighborhood, and it would berude to decline his invitation.",
+      "zh": "A：再说了，他刚搬来这个社区，拒绝他的邀请会很不礼貌。"
+    },
+    {
+      "en": "B: I guess so... You always rope me into things likethis!",
+      "zh": "B：我想也是……你总是这样把我拉下水！"
+    },
+    {
+      "en": "C: Ladies!",
+      "zh": "C：女士们！"
+    },
+    {
+      "en": "C: Thank you for coming!",
+      "zh": "C：感谢你们光临！"
+    },
+    {
+      "en": "C: You look delicious... Imean beautiful.",
+      "zh": "C：你们看起来真美味……我是说真美。"
+    },
+    {
+      "en": "C: Please come in.",
+      "zh": "C：请进。"
+    },
+    {
+      "en": "A: Oh Oh Armand!",
+      "zh": "A：哦阿尔芒！"
+    },
+    {
+      "en": "A: You are too kind!",
+      "zh": "A：你太客气了！"
+    },
+    {
+      "en": "B: How did I get myself into this...",
+      "zh": "B：我怎么会把自己弄到这种地步……"
+    }
+  ],
+  "code": "C0030",
+  "title": "Daily Life - New Guy in Town II",
+  "level": "Elementary"
 }

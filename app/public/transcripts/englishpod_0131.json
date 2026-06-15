@@ -976,5 +976,38 @@
       "en": "EnglishPod at www.engvid.com",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Okay, next question. If Eric asked you out on a date, what would you say?",
+      "zh": ""
+    },
+    {
+      "en": "B: Duh! I would say yes! Eric is the most popular kid in school! Okay, my turn. What would you do if you won the lottery?",
+      "zh": ""
+    },
+    {
+      "en": "A: Let's see... If I won the lottery, I would buy two tickets for a trip around the world.",
+      "zh": ""
+    },
+    {
+      "en": "B: If you buy me a ticket I will go with you for sure!",
+      "zh": ""
+    },
+    {
+      "en": "A: My dad will freak out if I even mention a trip like that!",
+      "zh": ""
+    },
+    {
+      "en": "B: Alright this is a good one. What would your mom say if you told her you are going to get married?",
+      "zh": ""
+    },
+    {
+      "en": "A: If I told her that, she would faint and have me committed!",
+      "zh": ""
+    }
+  ],
+  "code": "C0131",
+  "title": "Daily Life - What if? Part 1",
+  "level": "Elementary"
 }

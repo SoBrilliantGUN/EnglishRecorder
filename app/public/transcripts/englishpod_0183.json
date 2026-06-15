@@ -1012,5 +1012,54 @@
       "en": "♪♪♪",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Bye, mom!",
+      "zh": ""
+    },
+    {
+      "en": "B: Wait, Jimmy, it's cold outside. Put a hat on!",
+      "zh": ""
+    },
+    {
+      "en": "A: Ok. Bye!",
+      "zh": ""
+    },
+    {
+      "en": "B: No, wait, you will be too cold without mittens.",
+      "zh": ""
+    },
+    {
+      "en": "A: Alright. See ya!",
+      "zh": ""
+    },
+    {
+      "en": "B: Hold on, with that wind, you're going to catch a cold. Wear this scarf.",
+      "zh": ""
+    },
+    {
+      "en": "A: Ok, see you after school...",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh... and ear muffs! Put these on... here we go.",
+      "zh": ""
+    },
+    {
+      "en": "A: Mom?",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, honey...",
+      "zh": ""
+    },
+    {
+      "en": "A: I... I can't breathe.",
+      "zh": ""
+    }
+  ],
+  "code": "C0183",
+  "title": "Daily Life - Winter Clothes",
+  "level": "Elementary"
 }

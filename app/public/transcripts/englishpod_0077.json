@@ -1132,5 +1132,34 @@
       "en": "You can",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Welcome back racing fans! My name is Rick Fields and, as always, I am joined by my partner in crime, Bob Copeland.",
+      "zh": ""
+    },
+    {
+      "en": "B: We're in the last stretch of this very exciting race, and Kimi Rikknen is leading the pack with only four laps to go! They are heading to turn three and Lewis Hamilton tries to pass Rikknen! It's a close one and, oh no! Hamilton hits the wall!",
+      "zh": ""
+    },
+    {
+      "en": "A: He came in too fast, jammed on the breaks and spun out. We have a yellow flag and the pace car is making its way onto the track.",
+      "zh": ""
+    },
+    {
+      "en": "B: The cleanup crew is towing the heavily damaged car and the green flag drops! Rikknen is still in the lead with only two laps to go!",
+      "zh": ""
+    },
+    {
+      "en": "A: Smoke is coming out of his car! He seems to be having engine trouble! He makes his way into the pit, and Fernando Alonso takes the lead!",
+      "zh": ""
+    },
+    {
+      "en": "B: How unlucky for Rikknen, and this race is over ladies and gentlemen, Alonso takes the checkered flag!",
+      "zh": ""
+    }
+  ],
+  "code": "C0077",
+  "title": "The Weekend - F1 Racing",
+  "level": "Elementary"
 }

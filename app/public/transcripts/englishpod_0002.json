@@ -1228,5 +1228,46 @@
       "en": "Goodbye.",
       "zh": "再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hello, Daniel speaking, how may I help you?",
+      "zh": "A：你好，我是丹尼尔，有什么可以帮您？"
+    },
+    {
+      "en": "B: Hi, Daniel, Julie here.",
+      "zh": "B：嗨，丹尼尔，我是朱莉。"
+    },
+    {
+      "en": "A: Hi, Julie, how are you?",
+      "zh": "A：嗨，朱莉，你还好吗？"
+    },
+    {
+      "en": "B: Actually, I'm feeling quite ill today.",
+      "zh": "B：说实话，我今天感觉很不舒服。"
+    },
+    {
+      "en": "A: I'm sorry to hear that. What's wrong?",
+      "zh": "A：很抱歉听到这个。怎么不舒服？"
+    },
+    {
+      "en": "B: I think I'm coming down with the flu. I have a headache, a sore throat a runny nose and I'm feeling slightly feverish.",
+      "zh": "B：我想我可能得流感了。我头疼、喉咙痛、流鼻涕，还有点发烧的感觉。"
+    },
+    {
+      "en": "A: I see... so you're calling in sick?",
+      "zh": "A：我明白了……所以你这是请病假？"
+    },
+    {
+      "en": "B: Yes, I was hoping to take the day off to recover.",
+      "zh": "B：是的，我想休息一天恢复一下。"
+    },
+    {
+      "en": "A: OK, then. Try and get some rest.",
+      "zh": "A：好的，那好好休息吧。"
+    }
+  ],
+  "code": "B0002",
+  "title": "Calling In Sick",
+  "level": "Elementary"
 }

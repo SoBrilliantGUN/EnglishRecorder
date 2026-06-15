@@ -1252,5 +1252,46 @@
       "en": "Thank you.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Mark: Thanks a lot for pitching in once again Judy, we really appreciate your help. It seems that at this time of year there are more and more people who are struggling to make ends meet. There aren't many professional chefs like you who are so generous with their time.",
+      "zh": ""
+    },
+    {
+      "en": "Judy: Don't be silly Mark, I'm more than happy to donate my time to a good cause. V olunteering at the soup kitchen has been really rewarding for me. You know, it's satisfying to provide good meals for those who are less fortunate, I feel like I'm really making a difference in some small way.",
+      "zh": ""
+    },
+    {
+      "en": "Mark: Well, your skills are definitely appreciated here! The people who come here have fallen on hard times and a delicious hot meal can really bolster their spirits. That smells great! The needy are sure lucky to have you!",
+      "zh": ""
+    },
+    {
+      "en": "Judy: Thanks Mark!",
+      "zh": ""
+    },
+    {
+      "en": "Judy: Here you go, enjoy your meal! Old lady: Thank you my dear, Oh this looks lovely.",
+      "zh": ""
+    },
+    {
+      "en": "Judy: You're welcome, Hello sir, today we have... are you doing here?",
+      "zh": ""
+    },
+    {
+      "en": "George: Hey Judy! I'll have a little of everything, thanks... smells great!",
+      "zh": ""
+    },
+    {
+      "en": "Judy: George, seriously... what are you doing here? I haven't seen you since our divorce was finalized. You've got no right to be here, you're hardly homeless!",
+      "zh": ""
+    },
+    {
+      "en": "George: Don't be like that Judy, I really miss your home",
+      "zh": ""
+    }
+  ],
+  "code": "C0217",
+  "title": "Global View - Volunteering",
+  "level": "Elementary"
 }

@@ -768,5 +768,38 @@
       "en": "Good.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: I have been looking at this online catalog for over an hour and I still haven't finished getting all the kitchen 81 appliances that we need!",
+      "zh": ""
+    },
+    {
+      "en": "B: What are you getting?",
+      "zh": ""
+    },
+    {
+      "en": "A: Well, the first thing on my list is a new blender. I decided to also get a juicer and a new coffee maker.",
+      "zh": ""
+    },
+    {
+      "en": "B: Don't forget to also get a new mixer. I lent the old one to my brother and he broke it.",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah I know. I also decided to throw away the old toaster and get a new one. I am also getting a rice cooker and steamer to make some nice steamed fish or veggies.",
+      "zh": ""
+    },
+    {
+      "en": "B: I'm actually thinking of completely refurnishing the kitchen and getting a new stove, oven, dishwasher and trash compacter.",
+      "zh": ""
+    },
+    {
+      "en": "A: That's a good idea! The kitchen will look amazing!",
+      "zh": ""
+    }
+  ],
+  "code": "C0275",
+  "title": "Daily Life - Kitchen Appliances",
+  "level": "Intermediate"
 }

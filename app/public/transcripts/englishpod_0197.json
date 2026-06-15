@@ -804,5 +804,50 @@
       "en": "We hope to see you there.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Alright class, now that we're all dressed up let's see what professions you chose. Ah, I see a fireman, a police officer, a medic, and a lifeguard! Can anyone tell me what these people have in common?",
+      "zh": ""
+    },
+    {
+      "en": "B: They save people from bad things?",
+      "zh": ""
+    },
+    {
+      "en": "A: That's right! Now class, if something bad happened and you had to get help, do you know what phone number you would call?",
+      "zh": ""
+    },
+    {
+      "en": "C: 911!",
+      "zh": ""
+    },
+    {
+      "en": "A: Yes, you would pick up the phone and dial 911. What are some emergency situations where you would need to dial 911?",
+      "zh": ""
+    },
+    {
+      "en": "B: If my grandpa has a heart attack!",
+      "zh": ""
+    },
+    {
+      "en": "C: If there is an accident!",
+      "zh": ""
+    },
+    {
+      "en": "B: If a robber breaks into the house!",
+      "zh": ""
+    },
+    {
+      "en": "C: If the fire alarm goes off!",
+      "zh": ""
+    },
+    {
+      "en": "B: Pff! I wouldn't call 911 if the fire alarm went off in my house. The only time that ever happens is when we're having spaghetti for supper, and Mom burns the garlic bread, as usual.",
+      "zh": ""
+    }
+  ],
+  "code": "C0197",
+  "title": "Global View - Calling 911",
+  "level": "Elementary"
 }

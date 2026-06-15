@@ -816,5 +816,78 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hello, Samantha speaking.",
+      "zh": "A：你好，我是萨曼莎。"
+    },
+    {
+      "en": "B: Hi Samantha. This is Angela calling.",
+      "zh": "B：嗨萨曼莎，我是安吉拉。"
+    },
+    {
+      "en": "A: Oh, hi Angela, what's up?",
+      "zh": "A：哦嗨安吉拉，怎么了？"
+    },
+    {
+      "en": "B: I'm just calling about our meeting today.",
+      "zh": "B：我就是打电话说今天开会的事。"
+    },
+    {
+      "en": "B: I wonder, is it possible to reschedule our appointment in the afternoon?",
+      "zh": "B：我想问一下，能不能把下午的约重新安排一下？"
+    },
+    {
+      "en": "B: I have a bit of an emergency that I need to take care of.",
+      "zh": "B：我有点急事需要处理。"
+    },
+    {
+      "en": "A: Let me see, it shouldn't be too much of a problem...",
+      "zh": "A：我看看，应该没什么大问题……"
+    },
+    {
+      "en": "B: I'm really sorry, I hope it doesn't inconvenience you too much, it's just this thing came up, and...",
+      "zh": "B：真的很抱歉，希望没有太打扰到你，只是突然出了这件事，而且……"
+    },
+    {
+      "en": "A: Angela, you know what, I can't make it to our meeting, either.",
+      "zh": "A：安吉拉，其实，我也赴不了会了。"
+    },
+    {
+      "en": "A: Why don't we postpone it to tomorrow afternoon at the same time?",
+      "zh": "A：要不我们推迟到明天下午同一时间？"
+    },
+    {
+      "en": "B: Sounds great.",
+      "zh": "B：听起来不错。"
+    },
+    {
+      "en": "B: See you tomorrow.",
+      "zh": "B：明天见。"
+    },
+    {
+      "en": "C: Angela.. Angela, look up!",
+      "zh": "C：安吉拉……安吉拉，快看！"
+    },
+    {
+      "en": "C: See that lady over there who is trying on a red leather jacket?",
+      "zh": "C：看到那边那个在试穿红色皮夹克的女人了吗？"
+    },
+    {
+      "en": "C: Isn't that Samantha?",
+      "zh": "C：那不是萨曼莎吗？"
+    },
+    {
+      "en": "B: What?",
+      "zh": "B：什么？"
+    },
+    {
+      "en": "B: No wonder she told me she couldn't make it to the meeting, oh, no, I think she saw me...",
+      "zh": "B：难怪她跟我说她来不了会，哦不，我想她看到我了……"
+    }
+  ],
+  "code": "B0031",
+  "title": "Canceling an Appointment",
+  "level": "Elementary"
 }

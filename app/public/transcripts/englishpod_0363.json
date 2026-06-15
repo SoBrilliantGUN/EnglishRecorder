@@ -904,5 +904,14 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0363",
+  "title": "Lesson 363",
+  "level": "Intermediate"
 }

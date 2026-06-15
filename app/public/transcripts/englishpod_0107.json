@@ -1208,5 +1208,70 @@
       "en": "From Jeff and Charlie's view of what it's like to not have a dog.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Excuse me, waiter? Waiter!",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, sir? What can I do for you?",
+      "zh": ""
+    },
+    {
+      "en": "A: I've been sitting here for the past twenty minutes and no one has offered me a glass of water, brought any bread to the table and our appetizers haven't been served yet! You know, in this kind of establishment, I'd expect much better service.",
+      "zh": ""
+    },
+    {
+      "en": "B: I am sorry, sir. I'll check on your order right away.",
+      "zh": ""
+    },
+    {
+      "en": "C: Relax honey, the place is busy tonight, but I've heard the food is amazing. Anyway...",
+      "zh": ""
+    },
+    {
+      "en": "B: Here you are, sir. The foie gras for the lady, and a mushroom soup for you.",
+      "zh": ""
+    },
+    {
+      "en": "A: Waiter, I ordered a cream of mushroom soup with asparagus. This soup is obviously too runny, and it's over-seasoned. It's completely inedible!",
+      "zh": ""
+    },
+    {
+      "en": "B: Okay, I do apologize for that. Can I bring you another soup, or would you like to order something else?",
+      "zh": ""
+    },
+    {
+      "en": "A: Take this foie gras back as well, it's rubbery and completely overcooked. And look at the portion size! How can you charge twenty-five dollars for a sliver of duck liver?",
+      "zh": ""
+    },
+    {
+      "en": "B: Right away... sir.",
+      "zh": ""
+    },
+    {
+      "en": "C: Honey come on! The foie gras was fine, why are you making such a big deal? Are you trying to get our meal comped again?",
+      "zh": ""
+    },
+    {
+      "en": "A: What do you mean? We are paying for this. If I'm shelling out my hard earned bucks, I expect value for money!",
+      "zh": ""
+    },
+    {
+      "en": "B: Here you are, sir. I hope it is alright now. The chef has prepared it specially for you.",
+      "zh": ""
+    },
+    {
+      "en": "A: Yes, fine.",
+      "zh": ""
+    },
+    {
+      "en": "C: Honey, are you alright?",
+      "zh": ""
+    }
+  ],
+  "code": "C0107",
+  "title": "Lesson 107",
+  "level": "Intermediate"
 }

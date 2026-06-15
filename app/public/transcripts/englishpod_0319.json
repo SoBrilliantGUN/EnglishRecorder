@@ -1024,5 +1024,26 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Michelle: Yes, it sure is. I had to run here from work! I need to rush as I'm on my lunch break. Older gentle- man: ell please, why don't you go ahead of me in line? I'm in no hurry.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Oh, that's so nice of you! Thank you very much. Older gentle- man: My pleasure Miss. Actually, could you recommend what to eat here? I've never been here before.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Sure. Well, the avocado sandwich is delicious, and it's the healthiest thing on the menu. Personally, I think the beef salad is the tastiest choice. I usually get that. Also, the milkshakes are the best milkshakes in town! Older gentle- man: Well, thanks for the suggestions.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Oh, don't mention it.",
+      "zh": ""
+    }
+  ],
+  "code": "C0319",
+  "title": "Daily Life - Small Talk 5 - Brief Talk With A",
+  "level": "Intermediate"
 }

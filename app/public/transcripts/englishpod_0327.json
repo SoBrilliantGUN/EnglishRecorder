@@ -928,5 +928,38 @@
       "en": "Much surfing.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Excuse me, can I try on this pair of jeans?",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure. Let me see... I'm a fraid we don't have any size eights left.",
+      "zh": ""
+    },
+    {
+      "en": "A: What are you talking about? I'm always a size four. Here, I'll try these.",
+      "zh": ""
+    },
+    {
+      "en": "B: They seem a bit too tight. Shall I find you a larger size?",
+      "zh": ""
+    },
+    {
+      "en": "A: No, they fit fine! They sh ow off my curves perfectly!",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, your love handles. Yeah, they sure do, although... here, you forgot to close this button.",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah right, I'll do it now...",
+      "zh": ""
+    }
+  ],
+  "code": "C0327",
+  "title": "Daily Life - Buying A Pair Of Jeans",
+  "level": "Intermediate"
 }

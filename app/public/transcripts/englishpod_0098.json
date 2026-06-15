@@ -1404,5 +1404,62 @@
       "en": "Bye-bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Valerie! Hi! Wow how are you? It's been such a long time!",
+      "zh": ""
+    },
+    {
+      "en": "B: Darlene! Indeed, it's been a while! How have you been? Wow, you look amazing! I love what you've done with your hair!",
+      "zh": ""
+    },
+    {
+      "en": "A: Really? Thanks! I went to that hair salon that you told me about, but enough about me! Look at you! You haven't aged a day since the last time I saw you! What is your secret!",
+      "zh": ""
+    },
+    {
+      "en": "B: Ha ha, come on! Well, I've been watching what I eat, and working out three times a week. By the way, I heard your son recently graduated!",
+      "zh": ""
+    },
+    {
+      "en": "A: Yes, my little Paul is finally a doctor. They grow up so fast you know.",
+      "zh": ""
+    },
+    {
+      "en": "B: He is such a handsome guy. He gets his looks from his mother of course!",
+      "zh": ""
+    },
+    {
+      "en": "A: Thank you! What about your daughter, Pamela? I heard she has passed the bar exam and married recently.",
+      "zh": ""
+    },
+    {
+      "en": "B: Oh yes. She had a beautiful wedding in Cozumel Mexico and we all attended.",
+      "zh": ""
+    },
+    {
+      "en": "A: Such a lovely girl. I hope my Paul is lucky enough to find a girl like that someday!",
+      "zh": ""
+    },
+    {
+      "en": "B: But of course! Well, it's been great talking to you, but I have to get going.",
+      "zh": ""
+    },
+    {
+      "en": "A: Same here! We will catch up soon, maybe over coffee!",
+      "zh": ""
+    },
+    {
+      "en": "B: That would be great! Give me a call!",
+      "zh": ""
+    },
+    {
+      "en": "A: See you soon! Bye! Ugg... I can't stand that woman or her obnoxious son.",
+      "zh": ""
+    }
+  ],
+  "code": "C0098",
+  "title": "Daily Life - Flattering",
+  "level": "Elementary"
 }

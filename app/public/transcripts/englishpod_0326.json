@@ -1208,5 +1208,34 @@
       "en": "This is Inner Circle, signing off.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Look, Jimmy's report came today.",
+      "zh": ""
+    },
+    {
+      "en": "B: Let's have a look. What is this? Where are all the grades?",
+      "zh": ""
+    },
+    {
+      "en": "A: He's in the third grade Sam! You see under each subject that he is being taught in school, he receives a mark from one to three. A one means his achievement or work is excellent. Here in Science for example he got a two, which means its satisfactory.",
+      "zh": ""
+    },
+    {
+      "en": "B: What about here in physical education?",
+      "zh": ""
+    },
+    {
+      "en": "A: He got a three here which means it's unsatisfactory. We should work on that with him.",
+      "zh": ""
+    },
+    {
+      "en": "B: So confusing! In my day we got an A or B if we were doing well and if we failed an exam we would get an F!",
+      "zh": ""
+    }
+  ],
+  "code": "C0326",
+  "title": "Michelle: For sure. Take care. Daily Life - Report Card",
+  "level": "Intermediate"
 }

@@ -992,5 +992,50 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Excuse me? Is this where I register? I'd like to sign up for my courses for next semester.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yes, of course. I need your student ID please.",
+      "zh": ""
+    },
+    {
+      "en": "A: Here you are.",
+      "zh": ""
+    },
+    {
+      "en": "B: Okay, Susan. It says here that you are a business major and you are in your second year. Is this information correct?",
+      "zh": ""
+    },
+    {
+      "en": "A: Yes. I do want to take some additional credits this year to get a minor in psychology.",
+      "zh": ""
+    },
+    {
+      "en": "B: Sure. That's not a problem. Do you have the list of courses you want to take this semester?",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah. Here's my list. I'm not sure if the class schedule will allow me to take all of them though.",
+      "zh": ""
+    },
+    {
+      "en": "B: Yeah, that's perfect. What about the subjects for your minor?",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh yeah! Almost forgot! I need to take fundamental linguistics, consumer psychology and neuroanatomy.",
+      "zh": ""
+    },
+    {
+      "en": "B: Wow, you are going to be busy this semester! Okay, here you go. You are registered now; you'll have to make your first tuition payment before classes start.",
+      "zh": ""
+    }
+  ],
+  "code": "C0110",
+  "title": "Lesson 110",
+  "level": "Intermediate"
 }

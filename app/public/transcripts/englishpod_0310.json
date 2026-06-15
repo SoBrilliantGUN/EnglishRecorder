@@ -972,5 +972,46 @@
       "en": "¡chao!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "James: So Michelle, let me introduce you to Maria. She's my colleague from Brazil. Maria, this is Michelle.",
+      "zh": ""
+    },
+    {
+      "en": "Maria: Hi Michelle. So what do you do here in Shanghai? I mean, what work do you do?",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: I work in advertising right now. How about you?",
+      "zh": ""
+    },
+    {
+      "en": "Maria: I'm actually in the wine business.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: That sounds really great. I love wine myself! Is this your first time to Shanghai Maria?",
+      "zh": ""
+    },
+    {
+      "en": "Maria: No actually, I often visit. I usually come to China for business at least once a year. Also, I love the restaurants in Shanghai, so that's a good reason to come.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Me too. Actually, there's a great Brazilian restaurant I recommend. I mean, the food is delicious butthe service isn't so good. I often like to get together with friends and have a great barbecue there.",
+      "zh": ""
+    },
+    {
+      "en": "James: We should go together some time.",
+      "zh": ""
+    },
+    {
+      "en": "Michelle: Wonderful idea! I'd love that!",
+      "zh": ""
+    }
+  ],
+  "code": "C0310",
+  "title": "The Office - Small Talk 2",
+  "level": "Intermediate"
 }

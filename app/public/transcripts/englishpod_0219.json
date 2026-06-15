@@ -948,5 +948,46 @@
       "en": "We'll talk to you then.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Thank you for organizing this great baby shower for me! I've always been to baby showers but never actually had one held for me! Let's get started!",
+      "zh": ""
+    },
+    {
+      "en": "B: Ok, let's start opening some presents!",
+      "zh": ""
+    },
+    {
+      "en": "A: Oh look! What a great little bib for the baby! This will d e f i n i t e l y c o m e i n h a n d y! O h w o w, y o u a l s o g o t m e a stroller! That's so great! Thank you!",
+      "zh": ""
+    },
+    {
+      "en": "B: This next one is from Betty.",
+      "zh": ""
+    },
+    {
+      "en": "A: A highchair and car seat! Wow Betty thank you so much! I really appreciate it!",
+      "zh": ""
+    },
+    {
+      "en": "B: One more from Carla.",
+      "zh": ""
+    },
+    {
+      "en": "A: A playpen and crib! Thanks Ca rla! This is just what I needed!",
+      "zh": ""
+    },
+    {
+      "en": "B: OK, that's all of them. No more gifts. Now who wants to guess when the baby is due!",
+      "zh": ""
+    },
+    {
+      "en": "A: Umm. I think my water just broke! Get me to a hospital!",
+      "zh": ""
+    }
+  ],
+  "code": "C0219",
+  "title": "Global View - Baby Shower",
+  "level": "Elementary"
 }

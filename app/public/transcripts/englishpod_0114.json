@@ -1300,5 +1300,66 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Jim! What's up man!",
+      "zh": ""
+    },
+    {
+      "en": "B: Charlie! Is that your ride? It's butt ugly, dude!",
+      "zh": ""
+    },
+    {
+      "en": "A: Don't be a airhead! This is a nineteen sixty-nine Chevy Impala! I just need to fix it up a bit. In a couple of months, this baby is gonna be wicked!",
+      "zh": ""
+    },
+    {
+      "en": "B: Not even! Check it out! Now that's a fresh ride!",
+      "zh": ""
+    },
+    {
+      "en": "A: Too bad the driver is a major dweeb. Anyone can have a car like that if their daddy is loaded like his.",
+      "zh": ""
+    },
+    {
+      "en": "B: He's coming this way, be cool.",
+      "zh": ""
+    },
+    {
+      "en": "C: Hey guys! What do you think of my automobile? Isn't it bad to the bone?",
+      "zh": ""
+    },
+    {
+      "en": "A: Word! The ladies are gonna be lining up to get with you when they see you driving around in that car.",
+      "zh": ""
+    },
+    {
+      "en": "C: You really think so?",
+      "zh": ""
+    },
+    {
+      "en": "B: For sure!",
+      "zh": ""
+    },
+    {
+      "en": "C: Awesome!",
+      "zh": ""
+    },
+    {
+      "en": "A: Psych! haha.. you totally fell for it.",
+      "zh": ""
+    },
+    {
+      "en": "C: You are a real scumbag, Charlie. When I do the nasty with the prom queen, we'll see who has the last laugh.",
+      "zh": ""
+    },
+    {
+      "en": "B: Dude, don't have a cow!",
+      "zh": ""
+    }
+  ],
+  "code": "C0114",
+  "title": "The Weekend - 1980’s",
+  "level": "Elementary"
 }

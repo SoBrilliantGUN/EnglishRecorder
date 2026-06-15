@@ -1220,5 +1220,38 @@
       "en": "Thanks for watching.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Client: Hello? Can you help me? My computer! Oh man...",
+      "zh": ""
+    },
+    {
+      "en": "Todd: It's okay sir, calm down. What happened?",
+      "zh": ""
+    },
+    {
+      "en": "Client: I turned on my laptop and it broke! I mean, the monitor went black!",
+      "zh": ""
+    },
+    {
+      "en": "Todd: Ok, sir, it sounds like you might have a virus.",
+      "zh": ""
+    },
+    {
+      "en": "Client: I don't feel sick,...let me check... Nope! No fever, I'm fine.",
+      "zh": ""
+    },
+    {
+      "en": "Todd: No, your computer might have a virus, I mean, it has a bad program on it. Maybe that's why it crashed. I recommend that you run an antivirus program in order to safely remove any unwanted spyware or Trojans.",
+      "zh": ""
+    },
+    {
+      "en": "Client: Phew!... Wait a minute, CRASH??!! Spyware? Trojans! What? where? when?!",
+      "zh": ""
+    }
+  ],
+  "code": "C0203",
+  "title": "Daily Life - Calling Tech Support",
+  "level": "Elementary"
 }

@@ -1036,5 +1036,70 @@
       "en": "Bye!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "Jim: Argh... I feel terrible, I keep sneezing and my eyes are all watery, what's wrong with me?",
+      "zh": ""
+    },
+    {
+      "en": "Tom: Wow, you're not dying are you, it looks like you have a cold, you should take some medicine.",
+      "zh": ""
+    },
+    {
+      "en": "Jim: I don't think it's a cold, I feel fine if I move a few feet away from my desk.",
+      "zh": ""
+    },
+    {
+      "en": "Tom: Maybe we should put you into quarantine ha ha, jokes aside, I think you might have an allergy.",
+      "zh": ""
+    },
+    {
+      "en": "Jim: An allergy? I never thought about that, I don't think I'm allergic to pollen though and I'm desensitized to bee stings after being stung so many times, Hmm...",
+      "zh": ""
+    },
+    {
+      "en": "Jim: Ow! Why did you chuck that peanut at me?",
+      "zh": ""
+    },
+    {
+      "en": "Tom: Just checking if you're allergic to peanuts, I guess not.",
+      "zh": ""
+    },
+    {
+      "en": "Jim: Not funny! I could have gone into Anaphylactic Shock.",
+      "zh": ""
+    },
+    {
+      "en": "Tom: Okay my bad, how about dust? This office is full of it.",
+      "zh": ""
+    },
+    {
+      "en": "Jim: Yes the whole is office is dusty yet I only feel affected near our desks!",
+      "zh": ""
+    },
+    {
+      "en": "Cat: Meow meow meow",
+      "zh": ""
+    },
+    {
+      "en": "Jim: You brought your cat into the office?!",
+      "zh": ""
+    },
+    {
+      "en": "Tom: Yes, it's Mr Snuffle's birthday today, I didn't want him to be alone on his special day!",
+      "zh": ""
+    },
+    {
+      "en": "Jim: ACHOO! Argh put it away ACHOO!",
+      "zh": ""
+    },
+    {
+      "en": "Tom: I guess we found the problem, your allergic to cats!",
+      "zh": ""
+    }
+  ],
+  "code": "C0318",
+  "title": "Global View - Allergies",
+  "level": "Intermediate"
 }

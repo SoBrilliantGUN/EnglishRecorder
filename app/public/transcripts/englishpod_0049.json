@@ -476,5 +476,102 @@
       "en": "time, bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Hey daddy!",
+      "zh": "A：嘿爸爸！"
+    },
+    {
+      "en": "A: You look great today; I like your tie!",
+      "zh": "A：你今天看起来真帅；我喜欢你的领带！"
+    },
+    {
+      "en": "A: By the way, I was wondering can I...",
+      "zh": "A：对了，我在想能不能……"
+    },
+    {
+      "en": "B: NO!",
+      "zh": "B：不行！"
+    },
+    {
+      "en": "A: I haven't even told you what it is yet!",
+      "zh": "A：我都还没说是什么呢！"
+    },
+    {
+      "en": "B: Okay, okay, what do you want?",
+      "zh": "B：好吧好吧，你想要什么？"
+    },
+    {
+      "en": "A: Do you think I could borrow the car?",
+      "zh": "A：你觉得我能借你的车吗？"
+    },
+    {
+      "en": "A: I'm going to a concert tonight.",
+      "zh": "A：我今晚要去看一场演唱会。"
+    },
+    {
+      "en": "B: Um.. I don't think so.",
+      "zh": "B：嗯……恐怕不行。"
+    },
+    {
+      "en": "B: I need the car tonight to pick up your mother.",
+      "zh": "B：我今晚需要车去接你妈妈。"
+    },
+    {
+      "en": "A: Ugg!",
+      "zh": "A：啊！"
+    },
+    {
+      "en": "A: I told you about it last week!",
+      "zh": "A：我上周就跟你说过了！"
+    },
+    {
+      "en": "A: Smelly Toes is playing, and Eric asked if I would go with him!",
+      "zh": "A：Smelly Toes乐队在演出，埃里克问我能不能跟他一起去！"
+    },
+    {
+      "en": "B: Who's this Eric guy?",
+      "zh": "B：这个叫埃里克的是谁？"
+    },
+    {
+      "en": "A: Duh!",
+      "zh": "A：切！"
+    },
+    {
+      "en": "A: He's like the hottest and most popular guy at school!",
+      "zh": "A：他可是全校最帅最受欢迎的男生！"
+    },
+    {
+      "en": "A: Come on, dad!",
+      "zh": "A：拜托了，爸！"
+    },
+    {
+      "en": "A: Please!",
+      "zh": "A：求你了！"
+    },
+    {
+      "en": "B: No can do... sorry.",
+      "zh": "B：没办法……抱歉。"
+    },
+    {
+      "en": "A: Fine then!",
+      "zh": "A：那好吧！"
+    },
+    {
+      "en": "A: Would you mind giving me 100 bucks?",
+      "zh": "A：你能给我100块钱吗？"
+    },
+    {
+      "en": "B: No way!",
+      "zh": "B：不可能！"
+    },
+    {
+      "en": "A: That's so unfair!",
+      "zh": "A：这太不公平了！"
+    }
+  ],
+  "code": "C0049",
+  "title": "Daily Life - Daddy Please!",
+  "level": "Elementary"
 }

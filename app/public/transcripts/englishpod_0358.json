@@ -956,5 +956,14 @@
       "en": "Thank you.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "",
+      "zh": ""
+    }
+  ],
+  "code": "C0358",
+  "title": "Lesson 358",
+  "level": "Intermediate"
 }

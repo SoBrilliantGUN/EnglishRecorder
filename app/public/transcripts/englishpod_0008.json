@@ -1000,5 +1000,46 @@
       "en": "Goodbye.",
       "zh": "再见。"
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Nick! How's it going?",
+      "zh": "A：尼克！最近怎么样？"
+    },
+    {
+      "en": "B: Oh, hey...",
+      "zh": "B：哦，嗨…"
+    },
+    {
+      "en": "A: What are you doing in this neighbourhood? Do you live around here?",
+      "zh": "A：你在这附近干什么？你住这边吗？"
+    },
+    {
+      "en": "B: Actually, my office is right around the corner.",
+      "zh": "B：其实，我的办公室就在拐角处。"
+    },
+    {
+      "en": "A: It was great to meet you last week at the conference. I really enjoyed our conversation about foreign investment.",
+      "zh": "A：上周在会议上认识你真是太高兴了。我真的很享受我们关于外国投资的讨论。"
+    },
+    {
+      "en": "B: Yeah, yeah, it was really interesting. You know, I'm in a bit of a hurry, but here's my card. We should definitely meet up again and continue our discussion.",
+      "zh": "B：是啊是啊，确实很有意思。是这样，我有点赶时间，不过这是我的名片。我们一定要找时间再聚聚，继续我们的讨论。"
+    },
+    {
+      "en": "A: Sure, you still have my contact details, right?",
+      "zh": "A：当然，你还有我的联系方式，对吧？"
+    },
+    {
+      "en": "B: You know what, this is really embarrassing, but your name has just slipped my mind. Can you remind me?",
+      "zh": "B：说来挺尴尬的，但我突然想不起你的名字了。你能提醒我一下吗？"
+    },
+    {
+      "en": "A: Sure, my name is Ana Ferris. Don't worry about it, it happens to me all the time. I'm terrible with names too.",
+      "zh": "A：当然，我叫安娜·费里斯。别担心，这种事经常发生在我身上。我对名字也很不在行。"
+    }
+  ],
+  "code": "C0008",
+  "title": "Daily Life - What’s your name again?",
+  "level": "Elementary"
 }

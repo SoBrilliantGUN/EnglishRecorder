@@ -1044,5 +1044,50 @@
       "en": "Well, thanks for listening, you guys, and until next time, goodbye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: They are breaking through! Set your blasters to full power!",
+      "zh": ""
+    },
+    {
+      "en": "B: Excellent job. Search the sh ip, she's gotta be in here somewhere... bring her to me!",
+      "zh": ""
+    },
+    {
+      "en": "C: Lord Hater, we have a survivor here...",
+      "zh": ""
+    },
+    {
+      "en": "B: Where is she? Don't make me destroy you, tell me where she is!",
+      "zh": ""
+    },
+    {
+      "en": "D: Not so fast! She will no longer be your prisoner! It's time you and I settled this once and for all!",
+      "zh": ""
+    },
+    {
+      "en": "B: You are unwise to think you can defeat me. You know nothing of the power of the obscure side!",
+      "zh": ""
+    },
+    {
+      "en": "D: We will stop you...",
+      "zh": ""
+    },
+    {
+      "en": "C: Lord Hater! We have an unidentified spacecraft taking off from the rear dock! They somehow managed to escape our tractor beam!",
+      "zh": ""
+    },
+    {
+      "en": "B: After them!",
+      "zh": ""
+    },
+    {
+      "en": "C: They are accelerating towards the speed of light We lost them, sir...",
+      "zh": ""
+    }
+  ],
+  "code": "C0079",
+  "title": "The Weekend - Funky Galaxy Battles",
+  "level": "Elementary"
 }

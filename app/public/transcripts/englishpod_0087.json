@@ -1004,5 +1004,46 @@
       "en": "Well, thanks for downloading, you guys, and until next time, goodbye!",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Captain, we're under attack by an unidentified ship.",
+      "zh": ""
+    },
+    {
+      "en": "B: Damage report.",
+      "zh": ""
+    },
+    {
+      "en": "A: We've sustained heavy damage to the engines. We've lost our warp drive.",
+      "zh": ""
+    },
+    {
+      "en": "B: We'll have to attempt to make contact. This is Captain Picard of the Starship Enterprise. We don't wish to engage. What is the nature of this attack?",
+      "zh": ""
+    },
+    {
+      "en": "C: I am Captain Kor of the ship Klothos. Your ship attacked our search party...",
+      "zh": ""
+    },
+    {
+      "en": "B: No! You're not doing it right! Kor doesn't sound like that. His voice is deeper!",
+      "zh": ""
+    },
+    {
+      "en": "C: I am Captain Kor of the ship Klothos. Your sh...",
+      "zh": ""
+    },
+    {
+      "en": "B: No! If you can't do a Klingon voice, I'll have to find a more serious Star Trek fan actor who actually can, OK?",
+      "zh": ""
+    },
+    {
+      "en": "C: But... but... I already boug ht the Klingon suit! And the wig...",
+      "zh": ""
+    }
+  ],
+  "code": "C0087",
+  "title": "Lesson 87",
+  "level": "Intermediate"
 }

@@ -1472,5 +1472,46 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Ok... I'll talk to you later. Bye",
+      "zh": ""
+    },
+    {
+      "en": "B: Carrie, are you ok? You seem a bit down.",
+      "zh": ""
+    },
+    {
+      "en": "A: I just got off the phone with my boyfriend. He is always getting upset and losing his temper over nothing. It's so hard to talk to him at times.",
+      "zh": ""
+    },
+    {
+      "en": "B: Maybe it's just that he is stressed out from work or something. He does have a pretty nerve wracking job you know.",
+      "zh": ""
+    },
+    {
+      "en": "A: Yeah but, he is always in a really foul mood. I try to find out what's bothering him or get him to talk about his day but, he always shuts down and brushes me off.",
+      "zh": ""
+    },
+    {
+      "en": "B: Men are like that you know. They can feel nervous, anxious or on edge and the only way they can express it is by trying to hide it through aggressiveness.",
+      "zh": ""
+    },
+    {
+      "en": "A: I guess you are right. What do you think I should do? He wasn't always this grouchy you know...",
+      "zh": ""
+    },
+    {
+      "en": "B: Talk to him, try to cheer him up when he is down and if that doesn't work, I say get rid of him and get a new one!",
+      "zh": ""
+    },
+    {
+      "en": "A: You are something else you know that?",
+      "zh": ""
+    }
+  ],
+  "code": "C0135",
+  "title": "Daily Life - Cheer Up",
+  "level": "Elementary"
 }

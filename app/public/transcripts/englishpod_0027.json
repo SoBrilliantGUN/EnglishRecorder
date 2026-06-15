@@ -716,5 +716,50 @@
       "en": "Bye.",
       "zh": ""
     }
-  ]
+  ],
+  "dialogue": [
+    {
+      "en": "A: Mr. Mc Kenna, do you have a second? I need to talk to you about something.",
+      "zh": "A：麦肯纳先生，您有空吗？我想跟您谈点事。"
+    },
+    {
+      "en": "B: Sure, Liv, what can I do for you?",
+      "zh": "B：当然，丽芙，有什么能帮你的？"
+    },
+    {
+      "en": "A: Well, I was just wondering... you see, I know I've used up all my vacation days th is year, but my sister is getting married, and the wedding is overseas, and, well...",
+      "zh": "A：嗯，我只是在想……您看，我知道我今年的年假都已经用完了，但我妹妹要结婚了，婚礼在国外，而且……"
+    },
+    {
+      "en": "B: You wanna take some time off, is that right?",
+      "zh": "B：你想请几天假，对吧？"
+    },
+    {
+      "en": "A: Well, sir, I was just hoping that I might be able to take some unpaid leave this year.",
+      "zh": "A：嗯，先生，我只是想也许今年我能请一些无薪假期。"
+    },
+    {
+      "en": "B: What dates are you planning on taking off?",
+      "zh": "B：你打算休哪几天？"
+    },
+    {
+      "en": "B: I'll need at least two months notice, so that I can plan for your absence.",
+      "zh": "B：我需要至少提前两个月通知，这样我才能为你的缺席做好准备。"
+    },
+    {
+      "en": "A: I was thinking of taking off from September first until the thirtieth.",
+      "zh": "A：我想从9月1号休到30号。"
+    },
+    {
+      "en": "A: Would you be okay with that?",
+      "zh": "A：您觉得可以吗？"
+    },
+    {
+      "en": "B: Well, I guess so.",
+      "zh": "B：嗯，我想可以吧。"
+    }
+  ],
+  "code": "B0027",
+  "title": "Asking for Time Off",
+  "level": "Elementary"
 }
