@@ -24,11 +24,6 @@
   margin-bottom: 12px;
 }
 
-.navLabel {
-  font-weight: 600;
-  font-size: var(--font-size-md);
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -74,4 +69,104 @@
 
 .dotSelected {
   background: rgba(255, 255, 255, 0.8);
+}
+
+// 年月跳转器
+.navLabelBtn {
+  font-weight: 600;
+  font-size: var(--font-size-md);
+  background: none;
+  border: none;
+  color: var(--color-text);
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  transition: background var(--transition-fast);
+
+  &:hover {
+    background: var(--color-bg-muted);
+  }
+}
+
+.pickerWrap {
+  position: relative;
+}
+
+.picker {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 12px;
+  z-index: 100;
+  min-width: 200px;
+  animation: pickerIn var(--transition-fast);
+}
+
+@keyframes pickerIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(-4px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.pickerYear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.pickerYearLabel {
+  font-weight: 600;
+  font-size: var(--font-size-md);
+  min-width: 56px;
+  text-align: center;
+}
+
+.pickerYearBtn {
+  background: none;
+  border: none;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-lg);
+  line-height: 1;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    color: var(--color-primary);
+    background: var(--color-bg-muted);
+  }
+}
+
+.pickerMonths {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.pickerMonth {
+  padding: 6px 4px;
+  border: none;
+  background: none;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-align: center;
+
+  &:hover {
+    background: var(--color-bg-muted);
+  }
+
+  &.pickerMonthActive {
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+  }
 }
