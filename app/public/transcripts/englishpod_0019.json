@@ -1,8 +1,12 @@
 {
   "transcript": [
     {
-      "en": "Hello English learners and welcome to another lesson with EnglishPod.",
-      "zh": "大家好，英语学习者们，欢迎来到 EnglishPod 的又一节课。"
+      "en": "Hello English learners",
+      "zh": "大家好，英语学习者们，"
+    },
+    {
+      "en": "and welcome to another lesson with EnglishPod.",
+      "zh": "欢迎来到 EnglishPod 的又一节课。"
     },
     {
       "en": "My name is Marco.",
@@ -21,24 +25,60 @@
       "zh": "没错。"
     },
     {
-      "en": "We've got a lot of Christmas vocabulary in today's lesson for you.",
-      "zh": "今天的课里有很多圣诞词汇要教给大家。"
+      "en": "We've got a lot of Christmas vocabulary in today's",
+      "zh": "今天的课里有很多圣诞词汇要教"
     },
     {
-      "en": "Yeah, it's almost Christmas time so everyone is getting into the spirit, especially here at EnglishPod, so we're going to teach you a little bit more about this.",
-      "zh": "是的，快到圣诞节了，大家都进入了节日氛围，尤其是在 EnglishPod，所以我们要多教你们一些这方面的知识。"
+      "en": "lesson for you.",
+      "zh": "给大家。"
     },
     {
-      "en": "Speaking of the spirit, I think it's time for us to look at our vocabulary preview.",
-      "zh": "说到节日氛围，我想是时候来看词汇预览了。"
+      "en": "Yeah, it's almost Christmas time",
+      "zh": "是的，快到圣诞节了，"
+    },
+    {
+      "en": "so everyone is getting into the spirit,",
+      "zh": "大家都进入了节日氛围，"
+    },
+    {
+      "en": "especially here at EnglishPod,",
+      "zh": "尤其是在 EnglishPod，"
+    },
+    {
+      "en": "so we're going to teach you a little bit more about",
+      "zh": "所以我们再多教"
+    },
+    {
+      "en": "this.",
+      "zh": "你们一些这方面的知识。"
+    },
+    {
+      "en": "Speaking of the spirit,",
+      "zh": "说到节日氛围"
+    },
+    {
+      "en": "I think it's time for us to look at our vocabulary",
+      "zh": "，我想是时候来看"
+    },
+    {
+      "en": "preview.",
+      "zh": "词汇预览了。"
     },
     {
       "en": "Vocabulary preview.",
       "zh": "词汇预览。"
     },
     {
-      "en": "So in this part of our show, we'll look at some key language in the dialogue that you'll need to know to understand the dialogue.",
-      "zh": "在节目的这个部分，我们来看一些对话中的关键语言，你需要知道它们才能理解对话。"
+      "en": "So in this part of our show,",
+      "zh": "在节目的这个部分，我们来看一些对话中的关键语言，"
+    },
+    {
+      "en": "we'll look at some key language in the dialogue that",
+      "zh": "你需要知道它"
+    },
+    {
+      "en": "you'll need to know to understand the dialogue.",
+      "zh": "们才能理解对话。"
     },
     {
       "en": "And actually today we only have one word.",
@@ -149,8 +189,12 @@
       "zh": "好的。"
     },
     {
-      "en": "So with that in mind, let's take a listen to our dialogue for the first time.",
-      "zh": "带着这个认识，我们来听第一遍对话。"
+      "en": "So with that in mind, let's take a listen to our",
+      "zh": "带着这个认识，"
+    },
+    {
+      "en": "dialogue for the first time.",
+      "zh": "我们来听第一遍对话。"
     },
     {
       "en": "I hate working on Christmas Eve.",
@@ -237,12 +281,20 @@
       "zh": "你有权请律师。"
     },
     {
-      "en": "If you can't afford one, the state will appoint one for you.",
-      "zh": "如果你请不起，政府会为你指定一名。"
+      "en": "If you can't afford one,",
+      "zh": "如果你请不起，"
     },
     {
-      "en": "Do you understand these rights that have just been read to you?",
-      "zh": "你明白刚才向你宣读的这些权利吗？"
+      "en": "the state will appoint one for you.",
+      "zh": "政府会为你指定一名。"
+    },
+    {
+      "en": "Do you understand these rights that have just been",
+      "zh": "你明白刚才向你宣读的这些权"
+    },
+    {
+      "en": "read to you?",
+      "zh": "利吗？"
     },
     {
       "en": "You can't take me to jail.",
@@ -297,8 +349,12 @@
       "zh": "语言要点。"
     },
     {
-      "en": "So the first word that we have on our language takeaway today is vehicle.",
-      "zh": "今天语言要点的第一个词是 vehicle（交通工具）。"
+      "en": "So the first word that we have on our language",
+      "zh": "今天语言要点的第一个词是 vehi"
+    },
+    {
+      "en": "takeaway today is vehicle.",
+      "zh": "cle（交通工具）。"
     },
     {
       "en": "Vehicle.",
@@ -333,8 +389,12 @@
       "zh": "我之前以为 vehicle 专门指汽车。"
     },
     {
-      "en": "No, any machine that carries people from one place to another is a vehicle.",
-      "zh": "不，任何把人从一个地方运到另一个地方的机器都是 vehicle。"
+      "en": "No, any machine that carries people from one place to",
+      "zh": "不，任何把人从一个地方运到另一个地方的机器都是"
+    },
+    {
+      "en": "another is a vehicle.",
+      "zh": "vehicle。"
     },
     {
       "en": "Great.",
@@ -397,8 +457,12 @@
       "zh": "Appoint 意思是选择、任命。"
     },
     {
-      "en": "Okay, so the president of a country might appoint his chief of staff.",
-      "zh": "好的，比如一国的总统可能会任命他的幕僚长。"
+      "en": "Okay, so the president of a country might appoint his",
+      "zh": "好的，比如一国的总统可能会任命他"
+    },
+    {
+      "en": "chief of staff.",
+      "zh": "的幕僚长。"
     },
     {
       "en": "Right, or I can appoint my attorney.",
@@ -477,8 +541,12 @@
       "zh": "好的。"
     },
     {
-      "en": "A sleigh is a vehicle that is pulled by a horse and travels over snow or ice.",
-      "zh": "雪橇是一种由马拉着的交通工具，在雪地或冰面上行驶。"
+      "en": "A sleigh is a vehicle that is pulled by a horse",
+      "zh": "雪橇是一种由马拉着的交通工具，"
+    },
+    {
+      "en": "and travels over snow or ice.",
+      "zh": "在雪地或冰面上行驶。"
     },
     {
       "en": "Okay.",
@@ -501,8 +569,12 @@
       "zh": "好问题。"
     },
     {
-      "en": "Well, the song says you ride in a one-horse open sleigh.",
-      "zh": "嗯，歌里唱的是「ride in a one-horse open sleigh」。"
+      "en": "Well, the song says you ride in a one-horse open",
+      "zh": "嗯，歌里唱的是「ride in a one-horse open sl"
+    },
+    {
+      "en": "sleigh.",
+      "zh": "eigh」。"
     },
     {
       "en": "Right, okay.",
@@ -513,8 +585,12 @@
       "zh": "嗯，你知道吗？"
     },
     {
-      "en": "I think it's time for us to look at some interesting phrases that we found in this dialogue.",
-      "zh": "我想是时候来看看这段对话中的一些有趣短语了。"
+      "en": "I think it's time for us to look at some interesting",
+      "zh": "我想是时候来看看这段对话"
+    },
+    {
+      "en": "phrases that we found in this dialogue.",
+      "zh": "中的一些有趣短语了。"
     },
     {
       "en": "So let's look at putting it together.",
@@ -525,8 +601,16 @@
       "zh": "整合运用。"
     },
     {
-      "en": "Today on Putting it Together, we have two great phrases for you and let's take a look at the first one.",
-      "zh": "今天的整合运用，我们为大家准备了两个很棒的短语，先看第一个。"
+      "en": "Today on Putting it Together,",
+      "zh": "今天的整合运用，"
+    },
+    {
+      "en": "we have two great phrases for you",
+      "zh": "我们为大家准备了两个很棒的短语，"
+    },
+    {
+      "en": "and let's take a look at the first one.",
+      "zh": "先看第一个。"
     },
     {
       "en": "Step out.",
@@ -541,16 +625,24 @@
       "zh": "Step out."
     },
     {
-      "en": "So step out means to go out of a place for a short period of time.",
-      "zh": "Step out 意思是短暂地离开某个地方。"
+      "en": "So step out means to go out of a place for a short",
+      "zh": "Step out 意思是短暂地离开"
+    },
+    {
+      "en": "period of time.",
+      "zh": "某个地方。"
     },
     {
       "en": "Right.",
       "zh": "对。"
     },
     {
-      "en": "So in our dialogue, for example, the police officer said, step out of the vehicle.",
-      "zh": "比如在对话中，警察说：下车（step out of the vehicle）。"
+      "en": "So in our dialogue, for example,",
+      "zh": "比如在对话中，"
+    },
+    {
+      "en": "the police officer said, step out of the vehicle.",
+      "zh": "警察说：下车（step out of the vehicle）。"
     },
     {
       "en": "Get out of your vehicle.",
@@ -613,8 +705,12 @@
       "zh": "Get a load of."
     },
     {
-      "en": "So when I say get a load of something, I mean look at, right?",
-      "zh": "当我说 get a load of something，意思就是「看看」，对吧？"
+      "en": "So when I say get a load of something, I mean look at,",
+      "zh": "当我说 get a load of something，意思就是「看看」，"
+    },
+    {
+      "en": "right?",
+      "zh": "对吧？"
     },
     {
       "en": "Right.",
@@ -633,8 +729,12 @@
       "zh": "对，这就是我们在对话中听到的。"
     },
     {
-      "en": "Now, you can use this phrase in a number of different ways and we have some examples for you.",
-      "zh": "这个短语可以有多种用法，我们有一些例子给大家。"
+      "en": "Now, you can use this phrase in a number of different",
+      "zh": "这个短语可以有多种用法，"
+    },
+    {
+      "en": "ways and we have some examples for you.",
+      "zh": "我们有一些例子给大家。"
     },
     {
       "en": "Example one.",
@@ -673,12 +773,24 @@
       "zh": "他穿了套粉色西装。"
     },
     {
-      "en": "Okay, I think we've covered a lot of interesting words and phrases, so we are ready to listen to our dialogue a second time.",
-      "zh": "好的，我想我们已经讲了很多有趣的词汇和短语，准备好听第二遍对话了。"
+      "en": "Okay, I think we've covered a lot of interesting words",
+      "zh": "好的，我想我们已经讲了很多有趣的词汇"
     },
     {
-      "en": "But this time it's going to be a little bit slower so we can pick up all these great words.",
-      "zh": "但这次会慢一点，这样我们就能听清所有这些很棒的词。"
+      "en": "and phrases, so we are ready to listen to our dialogue",
+      "zh": "和短语，准备好"
+    },
+    {
+      "en": "a second time.",
+      "zh": "听第二遍对话了。"
+    },
+    {
+      "en": "But this time it's going to be a little bit slower",
+      "zh": "但这次会慢一点，这样我们就能"
+    },
+    {
+      "en": "so we can pick up all these great words.",
+      "zh": "听清所有这些很棒的词。"
     },
     {
       "en": "I hate working on Christmas Eve.",
@@ -765,12 +877,20 @@
       "zh": "你有权请律师。"
     },
     {
-      "en": "If you cannot afford one, the state will appoint one for you.",
-      "zh": "如果你请不起，政府会为你指定一名。"
+      "en": "If you cannot afford one,",
+      "zh": "如果你请不起，"
     },
     {
-      "en": "Do you understand all these rights that have just been read to you?",
-      "zh": "你明白刚才向你宣读的这些权利吗？"
+      "en": "the state will appoint one for you.",
+      "zh": "政府会为你指定一名。"
+    },
+    {
+      "en": "Do you understand all these rights that have just been",
+      "zh": "你明白刚才向你宣读的这些权"
+    },
+    {
+      "en": "read to you?",
+      "zh": "利吗？"
     },
     {
       "en": "You can't take me to jail.",
@@ -793,24 +913,44 @@
       "zh": "鲁道夫、普兰瑟、丹瑟，快来救我。"
     },
     {
-      "en": "Okay, so we noticed some really great words and phrases and with this, now we can start with some Fluency Builder.",
-      "zh": "好的，我们注意到了一些非常好的词汇和短语，现在可以开始流利表达了。"
+      "en": "Okay, so we noticed some really great words",
+      "zh": "好的，我们注意到了一些非常好的词汇"
+    },
+    {
+      "en": "and phrases and with this,",
+      "zh": "和短语，"
+    },
+    {
+      "en": "now we can start with some Fluency Builder.",
+      "zh": "现在可以开始流利表达了。"
     },
     {
       "en": "Fluency Builder.",
       "zh": "流利表达。"
     },
     {
-      "en": "Today, on Fluency Builder, we have two great phrases that you can use to sound a little bit more natural when you speak.",
-      "zh": "今天的流利表达，我们有两个很棒的短语，用了能让你的口语听起来更自然。"
+      "en": "Today, on Fluency Builder,",
+      "zh": "今天的流利表达，我们有两个很棒的短语，"
+    },
+    {
+      "en": "we have two great phrases that you can use to sound a",
+      "zh": "用了能让你的口"
+    },
+    {
+      "en": "little bit more natural when you speak.",
+      "zh": "语听起来更自然。"
     },
     {
       "en": "That's right.",
       "zh": "没错。"
     },
     {
-      "en": "Our first phrase you can use if you want to say, don't speak to me like that.",
-      "zh": "第一个短语，当你想说「别这样跟我说话」时可以用。"
+      "en": "Our first phrase you can use if you want to say,",
+      "zh": "第一个短语，当你想说「别这样跟"
+    },
+    {
+      "en": "don't speak to me like that.",
+      "zh": "我说话」时可以用。"
     },
     {
       "en": "Don't take that tone with me.",
@@ -818,11 +958,15 @@
     },
     {
       "en": "Don't take that tone with me.",
-      "zh": "Don't take that tone with me."
+      "zh": "别用那种口气跟我说话。"
     },
     {
-      "en": "So you often hear this phrase coming out of the mouth of a mother or a father.",
-      "zh": "你经常能从父母嘴里听到这个短语。"
+      "en": "So you often hear this phrase coming out of the mouth",
+      "zh": "你经常能从父母嘴里听到"
+    },
+    {
+      "en": "of a mother or a father.",
+      "zh": "这个短语。"
     },
     {
       "en": "Yeah, when their children are maybe talking back.",
@@ -849,12 +993,20 @@
       "zh": "我不太确定哦。"
     },
     {
-      "en": "Okay, our second phrase, we use it when we have a problem.",
-      "zh": "好的，第二个短语，当我们遇到问题时使用。"
+      "en": "Okay, our second phrase,",
+      "zh": "好的，第二个短语，"
     },
     {
-      "en": "The phrase we heard in the dialogue was, I think we've got ourselves a situation here.",
-      "zh": "我们在对话中听到的短语是：I think we've got ourselves a situation here。"
+      "en": "we use it when we have a problem.",
+      "zh": "当我们遇到问题时使用。"
+    },
+    {
+      "en": "The phrase we heard in the dialogue was,",
+      "zh": "我们在对话中听到的短语是："
+    },
+    {
+      "en": "I think we've got ourselves a situation here.",
+      "zh": "「I think we've got ourselves a situation here」（我们这儿有情况了）。"
     },
     {
       "en": "Let's listen to anotherexample.",
@@ -866,11 +1018,15 @@
     },
     {
       "en": "Houston, we've got ourselves a situation here.",
-      "zh": "Houston, we've got ourselves a situation here."
+      "zh": "休斯顿，我们这儿有个情况。"
     },
     {
-      "en": "Sometimes I use this phrase when I want to tell my boss that I have a problem.",
-      "zh": "有时候我想告诉老板我有个问题时，会用这个短语。"
+      "en": "Sometimes I use this phrase when I want to tell my",
+      "zh": "有时候我想告诉老板我有个问题时，"
+    },
+    {
+      "en": "boss that I have a problem.",
+      "zh": "会用这个短语。"
     },
     {
       "en": "I might say, boss, I've got a bit of a situation.",
@@ -905,8 +1061,16 @@
       "zh": "很棒的内容。"
     },
     {
-      "en": "So now we can listen to our dialogue a final time and this time we can understand everything that's in it.",
-      "zh": "现在我们可以最后听一遍对话了，这次我们能完全理解里面的所有内容。"
+      "en": "So now we can listen to our dialogue a final time",
+      "zh": "现在我们可以最后听一遍对话了，"
+    },
+    {
+      "en": "and this time we can understand everything that's in",
+      "zh": "这次我们能完全理"
+    },
+    {
+      "en": "it.",
+      "zh": "解里面的所有内容。"
     },
     {
       "en": "I hate working on Christmas Eve.",
@@ -993,12 +1157,20 @@
       "zh": "你有权请律师。"
     },
     {
-      "en": "If you can't afford one, the state will appoint one for you.",
-      "zh": "如果你请不起，政府会为你指定一名。"
+      "en": "If you can't afford one,",
+      "zh": "如果你请不起，"
     },
     {
-      "en": "Do you understand these rights that have just been read to you?",
-      "zh": "你明白刚才向你宣读的这些权利吗？"
+      "en": "the state will appoint one for you.",
+      "zh": "政府会为你指定一名。"
+    },
+    {
+      "en": "Do you understand these rights that have just been",
+      "zh": "你明白刚才向你宣读的这些权"
+    },
+    {
+      "en": "read to you?",
+      "zh": "利吗？"
     },
     {
       "en": "You can't take me to jail.",
@@ -1021,8 +1193,12 @@
       "zh": "鲁道夫、普兰瑟、丹瑟，救命啊。"
     },
     {
-      "en": "So when the police officer was arresting Santa Claus, he said something a little bit strange,",
-      "zh": "警察在逮捕圣诞老人时，说了一些有点奇怪的话，"
+      "en": "So when the police officer was arresting Santa Claus,",
+      "zh": "警察在逮捕圣诞老人时，"
+    },
+    {
+      "en": "he said something a little bit strange,",
+      "zh": "说了一些有点奇怪的话，"
     },
     {
       "en": "hey?",
@@ -1037,8 +1213,12 @@
       "zh": "「你最好别哭」。"
     },
     {
-      "en": "Now, are those part of the normal rights that a police officer reads?",
-      "zh": "这些是警察宣读的常规权利的一部分吗？"
+      "en": "Now, are those part of the normal rights that a police",
+      "zh": "这些是警察宣读的常规权利的一"
+    },
+    {
+      "en": "officer reads?",
+      "zh": "部分吗？"
     },
     {
       "en": "No, no.",
@@ -1049,8 +1229,12 @@
       "zh": "它们不是常规权利的一部分。"
     },
     {
-      "en": "It's actually from a Christmas song, so let's listen to how it goes in the song.",
-      "zh": "这实际上来自一首圣诞歌，来听听歌里是怎么唱的。"
+      "en": "It's actually from a Christmas song,",
+      "zh": "这实际上来自一首圣诞歌，"
+    },
+    {
+      "en": "so let's listen to how it goes in the song.",
+      "zh": "来听听歌里是怎么唱的。"
     },
     {
       "en": "You better watch out.",
@@ -1073,12 +1257,20 @@
       "zh": "圣诞老人要进城了。"
     },
     {
-      "en": "I'm pretty happy we had a song to play there instead of us having to sing.",
-      "zh": "我很高兴我们有歌可以放，而不是我们俩得唱。"
+      "en": "I'm pretty happy we had a song to play there instead",
+      "zh": "我很高兴我们有歌可以放，"
     },
     {
-      "en": "Yeah, but that's great because if the children cry or if they are not good kids, then Santa",
-      "zh": "是的，但这很棒，因为如果小孩哭或者不乖，那么圣诞"
+      "en": "of us having to sing.",
+      "zh": "而不是我们俩得唱。"
+    },
+    {
+      "en": "Yeah, but that's great because if the children cry",
+      "zh": "是的，但这很棒，因为如果小孩哭"
+    },
+    {
+      "en": "or if they are not good kids, then Santa",
+      "zh": "或者不乖，那么圣诞"
     },
     {
       "en": "Claus will not give them presents.",
@@ -1097,12 +1289,24 @@
       "zh": "希望你们没有在哭，但我们是时候说再见了。"
     },
     {
-      "en": "So be sure to go to our website at EnglishPod.com and be sure to leave all your questions and comments and maybe some of your Christmas stories.",
-      "zh": "一定要来我们的网站 EnglishPod.com，留下你的问题、评论，也许还有你的圣诞故事。"
+      "en": "So be sure to go to our website at EnglishPod.com",
+      "zh": "一定要来我们的网站 EnglishPod.com，留下你的问题、评论，也许"
     },
     {
-      "en": "All right, thanks for listening and until next time, goodbye.",
-      "zh": "好的，感谢收听，下次见，再见。"
+      "en": "and be sure to leave all your questions",
+      "zh": "还有"
+    },
+    {
+      "en": "and comments and maybe some of your Christmas stories.",
+      "zh": "你的圣诞故事。"
+    },
+    {
+      "en": "All right, thanks for listening and until next time,",
+      "zh": "好的，感谢收听，下次见，"
+    },
+    {
+      "en": "goodbye.",
+      "zh": "再见。"
     }
   ],
   "dialogue": [
@@ -1119,8 +1323,12 @@
       "zh": "A：看看这家伙！"
     },
     {
-      "en": "A: Come in central, I think we've got ourselves a situation here.",
-      "zh": "A：总部总部，我们这里好像有情况。"
+      "en": "A: Come in central, I think we've got ourselves a",
+      "zh": "A：总部总部，"
+    },
+    {
+      "en": "situation here.",
+      "zh": "我们这里好像有情况。"
     },
     {
       "en": "B: License and registration please.",
@@ -1131,8 +1339,12 @@
       "zh": "B：先生，你今晚喝酒了吗？"
     },
     {
-      "en": "A: I had one or two glasses of eggnog, but nothing else.",
-      "zh": "A：我喝了一两杯蛋奶酒，没别的了。"
+      "en": "A: I had one or two glasses of eggnog,",
+      "zh": "A：我喝了一两杯蛋奶酒，"
+    },
+    {
+      "en": "but nothing else.",
+      "zh": "没别的了。"
     },
     {
       "en": "B: Step out of the vehicle, please.",
@@ -1143,8 +1355,12 @@
       "zh": "B：先生，你后座装的是什么？"
     },
     {
-      "en": "A: Just a few Christmas gifts, 'tis the season, after all!",
-      "zh": "A：只是一些圣诞礼物，毕竟，这是送礼的季节嘛！"
+      "en": "A: Just a few Christmas gifts, 'tis the season,",
+      "zh": "A：只是一些圣诞礼物，毕竟，"
+    },
+    {
+      "en": "after all!",
+      "zh": "这是送礼的季节嘛！"
     },
     {
       "en": "B: Don't take that tone with me.",
@@ -1155,8 +1371,12 @@
       "zh": "B：你有这些物品的发票吗？"
     },
     {
-      "en": "A: Umm...no... I make these in my workshop in the North Pole!",
-      "zh": "A：嗯…没有…这些是我在北极的作坊里做的！"
+      "en": "A: Umm...no... I make these in my workshop in the",
+      "zh": "A：嗯…没有…这些是我在北极的作坊"
+    },
+    {
+      "en": "North Pole!",
+      "zh": "里做的！"
     },
     {
       "en": "B: You are under arrest, sir.",
@@ -1175,8 +1395,12 @@
       "zh": "B：你说的任何话都可以作为呈堂证供。"
     },
     {
-      "en": "B: You have the right to an attorney; if you can not afford one, the state will appoint",
-      "zh": "B：你有权请律师；如果你请不起，法庭将为你指派"
+      "en": "B: You have the right to an attorney;",
+      "zh": "B：你有权请律师；"
+    },
+    {
+      "en": "if you can not afford one, the state will appoint",
+      "zh": "如果你请不起，法庭将为你指派"
     },
     {
       "en": "A: You can't take me to jail!",

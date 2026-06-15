@@ -1,8 +1,12 @@
 {
   "transcript": [
     {
-      "en": "Hello English learners, welcome back to another great lesson with EnglishPod.",
-      "zh": "大家好，欢迎回到 EnglishPod 的又一节精彩课程。"
+      "en": "Hello English learners,",
+      "zh": "大家好，欢迎回到"
+    },
+    {
+      "en": "welcome back to another great lesson with EnglishPod.",
+      "zh": "EnglishPod 的又一节精彩课程。"
     },
     {
       "en": "My name is Marco.",
@@ -13,16 +17,24 @@
       "zh": "我是 Erika。"
     },
     {
-      "en": "And today we're bringing you another great lesson about being at the bank.",
-      "zh": "今天我们为大家带来一节关于银行场景的精彩课程。"
+      "en": "And today we're bringing you another great lesson",
+      "zh": "今天我们为大家带来一节关于银行"
+    },
+    {
+      "en": "about being at the bank.",
+      "zh": "场景的精彩课程。"
     },
     {
       "en": "That's right.",
       "zh": "没错。"
     },
     {
-      "en": "We've got an intermediate lesson for you today with lots of great language to help you open a bank account.",
-      "zh": "今天我们为大家准备了一节中级课程，里面有很多实用的语言表达，能帮你开设银行账户。"
+      "en": "We've got an intermediate lesson for you today with",
+      "zh": "今天我们为大家准备了一节中级课程，里面有很多实用的语言表达，"
+    },
+    {
+      "en": "lots of great language to help you open a bank account.",
+      "zh": "能帮你开设银行账户。"
     },
     {
       "en": "Okay, so let's look at our vocabulary preview today.",
@@ -53,12 +65,20 @@
       "zh": "那么什么是 checking account 呢？"
     },
     {
-      "en": "Well, it's a type of bank account that let's you do your day-to-day or daily banking.",
-      "zh": "嗯，它是一种银行账户，可以让你进行日常的银行业务。"
+      "en": "Well, it's a type of bank account that let's you do",
+      "zh": "嗯，它是一种银行账户，"
     },
     {
-      "en": "So it's the normal bank account that you use to go shopping, that you use to pay your bills.",
-      "zh": "就是你用来购物、支付账单的那种普通银行账户。"
+      "en": "your day-to-day or daily banking.",
+      "zh": "可以让你进行日常的银行业务。"
+    },
+    {
+      "en": "So it's the normal bank account that you use to go",
+      "zh": "就是你用来购物、"
+    },
+    {
+      "en": "shopping, that you use to pay your bills.",
+      "zh": "支付账单的那种普通银行账户。"
     },
     {
       "en": "Yep, exactly.",
@@ -129,20 +149,36 @@
       "zh": "好的。"
     },
     {
-      "en": "Well, today we're at a bank and we're going to listen as a man is opening a bank account.",
-      "zh": "嗯，今天我们来到了银行，我们要听一位男士开设银行账户的场景。"
+      "en": "Well, today we're at a bank",
+      "zh": "嗯，今天我们来到了银行，"
     },
     {
-      "en": "The dialogue is going to be spoken at a normal speed, so it might be a little bit fast.",
-      "zh": "对话会以正常语速播放，所以可能会有点快。"
+      "en": "and we're going to listen as a man is opening a bank",
+      "zh": "我们要听一位男士开设银"
+    },
+    {
+      "en": "account.",
+      "zh": "行账户的场景。"
+    },
+    {
+      "en": "The dialogue is going to be spoken at a normal speed,",
+      "zh": "对话会以正常语速播放，"
+    },
+    {
+      "en": "so it might be a little bit fast.",
+      "zh": "所以可能会有点快。"
     },
     {
       "en": "Yeah.",
       "zh": "是的。"
     },
     {
-      "en": "But don't worry about it because we'll come back and explain everything.",
-      "zh": "但不用担心，因为我们会回来把所有的内容都解释清楚。"
+      "en": "But don't worry about it because we'll come back",
+      "zh": "但不用担心，因为我们会回来把所有的"
+    },
+    {
+      "en": "and explain everything.",
+      "zh": "内容都解释清楚。"
     },
     {
       "en": "Next, please.",
@@ -181,8 +217,24 @@
       "zh": "它们各有什么特点？"
     },
     {
-      "en": "Well, if you just take a look here, see, with our checking account, you can have unlimited daily transactions for a small monthly fee, and our savings account has a higher interest",
+      "en": "Well, if you just take a look here, see,",
       "zh": "嗯，您看看这里，我们的支票账户每月只需支付少量费用，就可以享受无限次的日常交易，而我们的储蓄账户利率更高，"
+    },
+    {
+      "en": "with our checking account,",
+      "zh": "我们的支票账户，"
+    },
+    {
+      "en": "you can have unlimited daily transactions for a small",
+      "zh": "您可以进行无限次的日常交易，只需支付少量"
+    },
+    {
+      "en": "monthly fee, and our savings account has a higher",
+      "zh": "的月费，而我们的储蓄账户则有更高的"
+    },
+    {
+      "en": "interest",
+      "zh": "利率"
     },
     {
       "en": "rate, but you must carry a minimum balance of $10,000.",
@@ -193,8 +245,12 @@
       "zh": "我明白了。"
     },
     {
-      "en": "Well, I think I'm more interested in a checking account.",
-      "zh": "嗯，我想我对支票账户更感兴趣。"
+      "en": "Well, I think I'm more interested in a checking",
+      "zh": "嗯，我想我对支票账户更感兴"
+    },
+    {
+      "en": "account.",
+      "zh": "趣。"
     },
     {
       "en": "I'd like to have easy access to my money.",
@@ -205,8 +261,12 @@
       "zh": "好的。"
     },
     {
-      "en": "With this checking account, you'll be issued a debit card and a checkbook.",
-      "zh": "有了这个支票账户，您将获得一张借记卡和一本支票簿。"
+      "en": "With this checking account,",
+      "zh": "有了这个支票账户，"
+    },
+    {
+      "en": "you'll be issued a debit card and a checkbook.",
+      "zh": "您将获得一张借记卡和一本支票簿。"
     },
     {
       "en": "Will you require overdraft protection?",
@@ -225,12 +285,20 @@
       "zh": "那样的话，我来让您填一下这些表格。"
     },
     {
-      "en": "I'll need your social insurance number and two pieces of government ID.",
-      "zh": "我需要您的社会保险号和两份政府颁发的身份证件。"
+      "en": "I'll need your social insurance number",
+      "zh": "我需要您的社会保险号"
     },
     {
-      "en": "If you could just sign here, and here, and here, we'll be all set.",
-      "zh": "请在这里、这里和这里签字，就可以了。"
+      "en": "and two pieces of government ID.",
+      "zh": "和两份政府颁发的身份证件。"
+    },
+    {
+      "en": "If you could just sign here, and here, and here,",
+      "zh": "请在这里、这里和这里签字，"
+    },
+    {
+      "en": "we'll be all set.",
+      "zh": "就可以了。"
     },
     {
       "en": "Would you like to make a deposit today?",
@@ -265,8 +333,12 @@
       "zh": "Language takeaway."
     },
     {
-      "en": "Today we've got four words for you in language takeaway, all about money and banking.",
-      "zh": "今天我们在语言要点中为大家准备了四个词，都是关于钱和银行的。"
+      "en": "Today we've got four words for you in language",
+      "zh": "今天我们在语言要点中为大家准备了四个词，"
+    },
+    {
+      "en": "takeaway, all about money and banking.",
+      "zh": "都是关于钱和银行的。"
     },
     {
       "en": "Money and banking.",
@@ -289,8 +361,12 @@
       "zh": "A transaction。"
     },
     {
-      "en": "So we have some great examples that will help you understand what a transaction is, so let's listen.",
-      "zh": "我们有一些很好的例子，能帮你理解 transaction 是什么，来听听看。"
+      "en": "So we have some great examples that will help you",
+      "zh": "我们有一些很好的例子，能帮你理解 transaction 是什么，"
+    },
+    {
+      "en": "understand what a transaction is, so let's listen.",
+      "zh": "来听听看。"
     },
     {
       "en": "Example one.",
@@ -321,12 +397,24 @@
       "zh": "您今天还要进行其他交易吗？"
     },
     {
-      "en": "So basically I can understand that a transaction is moving money around in your bank account.",
-      "zh": "所以基本上我可以理解，transaction 就是在你的银行账户里操作资金流动。"
+      "en": "So basically I can understand that a transaction is",
+      "zh": "所以基本上我可以理解，transaction"
     },
     {
-      "en": "Right, it's taking your money from your bank account and putting it in another account or just taking it to spend, whatever.",
-      "zh": "对，就是把你银行账户里的钱取出来存到另一个账户里，或者取出来花掉，等等。"
+      "en": "moving money around in your bank account.",
+      "zh": "就是在你的银行账户里操作资金流动。"
+    },
+    {
+      "en": "Right, it's taking your money from your bank account",
+      "zh": "对，就是把你银行账户里的钱取出来存到另一个账户里，或者取出来花掉，"
+    },
+    {
+      "en": "and putting it in another account",
+      "zh": "等"
+    },
+    {
+      "en": "or just taking it to spend, whatever.",
+      "zh": "等。"
     },
     {
       "en": "Yes.",
@@ -425,16 +513,24 @@
       "zh": "关于 overdraft，你能给我们稍微解释一下吗？"
     },
     {
-      "en": "Let's say in my bank account, I have $500, but I spend $600.",
-      "zh": "假设我的银行账户里有五百美元，但我花了六百美元。"
+      "en": "Let's say in my bank account, I have $500,",
+      "zh": "假设我的银行账户里有五百美元，"
+    },
+    {
+      "en": "but I spend $600.",
+      "zh": "但我花了六百美元。"
     },
     {
       "en": "Right.",
       "zh": "对。"
     },
     {
-      "en": "So, I have an overdraft in my account, meaning I owe the bank $100.",
-      "zh": "那么我的账户就有了 overdraft，意思是我欠了银行一百美元。"
+      "en": "So, I have an overdraft in my account,",
+      "zh": "那么我的账户就有了 overdraft，"
+    },
+    {
+      "en": "meaning I owe the bank $100.",
+      "zh": "意思是我欠了银行一百美元。"
     },
     {
       "en": "Right.",
@@ -465,12 +561,20 @@
       "zh": "很快我的余额就要变成负数了。"
     },
     {
-      "en": "Okay, I think this one is a little bit tricky to understand.",
-      "zh": "好的，我觉得这个词理解起来有点难度。"
+      "en": "Okay, I think this one is a little bit tricky to",
+      "zh": "好的，我觉得这个词理解起来有"
     },
     {
-      "en": "So let's listen to a couple of examples of how we use this word.",
-      "zh": "所以我们来听几个关于这个词用法的例子。"
+      "en": "understand.",
+      "zh": "点难度。"
+    },
+    {
+      "en": "So let's listen to a couple of examples of how we use",
+      "zh": "所以我们来听几个关于这个词用法的"
+    },
+    {
+      "en": "this word.",
+      "zh": "例子。"
     },
     {
       "en": "Example one.",
@@ -485,8 +589,12 @@
       "zh": "例二。"
     },
     {
-      "en": "I'm sorry, sir, but you've exceeded your maximum overdraft limit.",
-      "zh": "抱歉，先生，您已经超过了最大透支限额。"
+      "en": "I'm sorry, sir, but you've exceeded your maximum",
+      "zh": "抱歉，先生，您已经超过了最大"
+    },
+    {
+      "en": "overdraft limit.",
+      "zh": "透支限额。"
     },
     {
       "en": "I cannot give you any more money.",
@@ -569,16 +677,24 @@
       "zh": "好的，很好。"
     },
     {
-      "en": "So, now we could listen to our dialogue a second time at a slower speed.",
-      "zh": "那么，现在我们可以用较慢的语速再听一遍对话。"
+      "en": "So, now we could listen to our dialogue a second time",
+      "zh": "那么，现在我们可以用较慢的语速再"
+    },
+    {
+      "en": "at a slower speed.",
+      "zh": "听一遍对话。"
     },
     {
       "en": "So now we can...",
       "zh": "现在我们就可以……"
     },
     {
-      "en": "We can hear all of the great language you just talked about.",
-      "zh": "我们可以听到你刚才讲到的所有精彩表达了。"
+      "en": "We can hear all of the great language you just talked",
+      "zh": "我们可以听到你刚才讲到的所有精彩表达"
+    },
+    {
+      "en": "about.",
+      "zh": "了。"
     },
     {
       "en": "Next please.",
@@ -621,8 +737,16 @@
       "zh": "嗯，您看看这里……"
     },
     {
-      "en": "See, with our checking account, you can have unlimited daily transactions for a small monthly fee.",
-      "zh": "看，我们的支票账户每月只需支付少量费用，就可以享受无限次的日常交易。"
+      "en": "See, with our checking account,",
+      "zh": "看，我们的支票账户每月只需支付少量费用，"
+    },
+    {
+      "en": "you can have unlimited daily transactions for a small",
+      "zh": "就可以享受无限次"
+    },
+    {
+      "en": "monthly fee.",
+      "zh": "的日常交易。"
     },
     {
       "en": "And our savings account has a higher interest rate.",
@@ -637,8 +761,12 @@
       "zh": "我明白了。"
     },
     {
-      "en": "Well, I think I'm more interested in a checking account.",
-      "zh": "嗯，我想我对支票账户更感兴趣。"
+      "en": "Well, I think I'm more interested in a checking",
+      "zh": "嗯，我想我对支票账户更感兴"
+    },
+    {
+      "en": "account.",
+      "zh": "趣。"
     },
     {
       "en": "I like to have easy access to my money.",
@@ -649,8 +777,12 @@
       "zh": "好的。"
     },
     {
-      "en": "With this checking account, you'll be issued with a debit card and a checkbook.",
-      "zh": "有了这个支票账户，您将获得一张借记卡和一本支票簿。"
+      "en": "With this checking account,",
+      "zh": "有了这个支票账户，"
+    },
+    {
+      "en": "you'll be issued with a debit card and a checkbook.",
+      "zh": "您将获得一张借记卡和一本支票簿。"
     },
     {
       "en": "Will you require overdraft protection?",
@@ -669,12 +801,20 @@
       "zh": "那样的话，我来让您填一下这些表格。"
     },
     {
-      "en": "I'll need your social insurance number and two pieces of government ID.",
-      "zh": "我需要您的社会保险号和两份政府颁发的身份证件。"
+      "en": "I'll need your social insurance number",
+      "zh": "我需要您的社会保险号"
     },
     {
-      "en": "If you could just sign here and here and here, we'll be all set.",
-      "zh": "请在这里、这里和这里签字，就可以了。"
+      "en": "and two pieces of government ID.",
+      "zh": "和两份政府颁发的身份证件。"
+    },
+    {
+      "en": "If you could just sign here and here and here,",
+      "zh": "请在这里、这里和这里签字，"
+    },
+    {
+      "en": "we'll be all set.",
+      "zh": "就可以了。"
     },
     {
       "en": "Would you like to make a deposit today?",
@@ -685,32 +825,52 @@
       "zh": "是的，我想存十亿美元。"
     },
     {
-      "en": "We heard some interesting phrases of how to tell somebody to do something in a polite way.",
-      "zh": "我们听到了一些有意思的表达方式，用来礼貌地请别人做某事。"
+      "en": "We heard some interesting phrases of how to tell",
+      "zh": "我们听到了一些有意思的表达方式，"
+    },
+    {
+      "en": "somebody to do something in a polite way.",
+      "zh": "用来礼貌地请别人做某事。"
     },
     {
       "en": "Yes.",
       "zh": "是的。"
     },
     {
-      "en": "Let's start with Fluency Builder and explain these words.",
-      "zh": "我们开始讲 Fluency Builder，解释这些表达。"
+      "en": "Let's start with Fluency Builder",
+      "zh": "我们开始讲 Fluency Builder，"
+    },
+    {
+      "en": "and explain these words.",
+      "zh": "解释这些表达。"
     },
     {
       "en": "Fluency Builder.",
       "zh": "Fluency Builder."
     },
     {
-      "en": "The bank teller asked this man to do a number of things in order to open his bank account and she used some great expressions.",
-      "zh": "银行柜员为了帮这位男士开户，请他做了一系列事情，她用了一些很好的表达方式。"
+      "en": "The bank teller asked this man to do a number of",
+      "zh": "银行柜员为了帮这位男士开户，请他做了一系列事情，"
+    },
+    {
+      "en": "things in order to open his bank account",
+      "zh": "她用了一"
+    },
+    {
+      "en": "and she used some great expressions.",
+      "zh": "些很好的表达方式。"
     },
     {
       "en": "Right.",
       "zh": "对。"
     },
     {
-      "en": "Let's listen to how she asked the man to do some things in a polite way.",
-      "zh": "我们来听一下她是如何以礼貌的方式请这位男士做事情的。"
+      "en": "Let's listen to how she asked the man to do some",
+      "zh": "我们来听一下她是如何以礼貌的方式请"
+    },
+    {
+      "en": "things in a polite way.",
+      "zh": "这位男士做事情的。"
     },
     {
       "en": "Yes.",
@@ -741,8 +901,12 @@
       "zh": "If you could just sign here。"
     },
     {
-      "en": "The first thing she said is, I'll get you to fill out this paperwork.",
-      "zh": "她说的第一个是，I'll get you to fill out this paperwork。"
+      "en": "The first thing she said is,",
+      "zh": "她说的第一个是，I'll get yo"
+    },
+    {
+      "en": "I'll get you to fill out this paperwork.",
+      "zh": "u to fill out this paperwork。"
     },
     {
       "en": "I'll get you to.",
@@ -757,8 +921,12 @@
       "zh": "I'll get you to。"
     },
     {
-      "en": "It's just a way of saying, can you please fill this out?",
-      "zh": "它其实就是在说，你能填一下这个吗？"
+      "en": "It's just a way of saying,",
+      "zh": "它其实就是在说，"
+    },
+    {
+      "en": "can you please fill this out?",
+      "zh": "你能填一下这个吗？"
     },
     {
       "en": "Yes.",
@@ -777,8 +945,12 @@
       "zh": "这是相当礼貌的。"
     },
     {
-      "en": "Then she also said, I'll need your social insurance number.",
-      "zh": "然后她还说，I'll need your social insurance number。"
+      "en": "Then she also said, I'll need your social insurance",
+      "zh": "然后她还说，I'll need your social insurance n"
+    },
+    {
+      "en": "number.",
+      "zh": "umber。"
     },
     {
       "en": "I'll need your.",
@@ -825,8 +997,12 @@
       "zh": "如果您能稍等片刻，我马上就来为您服务。"
     },
     {
-      "en": "If you could just send me an email with your bank account number.",
-      "zh": "如果您能发一封邮件给我，附上您的银行账号。"
+      "en": "If you could just send me an email with your bank",
+      "zh": "如果您能发一封邮件给我，"
+    },
+    {
+      "en": "account number.",
+      "zh": "附上您的银行账号。"
     },
     {
       "en": "Right.",
@@ -845,8 +1021,12 @@
       "zh": "嗯，今天的节目中有很多精彩的语言表达。"
     },
     {
-      "en": "Let's listen to the dialogue one last time and we'll catch all of this wonderful language.",
-      "zh": "我们最后再听一遍对话，把所有这些精彩的语言都掌握住。"
+      "en": "Let's listen to the dialogue one last time",
+      "zh": "我们最后再听一遍对话，"
+    },
+    {
+      "en": "and we'll catch all of this wonderful language.",
+      "zh": "把所有这些精彩的语言都掌握住。"
     },
     {
       "en": "Next please.",
@@ -889,20 +1069,40 @@
       "zh": "它们各有什么特点？"
     },
     {
-      "en": "Well, if you just take a look here, see, with our checking account, you can have unlimited daily transactions for a small monthly fee.",
-      "zh": "嗯，您看看这里，我们的支票账户每月只需支付少量费用，就可以享受无限次的日常交易。"
+      "en": "Well, if you just take a look here, see,",
+      "zh": "嗯，您看看这里，我们的支票账户每月只需支付少量费用，"
     },
     {
-      "en": "And our savings account has a higher interest rate, but you must carry a minimum balance of $10,000.",
-      "zh": "而我们的储蓄账户利率更高，但您必须保持最低一万美元的余额。"
+      "en": "with our checking account,",
+      "zh": "就可以"
+    },
+    {
+      "en": "you can have unlimited daily transactions for a small",
+      "zh": "享受无限"
+    },
+    {
+      "en": "monthly fee.",
+      "zh": "次的日常交易。"
+    },
+    {
+      "en": "And our savings account has a higher interest rate,",
+      "zh": "而我们的储蓄账户利率更高，"
+    },
+    {
+      "en": "but you must carry a minimum balance of $10,000.",
+      "zh": "但您必须保持最低一万美元的余额。"
     },
     {
       "en": "I see.",
       "zh": "我明白了。"
     },
     {
-      "en": "Well, I think I'm more interested in a checking account.",
-      "zh": "嗯，我想我对支票账户更感兴趣。"
+      "en": "Well, I think I'm more interested in a checking",
+      "zh": "嗯，我想我对支票账户更感兴"
+    },
+    {
+      "en": "account.",
+      "zh": "趣。"
     },
     {
       "en": "I'd like to have easy access to my money.",
@@ -913,8 +1113,12 @@
       "zh": "好的。"
     },
     {
-      "en": "With this checking account, you'll be issued a debit card and a checkbook.",
-      "zh": "有了这个支票账户，您将获得一张借记卡和一本支票簿。"
+      "en": "With this checking account,",
+      "zh": "有了这个支票账户，"
+    },
+    {
+      "en": "you'll be issued a debit card and a checkbook.",
+      "zh": "您将获得一张借记卡和一本支票簿。"
     },
     {
       "en": "Will you require overdraft protection?",
@@ -933,12 +1137,20 @@
       "zh": "那样的话，我来让您填一下这些表格。"
     },
     {
-      "en": "I'll need your social insurance number and two pieces of government ID.",
-      "zh": "我需要您的社会保险号和两份政府颁发的身份证件。"
+      "en": "I'll need your social insurance number",
+      "zh": "我需要您的社会保险号"
     },
     {
-      "en": "If you could just sign here and here and here, we'll be all set.",
-      "zh": "请在这里、这里和这里签字，就可以了。"
+      "en": "and two pieces of government ID.",
+      "zh": "和两份政府颁发的身份证件。"
+    },
+    {
+      "en": "If you could just sign here and here and here,",
+      "zh": "请在这里、这里和这里签字，"
+    },
+    {
+      "en": "we'll be all set.",
+      "zh": "就可以了。"
     },
     {
       "en": "Would you like to make a deposit today?",
@@ -953,8 +1165,12 @@
       "zh": "十亿美元！"
     },
     {
-      "en": "Okay, so an interesting thing here, not many countries use checks.",
-      "zh": "好的，这里有个有意思的事，很多国家都不怎么用支票。"
+      "en": "Okay, so an interesting thing here,",
+      "zh": "好的，这里有个有意思的事，"
+    },
+    {
+      "en": "not many countries use checks.",
+      "zh": "很多国家都不怎么用支票。"
     },
     {
       "en": "That's right.",
@@ -969,8 +1185,12 @@
       "zh": "支票簿或者支票？"
     },
     {
-      "en": "Yeah, it tends to be more of an American thing, don't you think?",
-      "zh": "是啊，这更像是美国才有的东西，你不觉得吗？"
+      "en": "Yeah, it tends to be more of an American thing,",
+      "zh": "是啊，这更像是美国才有的东西，"
+    },
+    {
+      "en": "don't you think?",
+      "zh": "你不觉得吗？"
     },
     {
       "en": "It is, it is.",
@@ -981,16 +1201,36 @@
       "zh": "我觉得是的。"
     },
     {
-      "en": "For those of you who aren't sure what a check is, it's basically a piece of paper that you just sign your name and...",
-      "zh": "对于不太清楚什么是支票的朋友来说，它本质上就是一张纸，你签个名然后……"
+      "en": "For those of you who aren't sure what a check is,",
+      "zh": "对于不太清楚什么是支票的朋友来说，它本质上就是一张纸，"
     },
     {
-      "en": "Yeah, you write the amount of money and then you sign your name, right?",
-      "zh": "对，你写上金额，然后签上你的名字，对吧？"
+      "en": "it's basically a piece of paper that you just sign",
+      "zh": "你签个"
     },
     {
-      "en": "Right, and then you give that to the person, that person can take it to the bank and get money in exchange for it.",
-      "zh": "对，然后你把那张纸给别人，那个人就可以拿它去银行兑换成现金。"
+      "en": "your name and...",
+      "zh": "名然后……"
+    },
+    {
+      "en": "Yeah, you write the amount of money",
+      "zh": "对，你写上金额，然后签上你的名字，"
+    },
+    {
+      "en": "and then you sign your name, right?",
+      "zh": "对吧？"
+    },
+    {
+      "en": "Right, and then you give that to the person,",
+      "zh": "对，然后你把那张纸给别人，"
+    },
+    {
+      "en": "that person can take it to the bank",
+      "zh": "那个人就可"
+    },
+    {
+      "en": "and get money in exchange for it.",
+      "zh": "以拿它去银行兑换成现金。"
     },
     {
       "en": "Yes.",
@@ -1001,16 +1241,32 @@
       "zh": "在其他国家这不太常见。"
     },
     {
-      "en": "No, but from what I know, every single American has a checkbook and uses it pretty regularly.",
-      "zh": "不，但据我所知，每个美国人都有支票簿，而且用得还挺频繁的。"
+      "en": "No, but from what I know,",
+      "zh": "不，但据我所知，每个美国人都有支票簿，"
+    },
+    {
+      "en": "every single American has a checkbook",
+      "zh": "而且用得"
+    },
+    {
+      "en": "and uses it pretty regularly.",
+      "zh": "还挺频繁的。"
     },
     {
       "en": "Yeah, yeah.",
       "zh": "对，对。"
     },
     {
-      "en": "For example, you pay your phone bill or your electric bill, you just put a check in the mailbox and it's paid.",
-      "zh": "比如你交电话费或者电费，你就把支票放进邮箱里，就付好了。"
+      "en": "For example, you pay your phone bill",
+      "zh": "比如你交电话费或者电费，你就把支票放进邮箱里，"
+    },
+    {
+      "en": "or your electric bill, you just put a check in the",
+      "zh": "就付"
+    },
+    {
+      "en": "mailbox and it's paid.",
+      "zh": "好了。"
     },
     {
       "en": "And it's done.",
@@ -1021,8 +1277,12 @@
       "zh": "挺有意思的。"
     },
     {
-      "en": "But also, sometimes in other countries, people's salaries are paid through checks.",
-      "zh": "但另外，在一些国家，人们的工资有时也是通过支票发放的。"
+      "en": "But also, sometimes in other countries,",
+      "zh": "但另外，在一些国家，"
+    },
+    {
+      "en": "people's salaries are paid through checks.",
+      "zh": "人们的工资有时也是通过支票发放的。"
     },
     {
       "en": "Yes.",
@@ -1049,8 +1309,12 @@
       "zh": "嗯嗯。"
     },
     {
-      "en": "But for example, here in China, it's not very common, right?",
-      "zh": "但比如说，在中国这里就不太常见了，对吧？"
+      "en": "But for example, here in China, it's not very common,",
+      "zh": "但比如说，在中国这里就不太常见了，"
+    },
+    {
+      "en": "right?",
+      "zh": "对吧？"
     },
     {
       "en": "I've never seen a check here.",
@@ -1069,16 +1333,32 @@
       "zh": "我们想了解你们国家的银行系统是怎么运作的。"
     },
     {
-      "en": "Yes, come to our website at EnglishPod.com and tell us all about it.",
-      "zh": "是的，来我们的网站 EnglishPod.com，告诉我们吧。"
+      "en": "Yes, come to our website at EnglishPod.com",
+      "zh": "是的，来我们的网站 EnglishPod.com，"
     },
     {
-      "en": "Yes, and you can also leave your questions and comments on our website and we'll be there to answer it.",
-      "zh": "是的，你也可以在我们的网站上留下你的问题和评论，我们会去回复的。"
+      "en": "and tell us all about it.",
+      "zh": "告诉我们吧。"
     },
     {
-      "en": "Yeah, Marco and I love answering your questions, so please visit us.",
-      "zh": "对，Marco 和我都喜欢回答大家的问题，所以请来访问我们。"
+      "en": "Yes, and you can also leave your questions",
+      "zh": "是的，你也可以在我们的网站上留下你的问题"
+    },
+    {
+      "en": "and comments on our website",
+      "zh": "和评论"
+    },
+    {
+      "en": "and we'll be there to answer it.",
+      "zh": "，我们会去回复的。"
+    },
+    {
+      "en": "Yeah, Marco and I love answering your questions,",
+      "zh": "对，Marco 和我都喜欢回答大家的问题，"
+    },
+    {
+      "en": "so please visit us.",
+      "zh": "所以请来访问我们。"
     },
     {
       "en": "All right, but until then, it's goodbye.",
@@ -1119,16 +1399,48 @@
       "zh": "B：它们各有什么特点？"
     },
     {
-      "en": "A: Well, if you just take a look here, see, with our chequing account, you can have unlimited daily transactions for a small monthly fee, and our savings account has a higher interest rate, but you must carry a minimum balance of $ 10,000 dollars.",
-      "zh": "A：嗯，您看看这个，我们的支票账户每月只需支付少量费用就可以享受无限次的日常交易，而我们的储蓄账户利率更高，但您必须保持最低1万美元的余额。"
+      "en": "A: Well, if you just take a look here, see,",
+      "zh": "A：嗯，您看看这个，我们的支票账户每月只需支付少量费用就可以享受无限次的日常交易，而我们的储蓄账户利率更高，"
     },
     {
-      "en": "B: I see, well, I think I'm more interested in a chequing account; I like to have easy access to my money.",
-      "zh": "B：我明白了，嗯，我想我对支票账户更感兴趣；我喜欢能方便地取用我的钱。"
+      "en": "with our chequing account,",
+      "zh": "但您"
     },
     {
-      "en": "A: Alright, then, with this chequing account you'll be issued a debit card and a cheque book.",
-      "zh": "A：好的，那么有了这个支票账户，您将获得一张借记卡和一本支票簿。"
+      "en": "you can have unlimited daily transactions for a small",
+      "zh": "必须保"
+    },
+    {
+      "en": "monthly fee, and our savings account has a higher",
+      "zh": "持最"
+    },
+    {
+      "en": "interest rate, but you must carry a minimum balance of",
+      "zh": "低1"
+    },
+    {
+      "en": "$ 10,000 dollars.",
+      "zh": "万美元的余额。"
+    },
+    {
+      "en": "B: I see, well, I think I'm more interested in a",
+      "zh": "B：我明白了，嗯，我想我对支票账"
+    },
+    {
+      "en": "chequing account; I like to have easy access to my",
+      "zh": "户更感兴趣；我喜欢"
+    },
+    {
+      "en": "money.",
+      "zh": "能方便地取用我的钱。"
+    },
+    {
+      "en": "A: Alright, then, with this chequing account you'll be",
+      "zh": "A：好的，那么有了这个支票账户，"
+    },
+    {
+      "en": "issued a debit card and a cheque book.",
+      "zh": "您将获得一张借记卡和一本支票簿。"
     },
     {
       "en": "A: Will you require overdraft protection?",
@@ -1143,12 +1455,24 @@
       "zh": "B：不用了，不需要。"
     },
     {
-      "en": "A: In that case, I'll get you to fill out this paperwork; I'll need your social insurance number, and two pieces of government ID.",
-      "zh": "A：那么，我来帮您填好这些表格；我需要您的社会保险号和两份政府颁发的身份证件。"
+      "en": "A: In that case, I'll get you to fill out this",
+      "zh": "A：那么，我来帮您填好这些表"
     },
     {
-      "en": "A: If you could just sign here, and here, and here; we'll be all set.",
-      "zh": "A：请在这里、这里和这里签字，就好了。"
+      "en": "paperwork; I'll need your social insurance number,",
+      "zh": "格；我需要您的社会保"
+    },
+    {
+      "en": "and two pieces of government ID.",
+      "zh": "险号和两份政府颁发的身份证件。"
+    },
+    {
+      "en": "A: If you could just sign here, and here,",
+      "zh": "A：请在这里、这里和这里签字，"
+    },
+    {
+      "en": "and here; we'll be all set.",
+      "zh": "就好了。"
     },
     {
       "en": "A: Would you like to make a deposit today?",

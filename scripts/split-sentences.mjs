@@ -1,6 +1,8 @@
 /**
  * 将 transcript 按句子边界拆分（非换行），一句一段
- * 用法: node scripts/split-sentences.mjs <id>
+ * 用法: node scripts/split-sentences.mjs <id> [--split-long]
+ *
+ * --split-long: 额外对超过 55 字符的句子按自然断点二次拆分
  */
 import fs from 'fs';
 import path from 'path';
@@ -82,17 +84,156 @@ function splitSentences(text) {
   return finalSegments.map(s => s.replace(/<DOT>/g, '.'));
 }
 
+/**
+ * 将超过 maxLen 的句子按自然断点二次拆分
+ * 返回拆分后的子句数组（如果不需要拆分则返回单元素数组）
+ *
+ * 拆分优先级（从最优到兜底）：
+ * 1. 句末标点（. ! ?）后跟空格和大写字母
+ * 2. 逗号+空格（, ）
+ * 3. 分号+空格（; ）
+ * 4. 破折号（ — 或 -- ）
+ * 5. 并列连词（ and / but / or / so ）前后有空格
+ * 6. 最后一个空格
+ * 7. 硬断在 maxLen 处
+ */
+export function splitLongLine(text, maxLen = 55) {
+  if (text.length <= maxLen) return [text];
+
+  const parts = [];
+  let remaining = text;
+
+  while (remaining.length > maxLen) {
+    // 在 maxLen 范围内找最佳断点
+    const searchEnd = Math.min(maxLen, remaining.length);
+    let splitPos = -1;
+
+    // 1. 句末标点：在 maxLen 范围内找最右边的 .!? 后跟空格+大写
+    const sentenceMatch = remaining
+      .substring(0, searchEnd)
+      .match(/.*[.!?]\s+(?=[A-Z"'])/g);
+    if (sentenceMatch && sentenceMatch.length > 0) {
+      const last = sentenceMatch[sentenceMatch.length - 1];
+      const endIdx = last.length;
+      // 确保断点在 20% ~ 100% 范围内（不要太偏）
+      if (endIdx >= maxLen * 0.35) {
+        splitPos = endIdx;
+      }
+    }
+
+    // 2. 逗号+空格
+    if (splitPos < 0) {
+      const workArea = remaining.substring(0, searchEnd);
+      const commaIdx = workArea.lastIndexOf(', ');
+      if (commaIdx >= maxLen * 0.4) {
+        splitPos = commaIdx + 2; // 断在逗号空格之后
+      }
+    }
+
+    // 3. 分号+空格
+    if (splitPos < 0) {
+      const workArea = remaining.substring(0, searchEnd);
+      const semiIdx = workArea.lastIndexOf('; ');
+      if (semiIdx >= maxLen * 0.4) {
+        splitPos = semiIdx + 2;
+      }
+    }
+
+    // 4. 破折号
+    if (splitPos < 0) {
+      const workArea = remaining.substring(0, searchEnd);
+      const dashIdx = Math.max(
+        workArea.lastIndexOf(' — '),
+        workArea.lastIndexOf(' -- ')
+      );
+      if (dashIdx >= maxLen * 0.35) {
+        splitPos = dashIdx + 3;
+      }
+    }
+
+    // 5. 并列连词（前后有空格）
+    if (splitPos < 0) {
+      const conjunctions = [' and ', ' but ', ' or ', ' so ', ' yet '];
+      let bestConj = -1;
+      for (const conj of conjunctions) {
+        const idx = remaining.substring(0, searchEnd).lastIndexOf(conj);
+        if (idx > bestConj && idx >= maxLen * 0.35) {
+          bestConj = idx;
+        }
+      }
+      if (bestConj >= 0) {
+        splitPos = bestConj + 1; // 断在连词之前（连词归下一行）
+      }
+    }
+
+    // 6. 最后一个空格
+    if (splitPos < 0) {
+      const workArea = remaining.substring(0, searchEnd);
+      const spaceIdx = workArea.lastIndexOf(' ');
+      if (spaceIdx >= maxLen * 0.3) {
+        splitPos = spaceIdx + 1;
+      }
+    }
+
+    // 7. 兜底：硬断
+    if (splitPos < 0 || splitPos < 10) {
+      splitPos = maxLen;
+    }
+
+    parts.push(remaining.substring(0, splitPos).trim());
+    remaining = remaining.substring(splitPos).trim();
+  }
+
+  if (remaining) {
+    parts.push(remaining);
+  }
+
+  return parts;
+}
+
 const targetId = parseInt(process.argv[2]);
-if (!targetId) { console.error('Usage: node split-sentences.mjs <id>'); process.exit(1); }
+if (!targetId) { console.error('Usage: node split-sentences.mjs <id> [--split-long]'); process.exit(1); }
 
 const filename = `englishpod_${String(targetId).padStart(4, '0')}.json`;
 const filePath = path.join(DIR, filename);
 
-// Read original text (restore from git if needed)
 const raw = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-const text = typeof raw.transcript === 'string' ? raw.transcript : raw.transcript.map(s => s.en).join('\n');
 
-const sentences = splitSentences(text);
-const data = { transcript: sentences.map(en => ({ en, zh: '' })) };
+// 处理 transcript
+const text = typeof raw.transcript === 'string'
+  ? raw.transcript
+  : raw.transcript.map(s => s.en).join('\n');
+
+let sentences = splitSentences(text);
+if (useSplitLong) {
+  sentences = sentences.flatMap(s => splitLongLine(s));
+}
+const newTranscript = sentences.map(en => {
+  // 尝试保留已有翻译（仅当拆分后仍能匹配时）
+  const trimmed = en.trim();
+  const existing = Array.isArray(raw.transcript)
+    ? raw.transcript.find(s => s.en.trim() === trimmed)
+    : null;
+  return { en: trimmed, zh: existing?.zh ?? '' };
+});
+
+// 处理 dialogue（如果有且是数组）
+let newDialogue = raw.dialogue;
+if (Array.isArray(raw.dialogue) && useSplitLong) {
+  newDialogue = raw.dialogue.flatMap(s => {
+    const subEns = splitLongLine(s.en);
+    return subEns.map(subEn => {
+      const trimmed = subEn.trim();
+      return { en: trimmed, zh: s.en.trim() === trimmed ? (s.zh ?? '') : '' };
+    });
+  });
+}
+
+const data = {
+  ...raw,
+  transcript: newTranscript,
+  dialogue: newDialogue,
+};
 fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
-console.log(`[${targetId}] ${sentences.length} sentences`);
+const note = useSplitLong ? ` (long lines split)` : '';
+console.log(`[${targetId}] transcript: ${newTranscript.length} segments, dialogue: ${Array.isArray(newDialogue) ? newDialogue.length : 'N/A'} segments${note}`);
