@@ -56,9 +56,13 @@ export default function ShareModal(props: ShareModalProps) {
   const handleCopyImg = async () => {
     if (!shareRef.current) return;
     try {
+      // 读取卡片实际背景色，避免边角与卡片底色不一致产生白边
+      const cardEl = shareRef.current.firstElementChild as HTMLElement | null;
+      const cardBg = cardEl?.style?.background || bg;
+
       // onclone 在克隆的文档中清除缩放，原卡片不受影响，无抖动
       const canvas = await html2canvas(shareRef.current, {
-        backgroundColor: bg,
+        backgroundColor: cardBg,
         scale: 2,
         onclone: (clonedDoc) => {
           const el = clonedDoc.querySelector('[data-share-card]') as HTMLElement | null;
@@ -187,7 +191,11 @@ export default function ShareModal(props: ShareModalProps) {
       </div>
 
       {/* 卡片预览：contentStyle 含缩放 + 负 margin 补偿布局 */}
-      <div ref={cardRef} style={contentStyle} data-share-card>
+      <div ref={cardRef} style={{
+        ...contentStyle,
+        // 单课卡片固定宽度 360，确保 html2canvas 截图宽高与卡片一致，消除白边
+        ...(displayMode === 'single' ? { width: 360 } : {}),
+      }} data-share-card>
         {renderCard()}
       </div>
 
