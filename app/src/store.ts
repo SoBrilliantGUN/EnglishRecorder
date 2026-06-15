@@ -27,7 +27,6 @@ const KEYS = {
   coef: 'ep_coef',
   first: 'ep_first',
   resets: 'ep_resets',
-  initialized: 'ep_initialized',
 } as const;
 
 export function getRecords(): Record[] {
@@ -124,16 +123,6 @@ export function importData(jsonObj: ImportData): void {
   localStorage.setItem(KEYS.coef, String(jsonObj.ep_coef || 1.0));
   localStorage.setItem(KEYS.first, JSON.stringify(jsonObj.ep_first || {}));
   localStorage.setItem(KEYS.resets, JSON.stringify(jsonObj.ep_resets || {}));
-}
-
-export function initData(): void {
-  if (localStorage.getItem(KEYS.initialized)) return;
-  const today = todayStr();
-  addRecord(1, 1, today);
-  addRecord(2, 2, today);
-  setFirstDate(1, today);
-  setFirstDate(2, today);
-  localStorage.setItem(KEYS.initialized, 'true');
 }
 
 // 工具函数

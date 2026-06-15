@@ -1,0 +1,14 @@
+{
+  "hook": {
+    "enabled": true,
+    "ignoreRules": [],
+    "ignoreFiles": [
+      "src/components/ReviewReminder/index.module.scss"
+    ],
+    "ignoreValues": [],
+    "limits": {
+      "maxFindings": 5,
+      "maxChars": 8000
+    }
+  }
+}

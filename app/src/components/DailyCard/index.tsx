@@ -33,19 +33,17 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
               {date === todayStr() ? `今天 · ${date}` : date}
             </p>
           </div>
-          <div style={{ display: 'flex', gap: 6 }}>
+          <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
             <button
               className="btn-secondary"
-              style={{ padding: '6px 10px', fontSize: 13 }}
               onClick={() => setShareModal(true)}
               disabled={grouped.length === 0}
-              title="分享"
+              title={grouped.length === 0 ? '暂无记录可分享' : '分享学习记录'}
             >
               分享
             </button>
             <button
               className="btn-primary"
-              style={{ padding: '6px 14px', fontSize: 13 }}
               onClick={openCheckin}
             >
               打卡
@@ -55,7 +53,12 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
 
         {/* 课程列表 */}
         {grouped.length === 0 ? (
-          <p className={styles.empty}>暂无学习记录</p>
+          <div className={styles.empty}>
+            <p style={{ marginBottom: 8 }}>今天还没有学习记录</p>
+            <p style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)' }}>
+              点击上方「打卡」按钮，记录你学过的课程
+            </p>
+          </div>
         ) : (
           <div className={styles.listScroll}>
             {grouped.map(([ls, total]) => (

@@ -42,7 +42,7 @@ export default function CheckinModal({
   };
 
   return (
-    <Modal onClose={onClose}>
+    <Modal onClose={onClose} label={`${checkinDate} 打卡`}>
       <form onSubmit={e => { e.preventDefault(); handleSubmit(); }}>
         <h3 className="modal-title">{checkinDate} 打卡</h3>
         <div className={styles.formGroup}>

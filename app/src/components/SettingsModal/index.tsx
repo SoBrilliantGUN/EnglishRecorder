@@ -10,7 +10,7 @@ interface SettingsModalProps {
 
 export default function SettingsModal({ onClose, showReview, onToggleReview }: SettingsModalProps) {
   return (
-    <Modal onClose={onClose} maxWidth={400}>
+    <Modal onClose={onClose} maxWidth={400} label="设置">
       <div className={styles.settingsHeader}>
         <span className={styles.settingsTitle}>设置</span>
         <button className="modal-close-btn" onClick={onClose}><CloseIcon size={16} /></button>

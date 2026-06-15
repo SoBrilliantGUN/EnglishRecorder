@@ -85,6 +85,7 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
         <button
           onClick={() => setSettingsOpen(o => !o)}
           title="复习设置"
+          aria-label="复习设置"
           className={`${styles.settingsBtn} ${settingsOpen ? styles.settingsBtnActive : ''}`}
         >
           <SettingsIcon size={16} />
@@ -92,7 +93,18 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
       </div>
 
       {reminders.length === 0 ? (
-        <p className={styles.empty}>近3天无需复习</p>
+        <div className={styles.empty}>
+          {Object.keys(firstDates).length === 0 ? (
+            <>
+              <p style={{ marginBottom: 6 }}>还没有复习计划</p>
+              <p style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)' }}>
+                开始打卡后，艾宾浩斯遗忘曲线会自动为你计算复习日期
+              </p>
+            </>
+          ) : (
+            <p>近3天无需复习</p>
+          )}
+        </div>
       ) : (
         <>
           <div className={expanded ? styles.listScroll : undefined}>

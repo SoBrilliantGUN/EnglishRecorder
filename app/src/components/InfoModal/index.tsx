@@ -11,7 +11,7 @@ interface InfoModalProps {
 
 interface Section {
   id: string;
-  icon: string;
+  color: string;
   title: string;
   items: string[];
 }
@@ -19,7 +19,7 @@ interface Section {
 const sections: Section[] = [
   {
     id: 'checkin',
-    icon: '📅',
+    color: '#07C160',
     title: '打卡与记录',
     items: [
       `点击日历日期，右侧卡片显示该日学习内容`,
@@ -32,7 +32,7 @@ const sections: Section[] = [
   },
   {
     id: 'course',
-    icon: '📚',
+    color: '#3498db',
     title: '课程学习',
     items: [
       `日历下方为课程库，点击可查看对话文本`,
@@ -41,7 +41,7 @@ const sections: Section[] = [
   },
   {
     id: 'review',
-    icon: '🧠',
+    color: '#F59E0B',
     title: '复习提醒',
     items: [
       `右侧显示近3天需复习的课程`,
@@ -50,7 +50,7 @@ const sections: Section[] = [
   },
   {
     id: 'share',
-    icon: '🎨',
+    color: '#27ae60',
     title: '分享功能',
     items: [
       `可分享学习记录为图片，提供三种主题风格：暗黑科技、清新活泼、奶油纸本`,
@@ -78,7 +78,7 @@ export default function InfoModal({ onClose }: InfoModalProps) {
   };
 
   return (
-    <Modal onClose={onClose} maxWidth={480}>
+    <Modal onClose={onClose} maxWidth={480} label="使用说明">
       <div className={styles.infoHeader}>
         <span className={styles.infoTitle}>使用说明</span>
         <button className="modal-close-btn" onClick={onClose}>
@@ -94,7 +94,7 @@ export default function InfoModal({ onClose }: InfoModalProps) {
               onClick={() => toggle(section.id)}
               type="button"
             >
-              <span className={styles.sectionIcon}>{section.icon}</span>
+              <span className={styles.sectionDot} style={{ background: section.color }} />
               <span className={styles.sectionTitle}>{section.title}</span>
               <span
                 className={`${styles.chevron}${expanded.has(section.id) ? ` ${styles.chevronDown}` : ''}`}
@@ -120,7 +120,7 @@ export default function InfoModal({ onClose }: InfoModalProps) {
             onClick={() => toggle('saladict')}
             type="button"
           >
-            <span className={styles.sectionIcon}>💡</span>
+            <span className={styles.sectionDot} style={{ background: '#5c6a6b' }} />
             <span className={styles.sectionTitle}>推荐搭配：沙拉查词</span>
             <span
               className={`${styles.chevron}${expanded.has('saladict') ? ` ${styles.chevronDown}` : ''}`}

@@ -36,6 +36,34 @@ button:disabled {
   opacity: 0.4;
 }
 
+// 键盘 focus 可见指示器
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+// 用鼠标时不显示 focus 环，保持界面干净
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+// 弹窗内 focus 环用更短的 offset
+.modal-content :focus-visible {
+  outline-offset: 1px;
+}
+
+// 减弱动画 - 尊重系统偏好
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-text-inverse);

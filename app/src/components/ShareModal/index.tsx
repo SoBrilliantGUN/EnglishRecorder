@@ -170,7 +170,7 @@ export default function ShareModal(props: ShareModalProps) {
   };
 
   return (
-    <Modal onClose={onClose} maxWidth={420}>
+    <Modal onClose={onClose} maxWidth={420} label="分享学习记录">
       <h3 style={{ marginBottom: 12, fontSize: 16 }}>分享学习记录</h3>
 
       {/* 主题选择 */}

@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { initData, todayStr } from './store';
+import { useState } from 'react';
+import { todayStr } from './store';
 import { useTheme } from './hooks/useTheme';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import Calendar from './components/Calendar';
@@ -26,8 +26,6 @@ export default function App() {
   const [podcastPage, setPodcastPage] = useState(1);
   const { theme, toggle: toggleTheme } = useTheme();
 
-  useEffect(() => { initData(); }, []);
-
   const refresh = () => setTick(t => t + 1);
 
   const handleSelectLesson = (lessonId: number) => {
@@ -43,13 +41,13 @@ export default function App() {
       <header className={styles.header}>
         <h1 className={styles.headerTitle}>EnglishPod 学习打卡</h1>
         <div className={styles.headerActions}>
-          <button className={styles.iconBtn} onClick={toggleTheme} title="切换主题">
+          <button className={styles.iconBtn} onClick={toggleTheme} title="切换主题" aria-label={theme === 'light' ? '切换到暗黑模式' : '切换到浅色模式'}>
             {theme === 'light' ? <MoonIcon size={18} /> : <SunIcon size={18} />}
           </button>
-          <button className={styles.iconBtn} onClick={() => setShowInfo(true)} title="使用说明">
+          <button className={styles.iconBtn} onClick={() => setShowInfo(true)} title="使用说明" aria-label="使用说明">
             <InfoIcon size={18} />
           </button>
-          <button className={styles.iconBtn} onClick={() => setShowSettings(true)} title="设置">
+          <button className={styles.iconBtn} onClick={() => setShowSettings(true)} title="设置" aria-label="设置">
             <SettingsIcon size={18} />
           </button>
         </div>
@@ -65,7 +63,7 @@ export default function App() {
           />
         </div>
       ) : (
-        <div style={{ maxWidth: 1600, margin: '0 auto', padding: '0 20px 40px', display: 'flex', gap: 20, flexWrap: 'wrap', alignItems: 'stretch' }}>
+        <div style={{ maxWidth: 1600, margin: '0 auto', padding: '0 20px 40px', display: 'flex', gap: 28, flexWrap: 'wrap', alignItems: 'stretch' }}>
           {/* 左侧主区域 */}
           <div style={{ flex: '1 1 0', minWidth: 0, display: 'flex', flexDirection: 'column', gap: 20 }}>
             {view === 'calendar' && (

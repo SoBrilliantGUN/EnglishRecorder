@@ -81,8 +81,25 @@ export default function Calendar({ onSwitchView, tick, selected, onSelectDate }:
             isSelected && styles.daySelected,
           ].filter(Boolean).join(' ');
 
+          const handleKeyDown = (e: React.KeyboardEvent) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              handleDayClick(d);
+            }
+          };
+
           return (
-            <div key={dateStr} className={dayClass} onClick={() => !future && handleDayClick(d)}>
+            <div
+              key={dateStr}
+              className={dayClass}
+              role="button"
+              tabIndex={future ? -1 : 0}
+              aria-label={`${year}年${month + 1}月${d}日${dot ? '，已打卡' : ''}`}
+              aria-disabled={future}
+              aria-selected={isSelected}
+              onClick={() => !future && handleDayClick(d)}
+              onKeyDown={!future ? handleKeyDown : undefined}
+            >
               {d}
               {dot && <div className={`${styles.dot} ${isSelected ? styles.dotSelected : ''}`} />}
             </div>

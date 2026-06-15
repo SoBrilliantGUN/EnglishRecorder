@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-15T00:00:00.000Z",
+  "title": "Design System: EnglishPod 学习打卡",
+  "extensions": {
+    "colorMeta": {
+      "spring-leaf": {
+        "role": "primary",
+        "displayName": "Spring Leaf",
+        "canonical": "#07C160",
+        "tonalRamp": [
+          "#031a0c",
+          "#053316",
+          "#084d22",
+          "#0a662d",
+          "#0d8038",
+          "#0f9943",
+          "#12b34f",
+          "#14cc5a",
+          "#2fd16b",
+          "#4ad67c",
+          "#65db8d",
+          "#80e09e",
+          "#9be5af",
+          "#b5eac0",
+          "#d0efd1",
+          "#eaf4e2",
+          "#f5f9f0",
+          "#fafcf7"
+        ]
+      },
+      "spring-leaf-deep": {
+        "role": "primary",
+        "displayName": "Spring Leaf Deep",
+        "canonical": "#06ad52",
+        "tonalRamp": [
+          "#021a0c",
+          "#043318",
+          "#064d24",
+          "#08662f",
+          "#0a803b",
+          "#0c9946",
+          "#0eb352",
+          "#10cc5d",
+          "#28d16d",
+          "#40d67d",
+          "#58db8d",
+          "#70e09d",
+          "#88e5ad",
+          "#a0eabd",
+          "#b8efcd",
+          "#d0f4dd",
+          "#e8f9ed",
+          "#f4fcf6"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "canonical": "#f7f7f7",
+        "tonalRamp": [
+          "#1a1a1a", "#333333", "#4d4d4d", "#666666",
+          "#808080", "#999999", "#b3b3b3", "#cccccc",
+          "#d9d9d9", "#e3e3e3", "#ebebeb", "#f0f0f0",
+          "#f4f4f4", "#f7f7f7", "#fafafa", "#fcfcfc",
+          "#fefefe", "#ffffff"
+        ]
+      },
+      "card-white": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#1a1a1a", "#333333", "#4d4d4d", "#666666",
+          "#808080", "#999999", "#b3b3b3", "#cccccc",
+          "#d9d9d9", "#e6e6e6", "#f0f0f0", "#f5f5f5",
+          "#f8f8f8", "#fafafa", "#fcfcfc", "#fdfdfd",
+          "#fefefe", "#ffffff"
+        ]
+      },
+      "slate-ink": {
+        "role": "neutral",
+        "displayName": "Slate Ink",
+        "canonical": "#2c3e50",
+        "tonalRamp": [
+          "#060a0f", "#0c141e", "#121e2e", "#18283d",
+          "#1e324d", "#243c5c", "#2a466c", "#30507b",
+          "#40608b", "#50709b", "#6080ab", "#7090bb",
+          "#80a0cb", "#90b0db", "#a0c0eb", "#b0d0f5",
+          "#c0dffa", "#d0eefd"
+        ]
+      },
+      "stone": {
+        "role": "neutral",
+        "displayName": "Stone",
+        "canonical": "#5c6a6b",
+        "tonalRamp": [
+          "#0b0d0d", "#161a1b", "#212728", "#2c3435",
+          "#374142", "#424e4f", "#4d5b5c", "#5c6a6b",
+          "#6d7a7b", "#7e8a8b", "#8f9a9b", "#a0aaab",
+          "#b1babb", "#c2cacb", "#d3dadb", "#e4eaea",
+          "#f2f5f5", "#f8fafa"
+        ]
+      },
+      "amber": {
+        "role": "functional",
+        "displayName": "Amber Warning",
+        "canonical": "#F59E0B",
+        "tonalRamp": [
+          "#1a0f00", "#331e00", "#4d2d00", "#663c00",
+          "#804b00", "#995a00", "#b36900", "#cc7800",
+          "#e68700", "#f5960b", "#f7a628", "#f9b645",
+          "#fac662", "#fcd67f", "#fde69c", "#fef0b9",
+          "#fff8d6", "#fffcf0"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "页面主标题、Header 应用名。仅 20px / 600 weight。Noto Serif SC。"
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "区块标题、卡片头、弹窗标题、日历月份标签。16px / 600 weight。"
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "正文和大多数 UI 文字。14px / 400 weight。系统无衬线。行宽 65–75ch。"
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "辅助信息、时间戳、统计数字标签、placeholder。12–13px / 400 weight。"
+      }
+    },
+    "shadows": [
+      { "name": "ambient-low", "value": "0 1px 3px rgba(0,0,0,0.06)", "purpose": "极轻微的 ambient shadow，几乎不可见。" },
+      { "name": "card-rest", "value": "0 2px 8px rgba(0,0,0,0.08)", "purpose": "卡片默认阴影，与背景区分。" },
+      { "name": "card-hover", "value": "0 4px 12px rgba(0,0,0,0.1)", "purpose": "卡片悬浮阴影，可点击信号。" },
+      { "name": "modal", "value": "0 8px 24px rgba(0,0,0,0.15)", "purpose": "模态框阴影，最高层级表面。" },
+      { "name": "warning-glow", "value": "0 2px 12px rgba(245,158,11,0.2)", "purpose": "过期提醒光晕。唯一使用颜色而非灰度的阴影。" }
+    ],
+    "motion": [
+      { "name": "ease-fast", "value": "0.2s ease", "purpose": "微交互：hover 过渡、fade in。" },
+      { "name": "ease-base", "value": "0.3s ease", "purpose": "较大过渡：slide up、展开/收起。" },
+      { "name": "glow-loop", "value": "gentleGlow 2.5s ease-in-out infinite", "purpose": "过期提醒的呼吸光晕动画。" }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "768px" },
+      { "name": "desktop-wide", "value": "1200px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "主要操作按钮。Spring Leaf 绿背景 + 白色文字。Hover 加深 + 上移。",
+      "html": "<button class=\"ds-btn-primary\">打卡</button>",
+      "css": ".ds-btn-primary { background: #07C160; color: #fff; padding: 10px 20px; border: none; border-radius: 8px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; transition: background 0.2s ease, transform 0.2s ease; } .ds-btn-primary:hover { background: #06ad52; transform: translateY(-1px); } .ds-btn-primary:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "次要操作按钮。白底 + 边框 + 深色文字。Hover 时边框和文字变绿。",
+      "html": "<button class=\"ds-btn-secondary\">返回课程列表</button>",
+      "css": ".ds-btn-secondary { background: #fff; color: #2c3e50; padding: 8px 16px; border: 1px solid #e8e8e8; border-radius: 8px; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; transition: all 0.3s ease; } .ds-btn-secondary:hover { border-color: #07C160; color: #07C160; } .ds-btn-secondary:disabled { opacity: 0.35; cursor: not-allowed; }"
+    },
+    {
+      "name": "Ghost Icon Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "图标工具栏按钮。无背景无边框。Hover 时出现浅灰背景。",
+      "html": "<button class=\"ds-btn-ghost\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 16v-4M12 8h.01\"/></svg></button>",
+      "css": ".ds-btn-ghost { background: none; border: none; padding: 6px 8px; border-radius: 8px; color: #5c6a6b; cursor: pointer; transition: all 0.2s ease; line-height: 1; display: inline-flex; align-items: center; justify-content: center; } .ds-btn-ghost:hover { background: #ececec; color: #2c3e50; }"
+    },
+    {
+      "name": "Level Filter Chip",
+      "kind": "chip",
+      "refersTo": "level-chip",
+      "description": "课程级别筛选标签。圆角 pill 含色点 + 文字 + 计数。激活时 Spring Leaf 填充。",
+      "html": "<button class=\"ds-chip ds-chip-active\"><span class=\"ds-chip-dot\"></span>Elementary<span class=\"ds-chip-count\">120</span></button>",
+      "css": ".ds-chip { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border: 1px solid #e8e8e8; border-radius: 100px; background: #fff; color: #2c3e50; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; transition: all 0.3s ease; } .ds-chip:hover { background: #f3f3f3; transform: translateY(-1px); } .ds-chip-active { background: #07C160; color: #fff; border-color: #07C160; } .ds-chip-active:hover { background: #07C160; } .ds-chip-dot { width: 6px; height: 6px; border-radius: 50%; background: #07C160; flex-shrink: 0; } .ds-chip-active .ds-chip-dot { background: #fff; } .ds-chip-count { font-size: 12px; opacity: 0.6; }"
+    },
+    {
+      "name": "Lesson Card",
+      "kind": "card",
+      "refersTo": "lesson-card",
+      "description": "课程库网格卡片。左侧色条 hover 展开，标题两行截断。",
+      "html": "<div class=\"ds-lesson-card\"><span class=\"ds-lesson-code\">EP001</span><span class=\"ds-lesson-title\">Elementary - Difficult Customer</span></div>",
+      "css": ".ds-lesson-card { position: relative; display: flex; flex-direction: column; gap: 0.5rem; padding: 1rem; border: 1px solid #e8e8e8; border-radius: 8px; background: #fff; cursor: pointer; transition: all 0.3s ease; overflow: hidden; } .ds-lesson-card::before { content: ''; position: absolute; top: 0; left: 0; width: 3px; height: 100%; background: #e8e8e8; transition: all 0.3s ease; } .ds-lesson-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-color: #07C160; } .ds-lesson-card:hover::before { width: 4px; background: #07C160; } .ds-lesson-code { font-size: 12px; font-weight: 600; color: #5c6a6b; font-family: monospace; } .ds-lesson-title { font-size: 14px; color: #2c3e50; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }"
+    },
+    {
+      "name": "Text Input with Icon",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "搜索框。左侧图标 + 输入区。Focus 时边框变绿。",
+      "html": "<div class=\"ds-input-wrap\"><svg class=\"ds-input-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"M21 21l-4.3-4.3\"/></svg><input class=\"ds-input\" type=\"text\" placeholder=\"搜索课程...\"/></div>",
+      "css": ".ds-input-wrap { position: relative; } .ds-input-icon { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: #5c6a6b; pointer-events: none; } .ds-input { width: 100%; padding: 0.75rem 1rem 0.75rem 2.75rem; border: 1px solid #e8e8e8; border-radius: 8px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f7f7f7; color: #2c3e50; transition: all 0.2s ease; box-sizing: border-box; } .ds-input:focus { outline: none; border-color: #07C160; background: #fff; } .ds-input::placeholder { color: #5c6a6b; }"
+    },
+    {
+      "name": "Overdue Reminder Item",
+      "kind": "custom",
+      "refersTo": "reminder-overdue",
+      "description": "过期复习提醒条目。琥珀渐变背景 + 左侧强调条 + 呼吸光晕。唯一突破扁平规则的元素。",
+      "html": "<div class=\"ds-reminder-overdue\"><span class=\"ds-reminder-name\">Lesson 5 · Cutting In Line</span><span class=\"ds-reminder-date\">已过期</span></div>",
+      "css": ".ds-reminder-overdue { padding: 10px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: linear-gradient(135deg, #FFF9F0 0%, #FFF4E6 100%); border-left: 3px solid #F59E0B; box-shadow: 0 2px 8px rgba(245,158,11,0.12), inset 0 1px 0 rgba(255,255,255,0.5); animation: ds-gentleGlow 2.5s ease-in-out infinite; } @keyframes ds-gentleGlow { 0%, 100% { box-shadow: 0 2px 8px rgba(245,158,11,0.12), inset 0 1px 0 rgba(255,255,255,0.5); } 50% { box-shadow: 0 2px 12px rgba(245,158,11,0.2), inset 0 1px 0 rgba(255,255,255,0.5); } } .ds-reminder-name { font-weight: 600; color: #2c3e50; } .ds-reminder-date { font-size: 12px; color: #B45309; background: rgba(245,158,11,0.1); padding: 2px 8px; border-radius: 4px; font-weight: 500; }"
+    },
+    {
+      "name": "Modal Dialog",
+      "kind": "custom",
+      "refersTo": "modal",
+      "description": "通用弹窗。半透明遮罩 + 居中白色卡片 + slide-up 动画。",
+      "html": "<div class=\"ds-modal-overlay\"><div class=\"ds-modal-content\"><h2 class=\"ds-modal-title\">弹窗标题</h2><p class=\"ds-modal-text\">弹窗内容文字。</p><div class=\"ds-modal-footer\"><button class=\"ds-btn-secondary\">取消</button><button class=\"ds-btn-primary\">确认</button></div></div></div>",
+      "css": ".ds-modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 1000; animation: ds-fadeIn 0.2s ease; } .ds-modal-content { background: #fff; border-radius: 12px; padding: 24px; max-width: 500px; width: 90%; max-height: calc(100vh - 32px); overflow: hidden; animation: ds-slideUp 0.3s ease; } .ds-modal-title { margin-bottom: 16px; font-size: 16px; font-weight: 600; font-family: 'Noto Serif SC', Georgia, serif; color: #2c3e50; } .ds-modal-text { font-size: 14px; color: #2c3e50; line-height: 1.7; margin-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-modal-footer { display: flex; gap: 8px; justify-content: flex-end; } @keyframes ds-fadeIn { from { opacity: 0; } to { opacity: 1; } } @keyframes ds-slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Gentle Guide",
+    "overview": "EnglishRecorder 是一个学习伴侣，不是成绩裁判。它的视觉系统服务于一个核心隐喻：一位温和的向导，轻声提醒你「该复习了」，然后退到一边让你专注学习。\n\n界面语言借鉴 Apple Health / Things 3 的轻量卡片体系——表面默认扁平，阴影仅在交互时出现。信息层级通过背景色差（纸白 → 浅灰 → 中灰）自然递进，不需要厚重阴影来区分。排版上，Noto Serif SC 衬线标题带来一点人文温度，系统无衬线正文保证可读性。Spring Leaf 绿是唯一的强调色，出现在按钮、选中态和关键标记上，用克制达成清晰。\n\n这个系统明确拒绝两类极端：游戏化教育 App 的跳跃多彩和积分弹窗，以及冰冷开发者工具的超小字号和纯功能堆砌。它也拒绝 AI 生成的默认审美——没有渐变文字、玻璃拟态、侧边条纹边框、或每个 section 上面的全大写 eyebrow。",
+    "keyCharacteristics": [
+      "默认扁平，阴影仅作为交互反馈",
+      "单一强调色（Spring Leaf 绿），≤10% 表面面积",
+      "卡片靠背景色差分层，不靠阴影",
+      "衬线标题 + 无衬线正文，温和但不花哨",
+      "所有交互可预期、可信任"
+    ],
+    "rules": [
+      { "name": "The One Voice Rule", "body": "Spring Leaf 绿在任一屏幕上不超过 10% 的表面面积。它的克制出现才是它的力量。", "section": "colors" },
+      { "name": "The Warm Gradient Rule", "body": "过期提醒使用 amber-wash 渐变背景 + 左侧 3px Amber 强调条 + amber-glow 动画。这是唯一允许超过 1px 的侧边强调——因为它承载了明确的功能信号（过期 = 需要行动）。", "section": "colors" },
+      { "name": "The One Weight Rule", "body": "衬线标题仅使用 weight 600。不做粗细对比——清晰来自层级位置，而非字重变化。", "section": "typography" },
+      { "name": "The Flat-By-Default Rule", "body": "表面在静止状态下是扁平的。阴影仅在 hover、focus、或 modal 状态下出现，作为状态反馈而非装饰。", "section": "elevation" }
+    ],
+    "dos": [
+      "用背景色差（Canvas → Card White → Cloud → Mist）建立信息层级。阴影只是辅助。",
+      "保持 Spring Leaf 绿在任一屏幕上不超过 10% 表面积。用在对的地方——主按钮、选中态、关键标记。",
+      "用 Noto Serif SC 衬线标题带出人文温度，正文用系统无衬线保证可读性。",
+      "卡片 hover 时上移 1-2px + 阴影加深，作为可交互的触觉信号。",
+      "placeholder 文字使用 Stone（#5c6a6b），确保 ≥4.5:1 对比度。",
+      "弹窗内容在小屏上用 transform: scale() 等比缩小，不出现滚动条。",
+      "动画提供 prefers-reduced-motion: reduce 降级方案，切换为 instant 或 crossfade。"
+    ],
+    "donts": [
+      "不要使用 side-stripe borders（border-left/right >1px 作为彩色装饰）。唯一例外：过期提醒的 3px Amber 左边条。",
+      "不要使用 gradient text（background-clip: text 渐变文字）。",
+      "不要使用玻璃拟态（glassmorphism）装饰。",
+      "不要硬编码颜色值在组件样式中——始终引用 CSS 变量。",
+      "不要在非交互元素上使用阴影。阴影 = 可交互的信号。",
+      "不要制造游戏化感觉——不使用积分、排行榜、成就徽章、弹窗庆祝。",
+      "不要做成冰冷工具——字号不低于 12px，不用 terminal/monospace 做正文。",
+      "不要使用 cream/sand 暖白作为默认背景——Canvas（#f7f7f7）已设定为色相中性。温度通过 Spring Leaf 绿和 Noto Serif SC 衬线传达。"
+    ]
+  }
+}
