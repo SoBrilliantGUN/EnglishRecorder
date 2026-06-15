@@ -63,6 +63,38 @@ button:disabled {
   }
 }
 
+// 触屏设备：增大操作区域，移除依赖悬浮的交互
+@media (pointer: coarse) {
+  button,
+  [role="button"] {
+    min-height: 44px;
+  }
+
+  // 小号按钮在触屏上至少留足高度
+  .btn-secondary {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  // 触屏上取消 translateY hover 动效（无法触发且浪费样式）
+  .btn-primary:hover:not(:disabled) {
+    transform: none;
+  }
+}
+
+// 不支持 hover 的设备：hover 态改为 active 态
+@media (hover: none) {
+  .btn-secondary:hover:not(:disabled) {
+    border-color: var(--color-border);
+    color: var(--color-text);
+  }
+
+  .btn-secondary:active:not(:disabled) {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+}
+
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-text-inverse);

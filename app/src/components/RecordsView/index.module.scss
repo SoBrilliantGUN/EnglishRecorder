@@ -5,18 +5,24 @@
   overflow: hidden;
 }
 
-.toolbar {
+// 标题行：打卡记录 + 返回打卡（右上角）
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
-.toolbarLeft {
+.title {
+  font-size: var(--font-size-xl);
+}
+
+// 操作栏：分享/导出/导入
+.toolbar {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
+  margin-bottom: 12px;
 }
 
 .tabs {
@@ -81,7 +87,8 @@
   font-size: var(--font-size-sm);
   border: 1px solid var(--color-danger);
   border-radius: var(--radius-sm);
-  padding: 3px 10px;
+  padding: 6px 12px;
+  min-height: 36px;
 }
 
 .gridView {
@@ -96,8 +103,89 @@
   font-size: var(--font-size-base);
 }
 
+// 分页
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--color-border);
+}
+
+.pageBtn {
+  min-width: 32px;
+  height: 32px;
+  padding: 0 6px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg-card);
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover:not(:disabled) {
+    border-color: var(--color-primary);
+  }
+
+  &:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+}
+
+.pageBtnActive {
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+  font-weight: 600;
+}
+
 .summary {
   font-size: var(--font-size-xs);
   color: var(--color-text-secondary);
   margin-top: 12px;
+}
+
+// 移动端
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    min-height: 360px;
+  }
+
+  .toolbar {
+    gap: 6px;
+  }
+
+  .nav {
+    gap: 8px;
+  }
+
+  .recordItem {
+    padding: 8px 0;
+    font-size: var(--font-size-sm);
+  }
+
+  .gridView {
+    grid-template-columns: 1fr;
+  }
+
+  .pagination {
+    gap: 2px;
+  }
+
+  .pageBtn {
+    min-width: 28px;
+    height: 28px;
+  }
+
+  .summary {
+    font-size: 11px;
+  }
 }

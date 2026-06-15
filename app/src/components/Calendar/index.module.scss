@@ -170,3 +170,40 @@
     color: var(--color-text-inverse);
   }
 }
+
+// 移动端：压缩日历网格间距和字号
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    min-height: 360px;
+  }
+
+  .header {
+    margin-bottom: 10px;
+  }
+
+  .nav {
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .grid {
+    gap: 1px;
+    padding-bottom: 0;
+  }
+
+  .day {
+    padding: 6px 2px;
+    font-size: var(--font-size-sm);
+  }
+
+  .weekday {
+    font-size: 11px;
+    padding: 2px 0;
+  }
+
+  .navLabelBtn {
+    font-size: var(--font-size-sm);
+    padding: 2px 8px;
+  }
+}

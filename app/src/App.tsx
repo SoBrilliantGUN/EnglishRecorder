@@ -62,7 +62,7 @@ export default function App() {
 
       {selectedLessonId ? (
         <Suspense fallback={<LazyFallback />}>
-          <div style={{ maxWidth: 1600, margin: '0 auto', padding: '0 20px 40px' }}>
+          <div className={styles.layout}>
             <PodcastDetail
               lessonId={selectedLessonId}
               onBack={handleBackToPodcastList}
@@ -72,9 +72,9 @@ export default function App() {
           </div>
         </Suspense>
       ) : (
-        <div style={{ maxWidth: 1600, margin: '0 auto', padding: '0 20px 40px', display: 'flex', gap: 28, flexWrap: 'wrap', alignItems: 'stretch' }}>
+        <div className={styles.layout}>
           {/* 左侧主区域 */}
-          <div style={{ flex: '1 1 0', minWidth: 0, display: 'flex', flexDirection: 'column', gap: 20 }}>
+          <div className={styles.main}>
             {view === 'calendar' && (
               <Calendar onSwitchView={setView} tick={tick} selected={selected} onSelectDate={setSelected} />
             )}
@@ -85,7 +85,7 @@ export default function App() {
           </div>
 
           {/* 右侧侧边栏 */}
-          <div style={{ flex: '0 0 350px', minWidth: 0, alignSelf: 'flex-start' }}>
+          <div className={styles.sidebar}>
             <DailyCard selected={selected} onRefresh={refresh} tick={tick} />
             {showReview && <ReviewReminder onRefresh={refresh} tick={tick} />}
           </div>

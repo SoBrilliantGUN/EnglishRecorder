@@ -35,3 +35,50 @@
     color: var(--color-text);
   }
 }
+
+// 主布局：桌面端 7:3 两栏，移动端纵向堆叠
+.layout {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.main {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar {
+  flex: 0 0 350px;
+  min-width: 0;
+  align-self: flex-start;
+}
+
+// 移动端：侧边栏变为全宽，自然流动到主内容下方
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 16px;
+    margin-bottom: 14px;
+  }
+
+  .headerTitle {
+    font-size: var(--font-size-lg);
+  }
+
+  .layout {
+    padding: 0 12px 32px;
+    gap: 16px;
+  }
+
+  .sidebar {
+    flex: 1 1 100%;
+    align-self: stretch;
+  }
+}

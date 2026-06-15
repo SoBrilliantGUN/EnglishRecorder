@@ -1,4 +1,4 @@
-import { useState, useRef, Suspense, lazy } from 'react';
+import { useState, useRef, useMemo, Suspense, lazy } from 'react';
 import {
   getRecords, deleteRecordsByDateAndLesson, exportData, importData,
   todayStr, formatDate, getWeekStart, getWeekEnd,
@@ -11,6 +11,8 @@ import styles from './index.module.scss';
 const ShareModal = lazy(() => import('../ShareModal'));
 
 type Tab = 'day' | 'week' | 'month';
+
+const PAGE_SIZE = 6;
 
 function getLabel(tab: Tab, date: Date): string {
   if (tab === 'day') return formatDate(date);
@@ -53,6 +55,7 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
   const [date, setDate] = useState(new Date());
   const [shareModal, setShareModal] = useState(false);
   const [deleteModal, setDeleteModal] = useState<number | null>(null);
+  const [page, setPage] = useState(1);
   const [, setTick] = useState(0);
   const fileRef = useRef<HTMLInputElement>(null);
 
@@ -60,13 +63,26 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
 
   const records = filterRecords(tab, date);
   const stats = getStats(records);
+  const dayGroups = useMemo(() => groupByLesson(records), [records]);
+
+  // 日视图无需分页；周/月视图按 PAGE_SIZE 分页
+  const needsPagination = tab !== 'day' && dayGroups.length > PAGE_SIZE;
+  const totalPages = needsPagination ? Math.ceil(dayGroups.length / PAGE_SIZE) : 1;
+  const safePage = Math.min(page, totalPages) || 1;
+  const pagedGroups = needsPagination
+    ? dayGroups.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE)
+    : dayGroups;
+
+  // 切换 tab 或日期时重置页码
+  const changeTab = (t: Tab) => { setTab(t); setDate(new Date()); setPage(1); };
+  const changeDate = (d: Date) => { setDate(d); setPage(1); };
 
   const prev = () => {
     const d = new Date(date);
     if (tab === 'day') d.setDate(d.getDate() - 1);
     else if (tab === 'week') d.setDate(d.getDate() - 7);
     else d.setMonth(d.getMonth() - 1);
-    setDate(d);
+    changeDate(d);
   };
 
   const next = () => {
@@ -75,7 +91,7 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
     if (tab === 'day') d.setDate(d.getDate() + 1);
     else if (tab === 'week') d.setDate(d.getDate() + 7);
     else d.setMonth(d.getMonth() + 1);
-    setDate(d);
+    changeDate(d);
   };
 
   const handleDelete = (lesson: number) => {
@@ -108,19 +124,20 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
     e.target.value = '';
   };
 
-  const dayGroups = groupByLesson(records);
-
   return (
     <div className={`card ${styles.container}`}>
-      {/* 顶部按钮 */}
-      <div className={styles.toolbar}>
-        <div className={styles.toolbarLeft}>
-          <button className="btn-secondary" onClick={() => setShareModal(true)}>分享</button>
-          <button className="btn-secondary" onClick={exportData}>导出</button>
-          <button className="btn-secondary" onClick={() => fileRef.current?.click()}>导入</button>
-          <input ref={fileRef} type="file" accept=".json" style={{ display: 'none' }} onChange={handleImport} />
-        </div>
+      {/* 标题行：返回打卡固定在右上角 */}
+      <div className={styles.header}>
+        <h2 className={styles.title}>打卡记录</h2>
         <button className="btn-secondary" onClick={() => onSwitchView('calendar')}>返回打卡</button>
+      </div>
+
+      {/* 操作栏：分享/导出/导入 */}
+      <div className={styles.toolbar}>
+        <button className="btn-secondary" onClick={() => setShareModal(true)}>分享</button>
+        <button className="btn-secondary" onClick={exportData}>导出</button>
+        <button className="btn-secondary" onClick={() => fileRef.current?.click()}>导入</button>
+        <input ref={fileRef} type="file" accept=".json" style={{ display: 'none' }} onChange={handleImport} />
       </div>
 
       {/* Tab */}
@@ -129,7 +146,7 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
           <button
             key={t}
             className={`${styles.tab} ${tab === t ? styles.tabActive : ''}`}
-            onClick={() => { setTab(t); setDate(new Date()); }}
+            onClick={() => changeTab(t)}
           >
             {t === 'day' ? '按日' : t === 'week' ? '按周' : '按月'}
           </button>
@@ -148,14 +165,14 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
         {dayGroups.length === 0
           ? <p className={styles.empty}>暂无记录</p>
           : tab === 'day'
-            ? dayGroups.map(([lesson, total]) => (
+            ? pagedGroups.map(([lesson, total]) => (
               <div key={lesson} className={styles.recordItem}>
                 <span>第 {String(lesson).padStart(2, '0')} 课 &nbsp; 共 {total} 次</span>
                 <button className={styles.deleteBtn} onClick={() => handleDelete(parseInt(lesson))}>删除</button>
               </div>
             ))
             : <div className={styles.gridView}>
-              {dayGroups.map(([lesson, total]) => (
+              {pagedGroups.map(([lesson, total]) => (
                 <div key={lesson} className={styles.gridItem}>
                   <span>第 {String(lesson).padStart(2, '0')} 课 &nbsp; 共 {total} 次</span>
                 </div>
@@ -163,6 +180,31 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
             </div>
         }
       </div>
+
+      {/* 分页 */}
+      {needsPagination && (
+        <div className={styles.pagination}>
+          <button
+            className={styles.pageBtn}
+            disabled={safePage === 1}
+            onClick={() => setPage(safePage - 1)}
+            aria-label="上一页"
+          >‹</button>
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map(p => (
+            <button
+              key={p}
+              className={`${styles.pageBtn} ${safePage === p ? styles.pageBtnActive : ''}`}
+              onClick={() => setPage(p)}
+            >{p}</button>
+          ))}
+          <button
+            className={styles.pageBtn}
+            disabled={safePage === totalPages}
+            onClick={() => setPage(safePage + 1)}
+            aria-label="下一页"
+          >›</button>
+        </div>
+      )}
 
       {/* 汇总 */}
       <p className={styles.summary}>

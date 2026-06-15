@@ -77,8 +77,9 @@
 .resetBtn {
   background: none;
   border-radius: var(--radius-sm);
-  padding: 4px 10px;
+  padding: 6px 12px;
   font-size: var(--font-size-xs);
+  min-height: 32px;
 }
 
 .expandBtn {
@@ -125,4 +126,21 @@
   font-size: var(--font-size-xs);
   color: var(--color-text-secondary);
   padding: 2px 0;
+}
+
+// 移动端：系数控制行允许换行
+@media (max-width: 768px) {
+  .coefRow {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .coefLabel {
+    flex: 1 1 100%;
+    margin-bottom: 2px;
+  }
+
+  .reminderItem {
+    padding: 8px;
+  }
 }

@@ -225,8 +225,18 @@
   .container {
     .topBar {
       flex-direction: column;
-      align-items: flex-start;
+      align-items: stretch;
       gap: 0.75rem;
+    }
+
+    .navBtns {
+      flex-wrap: wrap;
+      gap: 0.375rem;
+    }
+
+    .navBtn {
+      padding: 0.5rem 0.75rem;
+      font-size: var(--font-size-xs);
     }
 
     .title {
