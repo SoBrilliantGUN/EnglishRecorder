@@ -43,7 +43,7 @@ npx tsc --noEmit # TypeScript 类型检查
 课程内容支持中英对照翻译，通过 `TransSegment[]` 结构化数据存储：
 - **课程数据唯一源**: `public/transcripts/englishpod_XXXX.json`（365个文件，各含 `code`/`title`/`level`/`transcript`/`dialogue`），详情页按需 fetch 加载
 - **元数据索引**: `src/data/podcasts-index.ts`（从 transcript 文件提取 `id`/`code`/`title`/`level` 生成，构建时打包）
-- **文字稿**: 同上文件中的 `transcript` 字段（ID 1-22 已翻译）
+- **文字稿**: 同上文件中的 `transcript` 字段（ID 1-34 已翻译）
 - **课文对话**: 同上文件中的 `dialogue` 字段（ID 1-50 已翻译）
 - **类型**: `types/podcast.ts` 定义 `TransSegment { en: string; zh: string }`
 - **显示模式**: 课文内「译」按钮切换两种显示方式（完全显示/悬浮显示）。悬浮模式用 `visibility: hidden` 占位防抖。
