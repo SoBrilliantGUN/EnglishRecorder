@@ -426,24 +426,88 @@
     "title": "The Office - Driving Sales",
     "content": [
       {
-        "en": "A: All right, people. We're holding this meeting today because we've got to do something about our sales, and we need to do it NOW! I want concrete solutions. How do you intend to drive sales... Roger?",
-        "zh": "A：好了，各位。我们今天开这个会是因为我们的销售必须想点办法了，而且必须现在就想！我要具体的解决方案。你打算怎么提升销量…罗杰？"
+        "en": "A: All right, people.",
+        "zh": "A：好了，各位。"
+      },
+      {
+        "en": "A: We're holding this meeting today because we've got to do something about our sales, and we need to do it NOW!",
+        "zh": "A：我们今天开这个会是因为我们的销售必须想点办法了，而且必须现在就想！"
+      },
+      {
+        "en": "A: I want concrete solutions.",
+        "zh": "A：我要具体的解决方案。"
+      },
+      {
+        "en": "A: How do you intend to drive sales... Roger?",
+        "zh": "A：你打算怎么提升销量…罗杰？"
       },
       {
         "en": "B: Well, in fact, we're the most expensive in the market, so maybe we need to lower our prices to match the competitors?",
         "zh": "B：嗯，事实上，我们是市场上最贵的，所以也许我们需要降价来跟竞争对手持平？"
       },
       {
-        "en": "A: Lower our prices? Not very creative. It'll never fly with Swan. What kind of thinking is that? Geez. Anybody else have a better plan? Natalie?",
-        "zh": "A：降价？没什么创意。斯旺不会同意的。你这算什么想法？天哪。还有人有更好的方案吗？娜塔莉？"
+        "en": "A: Lower our prices?",
+        "zh": "A：降价？"
       },
       {
-        "en": "C: Um, perhaps, um, a sales promotion. Maybe a 3 two-for-one offer, or something like that!",
-        "zh": "C：嗯，也许，嗯，搞个促销活动。也许来个买二送一之类的？"
+        "en": "A: Not very creative.",
+        "zh": "A：没什么创意。"
       },
       {
-        "en": "A: What? That's the same thing. Bad idea. Really bad idea. Dammit people come on! Think! The CEO will be here any minute.",
-        "zh": "A：什么？那不是一回事嘛。烂主意。实在太烂了。该死，各位加油啊！动动脑子！CEO随时就到。"
+        "en": "A: It'll never fly with Swan.",
+        "zh": "A：斯旺不会同意的。"
+      },
+      {
+        "en": "A: What kind of thinking is that?",
+        "zh": "A：你这算什么想法？"
+      },
+      {
+        "en": "A: Geez.",
+        "zh": "A：天哪。"
+      },
+      {
+        "en": "A: Anybody else have a better plan?",
+        "zh": "A：还有人有更好的方案吗？"
+      },
+      {
+        "en": "A: Natalie?",
+        "zh": "A：娜塔莉？"
+      },
+      {
+        "en": "C: Um, perhaps, um, a sales promotion.",
+        "zh": "C：嗯，也许，嗯，搞个促销活动。"
+      },
+      {
+        "en": "C: Maybe a 3 two-for-one offer, or something like that!",
+        "zh": "C：也许来个买二送一之类的？"
+      },
+      {
+        "en": "A: What?",
+        "zh": "A：什么？"
+      },
+      {
+        "en": "A: That's the same thing.",
+        "zh": "A：那不是一回事嘛。"
+      },
+      {
+        "en": "A: Bad idea.",
+        "zh": "A：烂主意。"
+      },
+      {
+        "en": "A: Really bad idea.",
+        "zh": "A：实在太烂了。"
+      },
+      {
+        "en": "A: Dammit people come on!",
+        "zh": "A：该死，各位加油啊！"
+      },
+      {
+        "en": "A: Think!",
+        "zh": "A：动动脑子！"
+      },
+      {
+        "en": "A: The CEO will be here any minute.",
+        "zh": "A：CEO随时就到。"
       },
       {
         "en": "D: Do we have any ideas yet?",
@@ -454,12 +518,40 @@
         "zh": "C：是的斯旺先生，我们在考虑做一个买二送一的活动来增强竞争力。"
       },
       {
-        "en": "D: A two-for-one promotion? Hmm. I kind of like the sound of that. It sounds like something we should consider.",
-        "zh": "D：买二送一？嗯。我蛮喜欢这个想法的。这听起来值得考虑。"
+        "en": "D: A two-for-one promotion?",
+        "zh": "D：买二送一？"
       },
       {
-        "en": "A: Yeah, exactly. Just what I was thinking! In fact, that's a brilliant idea! I'm glad we thought of that. Very creative.",
-        "zh": "A：对对，正是。跟我想的一模一样！事实上，这是个绝妙的主意！很高兴我们想到了这一点。非常有创意。"
+        "en": "D: Hmm.",
+        "zh": "D：嗯。"
+      },
+      {
+        "en": "D: I kind of like the sound of that.",
+        "zh": "D：我蛮喜欢这个想法的。"
+      },
+      {
+        "en": "D: It sounds like something we should consider.",
+        "zh": "D：这听起来值得考虑。"
+      },
+      {
+        "en": "A: Yeah, exactly.",
+        "zh": "A：对对，正是。"
+      },
+      {
+        "en": "A: Just what I was thinking!",
+        "zh": "A：跟我想的一模一样！"
+      },
+      {
+        "en": "A: In fact, that's a brilliant idea!",
+        "zh": "A：事实上，这是个绝妙的主意！"
+      },
+      {
+        "en": "A: I'm glad we thought of that.",
+        "zh": "A：很高兴我们想到了这一点。"
+      },
+      {
+        "en": "A: Very creative.",
+        "zh": "A：非常有创意。"
       }
     ]
   },
@@ -474,44 +566,96 @@
         "zh": "A：哦，不知道你听说了没，有人搬进了路那头的老房子。"
       },
       {
-        "en": "B: Yeah, I know. I met the owner of the house yesterday as he was moving in. His name is Armand.",
-        "zh": "B：嗯，我知道。昨天他搬进来的时候我见到房主了。他叫阿尔芒。"
+        "en": "B: Yeah, I know.",
+        "zh": "B：嗯，我知道。"
       },
       {
-        "en": "A: Really? What's he like? You have to fill me in.",
-        "zh": "A：真的吗？他什么样？快跟我说说。"
+        "en": "B: I met the owner of the house yesterday as he was moving in.",
+        "zh": "B：昨天他搬进来的时候我见到房主了。"
       },
       {
-        "en": "B: Actually, he's a bit strange. I don't know... I've got a bad feeling about him.",
-        "zh": "B：说实话，他有点奇怪。我也说不好…我对他有种不好的预感。"
+        "en": "B: His name is Armand.",
+        "zh": "B：他叫阿尔芒。"
       },
       {
-        "en": "A: Really? Why?",
-        "zh": "A：真的吗？为什么？"
+        "en": "A: Really?",
+        "zh": "A：真的吗？"
       },
       {
-        "en": "B: Well, yesterday I brought over a housewarming gift,but Armand started acting really weird, and then he practically kicked me out! I tried to, sort of, peek into his house, but everything was so dark inside that I couldn't really get a good look.",
-        "zh": "B：嗯，昨天我带了一份乔迁礼物过去，但阿尔芒表现得很奇怪，然后几乎把我赶了出来！我试着，算是，偷看了一下他房子里面，但是里面太暗了，我根本看不清。"
+        "en": "A: What's he like?",
+        "zh": "A：他什么样？"
       },
       {
-        "en": "A: Well, you'll never guess what I saw this morning. A delivery truck pulled into his driveway, and it dropped off a long, rectangular box. It almost looked like a coffin!",
-        "zh": "A：嗯，你绝对猜不到我今天早上看到什么了。一辆送货车开进了他的车道，卸下了一个又长又方的盒子。看起来几乎像一口棺材！"
+        "en": "A: You have to fill me in.",
+        "zh": "A：快跟我说说。"
       },
       {
-        "en": "B: You see! Why would he...",
-        "zh": "B：你看吧！他怎么会…"
+        "en": "B: Actually, he's a bit strange.",
+        "zh": "B：说实话，他有点奇怪。"
+      },
+      {
+        "en": "B: I don't know... I've got a bad feeling about him.",
+        "zh": "B：我也说不好…我对他有种不好的预感。"
+      },
+      {
+        "en": "A: Really?",
+        "zh": "A：真的吗？"
+      },
+      {
+        "en": "A: Why?",
+        "zh": "A：为什么？"
+      },
+      {
+        "en": "B: Well, yesterday I brought over a housewarming gift,but Armand started acting really weird, and then he practically kicked me out!",
+        "zh": "B：嗯，昨天我带了一份乔迁礼物过去，但阿尔芒表现得很奇怪，然后几乎把我赶了出来！"
+      },
+      {
+        "en": "B: I tried to, sort of, peek into his house, but everything was so dark inside that I couldn't really get a good look.",
+        "zh": "B：我试着，算是，偷看了一下他房子里面，但是里面太暗了，我根本看不清。"
+      },
+      {
+        "en": "A: Well, you'll never guess what I saw this morning.",
+        "zh": "A：嗯，你绝对猜不到我今天早上看到什么了。"
+      },
+      {
+        "en": "A: A delivery truck pulled into his driveway, and it dropped off a long, rectangular box.",
+        "zh": "A：一辆送货车开进了他的车道，卸下了一个又长又方的盒子。"
+      },
+      {
+        "en": "A: It almost looked like a coffin!",
+        "zh": "A：看起来几乎像一口棺材！"
+      },
+      {
+        "en": "B: You see!",
+        "zh": "B：你看吧！"
+      },
+      {
+        "en": "B: Why would he...",
+        "zh": "B：他怎么会…"
       },
       {
         "en": "C: Hello ladies...",
         "zh": "C：女士们好…"
       },
       {
-        "en": "B: Ah, Armand! You scared the heck out of me! This is my friend Doris.",
-        "zh": "B：啊，阿尔芒！你吓死我了！这是我的朋友多丽丝。"
+        "en": "B: Ah, Armand!",
+        "zh": "B：啊，阿尔芒！"
       },
       {
-        "en": "C: A pleasure to meet you... If you are not doing anything tonight, I would like to have you both for dinner. I mean... I would like to have you both over for dinner.",
-        "zh": "C：很高兴见到你…如果你们今晚没什么事的话，我想请你们两个来吃晚饭。我的意思是…我想请你们两个过来吃晚饭。"
+        "en": "B: You scared the heck out of me!",
+        "zh": "B：你吓死我了！"
+      },
+      {
+        "en": "B: This is my friend Doris.",
+        "zh": "B：这是我的朋友多丽丝。"
+      },
+      {
+        "en": "C: A pleasure to meet you... If you are not doing anything tonight, I would like to have you both for dinner.",
+        "zh": "C：很高兴见到你…如果你们今晚没什么事的话，我想请你们两个来吃晚饭。"
+      },
+      {
+        "en": "C: I mean... I would like to have you both over for dinner.",
+        "zh": "C：我的意思是…我想请你们两个过来吃晚饭。"
       }
     ]
   },
@@ -522,48 +666,104 @@
     "title": "Daily Life - Cleaning the House",
     "content": [
       {
-        "en": "A: Honey, the house is such a mess! I need you to help me tidy up a bit. My boss and her husband are coming over for dinner and the house needs to be spotless!",
-        "zh": "A：亲爱的，家里太乱了！我需要你帮我收拾一下。我老板和她丈夫今晚要来吃饭，房子必须一尘不染！"
+        "en": "A: Honey, the house is such a mess!",
+        "zh": "A：亲爱的，家里太乱了！"
       },
       {
-        "en": "B: I'm in the middle of something right now. I'll be there in a second.",
-        "zh": "B：我现在正忙着呢。我一会儿就好。"
+        "en": "A: I need you to help me tidy up a bit.",
+        "zh": "A：我需要你帮我收拾一下。"
       },
       {
-        "en": "A: This can't wait! I need your help now!",
-        "zh": "A：这不能等！我现在就需要你帮忙！"
+        "en": "A: My boss and her husband are coming over for dinner and the house needs to be spotless!",
+        "zh": "A：我老板和她丈夫今晚要来吃饭，房子必须一尘不染！"
       },
       {
-        "en": "B: Alright, alright. I'm coming.",
-        "zh": "B：好吧，好吧。我来了。"
+        "en": "B: I'm in the middle of something right now.",
+        "zh": "B：我现在正忙着呢。"
       },
       {
-        "en": "A: Ok, here's a list of chores we need to get done. I'll do the dishes and get all the groceries for tonight. You can sweep and mop the floors. Oh, and the furniture needs to be dusted.",
-        "zh": "A：好的，这是我们得干的家务清单。我来洗碗和买今晚要用的杂货。你来扫地拖地。哦，还有家具上的灰也得擦。"
+        "en": "B: I'll be there in a second.",
+        "zh": "B：我一会儿就好。"
+      },
+      {
+        "en": "A: This can't wait!",
+        "zh": "A：这不能等！"
+      },
+      {
+        "en": "A: I need your help now!",
+        "zh": "A：我现在就需要你帮忙！"
+      },
+      {
+        "en": "B: Alright, alright.",
+        "zh": "B：好吧，好吧。"
+      },
+      {
+        "en": "B: I'm coming.",
+        "zh": "B：我来了。"
+      },
+      {
+        "en": "A: Ok, here's a list of chores we need to get done.",
+        "zh": "A：好的，这是我们得干的家务清单。"
+      },
+      {
+        "en": "A: I'll do the dishes and get all the groceries for tonight.",
+        "zh": "A：我来洗碗和买今晚要用的杂货。"
+      },
+      {
+        "en": "A: You can sweep and mop the floors.",
+        "zh": "A：你来扫地拖地。"
+      },
+      {
+        "en": "A: Oh, and the furniture needs to be dusted.",
+        "zh": "A：哦，还有家具上的灰也得擦。"
       },
       {
         "en": "B: You know what, I have to pick something up at the mall, so why don't you clean the floors and I'll go to the supermarket and get all the groceries.",
         "zh": "B：这样吧，我得去商场买点东西，要不你来打扫地板，我去超市买菜。"
       },
       {
-        "en": "A: Sure that's fine. Here is the list of all the things you need to get. Don't forget anything! And can you pick up a bottle of wine on your way home?",
-        "zh": "A：可以，没问题。这是你要买的所有东西的清单。别忘了任何一样！还有，回家路上能带一瓶红酒回来吗？"
+        "en": "A: Sure that's fine.",
+        "zh": "A：可以，没问题。"
       },
       {
-        "en": "B: Hey, honey I'm back. Wow, the house looks really good!",
-        "zh": "B：嘿，亲爱的我回来了。哇，房子看起来真不错！"
+        "en": "A: Here is the list of all the things you need to get.",
+        "zh": "A：这是你要买的所有东西的清单。"
       },
       {
-        "en": "A: Great! Can you set the table?",
-        "zh": "A：太好了！你能摆一下桌子吗？"
+        "en": "A: Don't forget anything!",
+        "zh": "A：别忘了任何一样！"
+      },
+      {
+        "en": "A: And can you pick up a bottle of wine on your way home?",
+        "zh": "A：还有，回家路上能带一瓶红酒回来吗？"
+      },
+      {
+        "en": "B: Hey, honey I'm back.",
+        "zh": "B：嘿，亲爱的我回来了。"
+      },
+      {
+        "en": "B: Wow, the house looks really good!",
+        "zh": "B：哇，房子看起来真不错！"
+      },
+      {
+        "en": "A: Great!",
+        "zh": "A：太好了！"
+      },
+      {
+        "en": "A: Can you set the table?",
+        "zh": "A：你能摆一下桌子吗？"
       },
       {
         "en": "B: Just a sec I'm just gonna vacuum this rug real fast",
         "zh": "B：等一下我先把这个地毯快速吸一下"
       },
       {
-        "en": "A: Wait! Don't turn it on...",
-        "zh": "A：等等！别开那个…"
+        "en": "A: Wait!",
+        "zh": "A：等等！"
+      },
+      {
+        "en": "A: Don't turn it on...",
+        "zh": "A：别开那个…"
       }
     ]
   },
@@ -574,32 +774,64 @@
     "title": "The Office - Out Of Control Spending",
     "content": [
       {
-        "en": "A: OK, so now the last point on our agenda. Jill, let's go over the profit an d loss statement.",
-        "zh": "A：好的，现在是我们议程的最后一项。吉尔，我们来看看损益表。"
+        "en": "A: OK, so now the last point on our agenda.",
+        "zh": "A：好的，现在是我们议程的最后一项。"
       },
       {
-        "en": "B: Great. Well, the main issue here, as you can see, is that our expenses are through the roof.",
-        "zh": "B：好的。嗯，这里的主要问题是，正如你所见，我们的支出已经失控了。"
+        "en": "A: Jill, let's go over the profit an d loss statement.",
+        "zh": "A：吉尔，我们来看看损益表。"
       },
       {
-        "en": "A: Let's see... These numbers are off the charts! What's going on here!",
-        "zh": "A：我看看…这些数字简直爆表了！这到底怎么回事！"
+        "en": "B: Great.",
+        "zh": "B：好的。"
       },
       {
-        "en": "B: Well, um, sir, the company expenditures on entertainment and travel are out of control. Look at these bills for example. Just this month we've paid over twenty thousand dollars for hotel charges!",
-        "zh": "B：嗯，先生，公司在娱乐和差旅方面的支出已经失控了。比如看看这些账单。光这一个月我们就支付了超过两万美元的酒店费用！"
+        "en": "B: Well, the main issue here, as you can see, is that our expenses are through the roof.",
+        "zh": "B：嗯，这里的主要问题是，正如你所见，我们的支出已经失控了。"
       },
       {
-        "en": "A: OK, thank you. I'll look into it.",
-        "zh": "A：好的，谢谢。我会调查的。"
+        "en": "A: Let's see... These numbers are off the charts!",
+        "zh": "A：我看看…这些数字简直爆表了！"
       },
       {
-        "en": "B: The list goes on and on. Here, this is a bill for five thousand dollars for spa treatments!",
-        "zh": "B：还有很多很多。看这个，这是一张五千美元的水疗护理账单！"
+        "en": "A: What's going on here!",
+        "zh": "A：这到底怎么回事！"
       },
       {
-        "en": "A: Thank you; that will be all. I'll take care of it.",
-        "zh": "A：谢谢，就这样吧。我会处理的。"
+        "en": "B: Well, um, sir, the company expenditures on entertainment and travel are out of control.",
+        "zh": "B：嗯，先生，公司在娱乐和差旅方面的支出已经失控了。"
+      },
+      {
+        "en": "B: Look at these bills for example.",
+        "zh": "B：比如看看这些账单。"
+      },
+      {
+        "en": "B: Just this month we've paid over twenty thousand dollars for hotel charges!",
+        "zh": "B：光这一个月我们就支付了超过两万美元的酒店费用！"
+      },
+      {
+        "en": "A: OK, thank you.",
+        "zh": "A：好的，谢谢。"
+      },
+      {
+        "en": "A: I'll look into it.",
+        "zh": "A：我会调查的。"
+      },
+      {
+        "en": "B: The list goes on and on.",
+        "zh": "B：还有很多很多。"
+      },
+      {
+        "en": "B: Here, this is a bill for five thousand dollars for spa treatments!",
+        "zh": "B：看这个，这是一张五千美元的水疗护理账单！"
+      },
+      {
+        "en": "A: Thank you; that will be all.",
+        "zh": "A：谢谢，就这样吧。"
+      },
+      {
+        "en": "A: I'll take care of it.",
+        "zh": "A：我会处理的。"
       },
       {
         "en": "B: Look at this one sir, eight thousand dollars were spent in one night at a place called \"Wild Things\"?!",
@@ -626,16 +858,24 @@
         "zh": "B：这边请，先生。"
       },
       {
-        "en": "C: Charlie! What can I do for you?",
-        "zh": "C：查利！有什么能为你效劳的？"
+        "en": "C: Charlie!",
+        "zh": "C：查利！"
+      },
+      {
+        "en": "C: What can I do for you?",
+        "zh": "C：有什么能为你效劳的？"
       },
       {
         "en": "B: Mr. Corlone, I'm really sorry to trouble you, but I need your help.",
         "zh": "B：科尔莱昂先生，真的很抱歉打扰您，但我需要您的帮助。"
       },
       {
-        "en": "C: Anything for you, Charlie! Your father was like a brother to me.",
-        "zh": "C：为你做什么都行，查利！你父亲就像我的亲兄弟一样。"
+        "en": "C: Anything for you, Charlie!",
+        "zh": "C：为你做什么都行，查利！"
+      },
+      {
+        "en": "C: Your father was like a brother to me.",
+        "zh": "C：你父亲就像我的亲兄弟一样。"
       },
       {
         "en": "B: Well, sir, you see, this recession has hit me pretty hard; I lost my job and I'm in a lot of debt.",
@@ -658,8 +898,32 @@
         "zh": "B：嗯，我只是想也许您能帮我一把。"
       },
       {
-        "en": "C: What? At a time like this? I'm broke too, you know! You're not the only one who has been hit by the recession! I lost half my money in the stock market crash! Go on! Get outa here!",
-        "zh": "C：什么？在这种时候？我也破产了，你知道吗！不是只有你一个人受到了经济衰退的打击！我在股市崩盘中损失了一半的钱！走开！给我出去！"
+        "en": "C: What?",
+        "zh": "C：什么？"
+      },
+      {
+        "en": "C: At a time like this?",
+        "zh": "C：在这种时候？"
+      },
+      {
+        "en": "C: I'm broke too, you know!",
+        "zh": "C：我也破产了，你知道吗！"
+      },
+      {
+        "en": "C: You're not the only one who has been hit by the recession!",
+        "zh": "C：不是只有你一个人受到了经济衰退的打击！"
+      },
+      {
+        "en": "C: I lost half my money in the stock market crash!",
+        "zh": "C：我在股市崩盘中损失了一半的钱！"
+      },
+      {
+        "en": "C: Go on!",
+        "zh": "C：走开！"
+      },
+      {
+        "en": "C: Get outa here!",
+        "zh": "C：给我出去！"
       }
     ]
   },
@@ -670,24 +934,48 @@
     "title": "Daily Life - I’m sorry, I love you",
     "content": [
       {
-        "en": "A: Whoa, whoa, what's going on? Watch out!",
-        "zh": "A：哇，哇，怎么了？小心！"
+        "en": "A: Whoa, whoa, what's going on?",
+        "zh": "A：哇，哇，怎么了？"
+      },
+      {
+        "en": "A: Watch out!",
+        "zh": "A：小心！"
       },
       {
         "en": "B: Hey, watch where you're going!",
         "zh": "B：嘿，走路看着点！"
       },
       {
-        "en": "A: Oh, no! I'm so sorry! Are you all right?",
-        "zh": "A：哦不！我真的很抱歉！你没事吧？"
+        "en": "A: Oh, no!",
+        "zh": "A：哦不！"
+      },
+      {
+        "en": "A: I'm so sorry!",
+        "zh": "A：我真的很抱歉！"
+      },
+      {
+        "en": "A: Are you all right?",
+        "zh": "A：你没事吧？"
       },
       {
         "en": "B: Oh... I don't know.",
         "zh": "B：哦…我不知道。"
       },
       {
-        "en": "A: I feel terrible, I really didn't mean to knock you over. My tire, just exploded, and I lost control of my bike. Really, it was an accident. Please accept my apologies.",
-        "zh": "A：我感觉糟透了，我真的不是故意撞倒你的。我的车胎突然爆了，我控制不住自行车了。真的，这是个意外。请接受我的道歉。"
+        "en": "A: I feel terrible, I really didn't mean to knock you over.",
+        "zh": "A：我感觉糟透了，我真的不是故意撞倒你的。"
+      },
+      {
+        "en": "A: My tire, just exploded, and I lost control of my bike.",
+        "zh": "A：我的车胎突然爆了，我控制不住自行车了。"
+      },
+      {
+        "en": "A: Really, it was an accident.",
+        "zh": "A：真的，这是个意外。"
+      },
+      {
+        "en": "A: Please accept my apologies.",
+        "zh": "A：请接受我的道歉。"
       },
       {
         "en": "B: Just let me try to stand up. SONG: Why do birds suddenly appear, every time you are near?",
@@ -702,15 +990,51 @@
         "zh": "B：哦，等一下，你看起来很眼熟，我想我在哪里见过你。"
       },
       {
-        "en": "A: Yeah, I think we have met somewhere before. That's right! We met at Aaron's place last weekend! What a coincidence! But anyway, I'm glad to see that you're not too badly hurt, and I should probably get going. I have a nine o'clock meeting.",
-        "zh": "A：是啊，我想我们之前确实在哪儿见过。对了！我们上周在亚伦家聚会上见过！太巧了！不过无论如何，很高兴看到你没受太重的伤，我可能得走了。我九点有个会议。"
+        "en": "A: Yeah, I think we have met somewhere before.",
+        "zh": "A：是啊，我想我们之前确实在哪儿见过。"
       },
       {
-        "en": "B: Ouch! My ankle! I think it's broken! You can't just leave me like this! Are you calling an ambulance?",
-        "zh": "B：哎哟！我的脚踝！我想可能是断了！你不能就这样丢下我！你叫救护车了吗？"
+        "en": "A: That's right!",
+        "zh": "A：对了！"
       },
       {
-        "en": "A: Nope, I'm canceling my appointment so that I can stay here with you. SONG: Do you remember when we met? That's the day I knew you were my pet. I wanna tell you how much I love you.",
+        "en": "A: We met at Aaron's place last weekend!",
+        "zh": "A：我们上周在亚伦家聚会上见过！"
+      },
+      {
+        "en": "A: What a coincidence!",
+        "zh": "A：太巧了！"
+      },
+      {
+        "en": "A: But anyway, I'm glad to see that you're not too badly hurt, and I should probably get going.",
+        "zh": "A：不过无论如何，很高兴看到你没受太重的伤，我可能得走了。"
+      },
+      {
+        "en": "A: I have a nine o'clock meeting.",
+        "zh": "A：我九点有个会议。"
+      },
+      {
+        "en": "B: Ouch!",
+        "zh": "B：哎哟！"
+      },
+      {
+        "en": "B: My ankle!",
+        "zh": "B：我的脚踝！"
+      },
+      {
+        "en": "B: I think it's broken!",
+        "zh": "B：我想可能是断了！"
+      },
+      {
+        "en": "B: You can't just leave me like this!",
+        "zh": "B：你不能就这样丢下我！"
+      },
+      {
+        "en": "B: Are you calling an ambulance?",
+        "zh": "B：你叫救护车了吗？"
+      },
+      {
+        "en": "A: Nope, I'm canceling my appointment so that I can stay here with you. SONG: Do you remember when we met?",
         "zh": "A：不叫了，我要取消我的约会，这样我就能留在这里陪你。"
       }
     ]
@@ -730,32 +1054,80 @@
         "zh": "B：我上来了，出发吧！"
       },
       {
-        "en": "A: OK, make a left here... no wait, I meant make a right. Come on, speed up!",
-        "zh": "A：好的，这里左转…不对等等，我意思是右转。快点，加速！"
+        "en": "A: OK, make a left here... no wait, I meant make a right.",
+        "zh": "A：好的，这里左转…不对等等，我意思是右转。"
       },
       {
-        "en": "B: Geez! What's the rush?",
-        "zh": "B：天哪！急什么啊？"
+        "en": "A: Come on, speed up!",
+        "zh": "A：快点，加速！"
       },
       {
-        "en": "A: Don't worry about it, just drive. Oh, no, the light is about to change... step on it!",
-        "zh": "A：别管了，开你的车。哦不，要变灯了…踩油门！"
+        "en": "B: Geez!",
+        "zh": "B：天哪！"
       },
       {
-        "en": "B: Are you nuts! I'm not going to run a red light!",
-        "zh": "B：你疯了吗！我才不要闯红灯！"
+        "en": "B: What's the rush?",
+        "zh": "B：急什么啊？"
       },
       {
-        "en": "A: Whatever. Just turn right here... The freeway will be packed at this hour...let's take a side street. Go on! Get out of our way! Move, move!",
-        "zh": "A：随便吧。就在这右转吧…这个时间高速肯定堵死了…走小路吧。快走！别挡道！让开，让开！"
+        "en": "A: Don't worry about it, just drive.",
+        "zh": "A：别管了，开你的车。"
       },
       {
-        "en": "B: What's your problem! G eez. Having a fit is not going to help!",
-        "zh": "B：你有什么毛病啊！天哪。发火也解决不了问题！"
+        "en": "A: Oh, no, the light is about to change... step on it!",
+        "zh": "A：哦不，要变灯了…踩油门！"
       },
       {
-        "en": "A: Here, I know a short cut...just go down here, and we'll cut though Ashburn Heights. Let's go, let's go! Watch out for that lady!",
-        "zh": "A：这边，我知道一条捷径…就从这下去，然后穿过阿什本高地。快走，快走！小心那个女士！"
+        "en": "B: Are you nuts!",
+        "zh": "B：你疯了吗！"
+      },
+      {
+        "en": "B: I'm not going to run a red light!",
+        "zh": "B：我才不要闯红灯！"
+      },
+      {
+        "en": "A: Whatever.",
+        "zh": "A：随便吧。"
+      },
+      {
+        "en": "A: Just turn right here... The freeway will be packed at this hour...let's take a side street.",
+        "zh": "A：就在这右转吧…这个时间高速肯定堵死了…走小路吧。"
+      },
+      {
+        "en": "A: Go on!",
+        "zh": "A：快走！"
+      },
+      {
+        "en": "A: Get out of our way!",
+        "zh": "A：别挡道！"
+      },
+      {
+        "en": "A: Move, move!",
+        "zh": "A：让开，让开！"
+      },
+      {
+        "en": "B: What's your problem!",
+        "zh": "B：你有什么毛病啊！"
+      },
+      {
+        "en": "B: G eez.",
+        "zh": "B：天哪。"
+      },
+      {
+        "en": "B: Having a fit is not going to help!",
+        "zh": "B：发火也解决不了问题！"
+      },
+      {
+        "en": "A: Here, I know a short cut...just go down here, and we'll cut though Ashburn Heights.",
+        "zh": "A：这边，我知道一条捷径…就从这下去，然后穿过阿什本高地。"
+      },
+      {
+        "en": "A: Let's go, let's go!",
+        "zh": "A：快走，快走！"
+      },
+      {
+        "en": "A: Watch out for that lady!",
+        "zh": "A：小心那个女士！"
       },
       {
         "en": "B: I'm going as fast as I can!",
@@ -782,32 +1154,80 @@
         "zh": "A：真不敢相信安东尼终于要结婚了！"
       },
       {
-        "en": "B: Yeah well it's about time! He's been living with his parents for 40 years!",
-        "zh": "B：是啊也确实该结了！他在父母家住了40年了！"
+        "en": "B: Yeah well it's about time!",
+        "zh": "B：是啊也确实该结了！"
       },
       {
-        "en": "A: Don't be mean. Look here come the bridesmaids! Their dresses look beautiful!",
-        "zh": "A：别刻薄了。看，伴娘们过来了！她们的裙子真漂亮！"
+        "en": "B: He's been living with his parents for 40 years!",
+        "zh": "B：他在父母家住了40年了！"
+      },
+      {
+        "en": "A: Don't be mean.",
+        "zh": "A：别刻薄了。"
+      },
+      {
+        "en": "A: Look here come the bridesmaids!",
+        "zh": "A：看，伴娘们过来了！"
+      },
+      {
+        "en": "A: Their dresses look beautiful!",
+        "zh": "A：她们的裙子真漂亮！"
       },
       {
         "en": "B: Who are those kids walking down the aisle?",
         "zh": "B：那些走红毯的小孩是谁？"
       },
       {
-        "en": "A: That's the flower girl and the ring bearer. I'm pretty sure they're the groom's niece and nephew. Oh, they look so cute!",
-        "zh": "A：那是花童和戒童。我很确定是新郎的侄女和侄子。哦，他们看起来太可爱了！"
+        "en": "A: That's the flower girl and the ring bearer.",
+        "zh": "A：那是花童和戒童。"
       },
       {
-        "en": "B: I just hope the priest makes it quick. I'm starving. I hope the food's good at the reception.",
-        "zh": "B：我只希望牧师快点结束。我饿死了。希望婚宴上的食物好吃。"
+        "en": "A: I'm pretty sure they're the groom's niece and nephew.",
+        "zh": "A：我很确定是新郎的侄女和侄子。"
       },
       {
-        "en": "A: That's all you ever think about, food! Oh, I think the bride's coming now! She looks gorgeous. Wait, what's she doing? Where's she going?",
-        "zh": "A：你就知道吃！哦，我想新娘现在来了！她看起来美极了。等等，她在干什么？她去哪儿了？"
+        "en": "A: Oh, they look so cute!",
+        "zh": "A：哦，他们看起来太可爱了！"
       },
       {
-        "en": "B: Oh great! Does this mean that the reception is canceled?",
-        "zh": "B：哦太棒了！这是不是意味着婚宴取消了？"
+        "en": "B: I just hope the priest makes it quick.",
+        "zh": "B：我只希望牧师快点结束。"
+      },
+      {
+        "en": "B: I'm starving.",
+        "zh": "B：我饿死了。"
+      },
+      {
+        "en": "B: I hope the food's good at the reception.",
+        "zh": "B：希望婚宴上的食物好吃。"
+      },
+      {
+        "en": "A: That's all you ever think about, food!",
+        "zh": "A：你就知道吃！"
+      },
+      {
+        "en": "A: Oh, I think the bride's coming now!",
+        "zh": "A：哦，我想新娘现在来了！"
+      },
+      {
+        "en": "A: She looks gorgeous.",
+        "zh": "A：她看起来美极了。"
+      },
+      {
+        "en": "A: Wait, what's she doing?",
+        "zh": "A：等等，她在干什么？"
+      },
+      {
+        "en": "A: Where's she going?",
+        "zh": "A：她去哪儿了？"
+      },
+      {
+        "en": "B: Oh great!",
+        "zh": "B：哦太棒了！"
+      },
+      {
+        "en": "B: Does this mean that the reception is canceled?",
+        "zh": "B：这是不是意味着婚宴取消了？"
       }
     ]
   },
@@ -822,24 +1242,56 @@
         "zh": "A：这里是第五行动新闻记者莎拉·奥康奈尔从华盛顿特区现场报道，一场抗议活动刚刚爆发。成千上万愤怒的市民正在抗议针对汽车制造业的救助计划！先生，先生，莎拉·奥康奈尔，第五行动新闻。您能告诉我们现在是什么情况吗？"
       },
       {
-        "en": "B: Yeah, yeah, we're here because we feel this is an injustice! The financial irresponsibility of big business has to stop! We're there to show the government that we don't like the way that they're spending our tax dollars!",
-        "zh": "B：是的，是的，我们在这里是因为我们觉得这是不公正！大企业的财务不负责任必须停止！我们来这里是要向政府表明，我们不喜欢他们使用我们纳税人钱财的方式！"
+        "en": "B: Yeah, yeah, we're here because we feel this is an injustice!",
+        "zh": "B：是的，是的，我们在这里是因为我们觉得这是不公正！"
+      },
+      {
+        "en": "B: The financial irresponsibility of big business has to stop!",
+        "zh": "B：大企业的财务不负责任必须停止！"
+      },
+      {
+        "en": "B: We're there to show the government that we don't like the way that they're spending our tax dollars!",
+        "zh": "B：我们来这里是要向政府表明，我们不喜欢他们使用我们纳税人钱财的方式！"
       },
       {
         "en": "A: Sir but what exactly is making everyone so angry?",
         "zh": "A：先生，但到底是什么让大家如此愤怒？"
       },
       {
-        "en": "B: It's an absolute outrage, Sarah, the US government wants to give 25 billion dollars of taxpayers' money to the auto industry. These are companies that have been mismanaged and are now nearly bankrupt.",
-        "zh": "B：这简直是暴行，莎拉，美国政府想给汽车行业250亿美元纳税人的钱。这些公司管理不善，现在几乎破产了。"
+        "en": "B: It's an absolute outrage, Sarah, the US government wants to give 25 billion dollars of taxpayers' money to the auto industry.",
+        "zh": "B：这简直是暴行，莎拉，美国政府想给汽车行业250亿美元纳税人的钱。"
       },
       {
-        "en": "A: I see. But, many supporters of the bailout argue that it could help save the jobs of millions of hardworking Americans.",
-        "zh": "A：我明白了。但是，许多支持救助的人认为，这可以帮助保住数百万勤劳美国人的工作岗位。"
+        "en": "B: These are companies that have been mismanaged and are now nearly bankrupt.",
+        "zh": "B：这些公司管理不善，现在几乎破产了。"
       },
       {
-        "en": "B: That maybe true, and I for one don't want to see anyone lose their job, but how can these CEOs ask for a bailout when they're making millions of dollars? And then, they have the nerve to fly to Washington in private jets! This costs hundreds of thousands of dollars! And they're asking for money! That is just not right!",
-        "zh": "B：这也许是对的，我个人也不想看到任何人失业，但这些CEO们自己赚着数百万美元，怎么还有脸来要求救助？而且，他们还敢坐私人飞机来华盛顿！这就要花几十万美元！而他们居然还在要钱！这太不应该了！"
+        "en": "A: I see.",
+        "zh": "A：我明白了。"
+      },
+      {
+        "en": "A: But, many supporters of the bailout argue that it could help save the jobs of millions of hardworking Americans.",
+        "zh": "A：但是，许多支持救助的人认为，这可以帮助保住数百万勤劳美国人的工作岗位。"
+      },
+      {
+        "en": "B: That maybe true, and I for one don't want to see anyone lose their job, but how can these CEOs ask for a bailout when they're making millions of dollars?",
+        "zh": "B：这也许是对的，我个人也不想看到任何人失业，但这些CEO们自己赚着数百万美元，怎么还有脸来要求救助？"
+      },
+      {
+        "en": "B: And then, they have the nerve to fly to Washington in private jets!",
+        "zh": "B：而且，他们还敢坐私人飞机来华盛顿！"
+      },
+      {
+        "en": "B: This costs hundreds of thousands of dollars!",
+        "zh": "B：这就要花几十万美元！"
+      },
+      {
+        "en": "B: And they're asking for money!",
+        "zh": "B：而他们居然还在要钱！"
+      },
+      {
+        "en": "B: That is just not right!",
+        "zh": "B：这太不应该了！"
       },
       {
         "en": "A: Good point. This is Sarah O'Connell reporting live from Washington D. C., back to you, Tom.",
@@ -854,40 +1306,108 @@
     "title": "The Weekend - Christmas Chronicles",
     "content": [
       {
-        "en": "A: I hate working on Christmas Eve! Whoa! Get a load of this guy! Come in central, I think we've got ourselves a situation here.",
-        "zh": "A：我讨厌在平安夜上班！哇！看看这家伙！总部总部，我们这里好像有情况。"
+        "en": "A: I hate working on Christmas Eve!",
+        "zh": "A：我讨厌在平安夜上班！"
       },
       {
-        "en": "B: License and registration please. Have you been drinking tonight, sir?",
-        "zh": "B：请出示驾照和行车证。先生，你今晚喝酒了吗？"
+        "en": "A: Whoa!",
+        "zh": "A：哇！"
+      },
+      {
+        "en": "A: Get a load of this guy!",
+        "zh": "A：看看这家伙！"
+      },
+      {
+        "en": "A: Come in central, I think we've got ourselves a situation here.",
+        "zh": "A：总部总部，我们这里好像有情况。"
+      },
+      {
+        "en": "B: License and registration please.",
+        "zh": "B：请出示驾照和行车证。"
+      },
+      {
+        "en": "B: Have you been drinking tonight, sir?",
+        "zh": "B：先生，你今晚喝酒了吗？"
       },
       {
         "en": "A: I had one or two glasses of eggnog, but nothing else.",
         "zh": "A：我喝了一两杯蛋奶酒，没别的了。"
       },
       {
-        "en": "B: Step out of the vehicle, please. Sir, what do you have in the back?",
-        "zh": "B：请下车。先生，你后座装的是什么？"
+        "en": "B: Step out of the vehicle, please.",
+        "zh": "B：请下车。"
+      },
+      {
+        "en": "B: Sir, what do you have in the back?",
+        "zh": "B：先生，你后座装的是什么？"
       },
       {
         "en": "A: Just a few Christmas gifts, 'tis the season, after all!",
         "zh": "A：只是一些圣诞礼物，毕竟，这是送礼的季节嘛！"
       },
       {
-        "en": "B: Don't take that tone with me. Do you have an invoice for these items?",
-        "zh": "B：别用那种语气跟我说话。你有这些物品的发票吗？"
+        "en": "B: Don't take that tone with me.",
+        "zh": "B：别用那种语气跟我说话。"
+      },
+      {
+        "en": "B: Do you have an invoice for these items?",
+        "zh": "B：你有这些物品的发票吗？"
       },
       {
         "en": "A: Umm...no... I make these in my workshop in the North Pole!",
         "zh": "A：嗯…没有…这些是我在北极的作坊里做的！"
       },
       {
-        "en": "B: You are under arrest, sir. You have the right to remain silent. You better not pout, you better not cry. Anything you say can and will be used against you. You have the right to an attorney; if you can not afford one, the state will appoint",
-        "zh": "B：先生，你被捕了。你有权保持沉默。你最好别噘嘴，你最好别哭。你说的任何话都可以作为呈堂证供。你有权请律师；如果你请不起，法庭将为你指派"
+        "en": "B: You are under arrest, sir.",
+        "zh": "B：先生，你被捕了。"
       },
       {
-        "en": "A: You can't take me to jail! What about my sleigh? It's Christmas Eve! I have Presents to deliver! Rudolph! Prancer! Dancer! Get help!",
-        "zh": "A：你不能把我关进监狱！我的雪橇怎么办？今天是平安夜！我还有礼物要送！鲁道夫！小飞侠！舞者！快来帮忙！"
+        "en": "B: You have the right to remain silent.",
+        "zh": "B：你有权保持沉默。"
+      },
+      {
+        "en": "B: You better not pout, you better not cry.",
+        "zh": "B：你最好别噘嘴，你最好别哭。"
+      },
+      {
+        "en": "B: Anything you say can and will be used against you.",
+        "zh": "B：你说的任何话都可以作为呈堂证供。"
+      },
+      {
+        "en": "B: You have the right to an attorney; if you can not afford one, the state will appoint",
+        "zh": "B：你有权请律师；如果你请不起，法庭将为你指派"
+      },
+      {
+        "en": "A: You can't take me to jail!",
+        "zh": "A：你不能把我关进监狱！"
+      },
+      {
+        "en": "A: What about my sleigh?",
+        "zh": "A：我的雪橇怎么办？"
+      },
+      {
+        "en": "A: It's Christmas Eve!",
+        "zh": "A：今天是平安夜！"
+      },
+      {
+        "en": "A: I have Presents to deliver!",
+        "zh": "A：我还有礼物要送！"
+      },
+      {
+        "en": "A: Rudolph!",
+        "zh": "A：鲁道夫！"
+      },
+      {
+        "en": "A: Prancer!",
+        "zh": "A：小飞侠！"
+      },
+      {
+        "en": "A: Dancer!",
+        "zh": "A：舞者！"
+      },
+      {
+        "en": "A: Get help!",
+        "zh": "A：快来帮忙！"
       }
     ]
   },
@@ -898,24 +1418,48 @@
     "title": "I Can See Clearly Now",
     "content": [
       {
-        "en": "A: Hello, Arthur. What seems to be the problem?",
-        "zh": "A：你好，亚瑟。哪里不舒服？"
+        "en": "A: Hello, Arthur.",
+        "zh": "A：你好，亚瑟。"
       },
       {
-        "en": "B: Hey doc. Well, I think I might need glasses. I'm getting headaches, and I really struggle to see things that are far away. But I have always had 20/20 vision.",
-        "zh": "B：嗨医生。嗯，我想我可能需要配眼镜了。我经常头疼，而且看不清远处的东西。但我以前视力一直是20/20啊。"
+        "en": "A: What seems to be the problem?",
+        "zh": "A：哪里不舒服？"
       },
       {
-        "en": "A: Sounds like you may be far-sighted. OK, then, cover your left eye and read the chart in front of you.",
-        "zh": "A：听起来你可能是远视。好的，遮住你的左眼，读一下你面前的视力表。"
+        "en": "B: Hey doc.",
+        "zh": "B：嗨医生。"
+      },
+      {
+        "en": "B: Well, I think I might need glasses.",
+        "zh": "B：嗯，我想我可能需要配眼镜了。"
+      },
+      {
+        "en": "B: I'm getting headaches, and I really struggle to see things that are far away.",
+        "zh": "B：我经常头疼，而且看不清远处的东西。"
+      },
+      {
+        "en": "B: But I have always had 20/20 vision.",
+        "zh": "B：但我以前视力一直是20/20啊。"
+      },
+      {
+        "en": "A: Sounds like you may be far-sighted.",
+        "zh": "A：听起来你可能是远视。"
+      },
+      {
+        "en": "A: OK, then, cover your left eye and read the chart in front of you.",
+        "zh": "A：好的，遮住你的左眼，读一下你面前的视力表。"
       },
       {
         "en": "B: Mmm... X, E, R, 3, a question mark, and I can't quite make out the other symbol but I think it's the peace sign.",
         "zh": "B：嗯…X, E, R, 3，一个问号，还有一个符号我看不太清，但我觉得是个和平标志。"
       },
       {
-        "en": "A: Wow, Arthur! You're as blind as a bat!",
-        "zh": "A：哇，亚瑟！你简直瞎得跟蝙蝠一样！"
+        "en": "A: Wow, Arthur!",
+        "zh": "A：哇，亚瑟！"
+      },
+      {
+        "en": "A: You're as blind as a bat!",
+        "zh": "A：你简直瞎得跟蝙蝠一样！"
       },
       {
         "en": "B: Yeah, I know, my vision is really blurry at times.",
@@ -954,8 +1498,12 @@
         "zh": "C：杰西卡，亚瑟。嗨，我想让你们见见我的男朋友格雷格。他是财富500强食品公司的质量与安全副总裁。"
       },
       {
-        "en": "A: Nice to meet you. This is my husband, Arthur.",
-        "zh": "A：很高兴见到你。这是我丈夫亚瑟。"
+        "en": "A: Nice to meet you.",
+        "zh": "A：很高兴见到你。"
+      },
+      {
+        "en": "A: This is my husband, Arthur.",
+        "zh": "A：这是我丈夫亚瑟。"
       },
       {
         "en": "B: Hey, how's it going?",
@@ -966,20 +1514,48 @@
         "zh": "D：你好。"
       },
       {
-        "en": "A: Caroline talks about you all the time. I guess he must be pretty busy at work.",
-        "zh": "A：卡罗琳总是在聊你。我猜你工作一定很忙吧。"
+        "en": "A: Caroline talks about you all the time.",
+        "zh": "A：卡罗琳总是在聊你。"
       },
       {
-        "en": "D: Well, yeah. VP position is not easy, you know. I implement policies and procedures nationwide in various departments, as well as trained junior managers in FDA and EPA regulations. I also have to oversee daily operations of our quality control for the entire East Coast. That alone means I have 1,500 employees under me.",
-        "zh": "D：嗯，是啊。副总裁的位置可不轻松，你知道的。我在全国范围内为各个部门推行政策和流程，还要培训初级经理学习FDA和EPA法规。我还得监督整个东海岸的质量控制日常运营。光是这部分就管着1500名员工。"
+        "en": "A: I guess he must be pretty busy at work.",
+        "zh": "A：我猜你工作一定很忙吧。"
       },
       {
-        "en": "B: Wow. Yeah, that sounds exciting.",
-        "zh": "B：哇。嗯，听起来真带劲。"
+        "en": "D: Well, yeah.",
+        "zh": "D：嗯，是啊。"
       },
       {
-        "en": "D: And what about you, Arthur? What do you do for a living?",
-        "zh": "D：那你呢，亚瑟？你是做什么工作的？"
+        "en": "D: VP position is not easy, you know.",
+        "zh": "D：副总裁的位置可不轻松，你知道的。"
+      },
+      {
+        "en": "D: I implement policies and procedures nationwide in various departments, as well as trained junior managers in FDA and EPA regulations.",
+        "zh": "D：我在全国范围内为各个部门推行政策和流程，还要培训初级经理学习FDA和EPA法规。"
+      },
+      {
+        "en": "D: I also have to oversee daily operations of our quality control for the entire East Coast.",
+        "zh": "D：我还得监督整个东海岸的质量控制日常运营。"
+      },
+      {
+        "en": "D: That alone means I have 1,500 employees under me.",
+        "zh": "D：光是这部分就管着1500名员工。"
+      },
+      {
+        "en": "B: Wow.",
+        "zh": "B：哇。"
+      },
+      {
+        "en": "B: Yeah, that sounds exciting.",
+        "zh": "B：嗯，听起来真带劲。"
+      },
+      {
+        "en": "D: And what about you, Arthur?",
+        "zh": "D：那你呢，亚瑟？"
+      },
+      {
+        "en": "D: What do you do for a living?",
+        "zh": "D：你是做什么工作的？"
       },
       {
         "en": "B: I'm a top gun pilot.",
@@ -1046,28 +1622,44 @@
         "zh": "A：当然可以，您想约哪天？"
       },
       {
-        "en": "B: How's Thursday? Does she have any time available then?",
-        "zh": "B：周四怎么样？她那天有空吗？"
+        "en": "B: How's Thursday?",
+        "zh": "B：周四怎么样？"
+      },
+      {
+        "en": "B: Does she have any time available then?",
+        "zh": "B：她那天有空吗？"
       },
       {
         "en": "A: Um... let me double check... unfortunately, she's booked solid on Thursday, how does next Monday work for you?",
         "zh": "A：嗯……让我确认一下……不巧，她周四已经排满了，下周一行吗？"
       },
       {
-        "en": "B: Actually, I've got something scheduled on Monday. Can she do Tuesday?",
-        "zh": "B：其实，我周一已经有安排了。她能约周二吗？"
+        "en": "B: Actually, I've got something scheduled on Monday.",
+        "zh": "B：其实，我周一已经有安排了。"
       },
       {
-        "en": "A: Sure, Tuesday's perfect. May I ask where you're calling from?",
-        "zh": "A：当然，周二没问题。请问您是从哪里打来的？"
+        "en": "B: Can she do Tuesday?",
+        "zh": "B：她能约周二吗？"
+      },
+      {
+        "en": "A: Sure, Tuesday's perfect.",
+        "zh": "A：当然，周二没问题。"
+      },
+      {
+        "en": "A: May I ask where you're calling from?",
+        "zh": "A：请问您是从哪里打来的？"
       },
       {
         "en": "B: Sure, Merton Financial Advisors.",
         "zh": "B：默顿财务顾问公司。"
       },
       {
-        "en": "A: Oh, actually, Tuesday's no good. Sorry 'bout that.",
-        "zh": "A：哦，其实周二不行了。抱歉。"
+        "en": "A: Oh, actually, Tuesday's no good.",
+        "zh": "A：哦，其实周二不行了。"
+      },
+      {
+        "en": "A: Sorry 'bout that.",
+        "zh": "A：抱歉。"
       }
     ]
   },
@@ -1082,28 +1674,52 @@
         "zh": "A：你们两个今晚有什么计划吗？"
       },
       {
-        "en": "B: We were thinking of checking out a restaurant in the neigbourhood. Do you have any suggestions?",
-        "zh": "B：我们想去附近试试一家餐厅。你有什么推荐吗？"
+        "en": "B: We were thinking of checking out a restaurant in the neigbourhood.",
+        "zh": "B：我们想去附近试试一家餐厅。"
       },
       {
-        "en": "A: I know this really nice Italian place. The food is fantastic, and the d' ecor is beautiful. I'd recommend giving it a try.",
-        "zh": "A：我知道一家很棒的意大利餐厅。食物非常好吃，装修也很漂亮。我强烈推荐。"
+        "en": "B: Do you have any suggestions?",
+        "zh": "B：你有什么推荐吗？"
+      },
+      {
+        "en": "A: I know this really nice Italian place.",
+        "zh": "A：我知道一家很棒的意大利餐厅。"
+      },
+      {
+        "en": "A: The food is fantastic, and the d' ecor is beautiful.",
+        "zh": "A：食物非常好吃，装修也很漂亮。"
+      },
+      {
+        "en": "A: I'd recommend giving it a try.",
+        "zh": "A：我强烈推荐。"
       },
       {
         "en": "C: Actually, I'm not all that crazy about Italian food; I'm in the mood for something a bit lighter.",
         "zh": "C：其实，我不太热衷意大利菜；我现在想吃清淡一点的。"
       },
       {
-        "en": "A: In that case, I know a great little bistro. They make a really tasty seafood platter; the fish is outstanding.",
-        "zh": "A：那样的话，我知道一家很棒的小酒馆。他们做的海鲜拼盘特别好吃，鱼也很出色。"
+        "en": "A: In that case, I know a great little bistro.",
+        "zh": "A：那样的话，我知道一家很棒的小酒馆。"
+      },
+      {
+        "en": "A: They make a really tasty seafood platter; the fish is outstanding.",
+        "zh": "A：他们做的海鲜拼盘特别好吃，鱼也很出色。"
       },
       {
         "en": "B: It sounds fantastic, but I'm allergic to seafood, so...",
         "zh": "B：听起来不错，但我对海鲜过敏，所以……"
       },
       {
-        "en": "A: Okay, well, let me think... Oh, I know this great little place. It's just a hole in the wall, but they do the most amazing sandwiches. You gotta give them a try.",
-        "zh": "A：好吧，让我想想……哦，我知道一个小地方。虽然门面不起眼，但他们做的三明治简直绝了。你们一定得试试。"
+        "en": "A: Okay, well, let me think... Oh, I know this great little place.",
+        "zh": "A：好吧，让我想想……哦，我知道一个小地方。"
+      },
+      {
+        "en": "A: It's just a hole in the wall, but they do the most amazing sandwiches.",
+        "zh": "A：虽然门面不起眼，但他们做的三明治简直绝了。"
+      },
+      {
+        "en": "A: You gotta give them a try.",
+        "zh": "A：你们一定得试试。"
       },
       {
         "en": "C: Ella, you took me there last time I visited, and I got food poisoning, remember?",
@@ -1130,8 +1746,12 @@
         "zh": "A：所以，我想做的是：首先指定一个人负责起草我们的计划；拉尔夫，我希望你来领导这个项目。"
       },
       {
-        "en": "C: Sure, no problem. What issues do you want me to consider?",
-        "zh": "C：没问题。你希望我考虑哪些方面？"
+        "en": "C: Sure, no problem.",
+        "zh": "C：没问题。"
+      },
+      {
+        "en": "C: What issues do you want me to consider?",
+        "zh": "C：你希望我考虑哪些方面？"
       },
       {
         "en": "B: Well, let's see, there are a few points we need to be 7 thinking about... first, I'll need you to analyze our numbers and figure out what kind of financial impact an outbreak might have.",
@@ -1142,12 +1762,32 @@
         "zh": "A：你还需要考虑如何避免我们的员工被感染；想想如何减少员工与客户的接触，也许可以通过一些IT方案让员工在家办公。"
       },
       {
-        "en": "C: I guess you'll need me to forecast employee absences as well, right? And I'll think about the impact this will have on our clients. Hey, what about vaccines? Should we be thinking about getting vaccines for our employees?",
-        "zh": "C：我猜你也需要我预测员工缺勤的情况，对吗？我还会考虑这对我们客户的影响。嘿，疫苗呢？我们是否应该考虑为员工接种疫苗？"
+        "en": "C: I guess you'll need me to forecast employee absences as well, right?",
+        "zh": "C：我猜你也需要我预测员工缺勤的情况，对吗？"
       },
       {
-        "en": "A: Exactly right. So, I'll leave this to you, and we'll review the draft plan in two weeks. Okay, so, anyone want to order some KFC for lunch?",
-        "zh": "A：完全正确。那么，这个就交给你了，我们两周后评审草案。好了，有人想叫点肯德基当午餐吗？"
+        "en": "C: And I'll think about the impact this will have on our clients.",
+        "zh": "C：我还会考虑这对我们客户的影响。"
+      },
+      {
+        "en": "C: Hey, what about vaccines?",
+        "zh": "C：嘿，疫苗呢？"
+      },
+      {
+        "en": "C: Should we be thinking about getting vaccines for our employees?",
+        "zh": "C：我们是否应该考虑为员工接种疫苗？"
+      },
+      {
+        "en": "A: Exactly right.",
+        "zh": "A：完全正确。"
+      },
+      {
+        "en": "A: So, I'll leave this to you, and we'll review the draft plan in two weeks.",
+        "zh": "A：那么，这个就交给你了，我们两周后评审草案。"
+      },
+      {
+        "en": "A: Okay, so, anyone want to order some KFC for lunch?",
+        "zh": "A：好了，有人想叫点肯德基当午餐吗？"
       }
     ]
   },
@@ -1158,32 +1798,56 @@
     "title": "New Year Resolution",
     "content": [
       {
-        "en": "A: So, did I tell you about my New Year's resolution? I've decided to go on a diet.",
-        "zh": "A：对了，我跟你说过我的新年决心吗？我决定开始节食。"
+        "en": "A: So, did I tell you about my New Year's resolution?",
+        "zh": "A：对了，我跟你说过我的新年决心吗？"
+      },
+      {
+        "en": "A: I've decided to go on a diet.",
+        "zh": "A：我决定开始节食。"
       },
       {
         "en": "B: And you're going to completely transform your eating habits, right?",
         "zh": "B：然后你会彻底改变你的饮食习惯，对吧？"
       },
       {
-        "en": "A: Exactly! I'm going to cut out all that junk I eat; no more chips, no more soda, no more fried food.",
-        "zh": "A：没错！我要戒掉所有那些垃圾食品；不再吃薯片，不喝汽水，不吃油炸食品。"
+        "en": "A: Exactly!",
+        "zh": "A：没错！"
+      },
+      {
+        "en": "A: I'm going to cut out all that junk I eat; no more chips, no more soda, no more fried food.",
+        "zh": "A：我要戒掉所有那些垃圾食品；不再吃薯片，不喝汽水，不吃油炸食品。"
       },
       {
         "en": "B: I've heard this one before.",
         "zh": "B：这话我以前听过。"
       },
       {
-        "en": "A: But this time I'm going to stick to it. I really mean it! Trust me, Carol, I'm going to be a new man in one year's time!",
-        "zh": "A：但这回我一定会坚持到底。我是认真的！相信我，卡罗尔，一年后我会是一个全新的人！"
+        "en": "A: But this time I'm going to stick to it.",
+        "zh": "A：但这回我一定会坚持到底。"
+      },
+      {
+        "en": "A: I really mean it!",
+        "zh": "A：我是认真的！"
+      },
+      {
+        "en": "A: Trust me, Carol, I'm going to be a new man in one year's time!",
+        "zh": "A：相信我，卡罗尔，一年后我会是一个全新的人！"
       },
       {
         "en": "B: Well, I guess we'll just have to wait and see.",
         "zh": "B：好吧，我们就等着看吧。"
       },
       {
-        "en": "A: Thanks, honey, that was a great meal. I'm stuffed. Do we have any chips left?",
-        "zh": "A：谢谢亲爱的，这顿饭真不错。我吃撑了。我们还有薯片吗？"
+        "en": "A: Thanks, honey, that was a great meal.",
+        "zh": "A：谢谢亲爱的，这顿饭真不错。"
+      },
+      {
+        "en": "A: I'm stuffed.",
+        "zh": "A：我吃撑了。"
+      },
+      {
+        "en": "A: Do we have any chips left?",
+        "zh": "A：我们还有薯片吗？"
       }
     ]
   },
@@ -1214,12 +1878,20 @@
         "zh": "A：嗯，先生，我只是想也许今年我能请一些无薪假期。"
       },
       {
-        "en": "B: What dates are you planning on taking off? I'll need at least two months notice, so that I can plan for your absence.",
-        "zh": "B：你打算休哪几天？我需要至少提前两个月通知，这样我才能为你的缺席做好准备。"
+        "en": "B: What dates are you planning on taking off?",
+        "zh": "B：你打算休哪几天？"
       },
       {
-        "en": "A: I was thinking of taking off from September first until the thirtieth. Would you be okay with that?",
-        "zh": "A：我想从9月1号休到30号。您觉得可以吗？"
+        "en": "B: I'll need at least two months notice, so that I can plan for your absence.",
+        "zh": "B：我需要至少提前两个月通知，这样我才能为你的缺席做好准备。"
+      },
+      {
+        "en": "A: I was thinking of taking off from September first until the thirtieth.",
+        "zh": "A：我想从9月1号休到30号。"
+      },
+      {
+        "en": "A: Would you be okay with that?",
+        "zh": "A：您觉得可以吗？"
       },
       {
         "en": "B: Well, I guess so.",
@@ -1238,28 +1910,64 @@
         "zh": "A：你的脚踝没断，我真是松了一口气！我对这整件事感到非常抱歉。我想补偿你。让我今晚请你吃饭吧，我请客。"
       },
       {
-        "en": "B: That sounds great! I'd love to! Here is my address. Pick me up at eight?",
-        "zh": "B：太好了！我很乐意！这是我的地址。八点来接我？"
+        "en": "B: That sounds great!",
+        "zh": "B：太好了！"
+      },
+      {
+        "en": "B: I'd love to!",
+        "zh": "B：我很乐意！"
+      },
+      {
+        "en": "B: Here is my address.",
+        "zh": "B：这是我的地址。"
+      },
+      {
+        "en": "B: Pick me up at eight?",
+        "zh": "B：八点来接我？"
       },
       {
         "en": "A: Perfect!",
         "zh": "A：完美！"
       },
       {
-        "en": "B: Thank you for such a lovely evening! The food was amazing, and I had a great time.",
-        "zh": "B：谢谢你给了我这么一个美好的夜晚！食物很棒，我玩得很开心。"
+        "en": "B: Thank you for such a lovely evening!",
+        "zh": "B：谢谢你给了我这么一个美好的夜晚！"
       },
       {
-        "en": "A: Me too. You look so beautiful tonight! I wish this night would never end. There's something I have to tell you...",
-        "zh": "A：我也是。你今晚看起来真美！我希望这个夜晚永远不会结束。我有件事必须告诉你……"
+        "en": "B: The food was amazing, and I had a great time.",
+        "zh": "B：食物很棒，我玩得很开心。"
+      },
+      {
+        "en": "A: Me too.",
+        "zh": "A：我也是。"
+      },
+      {
+        "en": "A: You look so beautiful tonight!",
+        "zh": "A：你今晚看起来真美！"
+      },
+      {
+        "en": "A: I wish this night would never end.",
+        "zh": "A：我希望这个夜晚永远不会结束。"
+      },
+      {
+        "en": "A: There's something I have to tell you...",
+        "zh": "A：我有件事必须告诉你……"
       },
       {
         "en": "B: What is it?",
         "zh": "B：什么事？"
       },
       {
-        "en": "A: I woke up today thinking this would be just like any other ordinary day, but I was wrong. A twist of fate brought us together. I crashed into your life and you into mine, and this may sound crazy, but I'm falling",
-        "zh": "A：今天醒来时我以为这会是又一个平凡的日子，但我错了。命运的转折让我们相遇。我闯进了你的生活，你也闯进了我的，这听起来也许很疯狂，但我正在沦陷……"
+        "en": "A: I woke up today thinking this would be just like any other ordinary day, but I was wrong.",
+        "zh": "A：今天醒来时我以为这会是又一个平凡的日子，但我错了。"
+      },
+      {
+        "en": "A: A twist of fate brought us together.",
+        "zh": "A：命运的转折让我们相遇。"
+      },
+      {
+        "en": "A: I crashed into your life and you into mine, and this may sound crazy, but I'm falling",
+        "zh": "A：我闯进了你的生活，你也闯进了我的，这听起来也许很疯狂，但我正在沦陷……"
       }
     ]
   },
@@ -1278,24 +1986,84 @@
         "zh": "B：没问题，强尼，你需要多少？五块钱？"
       },
       {
-        "en": "A: Come on, Dad, I need thirty thousand. I wanna get into the market. You know, I'm tired of hearing all this news about the economic downturn, the inevitable recession, people stuffing their money in their mattresses. I look at this as an opportunity. This is a chance for me to get a jump start on building my nest egg.",
-        "zh": "A：别这样爸，我要三万。我想进入股市。你知道，我听够了所有关于经济衰退、不可避免的萧条、人们把钱塞到床垫里的新闻。我反而把这看作一个机会。这是让我抢先起步积累养老金的好机会。"
+        "en": "A: Come on, Dad, I need thirty thousand.",
+        "zh": "A：别这样爸，我要三万。"
       },
       {
-        "en": "B: I don't know about that; with all the uncertainty in the markets right now, it would be a very unwise decision to invest. I don't know if you're aware son, but there has been a lot of turmoil in the markets recently. There have already been half a million layoffs in the last few months, and we have no idea how the proposed stimulus package will impact the economy. There's just too much instability. I wouldn't feel comfortable investing in this climate.",
-        "zh": "B：这个我不太确定；现在市场有太多不确定性了，投资将是一个非常不明智的决定。儿子，我不知道你是否了解，最近市场动荡很大。过去几个月已经有五十万人被裁员了，而且我们还不知道提出的经济刺激方案会对经济产生什么影响。有太多不稳定性了。在这种环境下投资，我无法安心。"
+        "en": "A: I wanna get into the market.",
+        "zh": "A：我想进入股市。"
       },
       {
-        "en": "A: But look at it this way, every challenge is an opportunity. And anyway, I'm not talking about investing 8 in the domestic market. There are emerging markets that promise great returns. Look at China, for example; they have 1.4 billion people, half a billion of whom have recently entered the middle class. Here alone, the aggregate demand for consumer goods re Presents an amazing wealth generating opportunity.",
-        "zh": "A：但换个角度看，每个挑战都是机遇。再说了，我不是在说投资国内市场。有一些新兴市场承诺了很高的回报。比如中国，他们有14亿人口，其中五亿最近进入了中产阶级。光是这一点，消费品的总需求就代表了一个令人难以置信的财富创造机会。"
+        "en": "A: You know, I'm tired of hearing all this news about the economic downturn, the inevitable recession, people stuffing their money in their mattresses.",
+        "zh": "A：你知道，我听够了所有关于经济衰退、不可避免的萧条、人们把钱塞到床垫里的新闻。"
+      },
+      {
+        "en": "A: I look at this as an opportunity.",
+        "zh": "A：我反而把这看作一个机会。"
+      },
+      {
+        "en": "A: This is a chance for me to get a jump start on building my nest egg.",
+        "zh": "A：这是让我抢先起步积累养老金的好机会。"
+      },
+      {
+        "en": "B: I don't know about that; with all the uncertainty in the markets right now, it would be a very unwise decision to invest.",
+        "zh": "B：这个我不太确定；现在市场有太多不确定性了，投资将是一个非常不明智的决定。"
+      },
+      {
+        "en": "B: I don't know if you're aware son, but there has been a lot of turmoil in the markets recently.",
+        "zh": "B：儿子，我不知道你是否了解，最近市场动荡很大。"
+      },
+      {
+        "en": "B: There have already been half a million layoffs in the last few months, and we have no idea how the proposed stimulus package will impact the economy.",
+        "zh": "B：过去几个月已经有五十万人被裁员了，而且我们还不知道提出的经济刺激方案会对经济产生什么影响。"
+      },
+      {
+        "en": "B: There's just too much instability.",
+        "zh": "B：有太多不稳定性了。"
+      },
+      {
+        "en": "B: I wouldn't feel comfortable investing in this climate.",
+        "zh": "B：在这种环境下投资，我无法安心。"
+      },
+      {
+        "en": "A: But look at it this way, every challenge is an opportunity.",
+        "zh": "A：但换个角度看，每个挑战都是机遇。"
+      },
+      {
+        "en": "A: And anyway, I'm not talking about investing 8 in the domestic market.",
+        "zh": "A：再说了，我不是在说投资国内市场。"
+      },
+      {
+        "en": "A: There are emerging markets that promise great returns.",
+        "zh": "A：有一些新兴市场承诺了很高的回报。"
+      },
+      {
+        "en": "A: Look at China, for example; they have 1.4 billion people, half a billion of whom have recently entered the middle class.",
+        "zh": "A：比如中国，他们有14亿人口，其中五亿最近进入了中产阶级。"
+      },
+      {
+        "en": "A: Here alone, the aggregate demand for consumer goods re Presents an amazing wealth generating opportunity.",
+        "zh": "A：光是这一点，消费品的总需求就代表了一个令人难以置信的财富创造机会。"
       },
       {
         "en": "B: Come on, son, you're looking at this too naively, the Chinese market has exhibited a great deal of instability, and their currency has been devalued by almost a whole percentage point.",
         "zh": "B：得了吧儿子，你看得太天真了，中国市场表现出了很大的不稳定性，他们的货币已经贬值了将近一个百分点。"
       },
       {
-        "en": "A: Fine, then! If that's the way you feel, so be it. But you're losing out on a great opportunity here. I'm going to go hit up Mum for the cash.",
-        "zh": "A：好吧，算了！如果你是这样想的，那就这样吧。但你正在错失一个巨大的机会。我去找妈妈要钱。"
+        "en": "A: Fine, then!",
+        "zh": "A：好吧，算了！"
+      },
+      {
+        "en": "A: If that's the way you feel, so be it.",
+        "zh": "A：如果你是这样想的，那就这样吧。"
+      },
+      {
+        "en": "A: But you're losing out on a great opportunity here.",
+        "zh": "A：但你正在错失一个巨大的机会。"
+      },
+      {
+        "en": "A: I'm going to go hit up Mum for the cash.",
+        "zh": "A：我去找妈妈要钱。"
       }
     ]
   },
@@ -1306,36 +2074,84 @@
     "title": "Daily Life - New Guy in Town II",
     "content": [
       {
-        "en": "A: Oh, Armand, thank you for such a thoughtful invitation! It's really very nice of you to invite us over for dinner, don't you think so, Ellen?",
-        "zh": "A：哦，阿尔芒，谢谢你这么贴心的邀请！你邀请我们来吃晚饭真是太好了，你说呢，艾伦？"
+        "en": "A: Oh, Armand, thank you for such a thoughtful invitation!",
+        "zh": "A：哦，阿尔芒，谢谢你这么贴心的邀请！"
       },
       {
-        "en": "B: Oh, yes of course! We'd love to come over. Can I bring anything?",
-        "zh": "B：哦，当然是的！我们很愿意过来。需要我带什么吗？"
+        "en": "A: It's really very nice of you to invite us over for dinner, don't you think so, Ellen?",
+        "zh": "A：你邀请我们来吃晚饭真是太好了，你说呢，艾伦？"
       },
       {
-        "en": "C: No, don't worry about it; I'll take care of everything. I'll see you tonight. Come with an appetite... I know I will!",
-        "zh": "C：不用，别担心；我会搞定一切的。今晚见。带着好胃口来……我知道我一定会有！"
+        "en": "B: Oh, yes of course!",
+        "zh": "B：哦，当然是的！"
       },
       {
-        "en": "B: I don't want go over to his place for dinner! He gives me the creeps! Why on earth did you accept?",
-        "zh": "B：我不想去他家吃晚饭！他让我毛骨悚然！你到底为什么要答应？"
+        "en": "B: We'd love to come over.",
+        "zh": "B：我们很愿意过来。"
       },
       {
-        "en": "A: Oh come on Ellen, it will be nice to get to know him. Besides, he's new to the neighborhood, and it would berude to decline his invitation.",
-        "zh": "A：哦算了艾伦，认识一下他也挺好啊。再说了，他刚搬来这个社区，拒绝他的邀请会很不礼貌。"
+        "en": "B: Can I bring anything?",
+        "zh": "B：需要我带什么吗？"
+      },
+      {
+        "en": "C: No, don't worry about it; I'll take care of everything.",
+        "zh": "C：不用，别担心；我会搞定一切的。"
+      },
+      {
+        "en": "C: I'll see you tonight.",
+        "zh": "C：今晚见。"
+      },
+      {
+        "en": "C: Come with an appetite... I know I will!",
+        "zh": "C：带着好胃口来……我知道我一定会有！"
+      },
+      {
+        "en": "B: I don't want go over to his place for dinner!",
+        "zh": "B：我不想去他家吃晚饭！"
+      },
+      {
+        "en": "B: He gives me the creeps!",
+        "zh": "B：他让我毛骨悚然！"
+      },
+      {
+        "en": "B: Why on earth did you accept?",
+        "zh": "B：你到底为什么要答应？"
+      },
+      {
+        "en": "A: Oh come on Ellen, it will be nice to get to know him.",
+        "zh": "A：哦算了艾伦，认识一下他也挺好啊。"
+      },
+      {
+        "en": "A: Besides, he's new to the neighborhood, and it would berude to decline his invitation.",
+        "zh": "A：再说了，他刚搬来这个社区，拒绝他的邀请会很不礼貌。"
       },
       {
         "en": "B: I guess so... You always rope me into things likethis!",
         "zh": "B：我想也是……你总是这样把我拉下水！"
       },
       {
-        "en": "C: Ladies! Thank you for coming! You look delicious... Imean beautiful. Please come in.",
-        "zh": "C：女士们！感谢你们光临！你们看起来真美味……我是说真美。请进。"
+        "en": "C: Ladies!",
+        "zh": "C：女士们！"
       },
       {
-        "en": "A: Oh Oh Armand! You are too kind!",
-        "zh": "A：哦阿尔芒！你太客气了！"
+        "en": "C: Thank you for coming!",
+        "zh": "C：感谢你们光临！"
+      },
+      {
+        "en": "C: You look delicious... Imean beautiful.",
+        "zh": "C：你们看起来真美味……我是说真美。"
+      },
+      {
+        "en": "C: Please come in.",
+        "zh": "C：请进。"
+      },
+      {
+        "en": "A: Oh Oh Armand!",
+        "zh": "A：哦阿尔芒！"
+      },
+      {
+        "en": "A: You are too kind!",
+        "zh": "A：你太客气了！"
       },
       {
         "en": "B: How did I get myself into this...",
@@ -1362,8 +2178,16 @@
         "zh": "A：哦嗨安吉拉，怎么了？"
       },
       {
-        "en": "B: I'm just calling about our meeting today. I wonder, is it possible to reschedule our appointment in the afternoon? I have a bit of an emergency that I need to take care of.",
-        "zh": "B：我就是打电话说今天开会的事。我想问一下，能不能把下午的约重新安排一下？我有点急事需要处理。"
+        "en": "B: I'm just calling about our meeting today.",
+        "zh": "B：我就是打电话说今天开会的事。"
+      },
+      {
+        "en": "B: I wonder, is it possible to reschedule our appointment in the afternoon?",
+        "zh": "B：我想问一下，能不能把下午的约重新安排一下？"
+      },
+      {
+        "en": "B: I have a bit of an emergency that I need to take care of.",
+        "zh": "B：我有点急事需要处理。"
       },
       {
         "en": "A: Let me see, it shouldn't be too much of a problem...",
@@ -1374,20 +2198,40 @@
         "zh": "B：真的很抱歉，希望没有太打扰到你，只是突然出了这件事，而且……"
       },
       {
-        "en": "A: Angela, you know what, I can't make it to our meeting, either. Why don't we postpone it to tomorrow afternoon at the same time?",
-        "zh": "A：安吉拉，其实，我也赴不了会了。要不我们推迟到明天下午同一时间？"
+        "en": "A: Angela, you know what, I can't make it to our meeting, either.",
+        "zh": "A：安吉拉，其实，我也赴不了会了。"
       },
       {
-        "en": "B: Sounds great. See you tomorrow.",
-        "zh": "B：听起来不错。明天见。"
+        "en": "A: Why don't we postpone it to tomorrow afternoon at the same time?",
+        "zh": "A：要不我们推迟到明天下午同一时间？"
       },
       {
-        "en": "C: Angela.. Angela, look up! See that lady over there who is trying on a red leather jacket? Isn't that Samantha?",
-        "zh": "C：安吉拉……安吉拉，快看！看到那边那个在试穿红色皮夹克的女人了吗？那不是萨曼莎吗？"
+        "en": "B: Sounds great.",
+        "zh": "B：听起来不错。"
       },
       {
-        "en": "B: What? No wonder she told me she couldn't make it to the meeting, oh, no, I think she saw me...",
-        "zh": "B：什么？难怪她跟我说她来不了会，哦不，我想她看到我了……"
+        "en": "B: See you tomorrow.",
+        "zh": "B：明天见。"
+      },
+      {
+        "en": "C: Angela.. Angela, look up!",
+        "zh": "C：安吉拉……安吉拉，快看！"
+      },
+      {
+        "en": "C: See that lady over there who is trying on a red leather jacket?",
+        "zh": "C：看到那边那个在试穿红色皮夹克的女人了吗？"
+      },
+      {
+        "en": "C: Isn't that Samantha?",
+        "zh": "C：那不是萨曼莎吗？"
+      },
+      {
+        "en": "B: What?",
+        "zh": "B：什么？"
+      },
+      {
+        "en": "B: No wonder she told me she couldn't make it to the meeting, oh, no, I think she saw me...",
+        "zh": "B：难怪她跟我说她来不了会，哦不，我想她看到我了……"
       }
     ]
   },
@@ -1398,16 +2242,28 @@
     "title": "Daily Life - Opening a Bank Account",
     "content": [
       {
-        "en": "A: Next, please. May I help you, sir?",
-        "zh": "A：下一位。有什么可以帮您，先生？"
+        "en": "A: Next, please.",
+        "zh": "A：下一位。"
+      },
+      {
+        "en": "A: May I help you, sir?",
+        "zh": "A：有什么可以帮您，先生？"
       },
       {
         "en": "B: Hello, yes, I'd like to open a bank account.",
         "zh": "B：你好，是的，我想开一个银行账户。"
       },
       {
-        "en": "A: Certainly, I can can help you with that. What type of account would you like to open? A chequing or a savings account?",
-        "zh": "A：当然，我可以帮您办理。您想开哪种类型的账户？支票账户还是储蓄账户？"
+        "en": "A: Certainly, I can can help you with that.",
+        "zh": "A：当然，我可以帮您办理。"
+      },
+      {
+        "en": "A: What type of account would you like to open?",
+        "zh": "A：您想开哪种类型的账户？"
+      },
+      {
+        "en": "A: A chequing or a savings account?",
+        "zh": "A：支票账户还是储蓄账户？"
       },
       {
         "en": "B: What What features do they offer?",
@@ -1422,16 +2278,32 @@
         "zh": "B：我明白了，嗯，我想我对支票账户更感兴趣；我喜欢能方便地取用我的钱。"
       },
       {
-        "en": "A: Alright, then, with this chequing account you'll be issued a debit card and a cheque book. Will you require overdraft protection? There is an extra fee for that.",
-        "zh": "A：好的，那么有了这个支票账户，您将获得一张借记卡和一本支票簿。您需要透支保护吗？那需要额外收费。"
+        "en": "A: Alright, then, with this chequing account you'll be issued a debit card and a cheque book.",
+        "zh": "A：好的，那么有了这个支票账户，您将获得一张借记卡和一本支票簿。"
+      },
+      {
+        "en": "A: Will you require overdraft protection?",
+        "zh": "A：您需要透支保护吗？"
+      },
+      {
+        "en": "A: There is an extra fee for that.",
+        "zh": "A：那需要额外收费。"
       },
       {
         "en": "B: No, that won't be necessary.",
         "zh": "B：不用了，不需要。"
       },
       {
-        "en": "A: In that case, I'll get you to fill out this paperwork; I'll need your social insurance number, and two pieces of government ID. If you could just sign here, and here, and here; we'll be all set. Would you like to make a deposit today?",
-        "zh": "A：那么，我来帮您填好这些表格；我需要您的社会保险号和两份政府颁发的身份证件。请在这里、这里和这里签字，就好了。您今天要存款吗？"
+        "en": "A: In that case, I'll get you to fill out this paperwork; I'll need your social insurance number, and two pieces of government ID.",
+        "zh": "A：那么，我来帮您填好这些表格；我需要您的社会保险号和两份政府颁发的身份证件。"
+      },
+      {
+        "en": "A: If you could just sign here, and here, and here; we'll be all set.",
+        "zh": "A：请在这里、这里和这里签字，就好了。"
+      },
+      {
+        "en": "A: Would you like to make a deposit today?",
+        "zh": "A：您今天要存款吗？"
       },
       {
         "en": "B: Yes, I'd like to deposit one billion dollars.",
@@ -1462,28 +2334,56 @@
         "zh": "B：当然是公牛队！"
       },
       {
-        "en": "A: What! That wasn't a foul! C'mon, ref!",
-        "zh": "A：什么！那不是犯规！拜托，裁判！"
+        "en": "A: What!",
+        "zh": "A：什么！"
+      },
+      {
+        "en": "A: That wasn't a foul!",
+        "zh": "A：那不是犯规！"
+      },
+      {
+        "en": "A: C'mon, ref!",
+        "zh": "A：拜托，裁判！"
       },
       {
         "en": "B: Don't worry, Shaq always screws up free throws.",
         "zh": "B：别担心，奥尼尔罚球从来不准。"
       },
       {
-        "en": "A: You were right! He didn't make the shot!",
-        "zh": "A：你说对了！他没投进！"
+        "en": "A: You were right!",
+        "zh": "A：你说对了！"
       },
       {
-        "en": "B: That was a great shot! A three pointer, yeah!",
-        "zh": "B：漂亮！一个三分球，耶！"
+        "en": "A: He didn't make the shot!",
+        "zh": "A：他没投进！"
       },
       {
-        "en": "A: Did you see that? He traveled and the ref didn't call it!",
-        "zh": "A：你看到了吗？他走步了，裁判居然没吹！"
+        "en": "B: That was a great shot!",
+        "zh": "B：漂亮！"
       },
       {
-        "en": "B: This ref needs glasses. Hey ref, open your eyes! I can't believe he didn't see that!",
-        "zh": "B：这个裁判需要配副眼镜了。嘿裁判，睁大你的眼睛！我真不敢相信他居然没看到！"
+        "en": "B: A three pointer, yeah!",
+        "zh": "B：一个三分球，耶！"
+      },
+      {
+        "en": "A: Did you see that?",
+        "zh": "A：你看到了吗？"
+      },
+      {
+        "en": "A: He traveled and the ref didn't call it!",
+        "zh": "A：他走步了，裁判居然没吹！"
+      },
+      {
+        "en": "B: This ref needs glasses.",
+        "zh": "B：这个裁判需要配副眼镜了。"
+      },
+      {
+        "en": "B: Hey ref, open your eyes!",
+        "zh": "B：嘿裁判，睁大你的眼睛！"
+      },
+      {
+        "en": "B: I can't believe he didn't see that!",
+        "zh": "B：我真不敢相信他居然没看到！"
       },
       {
         "en": "A: Okay... end of the first qua rter... Alright, I'm gonna make a beer run.",
@@ -1506,16 +2406,36 @@
         "zh": "B：麦德琳，现在具体是什么情况？"
       },
       {
-        "en": "A: Well, Tom, true to American tradition, the band has just played \"Hail to the Chief\", and the President has been honored by a 21-gun salute. Now we're waiting for the President to take to the stag e and deliver his speech. Tom, it's like a who's who of the political world here on Capital Hill, with dignitaries representing several different countries.",
-        "zh": "A：嗯，汤姆，按照美国传统，乐队刚刚演奏了《向统帅致敬》，总统接受了21响礼炮的致敬。现在我们在等待总统上台发表演讲。汤姆，国会山上仿佛是政界名人录，有来自多个国家的政要代表出席。"
+        "en": "A: Well, Tom, true to American tradition, the band has just played \"Hail to the Chief\", and the President has been honored by a 21-gun salute.",
+        "zh": "A：嗯，汤姆，按照美国传统，乐队刚刚演奏了《向统帅致敬》，总统接受了21响礼炮的致敬。"
+      },
+      {
+        "en": "A: Now we're waiting for the President to take to the stag e and deliver his speech.",
+        "zh": "A：现在我们在等待总统上台发表演讲。"
+      },
+      {
+        "en": "A: Tom, it's like a who's who of the political world here on Capital Hill, with dignitaries representing several different countries.",
+        "zh": "A：汤姆，国会山上仿佛是政界名人录，有来自多个国家的政要代表出席。"
       },
       {
         "en": "B: What's the mood on the ground like, Madeline?",
         "zh": "B：现场的气氛怎么样，麦德琳？"
       },
       {
-        "en": "A: In a word, the mood here is electric. The excitement in the air is palpable; I've never seen a larger crowd here on Capital Hill, and the audience is shouting, crying, and embracing each other. On this, a most historic day, you can feel the hope and the excitement in the air. The 20th of January will go down in history as the... Oh, Tom, it looks like the President is about to begin...",
-        "zh": "A：一言以蔽之，现场气氛令人激动。空气中都能感受到兴奋；我从未在国会山上见过这么多的人群，观众们在欢呼、哭泣、互相拥抱。在这个历史性的日子里，你能感受到空气中弥漫的希望和兴奋。1月20日将作为……哦汤姆，看起来总统要开始了……"
+        "en": "A: In a word, the mood here is electric.",
+        "zh": "A：一言以蔽之，现场气氛令人激动。"
+      },
+      {
+        "en": "A: The excitement in the air is palpable; I've never seen a larger crowd here on Capital Hill, and the audience is shouting, crying, and embracing each other.",
+        "zh": "A：空气中都能感受到兴奋；我从未在国会山上见过这么多的人群，观众们在欢呼、哭泣、互相拥抱。"
+      },
+      {
+        "en": "A: On this, a most historic day, you can feel the hope and the excitement in the air.",
+        "zh": "A：在这个历史性的日子里，你能感受到空气中弥漫的希望和兴奋。"
+      },
+      {
+        "en": "A: The 20th of January will go down in history as the... Oh, Tom, it looks like the President is about to begin...",
+        "zh": "A：1月20日将作为……哦汤姆，看起来总统要开始了……"
       },
       {
         "en": "C: My fellow Americans, today I stand before you...",
@@ -1542,12 +2462,24 @@
         "zh": "A：基本上，我对他有一些担忧，归根结底就是，我觉得他不适合我们公司。"
       },
       {
-        "en": "B: Okay... what makes you say that? I thought you were pleased with his overall performance. Didn't you just tell me last week how impressed you were with his attitude?",
-        "zh": "B：好吧……是什么让你这么说？我以为你对他总体表现很满意。你上周不是才跟我说你对他的态度印象深刻吗？"
+        "en": "B: Okay... what makes you say that?",
+        "zh": "B：好吧……是什么让你这么说？"
       },
       {
-        "en": "A: Yeah, his attitude is great, but he's really unreliable. Sometimes he's really produc tive, but then other times... take last Tuesday for instance, he was forty-five minutes late for our morning meeting!",
-        "zh": "A：是啊，他的态度是很好，但他真的很不可靠。有时他效率很高，但有时候……就拿上周二来说，他开早会迟到了四十五分钟！"
+        "en": "B: I thought you were pleased with his overall performance.",
+        "zh": "B：我以为你对他总体表现很满意。"
+      },
+      {
+        "en": "B: Didn't you just tell me last week how impressed you were with his attitude?",
+        "zh": "B：你上周不是才跟我说你对他的态度印象深刻吗？"
+      },
+      {
+        "en": "A: Yeah, his attitude is great, but he's really unreliable.",
+        "zh": "A：是啊，他的态度是很好，但他真的很不可靠。"
+      },
+      {
+        "en": "A: Sometimes he's really produc tive, but then other times... take last Tuesday for instance, he was forty-five minutes late for our morning meeting!",
+        "zh": "A：有时他效率很高，但有时候……就拿上周二来说，他开早会迟到了四十五分钟！"
       },
       {
         "en": "B: Well, I'm sure he had a perfectly good reason...",
@@ -1558,12 +2490,24 @@
         "zh": "A：但这还不是唯一的……你知道，他的工作态度真的不太好，我经常抓到他本该跟客户沟通的时候在刷MSN和Facebook。"
       },
       {
-        "en": "B: Yeah, but come on, Geoff, as if you don't check Facebook at work. Look, you hired this guy, we've invested a lot of time and money in his training, so now it's up to you to coach him. Make it work, Geoff!",
-        "zh": "B：是啊，但是，拜托，杰夫，好像你自己上班不刷Facebook似的。听着，这人是你招的，我们在他的培训上投入了大量时间和金钱，所以现在你得负责带好他。想办法搞定，杰夫！"
+        "en": "B: Yeah, but come on, Geoff, as if you don't check Facebook at work.",
+        "zh": "B：是啊，但是，拜托，杰夫，好像你自己上班不刷Facebook似的。"
       },
       {
-        "en": "A: Make it work, Geoff. You would say that, wouldn't you, he is your cousin; what a jerk, make me hire your stupid, useless, cousin.",
-        "zh": "A：想办法搞定，杰夫。你当然会这么说了，他是你表弟；真是个混蛋，逼我雇你那又蠢又没用的表弟。"
+        "en": "B: Look, you hired this guy, we've invested a lot of time and money in his training, so now it's up to you to coach him.",
+        "zh": "B：听着，这人是你招的，我们在他的培训上投入了大量时间和金钱，所以现在你得负责带好他。"
+      },
+      {
+        "en": "B: Make it work, Geoff!",
+        "zh": "B：想办法搞定，杰夫！"
+      },
+      {
+        "en": "A: Make it work, Geoff.",
+        "zh": "A：想办法搞定，杰夫。"
+      },
+      {
+        "en": "A: You would say that, wouldn't you, he is your cousin; what a jerk, make me hire your stupid, useless, cousin.",
+        "zh": "A：你当然会这么说了，他是你表弟；真是个混蛋，逼我雇你那又蠢又没用的表弟。"
       }
     ]
   },
@@ -1574,36 +2518,92 @@
     "title": "I’m Sorry, I Love You III",
     "content": [
       {
-        "en": "A: Steven! Where have you been? I've been trying to get a hold of you for hours!",
-        "zh": "A：史蒂文！你去哪了？我已经找了你几个小时了！"
+        "en": "A: Steven!",
+        "zh": "A：史蒂文！"
+      },
+      {
+        "en": "A: Where have you been?",
+        "zh": "A：你去哪了？"
+      },
+      {
+        "en": "A: I've been trying to get a hold of you for hours!",
+        "zh": "A：我已经找了你几个小时了！"
       },
       {
         "en": "B: I... um... there was an emergency at work, so...",
         "zh": "B：我……嗯……工作上出了紧急情况，所以……"
       },
       {
-        "en": "A: I was waiting for you in the restaurant for three hours! And you didn't even have the decency to call me! Do you have any idea how embarrassed I was?",
-        "zh": "A：我在餐厅等了你三个小时！你甚至连打个电话给我的礼貌都没有！你知道我有多尴尬吗？"
+        "en": "A: I was waiting for you in the restaurant for three hours!",
+        "zh": "A：我在餐厅等了你三个小时！"
+      },
+      {
+        "en": "A: And you didn't even have the decency to call me!",
+        "zh": "A：你甚至连打个电话给我的礼貌都没有！"
+      },
+      {
+        "en": "A: Do you have any idea how embarrassed I was?",
+        "zh": "A：你知道我有多尴尬吗？"
       },
       {
         "en": "B: Honey, I promise this won't happen again, it's just that I...",
         "zh": "B：亲爱的，我保证不会再这样了，只是我……"
       },
       {
-        "en": "A: Yeah, right. I've heard it all before. I'm not going to take any more of your empty promises. This is the 5th time you've stood me up in two weeks! You need to get your priorities straight. I'm tired of you putting your job first all the time!",
-        "zh": "A：是啊，说得好。这些话我早就听腻了。我不会再接受你这些空洞的承诺了。这是两周内你第五次放我鸽子了！你得把事情的轻重缓急搞清楚。我受够了你总把工作放在第一位！"
+        "en": "A: Yeah, right.",
+        "zh": "A：是啊，说得好。"
       },
       {
-        "en": "B: Come on, Veronica, that's not fair. I do care about you a lot, you know that. I tried to...",
-        "zh": "B：拜托，维罗妮卡，这不公平。我真的很在乎你，你知道的。我想……"
+        "en": "A: I've heard it all before.",
+        "zh": "A：这些话我早就听腻了。"
       },
       {
-        "en": "A: You know what? Maybe we should just take a break. I need some time to think about where this relationship is heading.",
-        "zh": "A：知道吗？也许我们应该先冷静一段时间。我需要一些时间来思考这段关系的走向。"
+        "en": "A: I'm not going to take any more of your empty promises.",
+        "zh": "A：我不会再接受你这些空洞的承诺了。"
       },
       {
-        "en": "B: But... Veronica, would you just listen to me? There was a fire alarm at my office building today and I was stuck...",
-        "zh": "B：但是……维罗妮卡，你就不能听我说吗？今天我办公楼发生了消防警报，我被困在了……"
+        "en": "A: This is the 5th time you've stood me up in two weeks!",
+        "zh": "A：这是两周内你第五次放我鸽子了！"
+      },
+      {
+        "en": "A: You need to get your priorities straight.",
+        "zh": "A：你得把事情的轻重缓急搞清楚。"
+      },
+      {
+        "en": "A: I'm tired of you putting your job first all the time!",
+        "zh": "A：我受够了你总把工作放在第一位！"
+      },
+      {
+        "en": "B: Come on, Veronica, that's not fair.",
+        "zh": "B：拜托，维罗妮卡，这不公平。"
+      },
+      {
+        "en": "B: I do care about you a lot, you know that.",
+        "zh": "B：我真的很在乎你，你知道的。"
+      },
+      {
+        "en": "B: I tried to...",
+        "zh": "B：我想……"
+      },
+      {
+        "en": "A: You know what?",
+        "zh": "A：知道吗？"
+      },
+      {
+        "en": "A: Maybe we should just take a break.",
+        "zh": "A：也许我们应该先冷静一段时间。"
+      },
+      {
+        "en": "A: I need some time to think about where this relationship is heading.",
+        "zh": "A：我需要一些时间来思考这段关系的走向。"
+      },
+      {
+        "en": "B: But... Veronica, would you just listen to me?",
+        "zh": "B：但是……维罗妮卡，你就不能听我说吗？"
+      },
+      {
+        "en": "B: There was a fire alarm at my office building today and I was stuck...",
+        "zh": "B：今天我办公楼发生了消防警报，我被困在了……"
       }
     ]
   },
@@ -1614,16 +2614,44 @@
     "title": "Intermediate - Chinese New Year",
     "content": [
       {
-        "en": "A: I'm so excited about Chinese New Year! When do I get to visit Grandma? Grandma makes the best dumplings in the world!",
-        "zh": "A：我对中国新年太期待了！我什么时候能去看奶奶？奶奶做的饺子是全世界最好吃的！"
+        "en": "A: I'm so excited about Chinese New Year!",
+        "zh": "A：我对中国新年太期待了！"
       },
       {
-        "en": "B: Ha ha, right. Sounds to me like you're more excited about the dumplings than seeing your Grandma.",
-        "zh": "B：哈哈，好吧。听起来你好像对饺子的期待比见奶奶还多。"
+        "en": "A: When do I get to visit Grandma?",
+        "zh": "A：我什么时候能去看奶奶？"
       },
       {
-        "en": "A: Of course I miss Grandma, too. I bet she's gonna teach me how to play Mahjong! Hey, Dad, are you going to buy me firecrackers this year? We're going to have the best fireworks! I'm really looki ng forward to lighting them!",
-        "zh": "A：我当然也想奶奶啦。我打赌她会教我打麻将！嘿，爸，今年你会给我买鞭炮吗？我们要放最棒的烟花！我真的很期待点它们！"
+        "en": "A: Grandma makes the best dumplings in the world!",
+        "zh": "A：奶奶做的饺子是全世界最好吃的！"
+      },
+      {
+        "en": "B: Ha ha, right.",
+        "zh": "B：哈哈，好吧。"
+      },
+      {
+        "en": "B: Sounds to me like you're more excited about the dumplings than seeing your Grandma.",
+        "zh": "B：听起来你好像对饺子的期待比见奶奶还多。"
+      },
+      {
+        "en": "A: Of course I miss Grandma, too.",
+        "zh": "A：我当然也想奶奶啦。"
+      },
+      {
+        "en": "A: I bet she's gonna teach me how to play Mahjong!",
+        "zh": "A：我打赌她会教我打麻将！"
+      },
+      {
+        "en": "A: Hey, Dad, are you going to buy me firecrackers this year?",
+        "zh": "A：嘿，爸，今年你会给我买鞭炮吗？"
+      },
+      {
+        "en": "A: We're going to have the best fireworks!",
+        "zh": "A：我们要放最棒的烟花！"
+      },
+      {
+        "en": "A: I'm really looki ng forward to lighting them!",
+        "zh": "A：我真的很期待点它们！"
       },
       {
         "en": "B: Son, firecrackers aren't toys; they're dangerous!",
@@ -1634,32 +2662,68 @@
         "zh": "A：不，烟花太酷了！"
       },
       {
-        "en": "B: Whoa, don't you remember? Last year when I set off the firecrackers, you covered both your ears and hid behind your mother?",
-        "zh": "B：哇哦，你不记得了吗？去年我放鞭炮的时候，你捂着耳朵躲在你妈妈身后？"
+        "en": "B: Whoa, don't you remember?",
+        "zh": "B：哇哦，你不记得了吗？"
       },
       {
-        "en": "A: Dad! I was scared because... because I saw a bug. That's all.",
-        "zh": "A：爸！我当时害怕是因为……因为我看到了一只虫子。就是这样。"
+        "en": "B: Last year when I set off the firecrackers, you covered both your ears and hid behind your mother?",
+        "zh": "B：去年我放鞭炮的时候，你捂着耳朵躲在你妈妈身后？"
+      },
+      {
+        "en": "A: Dad!",
+        "zh": "A：爸！"
+      },
+      {
+        "en": "A: I was scared because... because I saw a bug.",
+        "zh": "A：我当时害怕是因为……因为我看到了一只虫子。"
+      },
+      {
+        "en": "A: That's all.",
+        "zh": "A：就是这样。"
       },
       {
         "en": "B: Hahaha... really?",
         "zh": "B：哈哈哈……真的？"
       },
       {
-        "en": "A: Oh, and I can't wait to watch the dragon dance! Dad, can I sit on your shoulders this time?",
-        "zh": "A：哦，而且我等不及要看舞龙了！爸，这次我能坐在你肩膀上看吗？"
+        "en": "A: Oh, and I can't wait to watch the dragon dance!",
+        "zh": "A：哦，而且我等不及要看舞龙了！"
+      },
+      {
+        "en": "A: Dad, can I sit on your shoulders this time?",
+        "zh": "A：爸，这次我能坐在你肩膀上看吗？"
       },
       {
         "en": "B: Hey, I offered last year...",
         "zh": "B：嘿，我去年就提过了……"
       },
       {
-        "en": "A: Well, I... anyways, I was just thinking of the red envelopes. I wanna make a list of all the things I'm gonna buy with my red envelope money! I can't wait! I'm gonna have so much money! Mom, can I get a pen and a piece of paper?",
-        "zh": "A：嗯，我……不管了，我只是在想红包的事。我想列个清单，把我要用红包钱买的东西都写下来！我快等不及了！我要有好多钱了！妈，能给我一支笔和一张纸吗？"
+        "en": "A: Well, I... anyways, I was just thinking of the red envelopes.",
+        "zh": "A：嗯，我……不管了，我只是在想红包的事。"
       },
       {
-        "en": "A: I want a new transformer, no, two transformers...the Optimus Prime, and...maybe the wheeljack? I'll get a PSP game, hahaha, and I'll buy the entire class lunch at Mac Donald's...",
-        "zh": "A：我要一个新的变形金刚，不，要两个……擎天柱，还有……也许轮杰克？我要买一个PSP游戏，哈哈哈，我还要请全班同学在麦当劳吃午饭……"
+        "en": "A: I wanna make a list of all the things I'm gonna buy with my red envelope money!",
+        "zh": "A：我想列个清单，把我要用红包钱买的东西都写下来！"
+      },
+      {
+        "en": "A: I can't wait!",
+        "zh": "A：我快等不及了！"
+      },
+      {
+        "en": "A: I'm gonna have so much money!",
+        "zh": "A：我要有好多钱了！"
+      },
+      {
+        "en": "A: Mom, can I get a pen and a piece of paper?",
+        "zh": "A：妈，能给我一支笔和一张纸吗？"
+      },
+      {
+        "en": "A: I want a new transformer, no, two transformers...the Optimus Prime, and...maybe the wheeljack?",
+        "zh": "A：我要一个新的变形金刚，不，要两个……擎天柱，还有……也许轮杰克？"
+      },
+      {
+        "en": "A: I'll get a PSP game, hahaha, and I'll buy the entire class lunch at Mac Donald's...",
+        "zh": "A：我要买一个PSP游戏，哈哈哈，我还要请全班同学在麦当劳吃午饭……"
       }
     ]
   },
@@ -1674,36 +2738,76 @@
         "zh": "A：你们好，有什么能帮你们的吗？"
       },
       {
-        "en": "B: I'm just browsing; seeing what's on the lot. My daughter wants a car for her birthday, you know how it is.",
-        "zh": "B：我只是随便看看；看看场上有什么车。我女儿生日想要一辆车，你懂的。"
+        "en": "B: I'm just browsing; seeing what's on the lot.",
+        "zh": "B：我只是随便看看；看看场上有什么车。"
       },
       {
-        "en": "C: Dad! I'm sixteen already an d I'm, like, the only one at school who doesn't have a car!",
-        "zh": "C：爸！我都十六岁了，我几乎是全校唯一没有车的人了！"
+        "en": "B: My daughter wants a car for her birthday, you know how it is.",
+        "zh": "B：我女儿生日想要一辆车，你懂的。"
       },
       {
-        "en": "A: She is right, you know. Kids these days all have cars. Let me show you something we just got in: a 1996 sedan. Excellent gas mileage, it has dual airbags and anti lock brakes; a perfect vehicle for a young driver.",
-        "zh": "A：她说得对。现在的孩子都有车。让我给你们看一款我们刚到的：1996年的轿车。油耗很好，有双安全气囊和防抱死刹车；对年轻驾驶员来说非常完美。"
+        "en": "C: Dad!",
+        "zh": "C：爸！"
       },
       {
-        "en": "C: Dad, I love it! It's awesome! Can we get this one please?",
-        "zh": "C：爸，我太喜欢了！太棒了！我们能买这辆吗？"
+        "en": "C: I'm sixteen already an d I'm, like, the only one at school who doesn't have a car!",
+        "zh": "C：我都十六岁了，我几乎是全校唯一没有车的人了！"
+      },
+      {
+        "en": "A: She is right, you know.",
+        "zh": "A：她说得对。"
+      },
+      {
+        "en": "A: Kids these days all have cars.",
+        "zh": "A：现在的孩子都有车。"
+      },
+      {
+        "en": "A: Let me show you something we just got in: a 1996 sedan.",
+        "zh": "A：让我给你们看一款我们刚到的：1996年的轿车。"
+      },
+      {
+        "en": "A: Excellent gas mileage, it has dual airbags and anti lock brakes; a perfect vehicle for a young driver.",
+        "zh": "A：油耗很好，有双安全气囊和防抱死刹车；对年轻驾驶员来说非常完美。"
+      },
+      {
+        "en": "C: Dad, I love it!",
+        "zh": "C：爸，我太喜欢了！"
+      },
+      {
+        "en": "C: It's awesome!",
+        "zh": "C：太棒了！"
+      },
+      {
+        "en": "C: Can we get this one please?",
+        "zh": "C：我们能买这辆吗？"
       },
       {
         "en": "B: I see... What can you tell me about this one?",
         "zh": "B：我看看……这辆你能跟我说说吗？"
       },
       {
-        "en": "A: Oh, that's just an old World War Two tank that we use for TV commercials. Now about this sedan...",
-        "zh": "A：哦，那只是一辆我们用来拍电视广告的二战旧坦克。还是来看这辆轿车吧……"
+        "en": "A: Oh, that's just an old World War Two tank that we use for TV commercials.",
+        "zh": "A：哦，那只是一辆我们用来拍电视广告的二战旧坦克。"
       },
       {
-        "en": "B: Whoa, whoa wait a minute. Tell me more about this tank.",
-        "zh": "B：哇，哇等一下。多跟我说说这辆坦克。"
+        "en": "A: Now about this sedan...",
+        "zh": "A：还是来看这辆轿车吧……"
       },
       {
-        "en": "A: Well, Sir, if you are looking for quality and safety then look no further! Three inches of reinforced steel protect your daughter from short range missile attacks.",
-        "zh": "A：好的先生，如果您追求质量和安全，那就不用再找了！三英寸厚的强化钢可以保护您的女儿免受短程导弹攻击。"
+        "en": "B: Whoa, whoa wait a minute.",
+        "zh": "B：哇，哇等一下。"
+      },
+      {
+        "en": "B: Tell me more about this tank.",
+        "zh": "B：多跟我说说这辆坦克。"
+      },
+      {
+        "en": "A: Well, Sir, if you are looking for quality and safety then look no further!",
+        "zh": "A：好的先生，如果您追求质量和安全，那就不用再找了！"
+      },
+      {
+        "en": "A: Three inches of reinforced steel protect your daughter from short range missile attacks.",
+        "zh": "A：三英寸厚的强化钢可以保护您的女儿免受短程导弹攻击。"
       },
       {
         "en": "B: Does the sedan protect her from missile attacks?",
@@ -1714,8 +2818,12 @@
         "zh": "A：不能。"
       },
       {
-        "en": "B: Well, I don't know. Let me sleep on it.",
-        "zh": "B：嗯，我不确定。让我考虑一晚。"
+        "en": "B: Well, I don't know.",
+        "zh": "B：嗯，我不确定。"
+      },
+      {
+        "en": "B: Let me sleep on it.",
+        "zh": "B：让我考虑一晚。"
       },
       {
         "en": "A: Did I mention the tank is a tank?",
@@ -1738,28 +2846,56 @@
     "title": "My New Boyfriend",
     "content": [
       {
-        "en": "A: Irene! I heard you were on a date last night! So, how how did it go? I want all the juicy details!",
-        "zh": "A：艾琳！我听说你昨晚去约会了！怎么样怎么样？我要听所有劲爆的细节！"
+        "en": "A: Irene!",
+        "zh": "A：艾琳！"
       },
       {
-        "en": "B: Um... well, actually, we had a fantastic time last night. He was...amazing!",
-        "zh": "B：嗯……好吧，其实，我们昨晚过得特别开心。他……太棒了！"
+        "en": "A: I heard you were on a date last night!",
+        "zh": "A：我听说你昨晚去约会了！"
       },
       {
-        "en": "A: Okay, now you really have to fill me in. What's he like?",
-        "zh": "A：好吧，你现在真得跟我说清楚。他什么样？"
+        "en": "A: So, how how did it go?",
+        "zh": "A：怎么样怎么样？"
+      },
+      {
+        "en": "A: I want all the juicy details!",
+        "zh": "A：我要听所有劲爆的细节！"
+      },
+      {
+        "en": "B: Um... well, actually, we had a fantastic time last night.",
+        "zh": "B：嗯……好吧，其实，我们昨晚过得特别开心。"
+      },
+      {
+        "en": "B: He was...amazing!",
+        "zh": "B：他……太棒了！"
+      },
+      {
+        "en": "A: Okay, now you really have to fill me in.",
+        "zh": "A：好吧，你现在真得跟我说清楚。"
+      },
+      {
+        "en": "A: What's he like?",
+        "zh": "A：他什么样？"
       },
       {
         "en": "B: He's really good looking; he's quite tall, around 6'1\", he's in his early thirties, and he's got the most beautiful dark brown eyes...",
         "zh": "B：他非常帅；个子挺高，大约6尺1寸，三十出头，有着最漂亮的深棕色眼睛……"
       },
       {
-        "en": "A: He sounds hot! What does he do for a living?",
-        "zh": "A：听起来很性感啊！他做什么工作的？"
+        "en": "A: He sounds hot!",
+        "zh": "A：听起来很性感啊！"
       },
       {
-        "en": "B: You know what, this is the best part. David is a junior investment banker at Fortune Bank, so he's got a great career path ahead of him!",
-        "zh": "B：知道吗，这是最棒的部分了。大卫是财富银行的一名初级投资银行家，所以他的职业前景非常光明！"
+        "en": "A: What does he do for a living?",
+        "zh": "A：他做什么工作的？"
+      },
+      {
+        "en": "B: You know what, this is the best part.",
+        "zh": "B：知道吗，这是最棒的部分了。"
+      },
+      {
+        "en": "B: David is a junior investment banker at Fortune Bank, so he's got a great career path ahead of him!",
+        "zh": "B：大卫是财富银行的一名初级投资银行家，所以他的职业前景非常光明！"
       },
       {
         "en": "A: Hold on a sec, his name is David?",
@@ -1782,32 +2918,72 @@
     "title": "Can I ask you a favor?",
     "content": [
       {
-        "en": "A: Um, sorry to bother you, um... my name is Rachel. I'm new here. Can I ask you a favor?",
-        "zh": "A：嗯，抱歉打扰了，嗯……我叫瑞秋。我是新来的。我能请你帮个忙吗？"
+        "en": "A: Um, sorry to bother you, um... my name is Rachel.",
+        "zh": "A：嗯，抱歉打扰了，嗯……我叫瑞秋。"
       },
       {
-        "en": "B: Hi Rachel, welcome on board. I'm afraid I can't help you right now. I'm getting ready for a very important meeting.",
-        "zh": "B：嗨瑞秋，欢迎加入。恐怕我现在帮不了你。我正为一个非常重要的会议做准备。"
+        "en": "A: I'm new here.",
+        "zh": "A：我是新来的。"
+      },
+      {
+        "en": "A: Can I ask you a favor?",
+        "zh": "A：我能请你帮个忙吗？"
+      },
+      {
+        "en": "B: Hi Rachel, welcome on board.",
+        "zh": "B：嗨瑞秋，欢迎加入。"
+      },
+      {
+        "en": "B: I'm afraid I can't help you right now.",
+        "zh": "B：恐怕我现在帮不了你。"
+      },
+      {
+        "en": "B: I'm getting ready for a very important meeting.",
+        "zh": "B：我正为一个非常重要的会议做准备。"
       },
       {
         "en": "A: Excuse me, but can I bother you for a sec?",
         "zh": "A：不好意思，能打扰你一下吗？"
       },
       {
-        "en": "C: You know what, I'd love to help you, but I'm about to meet an important client. Do you wanna try Sean instead? He sits right over there.",
-        "zh": "C：你知道吗，我很想帮你，但我马上要去见一个重要的客户。你要不要去找肖恩试试？他就坐在那边。"
+        "en": "C: You know what, I'd love to help you, but I'm about to meet an important client.",
+        "zh": "C：你知道吗，我很想帮你，但我马上要去见一个重要的客户。"
+      },
+      {
+        "en": "C: Do you wanna try Sean instead?",
+        "zh": "C：你要不要去找肖恩试试？"
+      },
+      {
+        "en": "C: He sits right over there.",
+        "zh": "C：他就坐在那边。"
       },
       {
         "en": "A: Sorry to interrupt you Sean, could you do me a quick favor?",
         "zh": "A：抱歉打扰了肖恩，你能帮我一个小忙吗？"
       },
       {
-        "en": "D: Actually, I'm working on a document that is due in a couple minutes. I really can't talk to you right now. Sorry about that.",
-        "zh": "D：其实我正在赶一份几分钟后就要交的文件。我现在真的没法跟你说话。很抱歉。"
+        "en": "D: Actually, I'm working on a document that is due in a couple minutes.",
+        "zh": "D：其实我正在赶一份几分钟后就要交的文件。"
       },
       {
-        "en": "A: Geeze! I just want to know where the bathroom is! What's wrong with you people!",
-        "zh": "A：天哪！我只是想知道洗手间在哪里！你们这些人怎么回事啊！"
+        "en": "D: I really can't talk to you right now.",
+        "zh": "D：我现在真的没法跟你说话。"
+      },
+      {
+        "en": "D: Sorry about that.",
+        "zh": "D：很抱歉。"
+      },
+      {
+        "en": "A: Geeze!",
+        "zh": "A：天哪！"
+      },
+      {
+        "en": "A: I just want to know where the bathroom is!",
+        "zh": "A：我只是想知道洗手间在哪里！"
+      },
+      {
+        "en": "A: What's wrong with you people!",
+        "zh": "A：你们这些人怎么回事啊！"
       }
     ]
   },
@@ -1818,32 +2994,56 @@
     "title": "The Weekend - Movie Trailer",
     "content": [
       {
-        "en": "A: In a digital world, even the strongest must fight for survival. Two people, possess a secret so valuable, so powerful, they have to defend it at all costs.",
-        "zh": "A：在一个数字世界里，即使是最强大的人也必须为生存而战。两个人，拥有一个如此宝贵、如此强大的秘密，他们必须不惜一切代价保卫它。"
+        "en": "A: In a digital world, even the strongest must fight for survival.",
+        "zh": "A：在一个数字世界里，即使是最强大的人也必须为生存而战。"
+      },
+      {
+        "en": "A: Two people, possess a secret so valuable, so powerful, they have to defend it at all costs.",
+        "zh": "A：两个人，拥有一个如此宝贵、如此强大的秘密，他们必须不惜一切代价保卫它。"
       },
       {
         "en": "B: I don't care where they are, I don't care what it takes... you find them and bring them to me!",
         "zh": "B：我不在乎他们在哪，我不惜任何代价……找到他们，把他们带到我面前来！"
       },
       {
-        "en": "A: They only had one chance! And their chance was to fight back!",
-        "zh": "A：他们只有一次机会！而他们选择反击！"
+        "en": "A: They only had one chance!",
+        "zh": "A：他们只有一次机会！"
       },
       {
-        "en": "D: You wanna play rough? Okay, say hello to my little friend!",
-        "zh": "D：你想来硬的？好吧，来见见我的小朋友！"
+        "en": "A: And their chance was to fight back!",
+        "zh": "A：而他们选择反击！"
+      },
+      {
+        "en": "D: You wanna play rough?",
+        "zh": "D：你想来硬的？"
+      },
+      {
+        "en": "D: Okay, say hello to my little friend!",
+        "zh": "D：好吧，来见见我的小朋友！"
       },
       {
         "en": "A: With a little help from a Governor...",
         "zh": "A：在一位州长的一点帮助下……"
       },
       {
-        "en": "C: Listen to me! We have to get them outta there! No matter what!",
-        "zh": "C：听我说！我们必须把他们救出来！无论如何！"
+        "en": "C: Listen to me!",
+        "zh": "C：听我说！"
       },
       {
-        "en": "A: Nothing will prevent them from doing their job! Double the action.",
-        "zh": "A：没有什么能阻止他们完成任务！双倍的动作场面。"
+        "en": "C: We have to get them outta there!",
+        "zh": "C：我们必须把他们救出来！"
+      },
+      {
+        "en": "C: No matter what!",
+        "zh": "C：无论如何！"
+      },
+      {
+        "en": "A: Nothing will prevent them from doing their job!",
+        "zh": "A：没有什么能阻止他们完成任务！"
+      },
+      {
+        "en": "A: Double the action.",
+        "zh": "A：双倍的动作场面。"
       },
       {
         "en": "D: Get down!",
@@ -1882,28 +3082,52 @@
         "zh": "A：那么，凯西，新闻资料包的照片准备得怎么样了？"
       },
       {
-        "en": "B: Yeah, I've been meaning to talk to you about that. I might need to ask for an extension on that deadline.",
-        "zh": "B：是啊，我一直想跟你谈谈这个。我可能需要申请延期。"
+        "en": "B: Yeah, I've been meaning to talk to you about that.",
+        "zh": "B：是啊，我一直想跟你谈谈这个。"
       },
       {
-        "en": "A: You've had over a month to get this finalized! Why are things delayed?",
-        "zh": "A：你已经有一个多月时间来完成这件事了！为什么会拖延？"
+        "en": "B: I might need to ask for an extension on that deadline.",
+        "zh": "B：我可能需要申请延期。"
+      },
+      {
+        "en": "A: You've had over a month to get this finalized!",
+        "zh": "A：你已经有一个多月时间来完成这件事了！"
+      },
+      {
+        "en": "A: Why are things delayed?",
+        "zh": "A：为什么会拖延？"
       },
       {
         "en": "B: Well, the thing is, we ran into a lot of problems...",
         "zh": "B：嗯，事情是这样的，我们遇到了很多问题……"
       },
       {
-        "en": "A: I'm not looking for excuses here. I just want to get this finished on time!",
-        "zh": "A：我不是来找借口的。我只想按时完成这件事！"
+        "en": "A: I'm not looking for excuses here.",
+        "zh": "A：我不是来找借口的。"
       },
       {
-        "en": "B: I know, and I apologize for the delay. But some things were just beyond my control. I had trouble booking the photographer, and then Michael was sick for three weeks, so I couldn't include him in the photos, and the design team lost all the files, so I had to re-do the pictures.",
-        "zh": "B：我知道，我为拖延道歉。但有些事情真的不在我控制范围内。我约摄影师遇到困难，然后迈克尔病了三周，所以我没法把他拍进去，然后设计团队丢失了所有文件，我不得不重拍这些照片。"
+        "en": "A: I just want to get this finished on time!",
+        "zh": "A：我只想按时完成这件事！"
       },
       {
-        "en": "A: I'm not going to put this off any longer, Casey! I want those photos ASAP!",
-        "zh": "A：我不能再拖了，凯西！我 ASAP 要看到那些照片！"
+        "en": "B: I know, and I apologize for the delay.",
+        "zh": "B：我知道，我为拖延道歉。"
+      },
+      {
+        "en": "B: But some things were just beyond my control.",
+        "zh": "B：但有些事情真的不在我控制范围内。"
+      },
+      {
+        "en": "B: I had trouble booking the photographer, and then Michael was sick for three weeks, so I couldn't include him in the photos, and the design team lost all the files, so I had to re-do the pictures.",
+        "zh": "B：我约摄影师遇到困难，然后迈克尔病了三周，所以我没法把他拍进去，然后设计团队丢失了所有文件，我不得不重拍这些照片。"
+      },
+      {
+        "en": "A: I'm not going to put this off any longer, Casey!",
+        "zh": "A：我不能再拖了，凯西！"
+      },
+      {
+        "en": "A: I want those photos ASAP!",
+        "zh": "A：我 ASAP 要看到那些照片！"
       }
     ]
   },
@@ -1918,32 +3142,56 @@
         "zh": "A：那么，您申请的是B2签证，您的最终目的地是哪里，您来美国的目的是什么？"
       },
       {
-        "en": "B: I'm going to visit my brother; he's just had a baby. He lives in Minneapolis.",
-        "zh": "B：我要去看我哥哥；他刚生了宝宝。他住在明尼阿波利斯。"
+        "en": "B: I'm going to visit my brother; he's just had a baby.",
+        "zh": "B：我要去看我哥哥；他刚生了宝宝。"
+      },
+      {
+        "en": "B: He lives in Minneapolis.",
+        "zh": "B：他住在明尼阿波利斯。"
       },
       {
         "en": "A: And how long do you you plan to remain in the United States?",
         "zh": "A：您计划在美国停留多长时间？"
       },
       {
-        "en": "B: I'll be here for approximately three weeks. See, here's my return ticket for the twenty-sixth of March.",
-        "zh": "B：我将停留大约三周。你看，这是我的往返机票，3月26号的。"
+        "en": "B: I'll be here for approximately three weeks.",
+        "zh": "B：我将停留大约三周。"
+      },
+      {
+        "en": "B: See, here's my return ticket for the twenty-sixth of March.",
+        "zh": "B：你看，这是我的往返机票，3月26号的。"
       },
       {
         "en": "A: And, who is sponsoring your trip?",
         "zh": "A：那么，谁资助您的旅行？"
       },
       {
-        "en": "B: My brother, here, this is an invitation letter from him. I will stay with him and his family in their home.",
-        "zh": "B：我哥哥，这是他的邀请函。我会在他家里和他家人住在一起。"
+        "en": "B: My brother, here, this is an invitation letter from him.",
+        "zh": "B：我哥哥，这是他的邀请函。"
+      },
+      {
+        "en": "B: I will stay with him and his family in their home.",
+        "zh": "B：我会在他家里和他家人住在一起。"
       },
       {
         "en": "A: Alright, tell me about the ties you have to your home country.",
         "zh": "A：好的，跟我说说您与祖国的联系。"
       },
       {
-        "en": "B: Well, I own a house; actually, I'm leaving my dog there with my neighbors. I have a car at home, and oh, my job! I'm employed by Tornel as an engineer. Actually, I only have three weeks' vacation, so I have to go back to work at the end of March.",
-        "zh": "B：嗯，我拥有一套房子；实际上，我把我的狗留在了邻居那里。我在家里有辆车，哦，还有我的工作！我受雇于托内尔公司做工程师。实际上，我只有三周假期，所以我三月底必须回去上班。"
+        "en": "B: Well, I own a house; actually, I'm leaving my dog there with my neighbors.",
+        "zh": "B：嗯，我拥有一套房子；实际上，我把我的狗留在了邻居那里。"
+      },
+      {
+        "en": "B: I have a car at home, and oh, my job!",
+        "zh": "B：我在家里有辆车，哦，还有我的工作！"
+      },
+      {
+        "en": "B: I'm employed by Tornel as an engineer.",
+        "zh": "B：我受雇于托内尔公司做工程师。"
+      },
+      {
+        "en": "B: Actually, I only have three weeks' vacation, so I have to go back to work at the end of March.",
+        "zh": "B：实际上，我只有三周假期，所以我三月底必须回去上班。"
       },
       {
         "en": "A: And what evidence do you ha ve that you arefinancially independent?",
@@ -1954,8 +3202,20 @@
         "zh": "B：嗯，我在国内确实有资产；正如我说的，我有一套房子，而且你看，这是我的银行对账单，显示了我的投资和银行余额。"
       },
       {
-        "en": "A: I'm sorry, sir, we cannot grant you a B2 visa at this time, instead, you are granted a resident visa! Congratulations, you are the millionth person to apply for a visa! You win! Congratulations!",
-        "zh": "A：对不起，先生，我们目前无法授予您B2签证，不过，我们将授予您居民签证！恭喜您，您是第一百万人申请签证的人！您中奖了！恭喜！"
+        "en": "A: I'm sorry, sir, we cannot grant you a B2 visa at this time, instead, you are granted a resident visa!",
+        "zh": "A：对不起，先生，我们目前无法授予您B2签证，不过，我们将授予您居民签证！"
+      },
+      {
+        "en": "A: Congratulations, you are the millionth person to apply for a visa!",
+        "zh": "A：恭喜您，您是第一百万人申请签证的人！"
+      },
+      {
+        "en": "A: You win!",
+        "zh": "A：您中奖了！"
+      },
+      {
+        "en": "A: Congratulations!",
+        "zh": "A：恭喜！"
       }
     ]
   },
@@ -1978,40 +3238,72 @@
         "zh": "A：很好，谢谢。"
       },
       {
-        "en": "B: It sure is cold this morning, isn't it? I barely even get 12 out of bed!",
-        "zh": "B：今天早上确实很冷，对吧？我几乎爬不起来！"
+        "en": "B: It sure is cold this morning, isn't it?",
+        "zh": "B：今天早上确实很冷，对吧？"
+      },
+      {
+        "en": "B: I barely even get 12 out of bed!",
+        "zh": "B：我几乎爬不起来！"
       },
       {
         "en": "A: Yeah. It's pre tty cold, alright.",
         "zh": "A：是啊，确实挺冷的。"
       },
       {
-        "en": "B: Did you catch the news this morning? I heard that there was a fire on Byron Street.",
-        "zh": "B：你今早看新闻了吗？我听说拜伦街上发生了火灾。"
+        "en": "B: Did you catch the news this morning?",
+        "zh": "B：你今早看新闻了吗？"
+      },
+      {
+        "en": "B: I heard that there was a fire on Byron Street.",
+        "zh": "B：我听说拜伦街上发生了火灾。"
       },
       {
         "en": "A: No, I didn't hear about that.",
         "zh": "A：没有，我没听说。"
       },
       {
-        "en": "B: Did you happen to watch the football game last night? The Patriots scored in the last minute!",
-        "zh": "B：你昨晚碰巧看橄榄球赛了吗？爱国者队在最后一分钟得分了！"
+        "en": "B: Did you happen to watch the football game last night?",
+        "zh": "B：你昨晚碰巧看橄榄球赛了吗？"
+      },
+      {
+        "en": "B: The Patriots scored in the last minute!",
+        "zh": "B：爱国者队在最后一分钟得分了！"
       },
       {
         "en": "A: No, I don't like football.",
         "zh": "A：不，我不喜欢橄榄球。"
       },
       {
-        "en": "B: Oh... By the way, I saw you with your daughter at the office Christmas party. Sh e is really beautiful!",
-        "zh": "B：哦……对了，我在办公室圣诞派对上看到你和你的女儿在一起。她真是太漂亮了！"
+        "en": "B: Oh... By the way, I saw you with your daughter at the office Christmas party.",
+        "zh": "B：哦……对了，我在办公室圣诞派对上看到你和你的女儿在一起。"
       },
       {
-        "en": "A: She's my wife! Oh, here's my floor! Nice talking to you. Goodbye.",
-        "zh": "A：那是我老婆！哦，我到了！很高兴跟你聊天。再见。"
+        "en": "B: Sh e is really beautiful!",
+        "zh": "B：她真是太漂亮了！"
       },
       {
-        "en": "B: Sir this is the 56th floor! We are on the 70th!",
-        "zh": "B：先生这是56楼！我们在70楼！"
+        "en": "A: She's my wife!",
+        "zh": "A：那是我老婆！"
+      },
+      {
+        "en": "A: Oh, here's my floor!",
+        "zh": "A：哦，我到了！"
+      },
+      {
+        "en": "A: Nice talking to you.",
+        "zh": "A：很高兴跟你聊天。"
+      },
+      {
+        "en": "A: Goodbye.",
+        "zh": "A：再见。"
+      },
+      {
+        "en": "B: Sir this is the 56th floor!",
+        "zh": "B：先生这是56楼！"
+      },
+      {
+        "en": "B: We are on the 70th!",
+        "zh": "B：我们在70楼！"
       },
       {
         "en": "A: That's okay, I'll take the stairs!",
@@ -2030,44 +3322,116 @@
         "zh": "A：……所以我说，「我们先冷静一段时间吧」。从那天晚上起，我就一直在等他打电话，但还是没有他的消息。你不会觉得他在跟别人约会吧？"
       },
       {
-        "en": "B: Come on, don't be so dramatic! I'm sure everything is going to work out just fine.",
-        "zh": "B：拜托，别这么夸张！我相信一切都会好起来的。"
+        "en": "B: Come on, don't be so dramatic!",
+        "zh": "B：拜托，别这么夸张！"
       },
       {
-        "en": "A: You think so? Oh, no! How can he do this to me? I'm sure he's cheating on me! Why else wouldn't he call?",
-        "zh": "A：你这么觉得吗？哦不！他怎么能这样对我？我确定他是在背着我偷吃！不然为什么不打电话？"
+        "en": "B: I'm sure everything is going to work out just fine.",
+        "zh": "B：我相信一切都会好起来的。"
       },
       {
-        "en": "B: But, you two are on a break. Theoretically he can do whatever he likes.",
-        "zh": "B：但是，你们俩现在在冷静期啊。理论上他可以做任何他想做的事。"
+        "en": "A: You think so?",
+        "zh": "A：你这么觉得吗？"
       },
       {
-        "en": "A: He's the love of my life! I've really messed this up.",
-        "zh": "A：他是我一生的挚爱！我完全把这一切搞砸了。"
+        "en": "A: Oh, no!",
+        "zh": "A：哦不！"
       },
       {
-        "en": "B: Come on, hon. Pull yourself together. It's going to be alright.",
-        "zh": "B：拜托，亲爱的。振作起来。一切都会好起来的。"
+        "en": "A: How can he do this to me?",
+        "zh": "A：他怎么能这样对我？"
       },
       {
-        "en": "A: But I... I still love him! And it's all my fault! I can't believe how immature and selfish I was being. I mean, he is a firefighter, it's not like he can just leave someone in a burning building and meet me for dinner. I've totally messed this up!",
-        "zh": "A：但是我……我还爱着他！这都是我的错！我真不敢相信我当初是多么幼稚和自私。我的意思是，他是个消防员，他总不能抛下着火大楼里的人来跟我吃饭吧。我完全搞砸了！"
+        "en": "A: I'm sure he's cheating on me!",
+        "zh": "A：我确定他是在背着我偷吃！"
       },
       {
-        "en": "B: You know what, Veronica, I think you should make the first step. I'm sure he'll forgive you...",
-        "zh": "B：你知道吗，维罗妮卡，我觉得你应该迈出第一步。我相信他会原谅你的……"
+        "en": "A: Why else wouldn't he call?",
+        "zh": "A：不然为什么不打电话？"
       },
       {
-        "en": "A: No, this is not gonna happen! I... I've ruined everything...",
-        "zh": "A：不，这不可能！我……我毁了一切……"
+        "en": "B: But, you two are on a break.",
+        "zh": "B：但是，你们俩现在在冷静期啊。"
       },
       {
-        "en": "B: Hey... do you hear something? Guess what? It's your lovely firefighter!",
-        "zh": "B：嘿……你听到了吗？你猜怎么着？是你可爱的消防员来了！"
+        "en": "B: Theoretically he can do whatever he likes.",
+        "zh": "B：理论上他可以做任何他想做的事。"
       },
       {
-        "en": "C: When I had you, I treated you bad and wrong dear. And since, since you went away, don't you know I sit around with my head hanging down and I wonder who's loving you.",
-        "zh": "C：当我拥有你的时候，我待你又坏又错亲爱的。自从你离开后，难道你不知道我成天垂头丧气坐着，想知道是谁在爱你。"
+        "en": "A: He's the love of my life!",
+        "zh": "A：他是我一生的挚爱！"
+      },
+      {
+        "en": "A: I've really messed this up.",
+        "zh": "A：我完全把这一切搞砸了。"
+      },
+      {
+        "en": "B: Come on, hon.",
+        "zh": "B：拜托，亲爱的。"
+      },
+      {
+        "en": "B: Pull yourself together.",
+        "zh": "B：振作起来。"
+      },
+      {
+        "en": "B: It's going to be alright.",
+        "zh": "B：一切都会好起来的。"
+      },
+      {
+        "en": "A: But I... I still love him!",
+        "zh": "A：但是我……我还爱着他！"
+      },
+      {
+        "en": "A: And it's all my fault!",
+        "zh": "A：这都是我的错！"
+      },
+      {
+        "en": "A: I can't believe how immature and selfish I was being.",
+        "zh": "A：我真不敢相信我当初是多么幼稚和自私。"
+      },
+      {
+        "en": "A: I mean, he is a firefighter, it's not like he can just leave someone in a burning building and meet me for dinner.",
+        "zh": "A：我的意思是，他是个消防员，他总不能抛下着火大楼里的人来跟我吃饭吧。"
+      },
+      {
+        "en": "A: I've totally messed this up!",
+        "zh": "A：我完全搞砸了！"
+      },
+      {
+        "en": "B: You know what, Veronica, I think you should make the first step.",
+        "zh": "B：你知道吗，维罗妮卡，我觉得你应该迈出第一步。"
+      },
+      {
+        "en": "B: I'm sure he'll forgive you...",
+        "zh": "B：我相信他会原谅你的……"
+      },
+      {
+        "en": "A: No, this is not gonna happen!",
+        "zh": "A：不，这不可能！"
+      },
+      {
+        "en": "A: I... I've ruined everything...",
+        "zh": "A：我……我毁了一切……"
+      },
+      {
+        "en": "B: Hey... do you hear something?",
+        "zh": "B：嘿……你听到了吗？"
+      },
+      {
+        "en": "B: Guess what?",
+        "zh": "B：你猜怎么着？"
+      },
+      {
+        "en": "B: It's your lovely firefighter!",
+        "zh": "B：是你可爱的消防员来了！"
+      },
+      {
+        "en": "C: When I had you, I treated you bad and wrong dear.",
+        "zh": "C：当我拥有你的时候，我待你又坏又错亲爱的。"
+      },
+      {
+        "en": "C: And since, since you went away, don't you know I sit around with my head hanging down and I wonder who's loving you.",
+        "zh": "C：自从你离开后，难道你不知道我成天垂头丧气坐着，想知道是谁在爱你。"
       }
     ]
   },
@@ -2078,16 +3442,48 @@
     "title": "Emergency Room",
     "content": [
       {
-        "en": "A: Help! Are you a doctor? My poor little Frankie has stopped breathing! Oh my gosh, Help me! I tried to perform CPR, but I just don't know if I could get any air into his lungs! Oh, Frankie!",
-        "zh": "A：救命！你是医生吗？我可怜的小弗兰基停止呼吸了！哦天哪，帮帮我！我试过做CPR，但我不知道有没有把空气送入他的肺里！哦，弗兰基！"
+        "en": "A: Help!",
+        "zh": "A：救命！"
+      },
+      {
+        "en": "A: Are you a doctor?",
+        "zh": "A：你是医生吗？"
+      },
+      {
+        "en": "A: My poor little Frankie has stopped breathing!",
+        "zh": "A：我可怜的小弗兰基停止呼吸了！"
+      },
+      {
+        "en": "A: Oh my gosh, Help me!",
+        "zh": "A：哦天哪，帮帮我！"
+      },
+      {
+        "en": "A: I tried to perform CPR, but I just don't know if I could get any air into his lungs!",
+        "zh": "A：我试过做CPR，但我不知道有没有把空气送入他的肺里！"
+      },
+      {
+        "en": "A: Oh, Frankie!",
+        "zh": "A：哦，弗兰基！"
       },
       {
         "en": "B: Ellen, get him hooked up to a monitor! Someone page Dr. Howser. Get the patient to hold still, I can't get a pulse! Okay, he's on the monitor. His BP is falling! He's flatlining!",
         "zh": "B：艾伦，给他接上监护仪！叫人去呼豪瑟医生。让病人不要动，我摸不到脉搏！好了，监护仪接上了。他的血压在下降！他在室颤！"
       },
       {
-        "en": "A: NOOOOOO! Frankie! Nurse! Do something!",
-        "zh": "A：不——！弗兰基！护士！做点什么啊！"
+        "en": "A: NOOOOOO!",
+        "zh": "A：不——！"
+      },
+      {
+        "en": "A: Frankie!",
+        "zh": "A：弗兰基！"
+      },
+      {
+        "en": "A: Nurse!",
+        "zh": "A：护士！"
+      },
+      {
+        "en": "A: Do something!",
+        "zh": "A：做点什么啊！"
       },
       {
         "en": "B: Someone get her out of here! Get me the defibrillator. Okay, clear! Again! Clear! Come on! dammit! I'm not letting you go! Clear! I've got a pulse!",
@@ -2102,20 +3498,52 @@
         "zh": "B：病人处于急性呼吸衰竭，我想我们得插管了！"
       },
       {
-        "en": "C: Alright! Tubes in! Bag him! Someone give him 10 cc's of adrenaline! Let's go, people move, move!",
-        "zh": "C：好！管子进去了！给他通气！谁给他来10cc肾上腺素！快走，大家动起来，动起来！"
+        "en": "C: Alright!",
+        "zh": "C：好！"
       },
       {
-        "en": "A: Doctor, oh, thank god! How is he?",
-        "zh": "A：医生，哦，谢天谢地！他怎么样了？"
+        "en": "C: Tubes in!",
+        "zh": "C：管子进去了！"
       },
       {
-        "en": "B: We managed to stabilize Frankie, but he's not out of the woods yet; he's still in critical condition. Were moving him to intensive care, but...",
-        "zh": "B：我们成功稳住了弗兰基，但他还没脱离危险；他仍处于危急状态。我们正把他转到重症监护室，但是……"
+        "en": "C: Bag him!",
+        "zh": "C：给他通气！"
       },
       {
-        "en": "A: Doctor, just do whatever it takes. I just want my little Frankie to be okay. I couldn't imagine life without my little hamster!",
-        "zh": "A：医生，不管付出什么代价都可以。我只想我的小弗兰基没事。我无法想象没有我的小仓鼠的生活！"
+        "en": "C: Someone give him 10 cc's of adrenaline!",
+        "zh": "C：谁给他来10cc肾上腺素！"
+      },
+      {
+        "en": "C: Let's go, people move, move!",
+        "zh": "C：快走，大家动起来，动起来！"
+      },
+      {
+        "en": "A: Doctor, oh, thank god!",
+        "zh": "A：医生，哦，谢天谢地！"
+      },
+      {
+        "en": "A: How is he?",
+        "zh": "A：他怎么样了？"
+      },
+      {
+        "en": "B: We managed to stabilize Frankie, but he's not out of the woods yet; he's still in critical condition.",
+        "zh": "B：我们成功稳住了弗兰基，但他还没脱离危险；他仍处于危急状态。"
+      },
+      {
+        "en": "B: Were moving him to intensive care, but...",
+        "zh": "B：我们正把他转到重症监护室，但是……"
+      },
+      {
+        "en": "A: Doctor, just do whatever it takes.",
+        "zh": "A：医生，不管付出什么代价都可以。"
+      },
+      {
+        "en": "A: I just want my little Frankie to be okay.",
+        "zh": "A：我只想我的小弗兰基没事。"
+      },
+      {
+        "en": "A: I couldn't imagine life without my little hamster!",
+        "zh": "A：我无法想象没有我的小仓鼠的生活！"
       }
     ]
   },
@@ -2126,40 +3554,84 @@
     "title": "Advanced - Just In Time Strategy",
     "content": [
       {
-        "en": "A: I called this meeting today in order to discuss our manufacturing plan. As I'm sure you're all aware, with the credit crunch, and the global financial crisis, we're obligated to look for more cost efficient ways of producing our goods. We don't want to have to be looking at redundancies. So, we've outlined a brief plan to implement the just-in-time philosophy.",
-        "zh": "A：我今天召集这个会议是为了讨论我们的生产计划。我相信大家都清楚，随着信贷紧缩和全球金融危机，我们有义务寻找更具成本效益的生产方式。我们不想裁员。所以，我们拟定了一个简要计划来实施「准时制」理念。"
+        "en": "A: I called this meeting today in order to discuss our manufacturing plan.",
+        "zh": "A：我今天召集这个会议是为了讨论我们的生产计划。"
       },
       {
-        "en": "B: We have two basic points that we want to focus on. First of all, we want to reduce our lead time.",
-        "zh": "B：我们有两个基本要点要重点关注。首先，我们想缩短我们的前置时间。"
+        "en": "A: As I'm sure you're all aware, with the credit crunch, and the global financial crisis, we're obligated to look for more cost efficient ways of producing our goods.",
+        "zh": "A：我相信大家都清楚，随着信贷紧缩和全球金融危机，我们有义务寻找更具成本效益的生产方式。"
       },
       {
-        "en": "C: Why would you want to do that? I think this is not an area that really needs to be worked on.",
-        "zh": "C：为什么想要这么做？我觉得这不是一个真正需要改进的领域。"
+        "en": "A: We don't want to have to be looking at redundancies.",
+        "zh": "A：我们不想裁员。"
+      },
+      {
+        "en": "A: So, we've outlined a brief plan to implement the just-in-time philosophy.",
+        "zh": "A：所以，我们拟定了一个简要计划来实施「准时制」理念。"
+      },
+      {
+        "en": "B: We have two basic points that we want to focus on.",
+        "zh": "B：我们有两个基本要点要重点关注。"
+      },
+      {
+        "en": "B: First of all, we want to reduce our lead time.",
+        "zh": "B：首先，我们想缩短我们的前置时间。"
+      },
+      {
+        "en": "C: Why would you want to do that?",
+        "zh": "C：为什么想要这么做？"
+      },
+      {
+        "en": "C: I think this is not an area that really needs to be worked on.",
+        "zh": "C：我觉得这不是一个真正需要改进的领域。"
       },
       {
         "en": "B: Well, we want to reduce production and delivery lead times for better overall efficiency.",
         "zh": "B：嗯，我们想减少生产和交付的前置时间以提高整体效率。"
       },
       {
-        "en": "A: Right, production lead times can be reduced by moving work stations closer together, reducing queue length, like for example, reducing the number of jobs waiting to be processed at a given machine, and improving the coordination and cooperation between successive processes. Delivery lead times can be reduced through close cooperation with suppliers, possibly by inducing suppliers to locate closer to the factory or working with a faster shipping company.",
-        "zh": "A：对，生产前置时间可以通过将工作站点布置得更近、减少队列长度来缩短，比如减少等待在某个机器前的作业数量，以及改善前后工序之间的协调与合作。交付前置时间可以通过与供应商的紧密合作来缩短，或许可以引导供应商将工厂设在更近的地方，或者与更快的运输公司合作。"
+        "en": "A: Right, production lead times can be reduced by moving work stations closer together, reducing queue length, like for example, reducing the number of jobs waiting to be processed at a given machine, and improving the coordination and cooperation between successive processes.",
+        "zh": "A：对，生产前置时间可以通过将工作站点布置得更近、减少队列长度来缩短，比如减少等待在某个机器前的作业数量，以及改善前后工序之间的协调与合作。"
+      },
+      {
+        "en": "A: Delivery lead times can be reduced through close cooperation with suppliers, possibly by inducing suppliers to locate closer to the factory or working with a faster shipping company.",
+        "zh": "A：交付前置时间可以通过与供应商的紧密合作来缩短，或许可以引导供应商将工厂设在更近的地方，或者与更快的运输公司合作。"
       },
       {
         "en": "C: I see... That makes sense.",
         "zh": "C：我明白了……这很有道理。"
       },
       {
-        "en": "B: The second point is that we want to require supplier quality assurance and implement a zero defects quality program. We currently have far too many errors that lead to defective items and therefore, they must be eliminated. A quality control at the source program must be implemented to give workers the personal responsibility for the quality of the work they do, and the authority to stop production when something goes wrong.",
-        "zh": "B：第二点是我们要求供应商进行质量保证并实施零缺陷质量计划。目前我们有太多的错误导致缺陷产品，因此，必须消除这些错误。必须实施源头质量控制计划，让工人对工作质量承担个人责任，并在出现问题时拥有停产的权力。"
+        "en": "B: The second point is that we want to require supplier quality assurance and implement a zero defects quality program.",
+        "zh": "B：第二点是我们要求供应商进行质量保证并实施零缺陷质量计划。"
       },
       {
-        "en": "C: I'm with you on this one. It's essential that we reduce these errors; we've got to force our suppliers to reduce their mistakes.",
-        "zh": "C：这一点我同意。减少这些错误至关重要；我们必须强制供应商减少他们的错误。"
+        "en": "B: We currently have far too many errors that lead to defective items and therefore, they must be eliminated.",
+        "zh": "B：目前我们有太多的错误导致缺陷产品，因此，必须消除这些错误。"
       },
       {
-        "en": "A: Exactly. Well, let's look at how we're going to put this plan into action. First...(fade out)",
-        "zh": "A：完全正确。好了，让我们看看如何将计划付诸实施。首先……（渐弱）"
+        "en": "B: A quality control at the source program must be implemented to give workers the personal responsibility for the quality of the work they do, and the authority to stop production when something goes wrong.",
+        "zh": "B：必须实施源头质量控制计划，让工人对工作质量承担个人责任，并在出现问题时拥有停产的权力。"
+      },
+      {
+        "en": "C: I'm with you on this one.",
+        "zh": "C：这一点我同意。"
+      },
+      {
+        "en": "C: It's essential that we reduce these errors; we've got to force our suppliers to reduce their mistakes.",
+        "zh": "C：减少这些错误至关重要；我们必须强制供应商减少他们的错误。"
+      },
+      {
+        "en": "A: Exactly.",
+        "zh": "A：完全正确。"
+      },
+      {
+        "en": "A: Well, let's look at how we're going to put this plan into action.",
+        "zh": "A：好了，让我们看看如何将计划付诸实施。"
+      },
+      {
+        "en": "A: First...(fade out)",
+        "zh": "A：首先……（渐弱）"
       }
     ]
   },
@@ -2170,40 +3642,120 @@
     "title": "Intermediate - Carnival in Rio!",
     "content": [
       {
-        "en": "A: I can't believe we're here! Carnival in Rio! Seriously, this is like a once in a lifetime opportunity! Can you believe it? We're here at the biggest party in the world!",
-        "zh": "A：真不敢相信我们在这！里约狂欢节！说真的，这简直是一生一次的机会！你敢信吗？我们在世界上最大的派对上！"
+        "en": "A: I can't believe we're here!",
+        "zh": "A：真不敢相信我们在这！"
       },
       {
-        "en": "B: I know! We're so lucky that we found tickets for the Sambadrome! Good thing we found that ticket scalper.",
-        "zh": "B：我知道！我们太幸运了，居然买到了桑巴馆的票！幸好我们找到了那个黄牛。"
+        "en": "A: Carnival in Rio!",
+        "zh": "A：里约狂欢节！"
       },
       {
-        "en": "A: Look! It's starting! Wow, this is amazing! Look at how many dancers there are. Oh my gosh! The costumes are so colorful! This is so cool!",
-        "zh": "A：看！开始了！哇，这太棒了！看看有多少舞者。哦天哪！服装也太鲜艳了吧！这太酷了！"
+        "en": "A: Seriously, this is like a once in a lifetime opportunity!",
+        "zh": "A：说真的，这简直是一生一次的机会！"
+      },
+      {
+        "en": "A: Can you believe it?",
+        "zh": "A：你敢信吗？"
+      },
+      {
+        "en": "A: We're here at the biggest party in the world!",
+        "zh": "A：我们在世界上最大的派对上！"
+      },
+      {
+        "en": "B: I know!",
+        "zh": "B：我知道！"
+      },
+      {
+        "en": "B: We're so lucky that we found tickets for the Sambadrome!",
+        "zh": "B：我们太幸运了，居然买到了桑巴馆的票！"
+      },
+      {
+        "en": "B: Good thing we found that ticket scalper.",
+        "zh": "B：幸好我们找到了那个黄牛。"
+      },
+      {
+        "en": "A: Look!",
+        "zh": "A：看！"
+      },
+      {
+        "en": "A: It's starting!",
+        "zh": "A：开始了！"
+      },
+      {
+        "en": "A: Wow, this is amazing!",
+        "zh": "A：哇，这太棒了！"
+      },
+      {
+        "en": "A: Look at how many dancers there are.",
+        "zh": "A：看看有多少舞者。"
+      },
+      {
+        "en": "A: Oh my gosh!",
+        "zh": "A：哦天哪！"
+      },
+      {
+        "en": "A: The costumes are so colorful!",
+        "zh": "A：服装也太鲜艳了吧！"
+      },
+      {
+        "en": "A: This is so cool!",
+        "zh": "A：这太酷了！"
       },
       {
         "en": "B: It says here that the school that is dancing now is one of the oldest and most prestigious samba schools in Rio.",
         "zh": "B：这上面说，现在正在表演的学校是里约最古老、最有声望的桑巴学校之一。"
       },
       {
-        "en": "A: No kidding! Look at them, they're amazing! Look at that girl on the top of that float! She must be the carnival queen! Move over there so I can get a picture of you!",
-        "zh": "A：不是开玩笑吧！看他们，太厉害了！看那辆花车上的那个女孩！她一定是狂欢节女王！过去那边，让我给你拍张照！"
+        "en": "A: No kidding!",
+        "zh": "A：不是开玩笑吧！"
       },
       {
-        "en": "B: Ok. Hurry up take the picture!",
-        "zh": "B：好的。快点拍！"
+        "en": "A: Look at them, they're amazing!",
+        "zh": "A：看他们，太厉害了！"
+      },
+      {
+        "en": "A: Look at that girl on the top of that float!",
+        "zh": "A：看那辆花车上的那个女孩！"
+      },
+      {
+        "en": "A: She must be the carnival queen!",
+        "zh": "A：她一定是狂欢节女王！"
+      },
+      {
+        "en": "A: Move over there so I can get a picture of you!",
+        "zh": "A：过去那边，让我给你拍张照！"
+      },
+      {
+        "en": "B: Ok.",
+        "zh": "B：好的。"
+      },
+      {
+        "en": "B: Hurry up take the picture!",
+        "zh": "B：快点拍！"
       },
       {
         "en": "C: join us! come and dance!",
         "zh": "C：加入我们吧！一起来跳舞！"
       },
       {
-        "en": "B: Oh really... no I can't. No really, I don't know how to dance! Honey I'll see you later!",
-        "zh": "B：哦其实……不我跳不了。真不行，我不知道怎么跳！亲爱的回头见！"
+        "en": "B: Oh really... no I can't.",
+        "zh": "B：哦其实……不我跳不了。"
       },
       {
-        "en": "A: Patrick! Don't just leave me here!",
-        "zh": "A：帕特里克！你不能就这样把我丢在这！"
+        "en": "B: No really, I don't know how to dance!",
+        "zh": "B：真不行，我不知道怎么跳！"
+      },
+      {
+        "en": "B: Honey I'll see you later!",
+        "zh": "B：亲爱的回头见！"
+      },
+      {
+        "en": "A: Patrick!",
+        "zh": "A：帕特里克！"
+      },
+      {
+        "en": "A: Don't just leave me here!",
+        "zh": "A：你不能就这样把我丢在这！"
       }
     ]
   },
@@ -2214,8 +3766,16 @@
     "title": "Daily Life - Daddy Please!",
     "content": [
       {
-        "en": "A: Hey daddy! You look great today; I like your tie! By the way, I was wondering can I...",
-        "zh": "A：嘿爸爸！你今天看起来真帅；我喜欢你的领带！对了，我在想能不能……"
+        "en": "A: Hey daddy!",
+        "zh": "A：嘿爸爸！"
+      },
+      {
+        "en": "A: You look great today; I like your tie!",
+        "zh": "A：你今天看起来真帅；我喜欢你的领带！"
+      },
+      {
+        "en": "A: By the way, I was wondering can I...",
+        "zh": "A：对了，我在想能不能……"
       },
       {
         "en": "B: NO!",
@@ -2230,32 +3790,64 @@
         "zh": "B：好吧好吧，你想要什么？"
       },
       {
-        "en": "A: Do you think I could borrow the car? I'm going to a concert tonight.",
-        "zh": "A：你觉得我能借你的车吗？我今晚要去看一场演唱会。"
+        "en": "A: Do you think I could borrow the car?",
+        "zh": "A：你觉得我能借你的车吗？"
       },
       {
-        "en": "B: Um.. I don't think so. I need the car tonight to pick up your mother.",
-        "zh": "B：嗯……恐怕不行。我今晚需要车去接你妈妈。"
+        "en": "A: I'm going to a concert tonight.",
+        "zh": "A：我今晚要去看一场演唱会。"
       },
       {
-        "en": "A: Ugg! I told you about it last week! Smelly Toes is playing, and Eric asked if I would go with him!",
-        "zh": "A：啊！我上周就跟你说过了！Smelly Toes乐队在演出，埃里克问我能不能跟他一起去！"
+        "en": "B: Um.. I don't think so.",
+        "zh": "B：嗯……恐怕不行。"
+      },
+      {
+        "en": "B: I need the car tonight to pick up your mother.",
+        "zh": "B：我今晚需要车去接你妈妈。"
+      },
+      {
+        "en": "A: Ugg!",
+        "zh": "A：啊！"
+      },
+      {
+        "en": "A: I told you about it last week!",
+        "zh": "A：我上周就跟你说过了！"
+      },
+      {
+        "en": "A: Smelly Toes is playing, and Eric asked if I would go with him!",
+        "zh": "A：Smelly Toes乐队在演出，埃里克问我能不能跟他一起去！"
       },
       {
         "en": "B: Who's this Eric guy?",
         "zh": "B：这个叫埃里克的是谁？"
       },
       {
-        "en": "A: Duh! He's like the hottest and most popular guy at school! Come on, dad! Please!",
-        "zh": "A：切！他可是全校最帅最受欢迎的男生！拜托了，爸！求你了！"
+        "en": "A: Duh!",
+        "zh": "A：切！"
+      },
+      {
+        "en": "A: He's like the hottest and most popular guy at school!",
+        "zh": "A：他可是全校最帅最受欢迎的男生！"
+      },
+      {
+        "en": "A: Come on, dad!",
+        "zh": "A：拜托了，爸！"
+      },
+      {
+        "en": "A: Please!",
+        "zh": "A：求你了！"
       },
       {
         "en": "B: No can do... sorry.",
         "zh": "B：没办法……抱歉。"
       },
       {
-        "en": "A: Fine then! Would you mind giving me 100 bucks?",
-        "zh": "A：那好吧！你能给我100块钱吗？"
+        "en": "A: Fine then!",
+        "zh": "A：那好吧！"
+      },
+      {
+        "en": "A: Would you mind giving me 100 bucks?",
+        "zh": "A：你能给我100块钱吗？"
       },
       {
         "en": "B: No way!",
@@ -2274,28 +3866,64 @@
     "title": "Daily Life - New Guy In Town III",
     "content": [
       {
-        "en": "A: Please make yourselves at home. Let me take your coats. Dinner is almost ready; I hope you brought your appetite",
-        "zh": "A：请别拘束。让我帮你们拿外套。晚饭马上就准备好了；我希望你们带着好胃口来。"
+        "en": "A: Please make yourselves at home.",
+        "zh": "A：请别拘束。"
       },
       {
-        "en": "B: Your house is lovely, Armand! Very interesting decor...very... Gothic.",
-        "zh": "B：你的房子真漂亮，阿尔芒！非常有趣的装饰……非常……哥特风。"
+        "en": "A: Let me take your coats.",
+        "zh": "A：让我帮你们拿外套。"
       },
       {
-        "en": "C: I think it's amazing! You have such good taste, Armand. I'm thinking of re-decorating my house; maybe you could give me a few pointers?",
-        "zh": "C：我觉得太棒了！你的品味真好，阿尔芒。我正在考虑重新装修我的房子；也许你能给我一些建议？"
+        "en": "A: Dinner is almost ready; I hope you brought your appetite",
+        "zh": "A：晚饭马上就准备好了；我希望你们带着好胃口来。"
       },
       {
-        "en": "A: It would be my pleasure. Please have a seat. Can I offer you a glass of wine?",
-        "zh": "A：这是我的荣幸。请坐。我能给你们来一杯葡萄酒吗？"
+        "en": "B: Your house is lovely, Armand!",
+        "zh": "B：你的房子真漂亮，阿尔芒！"
+      },
+      {
+        "en": "B: Very interesting decor...very... Gothic.",
+        "zh": "B：非常有趣的装饰……非常……哥特风。"
+      },
+      {
+        "en": "C: I think it's amazing!",
+        "zh": "C：我觉得太棒了！"
+      },
+      {
+        "en": "C: You have such good taste, Armand.",
+        "zh": "C：你的品味真好，阿尔芒。"
+      },
+      {
+        "en": "C: I'm thinking of re-decorating my house; maybe you could give me a few pointers?",
+        "zh": "C：我正在考虑重新装修我的房子；也许你能给我一些建议？"
+      },
+      {
+        "en": "A: It would be my pleasure.",
+        "zh": "A：这是我的荣幸。"
+      },
+      {
+        "en": "A: Please have a seat.",
+        "zh": "A：请坐。"
+      },
+      {
+        "en": "A: Can I offer you a glass of wine?",
+        "zh": "A：我能给你们来一杯葡萄酒吗？"
       },
       {
         "en": "C: We would love some!",
         "zh": "C：我们很乐意！"
       },
       {
-        "en": "A: Here you are. A very special merlot brought directly from my home country. It has a unique ingredient which gives it a pleasant aroma and superior flavor.",
-        "zh": "A：请享用。这是一款非常特别的美乐，直接从我的祖国带来的。它有一种独特的成分，赋予了它宜人的香气和非凡的风味。"
+        "en": "A: Here you are.",
+        "zh": "A：请享用。"
+      },
+      {
+        "en": "A: A very special merlot brought directly from my home country.",
+        "zh": "A：这是一款非常特别的美乐，直接从我的祖国带来的。"
+      },
+      {
+        "en": "A: It has a unique ingredient which gives it a pleasant aroma and superior flavor.",
+        "zh": "A：它有一种独特的成分，赋予了它宜人的香气和非凡的风味。"
       },
       {
         "en": "C: Mmm... it's delicious!",
@@ -2306,8 +3934,16 @@
         "zh": "B：对我来说有点苦……几乎尝起来像……像……"
       },
       {
-        "en": "C: Ellen! Ellen! Are you okay?",
-        "zh": "C：艾伦！艾伦！你还好吗？"
+        "en": "C: Ellen!",
+        "zh": "C：艾伦！"
+      },
+      {
+        "en": "C: Ellen!",
+        "zh": "C：艾伦！"
+      },
+      {
+        "en": "C: Are you okay?",
+        "zh": "C：你还好吗？"
       },
       {
         "en": "A: Did she pass out?",
@@ -2318,8 +3954,12 @@
         "zh": "C：嗯……"
       },
       {
-        "en": "A: I hope that you didn't poison her drink too much! You'll ruin our meal!",
-        "zh": "A：我希望你没有给她下太多毒！你会毁了我们的晚餐！"
+        "en": "A: I hope that you didn't poison her drink too much!",
+        "zh": "A：我希望你没有给她下太多毒！"
+      },
+      {
+        "en": "A: You'll ruin our meal!",
+        "zh": "A：你会毁了我们的晚餐！"
       }
     ]
   },
@@ -8094,11 +9734,7 @@
         "zh": ""
       },
       {
-        "en": "HUSBAND: Of course it will.",
-        "zh": ""
-      },
-      {
-        "en": "help me put it in the living room.",
+        "en": "HUSBAND: Of course it will. help me put it in the living room.",
         "zh": ""
       },
       {
@@ -12734,43 +14370,23 @@
     "title": "sounds just like you! The Office - Presentation Series 2 - Talking about",
     "content": [
       {
-        "en": "Ford: As all of you are well aware, competition in the laptop computer sector is intense. Mr",
+        "en": "Ford: As all of you are well aware, competition in the laptop computer sector is intense. Mr We continue to fight with our competitors for market share, and this is the case both in the developed markets in the West, as well as more developing markets in Asia and Africa. Mr",
         "zh": ""
       },
       {
-        "en": "Ford: We continue to fight with our competitors for market share, and this is the case both in the developed markets in the West, as well as more developing markets in Asia and Africa. Mr",
+        "en": "Ford: You may ask yourself, why is this market so cut-throat? Well the answer is simple. There is a huge untapped potential market out there,with a huge untapped potential for profit. Mr If I bring up the first graph here, it shows the increase in terms of number of computer owners across the globe. Mr",
         "zh": ""
       },
       {
-        "en": "Ford: You may ask yourself, why is this market so cut-throat? Well the answer is simple. There is a huge untapped potential market out there,with a huge untapped potential for profit. Mr",
+        "en": "Ford: As you can see in the 1980's computer ownership amounted to around 0.5% of the total world population. Since the 1990's, computer ownership has risen dramatically. Mr In the new millennium we saw an even larger explosion in computer owners, with figures rising to around 4- 5%, an increase of 1000 % percent compared with the 1980's. Mr",
         "zh": ""
       },
       {
-        "en": "Ford: If I bring up the first graph here, it shows the increase in terms of number of computer owners across the globe. Mr",
+        "en": "Ford: If we move on to discuss the figures for China specifically we can see in Chart B that the overall figure for computer ownership stands at around 60 million, which represents a huge increase in a very short time period. Mr Now of course 60 million is just a drop in the ocean if you compare the total population of China, and this is a key reason why the personal computer market is such a hot market. Mr",
         "zh": ""
       },
       {
-        "en": "Ford: As you can see in the 1980's computer ownership amounted to around 0.5% of the total world population. Since the 1990's, computer ownership has risen dramatically. Mr",
-        "zh": ""
-      },
-      {
-        "en": "Ford: In the new millennium we saw an even larger explosion in computer owners, with figures rising to around 4- 5%, an increase of 1000 % percent compared with the 1980's. Mr",
-        "zh": ""
-      },
-      {
-        "en": "Ford: If we move on to discuss the figures for China specifically we can see in Chart B that the overall figure for computer ownership stands at around 60 million, which represents a huge increase in a very short time period. Mr",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Now of course 60 million is just a drop in the ocean if you compare the total population of China, and this is a key reason why the personal computer market is such a hot market. Mr",
-        "zh": ""
-      },
-      {
-        "en": "Ford: For us at Alpha, and of course for all our competitors as well, we have millions of potential customers who are looking to join the internet generation. Mr",
-        "zh": ""
-      },
-      {
-        "en": "Ford: If we do this right we really can reap huge rewards in a very short time frame. I'd now like to move on to discuss the x420 brand itself, and compare and contrast with some of our key competitors.",
+        "en": "Ford: For us at Alpha, and of course for all our competitors as well, we have millions of potential customers who are looking to join the internet generation. Mr If we do this right we really can reap huge rewards in a very short time frame. I'd now like to move on to discuss the x420 brand itself, and compare and contrast with some of our key competitors.",
         "zh": ""
       }
     ]
@@ -12854,27 +14470,15 @@
     "title": "The Office - Presentation Series 3 - Making",
     "content": [
       {
-        "en": "Ford: Now a key question you might ask yourself is what differentiates the new x420 line with our previous models, and also of course with some of our competitors. Mr.",
+        "en": "Ford: Now a key question you might ask yourself is what differentiates the new x420 line with our previous models, and also of course with some of our competitors. Mr. In other words what makes the x420 stand out from all the others? This is a key question, and is something I'd like to explore in a little depth. Firstly, the x420 has a range of USPs that really make it a cut above the rest. Mr.",
         "zh": ""
       },
       {
-        "en": "Ford: In other words what makes the x420 stand out from all the others? This is a key question, and is something I'd like to explore in a little depth. Firstly, the x420 has a range of USPs that really make it a cut above the rest. Mr.",
+        "en": "Ford: The first thing to mention is that the x420 is the first in a new generation of ultralight laptop computers. It is only 2lbs, which compares very favorably with all our key competitors. In terms of computer performance, for such a light machine it's very powerful. 4Gb of RAM, with an ultra-fast processor. Mr. The most advanced video and sound cards on the market are installed with a crystal-clear 15-inch LCD display. The x420 really stands out as next generation laptop. Compared with our previous x540 range it really is in a league of its own. Mr.",
         "zh": ""
       },
       {
-        "en": "Ford: The first thing to mention is that the x420 is the first in a new generation of ultralight laptop computers. It is only 2lbs, which compares very favorably with all our key competitors. In terms of computer performance, for such a light machine it's very powerful. 4Gb of RAM, with an ultra-fast processor. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: The most advanced video and sound cards on the market are installed with a crystal-clear 15-inch LCD display. The x420 really stands out as next generation laptop. Compared with our previous x540 range it really is in a league of its own. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Now, if we go on to look at projected sales for the x420 we can see that sales revenue for 2010 is expected to hit at least 20 million dollars. Now this is really a conservative estimate. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: If our marketing campaign is successful I'm confident that we could see a doubling of this figure at the very least. Now please bear in mind that this is only for the first year of production. Mr.",
+        "en": "Ford: Now, if we go on to look at projected sales for the x420 we can see that sales revenue for 2010 is expected to hit at least 20 million dollars. Now this is really a conservative estimate. Mr. If our marketing campaign is successful I'm confident that we could see a doubling of this figure at the very least. Now please bear in mind that this is only for the first year of production. Mr.",
         "zh": ""
       },
       {
@@ -12998,35 +14602,19 @@
     "title": "The Office - Presentation Series 4 - Discussing the",
     "content": [
       {
-        "en": "Ford: Now, of course, with all this cutting-edge technology there must be a catch, you might ask yourself. I bet the retail price will be too much for most consumers, you might say. Well, you'd be wrong! Mr.",
+        "en": "Ford: Now, of course, with all this cutting-edge technology there must be a catch, you might ask yourself. I bet the retail price will be too much for most consumers, you might say. Well, you'd be wrong! Mr. Yes, of course the x420 is aimed at the luxury market, but if you compare the price of our leading competitors, the x420 represents incredible value for money. At only15,000RMB it is far more affordable and far more attractive than almost every leading brand and model. Mr.",
         "zh": ""
       },
       {
-        "en": "Ford: Yes, of course the x420 is aimed at the luxury market, but if you compare the price of our leading competitors, the x420 represents incredible value for money. At only15,000RMB it is far more affordable and far more attractive than almost every leading brand and model. Mr.",
+        "en": "Ford: So, what differentiates us from our competitors? Well, if we compare Orange's luxury MP40 range then we can really highlight some of the differences. Mr. Now, of course Orange has an enviable record for producing revolutionary and top class products, and I must admit the MP40 is a br eathtaking machine. However, for most consumers the MP40 is simply far too expensive to consider. Mr.",
         "zh": ""
       },
       {
-        "en": "Ford: So, what differentiates us from our competitors? Well, if we compare Orange's luxury MP40 range then we can really highlight some of the differences. Mr.",
+        "en": "Ford: Compared with the x420 it is more expensive and there's no doubt that considering the quality and workmanship that goes into the x420 we really win hands down on value for money. Mr. Also, if you compare the after sales service we offer I think we can proudly boast the best customer service facilities in the whole lap-top sector. As opposed to most of our rivals, we guarantee quality, we guarantee service and we guarantee reliability. Mr.",
         "zh": ""
       },
       {
-        "en": "Ford: Now, of course Orange has an enviable record for producing revolutionary and top class products, and I must admit the MP40 is a br eathtaking machine. However, for most consumers the MP40 is simply far too expensive to consider. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Compared with the x420 it is more expensive and there's no doubt that considering the quality and workmanship that goes into the x420 we really win hands down on value for money. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Also, if you compare the after sales service we offer I think we can proudly boast the best customer service facilities in the whole lap-top sector. As opposed to most of our rivals, we guarantee quality, we guarantee service and we guarantee reliability. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: The questions we must ask ourselves are \" What does the Alpha brand stand for? and also \" How can we set ourselves apart from our competitors? The answer to both of these questions is the same my friends. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Alpha stands first and fo remost for quality, for excellence and for service. If we always stick to this philosophy then I'm confident that we will really be able to expand our market share significantly. Okay, let me move on now to give you an idea of our marketing campaign for the x420",
+        "en": "Ford: The questions we must ask ourselves are \" What does the Alpha brand stand for? and also \" How can we set ourselves apart from our competitors? The answer to both of these questions is the same my friends. Mr. Alpha stands first and fo remost for quality, for excellence and for service. If we always stick to this philosophy then I'm confident that we will really be able to expand our market share significantly. Okay, let me move on now to give you an idea of our marketing campaign for the x420",
         "zh": ""
       }
     ]
@@ -13122,19 +14710,11 @@
     "title": "The Office - Presentation Series 5 - Deferring",
     "content": [
       {
-        "en": "Ford: Now, as we have already discussed there is a huge untapped market out there both in Asia, in other developing markets, and in th e more mature markets for us to push into. Now of course, this represents an enormous challenge with enormous rewa rds for the winners, but for any new product we need a great marketing message and marketing campaign Mr.",
+        "en": "Ford: Now, as we have already discussed there is a huge untapped market out there both in Asia, in other developing markets, and in th e more mature markets for us to push into. Now of course, this represents an enormous challenge with enormous rewa rds for the winners, but for any new product we need a great marketing message and marketing campaign Mr. It needs to be directed and focused at our target consumer, and needs to be pitched at exactly the right level. The question we must first address is of course, who is our target consumer and secondly what do they expect from the next generation Alpha lap-top? Mr.",
         "zh": ""
       },
       {
-        "en": "Ford: It needs to be directed and focused at our target consumer, and needs to be pitched at exactly the right level. The question we must first address is of course, who is our target consumer and secondly what do they expect from the next generation Alpha lap-top? Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Let's first of all tackle the first question. Our target consumer for the x420 is the middle class, white collar worker with an above average income. However, as we mentioned before the total number of computer owners is expanding rapidly and we need to broaden our audience for this product. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: For example, the x420 is also ideally suited to the younger student sector, who might use laptops both for study and gaming. There is no doubt that. Audience",
+        "en": "Ford: Let's first of all tackle the first question. Our target consumer for the x420 is the middle class, white collar worker with an above average income. However, as we mentioned before the total number of computer owners is expanding rapidly and we need to broaden our audience for this product. Mr. For example, the x420 is also ideally suited to the younger student sector, who might use laptops both for study and gaming. There is no doubt that. Audience",
         "zh": ""
       },
       {
@@ -13250,27 +14830,15 @@
     "title": "Presentation Series 6 - Addressing the Audience",
     "content": [
       {
-        "en": "Ford: The campaign that we have in store for the x420 is exciting, imaginative and revolutionary. We have spent two years listening to and responding to feedback from customers and staff alike. Mr.",
+        "en": "Ford: The campaign that we have in store for the x420 is exciting, imaginative and revolutionary. We have spent two years listening to and responding to feedback from customers and staff alike. Mr. I would like to say that without the assistance and support of each and every one of you we really could not have devised this campaign. I'd like to take my hat off and really thank you all for the wonderful work you've done so far, not only in helping support our marketing efforts, but also in your continuing your commitment to Alpha computers. Mr.",
         "zh": ""
       },
       {
-        "en": "Ford: I would like to say that without the assistance and support of each and every one of you we really could not have devised this campaign. I'd like to take my hat off and really thank you all for the wonderful work you've done so far, not only in helping support our marketing efforts, but also in your continuing your commitment to Alpha computers. Mr.",
+        "en": "Ford: There's no doubt in my mind that we have a great workforce here and together we can really push Alpha computers to a whole new level of success. Mr. On the subject of the campaign let me ask you all a question. How do we define the perfect lap-top? Is it about affordability, quality, speed, reliability? What do you look for in a consumer? Well, I believe the answer lies in a combination of all of these elements. Mr.",
         "zh": ""
       },
       {
-        "en": "Ford: There's no doubt in my mind that we have a great workforce here and together we can really push Alpha computers to a whole new level of success. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: On the subject of the campaign let me ask you all a question. How do we define the perfect lap-top? Is it about affordability, quality, speed, reliability? What do you look for in a consumer? Well, I believe the answer lies in a combination of all of these elements. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Our campaign will really hammer home the point that the x420 is a state-of the-art laptop for all of your computing needs. With our television campaign we hope to really reach out to a huge audience. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: We have a great ad campaign planned focusing on the fantastic USP' s of the x420. We have hired one of the best PR companies to work with us on the campaign, and have already completed three separate TV adverts, all focusing on one key feature of the x420. Mr.",
+        "en": "Ford: Our campaign will really hammer home the point that the x420 is a state-of the-art laptop for all of your computing needs. With our television campaign we hope to really reach out to a huge audience. Mr. We have a great ad campaign planned focusing on the fantastic USP' s of the x420. We have hired one of the best PR companies to work with us on the campaign, and have already completed three separate TV adverts, all focusing on one key feature of the x420. Mr.",
         "zh": ""
       },
       {
@@ -13386,11 +14954,7 @@
     "title": "The Office - Presentation Series 7 - Handling",
     "content": [
       {
-        "en": "Ford: Okay, so if we could dim the lights Jonathan, we can kick-off with the first TV advert. Please note that we are still in the early days with this advert, so it might seem a bit rough round the edges. Okay, so. just need to click this and the advert should pop up on the screen... Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Hmmmmmm. Sorry about this. Bear with me me a second. There seems to be a problem with the projector. Let me see. could you lend a hand a second?",
+        "en": "Ford: Okay, so if we could dim the lights Jonathan, we can kick-off with the first TV advert. Please note that we are still in the early days with this advert, so it might seem a bit rough round the edges. Okay, so. just need to click this and the advert should pop up on the screen... Mr. Hmmmmmm. Sorry about this. Bear with me me a second. There seems to be a problem with the projector. Let me see. could you lend a hand a second?",
         "zh": ""
       },
       {
@@ -13514,11 +15078,7 @@
     "title": "The Office - Presentation Series 8 - Common",
     "content": [
       {
-        "en": "Ford: So as I mentioned previously the campaign advertisement will focus on those key elements that every consumer looks for in a quality laptop: affordability, quality, speed and reliability. We have pulled out all the stops to produce a product that really rivals all our competitors. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Actually, just to illustrate my point let me give you an anecdote here. I rememb er last year I was playing golf with one of our key suppliers. It was a lovely summer afternoon. Anyway, I invited our supplier for a game of golf, and wanted to get his input on the new x420. Mr.",
+        "en": "Ford: So as I mentioned previously the campaign advertisement will focus on those key elements that every consumer looks for in a quality laptop: affordability, quality, speed and reliability. We have pulled out all the stops to produce a product that really rivals all our competitors. Mr. Actually, just to illustrate my point let me give you an anecdote here. I rememb er last year I was playing golf with one of our key suppliers. It was a lovely summer afternoon. Anyway, I invited our supplier for a game of golf, and wanted to get his input on the new x420. Mr.",
         "zh": ""
       },
       {
@@ -13626,27 +15186,15 @@
         "zh": ""
       },
       {
-        "en": "Ford: Right everyone. I apologize that I can't show you the marketing campaign today, but next week you will all have the opportunity to see if for yourselves, and I have no doubt that you will be impressed. Let me wrap up the presentation by summarising my key points. Mr.",
+        "en": "Ford: Right everyone. I apologize that I can't show you the marketing campaign today, but next week you will all have the opportunity to see if for yourselves, and I have no doubt that you will be impressed. Let me wrap up the presentation by summarising my key points. Mr. As I mentioned at the outset, 2010 represents a key year for Alpha computers. The recession is hopefully behind us. It is clear to ever yone in the computer industry that demand is booming, especially in the developing markets. Mr.",
         "zh": ""
       },
       {
-        "en": "Ford: As I mentioned at the outset, 2010 represents a key year for Alpha computers. The recession is hopefully behind us. It is clear to ever yone in the computer industry that demand is booming, especially in the developing markets. Mr.",
+        "en": "Ford: If we are to succeed in this ultracompetitive field then we really need to push forward and offer our customers products that meet their needs on all levels. As I hope I have illustrated, the x420 represents the kind of computer that can really satisfy those needs. Mr. I gave you an idea of the kind of revenue we expect to hit in 2010 with the new x420 range, and believe me, this is really just the beginning. Once we establish the x420 in the market we have plans to continue to expand our range with ever more revolutionary and impressive products. Mr.",
         "zh": ""
       },
       {
-        "en": "Ford: If we are to succeed in this ultracompetitive field then we really need to push forward and offer our customers products that meet their needs on all levels. As I hope I have illustrated, the x420 represents the kind of computer that can really satisfy those needs. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: I gave you an idea of the kind of revenue we expect to hit in 2010 with the new x420 range, and believe me, this is really just the beginning. Once we establish the x420 in the market we have plans to continue to expand our range with ever more revolutionary and impressive products. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Alpha computers is dedicated to innovation and improvement. I really see no limit to our potential as long as we stick to the principles I stressed earlier: quality, excellence and service. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Before we move on to the Q and A section I'd really like to leave you with a quote that really sums up everything that we've discussed today, and hopefully it will provide you with the same inspiration that it gives me. Mr.",
+        "en": "Ford: Alpha computers is dedicated to innovation and improvement. I really see no limit to our potential as long as we stick to the principles I stressed earlier: quality, excellence and service. Mr. Before we move on to the Q and A section I'd really like to leave you with a quote that really sums up everything that we've discussed today, and hopefully it will provide you with the same inspiration that it gives me. Mr.",
         "zh": ""
       },
       {
@@ -13662,27 +15210,15 @@
     "title": "Presentation Series 9 - Summary and Conclusion",
     "content": [
       {
-        "en": "Ford: Right everyone. I apologize that I can't show you the marketing campaign today, but next week you will all have the opportunity to see if for yourselves, and I have no doubt that you will be impressed. Let me wrap up the presentation by summarising my key points. Mr.",
+        "en": "Ford: Right everyone. I apologize that I can't show you the marketing campaign today, but next week you will all have the opportunity to see if for yourselves, and I have no doubt that you will be impressed. Let me wrap up the presentation by summarising my key points. Mr. As I mentioned at the outset, 2010 represents a key year for Alpha computers. The recession is hopefully behind us. It is clear to ever yone in the computer industry that demand is booming, especially in the developing markets. Mr.",
         "zh": ""
       },
       {
-        "en": "Ford: As I mentioned at the outset, 2010 represents a key year for Alpha computers. The recession is hopefully behind us. It is clear to ever yone in the computer industry that demand is booming, especially in the developing markets. Mr.",
+        "en": "Ford: If we are to succeed in this ultracompetitive field then we really need to push forward and offer our customers products that meet their needs on all levels. As I hope I have illustrated, the x420 represents the kind of computer that can really satisfy those needs. Mr. I gave you an idea of the kind of revenue we expect to hit in 2010 with the new x420 range, and believe me, this is really just the beginning. Once we establish the x420 in the market we have plans to continue to expand our range with ever more revolutionary and impressive products. Mr.",
         "zh": ""
       },
       {
-        "en": "Ford: If we are to succeed in this ultracompetitive field then we really need to push forward and offer our customers products that meet their needs on all levels. As I hope I have illustrated, the x420 represents the kind of computer that can really satisfy those needs. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: I gave you an idea of the kind of revenue we expect to hit in 2010 with the new x420 range, and believe me, this is really just the beginning. Once we establish the x420 in the market we have plans to continue to expand our range with ever more revolutionary and impressive products. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Alpha computers is dedicated to innovation and improvement. I really see no limit to our potential as long as we stick to the principles I stressed earlier: quality, excellence and service. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: Before we move on to the Q and A section I'd really like to leave you with a quote that really sums up everything that we've discussed today, and hopefully it will provide you with the same inspiration that it gives me. Mr.",
+        "en": "Ford: Alpha computers is dedicated to innovation and improvement. I really see no limit to our potential as long as we stick to the principles I stressed earlier: quality, excellence and service. Mr. Before we move on to the Q and A section I'd really like to leave you with a quote that really sums up everything that we've discussed today, and hopefully it will provide you with the same inspiration that it gives me. Mr.",
         "zh": ""
       },
       {
@@ -13786,11 +15322,7 @@
         "zh": ""
       },
       {
-        "en": "Ford: Well Janice, first of all, thanks for a very good question. I think you have hit the nail on the head actually. Orange are the global leaders precisely because of their size and power. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: But, although we can't compete in terms of size I do believe we hold an advantage in terms of dedication to customer service. Yes, I admit this is a David and Goliath battle,but don't forget who won that contest.",
+        "en": "Ford: Well Janice, first of all, thanks for a very good question. I think you have hit the nail on the head actually. Orange are the global leaders precisely because of their size and power. Mr. But, although we can't compete in terms of size I do believe we hold an advantage in terms of dedication to customer service. Yes, I admit this is a David and Goliath battle,but don't forget who won that contest.",
         "zh": ""
       },
       {
@@ -13826,11 +15358,7 @@
         "zh": ""
       },
       {
-        "en": "Ford: Well Janice, first of all, thanks for a very good question. I think you have hit the nail on the head actually. Orange are the global leaders precisely because of their size and power. Mr.",
-        "zh": ""
-      },
-      {
-        "en": "Ford: But, although we can't compete in terms of size I do believe we hold an advantage in terms of dedication to customer service. Yes, I admit this is a David and Goliath battle,but don't forget who won that contest.",
+        "en": "Ford: Well Janice, first of all, thanks for a very good question. I think you have hit the nail on the head actually. Orange are the global leaders precisely because of their size and power. Mr. But, although we can't compete in terms of size I do believe we hold an advantage in terms of dedication to customer service. Yes, I admit this is a David and Goliath battle,but don't forget who won that contest.",
         "zh": ""
       },
       {
