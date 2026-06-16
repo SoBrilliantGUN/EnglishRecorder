@@ -48,7 +48,18 @@ npx tsc --noEmit # TypeScript 类型检查
 - **类型**: `types/podcast.ts` 定义 `TransSegment { en: string; zh: string }`
 - **显示模式**: 课文内「译」按钮切换两种显示方式（完全显示/悬浮显示）。悬浮模式用 `visibility: hidden` 占位防抖。
 - **处理流程**: `scripts/split-sentences.mjs`（逐句拆分 + `--split-long` 长句二次拆分）→ `scripts/rebalance-transcripts.mjs`（批量拆分至 ≤55 字符）→ 人工/并行 EN→ZH 翻译 → `scripts/apply-translations.mjs`（课文翻译写入）或 `scripts/apply-transcript-translations.mjs`（文字稿翻译写入）
-- **校对后对齐**: 课文校对完成后，必须将对应文字稿中3遍对话的 en 和 zh 同步为与课文一致（同一录音播放3遍）。使用 content-based detection 定位3遍对话并统一替换。
+- **校对后对齐**: 课文校对完成后，必须将对应文字稿中3遍对话的 en 和 zh 同步为与课文一致（同一录音播放3遍）。使用 `scripts/sync-dialogue-to-transcript.mjs` 脚本完成，流程见下。
+
+### 课文→文字稿同步流程
+
+校对完 dialogue 后，按以下步骤同步 transcript 中的 3 遍对话：
+
+1. **LLM 定位范围**：读取 transcript，找到 3 段对话的起止 segment 索引（inclusive）
+2. **执行脚本**：
+   ```bash
+   node scripts/sync-dialogue-to-transcript.mjs <json路径> <start1>,<end1> <start2>,<end2> <start3>,<end3>
+   ```
+   脚本自动去掉 dialogue 的人物标签（`A: ` → 空），替换 transcript 中 3 段指定范围，幂等运行无副作用。
 - **兼容性**: content 和 transcript 均支持旧格式（string）和新格式（TransSegment[]）
 
 ### 状态刷新机制
