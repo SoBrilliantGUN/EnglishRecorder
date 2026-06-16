@@ -329,7 +329,7 @@
       "zh": "没错。"
     },
     {
-      "en": "So let's hear this word in our dialogue today.",
+      "en": "And we'll hear this word in our dialogue today.",
       "zh": "那让我们在今天的对话中听听这个词吧。"
     },
     {
@@ -361,43 +361,43 @@
       "zh": "我们会解释所有重要的单词和短语。"
     },
     {
-      "en": "All right, people, we're holding this meeting today",
-      "zh": "好了，各位，我们今天开这个会是因为我们的销售必须想点办法了，"
+      "en": "All right, people.",
+      "zh": "好了，各位。"
     },
     {
-      "en": "because we've got to do something about our sales",
-      "zh": "而且必须"
+      "en": "We're holding this meeting today because we've got",
+      "zh": "我们今天开这个会是因为我们的销售必须想点办法了，"
     },
     {
-      "en": "and we need to do it now.",
-      "zh": "现在就行动。"
+      "en": "to do something about our sales,",
+      "zh": "而且必"
+    },
+    {
+      "en": "and we need to do it NOW!",
+      "zh": "须现在就想！"
     },
     {
       "en": "I want concrete solutions.",
       "zh": "我要具体的解决方案。"
     },
     {
-      "en": "How do you plan to drive sales?",
-      "zh": "你打算怎么提升销量？"
+      "en": "How do you plan to drive sales... Roger?",
+      "zh": "你打算怎么提升销量…罗杰？"
     },
     {
-      "en": "Roger.",
-      "zh": "罗杰。"
+      "en": "Well, in fact, we're the most expensive in the",
+      "zh": "嗯，事实上，我们是市场上最贵的，"
     },
     {
-      "en": "Well, in fact, we're the most expensive in the market.",
-      "zh": "嗯，事实上，我们是市场上最贵的。"
+      "en": "market, so maybe we need to lower our prices to match",
+      "zh": "所以也许我们需要"
     },
     {
-      "en": "So maybe we need to lower our prices to match the",
-      "zh": "所以也许我们需要降价来跟竞争对"
+      "en": "the competitors?",
+      "zh": "降价来跟竞争对手持平？"
     },
     {
-      "en": "competitors.",
-      "zh": "手持平。"
-    },
-    {
-      "en": "Lower our prices.",
+      "en": "Lower our prices?",
       "zh": "降价？"
     },
     {
@@ -406,7 +406,7 @@
     },
     {
       "en": "It'll never fly with Swan.",
-      "zh": "斯旺绝对不会同意的。"
+      "zh": "斯旺不会同意的。"
     },
     {
       "en": "What kind of thinking is that?",
@@ -421,20 +421,24 @@
       "zh": "还有人有更好的方案吗？"
     },
     {
-      "en": "Natalie.",
-      "zh": "娜塔莉。"
+      "en": "Natalie?",
+      "zh": "娜塔莉？"
     },
     {
-      "en": "Perhaps a promotion.",
-      "zh": "也许搞个促销。"
+      "en": "Um, perhaps, um, a promotion.",
+      "zh": "嗯，也许，嗯，搞个促销活动。"
     },
     {
-      "en": "Maybe a two for one offer or something like that.",
-      "zh": "也许来个买二送一之类的。"
+      "en": "Maybe a two-for-one offer, or something like that.",
+      "zh": "也许来个买二送一之类的？"
+    },
+    {
+      "en": "What?",
+      "zh": "什么？"
     },
     {
       "en": "That's the same thing.",
-      "zh": "那不是一回事吗。"
+      "zh": "那不是一回事嘛。"
     },
     {
       "en": "Bad idea.",
@@ -445,68 +449,44 @@
       "zh": "实在太烂了。"
     },
     {
-      "en": "Damn it, people.",
-      "zh": "该死，各位。"
+      "en": "Dammit people come on!",
+      "zh": "该死，各位加油啊！"
     },
     {
-      "en": "Come on.",
-      "zh": "加油。"
+      "en": "Think!",
+      "zh": "动动脑子！"
     },
     {
-      "en": "Think.",
-      "zh": "动动脑子。"
-    },
-    {
-      "en": "We're going to be here any minute.",
+      "en": "The CEO will be here any minute.",
       "zh": "CEO随时就到。"
     },
     {
-      "en": "Hello, Mr.",
-      "zh": "你好，"
+      "en": "Hello, Mr. Swan.",
+      "zh": "你好，斯旺先生。"
     },
     {
-      "en": "Swan.",
-      "zh": "斯旺先生。"
+      "en": "Oh, Mr. Swan.",
+      "zh": "哦，斯旺先生。"
     },
     {
-      "en": "Oh, Mr.",
-      "zh": "哦，"
-    },
-    {
-      "en": "Swan.",
-      "zh": "斯旺先生。"
-    },
-    {
-      "en": "Hello, Mr.",
-      "zh": "你好，"
-    },
-    {
-      "en": "Swan.",
-      "zh": "斯旺先生。"
+      "en": "Hello, Mr. Swan.",
+      "zh": "你好，斯旺先生。"
     },
     {
       "en": "Do we have any ideas yet?",
       "zh": "大家有什么想法了吗？"
     },
     {
-      "en": "Yes, Mr.",
-      "zh": "是的，"
+      "en": "Yes Mr. Swan, we were kind of considering a two-for-",
+      "zh": "是的斯旺先生，我们在考虑做一个买二"
     },
     {
-      "en": "Swan.",
-      "zh": "斯旺先生。"
+      "en": "one offer to get more competitive.",
+      "zh": "送一的活动来增强竞争力。"
     },
     {
-      "en": "We were kind of considering a two for one offer to get",
-      "zh": "我们在考虑做一个买二送一的活动来增"
-    },
-    {
-      "en": "more competitive.",
-      "zh": "强竞争力。"
-    },
-    {
-      "en": "A two for one promotion.",
-      "zh": "买二送一促销。"
+      "en": "A two-for-one promotion?",
+      "zh": "买二送一？"
     },
     {
       "en": "Hmm.",
@@ -522,15 +502,15 @@
     },
     {
       "en": "Yeah, exactly.",
-      "zh": "是啊，没错。"
+      "zh": "对对，正是。"
     },
     {
       "en": "That's just what I was thinking.",
-      "zh": "跟我想的一模一样。"
+      "zh": "跟我想的一模一样！"
     },
     {
-      "en": "In fact, it's a brilliant idea.",
-      "zh": "事实上，这是个绝妙的主意。"
+      "en": "In fact, that's a brilliant idea!",
+      "zh": "事实上，这是个绝妙的主意！"
     },
     {
       "en": "I'm glad we thought of that.",
@@ -921,35 +901,39 @@
       "zh": "好了，各位。"
     },
     {
-      "en": "We're holding this meeting today because we've got to",
+      "en": "We're holding this meeting today because we've got",
       "zh": "我们今天开这个会是因为我们的销售必须想点办法了，"
     },
     {
-      "en": "do something about our sales and we need to do it now.",
-      "zh": "而且必须现在就行动。"
+      "en": "to do something about our sales,",
+      "zh": "而且必"
+    },
+    {
+      "en": "and we need to do it NOW!",
+      "zh": "须现在就想！"
     },
     {
       "en": "I want concrete solutions.",
       "zh": "我要具体的解决方案。"
     },
     {
-      "en": "How do you plan to drive sales, Roger?",
-      "zh": "你打算怎么提升销量，罗杰？"
+      "en": "How do you plan to drive sales... Roger?",
+      "zh": "你打算怎么提升销量…罗杰？"
     },
     {
-      "en": "Well, in fact, we're the most expensive in the market.",
-      "zh": "嗯，事实上，我们是市场上最贵的。"
+      "en": "Well, in fact, we're the most expensive in the",
+      "zh": "嗯，事实上，我们是市场上最贵的，"
     },
     {
-      "en": "So maybe we need to lower our prices to match the",
-      "zh": "所以也许我们需要降价来跟竞争对"
+      "en": "market, so maybe we need to lower our prices to match",
+      "zh": "所以也许我们需要"
     },
     {
-      "en": "competitors.",
-      "zh": "手持平。"
+      "en": "the competitors?",
+      "zh": "降价来跟竞争对手持平？"
     },
     {
-      "en": "Lower our prices.",
+      "en": "Lower our prices?",
       "zh": "降价？"
     },
     {
@@ -958,7 +942,7 @@
     },
     {
       "en": "It'll never fly with Swan.",
-      "zh": "斯旺绝对不会同意的。"
+      "zh": "斯旺不会同意的。"
     },
     {
       "en": "What kind of thinking is that?",
@@ -969,20 +953,20 @@
       "zh": "天哪。"
     },
     {
-      "en": "Anybody else have a better plan?",
-      "zh": "还有其他人有更好的方案吗？"
+      "en": "Anyone have a better plan?",
+      "zh": "还有人有更好的方案吗？"
     },
     {
       "en": "Natalie?",
       "zh": "娜塔莉？"
     },
     {
-      "en": "Um, perhaps, um, a promotion,",
-      "zh": "嗯，也许，嗯，搞个促销，"
+      "en": "Um, perhaps, um, a promotion.",
+      "zh": "嗯，也许，嗯，搞个促销活动。"
     },
     {
-      "en": "maybe a two for one offer or something like that.",
-      "zh": "也许来个买二送一之类的。"
+      "en": "Maybe a two-for-one offer, or something like that.",
+      "zh": "也许来个买二送一之类的？"
     },
     {
       "en": "What?",
@@ -990,7 +974,7 @@
     },
     {
       "en": "That's the same thing.",
-      "zh": "那不是一回事吗。"
+      "zh": "那不是一回事嘛。"
     },
     {
       "en": "Bad idea.",
@@ -1001,68 +985,44 @@
       "zh": "实在太烂了。"
     },
     {
-      "en": "Damn it, people.",
-      "zh": "该死，各位。"
+      "en": "Dammit people come on!",
+      "zh": "该死，各位加油啊！"
     },
     {
-      "en": "Come on.",
-      "zh": "加油。"
-    },
-    {
-      "en": "Think.",
-      "zh": "动动脑子。"
+      "en": "Think!",
+      "zh": "动动脑子！"
     },
     {
       "en": "The CEO will be here any minute.",
       "zh": "CEO随时就到。"
     },
     {
-      "en": "Hello, Mr.",
-      "zh": "你好，"
+      "en": "Hello, Mr. Swan.",
+      "zh": "你好，斯旺先生。"
     },
     {
-      "en": "Swan.",
-      "zh": "斯旺先生。"
+      "en": "Oh, Mr. Swan.",
+      "zh": "哦，斯旺先生。"
     },
     {
-      "en": "Oh, Mr.",
-      "zh": "哦，"
-    },
-    {
-      "en": "Swan.",
-      "zh": "斯旺先生。"
-    },
-    {
-      "en": "Hello, Mr.",
-      "zh": "你好，"
-    },
-    {
-      "en": "Swan.",
-      "zh": "斯旺先生。"
+      "en": "Hello, Mr. Swan.",
+      "zh": "你好，斯旺先生。"
     },
     {
       "en": "Do we have any ideas yet?",
       "zh": "大家有什么想法了吗？"
     },
     {
-      "en": "Yes, Mr.",
-      "zh": "是的，"
+      "en": "Yes Mr. Swan, we were kind of considering a two-for-",
+      "zh": "是的斯旺先生，我们在考虑做一个买二"
     },
     {
-      "en": "Swan.",
-      "zh": "斯旺先生。"
+      "en": "one offer to get more competitive.",
+      "zh": "送一的活动来增强竞争力。"
     },
     {
-      "en": "We were kind of considering a two for one offer to get",
-      "zh": "我们在考虑做一个买二送一的活动来增"
-    },
-    {
-      "en": "more competitive.",
-      "zh": "强竞争力。"
-    },
-    {
-      "en": "A two for one promotion.",
-      "zh": "买二送一促销。"
+      "en": "A two-for-one promotion?",
+      "zh": "买二送一？"
     },
     {
       "en": "Hmm.",
@@ -1077,20 +1037,16 @@
       "zh": "这听起来值得考虑。"
     },
     {
-      "en": "Yeah.",
-      "zh": "是的。"
-    },
-    {
-      "en": "Exactly.",
-      "zh": "没错。"
+      "en": "Yeah, exactly.",
+      "zh": "对对，正是。"
     },
     {
       "en": "That's just what I was thinking.",
-      "zh": "跟我想的一模一样。"
+      "zh": "跟我想的一模一样！"
     },
     {
-      "en": "In fact, that's a brilliant idea.",
-      "zh": "事实上，这是个绝妙的主意。"
+      "en": "In fact, that's a brilliant idea!",
+      "zh": "事实上，这是个绝妙的主意！"
     },
     {
       "en": "I'm glad we thought of that.",
@@ -1513,39 +1469,39 @@
       "zh": "好了，各位。"
     },
     {
-      "en": "We're holding this meeting today because we've got to",
+      "en": "We're holding this meeting today because we've got",
       "zh": "我们今天开这个会是因为我们的销售必须想点办法了，"
     },
     {
-      "en": "do something about our sales and we need to do it now.",
-      "zh": "而且必须现在就行动。"
+      "en": "to do something about our sales,",
+      "zh": "而且必"
+    },
+    {
+      "en": "and we need to do it NOW!",
+      "zh": "须现在就想！"
     },
     {
       "en": "I want concrete solutions.",
       "zh": "我要具体的解决方案。"
     },
     {
-      "en": "How do you plan to drive sales?",
-      "zh": "你打算怎么提升销量？"
+      "en": "How do you plan to drive sales... Roger?",
+      "zh": "你打算怎么提升销量…罗杰？"
     },
     {
-      "en": "Roger.",
-      "zh": "罗杰。"
+      "en": "Well, in fact, we're the most expensive in the",
+      "zh": "嗯，事实上，我们是市场上最贵的，"
     },
     {
-      "en": "Well, in fact, we're the most expensive in the market.",
-      "zh": "嗯，事实上，我们是市场上最贵的。"
+      "en": "market, so maybe we need to lower our prices to match",
+      "zh": "所以也许我们需要"
     },
     {
-      "en": "So maybe we need to lower our prices to match the",
-      "zh": "所以也许我们需要降价来跟竞争对"
+      "en": "the competitors?",
+      "zh": "降价来跟竞争对手持平？"
     },
     {
-      "en": "competitors.",
-      "zh": "手持平。"
-    },
-    {
-      "en": "Lower our prices.",
+      "en": "Lower our prices?",
       "zh": "降价？"
     },
     {
@@ -1554,7 +1510,7 @@
     },
     {
       "en": "It'll never fly with Swan.",
-      "zh": "斯旺绝对不会同意的。"
+      "zh": "斯旺不会同意的。"
     },
     {
       "en": "What kind of thinking is that?",
@@ -1569,92 +1525,72 @@
       "zh": "还有人有更好的方案吗？"
     },
     {
-      "en": "Natalie.",
-      "zh": "娜塔莉。"
+      "en": "Natalie?",
+      "zh": "娜塔莉？"
     },
     {
-      "en": "Perhaps a promotion.",
-      "zh": "也许搞个促销。"
+      "en": "Um, perhaps, um, a promotion.",
+      "zh": "嗯，也许，嗯，搞个促销活动。"
     },
     {
-      "en": "Maybe a two for one offer or something like that.",
-      "zh": "也许来个买二送一之类的。"
+      "en": "Maybe a two-for-one offer, or something like that.",
+      "zh": "也许来个买二送一之类的？"
+    },
+    {
+      "en": "What?",
+      "zh": "什么？"
     },
     {
       "en": "That's the same thing.",
-      "zh": "那不是一回事吗。"
+      "zh": "那不是一回事嘛。"
     },
     {
       "en": "Bad idea.",
       "zh": "烂主意。"
     },
     {
-      "en": "Very bad idea.",
+      "en": "Really bad idea.",
       "zh": "实在太烂了。"
     },
     {
-      "en": "Damn it, people.",
-      "zh": "该死，各位。"
+      "en": "Dammit people come on!",
+      "zh": "该死，各位加油啊！"
     },
     {
-      "en": "Come on.",
-      "zh": "加油。"
-    },
-    {
-      "en": "Think.",
-      "zh": "动动脑子。"
+      "en": "Think!",
+      "zh": "动动脑子！"
     },
     {
       "en": "The CEO will be here any minute.",
       "zh": "CEO随时就到。"
     },
     {
-      "en": "Hello, Mr.",
-      "zh": "你好，"
+      "en": "Hello, Mr. Swan.",
+      "zh": "你好，斯旺先生。"
     },
     {
-      "en": "Swan.",
-      "zh": "斯旺先生。"
+      "en": "Oh, Mr. Swan.",
+      "zh": "哦，斯旺先生。"
     },
     {
-      "en": "Oh, Mr.",
-      "zh": "哦，"
-    },
-    {
-      "en": "Swan.",
-      "zh": "斯旺先生。"
-    },
-    {
-      "en": "Hello, Mr.",
-      "zh": "你好，"
-    },
-    {
-      "en": "Swan.",
-      "zh": "斯旺先生。"
+      "en": "Hello, Mr. Swan.",
+      "zh": "你好，斯旺先生。"
     },
     {
       "en": "Do we have any ideas yet?",
       "zh": "大家有什么想法了吗？"
     },
     {
-      "en": "Yes, Mr.",
-      "zh": "是的，"
+      "en": "Yes Mr. Swan, we were kind of considering a two-for-",
+      "zh": "是的斯旺先生，我们在考虑做一个买二"
     },
     {
-      "en": "Swan.",
-      "zh": "斯旺先生。"
+      "en": "one offer to get more competitive.",
+      "zh": "送一的活动来增强竞争力。"
     },
     {
-      "en": "We were kind of considering a two for one offer to get",
-      "zh": "我们在考虑做一个买二送一的活动来增"
-    },
-    {
-      "en": "more competitive.",
-      "zh": "强竞争力。"
-    },
-    {
-      "en": "A two for one promotion.",
-      "zh": "买二送一促销。"
+      "en": "A two-for-one promotion?",
+      "zh": "买二送一？"
     },
     {
       "en": "Hmm.",
@@ -1670,15 +1606,15 @@
     },
     {
       "en": "Yeah, exactly.",
-      "zh": "是啊，没错。"
+      "zh": "对对，正是。"
     },
     {
       "en": "That's just what I was thinking.",
-      "zh": "跟我想的一模一样。"
+      "zh": "跟我想的一模一样！"
     },
     {
-      "en": "In fact, it's a brilliant idea.",
-      "zh": "事实上，这是个绝妙的主意。"
+      "en": "In fact, that's a brilliant idea!",
+      "zh": "事实上，这是个绝妙的主意！"
     },
     {
       "en": "I'm glad we thought of that.",
@@ -1983,7 +1919,7 @@
       "zh": "A：我要具体的解决方案。"
     },
     {
-      "en": "A: How do you intend to drive sales... Roger?",
+      "en": "A: How do you plan to drive sales... Roger?",
       "zh": "A：你打算怎么提升销量…罗杰？"
     },
     {
@@ -2019,7 +1955,7 @@
       "zh": "A：天哪。"
     },
     {
-      "en": "A: Anybody else have a better plan?",
+      "en": "A: Anyone have a better plan?",
       "zh": "A：还有人有更好的方案吗？"
     },
     {
@@ -2027,11 +1963,11 @@
       "zh": "A：娜塔莉？"
     },
     {
-      "en": "C: Um, perhaps, um, a sales promotion.",
+      "en": "C: Um, perhaps, um, a promotion.",
       "zh": "C：嗯，也许，嗯，搞个促销活动。"
     },
     {
-      "en": "C: Maybe a 3 two-for-one offer, or something like that!",
+      "en": "C: Maybe a two-for-one offer, or something like that.",
       "zh": "C：也许来个买二送一之类的？"
     },
     {
@@ -2063,11 +1999,23 @@
       "zh": "A：CEO随时就到。"
     },
     {
+      "en": "B: Hello, Mr. Swan.",
+      "zh": "B：你好，斯旺先生。"
+    },
+    {
+      "en": "C: Oh, Mr. Swan.",
+      "zh": "C：哦，斯旺先生。"
+    },
+    {
+      "en": "A: Hello, Mr. Swan.",
+      "zh": "A：你好，斯旺先生。"
+    },
+    {
       "en": "D: Do we have any ideas yet?",
       "zh": "D：大家有什么想法了吗？"
     },
     {
-      "en": "C: Yes Mr. Swan, we were kind of considering a twofor-",
+      "en": "C: Yes Mr. Swan, we were kind of considering a two-for-",
       "zh": "C：是的斯旺先生，我们在考虑做一个买二"
     },
     {
@@ -2095,7 +2043,7 @@
       "zh": "A：对对，正是。"
     },
     {
-      "en": "A: Just what I was thinking!",
+      "en": "A: That's just what I was thinking.",
       "zh": "A：跟我想的一模一样！"
     },
     {
