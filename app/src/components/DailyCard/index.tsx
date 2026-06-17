@@ -1,10 +1,13 @@
-import { useState, Suspense, lazy } from 'react';
+import { useState, useEffect, Suspense, lazy } from 'react';
 import { getRecords, todayStr, getStats, groupByLesson } from '../../store';
 import CheckinModal from '../CheckinModal';
+import Pagination from '../Pagination';
 import styles from './index.module.scss';
 
 // ShareModal 内含 html2canvas（~410 kB 未压缩），按需加载
 const ShareModal = lazy(() => import('../ShareModal'));
+
+const PAGE_SIZE = 10;
 
 interface DailyCardProps {
   selected: string;
@@ -15,14 +18,22 @@ interface DailyCardProps {
 export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps) {
   const [showCheckin, setShowCheckin] = useState(false);
   const [shareModal, setShareModal] = useState(false);
+  const [page, setPage] = useState(1);
 
-  // tick 变化触发重渲染，直接读最新数据
-  void tick;
+  // tick 变化时重置为第 1 页
+  useEffect(() => {
+    setPage(1);
+  }, [tick]);
+
   const date = selected || todayStr();
   const records = getRecords().filter(r => r.date === date);
   const grouped = groupByLesson(records);
 
   const openCheckin = () => setShowCheckin(true);
+
+  const totalPages = Math.ceil(grouped.length / PAGE_SIZE);
+  const start = (page - 1) * PAGE_SIZE;
+  const visible = grouped.slice(start, start + PAGE_SIZE);
 
   return (
     <>
@@ -62,14 +73,15 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
             </p>
           </div>
         ) : (
-          <div className={styles.listScroll}>
-            {grouped.map(([ls, total]) => (
-            <div key={ls} className={styles.lessonItem}>
-              <span>第 <strong>{String(ls).padStart(2, '0')}</strong> 课</span>
-              <span className={styles.badge}>× {total} 次</span>
-            </div>
-          ))}
-          </div>
+          <>
+            {visible.map(([ls, total]) => (
+              <div key={ls} className={styles.lessonItem}>
+                <span>第 <strong>{String(ls).padStart(2, '0')}</strong> 课</span>
+                <span className={styles.badge}>× {total} 次</span>
+              </div>
+            ))}
+            <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
+          </>
         )}
       </div>
 

@@ -1,14 +1,15 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import {
   getFirstDates, setReset, todayStr, friendlyDate, showToast,
   getCoef, addDays, formatDate, getRecords, getResets,
 } from '../../store';
 import { useCoef } from '../../hooks/useCoef';
 import Modal from '../Modal';
+import Pagination from '../Pagination';
 import { SettingsIcon } from '../icons';
 import styles from './index.module.scss';
 
-const COLLAPSED_COUNT = 3;
+const PAGE_SIZE = 10;
 
 interface ReviewReminderProps {
   onRefresh: () => void;
@@ -23,12 +24,15 @@ interface ReminderItem {
 }
 
 export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps) {
-  const [expanded, setExpanded] = useState(false);
+  const [page, setPage] = useState(1);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [resetModal, setResetModal] = useState<number | null>(null);
   const { coef, adjust, reset: resetCoef, previews } = useCoef(onRefresh);
 
-  void tick;
+  // tick 变化时重置为第 1 页
+  useEffect(() => {
+    setPage(1);
+  }, [tick]);
 
   const reminders: ReminderItem[] = [];
   const firstDates = getFirstDates();
@@ -95,7 +99,9 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
     onRefresh();
   };
 
-  const visible = expanded ? reminders : reminders.slice(0, COLLAPSED_COUNT);
+  const totalPages = Math.ceil(reminders.length / PAGE_SIZE);
+  const start = (page - 1) * PAGE_SIZE;
+  const visible = reminders.slice(start, start + PAGE_SIZE);
 
   return (
     <div className={`card ${styles.container}`}>
@@ -126,8 +132,7 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
         </div>
       ) : (
         <>
-          <div className={expanded ? styles.listScroll : undefined}>
-            {visible.map(r => {
+          {visible.map(r => {
             const itemClass = [
               styles.reminderItem,
               r.isOverdue && styles.reminderOverdue,
@@ -150,12 +155,7 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
               </div>
             );
           })}
-          </div>
-          {reminders.length > COLLAPSED_COUNT && (
-            <button className={styles.expandBtn} onClick={() => setExpanded(e => !e)}>
-              {expanded ? '收起' : `展开另外 ${reminders.length - COLLAPSED_COUNT} 条`}
-            </button>
-          )}
+          <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
         </>
       )}
 
@@ -195,4 +195,3 @@ export default function ReviewReminder({ onRefresh, tick }: ReviewReminderProps)
     </div>
   );
 }
-
