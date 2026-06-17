@@ -26,10 +26,13 @@ export default function Modal({ onClose, children, maxWidth, style, label }: Mod
     return () => document.removeEventListener('keydown', handleKey);
   }, [onClose]);
 
-  // 弹窗打开时聚焦到内容区，关闭后归还焦点
+  // 弹窗打开时聚焦到内容区（若子元素已有焦点则不抢占），关闭后归还焦点
   useEffect(() => {
     const prevFocus = document.activeElement as HTMLElement | null;
-    contentRef.current?.focus();
+    // 如果弹窗内已有元素获得焦点（如 autoFocus 的 input），则不抢占
+    if (!contentRef.current?.contains(document.activeElement)) {
+      contentRef.current?.focus();
+    }
     return () => {
       prevFocus?.focus();
     };
