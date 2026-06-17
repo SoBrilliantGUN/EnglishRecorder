@@ -1,38 +1,163 @@
+// ============================================================
+// Pagination — 统一分页组件样式
+// ============================================================
+
 .container {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 12px;
+  justify-content: center;
+  gap: 4px;
   padding-top: 12px;
   border-top: 1px solid var(--color-border);
-  margin-top: 8px;
+  user-select: none;
+
+  &.noDivider {
+    border-top: none;
+    padding-top: 0;
+  }
 }
 
+// ---- 按钮基类 ----
 .btn {
-  background: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
-  padding: 4px 12px;
-  font-size: var(--font-size-xs);
-  color: var(--color-primary);
+  background: transparent;
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  line-height: 1;
   cursor: pointer;
-  transition: all var(--transition-fast);
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast),
+    opacity var(--transition-fast);
+  white-space: nowrap;
+  font-family: inherit;
 
   &:hover:not(:disabled) {
-    background: var(--color-primary);
-    color: var(--color-text-inverse);
     border-color: var(--color-primary);
+    background: rgba(7, 193, 96, 0.06);
+  }
+
+  &:active:not(:disabled) {
+    background: rgba(7, 193, 96, 0.12);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
   }
 
   &:disabled {
-    color: var(--color-text-disabled);
+    opacity: 0.35;
     cursor: not-allowed;
   }
 }
 
+// ---- 箭头按钮 ----
+.btnArrow {
+  min-width: var(--pgn-btn-size);
+  height: var(--pgn-btn-size);
+  padding: 0;
+}
+
+// ---- 页码按钮 ----
+.btnPage {
+  // 正方形或接近正方形
+  min-width: var(--pgn-btn-size);
+  height: var(--pgn-btn-size);
+  padding: 0 4px;
+}
+
+// ---- 激活态 ----
+.btnActive {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+  font-weight: 600;
+
+  &:hover:not(:disabled) {
+    background: var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
+    color: #fff;
+  }
+
+  &:active:not(:disabled) {
+    background: var(--color-primary-hover);
+  }
+}
+
+// ---- 省略号 ----
+.ellipsis {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--pgn-btn-size);
+  height: var(--pgn-btn-size);
+  color: var(--color-text-disabled);
+  font-size: var(--font-size-sm);
+  letter-spacing: 1px;
+}
+
+// ---- 页码指示器（simple 模式） ----
 .indicator {
   font-size: var(--font-size-xs);
   color: var(--color-text-secondary);
-  min-width: 32px;
+  min-width: 36px;
   text-align: center;
+  flex-shrink: 0;
+}
+
+// ---- 每页条数选择器 ----
+.pageSizeSelect {
+  margin-left: 12px;
+  padding: 0 24px 0 8px;
+  height: var(--pgn-btn-size);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg-card);
+  color: var(--color-text);
+  font-size: var(--font-size-xs);
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+  font-family: inherit;
+  appearance: none;
+  // 自定义下拉箭头
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%235c6a6b'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+
+  &:hover {
+    border-color: var(--color-primary);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+// ============================================================
+// 尺寸变体
+// ============================================================
+
+.sm {
+  --pgn-btn-size: 28px;
+
+  .btnArrow,
+  .btnPage {
+    font-size: var(--font-size-xs);
+  }
+
+  .pageSizeSelect {
+    height: 28px;
+    font-size: 11px;
+  }
+}
+
+.md {
+  --pgn-btn-size: 32px;
 }

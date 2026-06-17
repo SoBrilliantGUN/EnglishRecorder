@@ -5,6 +5,7 @@ import {
   showToast, Record, getStats, groupByLesson
 } from '../../store';
 import Modal from '../Modal';
+import Pagination from '../Pagination';
 import styles from './index.module.scss';
 
 // ShareModal 内含 html2canvas（~410 kB），按需加载
@@ -183,27 +184,13 @@ export default function RecordsView({ onSwitchView, onRefresh }: RecordsViewProp
 
       {/* 分页 */}
       {needsPagination && (
-        <div className={styles.pagination}>
-          <button
-            className={styles.pageBtn}
-            disabled={safePage === 1}
-            onClick={() => setPage(safePage - 1)}
-            aria-label="上一页"
-          >‹</button>
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map(p => (
-            <button
-              key={p}
-              className={`${styles.pageBtn} ${safePage === p ? styles.pageBtnActive : ''}`}
-              onClick={() => setPage(p)}
-            >{p}</button>
-          ))}
-          <button
-            className={styles.pageBtn}
-            disabled={safePage === totalPages}
-            onClick={() => setPage(safePage + 1)}
-            aria-label="下一页"
-          >›</button>
-        </div>
+        <Pagination
+          variant="full"
+          size="sm"
+          page={safePage}
+          totalPages={totalPages}
+          onPageChange={setPage}
+        />
       )}
 
       {/* 汇总 */}

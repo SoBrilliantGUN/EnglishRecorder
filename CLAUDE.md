@@ -74,6 +74,48 @@ App.tsx 维护一个 `tick` 计数器作为全局刷新信号。组件通过 `st
 
 无路由库。App.tsx 根据 `view` 状态字符串（`'calendar'` / `'records'`）渲染对应组件，通过回调切换。
 
+### 分页组件
+
+项目中所有分页统一使用 `Pagination` 组件（`src/components/Pagination/`），**禁止在各组件中自行实现分页**。
+
+```typescript
+interface PaginationProps {
+  page: number;              // 当前页码（1-based）
+  totalPages: number;        // 总页数
+  onPageChange: (page: number) => void;
+
+  variant?: 'simple' | 'full';  // simple=上/下页+指示器 | full=页码按钮+省略号（默认 simple）
+  size?: 'sm' | 'md';           // sm=28px | md=32px（默认 md）
+
+  // simple 模式
+  prevLabel?: string;           // 默认「上一页」（simple）或 ‹（full）
+  nextLabel?: string;           // 默认「下一页」（simple）或 ›（full）
+  showIndicator?: boolean;      // 显示 "page/totalPages"，simple 默认 true
+
+  // full 模式
+  maxVisible?: number;          // 超过此页数启用省略号，默认 7
+  siblingCount?: number;        // 当前页两侧各显示几页，默认 1
+
+  // 每页条数选择器（传入则显示下拉框）
+  pageSize?: number;
+  pageSizeOptions?: number[];
+  onPageSizeChange?: (size: number) => void;
+
+  // 其他
+  hideOnSinglePage?: boolean;   // 仅一页时隐藏，默认 true
+  showDivider?: boolean;        // 顶部分割线，默认 true
+}
+```
+
+**各场景使用方式：**
+
+| 场景 | variant | 额外 props |
+|---|---|---|
+| 学习内容（DailyCard） | `simple`（默认） | — |
+| 复习提醒（ReviewReminder） | `simple`（默认） | — |
+| 打卡记录（RecordsView） | `full` | `size="sm"` |
+| 课程库（PodcastList） | `full` | `pageSize`, `pageSizeOptions`, `onPageSizeChange` |
+
 ### 样式方案
 
 - **全局 token**：`src/styles/_variables.scss` 定义语义化 CSS 变量（颜色、圆角、字号、阴影、动画），含 `[data-theme="dark"]` 暗黑模式覆盖

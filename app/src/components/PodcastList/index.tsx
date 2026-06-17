@@ -3,6 +3,7 @@ import podcastsData from '../../data/podcasts-index';
 import type { PodcastMeta } from '../../types/podcast';
 import { LEVEL_COLORS } from '../../types/podcast';
 import { SearchIcon } from '../icons';
+import Pagination from '../Pagination';
 import styles from './index.module.scss';
 
 interface PodcastListProps {
@@ -61,22 +62,6 @@ export default function PodcastList({ onSelectLesson, currentPage, onPageChange 
   const handlePageSizeChange = (size: number) => {
     setPageSize(size);
     onPageChange(1);
-  };
-
-  // 生成页码数组
-  const getPageNumbers = (): (number | 'ellipsis')[] => {
-    if (totalPages <= 7) return Array.from({ length: totalPages }, (_, i) => i + 1);
-
-    const pages: (number | 'ellipsis')[] = [1];
-    if (safePage > 3) pages.push('ellipsis');
-
-    const start = Math.max(2, safePage - 1);
-    const end = Math.min(totalPages - 1, safePage + 1);
-    for (let i = start; i <= end; i++) pages.push(i);
-
-    if (safePage < totalPages - 2) pages.push('ellipsis');
-    pages.push(totalPages);
-    return pages;
   };
 
   return (
@@ -140,52 +125,15 @@ export default function PodcastList({ onSelectLesson, currentPage, onPageChange 
       </div>
 
       {/* 分页 */}
-      {totalPages > 1 && (
-        <div className={styles.pagination}>
-          <button
-            className={styles.pageBtn}
-            disabled={safePage === 1}
-            onClick={() => onPageChange(safePage - 1)}
-            aria-label="上一页"
-          >
-            ‹
-          </button>
-
-          {getPageNumbers().map((page, i) =>
-            page === 'ellipsis' ? (
-              <span key={`e-${i}`} className={styles.ellipsis}>…</span>
-            ) : (
-              <button
-                key={page}
-                className={`${styles.pageBtn} ${safePage === page ? styles.active : ''}`}
-                onClick={() => onPageChange(page)}
-              >
-                {page}
-              </button>
-            )
-          )}
-
-          <button
-            className={styles.pageBtn}
-            disabled={safePage === totalPages}
-            onClick={() => onPageChange(safePage + 1)}
-            aria-label="下一页"
-          >
-            ›
-          </button>
-
-          {/* 每页条数选择 */}
-          <select
-            className={styles.pageSizeSelect}
-            value={pageSize}
-            onChange={e => handlePageSizeChange(Number(e.target.value))}
-          >
-            {PAGE_SIZE_OPTIONS.map(size => (
-              <option key={size} value={size}>{size} 条/页</option>
-            ))}
-          </select>
-        </div>
-      )}
+      <Pagination
+        variant="full"
+        page={safePage}
+        totalPages={totalPages}
+        onPageChange={onPageChange}
+        pageSize={pageSize}
+        pageSizeOptions={PAGE_SIZE_OPTIONS}
+        onPageSizeChange={handlePageSizeChange}
+      />
     </div>
   );
 }
