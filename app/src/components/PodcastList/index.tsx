@@ -118,6 +118,10 @@ export default function PodcastList({ onSelectLesson, currentPage, onPageChange 
               className={styles.levelTag}
               style={{ background: LEVEL_COLORS[lesson.level] }}
             />
+            {lesson.isProofread && <span className={`${styles.cornerTab} ${styles.cornerProof}`} />}
+            {!lesson.isProofread && lesson.hasDialogueTranslation && (
+              <span className={`${styles.cornerTab} ${styles.cornerTrans}`} />
+            )}
             <span className={styles.lessonCode}>#{lesson.id}</span>
             <span className={styles.lessonTitle}>{lesson.title}</span>
           </button>

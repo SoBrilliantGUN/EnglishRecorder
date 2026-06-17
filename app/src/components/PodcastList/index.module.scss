@@ -165,6 +165,58 @@
       opacity: 0.3;
     }
 
+    // 角标（折角书签）
+    .cornerTab {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 32px;
+      height: 32px;
+      overflow: hidden;
+      z-index: 2;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 32px 32px 0;
+      }
+
+      &::after {
+        position: absolute;
+        top: 5px;
+        right: 4px;
+        font-size: 9px;
+        font-weight: 700;
+        line-height: 1;
+        transform: rotate(45deg);
+      }
+    }
+
+    .cornerProof {
+      &::before {
+        border-color: transparent #D97706 transparent transparent;
+      }
+      &::after {
+        content: '校';
+        color: #fff;
+      }
+    }
+
+    .cornerTrans {
+      &::before {
+        border-color: transparent #7C3AED transparent transparent;
+      }
+      &::after {
+        content: '译';
+        color: #fff;
+      }
+    }
+
     .lessonCode {
       font-size: var(--font-size-xs);
       font-weight: 600;
@@ -215,5 +267,21 @@
     .grid {
       grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     }
+  }
+}
+
+// 暗黑模式角标
+[data-theme="dark"] {
+  .cornerProof::before {
+    border-color: transparent #F59E0B transparent transparent;
+  }
+  .cornerProof::after {
+    color: #1a1a2e;
+  }
+  .cornerTrans::before {
+    border-color: transparent #8B5CF6 transparent transparent;
+  }
+  .cornerTrans::after {
+    color: #fff;
   }
 }

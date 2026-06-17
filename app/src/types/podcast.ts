@@ -14,6 +14,12 @@ export interface PodcastMeta {
   code: string; // 如 B0001, C0320
   level: string; // Elementary, Intermediate, Upper-Intermediate, Advanced
   title: string;
+  /** 是否经过人工校正 */
+  isProofread: boolean;
+  /** 课文对话是否有中文翻译 */
+  hasDialogueTranslation: boolean;
+  /** 节目文字稿是否有中文翻译 */
+  hasTranscriptTranslation: boolean;
 }
 
 /** 课程完整信息（元数据 + 按需加载的对话） */
