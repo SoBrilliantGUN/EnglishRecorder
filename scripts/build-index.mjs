@@ -17,7 +17,7 @@ const OUTPUT_FILE = path.join(repoRoot, 'app', 'src', 'data', 'podcasts-index.ts
 // ============================================================
 // 人工校正过的课文 ID 列表（手动维护）
 // ============================================================
-const PROOFREAD_IDS = new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 22]);
+const PROOFREAD_IDS = new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 22, 23, 24]);
 
 /**
  * 检查 TransSegment[] 中所有 zh 字段是否非空

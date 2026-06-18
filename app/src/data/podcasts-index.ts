@@ -226,7 +226,7 @@ const index: PodcastMeta[] = [
     "code": "B0024",
     "title": "Where should we eat?",
     "level": "Elementary",
-    "isProofread": false,
+    "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
   },
@@ -425,8 +425,8 @@ const index: PodcastMeta[] = [
     "title": "Emergency Room",
     "level": "Upper-Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 47,
@@ -434,8 +434,8 @@ const index: PodcastMeta[] = [
     "title": "Advanced - Just In Time Strategy",
     "level": "Elementary",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 48,
@@ -443,8 +443,8 @@ const index: PodcastMeta[] = [
     "title": "Intermediate - Carnival in Rio!",
     "level": "Elementary",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 49,
@@ -452,8 +452,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - Daddy Please!",
     "level": "Elementary",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 50,
@@ -461,8 +461,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - New Guy In Town III",
     "level": "Elementary",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 51,
