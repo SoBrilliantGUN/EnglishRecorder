@@ -199,7 +199,7 @@
 
     .cornerProof {
       &::before {
-        border-color: transparent #D97706 transparent transparent;
+        border-color: transparent #07C160 transparent transparent;
       }
       &::after {
         content: '校';
@@ -209,7 +209,7 @@
 
     .cornerTrans {
       &::before {
-        border-color: transparent #7C3AED transparent transparent;
+        border-color: transparent #3498DB transparent transparent;
       }
       &::after {
         content: '译';
@@ -273,15 +273,15 @@
 // 暗黑模式角标
 [data-theme="dark"] {
   .cornerProof::before {
-    border-color: transparent #F59E0B transparent transparent;
+    border-color: transparent #07C160 transparent transparent;
   }
   .cornerProof::after {
     color: #1a1a2e;
   }
   .cornerTrans::before {
-    border-color: transparent #8B5CF6 transparent transparent;
+    border-color: transparent #5dade2 transparent transparent;
   }
   .cornerTrans::after {
-    color: #fff;
+    color: #1a1a2e;
   }
 }
