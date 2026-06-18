@@ -157,6 +157,10 @@
       "zh": "比如说，我对海鲜过敏。"
     },
     {
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
       "en": "If I eat seafood, I cannot breathe.",
       "zh": "如果我吃了海鲜，我就没法呼吸。"
     },
@@ -229,11 +233,11 @@
       "zh": "你们两个今晚有什么计划吗？"
     },
     {
-      "en": "We were thinking of checking out a restaurant in the",
+      "en": "We were thinking of checking out a restaurant in",
       "zh": "我们想去附近试试一家"
     },
     {
-      "en": "neighborhood.",
+      "en": "the neighbourhood.",
       "zh": "餐厅。"
     },
     {
@@ -245,16 +249,16 @@
       "zh": "我知道一家很棒的意大利餐厅。"
     },
     {
-      "en": "The food is fantastic and the decor is beautiful.",
+      "en": "The food is fantastic, and the decor is beautiful.",
       "zh": "食物非常好吃，装修也很漂亮。"
     },
     {
       "en": "I'd recommend giving it a try.",
-      "zh": "我推荐你去试试。"
+      "zh": "我强烈推荐。"
     },
     {
-      "en": "Actually, I'm not all that crazy about Italian food.",
-      "zh": "其实，我不太热衷意大利菜。"
+      "en": "Actually, I'm not all that crazy about Italian food,",
+      "zh": "其实，我不太热衷意大利菜，"
     },
     {
       "en": "I'm in the mood for something a bit lighter.",
@@ -265,24 +269,28 @@
       "zh": "那样的话，我知道一家很棒的小酒馆。"
     },
     {
-      "en": "They make a really tasty seafood platter.",
-      "zh": "他们做的海鲜拼盘特别好吃。"
+      "en": "They make a really tasty seafood platter,",
+      "zh": "他们做的海鲜拼盘特别好吃，"
     },
     {
-      "en": "The fish is outstanding.",
-      "zh": "鱼非常出色。"
+      "en": "the fish is outstanding.",
+      "zh": "鱼也很出色。"
     },
     {
-      "en": "It sounds fantastic, but I'm allergic to seafood, so...",
-      "zh": "听起来不错，但我对海鲜过敏，所以……"
+      "en": "It sounds fantastic, but I'm allergic to seafood,",
+      "zh": "听起来不错，但我对海鲜过敏，"
     },
     {
-      "en": "Okay, well, let me think.",
-      "zh": "好的，嗯，让我想想。"
+      "en": "so...",
+      "zh": "所以……"
+    },
+    {
+      "en": "Okay, well, let me think...",
+      "zh": "好吧，让我想想……"
     },
     {
       "en": "Oh, I know this great little place.",
-      "zh": "哦，我知道一个很棒的小地方。"
+      "zh": "哦，我知道一个小地方。"
     },
     {
       "en": "It's just a hole in the wall,",
@@ -293,16 +301,16 @@
       "zh": "但他们做的三明治简直绝了。"
     },
     {
-      "en": "You could give them a try.",
-      "zh": "你可以去试试。"
+      "en": "You gotta give them a try.",
+      "zh": "你们一定得试试。"
     },
     {
-      "en": "Ella, you took me there last time I visited",
-      "zh": "艾拉，你上次我来的时候就带我去了那家，我食物中毒了，"
+      "en": "Ella, you took me there last time I visited,",
+      "zh": "艾拉，你上次我来的时候就带我去了那家，"
     },
     {
       "en": "and I got food poisoning, remember?",
-      "zh": "记得吗？"
+      "zh": "我食物中毒了，记得吗？"
     },
     {
       "en": "Well I'm getting hungry just thinking about all of",
@@ -350,15 +358,15 @@
     },
     {
       "en": "So we have some great examples on how we can use check",
-      "zh": "我们有一些很好的例子，展示如何在不同场景中使用 check out，"
+      "zh": "我们有一些很好的例子，展示如何在不同场景中使用"
     },
     {
       "en": "out in different situations",
-      "zh": "然后你"
+      "zh": "check out，"
     },
     {
       "en": "and then you can understand the meaning.",
-      "zh": "就能理解它的意思了。"
+      "zh": "然后你就能理解它的意思了。"
     },
     {
       "en": "Example one.",
@@ -434,11 +442,11 @@
     },
     {
       "en": "It's kind of complicated,",
-      "zh": "有点复杂，但它就像一家小餐厅，"
+      "zh": "有点复杂，"
     },
     {
       "en": "but it's like a small restaurant that's not really",
-      "zh": "不过也不是"
+      "zh": "但它就像一家小餐厅，不过也不是"
     },
     {
       "en": "cheap though.",
@@ -693,11 +701,11 @@
       "zh": "你们两个今晚有什么计划吗？"
     },
     {
-      "en": "We were thinking of checking out a restaurant in the",
+      "en": "We were thinking of checking out a restaurant in",
       "zh": "我们想去附近试试一家"
     },
     {
-      "en": "neighbourhood.",
+      "en": "the neighbourhood.",
       "zh": "餐厅。"
     },
     {
@@ -709,16 +717,16 @@
       "zh": "我知道一家很棒的意大利餐厅。"
     },
     {
-      "en": "The food is fantastic and the decor is beautiful.",
+      "en": "The food is fantastic, and the decor is beautiful.",
       "zh": "食物非常好吃，装修也很漂亮。"
     },
     {
       "en": "I'd recommend giving it a try.",
-      "zh": "我推荐你去试试。"
+      "zh": "我强烈推荐。"
     },
     {
-      "en": "Actually, I'm not all that crazy about Italian food.",
-      "zh": "其实，我不太热衷意大利菜。"
+      "en": "Actually, I'm not all that crazy about Italian food,",
+      "zh": "其实，我不太热衷意大利菜，"
     },
     {
       "en": "I'm in the mood for something a bit lighter.",
@@ -729,32 +737,28 @@
       "zh": "那样的话，我知道一家很棒的小酒馆。"
     },
     {
-      "en": "They make a really tasty seafood platter.",
-      "zh": "他们做的海鲜拼盘特别好吃。"
+      "en": "They make a really tasty seafood platter,",
+      "zh": "他们做的海鲜拼盘特别好吃，"
     },
     {
-      "en": "The fish is outstanding.",
-      "zh": "鱼非常出色。"
+      "en": "the fish is outstanding.",
+      "zh": "鱼也很出色。"
     },
     {
-      "en": "It sounds fantastic.",
-      "zh": "听起来不错。"
+      "en": "It sounds fantastic, but I'm allergic to seafood,",
+      "zh": "听起来不错，但我对海鲜过敏，"
     },
     {
-      "en": "But I'm allergic to seafood, so...",
-      "zh": "但我对海鲜过敏，所以……"
+      "en": "so...",
+      "zh": "所以……"
     },
     {
-      "en": "Okay.",
-      "zh": "好的。"
-    },
-    {
-      "en": "Well, let me think.",
-      "zh": "嗯，让我想想。"
+      "en": "Okay, well, let me think...",
+      "zh": "好吧，让我想想……"
     },
     {
       "en": "Oh, I know this great little place.",
-      "zh": "哦，我知道一个很棒的小地方。"
+      "zh": "哦，我知道一个小地方。"
     },
     {
       "en": "It's just a hole in the wall,",
@@ -765,16 +769,16 @@
       "zh": "但他们做的三明治简直绝了。"
     },
     {
-      "en": "You've got to give them a try.",
-      "zh": "你们一定得去试试。"
+      "en": "You gotta give them a try.",
+      "zh": "你们一定得试试。"
     },
     {
-      "en": "Ella, you took me there last time I visited",
-      "zh": "艾拉，你上次我来的时候就带我去了那家，我食物中毒了，"
+      "en": "Ella, you took me there last time I visited,",
+      "zh": "艾拉，你上次我来的时候就带我去了那家，"
     },
     {
       "en": "and I got food poisoning, remember?",
-      "zh": "记得吗？"
+      "zh": "我食物中毒了，记得吗？"
     },
     {
       "en": "Okay, some really great and useful phrases there.",
@@ -857,8 +861,8 @@
       "zh": "对，或者你也可以说，你有什么看法吗？"
     },
     {
-      "en": "Okay, so that's asking for suggestions.",
-      "zh": "好的，那么这就是请求建议的方式。"
+      "en": "Okay, so that's great ways asking for suggestions.",
+      "zh": "好的，那么这些都是请求建议的好方法。"
     },
     {
       "en": "In response to this, you can say something like this.",
@@ -978,23 +982,23 @@
     },
     {
       "en": "If you can shorten your phrases like this,",
-      "zh": "如果你能像这样缩短你的短语，如果你能把发音连在一起，你听起来会自然得多，"
+      "zh": "如果你能像这样缩短你的短语，"
     },
     {
       "en": "if you can push the sounds together,",
-      "zh": "对"
+      "zh": "如果你能把发音连在一起，"
     },
     {
       "en": "you'll sound a lot more natural, hey?",
-      "zh": "吧？"
+      "zh": "你听起来会自然得多，对吧？"
     },
     {
       "en": "And also, you'll be able to understand because in",
-      "zh": "而且，你也能更容易理解，因为在电影或节目中，他们绝对不会说，"
+      "zh": "而且，你也能更容易理解，因为在"
     },
     {
       "en": "movies or in shows, they will never say,",
-      "zh": "电影或电视剧里，他们绝不会说，"
+      "zh": "电影或节目中，他们绝对不会说，"
     },
     {
       "en": "you have got to give them a try.",
@@ -1034,22 +1038,22 @@
     },
     {
       "en": "and you'll hear some of these contractions in the",
-      "zh": "你会听到对话"
+      "zh": "你会听到对话中的一些"
     },
     {
       "en": "dialogue.",
-      "zh": "中的一些缩略形式。"
+      "zh": "缩略形式。"
     },
     {
       "en": "Do you two have any plans for the evening?",
       "zh": "你们两个今晚有什么计划吗？"
     },
     {
-      "en": "We were thinking of checking out a restaurant in the",
+      "en": "We were thinking of checking out a restaurant in",
       "zh": "我们想去附近试试一家"
     },
     {
-      "en": "neighborhood.",
+      "en": "the neighbourhood.",
       "zh": "餐厅。"
     },
     {
@@ -1061,16 +1065,16 @@
       "zh": "我知道一家很棒的意大利餐厅。"
     },
     {
-      "en": "The food is fantastic and the decor is beautiful.",
+      "en": "The food is fantastic, and the decor is beautiful.",
       "zh": "食物非常好吃，装修也很漂亮。"
     },
     {
       "en": "I'd recommend giving it a try.",
-      "zh": "我推荐你去试试。"
+      "zh": "我强烈推荐。"
     },
     {
-      "en": "Actually, I'm not all that crazy about Italian food.",
-      "zh": "其实，我不太热衷意大利菜。"
+      "en": "Actually, I'm not all that crazy about Italian food,",
+      "zh": "其实，我不太热衷意大利菜，"
     },
     {
       "en": "I'm in the mood for something a bit lighter.",
@@ -1081,28 +1085,28 @@
       "zh": "那样的话，我知道一家很棒的小酒馆。"
     },
     {
-      "en": "They make a really tasty seafood platter.",
-      "zh": "他们做的海鲜拼盘特别好吃。"
+      "en": "They make a really tasty seafood platter,",
+      "zh": "他们做的海鲜拼盘特别好吃，"
     },
     {
-      "en": "The fish is outstanding.",
-      "zh": "鱼非常出色。"
+      "en": "the fish is outstanding.",
+      "zh": "鱼也很出色。"
     },
     {
-      "en": "It sounds fantastic, but I'm allergic to seafood, so...",
-      "zh": "听起来不错，但我对海鲜过敏，所以……"
+      "en": "It sounds fantastic, but I'm allergic to seafood,",
+      "zh": "听起来不错，但我对海鲜过敏，"
     },
     {
-      "en": "Okay.",
-      "zh": "好的。"
+      "en": "so...",
+      "zh": "所以……"
     },
     {
-      "en": "Well, let me think.",
-      "zh": "嗯，让我想想。"
+      "en": "Okay, well, let me think...",
+      "zh": "好吧，让我想想……"
     },
     {
       "en": "Oh, I know this great little place.",
-      "zh": "哦，我知道一个很棒的小地方。"
+      "zh": "哦，我知道一个小地方。"
     },
     {
       "en": "It's just a hole in the wall,",
@@ -1113,16 +1117,16 @@
       "zh": "但他们做的三明治简直绝了。"
     },
     {
-      "en": "You could give them a try.",
-      "zh": "你可以去试试。"
+      "en": "You gotta give them a try.",
+      "zh": "你们一定得试试。"
     },
     {
-      "en": "Ella, you took me there last time I visited",
-      "zh": "艾拉，你上次我来的时候就带我去了那家，我食物中毒了，"
+      "en": "Ella, you took me there last time I visited,",
+      "zh": "艾拉，你上次我来的时候就带我去了那家，"
     },
     {
       "en": "and I got food poisoning, remember?",
-      "zh": "记得吗？"
+      "zh": "我食物中毒了，记得吗？"
     },
     {
       "en": "Okay, great dialogue.",
@@ -1312,11 +1316,11 @@
     },
     {
       "en": "B: We were thinking of checking out a restaurant in",
-      "zh": "B：我们想去附近试试一"
+      "zh": "B：我们想去附近试试一家"
     },
     {
-      "en": "the neigbourhood.",
-      "zh": "家餐厅。"
+      "en": "the neighbourhood.",
+      "zh": "餐厅。"
     },
     {
       "en": "B: Do you have any suggestions?",
@@ -1327,7 +1331,7 @@
       "zh": "A：我知道一家很棒的意大利餐厅。"
     },
     {
-      "en": "A: The food is fantastic, and the d' ecor is beautiful.",
+      "en": "A: The food is fantastic, and the decor is beautiful.",
       "zh": "A：食物非常好吃，装修也很漂亮。"
     },
     {
@@ -1335,12 +1339,12 @@
       "zh": "A：我强烈推荐。"
     },
     {
-      "en": "C: Actually, I'm not all that crazy about Italian",
-      "zh": "C：其实，我不太热衷意大利"
+      "en": "C: Actually, I'm not all that crazy about Italian food,",
+      "zh": "C：其实，我不太热衷意大利菜，"
     },
     {
-      "en": "food, I'm in the mood for something a bit lighter.",
-      "zh": "菜；我现在想吃清淡一点的。"
+      "en": "I'm in the mood for something a bit lighter.",
+      "zh": "我现在想吃清淡一点的。"
     },
     {
       "en": "A: In that case, I know a great little bistro.",
@@ -1364,11 +1368,11 @@
     },
     {
       "en": "A: Okay, well, let me think...",
-      "zh": "A：好吧，让我想想……哦，"
+      "zh": "A：好吧，让我想想……"
     },
     {
       "en": "Oh, I know this great little place.",
-      "zh": "我知道一个小地方。"
+      "zh": "哦，我知道一个小地方。"
     },
     {
       "en": "A: It's just a hole in the wall,",
@@ -1384,11 +1388,11 @@
     },
     {
       "en": "C: Ella, you took me there last time I visited,",
-      "zh": "C：艾拉，你上次我来的时候就带我去了那家，我食物中毒了，"
+      "zh": "C：艾拉，你上次我来的时候就带我去了那家，"
     },
     {
       "en": "and I got food poisoning, remember?",
-      "zh": "记得吗？"
+      "zh": "我食物中毒了，记得吗？"
     }
   ],
   "code": "B0024",
