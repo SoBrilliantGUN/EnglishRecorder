@@ -217,7 +217,7 @@ const index: PodcastMeta[] = [
     "code": "B0023",
     "title": "Making an Appointment",
     "level": "Elementary",
-    "isProofread": false,
+    "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
   },
@@ -327,7 +327,7 @@ const index: PodcastMeta[] = [
     "level": "Elementary",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": false
+    "hasTranscriptTranslation": true
   },
   {
     "id": 36,
@@ -336,7 +336,7 @@ const index: PodcastMeta[] = [
     "level": "Elementary",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": false
+    "hasTranscriptTranslation": true
   },
   {
     "id": 37,
@@ -345,7 +345,7 @@ const index: PodcastMeta[] = [
     "level": "Elementary",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": false
+    "hasTranscriptTranslation": true
   },
   {
     "id": 38,
@@ -354,7 +354,7 @@ const index: PodcastMeta[] = [
     "level": "Elementary",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": false
+    "hasTranscriptTranslation": true
   },
   {
     "id": 39,
@@ -363,7 +363,7 @@ const index: PodcastMeta[] = [
     "level": "Elementary",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": false
+    "hasTranscriptTranslation": true
   },
   {
     "id": 40,
@@ -372,7 +372,7 @@ const index: PodcastMeta[] = [
     "level": "Elementary",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": false
+    "hasTranscriptTranslation": true
   },
   {
     "id": 41,
@@ -381,7 +381,7 @@ const index: PodcastMeta[] = [
     "level": "Elementary",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": false
+    "hasTranscriptTranslation": true
   },
   {
     "id": 42,
@@ -390,7 +390,7 @@ const index: PodcastMeta[] = [
     "level": "Elementary",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": false
+    "hasTranscriptTranslation": true
   },
   {
     "id": 43,
@@ -399,7 +399,7 @@ const index: PodcastMeta[] = [
     "level": "Elementary",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": false
+    "hasTranscriptTranslation": true
   },
   {
     "id": 44,
@@ -407,8 +407,8 @@ const index: PodcastMeta[] = [
     "title": "Small Talk",
     "level": "Elementary",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 45,
@@ -416,8 +416,8 @@ const index: PodcastMeta[] = [
     "title": "Lesson 45",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 46,
@@ -434,7 +434,7 @@ const index: PodcastMeta[] = [
     "title": "Advanced - Just In Time Strategy",
     "level": "Elementary",
     "isProofread": false,
-    "hasDialogueTranslation": true,
+    "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
   },
   {
@@ -443,7 +443,7 @@ const index: PodcastMeta[] = [
     "title": "Intermediate - Carnival in Rio!",
     "level": "Elementary",
     "isProofread": false,
-    "hasDialogueTranslation": true,
+    "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
   },
   {
@@ -452,7 +452,7 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - Daddy Please!",
     "level": "Elementary",
     "isProofread": false,
-    "hasDialogueTranslation": true,
+    "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
   },
   {
@@ -461,7 +461,7 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - New Guy In Town III",
     "level": "Elementary",
     "isProofread": false,
-    "hasDialogueTranslation": true,
+    "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
   },
   {
