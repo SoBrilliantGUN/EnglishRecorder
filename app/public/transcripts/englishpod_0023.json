@@ -146,47 +146,35 @@
     },
     {
       "en": "And as always, it's going to be at a normal speed,",
-      "zh": "和往常一样，会是正常语速，不过你不用担心，"
+      "zh": "和往常一样，会是正常语速，"
     },
     {
       "en": "but you don't have to worry about it because...",
-      "zh": "因为……"
+      "zh": "不过你不用担心，因为……"
     },
     {
       "en": "We'll come back and teach you all the important words.",
       "zh": "我们会回来教你所有重要的单词。"
     },
     {
-      "en": "Hello?",
-      "zh": "你好？"
+      "en": "Hello, Fairbrook Consulting, how may I help you?",
+      "zh": "你好，费尔布鲁克咨询公司，有什么可以帮您？"
     },
     {
-      "en": "Fairbrook Consulting.",
-      "zh": "费尔布鲁克咨询公司。"
+      "en": "Yes, this is Julianne Horton,",
+      "zh": "是的，我是朱莉安·霍顿，"
     },
     {
-      "en": "How may I help you?",
-      "zh": "有什么可以帮您？"
+      "en": "and I'm calling to arrange an appointment with Ms.",
+      "zh": "我想预约麦克"
     },
     {
-      "en": "Yes, this is Julianne Horton.",
-      "zh": "是的，我是朱莉安·霍顿。"
+      "en": "Mc Nealy.",
+      "zh": "尼利女士。"
     },
     {
-      "en": "And I'm calling to arrange an appointment with Ms.",
-      "zh": "我打电话来是想预约麦克尼利女"
-    },
-    {
-      "en": "McNeely.",
-      "zh": "士。"
-    },
-    {
-      "en": "Certainly.",
-      "zh": "当然可以。"
-    },
-    {
-      "en": "What day were you thinking of?",
-      "zh": "您想约哪天？"
+      "en": "Certainly, what day were you thinking of?",
+      "zh": "当然可以，您想约哪天？"
     },
     {
       "en": "How's Thursday?",
@@ -197,15 +185,15 @@
       "zh": "她那天有空吗？"
     },
     {
-      "en": "Um, let me double check.",
-      "zh": "嗯，让我确认一下。"
+      "en": "Um... let me double check...no...unfortunately,",
+      "zh": "嗯……让我确认一下……不巧，"
     },
     {
-      "en": "Unfortunately, she's booked solid on Thursday.",
-      "zh": "不巧，她周四已经排满了。"
+      "en": "she's booked solid on Thursday,",
+      "zh": "她周四已经排满了，"
     },
     {
-      "en": "How does next Monday work for you?",
+      "en": "how does next Monday work for you?",
       "zh": "下周一您方便吗？"
     },
     {
@@ -213,8 +201,8 @@
       "zh": "其实，我周一已经有安排了。"
     },
     {
-      "en": "Can't you do Tuesday?",
-      "zh": "不能约周二吗？"
+      "en": "Can she do Tuesday?",
+      "zh": "她能约周二吗？"
     },
     {
       "en": "Sure, Tuesday's perfect.",
@@ -225,20 +213,12 @@
       "zh": "请问您是从哪里打来的？"
     },
     {
-      "en": "Sure.",
-      "zh": "当然。"
-    },
-    {
-      "en": "Merton Financial Advisors.",
+      "en": "Sure, Merton Financial Advisors.",
       "zh": "默顿财务顾问公司。"
     },
     {
-      "en": "Oh.",
-      "zh": "哦。"
-    },
-    {
-      "en": "Actually, Tuesday's no good.",
-      "zh": "其实，周二不行了。"
+      "en": "Oh, actually, Tuesday's no good.",
+      "zh": "哦，其实周二不行了。"
     },
     {
       "en": "Sorry about that.",
@@ -425,7 +405,7 @@
       "zh": "Scheduled。"
     },
     {
-      "en": "S-C-H-E-D-U-L-D.",
+      "en": "S-C-H-E-D-U-L-E-D.",
       "zh": "S-C-H-E-D-U-L-E-D。"
     },
     {
@@ -438,11 +418,11 @@
     },
     {
       "en": "So, when you have something scheduled,",
-      "zh": "那么，当你有 something scheduled，意思就是你有计划好的事情，"
+      "zh": "那么，当你有 something scheduled，"
     },
     {
       "en": "it means that you have something planned, right?",
-      "zh": "对吧？"
+      "zh": "意思就是你有计划好的事情，对吧？"
     },
     {
       "en": "Yeah, or booked at that time.",
@@ -497,40 +477,16 @@
       "zh": "Booked solid。"
     },
     {
-      "en": "So, we have some great words for today.",
-      "zh": "那么，今天我们有一些很棒的词。"
-    },
-    {
-      "en": "We have a great word for today.",
-      "zh": "今天我们有一个很棒的词。"
-    },
-    {
-      "en": "We have a great word for today.",
-      "zh": "今天我们有一个很棒的词。"
-    },
-    {
-      "en": "We have a great word for today.",
-      "zh": "今天我们有一个很棒的词。"
-    },
-    {
-      "en": "We have a great phrase for today,",
-      "zh": "今天我们有一个很棒的短语，"
-    },
-    {
-      "en": "which is booked solid.",
-      "zh": "就是 booked solid。"
-    },
-    {
       "en": "So, we have some great examples on how you can use",
-      "zh": "我们有一些很好的例子，让你了解如何使用这个很棒的短语 booked solid，"
+      "zh": "我们有一些很好的例子，让你了解如何使用"
     },
     {
       "en": "this great phrase, booked solid,",
-      "zh": "并理"
+      "zh": "这个很棒的短语 booked solid，"
     },
     {
       "en": "and you can understand what it means.",
-      "zh": "解它的意思。"
+      "zh": "并理解它的意思。"
     },
     {
       "en": "Example one.",
@@ -598,11 +554,11 @@
     },
     {
       "en": "So, with this in mind, now we can listen to our",
-      "zh": "那么，带着这些理解，"
+      "zh": "那么，带着这些理解，现在我们可以听"
     },
     {
       "en": "dialogue a second time.",
-      "zh": "现在我们可以第二次听对话了。"
+      "zh": "第二次对话了。"
     },
     {
       "en": "This time, it's going to be slow,",
@@ -613,12 +569,8 @@
       "zh": "这样我们能理解得更好一些。"
     },
     {
-      "en": "Hello, Fairbrook Consulting.",
-      "zh": "你好，费尔布鲁克咨询公司。"
-    },
-    {
-      "en": "How may I help you?",
-      "zh": "有什么可以帮您？"
+      "en": "Hello, Fairbrook Consulting, how may I help you?",
+      "zh": "你好，费尔布鲁克咨询公司，有什么可以帮您？"
     },
     {
       "en": "Yes, this is Julianne Horton,",
@@ -626,19 +578,15 @@
     },
     {
       "en": "and I'm calling to arrange an appointment with Ms.",
-      "zh": "我打电话来是想预约"
+      "zh": "我想预约麦克"
     },
     {
-      "en": "McNeely.",
-      "zh": "麦克尼利女士。"
+      "en": "Mc Nealy.",
+      "zh": "尼利女士。"
     },
     {
-      "en": "Certainly.",
-      "zh": "当然可以。"
-    },
-    {
-      "en": "What date were you thinking of?",
-      "zh": "您想约哪天？"
+      "en": "Certainly, what day were you thinking of?",
+      "zh": "当然可以，您想约哪天？"
     },
     {
       "en": "How's Thursday?",
@@ -649,15 +597,15 @@
       "zh": "她那天有空吗？"
     },
     {
-      "en": "Um, let me double check.",
-      "zh": "嗯，让我确认一下。"
+      "en": "Um... let me double check...no...unfortunately,",
+      "zh": "嗯……让我确认一下……不巧，"
     },
     {
-      "en": "No, unfortunately, she's booked solid on Thursday.",
-      "zh": "不，不巧，她周四已经排满了。"
+      "en": "she's booked solid on Thursday,",
+      "zh": "她周四已经排满了，"
     },
     {
-      "en": "How does next Monday work for you?",
+      "en": "how does next Monday work for you?",
       "zh": "下周一您方便吗？"
     },
     {
@@ -678,15 +626,11 @@
     },
     {
       "en": "Sure, Merton Financial Advisors.",
-      "zh": "当然，默顿财务顾问公司。"
+      "zh": "默顿财务顾问公司。"
     },
     {
-      "en": "Oh.",
-      "zh": "哦。"
-    },
-    {
-      "en": "Actually, Tuesday's no good.",
-      "zh": "其实，周二不行了。"
+      "en": "Oh, actually, Tuesday's no good.",
+      "zh": "哦，其实周二不行了。"
     },
     {
       "en": "Sorry about that.",
@@ -706,15 +650,15 @@
     },
     {
       "en": "There's some great examples in this dialogue of",
-      "zh": "这段对话中有一些很棒的例子，是你在需要预约时可以用到的短语，"
+      "zh": "这段对话中有一些很棒的例子，"
     },
     {
       "en": "phrases you can use when you need to schedule an",
-      "zh": "我们今天"
+      "zh": "是你在需要预约时可以用到的短语，"
     },
     {
       "en": "appointment, and we're going to look at those today.",
-      "zh": "就来学习这些。"
+      "zh": "我们今天就来学习这些。"
     },
     {
       "en": "In the dialogue, we heard Julianne ask about making an",
@@ -766,15 +710,19 @@
     },
     {
       "en": "appointment, you need to suggest a day when maybe that",
-      "zh": "你需要建议一个那"
+      "zh": "你需要建议一个那个"
     },
     {
       "en": "person has time.",
-      "zh": "个人可能有空的日子。"
+      "zh": "人可能有空的日子。"
     },
     {
       "en": "Yes, let's listen to what they said in the dialogue.",
       "zh": "是的，我们来听听他们在对话中是怎么说的。"
+    },
+    {
+      "en": "How's Thursday? Does she have any time available then?",
+      "zh": "周四怎么样？她那天有空吗？"
     },
     {
       "en": "How's Thursday? Does she have any time available then?",
@@ -797,12 +745,16 @@
       "zh": "不能约周二吗？"
     },
     {
+      "en": "Can't you do Tuesday?",
+      "zh": "不能约周二吗？"
+    },
+    {
       "en": "Okay, Erica, so if I want to have a meeting with you,",
-      "zh": "好的，Erika，如果我想跟你开会，我会说，周一听起来怎么样，"
+      "zh": "好的，Erika，如果我想跟你开会，"
     },
     {
       "en": "I would say, how's Monday sound or how's Monday?",
-      "zh": "或者说周一怎么样？"
+      "zh": "我会说，周一听起来怎么样，或者说周一怎么样？"
     },
     {
       "en": "Monday's no good. I'm busy all day.",
@@ -861,8 +813,8 @@
       "zh": "解刚才讨论过的所有内容。"
     },
     {
-      "en": "Hello, Fairbrook Consulting. How may I help you?",
-      "zh": "你好，费尔布鲁克咨询公司。有什么可以帮您？"
+      "en": "Hello, Fairbrook Consulting, how may I help you?",
+      "zh": "你好，费尔布鲁克咨询公司，有什么可以帮您？"
     },
     {
       "en": "Yes, this is Julianne Horton,",
@@ -870,30 +822,34 @@
     },
     {
       "en": "and I'm calling to arrange an appointment with Ms.",
-      "zh": "我打电话来是想预约"
+      "zh": "我想预约麦克"
     },
     {
-      "en": "McNeely.",
-      "zh": "麦克尼利女士。"
+      "en": "Mc Nealy.",
+      "zh": "尼利女士。"
     },
     {
-      "en": "Certainly. What day were you thinking of?",
-      "zh": "当然可以。您想约哪天？"
+      "en": "Certainly, what day were you thinking of?",
+      "zh": "当然可以，您想约哪天？"
     },
     {
-      "en": "How's Thursday? Does she have any time available then?",
-      "zh": "周四怎么样？她那天有空吗？"
+      "en": "How's Thursday?",
+      "zh": "周四怎么样？"
     },
     {
-      "en": "Um, let me double check.",
-      "zh": "嗯，让我确认一下。"
+      "en": "Does she have any time available then?",
+      "zh": "她那天有空吗？"
     },
     {
-      "en": "Unfortunately, she's booked solid on Thursday.",
-      "zh": "不巧，她周四已经排满了。"
+      "en": "Um... let me double check...no...unfortunately,",
+      "zh": "嗯……让我确认一下……不巧，"
     },
     {
-      "en": "How does next Monday work for you?",
+      "en": "she's booked solid on Thursday,",
+      "zh": "她周四已经排满了，"
+    },
+    {
+      "en": "how does next Monday work for you?",
       "zh": "下周一您方便吗？"
     },
     {
@@ -901,8 +857,8 @@
       "zh": "其实，我周一已经有安排了。"
     },
     {
-      "en": "Can't you do Tuesday?",
-      "zh": "不能约周二吗？"
+      "en": "Can she do Tuesday?",
+      "zh": "她能约周二吗？"
     },
     {
       "en": "Sure, Tuesday's perfect.",
@@ -914,11 +870,15 @@
     },
     {
       "en": "Sure, Merton Financial Advisors.",
-      "zh": "当然，默顿财务顾问公司。"
+      "zh": "默顿财务顾问公司。"
     },
     {
-      "en": "Oh, actually, Tuesday's no good. Sorry about that.",
-      "zh": "哦，其实，周二不行了。抱歉。"
+      "en": "Oh, actually, Tuesday's no good.",
+      "zh": "哦，其实周二不行了。"
+    },
+    {
+      "en": "Sorry about that.",
+      "zh": "抱歉。"
     },
     {
       "en": "The language in this dialogue is really useful,",
@@ -986,23 +946,23 @@
     },
     {
       "en": "Great. Well, we're out of time now,",
-      "zh": "很好。时间到了，但我希望你们喜欢今天的课程，"
+      "zh": "很好。时间到了，"
     },
     {
       "en": "but I hope you enjoyed our lesson and found it useful.",
-      "zh": "并觉得它有用。"
+      "zh": "但我希望你们喜欢今天的课程，并觉得它有用。"
     },
     {
       "en": "And if you have any questions or comments,",
-      "zh": "如果你们有任何问题或评论，请访问我们的网站 EnglishPod.com，"
+      "zh": "如果你们有任何问题或评论，"
     },
     {
       "en": "please go to our website at EnglishPod.com,",
-      "zh": "我们会在"
+      "zh": "请访问我们的网站 EnglishPod.com，"
     },
     {
       "en": "where we'll be there to answer everything.",
-      "zh": "那里回答一切。"
+      "zh": "我们会在那里回答一切。"
     },
     {
       "en": "Yes, we will. So, thanks for listening, guys.",
@@ -1047,16 +1007,16 @@
       "zh": "B：她那天有空吗？"
     },
     {
-      "en": "A: Um... let me double check... unfortunately,",
-      "zh": "A：嗯……让我确认一下……不巧，她周四已经排满了，"
+      "en": "A: Um... let me double check...no...unfortunately,",
+      "zh": "A：嗯……让我确认一下……不巧，"
     },
     {
       "en": "she's booked solid on Thursday,",
-      "zh": "下周"
+      "zh": "她周四已经排满了，"
     },
     {
       "en": "how does next Monday work for you?",
-      "zh": "一行吗？"
+      "zh": "下周一您方便吗？"
     },
     {
       "en": "B: Actually, I've got something scheduled on Monday.",
@@ -1083,7 +1043,7 @@
       "zh": "A：哦，其实周二不行了。"
     },
     {
-      "en": "A: Sorry 'bout that.",
+      "en": "A: Sorry about that.",
       "zh": "A：抱歉。"
     }
   ],
