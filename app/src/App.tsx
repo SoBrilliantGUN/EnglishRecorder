@@ -1,4 +1,4 @@
-import { useState, Suspense, lazy } from 'react';
+import { useState, useEffect, Suspense, lazy } from 'react';
 import { todayStr } from './store';
 import { useTheme } from './hooks/useTheme';
 import { useLocalStorage } from './hooks/useLocalStorage';
@@ -29,9 +29,28 @@ export default function App() {
   const [showInfo, setShowInfo] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
   const [showReview, setShowReview] = useLocalStorage<boolean>(SHOW_REVIEW_KEY, true);
-  const [selectedLessonId, setSelectedLessonId] = useState<number | null>(null);
+  const [selectedLessonId, setSelectedLessonId] = useState<number | null>(() => {
+    const params = new URLSearchParams(window.location.search);
+    const lessonParam = params.get('lesson');
+    if (lessonParam) {
+      const id = parseInt(lessonParam, 10);
+      if (!isNaN(id) && id > 0) return id;
+    }
+    return null;
+  });
   const [podcastPage, setPodcastPage] = useState(1);
   const { theme, toggle: toggleTheme } = useTheme();
+
+  // 同步 selectedLessonId 到 URL query 参数，刷新后保持当前课程
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    if (selectedLessonId !== null) {
+      url.searchParams.set('lesson', String(selectedLessonId));
+    } else {
+      url.searchParams.delete('lesson');
+    }
+    window.history.replaceState(null, '', url.toString());
+  }, [selectedLessonId]);
 
   const refresh = () => setTick(t => t + 1);
 
