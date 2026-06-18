@@ -84,26 +84,32 @@ export default function PodcastList({ onSelectLesson, currentPage, onPageChange 
         />
       </div>
 
-      {/* 级别筛选 */}
+      {/* 级别筛选 + 角标图例 */}
       <div className={styles.levelFilters}>
-        <button
-          className={`${styles.levelBtn} ${levelFilter === 'all' ? styles.active : ''}`}
-          onClick={() => handleLevelFilter('all')}
-        >
-          全部
-        </button>
-        {levels.map(({ level, count }) => (
+        <div className={styles.levelBtns}>
           <button
-            key={level}
-            className={`${styles.levelBtn} ${levelFilter === level ? styles.active : ''}`}
-            onClick={() => handleLevelFilter(level)}
-            style={{ '--level-color': LEVEL_COLORS[level] } as React.CSSProperties}
+            className={`${styles.levelBtn} ${levelFilter === 'all' ? styles.active : ''}`}
+            onClick={() => handleLevelFilter('all')}
           >
-            <span className={styles.levelDot} />
-            {level}
-            <span className={styles.levelCount}>{count}</span>
+            全部
           </button>
-        ))}
+          {levels.map(({ level, count }) => (
+            <button
+              key={level}
+              className={`${styles.levelBtn} ${levelFilter === level ? styles.active : ''}`}
+              onClick={() => handleLevelFilter(level)}
+              style={{ '--level-color': LEVEL_COLORS[level] } as React.CSSProperties}
+            >
+              <span className={styles.levelDot} />
+              {level}
+              <span className={styles.levelCount}>{count}</span>
+            </button>
+          ))}
+        </div>
+        <div className={styles.legend}>
+          <span className={`${styles.legendTag} ${styles.legendProof}`} data-tooltip="人工校对">校</span>
+          <span className={`${styles.legendTag} ${styles.legendTrans}`} data-tooltip="含中文翻译">译</span>
+        </div>
       </div>
 
       {/* 课程网格 */}
