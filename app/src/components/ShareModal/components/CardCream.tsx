@@ -19,11 +19,15 @@ export default function CardCream({ label, stats, groups }: MultiCardProps) {
 
   return (
     <div style={{
+      width: 360,
+      height: 640,
       background: '#faf6ef',
       borderRadius: 20,
       overflow: 'hidden',
       fontFamily: "'Outfit', 'PingFang SC', sans-serif",
       boxShadow: '0 8px 40px rgba(180,130,60,0.12)',
+      display: 'flex',
+      flexDirection: 'column',
     }}>
       {/* 深绿顶部 hero */}
       <div style={{
@@ -98,7 +102,7 @@ export default function CardCream({ label, stats, groups }: MultiCardProps) {
       </div>
 
       {/* 课程列表：竖条手账风 */}
-      <div style={{ padding: '18px 28px 24px' }}>
+      <div style={{ flex: 1, padding: '18px 28px 0', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
         <div style={{ fontSize: 8, letterSpacing: 4, color: '#c8b898', marginBottom: 12 }}>Lesson Log</div>
 
         {groups.length === 0
@@ -128,10 +132,11 @@ export default function CardCream({ label, stats, groups }: MultiCardProps) {
             </div>
           )
         }
+      </div>
 
-        <div style={{ marginTop: 16, textAlign: 'right', fontSize: 8, color: '#d8cdb8', letterSpacing: 3 }}>
-          EnglishPod Tracker ✦
-        </div>
+      {/* Footer */}
+      <div style={{ padding: '16px 28px 20px', textAlign: 'right', fontSize: 8, color: '#d8cdb8', letterSpacing: 3, flexShrink: 0 }}>
+        EnglishPod Tracker ✦
       </div>
     </div>
   );

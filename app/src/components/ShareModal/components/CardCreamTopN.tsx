@@ -17,7 +17,7 @@ export default function CardCreamTopN({ label, stats, groups }: MultiCardProps) 
   const rankBarColor = ['#2d4a3e', '#5a8a6e', '#8aaa94', '#aac0b0'];
 
   return (
-    <div style={{ background: '#faf6ef', borderRadius: 20, overflow: 'hidden', fontFamily: "'Outfit', 'PingFang SC', sans-serif", boxShadow: '0 8px 40px rgba(180,130,60,0.12)' }}>
+    <div style={{ width: 360, height: 640, background: '#faf6ef', borderRadius: 20, overflow: 'hidden', fontFamily: "'Outfit', 'PingFang SC', sans-serif", boxShadow: '0 8px 40px rgba(180,130,60,0.12)', display: 'flex', flexDirection: 'column' }}>
       {/* 深绿顶部 */}
       <div style={{ background: 'linear-gradient(160deg, #2d4a3e 0%, #1e3328 100%)', padding: '26px 30px 24px', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: -50, right: -50, width: 180, height: 180, borderRadius: '50%', border: '1px solid rgba(255,255,255,0.06)', pointerEvents: 'none' }} />
@@ -53,7 +53,7 @@ export default function CardCreamTopN({ label, stats, groups }: MultiCardProps) 
       </div>
 
       {/* Top N */}
-      <div style={{ padding: '16px 28px 10px' }}>
+      <div style={{ flex: 1, padding: '16px 28px 0', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
         <div style={{ fontSize: 8, color: '#c8b898', letterSpacing: 4, marginBottom: 12 }}>Top Lessons</div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
           {top.map(([lesson, count], i) => (
@@ -72,17 +72,18 @@ export default function CardCreamTopN({ label, stats, groups }: MultiCardProps) 
             </div>
           ))}
         </div>
+
+        {/* 归并行 */}
+        {rest.length > 0 && (
+          <div style={{ marginTop: 7, background: '#f4ede2', borderRadius: 10, padding: '10px 16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', border: '1px dashed #d8cdb8' }}>
+            <span style={{ fontSize: 11, color: '#b09878' }}>还学了 {rest.length} 门其他课程</span>
+            <span style={{ fontSize: 11, fontWeight: 700, color: '#8aaa94' }}>共 {restCount} 次</span>
+          </div>
+        )}
       </div>
 
-      {/* 归并行 */}
-      {rest.length > 0 && (
-        <div style={{ margin: '8px 28px 18px', background: '#f4ede2', borderRadius: 10, padding: '10px 16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', border: '1px dashed #d8cdb8' }}>
-          <span style={{ fontSize: 11, color: '#b09878' }}>还学了 {rest.length} 门其他课程</span>
-          <span style={{ fontSize: 11, fontWeight: 700, color: '#8aaa94' }}>共 {restCount} 次</span>
-        </div>
-      )}
-
-      <div style={{ padding: '0 28px 18px', textAlign: 'right', fontSize: 8, color: '#d8cdb8', letterSpacing: 3 }}>EnglishPod Tracker ✦</div>
+      {/* Footer */}
+      <div style={{ padding: '16px 28px 18px', textAlign: 'right', fontSize: 8, color: '#d8cdb8', letterSpacing: 3, flexShrink: 0 }}>EnglishPod Tracker ✦</div>
     </div>
   );
 }

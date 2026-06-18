@@ -9,11 +9,15 @@ const getTitleById = (id: string) => podcasts.find(p => p.id === Number(id))?.ti
 export default function CardWarm({ label, stats, groups }: MultiCardProps) {
   return (
     <div style={{
+      width: 360,
+      height: 640,
       background: '#f0faf6',
       borderRadius: 20,
       overflow: 'hidden',
       fontFamily: "'Outfit', 'PingFang SC', sans-serif",
       boxShadow: '0 8px 32px rgba(0,160,100,0.1)',
+      display: 'flex',
+      flexDirection: 'column',
     }}>
       {/* 顶部渐变 header */}
       <div style={{
@@ -61,7 +65,7 @@ export default function CardWarm({ label, stats, groups }: MultiCardProps) {
       </div>
 
       {/* 课程列表 */}
-      <div style={{ padding: '16px 28px 22px' }}>
+      <div style={{ flex: 1, padding: '16px 28px 0', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
         <div style={{ fontSize: 8, color: '#90c8b0', letterSpacing: 4, marginBottom: 12 }}>COURSE DETAILS</div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
           {groups.length === 0
@@ -88,9 +92,11 @@ export default function CardWarm({ label, stats, groups }: MultiCardProps) {
             ))
           }
         </div>
-        <div style={{ marginTop: 14, textAlign: 'right', fontSize: 8, color: '#b0d8c4', letterSpacing: 3 }}>
-          EnglishPod Tracker ✦
-        </div>
+      </div>
+
+      {/* Footer */}
+      <div style={{ padding: '14px 28px 18px', textAlign: 'right', fontSize: 8, color: '#b0d8c4', letterSpacing: 3, flexShrink: 0 }}>
+        EnglishPod Tracker ✦
       </div>
     </div>
   );

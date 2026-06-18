@@ -36,8 +36,8 @@ TopN 组件内部排序逻辑：`[...groups].sort((a, b) => b[1] - a[1])`，取�
 - 颜色、字号、间距全部写在 `style={{}}` 里，不引用任何 CSS 变量
 
 ### 尺寸
-- **单课卡片**：固定 `width: 360, height: 640`，不可改变
-- **多课/TopN 卡片**：宽度自适应（由 Modal 容器决定），不要设定固定高度，内容撑开
+- **所有卡片**：统一固定 `width: 360, height: 640`，不可改变，分享图片尺寸一致
+- **多课/TopN 卡片**：使用 `display: flex; flexDirection: column`，课程列表区 `flex: 1` + `justifyContent: center` 居中填充，footer `flexShrink: 0` 固定底部
 
 ### 字体
 - 使用系统通用字体栈，保证截图环境可用：`'Outfit', 'PingFang SC', sans-serif`

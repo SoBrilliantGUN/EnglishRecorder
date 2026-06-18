@@ -193,8 +193,8 @@ export default function ShareModal(props: ShareModalProps) {
       {/* 卡片预览：contentStyle 含缩放 + 负 margin 补偿布局 */}
       <div ref={cardRef} style={{
         ...contentStyle,
-        // 单课卡片固定宽度 360，确保 html2canvas 截图宽高与卡片一致，消除白边
-        ...(displayMode === 'single' ? { width: 360 } : {}),
+        // 所有卡片统一宽度 360，确保 html2canvas 截图宽高一致
+        width: 360,
       }} data-share-card>
         {renderCard()}
       </div>

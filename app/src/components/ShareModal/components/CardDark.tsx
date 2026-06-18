@@ -9,12 +9,16 @@ const getTitleById = (id: string) => podcasts.find(p => p.id === Number(id))?.ti
 export default function CardDark({ label, stats, groups }: MultiCardProps) {
   return (
     <div style={{
+      width: 360,
+      height: 640,
       background: '#08080f',
       borderRadius: 16,
       overflow: 'hidden',
-      fontFamily: "'Outfit', 'PingFang SC', sans-serif",
+      fontFamily: 'Outfit, PingFang SC, sans-serif',
       position: 'relative',
       border: '1px solid rgba(120,80,255,0.15)',
+      display: 'flex',
+      flexDirection: 'column',
     }}>
       {/* 紫色光晕背景 */}
       <div style={{
@@ -73,7 +77,7 @@ export default function CardDark({ label, stats, groups }: MultiCardProps) {
       <div style={{ height: 1, background: 'linear-gradient(90deg, rgba(120,80,255,0.3), rgba(0,200,255,0.2), transparent)' }} />
 
       {/* 课程列表 */}
-      <div style={{ padding: '18px 26px 26px', position: 'relative', zIndex: 1 }}>
+      <div style={{ flex: 1, padding: '18px 26px 0', position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
         <div style={{ fontSize: 8, color: 'rgba(120,80,255,0.35)', letterSpacing: 4, marginBottom: 14 }}>COURSES</div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
           {groups.length === 0
@@ -103,9 +107,11 @@ export default function CardDark({ label, stats, groups }: MultiCardProps) {
             ))
           }
         </div>
-        <div style={{ marginTop: 16, textAlign: 'right', fontSize: 7, color: 'rgba(120,80,255,0.15)', letterSpacing: 4 }}>
-          ENGLISHPOD TRACKER
-        </div>
+      </div>
+
+      {/* Footer */}
+      <div style={{ padding: '16px 26px 20px', textAlign: 'right', fontSize: 7, color: 'rgba(120,80,255,0.15)', letterSpacing: 4, position: 'relative', zIndex: 1, flexShrink: 0 }}>
+        ENGLISHPOD TRACKER
       </div>
     </div>
   );

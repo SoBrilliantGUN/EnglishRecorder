@@ -16,12 +16,16 @@ export default function CardDarkTopN({ label, stats, groups }: MultiCardProps) {
 
   return (
     <div style={{
+      width: 360,
+      height: 640,
       background: '#08080f',
       borderRadius: 16,
       overflow: 'hidden',
-      fontFamily: "'Outfit', 'PingFang SC', sans-serif",
+      fontFamily: 'Outfit, PingFang SC, sans-serif',
       position: 'relative',
       border: '1px solid rgba(120,80,255,0.15)',
+      display: 'flex',
+      flexDirection: 'column',
     }}>
       {/* 光晕背景 */}
       <div style={{ position: 'absolute', top: -60, right: -60, width: 240, height: 240, borderRadius: '50%', background: 'radial-gradient(circle, rgba(120,80,255,0.12) 0%, transparent 70%)', pointerEvents: 'none' }} />
@@ -51,7 +55,7 @@ export default function CardDarkTopN({ label, stats, groups }: MultiCardProps) {
       <div style={{ height: 1, background: 'linear-gradient(90deg, rgba(120,80,255,0.3), rgba(0,200,255,0.2), transparent)' }} />
 
       {/* Top N 列表 */}
-      <div style={{ padding: '18px 26px 10px', position: 'relative', zIndex: 1 }}>
+      <div style={{ flex: 1, padding: '18px 26px 0', position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
         <div style={{ fontSize: 8, color: 'rgba(120,80,255,0.35)', letterSpacing: 4, marginBottom: 14 }}>TOP COURSES</div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
           {top.map(([lesson, count], i) => (
@@ -70,17 +74,18 @@ export default function CardDarkTopN({ label, stats, groups }: MultiCardProps) {
             </div>
           ))}
         </div>
+
+        {/* 归并行 */}
+        {rest.length > 0 && (
+          <div style={{ marginTop: 8, padding: '10px 14px', border: '1px dashed rgba(120,80,255,0.15)', borderRadius: 8, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <span style={{ fontSize: 11, color: 'rgba(120,80,255,0.3)', letterSpacing: 1 }}>还学了 {rest.length} 门其他课程</span>
+            <span style={{ fontSize: 11, color: 'rgba(120,80,255,0.25)' }}>共 {restCount} 次</span>
+          </div>
+        )}
       </div>
 
-      {/* 归并行 */}
-      {rest.length > 0 && (
-        <div style={{ margin: '8px 26px 20px', padding: '10px 14px', border: '1px dashed rgba(120,80,255,0.15)', borderRadius: 8, display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'relative', zIndex: 1 }}>
-          <span style={{ fontSize: 11, color: 'rgba(120,80,255,0.3)', letterSpacing: 1 }}>还学了 {rest.length} 门其他课程</span>
-          <span style={{ fontSize: 11, color: 'rgba(120,80,255,0.25)' }}>共 {restCount} 次</span>
-        </div>
-      )}
-
-      <div style={{ padding: '0 26px 20px', textAlign: 'right', fontSize: 7, color: 'rgba(120,80,255,0.15)', letterSpacing: 4, position: 'relative', zIndex: 1 }}>ENGLISHPOD TRACKER</div>
+      {/* Footer */}
+      <div style={{ padding: '16px 26px 20px', textAlign: 'right', fontSize: 7, color: 'rgba(120,80,255,0.15)', letterSpacing: 4, position: 'relative', zIndex: 1, flexShrink: 0 }}>ENGLISHPOD TRACKER</div>
     </div>
   );
 }
