@@ -19,6 +19,27 @@ const OUTPUT_FILE = path.join(repoRoot, 'app', 'src', 'data', 'podcasts-index.ts
 // ============================================================
 const PROOFREAD_IDS = new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 22, 23, 24]);
 
+// ============================================================
+// 级别映射：根据 code 前缀推导级别
+// EnglishPod code 命名规则: A/B=Elementary, C=Intermediate,
+//   D=Upper-Intermediate, E/F=Advanced
+// JSON 文件中的 level 字段不准确，统一从此处推导
+// ============================================================
+const LEVEL_MAP = {
+  A: 'Elementary',
+  B: 'Elementary',
+  C: 'Intermediate',
+  D: 'Upper-Intermediate',
+  E: 'Advanced',
+  F: 'Advanced',
+};
+
+function deriveLevel(code) {
+  if (!code || typeof code !== 'string') return 'Intermediate';
+  const prefix = code.charAt(0).toUpperCase();
+  return LEVEL_MAP[prefix] || 'Intermediate';
+}
+
 /**
  * 检查 TransSegment[] 中所有 zh 字段是否非空
  */
@@ -43,7 +64,7 @@ for (const file of files) {
     id,
     code: data.code || '',
     title: data.title || '',
-    level: data.level || '',
+    level: deriveLevel(data.code),
     isProofread: PROOFREAD_IDS.has(id),
     hasDialogueTranslation: hasAllZh(data.dialogue),
     hasTranscriptTranslation: hasAllZh(data.transcript),
@@ -57,18 +78,7 @@ records.sort((a, b) => a.id - b.id);
 const lines = [
   '// 自动生成，数据源: public/transcripts/englishpod_XXXX.json',
   '// 重新生成: node scripts/build-index.mjs',
-  'export interface PodcastMeta {',
-  '  id: number;',
-  '  code: string;',
-  '  title: string;',
-  '  level: string;',
-  '  /** 是否经过人工校正 */',
-  '  isProofread: boolean;',
-  '  /** 课文对话是否有中文翻译 */',
-  '  hasDialogueTranslation: boolean;',
-  '  /** 节目文字稿是否有中文翻译 */',
-  '  hasTranscriptTranslation: boolean;',
-  '}',
+  'import type { PodcastMeta } from \'../types/podcast\';',
   '',
   'const index: PodcastMeta[] = [',
 ];

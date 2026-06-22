@@ -1,17 +1,6 @@
 // 自动生成，数据源: public/transcripts/englishpod_XXXX.json
 // 重新生成: node scripts/build-index.mjs
-export interface PodcastMeta {
-  id: number;
-  code: string;
-  title: string;
-  level: string;
-  /** 是否经过人工校正 */
-  isProofread: boolean;
-  /** 课文对话是否有中文翻译 */
-  hasDialogueTranslation: boolean;
-  /** 节目文字稿是否有中文翻译 */
-  hasTranscriptTranslation: boolean;
-}
+import type { PodcastMeta } from '../types/podcast';
 
 const index: PodcastMeta[] = [
   {
@@ -36,7 +25,7 @@ const index: PodcastMeta[] = [
     "id": 3,
     "code": "C0003",
     "title": "Daily Life - Hotel Upgrade",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -45,7 +34,7 @@ const index: PodcastMeta[] = [
     "id": 4,
     "code": "C0004",
     "title": "The Office - I need an assistant!",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -54,7 +43,7 @@ const index: PodcastMeta[] = [
     "id": 5,
     "code": "C0005",
     "title": "Daily Life - Cut In Line",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -63,7 +52,7 @@ const index: PodcastMeta[] = [
     "id": 6,
     "code": "C0006",
     "title": "The Weekend - Road Trip",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -72,7 +61,7 @@ const index: PodcastMeta[] = [
     "id": 7,
     "code": "C0007",
     "title": "The Office - Virus!",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -81,7 +70,7 @@ const index: PodcastMeta[] = [
     "id": 8,
     "code": "C0008",
     "title": "Daily Life - What’s your name again?",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -90,7 +79,7 @@ const index: PodcastMeta[] = [
     "id": 9,
     "code": "C0009",
     "title": "The Weekend - Silence please!",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -99,7 +88,7 @@ const index: PodcastMeta[] = [
     "id": 10,
     "code": "C0010",
     "title": "The Office - Driving Sales",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -108,7 +97,7 @@ const index: PodcastMeta[] = [
     "id": 11,
     "code": "C0011",
     "title": "Daily Life - New Guy in Town",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -117,7 +106,7 @@ const index: PodcastMeta[] = [
     "id": 12,
     "code": "C0012",
     "title": "Daily Life - Cleaning the House",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -126,7 +115,7 @@ const index: PodcastMeta[] = [
     "id": 13,
     "code": "C0013",
     "title": "The Office - Out Of Control Spending",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -144,7 +133,7 @@ const index: PodcastMeta[] = [
     "id": 15,
     "code": "C0015",
     "title": "Daily Life - I’m sorry, I love you",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -171,7 +160,7 @@ const index: PodcastMeta[] = [
     "id": 18,
     "code": "D0018",
     "title": "Upper -Intermediate - Protest!",
-    "level": "Elementary",
+    "level": "Upper-Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -180,7 +169,7 @@ const index: PodcastMeta[] = [
     "id": 19,
     "code": "C0019",
     "title": "The Weekend - Christmas Chronicles",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -198,7 +187,7 @@ const index: PodcastMeta[] = [
     "id": 21,
     "code": "C0021",
     "title": "The Office - What Do You Do?",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -207,7 +196,7 @@ const index: PodcastMeta[] = [
     "id": 22,
     "code": "C0022",
     "title": "The Weekend - Christmas Chronicles",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -234,7 +223,7 @@ const index: PodcastMeta[] = [
     "id": 25,
     "code": "D0025",
     "title": "Upper-Intermediate - Planning For",
-    "level": "Elementary",
+    "level": "Upper-Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -261,7 +250,7 @@ const index: PodcastMeta[] = [
     "id": 28,
     "code": "C0028",
     "title": "Daily Life - I’m Sorry, I Love You II",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -270,7 +259,7 @@ const index: PodcastMeta[] = [
     "id": 29,
     "code": "E0029",
     "title": "Advanced - Investing in Emerging",
-    "level": "Elementary",
+    "level": "Advanced",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -279,7 +268,7 @@ const index: PodcastMeta[] = [
     "id": 30,
     "code": "C0030",
     "title": "Daily Life - New Guy in Town II",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -297,7 +286,7 @@ const index: PodcastMeta[] = [
     "id": 32,
     "code": "C0032",
     "title": "Daily Life - Opening a Bank Account",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -315,7 +304,7 @@ const index: PodcastMeta[] = [
     "id": 34,
     "code": "D0034",
     "title": "Upper-Intermediate - Live from",
-    "level": "Elementary",
+    "level": "Upper-Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -324,7 +313,7 @@ const index: PodcastMeta[] = [
     "id": 35,
     "code": "C0035",
     "title": "Daily Life - He’s not a Good Fit",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -342,7 +331,7 @@ const index: PodcastMeta[] = [
     "id": 37,
     "code": "C0037",
     "title": "Intermediate - Chinese New Year",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -351,7 +340,7 @@ const index: PodcastMeta[] = [
     "id": 38,
     "code": "C0038",
     "title": "Daily Life - Buying a Car",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -378,7 +367,7 @@ const index: PodcastMeta[] = [
     "id": 41,
     "code": "C0041",
     "title": "The Weekend - Movie Trailer",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -396,7 +385,7 @@ const index: PodcastMeta[] = [
     "id": 43,
     "code": "C0043",
     "title": "Daily Life - Applying for a Visa",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -432,7 +421,7 @@ const index: PodcastMeta[] = [
     "id": 47,
     "code": "E0047",
     "title": "Advanced - Just In Time Strategy",
-    "level": "Elementary",
+    "level": "Advanced",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -441,7 +430,7 @@ const index: PodcastMeta[] = [
     "id": 48,
     "code": "C0048",
     "title": "Intermediate - Carnival in Rio!",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -450,7 +439,7 @@ const index: PodcastMeta[] = [
     "id": 49,
     "code": "C0049",
     "title": "Daily Life - Daddy Please!",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -459,7 +448,7 @@ const index: PodcastMeta[] = [
     "id": 50,
     "code": "C0050",
     "title": "Daily Life - New Guy In Town III",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
@@ -468,7 +457,7 @@ const index: PodcastMeta[] = [
     "id": 51,
     "code": "C0051",
     "title": "The Weekend - What a Bargain!",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -477,7 +466,7 @@ const index: PodcastMeta[] = [
     "id": 52,
     "code": "C0052",
     "title": "Daily Life - Pizza Delivary",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -486,7 +475,7 @@ const index: PodcastMeta[] = [
     "id": 53,
     "code": "C0053",
     "title": "The Weekend - Head Chef",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -504,7 +493,7 @@ const index: PodcastMeta[] = [
     "id": 55,
     "code": "C0055",
     "title": "Intermediate - Hockey",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -513,7 +502,7 @@ const index: PodcastMeta[] = [
     "id": 56,
     "code": "C0056",
     "title": "Daily Life - Planning a Bank Robbery",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -531,7 +520,7 @@ const index: PodcastMeta[] = [
     "id": 58,
     "code": "C0058",
     "title": "Daily Life - This Is Your Captain",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -540,7 +529,7 @@ const index: PodcastMeta[] = [
     "id": 59,
     "code": "E0059",
     "title": "Advanced - Job Interview I",
-    "level": "Elementary",
+    "level": "Advanced",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -549,7 +538,7 @@ const index: PodcastMeta[] = [
     "id": 60,
     "code": "C0060",
     "title": "Intermediate - New Guy in Town IV",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -558,7 +547,7 @@ const index: PodcastMeta[] = [
     "id": 61,
     "code": "C0061",
     "title": "The Weekend - Swim faster!",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -567,7 +556,7 @@ const index: PodcastMeta[] = [
     "id": 62,
     "code": "C0062",
     "title": "The Office - Job Interview II",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -576,7 +565,7 @@ const index: PodcastMeta[] = [
     "id": 63,
     "code": "C0063",
     "title": "The Office - Receptionist",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -585,7 +574,7 @@ const index: PodcastMeta[] = [
     "id": 64,
     "code": "C0064",
     "title": "Daily Life - I’m Sorry I Love You VI",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -594,7 +583,7 @@ const index: PodcastMeta[] = [
     "id": 65,
     "code": "C0065",
     "title": "The Office - Job Interview III",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -603,7 +592,7 @@ const index: PodcastMeta[] = [
     "id": 66,
     "code": "C0066",
     "title": "The Office - Calling The Office",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -612,7 +601,7 @@ const index: PodcastMeta[] = [
     "id": 67,
     "code": "C0067",
     "title": "The Weekend - Soccer",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -630,7 +619,7 @@ const index: PodcastMeta[] = [
     "id": 69,
     "code": "C0069",
     "title": "Daily Life - How Would You Like Your",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -639,7 +628,7 @@ const index: PodcastMeta[] = [
     "id": 70,
     "code": "F0070",
     "title": "Lesson 70",
-    "level": "Intermediate",
+    "level": "Advanced",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -648,7 +637,7 @@ const index: PodcastMeta[] = [
     "id": 71,
     "code": "C0071",
     "title": "The Weekend - Happy Hour",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -666,7 +655,7 @@ const index: PodcastMeta[] = [
     "id": 73,
     "code": "C0073",
     "title": "Daily Life - Which Finger?",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -675,7 +664,7 @@ const index: PodcastMeta[] = [
     "id": 74,
     "code": "C0074",
     "title": "Daily Life - What Am I Thinking!",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -684,7 +673,7 @@ const index: PodcastMeta[] = [
     "id": 75,
     "code": "C0075",
     "title": "Daily Life - Going To The Dentist",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -693,7 +682,7 @@ const index: PodcastMeta[] = [
     "id": 76,
     "code": "C0076",
     "title": "Daily Life - Learning Simple Math",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -702,7 +691,7 @@ const index: PodcastMeta[] = [
     "id": 77,
     "code": "C0077",
     "title": "The Weekend - F1 Racing",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -711,7 +700,7 @@ const index: PodcastMeta[] = [
     "id": 78,
     "code": "C0078",
     "title": "The Weekend - International",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -720,7 +709,7 @@ const index: PodcastMeta[] = [
     "id": 79,
     "code": "C0079",
     "title": "The Weekend - Funky Galaxy Battles",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -729,7 +718,7 @@ const index: PodcastMeta[] = [
     "id": 80,
     "code": "C0080",
     "title": "Daily Life - I’m Sorry I Love You VII",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -738,7 +727,7 @@ const index: PodcastMeta[] = [
     "id": 81,
     "code": "C0081",
     "title": "Daily Life - Getting A Hair Cut",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -747,7 +736,7 @@ const index: PodcastMeta[] = [
     "id": 82,
     "code": "C0082",
     "title": "Daily Life - New Guy In Town V",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -756,7 +745,7 @@ const index: PodcastMeta[] = [
     "id": 83,
     "code": "C0083",
     "title": "Daily Life - Using The ATM",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -765,7 +754,7 @@ const index: PodcastMeta[] = [
     "id": 84,
     "code": "C0084",
     "title": "Daily Life - At The Pharmacy",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -774,7 +763,7 @@ const index: PodcastMeta[] = [
     "id": 85,
     "code": "C0085",
     "title": "The Weekend - Baseball",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -810,7 +799,7 @@ const index: PodcastMeta[] = [
     "id": 89,
     "code": "C0089",
     "title": "Daily Life - At The Airport",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -819,7 +808,7 @@ const index: PodcastMeta[] = [
     "id": 90,
     "code": "C0090",
     "title": "Daily Life - I’m Sorry I Love You VIII",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -828,7 +817,7 @@ const index: PodcastMeta[] = [
     "id": 91,
     "code": "C0091",
     "title": "The Weekend - Aliens!",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -837,7 +826,7 @@ const index: PodcastMeta[] = [
     "id": 92,
     "code": "C0092",
     "title": "The Weekend - 1950’s",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -846,7 +835,7 @@ const index: PodcastMeta[] = [
     "id": 93,
     "code": "C0093",
     "title": "Intermediate - Volleyball",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -855,7 +844,7 @@ const index: PodcastMeta[] = [
     "id": 94,
     "code": "C0094",
     "title": "Global View - Big Bang Theory",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -873,7 +862,7 @@ const index: PodcastMeta[] = [
     "id": 96,
     "code": "C0096",
     "title": "The Weekend - 1960’s English",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -882,7 +871,7 @@ const index: PodcastMeta[] = [
     "id": 97,
     "code": "C0097",
     "title": "Daily Life - Weather Forecast",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -891,7 +880,7 @@ const index: PodcastMeta[] = [
     "id": 98,
     "code": "C0098",
     "title": "Daily Life - Flattering",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -900,7 +889,7 @@ const index: PodcastMeta[] = [
     "id": 99,
     "code": "C0099",
     "title": "Global View - Movie Review",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -909,7 +898,7 @@ const index: PodcastMeta[] = [
     "id": 100,
     "code": "C0100",
     "title": "Daily Life - Where are you from?",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -918,7 +907,7 @@ const index: PodcastMeta[] = [
     "id": 101,
     "code": "C0101",
     "title": "The Weekend - 1970’s",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -927,7 +916,7 @@ const index: PodcastMeta[] = [
     "id": 102,
     "code": "C0102",
     "title": "Global View - Global Warming",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -936,7 +925,7 @@ const index: PodcastMeta[] = [
     "id": 103,
     "code": "C0103",
     "title": "Daily Life - Baby, I’m Sorry",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -945,7 +934,7 @@ const index: PodcastMeta[] = [
     "id": 104,
     "code": "C0104",
     "title": "The Weekend - Skiing",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -954,7 +943,7 @@ const index: PodcastMeta[] = [
     "id": 105,
     "code": "C0105",
     "title": "The Office - Job Well Done",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -963,7 +952,7 @@ const index: PodcastMeta[] = [
     "id": 106,
     "code": "C0106",
     "title": "Daily Life - Mobile Phone Plan",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -981,7 +970,7 @@ const index: PodcastMeta[] = [
     "id": 108,
     "code": "C0108",
     "title": "The Office - Bad news, boss.",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -990,7 +979,7 @@ const index: PodcastMeta[] = [
     "id": 109,
     "code": "C0109",
     "title": "The Weekend - Breaking Up",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1008,7 +997,7 @@ const index: PodcastMeta[] = [
     "id": 111,
     "code": "C0111",
     "title": "The Weekend - Golf",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1017,7 +1006,7 @@ const index: PodcastMeta[] = [
     "id": 112,
     "code": "C0112",
     "title": "Daily Life - Dr. Plumber",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1026,7 +1015,7 @@ const index: PodcastMeta[] = [
     "id": 113,
     "code": "C0113",
     "title": "The Office - Sorry I’m Late",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1035,7 +1024,7 @@ const index: PodcastMeta[] = [
     "id": 114,
     "code": "C0114",
     "title": "The Weekend - 1980’s",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1044,7 +1033,7 @@ const index: PodcastMeta[] = [
     "id": 115,
     "code": "C0115",
     "title": "Daily Life - I Don’t Feel So Good",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1062,7 +1051,7 @@ const index: PodcastMeta[] = [
     "id": 117,
     "code": "C0117",
     "title": "TheWeekend - I’m Sorry I Love You",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1071,7 +1060,7 @@ const index: PodcastMeta[] = [
     "id": 118,
     "code": "C0118",
     "title": "Daily Life - Baby Talk",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1080,7 +1069,7 @@ const index: PodcastMeta[] = [
     "id": 119,
     "code": "C0119",
     "title": "The Weekend - Being Scared",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1089,7 +1078,7 @@ const index: PodcastMeta[] = [
     "id": 120,
     "code": "C0120",
     "title": "The Weekend - Boxing",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1098,7 +1087,7 @@ const index: PodcastMeta[] = [
     "id": 121,
     "code": "C0121",
     "title": "Global View - Presidential Speech",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1107,7 +1096,7 @@ const index: PodcastMeta[] = [
     "id": 122,
     "code": "C0122",
     "title": "Daily Life - Supermarket Cashier",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1116,7 +1105,7 @@ const index: PodcastMeta[] = [
     "id": 123,
     "code": "C0123",
     "title": "The Weekend - 1990’s",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1134,7 +1123,7 @@ const index: PodcastMeta[] = [
     "id": 125,
     "code": "C0125",
     "title": "Daily Life - No Smoking!",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1143,7 +1132,7 @@ const index: PodcastMeta[] = [
     "id": 126,
     "code": "C0126",
     "title": "The Weekend - That’s Funny!",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1152,7 +1141,7 @@ const index: PodcastMeta[] = [
     "id": 127,
     "code": "C0127",
     "title": "The Weekend - I Love That Song!",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1161,7 +1150,7 @@ const index: PodcastMeta[] = [
     "id": 128,
     "code": "C0128",
     "title": "Daily Life - I’m Sorry I Love You X",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1170,7 +1159,7 @@ const index: PodcastMeta[] = [
     "id": 129,
     "code": "C0129",
     "title": "Global View - Presidential Speech II",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1179,7 +1168,7 @@ const index: PodcastMeta[] = [
     "id": 130,
     "code": "C0130",
     "title": "Daily Life - Going To The Gym",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1188,7 +1177,7 @@ const index: PodcastMeta[] = [
     "id": 131,
     "code": "C0131",
     "title": "Daily Life - What if? Part 1",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1197,7 +1186,7 @@ const index: PodcastMeta[] = [
     "id": 132,
     "code": "C0132",
     "title": "Daily Life - Mechanic",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1206,7 +1195,7 @@ const index: PodcastMeta[] = [
     "id": 133,
     "code": "C0133",
     "title": "Daily Life - Doing Laundry",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1215,7 +1204,7 @@ const index: PodcastMeta[] = [
     "id": 134,
     "code": "C0134",
     "title": "Daily Life - Buying a TV",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1224,7 +1213,7 @@ const index: PodcastMeta[] = [
     "id": 135,
     "code": "C0135",
     "title": "Daily Life - Cheer Up",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1233,7 +1222,7 @@ const index: PodcastMeta[] = [
     "id": 136,
     "code": "C0136",
     "title": "Global View - Gambling",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1242,7 +1231,7 @@ const index: PodcastMeta[] = [
     "id": 137,
     "code": "C0137",
     "title": "Daily Life - Getting Internet Service",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1251,7 +1240,7 @@ const index: PodcastMeta[] = [
     "id": 138,
     "code": "C0138",
     "title": "Daily Life - Renting A Car",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1260,7 +1249,7 @@ const index: PodcastMeta[] = [
     "id": 139,
     "code": "C0139",
     "title": "The Weekend - Playing Chess",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1269,7 +1258,7 @@ const index: PodcastMeta[] = [
     "id": 140,
     "code": "C0140",
     "title": "Daily Life - Buying a Computer",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1278,7 +1267,7 @@ const index: PodcastMeta[] = [
     "id": 141,
     "code": "C0141",
     "title": "Daily Life - What If? Part 2",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1287,7 +1276,7 @@ const index: PodcastMeta[] = [
     "id": 142,
     "code": "C0142",
     "title": "The Weekend - What Do I Wear?",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1296,7 +1285,7 @@ const index: PodcastMeta[] = [
     "id": 143,
     "code": "C0143",
     "title": "Daily Life - The Butcher",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1305,7 +1294,7 @@ const index: PodcastMeta[] = [
     "id": 144,
     "code": "C0144",
     "title": "Global View - Capital Punishment",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1314,7 +1303,7 @@ const index: PodcastMeta[] = [
     "id": 145,
     "code": "C0145",
     "title": "Daily Life - Chicken Pox",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1323,7 +1312,7 @@ const index: PodcastMeta[] = [
     "id": 146,
     "code": "C0146",
     "title": "Global View - Animal Rights",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1332,7 +1321,7 @@ const index: PodcastMeta[] = [
     "id": 147,
     "code": "C0147",
     "title": "Daily Life - The Argument",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1341,7 +1330,7 @@ const index: PodcastMeta[] = [
     "id": 148,
     "code": "C0148",
     "title": "Daily Life - Paranoid",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1350,7 +1339,7 @@ const index: PodcastMeta[] = [
     "id": 149,
     "code": "C0149",
     "title": "Daily Life - Moving",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1359,7 +1348,7 @@ const index: PodcastMeta[] = [
     "id": 150,
     "code": "C0150",
     "title": "The Weekend - Bug Spray",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1368,7 +1357,7 @@ const index: PodcastMeta[] = [
     "id": 151,
     "code": "E0151",
     "title": "Advanced - Darwin’s Theory Of",
-    "level": "Elementary",
+    "level": "Advanced",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1377,7 +1366,7 @@ const index: PodcastMeta[] = [
     "id": 152,
     "code": "C0152",
     "title": "The Office - Cut It Out",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1386,7 +1375,7 @@ const index: PodcastMeta[] = [
     "id": 153,
     "code": "C0153",
     "title": "Daily Life - Homesick",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1395,7 +1384,7 @@ const index: PodcastMeta[] = [
     "id": 154,
     "code": "C0154",
     "title": "The Weekend - Rock Band",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1404,7 +1393,7 @@ const index: PodcastMeta[] = [
     "id": 155,
     "code": "C0155",
     "title": "The Weekend - Bachelor Party",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1413,7 +1402,7 @@ const index: PodcastMeta[] = [
     "id": 156,
     "code": "C0156",
     "title": "The Weekend - Scary Story",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1422,7 +1411,7 @@ const index: PodcastMeta[] = [
     "id": 157,
     "code": "C0157",
     "title": "The Weekend - Trick Or Treat",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1431,7 +1420,7 @@ const index: PodcastMeta[] = [
     "id": 158,
     "code": "C0158",
     "title": "Global View - All Saints Day",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1440,7 +1429,7 @@ const index: PodcastMeta[] = [
     "id": 159,
     "code": "C0159",
     "title": "Daily Life - Getting Flowers",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1449,7 +1438,7 @@ const index: PodcastMeta[] = [
     "id": 160,
     "code": "C0160",
     "title": "Global View - Health Insurance",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1458,7 +1447,7 @@ const index: PodcastMeta[] = [
     "id": 161,
     "code": "C0161",
     "title": "Daily Life - Computer Games",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1467,7 +1456,7 @@ const index: PodcastMeta[] = [
     "id": 162,
     "code": "C0162",
     "title": "Global View - Veteran’s Day",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1476,7 +1465,7 @@ const index: PodcastMeta[] = [
     "id": 163,
     "code": "C0163",
     "title": "Global View - Social Security",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1485,7 +1474,7 @@ const index: PodcastMeta[] = [
     "id": 164,
     "code": "C0164",
     "title": "Daily Life - Apology Letter",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1494,7 +1483,7 @@ const index: PodcastMeta[] = [
     "id": 165,
     "code": "C0165",
     "title": "Daily Life - Asking For A Loan",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1503,7 +1492,7 @@ const index: PodcastMeta[] = [
     "id": 166,
     "code": "C0166",
     "title": "Daily Life - Dr. Botox",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1512,7 +1501,7 @@ const index: PodcastMeta[] = [
     "id": 167,
     "code": "C0167",
     "title": "Daily Life - Learning How To Drive",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1530,7 +1519,7 @@ const index: PodcastMeta[] = [
     "id": 169,
     "code": "C0169",
     "title": "The Weekend - Roller Coaster",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1539,7 +1528,7 @@ const index: PodcastMeta[] = [
     "id": 170,
     "code": "C0170",
     "title": "Daily Life - Wedding Doubts",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1548,7 +1537,7 @@ const index: PodcastMeta[] = [
     "id": 171,
     "code": "C0171",
     "title": "The Weekend - Buying a Camera",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1557,7 +1546,7 @@ const index: PodcastMeta[] = [
     "id": 172,
     "code": "C0172",
     "title": "Daily Life - Dry Cleaners",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1566,7 +1555,7 @@ const index: PodcastMeta[] = [
     "id": 173,
     "code": "C0173",
     "title": "The Office - Preparing a Budget",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1575,7 +1564,7 @@ const index: PodcastMeta[] = [
     "id": 174,
     "code": "C0174",
     "title": "The Weekend - Getting a manicure",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1584,7 +1573,7 @@ const index: PodcastMeta[] = [
     "id": 175,
     "code": "C0175",
     "title": "Global View - New Years Resolution",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1593,7 +1582,7 @@ const index: PodcastMeta[] = [
     "id": 176,
     "code": "C0176",
     "title": "Daily Life - Heating",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1620,7 +1609,7 @@ const index: PodcastMeta[] = [
     "id": 179,
     "code": "C0179",
     "title": "Intermediate - Silent Night",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1638,7 +1627,7 @@ const index: PodcastMeta[] = [
     "id": 181,
     "code": "C0181",
     "title": "Daily Life - Christmas Day",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1656,7 +1645,7 @@ const index: PodcastMeta[] = [
     "id": 183,
     "code": "C0183",
     "title": "Daily Life - Winter Clothes",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1665,7 +1654,7 @@ const index: PodcastMeta[] = [
     "id": 184,
     "code": "C0184",
     "title": "Daily Life - Fresh Start",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1674,7 +1663,7 @@ const index: PodcastMeta[] = [
     "id": 185,
     "code": "C0185",
     "title": "The Weekend - Farm Animals",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1683,7 +1672,7 @@ const index: PodcastMeta[] = [
     "id": 186,
     "code": "C0186",
     "title": "The Office - Business Plan",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1692,7 +1681,7 @@ const index: PodcastMeta[] = [
     "id": 187,
     "code": "C0187",
     "title": "Daily Life - Going On A Diet",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1701,7 +1690,7 @@ const index: PodcastMeta[] = [
     "id": 188,
     "code": "C0188",
     "title": "The Office - Asking For A Raise",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1719,7 +1708,7 @@ const index: PodcastMeta[] = [
     "id": 190,
     "code": "C0190",
     "title": "The Weekend - Family Barbecue",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1728,7 +1717,7 @@ const index: PodcastMeta[] = [
     "id": 191,
     "code": "C0191",
     "title": "Global View - Daylight Savings Time",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1737,7 +1726,7 @@ const index: PodcastMeta[] = [
     "id": 192,
     "code": "C0192",
     "title": "Global View - Natural Disasters",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1755,7 +1744,7 @@ const index: PodcastMeta[] = [
     "id": 194,
     "code": "C0194",
     "title": "The Weekend - Stir Fry",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1764,7 +1753,7 @@ const index: PodcastMeta[] = [
     "id": 195,
     "code": "C0195",
     "title": "Global View - Job Hunting",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1782,7 +1771,7 @@ const index: PodcastMeta[] = [
     "id": 197,
     "code": "C0197",
     "title": "Global View - Calling 911",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1791,7 +1780,7 @@ const index: PodcastMeta[] = [
     "id": 198,
     "code": "C0198",
     "title": "Daily Life - Applying CPR",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1809,7 +1798,7 @@ const index: PodcastMeta[] = [
     "id": 200,
     "code": "C0200",
     "title": "Daily Life - Junk Food",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1818,7 +1807,7 @@ const index: PodcastMeta[] = [
     "id": 201,
     "code": "C0201",
     "title": "Daily Life - At The Post Office",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1827,7 +1816,7 @@ const index: PodcastMeta[] = [
     "id": 202,
     "code": "C0202",
     "title": "TheWeekend - Asking For Directions",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1836,7 +1825,7 @@ const index: PodcastMeta[] = [
     "id": 203,
     "code": "C0203",
     "title": "Daily Life - Calling Tech Support",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1845,7 +1834,7 @@ const index: PodcastMeta[] = [
     "id": 204,
     "code": "C0204",
     "title": "Global View - Understanding a Trial",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1854,7 +1843,7 @@ const index: PodcastMeta[] = [
     "id": 205,
     "code": "C0205",
     "title": "The Office - Closing The Deal",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1863,7 +1852,7 @@ const index: PodcastMeta[] = [
     "id": 206,
     "code": "C0206",
     "title": "Daily Life - Talking To Your Roomate",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1872,7 +1861,7 @@ const index: PodcastMeta[] = [
     "id": 207,
     "code": "C0207",
     "title": "Daily Life - Shopping Online",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1881,7 +1870,7 @@ const index: PodcastMeta[] = [
     "id": 208,
     "code": "C0208",
     "title": "Global View - Understanding The",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1890,7 +1879,7 @@ const index: PodcastMeta[] = [
     "id": 209,
     "code": "C0209",
     "title": "Daily Life - Office Gossip",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1899,7 +1888,7 @@ const index: PodcastMeta[] = [
     "id": 210,
     "code": "C0210",
     "title": "Daily Life - Meeting the In-laws",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1926,7 +1915,7 @@ const index: PodcastMeta[] = [
     "id": 213,
     "code": "C0213",
     "title": "Daily Life - Funeral Arrangements",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1935,7 +1924,7 @@ const index: PodcastMeta[] = [
     "id": 214,
     "code": "C0214",
     "title": "Daily Life - Describing Personalities",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1944,7 +1933,7 @@ const index: PodcastMeta[] = [
     "id": 215,
     "code": "C0215",
     "title": "The Weekend - At the Deli",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1953,7 +1942,7 @@ const index: PodcastMeta[] = [
     "id": 216,
     "code": "C0216",
     "title": "Daily Life - Health Food",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1962,7 +1951,7 @@ const index: PodcastMeta[] = [
     "id": 217,
     "code": "C0217",
     "title": "Global View - Volunteering",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1980,7 +1969,7 @@ const index: PodcastMeta[] = [
     "id": 219,
     "code": "C0219",
     "title": "Global View - Baby Shower",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1989,7 +1978,7 @@ const index: PodcastMeta[] = [
     "id": 220,
     "code": "C0220",
     "title": "Daily Life - New Furniture",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -1998,7 +1987,7 @@ const index: PodcastMeta[] = [
     "id": 221,
     "code": "C0221",
     "title": "Daily Life - Car Trouble",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2007,7 +1996,7 @@ const index: PodcastMeta[] = [
     "id": 222,
     "code": "C0222",
     "title": "Global View - Carbon Footprint",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2016,7 +2005,7 @@ const index: PodcastMeta[] = [
     "id": 223,
     "code": "C0223",
     "title": "Daily Life - Facial Hair",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2034,7 +2023,7 @@ const index: PodcastMeta[] = [
     "id": 225,
     "code": "C0225",
     "title": "The Weekend - Planning A Crime",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2043,7 +2032,7 @@ const index: PodcastMeta[] = [
     "id": 226,
     "code": "C0226",
     "title": "Global View - Fundraiser",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2052,7 +2041,7 @@ const index: PodcastMeta[] = [
     "id": 227,
     "code": "C0227",
     "title": "Daily Life - Wedding Planning",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2061,7 +2050,7 @@ const index: PodcastMeta[] = [
     "id": 228,
     "code": "C0228",
     "title": "The Weekend - Going to the Beach",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2070,7 +2059,7 @@ const index: PodcastMeta[] = [
     "id": 229,
     "code": "C0229",
     "title": "Daily Life - Buying Men’s Shoes",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2079,7 +2068,7 @@ const index: PodcastMeta[] = [
     "id": 230,
     "code": "C0230",
     "title": "The Weekend - Gardening",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2088,7 +2077,7 @@ const index: PodcastMeta[] = [
     "id": 231,
     "code": "C0231",
     "title": "Daily Life - Buying Women’s Shoes",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2097,7 +2086,7 @@ const index: PodcastMeta[] = [
     "id": 232,
     "code": "C0232",
     "title": "Daily Life - Toys",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2115,7 +2104,7 @@ const index: PodcastMeta[] = [
     "id": 234,
     "code": "C0234",
     "title": "Daily Life - Going to the Doctor",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2124,7 +2113,7 @@ const index: PodcastMeta[] = [
     "id": 235,
     "code": "C0235",
     "title": "The Office - Interview Skills Part 1 -",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2133,7 +2122,7 @@ const index: PodcastMeta[] = [
     "id": 236,
     "code": "C0236",
     "title": "Daily Life - Trying To Sleep",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2142,7 +2131,7 @@ const index: PodcastMeta[] = [
     "id": 237,
     "code": "C0237",
     "title": "Daily Life - Morning Routine",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2151,7 +2140,7 @@ const index: PodcastMeta[] = [
     "id": 238,
     "code": "C0238",
     "title": "The Office - Interview Skills Part 2 -",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2160,7 +2149,7 @@ const index: PodcastMeta[] = [
     "id": 239,
     "code": "C0239",
     "title": "The Weekend - Adventure Sports",
-    "level": "Elementary",
+    "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
@@ -2646,7 +2635,7 @@ const index: PodcastMeta[] = [
     "id": 293,
     "code": "F0293",
     "title": "Advanced Media - Cheese Lovers",
-    "level": "Intermediate",
+    "level": "Advanced",
     "isProofread": false,
     "hasDialogueTranslation": false,
     "hasTranscriptTranslation": false
