@@ -2,7 +2,7 @@
  * 将课文（dialogue）同步到节目文字稿（transcript）中的 3 段对话。
  *
  * 用法：
- *   node scripts/sync-dialogue-to-transcript.mjs <json路径> <start1>,<end1> <start2>,<end2> <start3>,<end3>
+ *   node scripts/sync-dialogue-to-transcript.mjs <json路径> <start1>,<end1> [<start2>,<end2> ...]
  *
  *   其中 start/end 为 transcript 数组中的 segment 索引（均为 inclusive）。
  *
@@ -79,7 +79,7 @@ function syncDialogue(filePath, ranges) {
   }
 
   if (!needsUpdate) {
-    console.log('✅ 3 段对话已与 dialogue 一致，无需更新');
+    console.log(`✅ ${ranges.length} 段对话已与 dialogue 一致，无需更新`);
     return;
   }
 
@@ -93,14 +93,14 @@ function syncDialogue(filePath, ranges) {
 
   // 5. 写回
   writeFileSync(filePath, JSON.stringify(data, null, 2) + '\n', 'utf8');
-  console.log('✅ 完成！已将 3 段 transcript 对话替换为与 dialogue 一致的版本');
+  console.log(`✅ 完成！已将 ${ranges.length} 段 transcript 对话替换为与 dialogue 一致的版本`);
 }
 
 // ── 入口 ───────────────────────────────────────────────────
 
 const args = process.argv.slice(2);
-if (args.length !== 4) {
-  console.error('用法: node scripts/sync-dialogue-to-transcript.mjs <json路径> <start1>,<end1> <start2>,<end2> <start3>,<end3>');
+if (args.length < 2) {
+  console.error('用法: node scripts/sync-dialogue-to-transcript.mjs <json路径> <start1>,<end1> [<start2>,<end2> ...]');
   process.exit(1);
 }
 

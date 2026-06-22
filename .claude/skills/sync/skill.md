@@ -1,11 +1,11 @@
 ---
 name: sync
-description: 课文校对完成后，将 dialogue 同步到 transcript 的 3 遍对话中
+description: 课文校对完成后，将 dialogue 同步到 transcript 的对话回放段落中
 ---
 
 # 同步课文到文字稿
 
-将当前已校对好的 `dialogue` 同步到 `transcript` 中的 3 段对话。
+将当前已校对好的 `dialogue` 同步到 `transcript` 中的对话回放段落（通常 2~3 遍）。
 
 ## 步骤
 
@@ -35,7 +35,7 @@ for (let i = 0; i < t.length; i++) {
 
 ### 3. 确认段数
 
-定位完成后，检查是否恰好找到 **3 段**对话。用 dialogue 中一句不会出现在讲解中的文本辅助计数：
+定位完成后，检查找到的对话段数与预期是否一致。用 dialogue 中一句不会出现在讲解中的文本辅助计数：
 
 ```
 node -e "
@@ -43,21 +43,21 @@ const d = JSON.parse(require('fs').readFileSync('app/public/transcripts/englishp
 const t = d.transcript;
 let count = 0;
 t.forEach((s,i) => { if (s.en.includes('<对话中某句唯一文本>')) { count++; console.log('@', i, ':', s.en.substring(0,60)); } });
-console.log('共', count, '次（应为 3）');
+console.log('共', count, '段对话回放');
 "
 ```
 
-**如果不是恰好 3 段，立即停止，不要执行后续步骤。** 向用户报告实际段数，说明本课 transcript 结构与脚本预期不符，由用户决定如何处理。
+**将实际段数与步骤 2 找到的起止索引数量进行核对。** 如果段数与索引组数不匹配，立即停止，向用户报告差异，由用户决定如何处理。
 
 ### 4. 执行同步脚本
 
 ```
-node .claude/skills/sync/sync-dialogue-to-transcript.mjs app/public/transcripts/englishpod_XXXX.json <start1>,<end1> <start2>,<end2> <start3>,<end3>
+node .claude/skills/sync/sync-dialogue-to-transcript.mjs app/public/transcripts/englishpod_XXXX.json <start1>,<end1> [<start2>,<end2> ...]
 ```
 
 ### 5. 验证
 
-用 dialogue 中的几句关键文本（如修改过的句子）在 transcript 中搜索，确认每遍对话都出现了且共 3 次：
+用 dialogue 中的几句关键文本（如修改过的句子）在 transcript 中搜索，确认每遍对话都出现了且次数与同步段数一致：
 
 ```
 node -e "
@@ -65,6 +65,6 @@ const d = JSON.parse(require('fs').readFileSync('app/public/transcripts/englishp
 const t = d.transcript;
 let count = 0;
 t.forEach((s,i) => { if (s.en.includes('<关键文本>')) { count++; console.log('@', i, ':', s.en.substring(0,60)); } });
-console.log('共', count, '次（应为 3）');
+console.log('共', count, '次（应与同步段数一致）');
 "
 ```
