@@ -224,7 +224,7 @@ const index: PodcastMeta[] = [
     "code": "D0025",
     "title": "Upper-Intermediate - Planning For",
     "level": "Upper-Intermediate",
-    "isProofread": false,
+    "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
   },

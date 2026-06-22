@@ -43,11 +43,12 @@ npx tsc --noEmit # TypeScript 类型检查
 课程内容支持中英对照翻译，通过 `TransSegment[]` 结构化数据存储：
 - **课程数据唯一源**: `public/transcripts/englishpod_XXXX.json`（365个文件，各含 `code`/`title`/`level`/`transcript`/`dialogue`），详情页按需 fetch 加载
 - **元数据索引**: `src/data/podcasts-index.ts`（由 `scripts/build-index.mjs` 从 transcript JSON 生成，含 `isProofread`/`hasDialogueTranslation`/`hasTranscriptTranslation` 翻译状态）
-- **文字稿**: 同上文件中的 `transcript` 字段（ID 1-9, 22-24 人工校对；ID 10-21, 25-50 翻译完成；其余未翻译）
+- **文字稿**: 同上文件中的 `transcript` 字段（ID 1-11, 22-25 人工校对；ID 12-21, 26-50 翻译完成；其余未翻译）
 - **课文对话**: 同上文件中的 `dialogue` 字段（ID 1-50 已翻译）
 - **类型**: `types/podcast.ts` 定义 `TransSegment { en: string; zh: string }`
 - **显示模式**: 课文内「译」按钮切换两种显示方式（完全显示/悬浮显示）。悬浮模式用 `visibility: hidden` 占位防抖。
 - **处理流程**: `scripts/split-sentences.mjs`（逐句拆分 + `--split-long` 长句二次拆分）→ `scripts/rebalance-transcripts.mjs`（批量拆分至 ≤55 字符）→ 人工/并行 EN→ZH 翻译 → `scripts/apply-translations.mjs`（课文翻译写入）或 `scripts/apply-transcript-translations.mjs`（文字稿翻译写入）→ `scripts/build-index.mjs`（重建课程索引，更新角标状态）
+- **校对完成标记**: 人工校对完成后，通过 `/proofread` skill 更新角标（`isProofread`）和文档中的校对进度
 - **校对后对齐**: 课文校对完成后，必须将对应文字稿中3遍对话的 en 和 zh 同步为与课文一致（同一录音播放3遍）。使用 `.claude/skills/sync-dialogue-to-transcript.mjs` 脚本完成（通过 `/sync` skill 调用），流程见下。
 
 ### 课文→文字稿同步流程
