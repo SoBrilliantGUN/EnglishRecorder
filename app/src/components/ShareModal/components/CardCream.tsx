@@ -58,17 +58,7 @@ export default function CardCream({ label, stats, groups }: MultiCardProps) {
               <div style={{ fontSize: 8, letterSpacing: 5, color: 'rgba(255,255,255,0.3)', marginBottom: 5 }}>ENGLISHPOD</div>
               <div style={{ fontSize: 10, color: 'rgba(100,200,140,0.6)', letterSpacing: 2, fontWeight: 600 }}>学习记录</div>
             </div>
-            {/* 打卡天数小方块 */}
-            <div style={{
-              background: 'rgba(255,255,255,0.08)',
-              border: '1px solid rgba(255,255,255,0.1)',
-              borderRadius: 8,
-              padding: '6px 12px',
-              textAlign: 'center',
-            }}>
-              <div style={{ fontSize: 18, fontWeight: 800, color: '#fff', lineHeight: 1 }}>{stats.checkins}</div>
-              <div style={{ fontSize: 7, color: 'rgba(255,255,255,0.3)', letterSpacing: 2, marginTop: 2 }}>DAYS</div>
-            </div>
+            {/* 右侧留空，保持与下方内容区对齐 */}
           </div>
 
           {/* 大标题 */}
