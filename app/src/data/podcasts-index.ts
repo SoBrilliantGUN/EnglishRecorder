@@ -188,7 +188,7 @@ const index: PodcastMeta[] = [
     "code": "C0021",
     "title": "The Office - What Do You Do?",
     "level": "Intermediate",
-    "isProofread": false,
+    "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
   },
