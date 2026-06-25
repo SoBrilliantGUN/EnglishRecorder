@@ -67,9 +67,21 @@ npx tsc --noEmit # TypeScript 类型检查
 
 App.tsx 维护一个 `tick` 计数器作为全局刷新信号。组件通过 `store.ts` 修改数据后，调用 `onRefresh` prop（递增 tick）。子组件接收 `tick` 作为 prop，变化时重新从 localStorage 读取数据。这是刻意的设计——不要替换为 useEffect 触发的 setState，也不要引入状态管理库。
 
+### 自动滚动（AutoScroll）
+
+课文详情页支持类似小说阅读软件的自动向下滚动功能，通过 `AutoScroll` 组件实现：
+
+- **桌面端（≥769px）**：右侧悬浮胶囊，紧凑态为 46px 圆形播放按钮，点击后展开为横向胶囊，包含播放/暂停、速度设置（⚙）、回顶部（scrollY > 200 时出现）、键盘快捷键提示（⌨）、关闭按钮
+- **移动端（≤768px）**：底部控制条始终可见，包含回顶部、播放/暂停、速度设置
+- **速度调节**：8 级（60~120 px/s），通过 ± 按钮或键盘 ↑↓ / + − 调节，持久化到 `ep_auto_scroll_speed`
+- **键盘快捷键**：← → 切换课程、Space 暂停/继续、↑↓ 或 + − 调速、Esc 退出；首次使用自动弹出提示（`ep_auto_scroll_hints_seen` 标记已读）
+- **滚动引擎**：`requestAnimationFrame` + 理想位置累加器（避免浏览器 sub-pixel 取整误差），用户手动滚动时自动暂停，到达底部自动停止
+- **回顶部**：点击后立即停止自动滚动并平滑回到顶部
+- **接口**：`onPrev?: () => void; onNext?: () => void` 供 ← → 导航
+
 ### 数据层（store.ts）
 
-带完整类型定义的纯函数模块，直接读写 localStorage。非响应式，组件命令式调用后手动触发刷新。日期处理统一使用 dayjs。localStorage key 前缀：`ep_records`、`ep_coef`、`ep_first`、`ep_resets`、`ep_initialized`、`ep_theme`、`ep_show_review`、`ep_share_theme`、`ep_show_translation`。
+带完整类型定义的纯函数模块，直接读写 localStorage。非响应式，组件命令式调用后手动触发刷新。日期处理统一使用 dayjs。localStorage key 前缀：`ep_records`、`ep_coef`、`ep_first`、`ep_resets`、`ep_initialized`、`ep_theme`、`ep_show_review`、`ep_share_theme`、`ep_show_translation`、`ep_auto_scroll_speed`、`ep_auto_scroll_hints_seen`。
 
 ### 视图切换
 
@@ -122,7 +134,7 @@ interface PaginationProps {
 - **全局 token**：`src/styles/_variables.scss` 定义语义化 CSS 变量（颜色、圆角、字号、阴影、动画），含 `[data-theme="dark"]` 暗黑模式覆盖
 - **全局样式**：`src/index.scss` 定义复用类（`.card`、`.btn-primary`、`.btn-secondary`、`.modal-overlay`），以及 `@media (pointer: coarse)` 触屏适配和 `@media (hover: none)` hover 降级
 - **组件样式**：每个组件使用 `index.module.scss`（SCSS Modules，局部作用域）
-- **App 布局**：`src/App.module.scss` 定义 `.layout`（桌面双栏 flex）、`.layoutFull`（全宽单栏）、`.main`（左侧主区域 `flex: 1`）、`.sidebar`（右侧 350px 固定宽），移动端 `@media (max-width: 768px)` sidebar 全宽堆叠
+- **App 布局**：`src/App.module.scss` 定义 `.layout`（桌面双栏 flex）、`.layoutFull`（详情页单栏，`max-width: 740px` 居中，适合阅读）、`.main`（左侧主区域 `flex: 1`）、`.sidebar`（右侧 350px 固定宽），移动端 `@media (max-width: 768px)` sidebar 全宽堆叠
 - **暗黑模式**：`hooks/useTheme.ts` 管理主题状态，通过 `data-theme` 属性切换 CSS 变量，持久化到 `ep_theme`
 - **弹窗小屏适配**：`.modal-content` 设置 `max-height: calc(100vh - 32px)` + `overflow: hidden` 防溢出；`hooks/useScaleToFit.ts` 提供通用缩放 hook，弹窗内容超过视口时用 `transform: scale()` 等比缩小，无滚动条
 
