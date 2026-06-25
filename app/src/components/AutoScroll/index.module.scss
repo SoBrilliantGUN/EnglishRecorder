@@ -10,6 +10,47 @@
   z-index: 90;
 }
 
+// 独立回顶部按钮（非自动播放时显示）
+.standaloneBackToTop {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  animation: fadeIn 0.2s ease;
+}
+
+.standaloneBackToTopBtn {
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  background: var(--color-bg-card);
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all var(--transition-fast);
+
+  &:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  &:active {
+    transform: scale(0.93);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 // 胶囊主体
 .pill {
   display: flex;
@@ -420,6 +461,14 @@
 [data-theme='dark'] {
   .pill {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .standaloneBackToTopBtn {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+
+  .standaloneBackToTopBtn:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   }
 
   .pillCompact:hover {

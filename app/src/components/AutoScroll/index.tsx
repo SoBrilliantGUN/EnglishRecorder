@@ -2,8 +2,8 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { ChevronUpIcon } from '../icons';
 import styles from './index.module.scss';
 
-// 8 级速度：60 ~ 120 px/s
-const SPEED_LEVELS = [60, 68, 76, 84, 92, 100, 110, 120];
+// 8 级速度：10 ~ 120 px/s
+const SPEED_LEVELS = [10, 25, 40, 55, 70, 85, 100, 120];
 const DEFAULT_LEVEL = 3; // 84 px/s
 const STORAGE_KEY = 'ep_auto_scroll_speed';
 const HINTS_SEEN_KEY = 'ep_auto_scroll_hints_seen';
@@ -41,6 +41,9 @@ export default function AutoScroll({ onPrev, onNext }: AutoScrollProps) {
   const lastTimeRef = useRef<number | null>(null);
   // 理想滚动位置累加器（避免每帧从 scrollY 取值导致浏览器取整误差累积）
   const idealYRef = useRef(0);
+
+  // 记录最近一次启动时间，用于防止点击触发的 wheel/touch 事件立即暂停
+  const startTimeRef = useRef(0);
 
   const levelRef = useRef(level);
   levelRef.current = level;
@@ -107,6 +110,7 @@ export default function AutoScroll({ onPrev, onNext }: AutoScrollProps) {
 
   // ── 动作 ──
   const start = useCallback(() => {
+    startTimeRef.current = performance.now();
     isActiveRef.current = true;
     isPausedRef.current = false;
     setIsActive(true);
@@ -207,8 +211,14 @@ export default function AutoScroll({ onPrev, onNext }: AutoScrollProps) {
         return;
       }
 
-      // Space 暂停/继续
-      if (e.code === 'Space' && isActiveRef.current) {
+      // Space：未播放时启动，播放中则暂停/继续
+      if (e.code === 'Space') {
+        if (!isActiveRef.current) {
+          e.preventDefault();
+          e.stopPropagation();
+          start();
+          return;
+        }
         e.preventDefault();
         e.stopPropagation();
         if (isPausedRef.current) {
@@ -240,12 +250,15 @@ export default function AutoScroll({ onPrev, onNext }: AutoScrollProps) {
 
     window.addEventListener('keydown', handler, { capture: true });
     return () => window.removeEventListener('keydown', handler, { capture: true });
-  }, [startLoop, stopLoop, adjustSpeed, onPrev, onNext]);
+  }, [start, startLoop, stopLoop, adjustSpeed, onPrev, onNext]);
 
-  // ── 手动滚动暂停 ──
+  // ── 手动滚动暂停（启动后 200ms 内忽略，防止点击触发的滚轮事件立即暂停）──
   useEffect(() => {
     if (!isActive || isPaused) return;
-    const handler = () => pause();
+    const handler = () => {
+      if (performance.now() - startTimeRef.current < 200) return;
+      pause();
+    };
     window.addEventListener('wheel', handler, { passive: true });
     window.addEventListener('touchmove', handler, { passive: true });
     return () => {
@@ -300,10 +313,27 @@ export default function AutoScroll({ onPrev, onNext }: AutoScrollProps) {
   );
 
   // ============================================================
+  // 桌面端：独立的回顶部按钮（非自动播放时显示，scrollY > 200）
+  // ============================================================
+  const standaloneBackToTop = !isExpanded && showBackToTop && (
+    <div className={styles.standaloneBackToTop}>
+      <button
+        className={styles.standaloneBackToTopBtn}
+        onClick={scrollToTop}
+        title="回到顶部"
+        aria-label="回到顶部"
+      >
+        <ChevronUpIcon size={18} />
+      </button>
+    </div>
+  );
+
+  // ============================================================
   // 桌面端：悬浮胶囊
   // ============================================================
   const desktopPill = (
     <div className={styles.desktopPill}>
+      {standaloneBackToTop}
       <div className={`${styles.pill} ${isExpanded ? styles.pillExpanded : styles.pillCompact}`}>
         <button
           className={styles.playBtn}
@@ -318,7 +348,7 @@ export default function AutoScroll({ onPrev, onNext }: AutoScrollProps) {
           <>
             <button
               className={`${styles.iconBtn} ${showSpeed ? styles.settingsActive : ''}`}
-              onClick={() => setShowSpeed(v => !v)}
+              onClick={() => { setShowSpeed(v => !v); setShowKeyHints(false); }}
               title="阅读速度"
               aria-label="阅读速度"
             >
@@ -336,7 +366,7 @@ export default function AutoScroll({ onPrev, onNext }: AutoScrollProps) {
 
             <button
               className={styles.iconBtn}
-              onClick={() => setShowKeyHints(v => !v)}
+              onClick={() => { setShowKeyHints(v => !v); setShowSpeed(false); }}
               title="键盘快捷键"
               aria-label="键盘快捷键"
             >
