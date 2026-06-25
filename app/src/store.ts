@@ -22,11 +22,19 @@ interface ImportData {
   ep_resets?: { [key: string]: string };
 }
 
+export interface UserProfile {
+  phone: string;
+  nickname: string;
+  avatar: string; // base64 data URL，空字符串表示未设置
+}
+
 const KEYS = {
   records: 'ep_records',
   coef: 'ep_coef',
   first: 'ep_first',
   resets: 'ep_resets',
+  user: 'ep_user',
+  privacyConsented: 'ep_privacy_consented',
 } as const;
 
 export function getRecords(): Record[] {
@@ -237,4 +245,42 @@ export function groupByLesson(records: Record[]): [string, number][] {
     map[r.lesson] = (map[r.lesson] || 0) + r.count;
   });
   return Object.entries(map).sort((a, b) => Number(a[0]) - Number(b[0])) as [string, number][];
+}
+
+// 用户信息
+export function getUser(): UserProfile | null {
+  const raw = localStorage.getItem(KEYS.user);
+  if (!raw) return null;
+  try {
+    return JSON.parse(raw) as UserProfile;
+  } catch {
+    return null;
+  }
+}
+
+export function saveUser(profile: UserProfile): void {
+  localStorage.setItem(KEYS.user, JSON.stringify(profile));
+}
+
+export function clearUser(): void {
+  localStorage.removeItem(KEYS.user);
+}
+
+/** 格式化手机号为 138****0000 样式 */
+export function maskPhone(phone: string): string {
+  if (phone.length < 11) return phone;
+  return phone.slice(0, 3) + '****' + phone.slice(-4);
+}
+
+// 隐私政策同意状态
+export function hasPrivacyConsent(): boolean {
+  return localStorage.getItem(KEYS.privacyConsented) === 'true';
+}
+
+export function setPrivacyConsent(agreed: boolean): void {
+  if (agreed) {
+    localStorage.setItem(KEYS.privacyConsented, 'true');
+  } else {
+    localStorage.removeItem(KEYS.privacyConsented);
+  }
 }

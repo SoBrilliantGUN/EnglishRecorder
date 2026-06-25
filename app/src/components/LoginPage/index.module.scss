@@ -1,0 +1,245 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 380px;
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  padding: 40px 32px 28px;
+  box-shadow: var(--shadow-lg);
+}
+
+// 品牌区
+.brand {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.brandIcon {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.brandName {
+  font-size: 22px;
+  color: var(--color-primary);
+  letter-spacing: 0.5px;
+}
+
+.brandSub {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+  letter-spacing: 4px;
+}
+
+// 表单区
+.form {
+  margin-bottom: 20px;
+}
+
+.formTitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+// 错误提示
+.error {
+  font-size: var(--font-size-xs);
+  color: var(--color-danger);
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  background: #fef2f2;
+  border-radius: var(--radius-sm);
+}
+
+// 手机号行
+.phoneRow {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-base);
+  overflow: hidden;
+  margin-bottom: 12px;
+  transition: border-color var(--transition-fast);
+
+  &:focus-within {
+    border-color: var(--color-primary);
+  }
+}
+
+.countryCode {
+  padding: 0 12px;
+  font-size: var(--font-size-md);
+  color: var(--color-text);
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.countryDivider {
+  width: 1px;
+  height: 20px;
+  background: var(--color-border);
+  flex-shrink: 0;
+}
+
+.phoneInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 12px;
+  font-size: var(--font-size-md);
+  background: transparent;
+  color: var(--color-text);
+  min-width: 0;
+
+  &::placeholder {
+    color: var(--color-text-disabled);
+  }
+}
+
+// 验证码行
+.codeRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.codeInput {
+  flex: 1;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-base);
+  padding: 12px;
+  font-size: var(--font-size-md);
+  background: transparent;
+  color: var(--color-text);
+  outline: none;
+  transition: border-color var(--transition-fast);
+  letter-spacing: 6px;
+  text-align: center;
+
+  &::placeholder {
+    color: var(--color-text-disabled);
+    letter-spacing: normal;
+  }
+
+  &:focus {
+    border-color: var(--color-primary);
+  }
+}
+
+.sendBtn {
+  flex-shrink: 0;
+  padding: 0 16px;
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-base);
+  background: transparent;
+  color: var(--color-primary);
+  font-size: var(--font-size-sm);
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+  min-width: 100px;
+
+  &:hover:not(:disabled) {
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+  }
+
+  &:disabled {
+    border-color: var(--color-border);
+    color: var(--color-text-disabled);
+    cursor: not-allowed;
+  }
+}
+
+// 登录按钮
+.loginBtn {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: var(--radius-base);
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  letter-spacing: 4px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+
+  &:hover:not(:disabled) {
+    background: var(--color-primary-hover);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(0);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+// 用户协议
+.agreement {
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-disabled);
+  line-height: 1.6;
+}
+
+.agreementLink {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  color: var(--color-primary);
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// 暗黑模式适配
+[data-theme='dark'] {
+  .error {
+    background: rgba(255, 107, 107, 0.1);
+  }
+}
+
+// 移动端
+@media (max-width: 768px) {
+  .page {
+    padding: 16px;
+    align-items: flex-start;
+    padding-top: 60px;
+  }
+
+  .card {
+    padding: 32px 24px 24px;
+  }
+
+  .brand {
+    margin-bottom: 28px;
+  }
+
+  .sendBtn {
+    min-width: 88px;
+    padding: 0 12px;
+    font-size: var(--font-size-xs);
+  }
+}

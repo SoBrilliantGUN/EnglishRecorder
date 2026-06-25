@@ -1,5 +1,5 @@
 import { useState, useEffect, Suspense, lazy } from 'react';
-import { todayStr } from './store';
+import { todayStr, getUser, hasPrivacyConsent, setPrivacyConsent, type UserProfile } from './store';
 import { useTheme } from './hooks/useTheme';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import Calendar from './components/Calendar';
@@ -7,7 +7,7 @@ import RecordsView from './components/RecordsView';
 import DailyCard from './components/DailyCard';
 import ReviewReminder from './components/ReviewReminder';
 import PodcastList from './components/PodcastList';
-import { MoonIcon, SunIcon, InfoIcon, SettingsIcon } from './components/icons';
+import { MoonIcon, SunIcon, InfoIcon, SettingsIcon, UserIcon } from './components/icons';
 import styles from './App.module.scss';
 
 // 懒加载弹窗和详情页——这些组件按需渲染，避免阻塞首屏
@@ -15,6 +15,9 @@ import styles from './App.module.scss';
 const InfoModal = lazy(() => import('./components/InfoModal'));
 const SettingsModal = lazy(() => import('./components/SettingsModal'));
 const PodcastDetail = lazy(() => import('./components/PodcastDetail'));
+const LoginPage = lazy(() => import('./components/LoginPage'));
+const ProfilePage = lazy(() => import('./components/ProfilePage'));
+const PrivacyConsent = lazy(() => import('./components/PrivacyConsent'));
 
 // 通用 Suspense fallback：弹窗和详情页在加载瞬间显示空白即可，
 // 因为懒加载的 chunk 极小（<1kB 不含依赖），加载几乎瞬间完成
@@ -39,6 +42,9 @@ export default function App() {
     return null;
   });
   const [podcastPage, setPodcastPage] = useState(1);
+  const [user, setUser] = useState<UserProfile | null>(() => getUser());
+  const [showProfile, setShowProfile] = useState(false);
+  const [privacyConsented, setPrivacyConsentedState] = useState(() => hasPrivacyConsent());
   const { theme, toggle: toggleTheme } = useTheme();
 
   // 同步 selectedLessonId 到 URL query 参数，刷新后保持当前课程
@@ -64,74 +70,114 @@ export default function App() {
 
   return (
     <>
-      <header className={styles.header}>
-        <h1 className={styles.headerTitle}>EnglishPod 学习打卡</h1>
-        <div className={styles.headerActions}>
-          <button className={styles.iconBtn} onClick={toggleTheme} title="切换主题" aria-label={theme === 'light' ? '切换到暗黑模式' : '切换到浅色模式'}>
-            {theme === 'light' ? <MoonIcon size={18} /> : <SunIcon size={18} />}
-          </button>
-          <button className={styles.iconBtn} onClick={() => setShowInfo(true)} title="使用说明" aria-label="使用说明">
-            <InfoIcon size={18} />
-          </button>
-          <button className={styles.iconBtn} onClick={() => setShowSettings(true)} title="设置" aria-label="设置">
-            <SettingsIcon size={18} />
-          </button>
-        </div>
-      </header>
-
-      {selectedLessonId ? (
+      {!privacyConsented ? (
         <Suspense fallback={<LazyFallback />}>
-          <div className={styles.layoutFull}>
-            <PodcastDetail
-              lessonId={selectedLessonId}
-              onBack={handleBackToPodcastList}
-              onNavigate={setSelectedLessonId}
-              onRefresh={refresh}
-            />
-          </div>
+          <PrivacyConsent
+            onAgree={() => {
+              setPrivacyConsent(true);
+              setPrivacyConsentedState(true);
+            }}
+            onDeny={() => {
+              setPrivacyConsent(false);
+              setPrivacyConsentedState(false);
+            }}
+          />
+        </Suspense>
+      ) : !user ? (
+        <Suspense fallback={<LazyFallback />}>
+          <LoginPage onLogin={setUser} />
         </Suspense>
       ) : (
         <>
-          <div className={styles.layout}>
-            {/* 左侧主区域 */}
-            <div className={styles.main}>
-              {view === 'calendar' && (
-                <Calendar onSwitchView={setView} tick={tick} selected={selected} onSelectDate={setSelected} />
-              )}
-              {view === 'records' && (
-                <RecordsView onSwitchView={setView} onRefresh={refresh} />
-              )}
-              <PodcastList onSelectLesson={handleSelectLesson} currentPage={podcastPage} onPageChange={setPodcastPage} />
+          <header className={styles.header}>
+            <h1 className={styles.headerTitle}>EnglishPod 学习打卡</h1>
+            <div className={styles.headerActions}>
+              <button className={styles.iconBtn} onClick={toggleTheme} title="切换主题" aria-label={theme === 'light' ? '切换到暗黑模式' : '切换到浅色模式'}>
+                {theme === 'light' ? <MoonIcon size={18} /> : <SunIcon size={18} />}
+              </button>
+              <button className={styles.iconBtn} onClick={() => setShowInfo(true)} title="使用说明" aria-label="使用说明">
+                <InfoIcon size={18} />
+              </button>
+              <button className={styles.iconBtn} onClick={() => setShowSettings(true)} title="设置" aria-label="设置">
+                <SettingsIcon size={18} />
+              </button>
+              <button className={styles.iconBtn} onClick={() => setShowProfile(true)} title="个人中心" aria-label="个人中心">
+                <UserIcon size={18} />
+              </button>
             </div>
+          </header>
 
-            {/* 右侧侧边栏 */}
-            <div className={styles.sidebar}>
-              <DailyCard selected={selected} onRefresh={refresh} tick={tick} />
-              {showReview && <ReviewReminder onRefresh={refresh} tick={tick} />}
-            </div>
-          </div>
+          {selectedLessonId ? (
+            <Suspense fallback={<LazyFallback />}>
+              <div className={styles.layoutFull}>
+                <PodcastDetail
+                  lessonId={selectedLessonId}
+                  onBack={handleBackToPodcastList}
+                  onNavigate={setSelectedLessonId}
+                  onRefresh={refresh}
+                />
+              </div>
+            </Suspense>
+          ) : (
+            <>
+              <div className={styles.layout}>
+                {/* 左侧主区域 */}
+                <div className={styles.main}>
+                  {view === 'calendar' && (
+                    <Calendar onSwitchView={setView} tick={tick} selected={selected} onSelectDate={setSelected} />
+                  )}
+                  {view === 'records' && (
+                    <RecordsView onSwitchView={setView} onRefresh={refresh} />
+                  )}
+                  <PodcastList onSelectLesson={handleSelectLesson} currentPage={podcastPage} onPageChange={setPodcastPage} />
+                </div>
 
-          <footer className={styles.footer}>
-            <p>
-              <a href="https://beian.miit.gov.cn" target="_blank" rel="noopener">ICP备案号：正在办理中</a>
-            </p>
-          </footer>
+                {/* 右侧侧边栏 */}
+                <div className={styles.sidebar}>
+                  <DailyCard selected={selected} onRefresh={refresh} tick={tick} />
+                  {showReview && <ReviewReminder onRefresh={refresh} tick={tick} />}
+                </div>
+              </div>
+
+              <footer className={styles.footer}>
+                <p>
+                  <a href="https://beian.miit.gov.cn" target="_blank" rel="noopener">ICP备案号：正在办理中</a>
+                </p>
+              </footer>
+            </>
+          )}
+
+          {showInfo && (
+            <Suspense fallback={<LazyFallback />}>
+              <InfoModal onClose={() => setShowInfo(false)} />
+            </Suspense>
+          )}
+          {showSettings && (
+            <Suspense fallback={<LazyFallback />}>
+              <SettingsModal
+                onClose={() => setShowSettings(false)}
+                showReview={showReview}
+                onToggleReview={setShowReview}
+              />
+            </Suspense>
+          )}
+          {showProfile && (
+            <Suspense fallback={<LazyFallback />}>
+              <ProfilePage
+                user={user}
+                onClose={() => setShowProfile(false)}
+                onUpdate={(updatedUser) => {
+                  setUser(updatedUser);
+                  if (!updatedUser) {
+                    // 退出登录时重置视图状态
+                    setSelectedLessonId(null);
+                    setPodcastPage(1);
+                  }
+                }}
+              />
+            </Suspense>
+          )}
         </>
-      )}
-
-      {showInfo && (
-        <Suspense fallback={<LazyFallback />}>
-          <InfoModal onClose={() => setShowInfo(false)} />
-        </Suspense>
-      )}
-      {showSettings && (
-        <Suspense fallback={<LazyFallback />}>
-          <SettingsModal
-            onClose={() => setShowSettings(false)}
-            showReview={showReview}
-            onToggleReview={setShowReview}
-          />
-        </Suspense>
       )}
 
       <div id="toast" />

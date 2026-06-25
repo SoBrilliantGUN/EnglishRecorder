@@ -22,7 +22,7 @@ npx tsc --noEmit # TypeScript 类型检查
 `desc/` 目录包含项目的完整描述文档，每次代码修改都需要检查 `desc/` 下的文件、本文件（CLAUDE.md）和 README.md 是否需要同步更新：
 
 - [desc/00-项目结构.md](desc/00-项目结构.md) — 技术选型、文件结构、数据结构、视觉规范
-- [desc/01-数据层.md](desc/01-数据层.md) — localStorage 操作 API
+- [desc/01-数据层.md](desc/01-数据层.md) — localStorage 操作 API（含用户信息、隐私同意）
 - [desc/02-打卡日历.md](desc/02-打卡日历.md) — Calendar 组件
 - [desc/03-学习记录视图.md](desc/03-学习记录视图.md) — RecordsView 组件
 - [desc/04-分享功能.md](desc/04-分享功能.md) — ShareModal 与主题卡片
@@ -81,7 +81,9 @@ App.tsx 维护一个 `tick` 计数器作为全局刷新信号。组件通过 `st
 
 ### 数据层（store.ts）
 
-带完整类型定义的纯函数模块，直接读写 localStorage。非响应式，组件命令式调用后手动触发刷新。日期处理统一使用 dayjs。localStorage key 前缀：`ep_records`、`ep_coef`、`ep_first`、`ep_resets`、`ep_initialized`、`ep_theme`、`ep_show_review`、`ep_share_theme`、`ep_show_translation`、`ep_auto_scroll_speed`、`ep_auto_scroll_hints_seen`。
+带完整类型定义的纯函数模块，直接读写 localStorage。非响应式，组件命令式调用后手动触发刷新。日期处理统一使用 dayjs。localStorage key 前缀：`ep_records`、`ep_coef`、`ep_first`、`ep_resets`、`ep_initialized`、`ep_theme`、`ep_show_review`、`ep_share_theme`、`ep_show_translation`、`ep_auto_scroll_speed`、`ep_auto_scroll_hints_seen`、`ep_user`、`ep_privacy_consented`。
+
+数据层同时管理用户信息（`UserProfile`：手机号、昵称、头像 base64）和隐私同意状态。当前所有数据存储在 localStorage，后续将迁移至阿里云 ECS 后端 + OSS，localStorage 仅保留临时会话缓存。
 
 ### 视图切换
 

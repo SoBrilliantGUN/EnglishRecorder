@@ -1,0 +1,172 @@
+.page {
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+// 顶部导航栏
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  background: var(--color-bg-card);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.backBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  font-size: var(--font-size-base);
+  cursor: pointer;
+  padding: 4px 0;
+  border-radius: var(--radius-sm);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.title {
+  font-size: var(--font-size-lg);
+  color: var(--color-text);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.headerSpacer {
+  width: 60px; // 与 backBtn 大致等宽，保持 title 居中
+}
+
+// 正文滚动区
+.content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 28px 24px 60px;
+  line-height: 1.85;
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+}
+
+.updateDate {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: 4px;
+}
+
+// 章节
+.section {
+  margin-top: 28px;
+
+  &:first-of-type {
+    margin-top: 24px;
+  }
+}
+
+.sectionTitle {
+  font-size: var(--font-size-md);
+  color: var(--color-text);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.subTitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  margin-top: 14px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+// 列表
+.list {
+  padding-left: 20px;
+  margin: 8px 0;
+
+  li {
+    margin-bottom: 6px;
+  }
+}
+
+// SDK 信息表格
+.sdkTable {
+  margin: 12px 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-base);
+  overflow: hidden;
+}
+
+.sdkRow {
+  display: flex;
+  border-bottom: 1px solid var(--color-border);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.sdkLabel {
+  flex-shrink: 0;
+  width: 110px;
+  padding: 10px 12px;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  background: var(--color-bg);
+  border-right: 1px solid var(--color-border);
+}
+
+.sdkValue {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+}
+
+// 链接
+.link {
+  color: var(--color-primary);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// 段落间距
+.section p {
+  margin-bottom: 8px;
+}
+
+// 暗黑模式
+[data-theme='dark'] {
+  .sdkLabel {
+    background: var(--color-bg-elevated);
+  }
+}
+
+// 移动端
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 16px;
+  }
+
+  .content {
+    padding: 20px 16px 48px;
+  }
+
+  .sdkLabel {
+    width: 90px;
+    padding: 8px 10px;
+  }
+
+  .sdkValue {
+    padding: 8px 10px;
+  }
+}
