@@ -143,7 +143,7 @@ const index: PodcastMeta[] = [
     "code": "B0016",
     "title": "Turn left here!",
     "level": "Elementary",
-    "isProofread": false,
+    "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
   },

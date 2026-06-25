@@ -77,104 +77,116 @@
       "zh": "快点，上车。"
     },
     {
-      "en": "All right, man, let's go.",
-      "zh": "好了，哥们，走吧。"
+      "en": "I'm in, let's go!",
+      "zh": "我上来了，出发吧！"
     },
     {
-      "en": "Okay, make a left here.",
-      "zh": "好，这里左转。"
+      "en": "OK, make a left here... no wait,",
+      "zh": "好的，这里左转…不对等等，"
     },
     {
-      "en": "No wait, I meant make a right.",
-      "zh": "不，等等，我是说右转。"
+      "en": "I meant make a right.",
+      "zh": "我意思是右转。"
     },
     {
-      "en": "Come on, speed up.",
-      "zh": "快点，加速。"
+      "en": "Come on, speed up!",
+      "zh": "快点，加速！"
     },
     {
-      "en": "Geez, what's the rush?",
-      "zh": "天哪，急什么？"
+      "en": "Geez!",
+      "zh": "天哪！"
+    },
+    {
+      "en": "What's the rush?",
+      "zh": "急什么啊？"
     },
     {
       "en": "Don't worry about it, just drive.",
-      "zh": "别管了，开车就是了。"
+      "zh": "别管了，开你的车。"
     },
     {
-      "en": "Oh no, the light is about to change.",
-      "zh": "哦不，灯快变了。"
+      "en": "Oh, no, the light is about to change... step on it!",
+      "zh": "哦不，要变灯了…踩油门！"
     },
     {
-      "en": "Step on it.",
-      "zh": "快踩油门！"
+      "en": "Are you nuts!",
+      "zh": "你疯了吗！"
     },
     {
-      "en": "Are you nuts?",
-      "zh": "你疯了吗？"
+      "en": "I'm not going to run a red light!",
+      "zh": "我才不要闯红灯！"
     },
     {
-      "en": "I'm not going to run a red light.",
-      "zh": "我才不要闯红灯。"
+      "en": "Whatever.",
+      "zh": "随便吧。"
     },
     {
-      "en": "Whatever, just turn right here.",
-      "zh": "随便，就在这里右转吧。"
+      "en": "Just turn right here...",
+      "zh": "就在这右转…"
     },
     {
-      "en": "The freeway will be packed at this hour.",
-      "zh": "这个点高速会很堵。"
+      "en": "The freeway will be packed at this hour...let's take a",
+      "zh": "这个时间高速肯定堵…走"
     },
     {
-      "en": "Let's take a side street.",
-      "zh": "走小路吧。"
+      "en": "side street.",
+      "zh": "小路吧。"
     },
     {
-      "en": "Go on, get out of our way.",
-      "zh": "快走，别挡路。"
+      "en": "Go on!",
+      "zh": "快走！"
     },
     {
-      "en": "Move, move.",
-      "zh": "让开，让开。"
+      "en": "Get out of our way!",
+      "zh": "别挡道！"
     },
     {
-      "en": "What's your problem?",
-      "zh": "你有什么毛病？"
+      "en": "Move, move!",
+      "zh": "让开，让开！"
     },
     {
-      "en": "Geez, having a fit is not going to help.",
-      "zh": "天哪，发脾气也没用。"
+      "en": "What's your problem!",
+      "zh": "你有什么毛病啊！"
     },
     {
-      "en": "Here, I know a shortcut.",
-      "zh": "来，我知道一条近路。"
+      "en": "Geez.",
+      "zh": "天哪。"
     },
     {
-      "en": "Just go down here and we'll cut through Ashburn",
-      "zh": "就从这里下去，"
+      "en": "Having a fit is not going to help!",
+      "zh": "发火也解决不了问题！"
     },
     {
-      "en": "Heights.",
-      "zh": "我们穿过阿什本高地。"
+      "en": "Here, I know a short cut...just go down here,",
+      "zh": "这边，我知道一条捷径…就从这下去，"
     },
     {
-      "en": "Let's go, let's go.",
-      "zh": "快走，快走。"
+      "en": "and we'll cut though Ashburn Heights.",
+      "zh": "然后穿过阿什本高地。"
     },
     {
-      "en": "Watch out for that lady.",
-      "zh": "小心那位女士。"
+      "en": "Let's go, let's go!",
+      "zh": "快走，快走！"
     },
     {
-      "en": "I'm going as fast as I can.",
-      "zh": "我已经尽量快了。"
+      "en": "Watch out for that lady!",
+      "zh": "小心那个女士！"
     },
     {
-      "en": "Yes, we made it, 5.58 just before the library closes.",
-      "zh": "太好了，我们到了，5点58分，刚好在图书馆关门前。"
+      "en": "I'm going as fast as I can!",
+      "zh": "我已经开得最快了！"
     },
     {
-      "en": "You're such a geek.",
-      "zh": "你真是个书呆子。"
+      "en": "Yes! We made it. 5:58,",
+      "zh": "太好了！我们赶上了。5点58分，"
+    },
+    {
+      "en": "just before the library closes.",
+      "zh": "刚好在图书馆关门前。"
+    },
+    {
+      "en": "You're such a geek!",
+      "zh": "你真是个书呆子！"
     },
     {
       "en": "So they were in a hurry",
@@ -330,19 +342,19 @@
     },
     {
       "en": "Well, this is a funny phrase",
-      "zh": "嗯，这是个有趣"
+      "zh": "嗯，这是个有趣的短语，"
     },
     {
       "en": "and I think listening to a few examples of this phrase",
-      "zh": "的短语，我觉得听几个例"
+      "zh": "我觉得听几个例子，"
     },
     {
       "en": "might help us understand its meaning a little bit",
-      "zh": "子可能能帮我们"
+      "zh": "可能能帮我们更好地"
     },
     {
       "en": "better.",
-      "zh": "更好地理解它的意思。"
+      "zh": "理解它的意思。"
     },
     {
       "en": "Example one.",
@@ -497,7 +509,7 @@
       "zh": "Shortcut."
     },
     {
-      "en": "Cut. This is a really common word",
+      "en": "This is a really common word",
       "zh": "这是个非常常见的词，"
     },
     {
@@ -549,148 +561,140 @@
       "zh": "没错。"
     },
     {
-      "en": "All right, now it's clear.",
-      "zh": "好了，现在清楚了。"
+      "en": "Okay. All right, now it's clear.",
+      "zh": "好的。好了，现在清楚了。"
     },
     {
       "en": "Now it's time to listen to our dialogue again,",
-      "zh": "现在该再听一遍对话了，但这次会慢一些，"
+      "zh": "现在该再听一遍对话了，"
     },
     {
       "en": "but this time it's going to be slower",
-      "zh": "这样我们"
+      "zh": "但这次会慢一些，"
     },
     {
       "en": "so then we can understand all these words that we've",
-      "zh": "就能听懂刚才"
+      "zh": "这样我们就能听懂"
     },
     {
       "en": "just talked about.",
-      "zh": "讨论的所有词了。"
+      "zh": "刚才讨论的所有词了。"
     },
     {
       "en": "Hurry up, get in.",
       "zh": "快点，上车。"
     },
     {
-      "en": "I'm in.",
-      "zh": "我上车了。"
+      "en": "I'm in, let's go!",
+      "zh": "我上来了，出发吧！"
     },
     {
-      "en": "Let's go.",
-      "zh": "走吧。"
+      "en": "OK, make a left here... no wait,",
+      "zh": "好的，这里左转…不对等等，"
     },
     {
-      "en": "Okay.",
-      "zh": "好的。"
+      "en": "I meant make a right.",
+      "zh": "我意思是右转。"
     },
     {
-      "en": "Make a left here.",
-      "zh": "这里左转。"
+      "en": "Come on, speed up!",
+      "zh": "快点，加速！"
     },
     {
-      "en": "No wait, I meant make a right.",
-      "zh": "不，等等，我是说右转。"
+      "en": "Geez!",
+      "zh": "天哪！"
     },
     {
-      "en": "Come on, speed up.",
-      "zh": "快点，加速。"
+      "en": "What's the rush?",
+      "zh": "急什么啊？"
     },
     {
-      "en": "Geez, what's the rush?",
-      "zh": "天哪，急什么？"
+      "en": "Don't worry about it, just drive.",
+      "zh": "别管了，开你的车。"
     },
     {
-      "en": "Don't worry about it.",
-      "zh": "别管了。"
+      "en": "Oh, no, the light is about to change... step on it!",
+      "zh": "哦不，要变灯了…踩油门！"
     },
     {
-      "en": "Just drive.",
-      "zh": "开车就是了。"
+      "en": "Are you nuts!",
+      "zh": "你疯了吗！"
     },
     {
-      "en": "Oh no, the light is about to change.",
-      "zh": "哦不，灯快变了。"
-    },
-    {
-      "en": "Step on it.",
-      "zh": "快踩油门！"
-    },
-    {
-      "en": "Are you nuts?",
-      "zh": "你疯了吗？"
-    },
-    {
-      "en": "I'm not going to run a red light.",
-      "zh": "我才不要闯红灯。"
+      "en": "I'm not going to run a red light!",
+      "zh": "我才不要闯红灯！"
     },
     {
       "en": "Whatever.",
-      "zh": "随便。"
+      "zh": "随便吧。"
     },
     {
-      "en": "Just turn right here.",
-      "zh": "就在这里右转吧。"
+      "en": "Just turn right here...",
+      "zh": "就在这右转…"
     },
     {
-      "en": "The freeway will be packed at this hour.",
-      "zh": "这个点高速会很堵。"
+      "en": "The freeway will be packed at this hour...let's take a",
+      "zh": "这个时间高速肯定堵…走"
     },
     {
-      "en": "Let's take a side street.",
-      "zh": "走小路吧。"
+      "en": "side street.",
+      "zh": "小路吧。"
     },
     {
-      "en": "Go on, get out of our way.",
-      "zh": "快走，别挡路。"
+      "en": "Go on!",
+      "zh": "快走！"
     },
     {
-      "en": "Move, move.",
-      "zh": "让开，让开。"
+      "en": "Get out of our way!",
+      "zh": "别挡道！"
     },
     {
-      "en": "What's your problem?",
-      "zh": "你有什么毛病？"
+      "en": "Move, move!",
+      "zh": "让开，让开！"
     },
     {
-      "en": "Geez, having a fit is not going to help.",
-      "zh": "天哪，发脾气也没用。"
+      "en": "What's your problem!",
+      "zh": "你有什么毛病啊！"
     },
     {
-      "en": "Here, I know a shortcut.",
-      "zh": "来，我知道一条近路。"
+      "en": "Geez.",
+      "zh": "天哪。"
     },
     {
-      "en": "Just go down here and we'll cut through Ashburn",
-      "zh": "就从这里下去，"
+      "en": "Having a fit is not going to help!",
+      "zh": "发火也解决不了问题！"
     },
     {
-      "en": "Heights.",
-      "zh": "我们穿过阿什本高地。"
+      "en": "Here, I know a short cut...just go down here,",
+      "zh": "这边，我知道一条捷径…就从这下去，"
     },
     {
-      "en": "Let's go, let's go.",
-      "zh": "快走，快走。"
+      "en": "and we'll cut though Ashburn Heights.",
+      "zh": "然后穿过阿什本高地。"
     },
     {
-      "en": "Watch out for that lady.",
-      "zh": "小心那位女士。"
+      "en": "Let's go, let's go!",
+      "zh": "快走，快走！"
     },
     {
-      "en": "I'm going as fast as I can.",
-      "zh": "我已经尽量快了。"
+      "en": "Watch out for that lady!",
+      "zh": "小心那个女士！"
     },
     {
-      "en": "Yes, we made it.",
-      "zh": "太好了，我们到了。"
+      "en": "I'm going as fast as I can!",
+      "zh": "我已经开得最快了！"
     },
     {
-      "en": "5.58, just before the library closes.",
-      "zh": "5点58分，刚好在图书馆关门前。"
+      "en": "Yes! We made it. 5:58,",
+      "zh": "太好了！我们赶上了。5点58分，"
     },
     {
-      "en": "You're such a geek.",
-      "zh": "你真是个书呆子。"
+      "en": "just before the library closes.",
+      "zh": "刚好在图书馆关门前。"
+    },
+    {
+      "en": "You're such a geek!",
+      "zh": "你真是个书呆子！"
     },
     {
       "en": "Okay, well I think that was a lot more clear this time.",
@@ -794,15 +798,15 @@
     },
     {
       "en": "If you're ever in a taxi",
-      "zh": "如果你坐出租车，想告诉司机往哪走，"
+      "zh": "如果你坐出租车，"
     },
     {
       "en": "and you're telling the taxi driver where to go,",
-      "zh": "这个说法再"
+      "zh": "想告诉司机往哪走，"
     },
     {
       "en": "this is the perfect way.",
-      "zh": "合适不过了。"
+      "zh": "这个说法再合适不过了。"
     },
     {
       "en": "Make a left here, make a right there.",
@@ -986,127 +990,135 @@
     },
     {
       "en": "Okay, so now let's take a listen to this dialogue a",
-      "zh": "好的，现在我们来听第三遍对话，原速播放，"
+      "zh": "好的，现在我们来听第三遍对话，"
     },
     {
       "en": "third time at its normal speed",
-      "zh": "现在你应该"
+      "zh": "原速播放，"
     },
     {
       "en": "and now you can understand everything that's in this",
-      "zh": "能听懂对话"
+      "zh": "现在你应该能听懂"
     },
     {
       "en": "dialogue.",
-      "zh": "中的所有内容了。"
+      "zh": "对话中的所有内容了。"
     },
     {
       "en": "Hurry up, get in.",
       "zh": "快点，上车。"
     },
     {
-      "en": "Hi man, let's go.",
-      "zh": "嘿哥们，走吧。"
+      "en": "I'm in, let's go!",
+      "zh": "我上来了，出发吧！"
     },
     {
-      "en": "Okay, make a left here.",
-      "zh": "好，这里左转。"
+      "en": "OK, make a left here... no wait,",
+      "zh": "好的，这里左转…不对等等，"
     },
     {
-      "en": "No wait, I meant make a right.",
-      "zh": "不，等等，我是说右转。"
+      "en": "I meant make a right.",
+      "zh": "我意思是右转。"
     },
     {
-      "en": "Come on, speed up.",
-      "zh": "快点，加速。"
+      "en": "Come on, speed up!",
+      "zh": "快点，加速！"
     },
     {
-      "en": "Geez, what's the rush?",
-      "zh": "天哪，急什么？"
+      "en": "Geez!",
+      "zh": "天哪！"
+    },
+    {
+      "en": "What's the rush?",
+      "zh": "急什么啊？"
     },
     {
       "en": "Don't worry about it, just drive.",
-      "zh": "别管了，开车就是了。"
+      "zh": "别管了，开你的车。"
     },
     {
-      "en": "Oh no, the light is about to change.",
-      "zh": "哦不，灯快变了。"
+      "en": "Oh, no, the light is about to change... step on it!",
+      "zh": "哦不，要变灯了…踩油门！"
     },
     {
-      "en": "Step on it.",
-      "zh": "快踩油门！"
+      "en": "Are you nuts!",
+      "zh": "你疯了吗！"
     },
     {
-      "en": "Are you nuts?",
-      "zh": "你疯了吗？"
+      "en": "I'm not going to run a red light!",
+      "zh": "我才不要闯红灯！"
     },
     {
-      "en": "I'm not going to run a red light.",
-      "zh": "我才不要闯红灯。"
+      "en": "Whatever.",
+      "zh": "随便吧。"
     },
     {
-      "en": "Whatever, just turn right here.",
-      "zh": "随便，就在这里右转吧。"
+      "en": "Just turn right here...",
+      "zh": "就在这右转…"
     },
     {
-      "en": "The freeway will be packed at this hour.",
-      "zh": "这个点高速会很堵。"
+      "en": "The freeway will be packed at this hour...let's take a",
+      "zh": "这个时间高速肯定堵…走"
     },
     {
-      "en": "Let's take a side street.",
-      "zh": "走小路吧。"
+      "en": "side street.",
+      "zh": "小路吧。"
     },
     {
-      "en": "Go on, get out of our way.",
-      "zh": "快走，别挡路。"
+      "en": "Go on!",
+      "zh": "快走！"
     },
     {
-      "en": "Move, move.",
-      "zh": "让开，让开。"
+      "en": "Get out of our way!",
+      "zh": "别挡道！"
     },
     {
-      "en": "What's your problem?",
-      "zh": "你有什么毛病？"
+      "en": "Move, move!",
+      "zh": "让开，让开！"
     },
     {
-      "en": "Geez, having a fit is not going to help.",
-      "zh": "天哪，发脾气也没用。"
+      "en": "What's your problem!",
+      "zh": "你有什么毛病啊！"
     },
     {
-      "en": "Here, I know a shortcut.",
-      "zh": "来，我知道一条近路。"
+      "en": "Geez.",
+      "zh": "天哪。"
     },
     {
-      "en": "Let's go down here and we'll cut through Ashburn",
-      "zh": "就从这里下去，"
+      "en": "Having a fit is not going to help!",
+      "zh": "发火也解决不了问题！"
     },
     {
-      "en": "Heights.",
-      "zh": "我们穿过阿什本高地。"
+      "en": "Here, I know a short cut...just go down here,",
+      "zh": "这边，我知道一条捷径…就从这下去，"
     },
     {
-      "en": "Let's go, let's go.",
-      "zh": "快走，快走。"
+      "en": "and we'll cut though Ashburn Heights.",
+      "zh": "然后穿过阿什本高地。"
     },
     {
-      "en": "Watch out for that lady.",
-      "zh": "小心那位女士。"
+      "en": "Let's go, let's go!",
+      "zh": "快走，快走！"
     },
     {
-      "en": "I'm going as fast as I can.",
-      "zh": "我已经尽量快了。"
+      "en": "Watch out for that lady!",
+      "zh": "小心那个女士！"
     },
     {
-      "en": "Yes, we made it.",
-      "zh": "太好了，我们到了。"
+      "en": "I'm going as fast as I can!",
+      "zh": "我已经开得最快了！"
     },
     {
-      "en": "5.58 just before the library closes.",
-      "zh": "5点58分，刚好在图书馆关门前。"
+      "en": "Yes! We made it. 5:58,",
+      "zh": "太好了！我们赶上了。5点58分，"
     },
     {
-      "en": "You're such a geek.",
-      "zh": "你真是个书呆子。"
+      "en": "just before the library closes.",
+      "zh": "刚好在图书馆关门前。"
+    },
+    {
+      "en": "You're such a geek!",
+      "zh": "你真是个书呆子！"
     },
     {
       "en": "Well this dialogue is all about driving, right?",
@@ -1154,11 +1166,11 @@
     },
     {
       "en": "In many countries you have to wait until I think",
-      "zh": "在很多国家你得等到我觉得是18岁才能开车，"
+      "zh": "在很多国家，我觉得得等到"
     },
     {
       "en": "you're 18 to drive, but in North America everyone has",
-      "zh": "但在北美，每个人"
+      "zh": "18岁才能开车，但在北美，每个人"
     },
     {
       "en": "a driver's license by the time they're 16 years old.",
@@ -1169,8 +1181,8 @@
       "zh": "对对。"
     },
     {
-      "en": "Because everything is so far away that you need a car.",
-      "zh": "因为什么都很远，你需要一辆车。"
+      "en": "I guess everything is so far away that you need a car.",
+      "zh": "我想是因为什么都隔得太远了，没车根本不行。"
     },
     {
       "en": "Yeah, it's a lot less likely to have subways",
@@ -1295,7 +1307,7 @@
       "zh": "B：你有什么毛病啊！"
     },
     {
-      "en": "B: G eez.",
+      "en": "B: Geez.",
       "zh": "B：天哪。"
     },
     {
