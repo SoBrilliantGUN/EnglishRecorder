@@ -91,24 +91,32 @@ export default function App() {
           </div>
         </Suspense>
       ) : (
-        <div className={styles.layout}>
-          {/* 左侧主区域 */}
-          <div className={styles.main}>
-            {view === 'calendar' && (
-              <Calendar onSwitchView={setView} tick={tick} selected={selected} onSelectDate={setSelected} />
-            )}
-            {view === 'records' && (
-              <RecordsView onSwitchView={setView} onRefresh={refresh} />
-            )}
-            <PodcastList onSelectLesson={handleSelectLesson} currentPage={podcastPage} onPageChange={setPodcastPage} />
+        <>
+          <div className={styles.layout}>
+            {/* 左侧主区域 */}
+            <div className={styles.main}>
+              {view === 'calendar' && (
+                <Calendar onSwitchView={setView} tick={tick} selected={selected} onSelectDate={setSelected} />
+              )}
+              {view === 'records' && (
+                <RecordsView onSwitchView={setView} onRefresh={refresh} />
+              )}
+              <PodcastList onSelectLesson={handleSelectLesson} currentPage={podcastPage} onPageChange={setPodcastPage} />
+            </div>
+
+            {/* 右侧侧边栏 */}
+            <div className={styles.sidebar}>
+              <DailyCard selected={selected} onRefresh={refresh} tick={tick} />
+              {showReview && <ReviewReminder onRefresh={refresh} tick={tick} />}
+            </div>
           </div>
 
-          {/* 右侧侧边栏 */}
-          <div className={styles.sidebar}>
-            <DailyCard selected={selected} onRefresh={refresh} tick={tick} />
-            {showReview && <ReviewReminder onRefresh={refresh} tick={tick} />}
-          </div>
-        </div>
+          <footer className={styles.footer}>
+            <p>
+              <a href="https://beian.miit.gov.cn" target="_blank" rel="noopener">ICP备案号：正在办理中</a>
+            </p>
+          </footer>
+        </>
       )}
 
       {showInfo && (
