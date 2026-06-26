@@ -100,6 +100,20 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
 
   const todayShareData = buildShareData();
 
+  // Ctrl+Enter / Cmd+Enter 打开单课打卡弹窗
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement;
+      if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.tagName === 'SELECT') return;
+      if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+        e.preventDefault();
+        setShowCheckin(true);
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, []);
+
   // 按需加载文字稿 + 课文对话
   useEffect(() => {
     setTranscript('');
@@ -186,7 +200,7 @@ export default function PodcastDetail({ lessonId, onBack, onNavigate, onRefresh 
             className="btn-primary"
             style={{ padding: '0.5rem 0.875rem', fontSize: 'var(--font-size-sm)' }}
             onClick={() => setShowCheckin(true)}
-            title="单课打卡"
+            title="单课打卡 (Ctrl+Enter)"
           >
             单课打卡
           </button>

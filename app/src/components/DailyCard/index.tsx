@@ -31,6 +31,20 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
 
   const openCheckin = () => setShowCheckin(true);
 
+  // Ctrl+Enter / Cmd+Enter 打开打卡弹窗
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement;
+      if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.tagName === 'SELECT') return;
+      if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+        e.preventDefault();
+        setShowCheckin(true);
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, []);
+
   const totalPages = Math.ceil(grouped.length / PAGE_SIZE);
   const start = (page - 1) * PAGE_SIZE;
   const visible = grouped.slice(start, start + PAGE_SIZE);
@@ -58,6 +72,7 @@ export default function DailyCard({ selected, onRefresh, tick }: DailyCardProps)
             <button
               className="btn-primary"
               onClick={openCheckin}
+              title="打卡 (Ctrl+Enter)"
             >
               打卡
             </button>

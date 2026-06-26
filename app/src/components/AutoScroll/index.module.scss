@@ -237,6 +237,12 @@
   text-align: center;
 }
 
+.keyHr {
+  height: 0;
+  border-top: 1px solid var(--color-border);
+  margin: 2px 0;
+}
+
 @keyframes popupIn {
   from {
     opacity: 0;

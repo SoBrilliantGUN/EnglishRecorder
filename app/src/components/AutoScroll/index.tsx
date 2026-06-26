@@ -397,6 +397,8 @@ export default function AutoScroll({ onPrev, onNext }: AutoScrollProps) {
             <div className={styles.keyHint}><kbd>Space</kbd> 暂停 / 继续</div>
             <div className={styles.keyHint}><kbd>+ −</kbd> 调速</div>
             <div className={styles.keyHint}><kbd>Esc</kbd> 退出</div>
+            <div className={styles.keyHr} />
+            <div className={styles.keyHint}><kbd>Ctrl+Enter</kbd> 打卡</div>
           </div>
         )}
       </div>
