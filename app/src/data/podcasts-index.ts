@@ -107,7 +107,7 @@ const index: PodcastMeta[] = [
     "code": "C0012",
     "title": "Daily Life - Cleaning the House",
     "level": "Intermediate",
-    "isProofread": false,
+    "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
   },
