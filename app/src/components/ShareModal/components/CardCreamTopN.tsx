@@ -73,7 +73,7 @@ export default function CardCreamTopN({ label, stats, groups }: MultiCardProps) 
         {/* 归并行 */}
         {rest.length > 0 && (
           <div style={{ marginTop: 7, background: '#f4ede2', borderRadius: 10, padding: '10px 16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', border: '1px dashed #d8cdb8' }}>
-            <span style={{ fontSize: 11, color: '#b09878' }}>还学了 {rest.length} 门其他课程</span>
+            <span style={{ fontSize: 11, color: '#b09878' }}>还学了 {rest.length} 课</span>
             <span style={{ fontSize: 11, fontWeight: 700, color: '#8aaa94' }}>共 {restCount} 次</span>
           </div>
         )}

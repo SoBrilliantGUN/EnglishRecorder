@@ -78,7 +78,7 @@ export default function CardDarkTopN({ label, stats, groups }: MultiCardProps) {
         {/* 归并行 */}
         {rest.length > 0 && (
           <div style={{ marginTop: 8, padding: '10px 14px', border: '1px dashed rgba(120,80,255,0.15)', borderRadius: 8, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <span style={{ fontSize: 11, color: 'rgba(120,80,255,0.3)', letterSpacing: 1 }}>还学了 {rest.length} 门其他课程</span>
+            <span style={{ fontSize: 11, color: 'rgba(120,80,255,0.3)', letterSpacing: 1 }}>还学了 {rest.length} 课</span>
             <span style={{ fontSize: 11, color: 'rgba(120,80,255,0.25)' }}>共 {restCount} 次</span>
           </div>
         )}

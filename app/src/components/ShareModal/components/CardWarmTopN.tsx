@@ -62,7 +62,7 @@ export default function CardWarmTopN({ label, stats, groups }: MultiCardProps) {
         {/* 归并行 */}
         {rest.length > 0 && (
           <div style={{ marginTop: 7, background: '#e8f8f0', borderRadius: 10, padding: '10px 14px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <span style={{ fontSize: 11, color: '#70b898' }}>还学了 {rest.length} 门其他课程</span>
+            <span style={{ fontSize: 11, color: '#70b898' }}>还学了 {rest.length} 课</span>
             <span style={{ fontSize: 11, fontWeight: 700, color: '#00a87a' }}>共 {restCount} 次</span>
           </div>
         )}
