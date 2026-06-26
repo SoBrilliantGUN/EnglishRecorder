@@ -123,7 +123,13 @@ export default function LoginPage({ onLogin }: LoginPageProps) {
         </div>
 
         {/* 表单区 */}
-        <div className={styles.form}>
+        <form
+          className={styles.form}
+          onSubmit={e => {
+            e.preventDefault();
+            if (canLogin) handleLogin();
+          }}
+        >
           <p className={styles.formTitle}>手机验证码登录</p>
 
           {/* 错误提示 */}
@@ -158,6 +164,7 @@ export default function LoginPage({ onLogin }: LoginPageProps) {
               autoComplete="one-time-code"
             />
             <button
+              type="button"
               className={styles.sendBtn}
               onClick={handleSendCode}
               disabled={countdown > 0 || phone.replace(/\s/g, '').length < 11}
@@ -174,7 +181,7 @@ export default function LoginPage({ onLogin }: LoginPageProps) {
           >
             {loading ? '登录中…' : '登 录'}
           </button>
-        </div>
+        </form>
 
         {/* 底部协议 */}
         <p className={styles.agreement}>
