@@ -459,8 +459,8 @@ const index: PodcastMeta[] = [
     "title": "The Weekend - What a Bargain!",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 52,
@@ -468,8 +468,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - Pizza Delivary",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 53,
@@ -477,8 +477,8 @@ const index: PodcastMeta[] = [
     "title": "The Weekend - Head Chef",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 54,
@@ -486,8 +486,8 @@ const index: PodcastMeta[] = [
     "title": "Lesson 54",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 55,
@@ -495,8 +495,8 @@ const index: PodcastMeta[] = [
     "title": "Intermediate - Hockey",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 56,
@@ -504,8 +504,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - Planning a Bank Robbery",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 57,
@@ -513,8 +513,8 @@ const index: PodcastMeta[] = [
     "title": "in these bags. Dont get greedy! Are you ready? Let’s go. Elementary - The Office - Malfunction",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 58,
@@ -522,8 +522,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - This Is Your Captain",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 59,
@@ -531,8 +531,8 @@ const index: PodcastMeta[] = [
     "title": "Advanced - Job Interview I",
     "level": "Advanced",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 60,
@@ -540,8 +540,8 @@ const index: PodcastMeta[] = [
     "title": "Intermediate - New Guy in Town IV",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 61,
@@ -549,8 +549,8 @@ const index: PodcastMeta[] = [
     "title": "The Weekend - Swim faster!",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 62,
@@ -558,8 +558,8 @@ const index: PodcastMeta[] = [
     "title": "The Office - Job Interview II",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 63,
@@ -567,8 +567,8 @@ const index: PodcastMeta[] = [
     "title": "The Office - Receptionist",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 64,
@@ -576,8 +576,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - I’m Sorry I Love You VI",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 65,
@@ -585,8 +585,8 @@ const index: PodcastMeta[] = [
     "title": "The Office - Job Interview III",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 66,
@@ -594,8 +594,8 @@ const index: PodcastMeta[] = [
     "title": "The Office - Calling The Office",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 67,
@@ -603,8 +603,8 @@ const index: PodcastMeta[] = [
     "title": "The Weekend - Soccer",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 68,
@@ -612,8 +612,8 @@ const index: PodcastMeta[] = [
     "title": "Ground breaking Research",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 69,
@@ -621,8 +621,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - How Would You Like Your",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 70,
@@ -630,8 +630,8 @@ const index: PodcastMeta[] = [
     "title": "Lesson 70",
     "level": "Advanced",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 71,
