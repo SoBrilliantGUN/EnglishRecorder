@@ -25,6 +25,13 @@ const LazyFallback = () => null;
 
 const SHOW_REVIEW_KEY = 'ep_show_review';
 
+// TODO: 后端就绪后删除此默认用户，恢复登录流程
+const DEFAULT_USER: UserProfile = {
+  phone: '13800000000',
+  nickname: '',
+  avatar: '',
+};
+
 export default function App() {
   const [view, setView] = useState('calendar');
   const [tick, setTick] = useState(0);
@@ -42,7 +49,7 @@ export default function App() {
     return null;
   });
   const [podcastPage, setPodcastPage] = useState(1);
-  const [user, setUser] = useState<UserProfile | null>(() => getUser());
+  const [user, setUser] = useState<UserProfile | null>(() => getUser() || DEFAULT_USER);
   const [showProfile, setShowProfile] = useState(false);
   const [privacyConsented, setPrivacyConsentedState] = useState(() => hasPrivacyConsent());
   const { theme, toggle: toggleTheme } = useTheme();
@@ -167,11 +174,13 @@ export default function App() {
                 user={user}
                 onClose={() => setShowProfile(false)}
                 onUpdate={(updatedUser) => {
-                  setUser(updatedUser);
                   if (!updatedUser) {
-                    // 退出登录时重置视图状态
+                    // 退出登录时重置为默认用户（后端就绪后改回 setUser(null)）
+                    setUser(DEFAULT_USER);
                     setSelectedLessonId(null);
                     setPodcastPage(1);
+                  } else {
+                    setUser(updatedUser);
                   }
                 }}
               />
