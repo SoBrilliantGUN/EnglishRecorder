@@ -163,7 +163,7 @@ const index: PodcastMeta[] = [
     "level": "Upper-Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": true
+    "hasTranscriptTranslation": false
   },
   {
     "id": 19,
@@ -233,7 +233,7 @@ const index: PodcastMeta[] = [
     "code": "B0026",
     "title": "New Year Resolution",
     "level": "Elementary",
-    "isProofread": false,
+    "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
   },
@@ -280,7 +280,7 @@ const index: PodcastMeta[] = [
     "level": "Elementary",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": true
+    "hasTranscriptTranslation": false
   },
   {
     "id": 32,
@@ -307,7 +307,7 @@ const index: PodcastMeta[] = [
     "level": "Upper-Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": true
+    "hasTranscriptTranslation": false
   },
   {
     "id": 35,
@@ -415,7 +415,7 @@ const index: PodcastMeta[] = [
     "level": "Upper-Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
-    "hasTranscriptTranslation": true
+    "hasTranscriptTranslation": false
   },
   {
     "id": 47,
@@ -510,7 +510,7 @@ const index: PodcastMeta[] = [
   {
     "id": 57,
     "code": "C0057",
-    "title": "in these bags. Dont get greedy! Are you ready? Let’s go. Elementary - The Office - Malfunction",
+    "title": "in these bags. Dont get greedy! Are you ready? Let's go. Elementary - The Office - Malfunction",
     "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
@@ -573,7 +573,7 @@ const index: PodcastMeta[] = [
   {
     "id": 64,
     "code": "C0064",
-    "title": "Daily Life - I’m Sorry I Love You VI",
+    "title": "Daily Life - I'm Sorry I Love You VI",
     "level": "Intermediate",
     "isProofread": false,
     "hasDialogueTranslation": true,
