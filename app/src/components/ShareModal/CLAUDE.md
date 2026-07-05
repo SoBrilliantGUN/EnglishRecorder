@@ -6,7 +6,7 @@
 
 | id | 标签 | 多课组件 | 多课TopN组件 | 单课组件 | 风格关键词 |
 |----|------|----------|--------------|----------|-----------|
-| `dark` | 暗黑科技 | `CardDark` | `CardDarkTopN` | `SingleCardDark` | 深紫黑底·霓虹渐变·tag卡片列表 |
+| `golden` | 落日余晖 | `CardGolden` | `CardGoldenTopN` | `SingleCardGolden` | 深暖棕底·琥珀金点缀·光线纹理·日落氛围 |
 | `warm` | 清新活泼 | `CardWarm` | `CardWarmTopN` | `SingleCardWarm` | 青绿渐变顶部·白色圆角卡片·薄荷色系 |
 | `cream` | 奶油纸本 | `CardCream` | `CardCreamTopN` | `SingleCardCream` | 深绿hero·米白底·手账竖条·信笺纸纹 |
 
@@ -87,7 +87,7 @@ TopN 组件内部排序逻辑：`[...groups].sort((a, b) => b[1] - a[1])`，取�
 ### 5. 多课课程列表的处理
 已验证效果好的方案：
 - **进度条**：`flex: 1` 横条 + 右侧数字，适合暗色主题
-- **tag 卡片**（当前 CardDark）：每行独立圆角卡片 + 右侧大数字，通用性强
+- **tag 卡片**（当前 CardGolden）：每行独立圆角卡片 + 右侧大数字，通用性强
 - **手账竖条**（当前 CardCream）：左侧 `4px` 彩色竖条 + 右侧文字 + 数字，适合亮色/纸质主题
 - **圆点列表**（当前 CardWarm）：左侧圆点 + 白色卡片行，清爽简洁
 
@@ -122,13 +122,13 @@ ShareModal/
 ├── themes.ts               ← 主题注册表（MULTI_THEMES / TOPN_THEMES / SINGLE_THEMES）
 ├── types.ts                ← MultiCardProps / SingleCardProps
 └── components/
-    ├── CardDark.tsx         ← 多课·暗黑科技（2-5 课）
-    ├── CardDarkTopN.tsx     ← 多课·暗黑科技·TopN（>5 课）
+    ├── CardGolden.tsx       ← 多课·落日余晖（2-5 课）
+    ├── CardGoldenTopN.tsx   ← 多课·落日余晖·TopN（>5 课）
     ├── CardWarm.tsx         ← 多课·清新活泼（2-5 课）
     ├── CardWarmTopN.tsx     ← 多课·清新活泼·TopN（>5 课）
     ├── CardCream.tsx        ← 多课·奶油纸本（2-5 课）
     ├── CardCreamTopN.tsx    ← 多课·奶油纸本·TopN（>5 课）
-    ├── SingleCardDark.tsx   ← 单课·暗黑科技
+    ├── SingleCardGolden.tsx ← 单课·落日余晖
     ├── SingleCardWarm.tsx   ← 单课·清新活泼
     └── SingleCardCream.tsx  ← 单课·奶油纸本
 ```

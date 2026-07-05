@@ -28,7 +28,9 @@ function getDisplayMode(props: ShareModalProps): DisplayMode {
 
 export default function ShareModal(props: ShareModalProps) {
   const { onClose } = props;
-  const [shareTheme, setShareTheme] = useLocalStorage<string>(THEME_KEY, 'dark');
+  const [shareTheme, setShareTheme] = useLocalStorage<string>(THEME_KEY, 'golden');
+  // 迁移旧 'dark' 主题（已替换为 'golden'）
+  const effectiveTheme = shareTheme === 'dark' ? 'golden' : shareTheme;
   const shareRef = useRef<HTMLDivElement>(null);
   const { targetRef, contentStyle } = useScaleToFit(120);
 
@@ -47,11 +49,11 @@ export default function ShareModal(props: ShareModalProps) {
 
   // 截图背景色：按主题匹配
   const bgMap: Record<string, string> = {
-    dark:  '#08080f',
-    warm:  '#f0faf6',
-    cream: '#faf6ef',
+    golden: '#1a0e06',
+    warm:   '#f0faf6',
+    cream:  '#faf6ef',
   };
-  const bg = bgMap[shareTheme] ?? '#fff';
+  const bg = bgMap[effectiveTheme] ?? '#1a0e06';
 
   const handleCopyImg = async () => {
     if (!shareRef.current) return;
@@ -126,7 +128,7 @@ export default function ShareModal(props: ShareModalProps) {
   };
 
   const renderCard = () => {
-    const theme = themes.find(t => t.id === shareTheme);
+    const theme = themes.find(t => t.id === effectiveTheme);
     if (!theme) return null;
 
     // 明确传了 mode: 'single'
@@ -186,9 +188,9 @@ export default function ShareModal(props: ShareModalProps) {
         {themes.map(t => (
           <button key={t.id} onClick={() => setShareTheme(t.id)} style={{
             flex: 1, padding: '6px 0', borderRadius: 8, border: '2px solid',
-            borderColor: shareTheme === t.id ? 'var(--color-primary)' : 'var(--color-border)',
-            background: shareTheme === t.id ? 'rgba(7,193,96,0.08)' : 'var(--color-bg-card)',
-            color: shareTheme === t.id ? 'var(--color-primary)' : 'var(--color-text)',
+            borderColor: effectiveTheme === t.id ? 'var(--color-primary)' : 'var(--color-border)',
+            background: effectiveTheme === t.id ? 'rgba(7,193,96,0.08)' : 'var(--color-bg-card)',
+            color: effectiveTheme === t.id ? 'var(--color-primary)' : 'var(--color-text)',
             fontSize: 12, cursor: 'pointer', transition: 'all 0.2s',
           }}>{t.label}</button>
         ))}
