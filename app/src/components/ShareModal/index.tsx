@@ -1,6 +1,6 @@
 import { useRef, useCallback } from 'react';
 import html2canvas from 'html2canvas';
-import { todayStr, showToast } from '../../store';
+import { todayStr, showToast, getRecords } from '../../store';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { useScaleToFit } from '../../hooks/useScaleToFit';
 import Modal from '../Modal';
@@ -153,6 +153,10 @@ export default function ShareModal(props: ShareModalProps) {
     if (displayMode === 'single') {
       const [lessonId, count] = p.groups[0];
       const podcast = podcasts.find(pod => pod.id === Number(lessonId));
+      // count 来自 groupByLesson(当天记录)，仅代表今日次数
+      // totalCount 需从全部历史记录中计算该课的累计次数
+      const allRecords = getRecords().filter(r => r.lesson === Number(lessonId));
+      const totalCount = allRecords.reduce((s, r) => s + r.count, 0);
       const SingleComponent = theme.Component as React.ComponentType<SingleCardProps>;
       return (
         <SingleComponent
@@ -163,7 +167,7 @@ export default function ShareModal(props: ShareModalProps) {
           level={podcast?.level ?? ''}
           levelColor={podcast?.levelColor ?? '#07c160'}
           thisCount={count}
-          totalCount={count}
+          totalCount={totalCount}
         />
       );
     }
