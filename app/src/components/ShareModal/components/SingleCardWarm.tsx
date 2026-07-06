@@ -139,7 +139,7 @@ export default function SingleCardWarm({
         {/* 分割线：朱红→金 */}
         <div style={{
           height: 1,
-          background: 'linear-gradient(90deg, #c1311e 0%, #d4a030 60%, transparent 100%)',
+          background: 'rgba(193,49,30,0.35)',
           marginBottom: 22,
         }} />
 

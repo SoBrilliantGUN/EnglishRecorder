@@ -31,7 +31,7 @@ export default function CardCream({ label, stats, groups }: MultiCardProps) {
     }}>
       {/* 深绿顶部 hero */}
       <div style={{
-        background: 'linear-gradient(160deg, #2d4a3e 0%, #1e3328 100%)',
+        background: '#2d4a3e',
         padding: '28px 30px 26px',
         position: 'relative',
         overflow: 'hidden',
@@ -43,11 +43,10 @@ export default function CardCream({ label, stats, groups }: MultiCardProps) {
           border: '1px solid rgba(255,255,255,0.06)',
           pointerEvents: 'none',
         }} />
-        {/* 点阵底纹 */}
+        {/* 点阵底纹 — html2canvas 不支持 radial-gradient，改用纯色半透明层 */}
         <div style={{
           position: 'absolute', inset: 0, opacity: 0.04,
-          backgroundImage: 'radial-gradient(circle, #fff 1px, transparent 1px)',
-          backgroundSize: '16px 16px',
+          background: 'rgba(255,255,255,0.5)',
           pointerEvents: 'none',
         }} />
 

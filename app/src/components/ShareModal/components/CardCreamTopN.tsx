@@ -19,9 +19,9 @@ export default function CardCreamTopN({ label, stats, groups }: MultiCardProps) 
   return (
     <div style={{ width: 360, height: 640, background: '#faf6ef', borderRadius: 20, overflow: 'hidden', fontFamily: "'Outfit', 'PingFang SC', sans-serif", boxShadow: '0 8px 40px rgba(180,130,60,0.12)', display: 'flex', flexDirection: 'column' }}>
       {/* 深绿顶部 */}
-      <div style={{ background: 'linear-gradient(160deg, #2d4a3e 0%, #1e3328 100%)', padding: '26px 30px 24px', position: 'relative', overflow: 'hidden' }}>
+      <div style={{ background: '#2d4a3e', padding: '26px 30px 24px', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: -50, right: -50, width: 180, height: 180, borderRadius: '50%', border: '1px solid rgba(255,255,255,0.06)', pointerEvents: 'none' }} />
-        <div style={{ position: 'absolute', inset: 0, opacity: 0.04, backgroundImage: 'radial-gradient(circle, #fff 1px, transparent 1px)', backgroundSize: '16px 16px', pointerEvents: 'none' }} />
+        <div style={{ position: 'absolute', inset: 0, opacity: 0.04, background: 'rgba(255,255,255,0.5)', pointerEvents: 'none' }} />
         <div style={{ position: 'relative', zIndex: 1 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 16 }}>
             <div>

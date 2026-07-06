@@ -19,7 +19,7 @@ export default function CardWarmTopN({ label, stats, groups }: MultiCardProps) {
   return (
     <div style={{ width: 360, height: 640, background: '#f0faf6', borderRadius: 20, overflow: 'hidden', fontFamily: "'Outfit', 'PingFang SC', sans-serif", boxShadow: '0 8px 32px rgba(0,160,100,0.1)', display: 'flex', flexDirection: 'column' }}>
       {/* 顶部 */}
-      <div style={{ background: 'linear-gradient(135deg, #00c87a 0%, #00a896 100%)', padding: '26px 28px 22px', position: 'relative', overflow: 'hidden' }}>
+      <div style={{ background: '#00c87a', padding: '26px 28px 22px', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: -60, right: -60, width: 200, height: 200, borderRadius: '50%', background: 'rgba(255,255,255,0.1)', pointerEvents: 'none' }} />
         <div style={{ position: 'relative', zIndex: 1 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 }}>

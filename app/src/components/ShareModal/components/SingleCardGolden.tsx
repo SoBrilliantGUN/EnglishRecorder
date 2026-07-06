@@ -11,7 +11,7 @@ export default function SingleCardGolden({
   return (
     <div style={{
       width: 360, height: 640,
-      background: 'linear-gradient(175deg, #1a0e06 0%, #241810 30%, #1f140c 60%, #1a0e06 100%)',
+      background: '#1a0e06',
       borderRadius: 20,
       border: '1px solid rgba(232,152,62,0.10)',
       position: 'relative',
@@ -21,12 +21,12 @@ export default function SingleCardGolden({
       flexDirection: 'column',
     }}>
 
-      {/* 金色光晕背景 */}
+      {/* 金色光晕 — 注意：html2canvas 不支持 CSS 渐变，使用纯色代替 */}
       <div style={{
         position: 'absolute',
         top: -100, left: '50%', transform: 'translateX(-50%)',
         width: 360, height: 360, borderRadius: '50%',
-        background: 'radial-gradient(ellipse at 50% 40%, rgba(240,160,60,0.12) 0%, rgba(220,130,40,0.04) 30%, transparent 65%)',
+        background: 'rgba(240,160,60,0.04)',
         pointerEvents: 'none',
       }} />
       {/* 右下辅助暖光 */}
@@ -34,13 +34,7 @@ export default function SingleCardGolden({
         position: 'absolute',
         bottom: 160, right: -60,
         width: 240, height: 240, borderRadius: '50%',
-        background: 'radial-gradient(circle, rgba(200,120,40,0.05) 0%, transparent 65%)',
-        pointerEvents: 'none',
-      }} />
-      {/* 细微光线纹理 */}
-      <div style={{
-        position: 'absolute', top: 0, left: 0, right: 0, height: 300,
-        background: 'repeating-linear-gradient(80deg, transparent, transparent 35px, rgba(240,160,60,0.010) 35px, rgba(240,160,60,0.010) 36px)',
+        background: 'rgba(200,120,40,0.02)',
         pointerEvents: 'none',
       }} />
 
@@ -118,7 +112,7 @@ export default function SingleCardGolden({
         {/* 暖调装饰线 */}
         <div style={{
           width: 40, height: 2,
-          background: 'linear-gradient(90deg, rgba(232,152,62,0.35), transparent)',
+          background: 'rgba(232,152,62,0.25)',
           borderRadius: 1,
         }} />
 
@@ -165,7 +159,7 @@ export default function SingleCardGolden({
           <div style={{
             width: 1,
             margin: '8% 28px',
-            background: 'linear-gradient(180deg, transparent, rgba(232,152,62,0.15), transparent)',
+            background: 'rgba(232,152,62,0.08)',
           }} />
 
           {/* 累计 */}

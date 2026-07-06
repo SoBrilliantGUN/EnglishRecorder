@@ -21,7 +21,7 @@ export default function CardWarm({ label, stats, groups }: MultiCardProps) {
     }}>
       {/* 顶部渐变 header */}
       <div style={{
-        background: 'linear-gradient(135deg, #00c87a 0%, #00a896 100%)',
+        background: '#00c87a',
         padding: '28px 28px 24px',
         position: 'relative', overflow: 'hidden',
       }}>

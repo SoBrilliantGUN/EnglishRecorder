@@ -18,7 +18,7 @@ export default function CardGoldenTopN({ label, stats, groups }: MultiCardProps)
     <div style={{
       width: 360,
       height: 640,
-      background: 'linear-gradient(175deg, #1a0e06 0%, #241810 30%, #1f140c 60%, #1a0e06 100%)',
+      background: '#1a0e06',
       borderRadius: 16,
       overflow: 'hidden',
       fontFamily: 'Outfit, PingFang SC, sans-serif',
@@ -27,12 +27,10 @@ export default function CardGoldenTopN({ label, stats, groups }: MultiCardProps)
       display: 'flex',
       flexDirection: 'column',
     }}>
-      {/* 顶部金色光晕 */}
-      <div style={{ position: 'absolute', top: -60, left: '50%', transform: 'translateX(-50%)', width: 280, height: 200, borderRadius: '50%', background: 'radial-gradient(ellipse at 50% 35%, rgba(240,160,60,0.10) 0%, rgba(220,130,40,0.03) 35%, transparent 65%)', pointerEvents: 'none' }} />
+      {/* 顶部金色光晕 — 注意：html2canvas 不支持 CSS 渐变，使用纯色代替 */}
+      <div style={{ position: 'absolute', top: -60, left: '50%', transform: 'translateX(-50%)', width: 280, height: 200, borderRadius: '50%', background: 'rgba(240,160,60,0.03)', pointerEvents: 'none' }} />
       {/* 底部暖调光 */}
-      <div style={{ position: 'absolute', bottom: -60, left: '50%', transform: 'translateX(-50%)', width: 260, height: 100, background: 'radial-gradient(ellipse, rgba(180,100,30,0.05) 0%, transparent 60%)', pointerEvents: 'none' }} />
-      {/* 细微光线纹理 */}
-      <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 240, background: 'repeating-linear-gradient(85deg, transparent, transparent 40px, rgba(240,160,60,0.012) 40px, rgba(240,160,60,0.012) 41px)', pointerEvents: 'none' }} />
+      <div style={{ position: 'absolute', bottom: -60, left: '50%', transform: 'translateX(-50%)', width: 260, height: 100, borderRadius: '50%', background: 'rgba(180,100,30,0.02)', pointerEvents: 'none' }} />
 
       {/* Header */}
       <div style={{ padding: '26px 26px 22px', position: 'relative', zIndex: 1, borderBottom: '1px solid rgba(232,152,62,0.08)' }}>
@@ -58,7 +56,7 @@ export default function CardGoldenTopN({ label, stats, groups }: MultiCardProps)
           </div>
         ))}
       </div>
-      <div style={{ height: 1, background: 'linear-gradient(90deg, rgba(232,152,62,0.18), rgba(200,130,50,0.06), transparent)' }} />
+      <div style={{ height: 1, background: 'rgba(232,152,62,0.08)' }} />
 
       {/* Top N 列表 */}
       <div style={{ flex: 1, padding: '18px 26px 0', position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>

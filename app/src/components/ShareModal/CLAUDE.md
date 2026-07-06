@@ -71,15 +71,20 @@ TopN 组件内部排序逻辑：`[...groups].sort((a, b) => b[1] - a[1])`，取�
 - **禁止**使用毫无个性的纯白底 + 黑字 + 蓝色按钮的通用配色
 
 ### 3. 背景不能是死色
+
+**⚠️ html2canvas 限制：不支持 CSS 渐变函数。** `linear-gradient`、`radial-gradient`、`repeating-linear-gradient` 等在内联 style 中的渐变在截图导出时会报错 `Attempting to parse an unsupported color function`。必须使用纯色（hex / rgb / rgba）作为背景色。
+
 至少使用以下一种手段让背景有质感：
-- 渐变（`linear-gradient` / `radial-gradient`）
-- 点阵底纹（`radial-gradient` 重复小圆点）
-- 横线纸纹（绝对定位多条 `1px` 细线）
-- 光晕/模糊圆（`border-radius: 50%` + `radial-gradient`）
-- 细微几何纹（`repeating-linear-gradient`）
+- 纯色暗底 + 半透明光晕圆（`border-radius: 50%` + `rgba()` 纯色）
+- 高透明度几何纹（重复 `1px` 细线、`border` 模拟竖条）
+- 横线纸纹（绝对定位多条 `1px` 细线，`SingleCardCream` 已验证可行）
+- 大水印课号（大字号 + 极低透明度，`SingleCardGolden` 已验证可行）
+- 圆圈边框装饰（`border: 1px solid` 同心圆）
+
+**禁止**使用 CSS 渐变函数（`linear-gradient` / `radial-gradient` / `repeating-linear-gradient` / `conic-gradient`），以及依赖 `background-image: radial-gradient(...)` 的点阵底纹。
 
 ### 4. 装饰元素克制而精准
-好的装饰：大水印课号、圆圈边框、渐变分割线、彩色竖条、条纹顶底边
+好的装饰：大水印课号、圆圈边框、纯色分割线、彩色竖条、条纹顶底边
 坏的装饰：随机撒花、无意义 emoji、过多阴影叠加导致视觉噪音
 
 每个装饰元素必须有存在理由，加 `pointerEvents: 'none'` 和 `userSelect: 'none'`。

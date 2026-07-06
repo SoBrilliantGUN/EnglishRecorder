@@ -74,7 +74,7 @@ export default function SingleCardCream({
         <div style={{
           margin: '0 24px',
           height: 2,
-          background: 'linear-gradient(90deg, #2d4a3e, rgba(45,74,62,0.1))',
+          background: 'rgba(45,74,62,0.4)',
           position: 'relative', zIndex: 1,
         }} />
 
