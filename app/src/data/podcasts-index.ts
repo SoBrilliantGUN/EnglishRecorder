@@ -242,7 +242,7 @@ const index: PodcastMeta[] = [
     "code": "B0027",
     "title": "Asking for Time Off",
     "level": "Elementary",
-    "isProofread": false,
+    "isProofread": true,
     "hasDialogueTranslation": true,
     "hasTranscriptTranslation": true
   },
