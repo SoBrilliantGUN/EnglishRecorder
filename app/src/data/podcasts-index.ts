@@ -639,8 +639,8 @@ const index: PodcastMeta[] = [
     "title": "The Weekend - Happy Hour",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 72,
@@ -648,8 +648,8 @@ const index: PodcastMeta[] = [
     "title": "Lesson 72",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 73,
@@ -657,8 +657,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - Which Finger?",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 74,
@@ -666,8 +666,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - What Am I Thinking!",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 75,
@@ -675,8 +675,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - Going To The Dentist",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 76,
@@ -684,8 +684,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - Learning Simple Math",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 77,
@@ -693,8 +693,8 @@ const index: PodcastMeta[] = [
     "title": "The Weekend - F1 Racing",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 78,
@@ -702,8 +702,8 @@ const index: PodcastMeta[] = [
     "title": "The Weekend - International",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 79,
@@ -711,8 +711,8 @@ const index: PodcastMeta[] = [
     "title": "The Weekend - Funky Galaxy Battles",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 80,
@@ -720,8 +720,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - I’m Sorry I Love You VII",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 81,
@@ -729,8 +729,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - Getting A Hair Cut",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 82,
@@ -738,8 +738,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - New Guy In Town V",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 83,
@@ -747,8 +747,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - Using The ATM",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 84,
@@ -756,8 +756,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - At The Pharmacy",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 85,
@@ -765,8 +765,8 @@ const index: PodcastMeta[] = [
     "title": "The Weekend - Baseball",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 86,
@@ -774,8 +774,8 @@ const index: PodcastMeta[] = [
     "title": "Lesson 86",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 87,
@@ -783,8 +783,8 @@ const index: PodcastMeta[] = [
     "title": "Lesson 87",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 88,
@@ -792,8 +792,8 @@ const index: PodcastMeta[] = [
     "title": "Lesson 88",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 89,
@@ -801,8 +801,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - At The Airport",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 90,
@@ -810,8 +810,8 @@ const index: PodcastMeta[] = [
     "title": "Daily Life - I’m Sorry I Love You VIII",
     "level": "Intermediate",
     "isProofread": false,
-    "hasDialogueTranslation": false,
-    "hasTranscriptTranslation": false
+    "hasDialogueTranslation": true,
+    "hasTranscriptTranslation": true
   },
   {
     "id": 91,
